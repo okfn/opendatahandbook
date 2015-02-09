@@ -46,6 +46,25 @@ a {
   text-decoration: none;
 }
 
+blockquote {
+  margin: 0 0 0.3em 0;
+  padding: 0 0 0 $base-spacing / 2;
+  border-left: 1px solid $light-gray;
+  font-style: italic;
+  
+  cite {
+    display: block;
+    font-size: rem(12);
+    font-style:normal;
+    font-family: $sans-serif;
+    
+    &:before {
+      content: "\2014 \0020";
+    }
+  }
+}
+
+
 //////////////////////////////////////////////////////////////////////////////////
 
 .post {
