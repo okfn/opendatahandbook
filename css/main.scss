@@ -187,6 +187,15 @@ a {
     li {
       .subsections {
         display:none;
+        padding-top:0;
+        font-size:rem(13);
+        
+        a {
+          display:block;
+          margin-bottom:5px;
+          color:rgba( $base-font-color, .7 );
+          padding-left: $base-spacing / 2;
+        }
       }
       
       &.mm-selected {
