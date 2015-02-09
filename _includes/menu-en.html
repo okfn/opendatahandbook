@@ -1,0 +1,19 @@
+    {% assign current = page.url | downcase | split: '/' %}
+    <ul>
+      <li>
+         <a href="{{ "/en/introduction/" | prepend: site.baseurl }}">Open Data Handbook</a>
+         <ul>
+            <li {% if current.last == 'introduction' %} class="Selected"{% endif %}>
+              <a href="{{ "/en/introduction/" | prepend: site.baseurl }}">Introduction</a>
+            </li>
+            <li {% if current.last == 'why-open-data' %} class="Selected"{% endif %}>
+              <a href="{{ "/en/why-open-data/" | prepend: site.baseurl }}">Why Open Data?</a>
+            </li>
+            <li {% if current.last == 'what-is-open-data' %} class="Selected"{% endif %}>
+              <a href="{{ "/en/what-is-open-data/" | prepend: site.baseurl }}">What is Open Data?</a>
+            </li>
+         </ul>
+      </li>
+      <li><a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a></li>
+      <li><a href="#">Apps and Solutions Catalogue</a></li>
+   </ul>

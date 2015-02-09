@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$mm_ws_menuWidth: 0.25;
+
+@import "mmenu/extensions/jquery.mmenu.widescreen";
+
+@import "variables";
+
+.mm-page {
+  background-color:$light-gray;
+}
+
+.mm-menu {
+  z-index:2;
+}
+
+.site-header {
+  .show-menu {
+    display:none;
+  }
+}
+
+.contribute {
+  padding-left:25%;
+  
+  .footer-in-view & {
+    padding-left:0;
+  }
+}
