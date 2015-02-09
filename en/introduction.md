@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Introduction
+section: Open Data Handbook
 ---
 
 ##Do you know exactly how much of your tax money is spent on street lights or on cancer research? What is the shortest, safest and most scenic bicycle route from your home to your work? And what is in the air that you breathe along the way? Where in your region will you find the best job opportunities and the highest number of fruit trees per capita? When can you influence decisions about topics you deeply care about, and whom should you talk to?
