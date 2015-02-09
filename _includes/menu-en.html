@@ -5,6 +5,10 @@
          <ul>
             <li {% if current.last == 'introduction' %} class="Selected"{% endif %}>
               <a href="{{ "/en/introduction/" | prepend: site.baseurl }}">Introduction</a>
+              <span class="subsections">
+                <a href="#target-audience">Target Audience</a>
+                <a href="#credits">Credits</a>
+              </span>
             </li>
             <li {% if current.last == 'why-open-data' %} class="Selected"{% endif %}>
               <a href="{{ "/en/why-open-data/" | prepend: site.baseurl }}">Why Open Data?</a>
