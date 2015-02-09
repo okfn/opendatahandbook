@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What is Open Data?
+section: Open Data Handbook
 ---
 
 ##This handbook is about open data but what exactly is it? In particular what makes open data open, and what sorts of data are we talking about?
