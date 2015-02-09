@@ -13,8 +13,17 @@ $mm_ws_menuWidth: 0.25;
   background-color:$light-gray;
 }
 
-.mm-menu {
-  z-index:2;
+#menu {
+  
+  &.mm-menu {
+    z-index:2;
+    
+    li.mm-selected {
+      .subsections {
+        display:block;
+      }
+    }
+  }
 }
 
 .site-header {
