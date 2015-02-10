@@ -1,6 +1,9 @@
     {% assign current = page.url | downcase | split: '/' %}
     <ul>
       <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      <li>
          <a href="{{ "/en/introduction/" | prepend: site.baseurl }}">Open Data Handbook</a>
          <ul>
             <li {% if current.last == 'introduction' %} class="Selected"{% endif %}>
