@@ -9,7 +9,7 @@ section: Open Data Handbook
 ###What is Open?
 This handbook is about open data - but what exactly is open data? For our purposes, open data is as defined by the [Open Definition](http://opendefinition.org/):
 
-Open data is data that can be freely used, reused and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike.
+> Open data is data that can be freely used, reused and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike.
 
 The [full Open Definition](http://opendefinition.org/okd/) gives precise details as to what this means. To summarize the most important:
 

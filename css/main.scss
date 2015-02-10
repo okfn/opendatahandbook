@@ -8,9 +8,11 @@ $mm_maxWidth: 380px;
 @import 
   "normalize",
   "bourbon/bourbon",
+  "base/base",
   "neat/neat",
   "mmenu/jquery.mmenu.all",
-  "variables"
+  "mmenu/addons/jquery.mmenu.header",
+  "icons"
 ;
 
 $extra-large-screen: em(1280);
@@ -29,7 +31,7 @@ h1, h2, h3, p {
 }
 
 hr {
-  border-bottom: 1px solid $light-gray;
+  border-bottom: 1px solid $medium-gray;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -49,7 +51,7 @@ a {
 blockquote {
   margin: 0 0 0.3em 0;
   padding: 0 0 0 $base-spacing / 2;
-  border-left: 1px solid $light-gray;
+  border-left: 1px solid $medium-gray;
   font-style: italic;
   
   cite {
@@ -67,8 +69,10 @@ blockquote {
 
 //////////////////////////////////////////////////////////////////////////////////
 
+
 .post {
   font-family: $serif;
+  @include outer-container;
   
   .pre-header {
     border-bottom: 1px solid;
@@ -142,7 +146,11 @@ blockquote {
   }
   
   ul {
-    margin:0 0 1.5em 0;
+    @extend %default-ul;
+  }
+  
+  ol {
+    @extend %default-ol;
   }
   
   p,
@@ -203,6 +211,9 @@ blockquote {
 #menu {
   
   &.mm-menu {
+    background-color:$light-gray;
+    border-right: solid 1px $medium-gray;
+    
     li {
       .subsections {
         display:none;
@@ -216,43 +227,85 @@ blockquote {
           padding-left: $base-spacing / 2;
         }
       }
-      
-      &.mm-selected {
-        .subsections {
-          display:block;
-        }
-      }
     }
   }
 }
 
 .site-header {
-  border-bottom: solid 1px $light-gray;
+  border-bottom: solid 1px $medium-gray;
+  background-color:#fff;
+  position:fixed;
+  width:100%;
   
   .show-menu {
-    @include span-columns(1);
+    @include icon-font();
+    position:absolute;
+    border-right:solid 1px $medium-gray;
+    height:60px;
+    width:60px;
     
-    @include media($large-screen) {
-      @include span-columns(2);
+    &:before {
+      content: "\e120";
+      font-size:22px;
+      padding:6px;
+      margin-top:12px;
+      margin-left:12px;
+      display:inline-block;
+      color: $dark-gray;
+    }
+    
+    .mm-opened & {
+      background-color:$base-accent-color;
+      
+      &:before {
+        color:#fff;
+      }
+    }
+    
+    .text {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
     }
   }
   
   .site-title {
-    @include span-columns(11);
+    color:$base-font-color;
+    font-size:rem(20);
+    line-height:59px;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:2px;
+    display:block;
+    margin-left: 75px;
     
-    @include media($large-screen) {
-      @include span-columns(10);
+    .icon {
+      @include icon-font();
+      font-size:rem(32);
+      float:left;
+      height:60px;
+      line-height:55px;
+      margin-right:5px;
+      text-align:center;
+      
+      &:before {
+        content: "\e600";
+      }
     }
   }
 }
 
 .page-content {
-  @include outer-container;
+  padding-top:60px;
 }
 
-
 .post-content {
-  @include span-columns(9);
+  @include span-columns(10);
   @include shift(1);
   margin-bottom:50px;
 
@@ -274,7 +327,7 @@ blockquote {
   right:0;
   width:100%;
   background-color:#fff;
-  border-top:solid 1px $light-gray;
+  border-top:solid 1px $medium-gray;
   
   & > ul {
     @include outer-container;
@@ -299,10 +352,50 @@ blockquote {
 html,
 html.mm-background .mm-page,
 .site-footer {
-  background-color:$light-gray;
+  background-color:$medium-gray;
 }
 
 .mm-page > div {
   background-color:#fff;
   position:relative;
+}
+
+
+.home {
+  
+  section {
+    
+    background-size:cover;
+    background-position: center center;
+    color:#fff;
+    
+    p {
+      color:#fff;
+    }
+    
+    article {
+      padding:$base-spacing * 2 $base-spacing;
+      @include span-columns(10);
+      @include shift(1);
+      
+      h1 {
+        margin-bottom:rem(15);
+        font-size:rem(30);
+      }
+      
+      p {
+        font-weight:200;
+        font-size:rem(18);
+        margin-bottom:rem(15);
+      }
+    
+      & > a {
+        @extend button;
+      }
+    }
+    
+    &.handbook {
+      background-image:url(../img/book.jpg);
+    }
+  }
 }

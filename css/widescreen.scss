@@ -7,19 +7,40 @@ $mm_ws_menuWidth: 0.25;
 
 @import "mmenu/extensions/jquery.mmenu.widescreen";
 
-@import "variables";
+@import "base/variables";
 
 .mm-page {
-  background-color:$light-gray;
+  background-color:$medium-gray;
 }
 
-.mm-menu {
-  z-index:2;
+#menu {
+  margin-top:60px;
+  
+  &.mm-menu {
+    z-index:2;
+    
+    & > ul {
+      padding-top:0;
+    }
+    
+    li.mm-selected {
+      .subsections {
+        display:block;
+      }
+    }
+  }
 }
+
 
 .site-header {
+  margin-left:-25%;
+  
   .show-menu {
     display:none;
+  }
+  
+  .site-title {
+    margin-left: 20px;
   }
 }
 
