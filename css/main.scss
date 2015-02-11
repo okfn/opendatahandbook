@@ -294,7 +294,7 @@ blockquote {
       text-align:center;
       
       &:before {
-        content: "\e600";
+        content: "\e034";
       }
     }
   }
@@ -354,6 +354,87 @@ html.mm-background .mm-page,
 .site-footer {
   background-color:$medium-gray;
 }
+
+
+.site-footer {
+  padding:$base-spacing;
+  
+  a {
+    color:$base-font-color;
+  }
+  
+  .primary {
+    @include media($medium-screen) {
+      @include span-columns(6);
+    }
+  }
+  
+  .secondary {
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include omega();
+    }
+  }
+  
+  hr {
+    border-color:$dark-gray;
+    @include span-columns(12);
+  }
+  
+  .tertiary {
+    font-size:rem(12);
+    
+    @include media($medium-screen) {
+      @include span-columns(11);
+      
+      h6 {
+        display:inline;
+        
+        &:after {
+          content:':';
+        }
+      }
+      
+      ul {
+        display:inline;
+      
+        li {
+          display:inline;
+          
+          &:before {
+            content:'\00a0\007C\00a0';
+            color:rgba( $base-font-color, .5 );
+          }
+          
+          &:first-of-type:before {
+            content:'\00a0';
+          }
+        }
+      }
+    }
+  }
+  
+  .source {
+    a {
+      @include icon-font();
+      
+      &:before {
+        content: "\eab4";
+      }
+      
+      .text {
+        @extend .sr-only;
+      }
+    }
+    
+    @include media($medium-screen) {
+      @include span-columns(1);
+      @include omega();
+      text-align:right;
+    }
+  }
+}
+
 
 .mm-page > div {
   background-color:#fff;
