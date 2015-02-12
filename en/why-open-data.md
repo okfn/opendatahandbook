@@ -2,6 +2,7 @@
 layout: page
 title: Why Open Data?
 section: Open Data Handbook
+next: /en/what-is-open-data/
 ---
 
 ##[Open data](http://opendatahandbook.org/en/glossary.html#term-open-data), especially [open government data](http://opendatahandbook.org/en/glossary.html#term-open-government-data), is a tremendous resource that is as yet largely untapped. Many individuals and organisations collect a broad range of different types of data in order to perform their tasks. Government is particularly significant in this respect, both because of the quantity and centrality of the data it collects, but also because most of that government data is public data by law, and therefore could be made open and made available for others to use. Why is that of interest?

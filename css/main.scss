@@ -207,6 +207,65 @@ blockquote {
 
 //////////////////////////////////////////////////////////////////////////////////
 
+.tooltip-item {  
+
+  $tooltip-background: white;
+  $tooltip-color: $base-font-color;
+  $tooltip-max-width: 16em;
+  $tooltip-arrow-width: 8px;
+  $tooltip-shadow: 0 1px 2px silver;
+  $tooltip-distance-from-item: 3em;
+  $tooltip-arrow-distance-from-box: -1.2em;
+
+  position: relative;
+  cursor:pointer;
+
+  &:focus,
+  &:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .tooltip {
+    @include position(absolute, null 0 $tooltip-distance-from-item 0);
+    @include transition (all 0.2s ease-in-out);
+    background-color: $tooltip-background;
+    background: #fff;
+    border-radius: $base-border-radius;
+    box-shadow: $tooltip-shadow;
+    color: $tooltip-color;
+    font-size: 0.9em; // Make sure you use -webkit-backface-visibility: hidden; on the body element to prevent 1px nudging bugs.
+    line-height: 1.5em;
+    margin: 0 auto;
+    max-width: $tooltip-max-width;
+    opacity: 0;
+    padding: 1em;
+    visibility: hidden;
+    z-index: 10;
+    cursor:auto;
+
+    p {
+      margin-bottom: 0.5em;      
+    }
+    
+    *:last-child {
+      margin-bottom: 0;
+    }
+
+    &:after {
+      @include position(absolute, null 0 null 0);
+      border: $tooltip-arrow-width solid transparent;
+      bottom: $tooltip-arrow-distance-from-box;
+      color: $tooltip-background;
+      content: '▼';
+      font-size: 1.4em;
+      text-shadow: 0 2px 2px silver;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
 
 #menu {
   
@@ -326,20 +385,91 @@ blockquote {
   bottom:0;
   right:0;
   width:100%;
-  background-color:#fff;
+  background-color: rgba( #fff, .95 );
   border-top:solid 1px $medium-gray;
+  text-align:right;
+  height:60px;
+  line-height:59px;
   
   & > ul {
-    @include outer-container;
-    padding-left:$base-spacing;
-    padding-right:$base-spacing;
+    float:left;
+    display:block;
+    text-align:left;
     
     & > li {
-      @include span-columns(6);
+      float:left;
+      display:block;
+      padding-left:$base-spacing;
+      padding-right:$base-spacing;
+      border-right:solid 1px $medium-gray;
+      color:rgba( $base-font-color, .7 );
       
-      &:nth-child(even) {
-        text-align:right;
+      .tooltip {
+        width:230px;
+        bottom: 60px;
       }
+      
+      &:hover {
+        background-color:#fff;
+        color:$base-font-color;
+      }
+      
+      &.issues {
+        
+        &:before {
+          @include icon-font();
+          content: "\e034";
+          font-size:rem(18);
+          float:left;
+          margin-top:21px;
+          margin-right:5px;
+        }
+      }
+      
+      &.donate {
+        
+        select {
+          width:100%;
+          margin-bottom:0.5em;
+        }
+        input {
+          width:100%;
+        }
+        img {
+          position:absolute;
+        }
+        
+        &:before {
+          @include icon-font();
+          content: "\e024";
+          font-size:rem(18);
+          float:left;
+          margin-top:21px;
+          margin-right:5px;
+        }
+      }
+    }
+  }
+  
+  & > a {
+    float:right;
+    @include clearfix;
+    display:block;
+    padding-left:$base-spacing;
+    border-left:solid 1px $medium-gray;
+    color:rgba( $base-font-color, .7 );
+    
+    &:after {
+      content: "\e055";
+      @include icon-font();
+      float:right;
+      margin:21px $base-spacing 0 5px;
+      font-size:rem(18);
+    }
+    
+    &:hover {
+      background-color:#fff;
+      color:$base-font-color;
     }
   }
   
@@ -358,6 +488,10 @@ html.mm-background .mm-page,
 
 .site-footer {
   padding:$base-spacing;
+  
+  & > div {
+    @include outer-container(100%);
+  }
   
   a {
     color:$base-font-color;
