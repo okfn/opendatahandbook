@@ -19,6 +19,9 @@
             <li {% if current.last == 'what-is-open-data' %} class="Selected"{% endif %}>
               <a href="{{ "/en/what-is-open-data/" | prepend: site.baseurl }}">What is Open Data?</a>
             </li>
+            <li {% if current.last == 'kitchen-sink' %} class="Selected"{% endif %}>
+              <a href="{{ "/en/kitchen-sink/" | prepend: site.baseurl }}">Kitchen Sink</a>
+            </li>
          </ul>
       </li>
       <li><a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a></li>
