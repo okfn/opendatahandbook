@@ -14,14 +14,10 @@ $mm_ws_menuWidth: 0.25;
 }
 
 #menu {
-  margin-top:60px;
   
   &.mm-menu {
     z-index:2;
-    
-    & > ul {
-      padding-top:0;
-    }
+    background-color:#fff;
     
     li.mm-selected {
       .subsections {
@@ -33,7 +29,6 @@ $mm_ws_menuWidth: 0.25;
 
 
 .site-header {
-  margin-left:-25%;
   
   .show-menu {
     display:none;

@@ -1,31 +1,33 @@
 <footer class="site-footer">
+
   <div>
     <div class="primary">
-      An Open Knowledge project
+      <img src="{{ "/img/open-knowledge.png" | prepend: site.baseurl }}" width="145" height="32" alt="Open Knowledge">
     </div>
     
     <div class="secondary">
       <h6>Supported by</h6>
     </div>
     
-    <hr>
-    
     <div class="tertiary">
-      <h6>Related Projects</h6>
-      <ul>
-        <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
-        <li><a href="http://datahub.io/">The DataHub</a></li>
-        <li><a href="http://datacatalogs.org/">DataCatalogs.org</a></li>
-        <li><a href="http://openspending.org/">OpenSpending.org</a></li>
-        <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
-        <li><a href="http://opendefinition.org/" title="defining open data">OpenDefinition.org</a></li>
-        <li><a href="http://okfn.org/opendata/" title="introduction to open data">Introducing Open Data</a></li>
-      </ul>
+      <div>
+        <h6>Related Projects</h6>
+        <ul>
+          <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
+          <li><a href="http://datahub.io/">The DataHub</a></li>
+          <li><a href="http://datacatalogs.org/">DataCatalogs.org</a></li>
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          <li><a href="http://opendefinition.org/" title="defining open data">OpenDefinition.org</a></li>
+          <li><a href="http://okfn.org/opendata/" title="introduction to open data">Introducing Open Data</a></li>
+        </ul>
+      </div>
+      {% if site.github_repo %}
+      <div class="source">
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}"><span class="text">Source</span></a>
+      </div>
+      {% endif %}
     </div>
-    {% if site.github_repo %}
-    <div class="source">
-      <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}"><span class="text">Source</span></a>
-    </div>
-    {% endif %}
+    
   </div>
 </footer>
