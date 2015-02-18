@@ -8,10 +8,26 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "http://okfnlabs.org/opendatahandbook-v2" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  okfn
-github_repo:  opendatahandbook
+github_repo:  opendatahandbook-v2
 
 # Build settings
 markdown: kramdown
 
 
 permalink: pretty
+
+defaults: 
+  - 
+    scope: 
+      path: "en" 
+    values: 
+      section: Open Data Handbook
+      layout: page
+      lang: en
+      extension: md
+  - 
+    scope: 
+      path: "contribute" 
+    values: 
+      section: Contribute
+      layout: docs

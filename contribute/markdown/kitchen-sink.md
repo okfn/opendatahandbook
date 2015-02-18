@@ -1,8 +1,5 @@
 ---
-layout: page
 title: Kitchen Sink
-section: Test
-next: /en/kitchen-sink/
 ---
 
 This is a paragraph.

@@ -19,8 +19,14 @@
             <li {% if current.last == 'what-is-open-data' %} class="Selected"{% endif %}>
               <a href="{{ "/en/what-is-open-data/" | prepend: site.baseurl }}">What is Open Data?</a>
             </li>
-            <li {% if current.last == 'kitchen-sink' %} class="Selected"{% endif %}>
-              <a href="{{ "/en/kitchen-sink/" | prepend: site.baseurl }}">Kitchen Sink</a>
+            <li class="Spacer{% if current.last == 'contribute' %} Selected{% endif %}">
+              <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
+              
+              <ul>
+                <li {% if current.last == 'kitchen-sink' %} class="Selected"{% endif %}>
+                  <a href="{{ "/contribute/markdown/kitchen-sink/" | prepend: site.baseurl }}">Kitchen Sink</a>
+                </li>
+              </ul>
             </li>
          </ul>
       </li>
