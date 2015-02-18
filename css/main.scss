@@ -405,6 +405,13 @@ blockquote {
       border-right:solid 1px $medium-gray;
       color:rgba( $base-font-color, .7 );
       
+      & > a {
+        color:rgba( $base-font-color, .7 );
+        &:hover {
+          color:$base-font-color;
+        }
+      }
+      
       .tooltip {
         width:230px;
         bottom: 60px;
@@ -415,7 +422,7 @@ blockquote {
         color:$base-font-color;
       }
       
-      &.contribute {
+      &.edit {
         
         &:before {
           @include icon-font();
@@ -424,6 +431,17 @@ blockquote {
           float:left;
           margin-top:21px;
           margin-right:5px;
+        }
+        
+        a.github {
+          @extend button;
+          display:block;
+          text-align:center;
+          
+          & + a {
+            display:block;
+            margin-top: 10px;
+          }
         }
       }
       

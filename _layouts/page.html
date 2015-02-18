@@ -12,13 +12,16 @@ layout: default
 
 <div class="page-tools">
   <ul>
-    <li class="contribute tooltip-item">
-      Contribute
+  {% if site.github_repo %}
+    <li class="edit tooltip-item">
+      <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/edit/gh-pages{{ page.url | append: '@' | remove: '/@' }}.{{ page.extension }}" rel="external">Edit this page</a>
       
       <span class="tooltip">
-        <p>Corrections and suggestions for improvements can be submitted on our <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/issues" rel="external">issue tracker</a>.</p>
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/edit/gh-pages{{ page.url | append: '@' | remove: '/@' }}.{{ page.extension }}" class="github" rel="external">Edit on Github</a>
+        <a href="{{ "/contribute/" | prepend: site.baseurl }}">Learn more about contributing</a>
       </span>
     </li>
+    {% endif %}
     <li class="donate tooltip-item">
       Donate
       
