@@ -70,7 +70,8 @@ blockquote {
 //////////////////////////////////////////////////////////////////////////////////
 
 
-.post {
+.post,
+.docs {
   font-family: $serif;
   @include outer-container;
   
@@ -380,7 +381,7 @@ blockquote {
 }
 
 
-.contribute {
+.page-tools {
   position:fixed;
   bottom:0;
   right:0;
@@ -414,7 +415,7 @@ blockquote {
         color:$base-font-color;
       }
       
-      &.issues {
+      &.contribute {
         
         &:before {
           @include icon-font();

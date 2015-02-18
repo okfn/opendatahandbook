@@ -15,3 +15,17 @@ markdown: kramdown
 
 
 permalink: pretty
+
+defaults: 
+  - 
+    scope: 
+      path: "en" 
+    values: 
+      section: Open Data Handbook
+      layout: page
+  - 
+    scope: 
+      path: "contribute" 
+    values: 
+      section: Contribute
+      layout: docs
