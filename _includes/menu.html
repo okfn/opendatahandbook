@@ -1,0 +1,9 @@
+    {% assign current = page.url | downcase | split: '/' %}
+    <ul>
+      <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      {% include handbook-contents-en.html %}
+      <li><a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a></li>
+      <li><a href="#">Apps and Solutions Catalogue</a></li>
+   </ul>
