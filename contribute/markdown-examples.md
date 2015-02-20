@@ -1,5 +1,5 @@
 ---
-title: Kitchen Sink
+title: Markdown Examples
 ---
 
 This is a paragraph.

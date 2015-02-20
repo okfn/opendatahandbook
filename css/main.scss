@@ -112,22 +112,72 @@ blockquote {
     }
   }
   
-  code {
-    background: #F7F7F7;
+  code,
+  p code {
+    background: $light-gray;
     border-radius: $base-border-radius * 1.5;
-    border: 1px solid #E0E0E0;
-    font-family: monaco;
+    border: 1px solid $medium-gray;
+    font-family: $monospaced;
     font-size: 0.75em;
     font-style: normal;
     padding: 0.1em 0.4em;
     white-space: nowrap;
+    
+    strong {
+      font-family: $monospaced;
+    }
+    
+    &[class^="icon-"],
+    &[class*=" icon-"] {
+      font-family:$sans-serif;
+      
+      &:before {
+        @include icon-font();
+      }
+      
+      span {
+        @extend .sr-only;
+      }
+    }
+  }
+  
+  pre {
+    background: $light-gray;
+    border-radius: $base-border-radius * 1.5;
+    border: 1px solid $medium-gray;
+    padding:$base-spacing;
+    margin-left:- $base-spacing;
+    margin-right:- $base-spacing;
+    
+    code {
+      white-space: pre-wrap;
+      background-color: transparent;
+      border:none;
+      padding:0;
+    }
   }
   
   h3 {
     font-family: $serif;
     font-size: 1.4em;
-    font-weight: 400;
     line-height: 1.3em;
+    margin-bottom: .4em;
+    font-weight:700;
+  }
+  
+  h4 {
+    font-size: 1.4em;
+    font-family: $serif;
+    font-weight: 400;
+    margin-bottom: .4em;
+  }
+  
+  h5 {
+    font-size: rem(17);
+    margin-bottom: .4em;
+  }
+  
+  h6 {
     margin-bottom: .4em;
   }
   
@@ -200,6 +250,33 @@ blockquote {
   overflow: hidden;
   clip: rect(0,0,0,0);
   border: 0;
+}
+
+.note {
+  background-color:rgba($base-accent-color, 0.1);
+  padding:$base-spacing;
+  margin-left:- $base-spacing;
+  margin-right:- $base-spacing;
+  margin-bottom: $base-spacing;
+  font-family:$sans-serif;
+  
+  h6 {
+    background-color:rgba($base-accent-color, 0.6);
+    margin-top: - $base-spacing;
+    margin-right: - $base-spacing;
+    margin-bottom: $base-spacing / 2;
+    margin-left: - $base-spacing;
+    padding: $base-spacing / 3 $base-spacing $base-spacing / 3 $base-spacing;
+    color:#fff;
+  }
+  
+  p  {
+    font-family:$sans-serif;
+  }
+  
+  :last-child {
+    margin-bottom:0;
+  }
 }
 
 .wrapper {
@@ -275,6 +352,11 @@ blockquote {
     border-right: solid 1px $medium-gray;
     
     li {
+      
+      a {
+        text-transform:capitalize;
+      }
+      
       .subsections {
         display:none;
         padding-top:0;
@@ -296,6 +378,7 @@ blockquote {
   background-color:#fff;
   position:fixed;
   width:100%;
+  z-index:1;
   
   .show-menu {
     @include icon-font();
@@ -690,6 +773,87 @@ html.mm-background .mm-page,
         @include media($medium-screen) {
           & > div {
             margin-left:0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.docs {
+  .contributing {
+    
+    ul.tools {
+      @include outer-container;
+      padding-left:0;
+      margin-top:$base-spacing * 2;
+      margin-bottom:$base-spacing * 2;
+      
+      li {
+        @include span-columns(4);
+        text-align:center;
+        position:relative;
+        
+        a {
+          font-family:$sans-serif;
+          color:$base-font-color;
+          
+          @include media($medium-screen) {
+            font-size:rem(22);
+            margin-left:30px;
+            position:relative;
+          }
+          
+          @include media($large-screen) {
+            font-size:rem(26);
+            margin-left:40px;
+          }
+          
+          &:before {
+            @include icon-font();
+            margin-right:5px;
+            
+            @include media($medium-screen) {
+              font-size:rem(28);
+              position:absolute;
+              left:-35px;
+              top:-1px;
+            }
+            
+            @include media($large-screen) {
+              font-size:rem(34);
+              left:-40px;
+              top:-2px;
+            }
+          }
+        }
+        &.github {
+          a:before {
+            content: "\f00a";
+          }
+        }
+        &.jekyll {
+          a:before {
+            content: "\e600";
+          }
+        }
+        &.markdown {
+          a:before {
+            content: "\f0c9";
+          }
+        }
+        
+        @include media($medium-screen) {
+          &:after {
+            content:'+';
+            position:absolute;
+            right:- $base-spacing / 2;
+            font-weight:bold;
+            color:rgba($base-font-color, .5);
+          }
+          
+          &:last-child:after {
+            display:none;
           }
         }
       }

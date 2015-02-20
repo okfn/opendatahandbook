@@ -1,0 +1,86 @@
+---
+title: Adding a page
+---
+
+<h2>Most of what you need to know to add a new page is covered under ‘<a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>’, so make sure you have first read through that section.</h2>
+
+<p>Adding a page follows a similar process to editing. Instead of locating your page, your first step is to locate your new page’s parent directory.</p>
+
+<h3>1: Create the page</h3>
+
+<p>First locate the parent directory, or folder, in which your file will live. If you are adding a page to the English language Handbook, for example, you should be in the '<strong>en</strong>' directory, where you’ll see a list of all the Handbook pages.</p>
+
+<p>Above the list of pages is a breadcrumb trail <code>{{ site.github_repo }} / en /</code>, to the right of which is a plus symbol <code><strong>+</strong></code>. Click the plus symbol to create your new page.</p>
+
+<h3>2: Name your file</h3>
+
+<p>You should now have a new, file editor page open. The first editable section you are presented with is the ‘<em>Name your file</em>’ field. As we touched upon when looking at <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">editing files</a>, the file name corresponds to the URL of the page on the site. There are a few of rules to follow here:</p>
+
+<ul>
+  <li>The file name should reflect the title of the new page</li>
+  <li>Must be unique</li>
+  <li>Should be all lowercase</li>
+  <li>Words should be separated by hyphens (-)</li>
+  <li>File name should end with the extension '<em>.md</em>' (the .md extension indicates a markdown file)</li>
+</ul>
+
+<p>As an example, if you were creating a page titled '<em>My Cool Page</em>', you would use a file name of:</p>
+
+<pre>
+<code>my-cool-page.md</code>
+</pre>
+
+<p>Assuming you are creating this in the '<em>en</em>' directory, this would result in a URL of <em>{{ site.url }}/en/my-cool-page</em></p>
+
+<div class="note">
+  <h6>Note</h6>
+  <p>The actual words used in your file name are not crucial. It’s fine to use a more succinct version of your page title, for example.</p>
+</div>
+
+<h3>3: Formatting your content</h3>
+
+<p>This step is the same as when editing a page. You need to start your file with the Front Matter, then add your content, formatting it using Markdown. Here is a template to get you started:</p>
+
+<pre>
+<code>---
+title: My Cool Page
+---
+
+##A large introductory paragraph.
+
+Regular paragraphs, separated by empty lines.
+
+###A heading
+
+Another paragraph.
+
+ * Maybe
+ * a
+ * list</code>
+</pre>
+
+<p>When you’re done, click ‘<em>Propose new file</em>’.</p>
+
+
+<h3>4: Add page to menu (?)</h3>
+
+[TODO]
+
+<p>Before you make your pull request, you need to add your new page to the site’s menu. On the pull request screen you’ll see a message telling you the name of the branch to which your new page was added. This will be something like <em><strong>patch-1</strong></em>, take note of this branch name.</p>
+
+<p>Do not create a pull request, but navigate to https://github.com/<em><strong>yourusername</strong></em>/{{ site.github_repo }}/edit/<em><strong>branch</strong></em>/_includes/handbook-contents-en.html</p>
+
+<div class="note">
+  <h6>Note</h6>
+  <p>‘<em><strong>branch</strong></em>’ represents the name you took note of previously, e.g. <em><strong>patch-1</strong></em>. If you are browsing to this manually, be sure to switch to this branch.</p>
+</div>
+
+Edit menu [handbook-contents-en.html is currently too complicated - need to address this first]
+
+<div class="note">
+  <h6>Note</h6>
+  <p>If your new content requires multiple pages, the above steps can be repeated in your new branch.</p>
+</div>
+
+<h3>5: Make a pull request</h3>
+...
