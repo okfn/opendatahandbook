@@ -1,0 +1,18 @@
+      <li class="Spacer{% if current.last == 'contribute' %} Selected{% endif %}">
+        <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
+        
+        <ul>
+          <li {% if current.last == 'contribute' %} class="Selected"{% endif %}>
+            <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contributing to the handbook</a>
+          </li>
+          <li {% if current.last == 'editing' %} class="Selected"{% endif %}>
+            <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>
+          </li>
+          <li {% if current.last == 'adding' %} class="Selected"{% endif %}>
+            <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
+          </li>
+          <li {% if current.last == 'markdown-examples' %} class="Selected"{% endif %}>
+            <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">Markdown Examples</a>
+          </li>
+        </ul>
+      </li>
