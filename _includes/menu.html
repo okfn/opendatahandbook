@@ -3,7 +3,48 @@
       <li>
         <a href="{{ site.baseurl }}/">Home</a>
       </li>
-      {% include handbook-contents-en.html %}
+ 
+      <!-- Handbook menu -->
+      {% for handbook_en in site.data.handbook-contents-en %}
+      <!-- check to see if the data file has a submenu, and if so display it -->
+      {% if handbook_en.subcategories != null %}
+      <li {% if current.last == handbook_en.href %}class="Selected"{% endif %}>
+        <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ handbook_en.href }}/">{{ handbook_en.title }}</a>
+        <ul>
+          {% for subcategory in handbook_en.subcategories %}
+          <li {% if current.last == subcategory.subhref %}class="Selected"{% endif %}>
+            <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ subcategory.subhref }}/">{{ subcategory.subtitle }}</a>
+            {% if subcategory.subsections %}
+            <span class="subsections">
+              {% for subsection in subcategory %}
+              <!-- WHY DO THE BELOW TWO VARIABLES NOT WORK? -->
+              <a href="#{{ subsection.subid }}">{{ subsection.subheading }}</a>
+              {% endfor %}
+            </span>
+            {% endif %}
+          </li>
+          {% endfor %}
+          
+          {% include contribute-menu.html %}
+        </ul>
+      </li>
+      {% else %}
+      <!-- display the top level navigation for items that don’t have a submenu -->
+      <li {% if current.last == handbook_en.href %}class="Selected"{% endif %}>
+        <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ handbook_en.href }}/">{{ handbook_en.title }}</a>
+        {% if subcategory.subsections %}
+        <span class="subsections">
+          {% for subsection in subcategory %}
+          <a href="#{{ subsection.subid }}">{{ subsection.subheading }}</a>
+          {% endfor %}
+        </span>
+        {% endif %}
+      </li>
+      {% include contribute-menu.html %}  
+      {% endif %}
+      {% endfor %}
+      
       <li><a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a></li>
       <li><a href="#">Apps and Solutions Catalogue</a></li>
-   </ul>
+    </ul>
+    

@@ -359,7 +359,7 @@ blockquote {
       
       .subsections {
         display:none;
-        padding-top:0;
+        padding:0;
         font-size:rem(13);
         
         a {
@@ -367,6 +367,10 @@ blockquote {
           margin-bottom:5px;
           color:rgba( $base-font-color, .7 );
           padding-left: $base-spacing / 2;
+          
+          &:empty {
+            display:none;
+          }
         }
       }
     }

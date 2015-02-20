@@ -1,0 +1,15 @@
+- title: "Open Data Handbook"
+  href: "introduction"
+  lang: "en"
+  subcategories:
+    - subtitle: "Introduction"
+      subhref: "introduction"
+      subsections:
+        - subheading: "Target Audience"
+          subid: "target-audience"
+        - subheading: "Credits"
+          subid: "credits"
+    - subtitle: "Why Open Data?"
+      subhref: "why-open-data"
+    - subtitle: "What is Open Data?"
+      subhref: "what-is-open-data"
