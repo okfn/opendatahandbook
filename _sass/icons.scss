@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?nc9kvy');
-	src:url('fonts/icomoon.eot?#iefixnc9kvy') format('embedded-opentype'),
-		url('fonts/icomoon.woff?nc9kvy') format('woff'),
-		url('fonts/icomoon.ttf?nc9kvy') format('truetype'),
-		url('fonts/icomoon.svg?nc9kvy#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?ut7wbj');
+	src:url('fonts/icomoon.eot?#iefixut7wbj') format('embedded-opentype'),
+		url('fonts/icomoon.woff?ut7wbj') format('woff'),
+		url('fonts/icomoon.ttf?ut7wbj') format('truetype'),
+		url('fonts/icomoon.svg?ut7wbj#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -25,6 +25,14 @@
 
 [class^="icon-"], [class*=" icon-"] {
   @include icon-font();
+}
+
+.icon-git-compare:before {
+	content: "\f0ac";
+}
+
+.icon-git-pull-request:before {
+	content: "\f009";
 }
 
 .icon-eye:before {

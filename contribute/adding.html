@@ -62,9 +62,7 @@ Another paragraph.
 <p>When you’re done, click ‘<em>Propose new file</em>’.</p>
 
 
-<h3>4: Add page to menu (?)</h3>
-
-[TODO]
+<h3>4: Add page to menu</h3>
 
 <p>Before you make your pull request, you need to add your new page to the site’s menu. On the pull request screen you’ll see a message telling you the name of the branch to which your new page was added. This will be something like <em><strong>patch-1</strong></em>, take note of this branch name.</p>
 
@@ -75,12 +73,99 @@ Another paragraph.
   <p>‘<em><strong>branch</strong></em>’ represents the name you took note of previously, e.g. <em><strong>patch-1</strong></em>. If you are browsing to this manually, be sure to switch to this branch.</p>
 </div>
 
-Edit menu...
+<p>In this contents document, you’ll see a list of all the pages in the Handbook, accompanied by their respective file names, minus the extension (.md). It should look something like this:</p>
+
+<pre>
+<code>- title: "Open Data Handbook"
+  href: "introduction"
+  lang: "en"
+  subcategories:
+    - subtitle: "Introduction"
+      subhref: "introduction"
+    - subtitle: "Why Open Data?"
+      subhref: "why-open-data"
+    - subtitle: "What is Open Data?"
+      subhref: "what-is-open-data"</code>
+</pre>
+
+<p>The order in which the pages appear in this list, is the order they will appear in the website’s menu. So, if you think your new page should sit between ‘Why Open Data’ and ‘What is Open Data’, then you should edit the file like so:</p>
+
+<pre>
+<code>- title: "Open Data Handbook"
+  href: "introduction"
+  lang: "en"
+  subcategories:
+    - subtitle: "Introduction"
+      subhref: "introduction"
+    - subtitle: "Why Open Data?"
+      subhref: "why-open-data"
+    - subtitle: "My Cool Page"
+      subhref: "my-cool-page"
+    - subtitle: "What is Open Data?"
+      subhref: "what-is-open-data"</code>
+</pre>
+
+<p>Pay attention to the indentations, it is important to keep the syntax and the formatting of this document consistent. When you are happy, go ahead and click ‘<em>Commit changes</em>’.</p>
 
 <div class="note">
   <h6>Note</h6>
-  <p>If your new content requires multiple pages, the above steps can be repeated in your new branch.</p>
+  <p>If your new content requires multiple pages, the above steps can be repeated in this branch.</p>
 </div>
 
 <h3>5: Make a pull request</h3>
-...
+
+<p>Once you have created your page(s) and updated the contents document, you're ready to make your pull request. Click the pull request icon to the right of the screen <code class="icon-git-pull-request"><span>[git pull-request icon]</span></code>, then click ‘<em>New pull request</em>’.</p>
+
+<p>At the top of the resulting comparison screen, you’ll see a row of select boxes. You want to make sure these are configured like so:</p>
+
+</article>
+
+<div class="github panel">
+  <div class="range-editor">
+    <span class="icon-git-compare range-editor-icon"></span>
+    <div class="range">
+
+      <div class="range-cross-repo-pair">
+        <div class="select-menu js-menu-container js-select-menu fork-suggester">
+          <span class="minibutton select-menu-button js-menu-target" role="button" aria-label="Choose a Base Repository" aria-haspopup="true">
+            <i>base fork:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="base: ckan/ckan">{{ site.github_username }}/{{ site.github_repo }}</span>
+          </span>
+        </div>
+        
+        <div class="select-menu js-menu-container js-select-menu commitish-suggester">
+          <span class="minibutton select-menu-button js-menu-target branch" role="button" aria-label="Choose a base branch" aria-haspopup="true">
+            <i>base:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="base: master">gh-pages</span>
+          </span>
+        </div>
+      </div>
+
+      <span class="dots">...</span>
+
+      <div class="range-cross-repo-pair">
+        <div class="select-menu js-menu-container js-select-menu fork-suggester">
+          <span class="minibutton select-menu-button js-menu-target" role="button" aria-label="Choose a Head Repository" aria-haspopup="true">
+            <i>head fork:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="head: mintcanary/ckan"><em>username</em>/{{ site.github_repo }}</span>
+          </span>
+        </div>
+        
+        <div class="select-menu js-menu-container js-select-menu commitish-suggester">
+          <span class="minibutton select-menu-button js-menu-target branch" role="button" aria-label="Choose a head branch" aria-haspopup="true">
+            <i>compare:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="compare: master"><em>branch</em></span>
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<article class="post-content">
+<p><em><strong>username</strong> being your github username, <strong>branch</strong> being the branch you have been working on.</em></p>
+
+<p>You should now be able to see listed below, all the changes that you wish to contribute. If everything looks as it should, click ‘<em>Create pull request</em>’.</p>
+
+<p>Give your pull request a title and description, then click ‘<em>Create pul request</em>’. You have now contributed your pages to the Handbook :)</p>
