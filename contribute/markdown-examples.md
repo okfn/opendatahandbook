@@ -2,6 +2,12 @@
 title: Markdown Examples
 ---
 
+* TOC
+{:toc}
+
+    * TOC
+    {:toc}
+
 This is a paragraph.
 
     This is a paragraph.
@@ -76,34 +82,17 @@ Header 2
 
 
 
-- Red
-- Green
-- Blue
-
-
-+ Red
-+ Green
-+ Blue
 
 
 * Red
 * Green
 * Blue
 
-
-```markdown
-- Red
-- Green
-- Blue
-
-+ Red
-+ Green
-+ Blue
-
+~~~
 * Red
 * Green
 * Blue
-```
+~~~
 
 
 
@@ -111,11 +100,11 @@ Header 2
 1. Mix together with water
 1. Bake
 
-```markdown
+~~~
 1. Buy flour and salt
 1. Mix together with water
 1. Bake
-```
+~~~
 
 
 
@@ -211,3 +200,13 @@ This paragraph has some `code` in it.
     | col 3 is      | right-aligned | $1600 |
     | col 2 is      | centered      |   $12 |
     | zebra stripes | are neat      |    $1 |
+    
+I bet you'd like more information about this sentence [^1].
+
+[^1]: Well lucky for you, I've included more information in a footnote.
+
+~~~
+    I bet you'd like more information about this sentence [^1].
+    [^1]: Well lucky for you, I've included more information in a footnote.
+~~~
+
