@@ -932,11 +932,7 @@ html.mm-background .mm-page,
     }
 
     .select-menu-button:after {
-      -moz-border-bottom-colors: none;
-      -moz-border-left-colors: none;
-      -moz-border-right-colors: none;
-      -moz-border-top-colors: none;
-      border-color: -moz-use-text-color transparent transparent;
+      border-color: $base-font-color transparent transparent;
       border-image: none;
       border-style: solid;
       border-width: 4px;
