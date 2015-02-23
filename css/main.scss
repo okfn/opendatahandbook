@@ -66,6 +66,18 @@ blockquote {
   }
 }
 
+pre,
+.panel {
+  background: $light-gray;
+  padding:$base-spacing;
+  clear:both;
+  
+  @include media($medium-screen) {
+    border-radius: $base-border-radius * 1.5;
+    border: 1px solid $medium-gray;
+  }
+}
+
 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -74,170 +86,201 @@ blockquote {
 .docs {
   font-family: $serif;
   @include outer-container;
+  text-align:center;
   
-  .pre-header {
-    border-bottom: 1px solid;
-    display: inline-block;
-    font-family: $sans-serif;
-    font-size: 0.7em;
-    font-weight: 700;
-    margin-top:rem(40);
-    margin-bottom: 2em;
-    padding: 0.3em 0;
-    text-align: left;
-    text-transform: uppercase;
-  }
+  .post-content {
+    text-align:left;
   
-  h1 {
-    font-family: $serif;
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 0.5em;
-  
-    @include media($medium-screen) {
-      font-size: 2.6em;
+    .pre-header {
+      border-bottom: 1px solid;
+      display: inline-block;
+      font-family: $sans-serif;
+      font-size: 0.7em;
+      font-weight: 700;
+      margin-top:rem(40);
+      margin-bottom: 2em;
+      padding: 0.3em 0;
+      text-align: left;
+      text-transform: uppercase;
     }
-  }
-  
-  h2 {
-    font-family: $serif;
-    font-size: 1em;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.6em;
-    margin-bottom: 0.9em;
-  
-    @include media($medium-screen) {
-      font-size: 1.2em;
-    }
-  }
-  
-  code,
-  p code {
-    background: $light-gray;
-    border-radius: $base-border-radius * 1.5;
-    border: 1px solid $medium-gray;
-    font-family: $monospaced;
-    font-size: 0.75em;
-    font-style: normal;
-    padding: 0.1em 0.4em;
-    white-space: nowrap;
     
-    strong {
+    h1 {
+      font-family: $serif;
+      font-size: 2em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+    
+      @include media($medium-screen) {
+        font-size: 2.6em;
+      }
+    }
+    
+    h2 {
+      font-family: $serif;
+      font-size: 1em;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.6em;
+      margin-bottom: 0.9em;
+    
+      @include media($medium-screen) {
+        font-size: 1.2em;
+      }
+    }
+    
+    code,
+    p code {
+      background: $light-gray;
+      border-radius: $base-border-radius * 1.5;
+      border: 1px solid $medium-gray;
       font-family: $monospaced;
+      font-size: 0.75em;
+      font-style: normal;
+      padding: 0.1em 0.4em;
+      white-space: nowrap;
+      
+      strong {
+        font-family: $monospaced;
+      }
+      
+      &[class^="icon-"],
+      &[class*=" icon-"] {
+        font-family:$sans-serif;
+        
+        &:before {
+          @include icon-font();
+        }
+        
+        span {
+          @extend .sr-only;
+        }
+      }
     }
     
-    &[class^="icon-"],
-    &[class*=" icon-"] {
+    pre,
+    .panel {
+      border-radius: $base-border-radius * 1.5;
+      border: 1px solid $medium-gray;
+      margin-left:- $base-spacing;
+      margin-right:- $base-spacing;
+      
+      code {
+        white-space: pre-wrap;
+        background-color: transparent;
+        border:none;
+        padding:0;
+      }
+    }
+    
+    h3 {
+      font-family: $serif;
+      font-size: 1.4em;
+      line-height: 1.3em;
+      margin-bottom: .4em;
+      font-weight:700;
+    }
+    
+    h4 {
+      font-size: 1.4em;
+      font-family: $serif;
+      font-weight: 400;
+      margin-bottom: .4em;
+    }
+    
+    h5 {
+      font-size: rem(17);
+      margin-bottom: .4em;
+    }
+    
+    h6 {
+      margin-bottom: .4em;
+    }
+    
+    p.date {
+      color: transparentize($base-font-color, .6);
+      font-family: $serif;
+      font-size: rem(13);
+      font-style: italic;
+      margin-bottom: 0.3em;
+    }
+    
+    p {
+      font-family: $serif;
+      font-size: rem(15);
+      line-height: 1.6em;
+      margin-bottom: 1.5em;
+    }
+    
+    ul {
+      @extend %default-ul;
+    }
+    
+    ol {
+      @extend %default-ol;
+    }
+    
+    p,
+    li {
+      strong {
+        font-family: $sans-serif;
+        font-weight: 700;
+      }
+    }
+    
+    a.read-more {
+      display: inline-block;
+      font-family: $sans-serif;
+      font-size: 0.8em;
+      font-weight: 700;
+      margin-left: 0.2em;
+      position: relative;
+      text-transform: uppercase;
+    
+      span {
+        font-family: $serif;
+        font-size: 1.5em;
+        font-style: normal;
+        position: absolute;
+        right: -12px;
+        top: -1px;
+      }
+    }
+    
+    hr {
+      width: 3em;
+    }
+    
+    p.author {
+      font-family: $serif;
+      font-style: italic;
+    }
+    
+    .note {
+      background-color:rgba($base-accent-color, 0.1);
+      padding:$base-spacing;
+      margin-left:- $base-spacing;
+      margin-right:- $base-spacing;
+      margin-bottom: $base-spacing;
       font-family:$sans-serif;
       
-      &:before {
-        @include icon-font();
+      h6 {
+        background-color:rgba($base-accent-color, 0.6);
+        margin-top: - $base-spacing;
+        margin-right: - $base-spacing;
+        margin-bottom: $base-spacing / 2;
+        margin-left: - $base-spacing;
+        padding: $base-spacing / 3 $base-spacing $base-spacing / 3 $base-spacing;
+        color:#fff;
       }
       
-      span {
-        @extend .sr-only;
+      p  {
+        font-family:$sans-serif;
+      }
+      
+      :last-child {
+        margin-bottom:0;
       }
     }
-  }
-  
-  pre {
-    background: $light-gray;
-    border-radius: $base-border-radius * 1.5;
-    border: 1px solid $medium-gray;
-    padding:$base-spacing;
-    margin-left:- $base-spacing;
-    margin-right:- $base-spacing;
-    
-    code {
-      white-space: pre-wrap;
-      background-color: transparent;
-      border:none;
-      padding:0;
-    }
-  }
-  
-  h3 {
-    font-family: $serif;
-    font-size: 1.4em;
-    line-height: 1.3em;
-    margin-bottom: .4em;
-    font-weight:700;
-  }
-  
-  h4 {
-    font-size: 1.4em;
-    font-family: $serif;
-    font-weight: 400;
-    margin-bottom: .4em;
-  }
-  
-  h5 {
-    font-size: rem(17);
-    margin-bottom: .4em;
-  }
-  
-  h6 {
-    margin-bottom: .4em;
-  }
-  
-  p.date {
-    color: transparentize($base-font-color, .6);
-    font-family: $serif;
-    font-size: rem(13);
-    font-style: italic;
-    margin-bottom: 0.3em;
-  }
-  
-  p {
-    font-family: $serif;
-    font-size: rem(15);
-    line-height: 1.6em;
-    margin-bottom: 1.5em;
-  }
-  
-  ul {
-    @extend %default-ul;
-  }
-  
-  ol {
-    @extend %default-ol;
-  }
-  
-  p,
-  li {
-    strong {
-      font-family: $sans-serif;
-      font-weight: 700;
-    }
-  }
-  
-  a.read-more {
-    display: inline-block;
-    font-family: $sans-serif;
-    font-size: 0.8em;
-    font-weight: 700;
-    margin-left: 0.2em;
-    position: relative;
-    text-transform: uppercase;
-  
-    span {
-      font-family: $serif;
-      font-size: 1.5em;
-      font-style: normal;
-      position: absolute;
-      right: -12px;
-      top: -1px;
-    }
-  }
-  
-  hr {
-    width: 3em;
-  }
-  
-  p.author {
-    font-family: $serif;
-    font-style: italic;
   }
 }
 
@@ -252,32 +295,6 @@ blockquote {
   border: 0;
 }
 
-.note {
-  background-color:rgba($base-accent-color, 0.1);
-  padding:$base-spacing;
-  margin-left:- $base-spacing;
-  margin-right:- $base-spacing;
-  margin-bottom: $base-spacing;
-  font-family:$sans-serif;
-  
-  h6 {
-    background-color:rgba($base-accent-color, 0.6);
-    margin-top: - $base-spacing;
-    margin-right: - $base-spacing;
-    margin-bottom: $base-spacing / 2;
-    margin-left: - $base-spacing;
-    padding: $base-spacing / 3 $base-spacing $base-spacing / 3 $base-spacing;
-    color:#fff;
-  }
-  
-  p  {
-    font-family:$sans-serif;
-  }
-  
-  :last-child {
-    margin-bottom:0;
-  }
-}
 
 .wrapper {
   @include outer-container;
@@ -454,7 +471,13 @@ blockquote {
 .post-content {
   @include span-columns(10);
   @include shift(1);
-  margin-bottom:50px;
+  
+  &:nth-child(n+2) {
+    padding-top:$base-spacing / 2;
+  }
+  &:last-child {
+    margin-bottom:50px;
+  }
 
   @include media($large-screen) {
     @include span-columns(8);
@@ -860,6 +883,81 @@ html.mm-background .mm-page,
             display:none;
           }
         }
+      }
+    }
+  }
+  
+  .github {
+    font-family:Helvetica,arial,freesans,clean,sans-serif;
+    
+    .button, .minibutton {
+      -moz-user-select: none;
+      background-color: #eee;
+      background-image: linear-gradient(#fcfcfc, #eee);
+      background-repeat: repeat-x;
+      border: 1px solid #d5d5d5;
+      border-radius: 3px;
+      color: #333;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 13px;
+      font-weight: bold;
+      padding: 7px 12px;
+      position: relative;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    .minibutton {
+      line-height: 24px;
+      padding: 0 10px;
+    }
+    
+    .button i, .minibutton i {
+      font-style: normal;
+      font-weight: 500;
+      opacity: 0.6;
+    }
+
+    .select-menu-button:after {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-color: -moz-use-text-color transparent transparent;
+      border-image: none;
+      border-style: solid;
+      border-width: 4px;
+      content: "";
+      display: inline-block;
+      height: 0;
+      vertical-align: -2px;
+      width: 0;
+    }
+    
+    .range-editor-icon {
+      color: #666;
+      display: inline-block;
+      vertical-align:middle;
+      margin-right:5px;
+    }
+    
+    .range-cross-repo-pair {
+      display: inline-block;
+    }
+    
+    .range-editor .range {
+      display: inline-block;
+      
+      .select-menu {
+        display: inline-block;
+      }
+      
+      .dots {
+        color: #999;
+        font-size: 16px;
+        margin: 0 4px;
       }
     }
   }
