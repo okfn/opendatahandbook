@@ -142,21 +142,21 @@ Paragraph:
 
 
 
-This is [an example](http://example.com "Example") link.
+This is [an example](http://datahub.io/) link.
 
-[This link](http://example.com) has no title attr.
+[This link](/en/introduction/) is internal.
 
-This is [an example] [id] reference-style link.
+This is [an example] [ok] reference-style link.
 
-[id]: http://example.com "Optional Title"
+[ok]: https://okfn.org/
 
-    This is [an example](http://example.com "Example") link.
+    This is [an example](http://datahub.io/) link.
 
-    [This link](http://example.com) has no title attr.
+    [This link](/en/introduction/) is internal.
 
-    This is [an example] [id] reference-style link.
+    This is [an example] [ok] reference-style link.
 
-    [id]: http://example.com "Optional Title"
+    [ok]: https://okfn.org/
 
 
 
