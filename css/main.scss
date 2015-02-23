@@ -281,6 +281,17 @@ pre,
         margin-bottom:0;
       }
     }
+    
+    .footnotes {
+      border-top:solid 1px $medium-gray;
+      font-size: 12px;
+      padding-top:5px;
+      margin-top:$base-spacing;
+      
+      p {
+        font-size: 12px;
+      }
+    }
   }
 }
 
