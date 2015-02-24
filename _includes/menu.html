@@ -16,8 +16,7 @@
             <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ subcategory.subhref }}/">{{ subcategory.subtitle }}</a>
             {% if subcategory.subsections %}
             <span class="subsections">
-              {% for subsection in subcategory %}
-              <!-- WHY DO THE BELOW TWO VARIABLES NOT WORK? -->
+              {% for subsection in subcategory.subsections %}
               <a href="#{{ subsection.subid }}">{{ subsection.subheading }}</a>
               {% endfor %}
             </span>
@@ -34,7 +33,7 @@
         <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ handbook_en.href }}/">{{ handbook_en.title }}</a>
         {% if subcategory.subsections %}
         <span class="subsections">
-          {% for subsection in subcategory %}
+          {% for subsection in subcategory.subsections %}
           <a href="#{{ subsection.subid }}">{{ subsection.subheading }}</a>
           {% endfor %}
         </span>
