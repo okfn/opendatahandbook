@@ -13,3 +13,5 @@
       subhref: "why-open-data"
     - subtitle: "What is Open Data?"
       subhref: "what-is-open-data"
+    - subtitle: "Glossary"
+      subhref: "glossary"

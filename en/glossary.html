@@ -1,0 +1,25 @@
+---
+title: Glossary
+layout: docs
+---
+
+{% for glossary_en in site.data.handbook-glossary-en %}
+{% if glossary_en.entries != null %}
+<dl class="glossary">
+  {% for entry in glossary_en.entries %}
+  <dt id="term-{{ entry.term | downcase | replace:' ','-' }}">
+    {{ entry.term }}
+  </dt>
+  <dd>
+    {{ entry.definition }}
+    {% if entry.see %}
+    See <a class="reference internal" href="#term-{{ entry.see | downcase | replace:' ','-' }}"><em>{{ entry.see }}</em></a>.
+    {% endif %}
+    {% if entry.link %}
+    <a class="more" rel="external" href="{{ entry.link }}">Read more</a>.
+    {% endif %}
+  </dd>
+  {% endfor %}
+</dl>
+{% endif %}
+{% endfor %}
