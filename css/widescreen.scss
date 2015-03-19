@@ -16,6 +16,8 @@ $mm_ws_menuWidth: 0.25;
 #menu {
   
   &.mm-menu {
+    margin-top:61px;
+    
     z-index:2;
     background-color:#fff;
     
@@ -29,6 +31,10 @@ $mm_ws_menuWidth: 0.25;
 
 
 .site-header {
+  position:fixed;
+  margin-left:-25%;
+  width:25%;
+  border-right:solid 1px $medium-gray;
   
   .show-menu {
     display:none;
