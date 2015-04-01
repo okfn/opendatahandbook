@@ -48,6 +48,13 @@ a {
   text-decoration: none;
 }
 
+.headerlink {
+  display:none;
+  
+  :hover > & {
+    display:inline;
+  }
+}
 blockquote {
   margin: 0 0 0.3em 0;
   padding: 0 0 0 $base-spacing / 2;
