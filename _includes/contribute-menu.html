@@ -1,4 +1,4 @@
-      {% capture contributelink %}/contribute/{{current.last }}/{% endcapture %}
+      {% capture sectionlink %}/{{ page.section | downcase }}/{{ current.last }}/{% endcapture %}
       
       <li class="Spacer{% if current.last == 'contribute' %} Selected{% endif %}">
         <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
@@ -13,7 +13,7 @@
           <li {% if current.last == 'adding' %} class="Selected"{% endif %}>
             <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
           </li>
-          <li {% if page.url  == contributelink %} class="Selected"{% endif %}>
+          <li {% if sectionlink == '/contribute/glossary/' %} class="Selected"{% endif %}>
             <a href="{{ "/contribute/glossary/" | prepend: site.baseurl }}">Making use of the Glossary</a>
           </li>
           <li {% if current.last == 'markdown-examples' %} class="Selected"{% endif %}>
