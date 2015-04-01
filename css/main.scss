@@ -48,6 +48,13 @@ a {
   text-decoration: none;
 }
 
+.headerlink {
+  display:none;
+  
+  :hover > & {
+    display:inline;
+  }
+}
 blockquote {
   margin: 0 0 0.3em 0;
   padding: 0 0 0 $base-spacing / 2;
@@ -408,7 +415,6 @@ pre,
 .site-header {
   border-bottom: solid 1px $medium-gray;
   background-color:#fff;
-  position:fixed;
   width:100%;
   z-index:1;
   
@@ -473,10 +479,6 @@ pre,
       }
     }
   }
-}
-
-.page-content {
-  padding-top:60px;
 }
 
 .post-content {
