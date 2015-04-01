@@ -43,7 +43,15 @@
       {% endif %}
       {% endfor %}
       
-      <li><a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a></li>
+      <li{% if current.last == 'value-stories' %} class="Selected"{% endif %}>
+        <a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a>
+        <ul>
+          {% for post in site.posts %}
+          {% assign currentpost = post.url | downcase | split: '/' %}
+          <li{% if current.last == currentpost.last %} class="Selected"{% endif %}><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
       <li><a href="#">Apps and Solutions Catalogue</a></li>
     </ul>
     

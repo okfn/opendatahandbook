@@ -28,3 +28,10 @@ defaults:
     values: 
       section: Contribute
       layout: docs
+  - 
+    scope: 
+      type: "posts"
+    values:
+      section: Value Stories
+      permalink: /value-stories/:title
+      layout: post
