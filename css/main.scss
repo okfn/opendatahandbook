@@ -49,10 +49,10 @@ a {
 }
 
 .headerlink {
-  display:none;
+  visibility: hidden;
   
   :hover > & {
-    display:inline;
+    visibility: visible;
   }
 }
 blockquote {
