@@ -2,7 +2,7 @@
 title: Open Data Handbook
 email: admin@okfn.org
 description: > # this means to ignore newlines until "baseurl:"
-  This handbook introduces you to the legal, social and technical aspects of open data. It can be used by anyone but is especially useful for those working with government data. It discusses the why, what and how of open data – why to go open, what open is, and the how to do open.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend metus eget justo tincidunt, nec consequat turpis pretium. Etiam varius tellus tortor, in mattis ex convallis vel.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
