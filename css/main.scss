@@ -735,15 +735,70 @@ html.mm-background .mm-page,
 .home {
   background-color:$light-gray;
   
+  .banner {
+    background-image:url(../img/sky.jpg);
+    background-size: 1314px 333px;
+    background-position:center bottom;
+    position:relative;
+    z-index:0;
+    overflow:hidden;
+    text-align:center;
+    
+    .wrapper {
+      padding: 20px $base-spacing 115px $base-spacing;
+      max-height:333px;
+      
+      h1 {
+        text-transform:uppercase;
+        font-size:28px;
+        letter-spacing:2px;
+        margin-bottom:10px;
+        position:absolute;
+        left:-999px;
+        
+        @include media($medium-screen) {
+          position:static;
+          padding-top:50px;
+        }
+      }
+      
+      p {
+        font-family:$serif;
+        font-style:italic;
+        
+        @include media($medium-screen) {
+          font-size:21px;
+          margin-bottom:30px;
+          opacity:0.7;
+        }
+      }
+      
+      &:before {
+        content:'';
+        display:block;
+        position:absolute;
+        width:1315px;
+        left:50%;
+        bottom:0;
+        margin-left:-658px;
+        background-image:url(../img/book.jpg);
+        background-size: auto 215px;
+        background-repeat:no-repeat;
+        background-position:center bottom;
+        height:215px;
+        z-index:-1;
+      }
+    }
+  }
+  
   @media (min-width: 1020px) {
-    padding-top:$base-spacing;
     padding-bottom:$base-spacing;
   }
   
   div {
-    h1 {
-      margin-bottom:rem(10);
-      font-size:rem(30);
+    h2 {
+      font-size:rem(24);
+      margin-bottom:rem(6);
     }
     
     p {
@@ -799,11 +854,6 @@ html.mm-background .mm-page,
           max-width:32.3em;
           margin-left:auto;
           padding:$base-spacing;
-          
-          h2 {
-            font-size:rem(24);
-            margin-bottom:rem(6);
-          }
         }
       }
     
