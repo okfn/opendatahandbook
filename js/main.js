@@ -27,4 +27,13 @@ $(document).ready(function() {
       }
       headingLink('h3');
       headingLink('h4');
+      
+      // external links in new window
+      var extAnchors = $('a[rel~=external]');
+      $.each(
+          extAnchors,
+          function (index, item) {
+              $(item).attr('target', '_blank');
+          }
+      );
  });
