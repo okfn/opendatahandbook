@@ -257,9 +257,32 @@ pre,
       width: 3em;
     }
     
-    p.author {
+    .author {
       font-family: $serif;
       font-style: italic;
+      margin-top:-1em;
+      margin-bottom: 1.5em;
+      
+      ul {
+        display:inline;
+        padding:0;
+        
+        li {
+          display:inline;
+          
+          &:after {
+            content:',';
+          }
+          
+          &:nth-last-child(2):after {
+            content:' &';
+          }
+          
+          &:last-child:after {
+            content:'.';
+          }
+        }
+      }
     }
     
     .note {
