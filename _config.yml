@@ -34,6 +34,6 @@ defaults:
       type: "posts"
     values:
       section: Value Stories
-      permalink: /value-stories/:title
+      permalink: /value-stories/:title/
       layout: post
       edit: true
