@@ -15,11 +15,11 @@ wide: true
   <ul>
   {% if site.github_repo %}
     <li class="edit tooltip-item">
-      <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/edit/gh-pages{{ page.url | append: '@' | remove: '/@' }}.{{ page.extension }}" rel="external">Edit this page</a>
+      Edit this page
       
       <span class="tooltip">
         <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/edit/gh-pages{{ page.url | append: '@' | remove: '/@' }}.{{ page.extension }}" class="github" rel="external">Edit on Github</a>
-        <a href="{{ "/contribute/" | prepend: site.baseurl }}">Learn more about contributing</a>
+        <a href="{{ "/contribute/" | prepend: site.baseurl }}" target="_blank">Learn more about contributing</a>
       </span>
     </li>
     {% endif %}
@@ -28,7 +28,7 @@ wide: true
       
       <span class="tooltip">
         <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
-        <form method="post" action="https://www.paypal.com/cgi-bin/webscr">
+        <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
           <select name="currency_code">
             <option value="USD">US Dollar $</option>
             <option value="EUR">Euro €</option>

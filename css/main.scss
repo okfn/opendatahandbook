@@ -525,7 +525,10 @@ pre,
       display:block;
       padding-left:$base-spacing;
       padding-right:$base-spacing;
-      border-right:solid 1px $medium-gray;
+      border-color:$medium-gray;
+      border-style:solid;
+      border-width:0;
+      border-right-width:1px;
       color:rgba( $base-font-color, .7 );
       
       & > a {
@@ -618,6 +621,65 @@ pre,
   .footer-in-view & {
     position:static;
     clear:both;
+  }
+  
+  // top-right on larger screens
+  @include media($large-screen) {
+    bottom: auto;
+    top: 100px;
+    width:auto;
+    border:none;
+    right:-115px;
+    height:auto;
+    
+    & > ul {
+      float:right;
+      
+      & > li {
+        float:none;
+        border-width: 1px;
+        margin-bottom:10px;
+        
+        &:before {
+          padding-right:20px;
+        }
+        
+        .tooltip {
+          top:-2px;
+          bottom:auto;
+          left: -225px;
+          right:auto;
+          
+          &:after {
+            right:-21px;
+            left:auto;
+            top:14px;
+            bottom:auto;
+            @include transform(rotate(-90deg));
+          }
+        }
+      }
+    }
+    
+    .footer-in-view & {
+      position:fixed;
+    }
+  }
+  @include media($extra-large-screen) {
+    top: 80px;
+    right:-1px;
+    
+    & > ul {
+      & > li {
+        &:before {
+          padding-right:0;
+        }
+      }
+    }
+  }
+  
+  @media all and (min-width: 1440px) {
+    right:15px;
   }
 }
 
