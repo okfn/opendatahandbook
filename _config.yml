@@ -21,13 +21,14 @@ defaults:
       section: Open Data Handbook
       layout: page
       lang: en
-      extension: md
+      edit: true
   - 
     scope: 
       path: "contribute" 
     values: 
       section: Contribute
       layout: docs
+      edit: true
   - 
     scope: 
       type: "posts"
@@ -35,3 +36,4 @@ defaults:
       section: Value Stories
       permalink: /value-stories/:title
       layout: post
+      edit: true
