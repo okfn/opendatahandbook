@@ -66,6 +66,14 @@ wide: true
         </form>
       </span>
     </li>
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status={{page.title }}: {{ site.url }}{{ page.url }}" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
   </ul>
   {% if page.next %}
   <a href="{{ page.next | prepend: site.baseurl }}">Next</a>

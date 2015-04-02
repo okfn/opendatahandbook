@@ -616,6 +616,33 @@ pre,
           margin-right:5px;
         }
       }
+      
+      &.share {
+        
+        &:before {
+          @include icon-font();
+          content: "\e601";
+          font-size:rem(18);
+          float:left;
+          margin-top:21px;
+          margin-right:5px;
+        }
+        
+        a {
+          @extend button;
+          display:block;
+          text-align:center;
+          margin-bottom:10px;
+          
+          &.facebook {
+            background-color:#3A5795;
+          }
+          
+          &.twitter {
+            background-color:#55ACEE;
+          }
+        }
+      }
     }
   }
   
