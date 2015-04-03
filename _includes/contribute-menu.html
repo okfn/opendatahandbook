@@ -7,16 +7,13 @@
           <li {% if current.last == 'contribute' %} class="Selected"{% endif %}>
             <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contributing to the handbook</a>
           </li>
-          <li {% if current.last == 'editing' %} class="Selected"{% endif %}>
+          <li {% if sectionlink == '/contribute/editing/' %} class="Selected"{% endif %}>
             <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>
           </li>
-          <li {% if current.last == 'adding' %} class="Selected"{% endif %}>
+          <li {% if sectionlink == '/contribute/adding/' %} class="Selected"{% endif %}>
             <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
           </li>
-          <li {% if sectionlink == '/contribute/glossary/' %} class="Selected"{% endif %}>
-            <a href="{{ "/contribute/glossary/" | prepend: site.baseurl }}">Making use of the Glossary</a>
-          </li>
-          <li {% if current.last == 'markdown-examples' %} class="Selected"{% endif %}>
+          <li {% if sectionlink == '/contribute/markdown-examples/' %} class="Selected"{% endif %}>
             <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">Markdown Examples</a>
           </li>
         </ul>
