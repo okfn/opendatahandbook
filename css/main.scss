@@ -870,7 +870,8 @@ html.mm-background .mm-page,
         
         @include media($medium-screen) {
           position:static;
-          padding-top:50px;
+          padding-top:30px;
+          font-size:42px;
         }
       }
       
@@ -893,8 +894,7 @@ html.mm-background .mm-page,
         left:50%;
         bottom:0;
         margin-left:-658px;
-        background-image:url(../img/book.jpg);
-        background-size: auto 215px;
+        @include retina-image('../img/book', auto 215px, jpg);
         background-repeat:no-repeat;
         background-position:center bottom;
         height:215px;
