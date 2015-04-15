@@ -1,5 +1,5 @@
     {% assign current = page.url | downcase | split: '/' %}
-    {% capture sectionlink %}/{{ page.section | downcase }}/{{ current.last }}/{% endcapture %}
+    {% capture sectionlink %}/{% if page.section %}{{ page.section | downcase }}/{% endif %}{{ current.last }}/{% endcapture %}
     <ul>
       <li>
         <a href="{{ site.baseurl }}/">Home</a>
@@ -57,7 +57,7 @@
         </ul>
       </li>
       <li><a href="#">Apps and Solutions Catalogue</a></li>
-      <li{% sectionlink == '/resources/' %} class="Selected"{% endif %}>
+      <li{% if sectionlink == '/resources/' %} class="Selected"{% endif %}>
         <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data Resources</a>
       </li>
     </ul>
