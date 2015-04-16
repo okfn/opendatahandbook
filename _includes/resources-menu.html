@@ -1,0 +1,50 @@
+   
+      <li{% if sectionlink == '/resources/' %} class="Selected"{% endif %}>
+        <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data Resources</a>
+        <ul>
+          <li class="search">
+            <input type="search" placeholder="Search">
+          </li>
+          <li class="filter">
+            <a>Topics</a>
+            <span class="filter-items">
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data <span class="count">16</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Government <span class="count">2</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Privacy <span class="count">10</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Civic Participation <span class="count">1</span></a>
+            </span>
+          </li>
+          <li class="filter">
+            <a>Countries</a>
+            <span class="filter-items">
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Country <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Country <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Country <span class="count">8</span></a>
+            </span>
+          </li>
+          <li class="filter">
+            <a>Regions</a>
+            <span class="filter-items">
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Region <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Region <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Region <span class="count">8</span></a>
+            </span>
+          </li>
+          <li class="filter">
+            <a>Languages</a>
+            <span class="filter-items">
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Language <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Language <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Language <span class="count">8</span></a>
+            </span>
+          </li>
+          <li class="filter">
+            <a>Media Types</a>
+            <span class="filter-items">
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Media Type <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Media Type <span class="count">8</span></a>
+              <a href="{{ "/resources/" | prepend: site.baseurl }}">Media Type <span class="count">8</span></a>
+            </span>
+          </li>
+        </ul>
+      </li>
