@@ -15,19 +15,6 @@ $(document).ready(function() {
         },
       })
       
-      // Append headings with link to ID
-      function headingLink(heading) {
-        $.each($(heading), function() {
-          var headingID = $(this).attr('id');
-          var headingURL = '#' + headingID;
-          if(typeof headingID != 'undefined') {
-            $( this ).append( '<a class="headerlink" href="'+headingURL+'" title="Permalink to this heading"><span class="icon-section"></span></a>' );
-          }
-        });
-      }
-      headingLink('h3');
-      headingLink('h4');
-      
       // external links in new window
       var extAnchors = $('a[rel~=external]');
       $.each(

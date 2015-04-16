@@ -24,8 +24,27 @@
     <script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    
     <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>{{ site.url }}{{ page.url }}'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('h3');
+        headingLink('h4');
+        
+        $(".headerlink a").click(function() { 
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+        
+    
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];

@@ -51,8 +51,34 @@ a {
 .headerlink {
   visibility: hidden;
   
-  :hover > & {
+  a {
+    cursor:pointer;
+  }
+  
+  :hover > &,
+  &.active {
     visibility: visible;
+  }
+  
+  .url {
+    display:block;
+    max-height:0;
+    overflow:hidden;
+    font-size:13px;
+    font-weight:normal;
+    font-family:$sans-serif;
+    
+    .icon-link {
+      margin-right:5px;
+    }
+  }
+  
+  &.active {
+    .url {
+      max-height:200px;
+      overflow:auto;
+      @include transition(max-height 0.4s ease-in-out);
+    }
   }
 }
 blockquote {
