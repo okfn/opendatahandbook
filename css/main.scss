@@ -1377,4 +1377,125 @@ html.mm-background .mm-page,
       }
     }
   }
+  
+  .results {
+    margin-bottom:$base-spacing;
+    font-family:$serif;
+    
+    li {
+      clear:both;
+    }
+    
+    aside {
+      display:none;
+      @include media($large-screen) {
+        @include span-columns(2);
+        text-align:right;
+        padding-left:$base-spacing;
+        padding-top:2.75em;
+        
+        .icon-info {
+          font-size:20px;
+          color:$dark-gray;
+          opacity:0.4;
+          cursor:pointer;
+          
+          span {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+          }
+        }
+      
+        dl {
+          max-height:0;
+          overflow:hidden;
+          font-size:12px;
+          line-height:1.3;
+          dt,
+          dd {
+            display:inline;
+          }
+          dt:after {
+            content:': '
+          }
+          dd:after {
+            display:block;
+            content:'';
+            height:3px;
+          }
+        }
+        
+        &.active {
+          .icon-info {
+            opacity:1;
+          }
+          dl {
+            max-height:none;
+          }
+        }
+      }
+    }
+    
+    article {
+      @include span-columns(10);
+      @include shift(1);
+      padding-bottom:$base-spacing;
+      margin-bottom:$base-spacing;
+      border-bottom:solid 2px $light-gray;
+      
+      @include media($medium-screen) {
+        @include span-columns(8);
+        @include shift(2);
+      }
+      @include media($large-screen) {
+        @include shift(0);
+      }
+      
+      .topic {
+        display:inline-block;
+        text-transform:uppercase;
+        border-bottom:solid 1px $dark-gray;
+        font-size:12px;
+        margin-bottom:5px;
+        font-family:$sans-serif;
+        font-weight:bold;
+      }
+      
+      h2 {
+        font-family:$serif;
+        font-size:32px;
+      }
+      
+      .author {
+        font-style:italic;
+        display:block;
+        margin-bottom:5px;
+      }
+      
+      p {
+        margin-bottom:10px;
+      }
+      
+      & > a {
+        @extend button;
+        position:relative;
+        
+        [class^="icon-"] {
+          font-size:20px;
+          position:absolute;
+          top:9px;
+          
+          & + span {
+            margin-left:25px;
+          }
+        }
+      }
+    }
+  }
 }
