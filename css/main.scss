@@ -1319,6 +1319,7 @@ html.mm-background .mm-page,
           color:#fff;
           display:block;
           background-size:cover;
+          background-position:center center;
           
           @include media($medium-screen) {
             padding-top:100%;
