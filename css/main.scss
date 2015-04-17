@@ -473,12 +473,14 @@ pre,
         padding-top:0;
         padding-bottom:0;
         font-size:rem(13);
+        margin-top:-3px;
         
         a {
           display:block;
-          margin-bottom:5px;
           color:rgba( $base-font-color, .7 );
           padding-left: $base-spacing / 2;
+          padding-top:3px;
+          padding-bottom:3px;
           
           &:empty {
             display:none;
@@ -523,6 +525,10 @@ pre,
                 position:absolute;
                 right:10px;
                 font-size:12px;
+              }
+              
+              &.active {
+                background-color:rgba( $base-accent-color, .1 );
               }
             }
           }
