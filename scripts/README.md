@@ -16,5 +16,7 @@ Requirements:
 * Install pandoc
 * `pip install requirements.txt`
 
+Tests: for tests to work you will need to run them in the opendatahandbook base directory.
+
 ----
 

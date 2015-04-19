@@ -2,6 +2,11 @@ import polib
 import os
 import shutil
 import codecs
+import subprocess
+import re
+
+###########################################
+# Translate
 
 def info(lang):
     fp = 'translation/%s/LC_MESSAGES/all.po' % lang
@@ -97,10 +102,44 @@ def translate_all(lang, source, dest):
         with codecs.open(destpath, 'w', encoding='utf8') as fout:
             fout.write(out)
 
-import pypandoc
-def convert_to_markdown(instr, outstr):
-    pass
+###########################################
+# Convert to Markdown
 
+def convert_to_markdown(instr):
+    # first process :term:`....` so that they do not get removed by pandoc
+    instr = re.sub(r':term:`([^`]*)`', r'{term:\1}', instr)
+    # now do ref
+    # :ref:`this previous section <what-data-can-be-open>`.
+    # note there is in fact only one ref in the entire source so we hard code
+    # the link
+    # instr = re.sub(r':ref:`([^<]*) <([^`]*)>`', r'[\1](#\2)', instr)
+    instr = re.sub(r':ref:`([^<]*) <([^`]*)>`', r'[\1](../what-is-open-data/)', instr)
+
+    PANDOC_PATH = '/usr/local/bin/pandoc'
+    p = subprocess.Popen(
+        [PANDOC_PATH,
+            '--from=%s' % 'rst',
+            '--to=%s' % 'markdown',
+            '--atx-headers'
+        ],
+        stdin=subprocess.PIPE, 
+        stdout=subprocess.PIPE
+    )
+    output = p.communicate(instr)[0]
+
+    # ok now let's clean stuff up
+
+    # pandoc seems to have many spaces for bullet points e.g. -   Now my bullet
+    # NOTE: we disable at present since we would need to unindent whole
+    # paragraph and that is not easy
+    # output = output.replace('-   ', '- ')
+    # output = output.replace(':   ', ': ')
+    return output
+
+
+
+###########################################
+# Tests
 
 class TestItAll(object):
     def test_get_po_entries(self):
@@ -142,6 +181,56 @@ and the how to 'open' data.'''
         assert os.path.exists(indexpath), indexpath
         content = open(indexpath).read()
         assert 'Das Open Data Handbuch' in content, content
+    
+    def test_convert_to_markdown(self):
+        instr = \
+'''
+Make Data Available
+===================
+
+Thus, **if you are planning to make your data available you should put a
+license on it** - be `open`_ as we do.
+
+.. _open: http://opendefinition.org/
+.. _Open Definition: open_
+
+Use the `Open Definition`_ and marked as suitable.
+
+* http://opendatacommons.org/guide/
+
+:term:`Open data` needs to be technically open as well as legally open.
+:term:`machine-readable` format.
+
+Available
+  Data should be priced at no more than a reasonable cost of reproduction.
+
+see :ref:`this previous section <what-data-can-be-open>`.
+'''
+        exp = \
+'''# Make Data Available
+
+Thus, **if you are planning to make your data available you should put a
+license on it** - be [open](http://opendefinition.org/) as we do.
+
+Use the [Open Definition](open_) and marked as suitable.
+
+-   <http://opendatacommons.org/guide/>
+
+{term:Open data} needs to be technically open as well as legally open.
+{term:machine-readable} format.
+
+Available
+
+:   Data should be priced at no more than a reasonable cost of
+    reproduction.
+
+see [this previous section](../what-is-open-data/).
+
+'''
+        import difflib
+        d = difflib.Differ()
+        out = convert_to_markdown(instr)
+        assert out == exp, '\n'.join(d.compare(exp.split('\n'), out.split('\n')))
 
 
 if __name__ == '__main__':
