@@ -18,7 +18,7 @@ def info(lang):
     print entries[0].msgstr
 
 
-def translate_file(infile, po_entries_sorted):
+def translate(instr, po_entries_sorted):
     '''
     Algorithm:
 
@@ -38,8 +38,6 @@ def translate_file(infile, po_entries_sorted):
     a paragraph.  We can therefore split source file by paragraph and do
     matching that way
     '''
-    instr = infile.read()
-
     paras = instr.split('\n\n')
     outparas = []
     nomatch = []
@@ -59,8 +57,12 @@ def match_paragraph(para, po_entries_sorted):
         if out != para:
             return out
         # no match so eliminate line breaks and try replace again
+        # also eliminate leading spaces - esp relevant where we have bullet
+        # points e.g.
+        # * xxxx
+        #   xxxx
         else:
-            tmp = para.replace('\n', ' ').replace('  ', ' ')
+            tmp = re.sub(r'\s+', ' ', para)
             msgid = entry.msgid.replace('\n', ' ').replace('  ', ' ')
             out = tmp.replace(msgid, entry.msgstr)
             if out != tmp: # we had a match
@@ -69,8 +71,8 @@ def match_paragraph(para, po_entries_sorted):
                 out = para
     return out
     
-def get_po_entries(lang):
-    path = 'translation/%s/LC_MESSAGES/all.po' % lang
+def get_po_entries(lang, basepath=''):
+    path = '%stranslation/%s/LC_MESSAGES/all.po' % (basepath, lang)
     po = polib.pofile(path)
     entries = po.translated_entries()
     def comparator(x,y):
@@ -78,23 +80,13 @@ def get_po_entries(lang):
     newentries = sorted(entries, comparator, reverse=True)
     return newentries
 
-def get_all_files_to_translate(basepath):
-    allthefiles = []
-    for dirname, subdirs, files in os.walk(basepath):
-        if '/_' in dirname:
-            continue
-        print dirname
-        files = [ os.path.join(dirname, f)[len(basepath):].lstrip('/') for f in files if f.endswith('.rst') ]
-        allthefiles.extend(files)
-    return allthefiles
-
 def translate_all(lang, source, dest):
     poentries = get_po_entries(lang)
-    files = get_all_files_to_translate(source)
+    files = get_all_source_files(source)
     for path in files:
         fullpath = os.path.join(source, path)
         fo = codecs.open(fullpath, encoding='utf8')
-        out = translate_file(fo, poentries)
+        out = translate(fo.read(), poentries)
         destpath = os.path.join(dest, os.path.splitext(path)[0] + '.md')
         parentdir = os.path.dirname(destpath)
         if not os.path.exists(parentdir):
@@ -115,17 +107,29 @@ def convert_to_markdown(instr):
     # instr = re.sub(r':ref:`([^<]*) <([^`]*)>`', r'[\1](#\2)', instr)
     instr = re.sub(r':ref:`([^<]*) <([^`]*)>`', r'[\1](../what-is-open-data/)', instr)
 
+    # special hack
+    instr = re.sub(r':doc:`(.*) <introduction/index.html>`', r'[\1](introduction/)', instr)
+
+    # finally extend rst heading lines to fix fact that with translation some
+    # headings may extnend beyond their heading line which messes up pandoc
+
+    for char in ['=', '-', '~']:
+        instr = re.sub(char * 5 + '*', char * 100, instr)
+
     PANDOC_PATH = '/usr/local/bin/pandoc'
     p = subprocess.Popen(
         [PANDOC_PATH,
             '--from=%s' % 'rst',
             '--to=%s' % 'markdown',
-            '--atx-headers'
+            '--atx-headers',
+            '--no-wrap'
         ],
         stdin=subprocess.PIPE, 
         stdout=subprocess.PIPE
     )
+    instr = instr.encode('utf8')
     output = p.communicate(instr)[0]
+    output = output.decode('utf8')
 
     # ok now let's clean stuff up
 
@@ -135,6 +139,83 @@ def convert_to_markdown(instr):
     # output = output.replace('-   ', '- ')
     # output = output.replace(':   ', ': ')
     return output
+
+
+###########################################
+# Bulk processing 
+
+def get_all_source_files(basepath):
+    allthefiles = []
+    for dirname, subdirs, files in os.walk(basepath):
+        if '/_' in dirname:
+            continue
+        files = [ os.path.join(dirname, f)[len(basepath):].lstrip('/') for f in files if f.endswith('.rst') ]
+        allthefiles.extend(files)
+    return allthefiles
+
+
+langs = [
+    'en',
+    'de',
+    'el',
+    'es',
+    'fr',
+    'he',
+    'hr',
+    'id',
+    'is',
+    'it',
+    'ja',
+    'ko',
+    'lt_LT',
+    'lv',
+    'nl_BE',
+    'pt_BR',
+    'ro',
+    'ru',
+    'zh_CN',
+    'zh_TW'
+    ]
+
+
+DEBUG = False
+def run_it_all(handbookdir, dest):
+    source = os.path.join(handbookdir, 'source')
+    files = get_all_source_files(source)
+    for lang in langs:
+        print('Processing language: %s' % lang)
+        poentries = get_po_entries(lang, handbookdir.rstrip('/') + '/') if lang != 'en' else None
+
+        for path in files:
+            fullpath = os.path.join(source, path)
+            fo = codecs.open(fullpath, encoding='utf8')
+
+            out = translate(fo.read(), poentries) if lang != 'en' else fo.read()
+            
+            if DEBUG:
+                # write trans
+                destpath = os.path.join(dest, lang, os.path.splitext(path)[0] + '.rst')
+                parentdir = os.path.dirname(destpath)
+                if not os.path.exists(parentdir):
+                    os.makedirs(parentdir)
+                with codecs.open(destpath, 'w', encoding='utf8') as fout:
+                    fout.write(out)
+
+            # write markdown
+            out = convert_to_markdown(out)
+
+            # final tweak to put in jekyll headings
+            out = out.strip()
+            lines = out.split('\n')
+            out = '---\ntitle: %s\n---\n' % lines[0].replace('# ', '')
+            out += '\n'.join(lines[1:])
+
+            destpath = os.path.join(dest, lang, 'guide', os.path.splitext(path)[0] + '.md')
+            parentdir = os.path.dirname(destpath)
+            if not os.path.exists(parentdir):
+                os.makedirs(parentdir)
+            with codecs.open(destpath, 'w', encoding='utf8') as fout:
+                fout.write(out)
 
 
 
@@ -156,18 +237,40 @@ designed for those seeking to **open up** data. It discusses the
 and the how to 'open' data.'''
         entries = get_po_entries('de')
         out = match_paragraph(para, entries)
-        assert out.startswith('** Dieses Handbuch'), out
+        assert out.startswith('**Dieses Handbuch'), out
 
-    def test_translate_file(self):
+    def test_match_paragraph_2(self):
+        entries = get_po_entries('de')
+        para = '''Table of Contents
+================='''
+        exp = '''Inhaltsverzeichnis
+================='''
+        out = match_paragraph(para, entries)
+        assert out == exp, out
+
+    def test_match_paragraph_3(self):
+        entries = get_po_entries('de')
+        para = '''2. **Apply an open license.**'''
+        exp = '''2. **Vergeben sie eine offene Lizenz.**'''
+        out = match_paragraph(para, entries)
+        assert out == exp, out
+
+    def test_translate(self):
         fpath = 'source/index.rst'
         entries = get_po_entries('de')
-        out = translate_file(open(fpath), entries)
+        out = translate(codecs.open(fpath, encoding='utf8').read(), entries)
         assert out
-        assert len(out) > 10, out[:100]
-        assert not '**This handbook' in out, out[:500]
+        assert '**Dieses Handbuch' in out, out
 
-    def test_get_all_files_to_translate(self):
-        out = get_all_files_to_translate('source')
+    def test_translate_2(self):
+        fpath = 'source/how-to-open-up-data/index.rst'
+        entries = get_po_entries('de')
+        out = translate(codecs.open(fpath, encoding='utf8').read(), entries)
+        assert 'Halten sie es einfach' in out, out[:500]
+        assert "**Vergeben sie eine offene Lizenz.**" in out, out
+
+    def test_get_all_source_files(self):
+        out = get_all_source_files('source')
         assert 'index.rst' in out, out
         assert 'introduction/index.rst' in out
     
@@ -205,27 +308,32 @@ Available
   Data should be priced at no more than a reasonable cost of reproduction.
 
 see :ref:`this previous section <what-data-can-be-open>`.
+
+see :doc:`Einfuhrung <introduction/index.html>`
+
+Inhaltsverzeichnis
+================= 
 '''
         exp = \
 '''# Make Data Available
 
-Thus, **if you are planning to make your data available you should put a
-license on it** - be [open](http://opendefinition.org/) as we do.
+Thus, **if you are planning to make your data available you should put a license on it** - be [open](http://opendefinition.org/) as we do.
 
 Use the [Open Definition](open_) and marked as suitable.
 
 -   <http://opendatacommons.org/guide/>
 
-{term:Open data} needs to be technically open as well as legally open.
-{term:machine-readable} format.
+{term:Open data} needs to be technically open as well as legally open. {term:machine-readable} format.
 
 Available
 
-:   Data should be priced at no more than a reasonable cost of
-    reproduction.
+:   Data should be priced at no more than a reasonable cost of reproduction.
 
 see [this previous section](../what-is-open-data/).
 
+see [Einfuhrung](introduction/)
+
+# Inhaltsverzeichnis
 '''
         import difflib
         d = difflib.Differ()
@@ -233,26 +341,9 @@ see [this previous section](../what-is-open-data/).
         assert out == exp, '\n'.join(d.compare(exp.split('\n'), out.split('\n')))
 
 
+import sys
 if __name__ == '__main__':
-    translated_langs = [
-        'de',
-        'el',
-        'es',
-        'fr',
-        'he',
-        'id',
-        'is',
-        'it',
-        'ja',
-        'ko',
-        'lt_LT',
-        'lv',
-        'nl_BE',
-        'pt_BR',
-        'ro',
-        'ru',
-        'zh_CN',
-        'zh_TW'
-        ]
-    pass
+    if len(sys.argv) < 3:
+        print('python translate.py handbook-dir dest')
+    run_it_all(sys.argv[1], sys.argv[2])
 
