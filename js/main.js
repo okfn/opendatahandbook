@@ -15,12 +15,23 @@ $(document).ready(function() {
         },
       })
       
-      // external links in new window
-      var extAnchors = $('a[rel~=external]');
-      $.each(
-          extAnchors,
-          function (index, item) {
-              $(item).attr('target', '_blank');
-          }
-      );
+    // external links in new window
+    var extAnchors = $('a[rel~=external]');
+    $.each(
+        extAnchors,
+        function (index, item) {
+            $(item).attr('target', '_blank');
+        }
+    );
+    
+    
+    //filters
+    $("#menu .filter > a").click(function() { 
+      $(this).parent('.filter').toggleClass("active");
+    });    
+    
+    //resources
+    $(".resources .results .icon-info").click(function() { 
+      $(this).parent('aside').toggleClass("active");
+    }); 
  });

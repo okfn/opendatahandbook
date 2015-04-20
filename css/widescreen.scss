@@ -22,7 +22,7 @@ $mm_ws_menuWidth: 0.25;
     
     li.mm-selected {
       .subsections {
-        display:block;
+        max-height:none;
       }
     }
   }

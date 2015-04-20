@@ -57,8 +57,6 @@
         </ul>
       </li>
       <li><a href="#">Apps and Solutions Catalogue</a></li>
-      <li{% if sectionlink == '/resources/' %} class="Selected"{% endif %}>
-        <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data Resources</a>
-      </li>
+      {% include resources-menu.html %} 
     </ul>
     

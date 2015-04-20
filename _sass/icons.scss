@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?thnabi');
-	src:url('fonts/icomoon.eot?#iefixthnabi') format('embedded-opentype'),
-		url('fonts/icomoon.woff?thnabi') format('woff'),
-		url('fonts/icomoon.ttf?thnabi') format('truetype'),
-		url('fonts/icomoon.svg?thnabi#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?qo8dx0');
+	src:url('fonts/icomoon.eot?#iefixqo8dx0') format('embedded-opentype'),
+		url('fonts/icomoon.woff?qo8dx0') format('woff'),
+		url('fonts/icomoon.ttf?qo8dx0') format('truetype'),
+		url('fonts/icomoon.svg?qo8dx0#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -25,6 +25,18 @@
 
 [class^="icon-"], [class*=" icon-"] {
   @include icon-font();
+}
+
+.icon-youtube:before {
+	content: "\e606";
+}
+
+.icon-square-minus:before {
+	content: "\e603";
+}
+
+.icon-square-plus:before {
+	content: "\e604";
 }
 
 .icon-link:before {
@@ -89,4 +101,20 @@
 
 .icon-section:before {
 	content: "\ea76";
+}
+
+.icon-book:before {
+	content: "\e91f";
+}
+
+.icon-file-pdf:before {
+	content: "\eada";
+}
+
+.icon-world:before {
+	content: "\e605";
+}
+
+.icon-info:before {
+	content: "\ea0c";
 }
