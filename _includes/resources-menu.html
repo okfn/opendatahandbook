@@ -1,50 +1,41 @@
-   
       <li{% if sectionlink == '/resources/' %} class="Selected"{% endif %}>
         <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data Resources</a>
         <ul>
           <li class="search">
             <input type="search" placeholder="Search">
           </li>
-          <li class="filter">
-            <a>Topics</a>
-            <span class="filter-items">
-              <a href="{{ "/resources/" | prepend: site.baseurl }}" class="active">Open Data <span class="count">16</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Government <span class="count">2</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Privacy <span class="count">10</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Civic Participation <span class="count">1</span></a>
-            </span>
-          </li>
-          <li class="filter">
-            <a>Countries</a>
-            <span class="filter-items">
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Country <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Country <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Country <span class="count">8</span></a>
-            </span>
-          </li>
-          <li class="filter">
-            <a>Regions</a>
-            <span class="filter-items">
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Region <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Region <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Region <span class="count">8</span></a>
-            </span>
-          </li>
-          <li class="filter">
-            <a>Languages</a>
-            <span class="filter-items">
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Language <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Language <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Language <span class="count">8</span></a>
-            </span>
-          </li>
-          <li class="filter">
-            <a>Media Types</a>
-            <span class="filter-items">
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Media Type <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Media Type <span class="count">8</span></a>
-              <a href="{{ "/resources/" | prepend: site.baseurl }}">Media Type <span class="count">8</span></a>
-            </span>
-          </li>
+          {% for type in site.data.resources_filters %}
+
+            {% comment %}This block calculates the unique values of each type{% endcomment %}
+            {% assign delimiter = "#" %}
+            {% assign names_str = "" %}
+            {% assign names = site.data.resources |  map: type %}
+            
+            {% for name in names %}
+                {% assign names_arr = names_str | split: delimiter %}
+                {% unless names_arr contains name %}
+                    {% assign names_str = names_str | append: delimiter | append: name %}
+                {% endunless %}
+            {% endfor %}
+            {% assign names_uniq = names_str | remove_first: delimiter | split:delimiter %}
+
+            <li class="filter">
+              <a>{{ type }}</a>
+              <span class="filter-items">
+
+              {% comment %}Calculate the number of each unique value{% endcomment %}
+              {% for name in names_uniq %}
+                  {% assign counter = 0 %}
+                  {% for resource in names %}
+                    {% if name == resource %}
+                        {% assign counter = counter | plus: 1 %}
+                    {% endif %}
+                  {% endfor %}
+                <a href="{{ "/resources/" | prepend: site.baseurl | append: name }}">{{ name }}<span class="count">{{ counter }}</span></a>
+              {% endfor% %}
+              </span>
+            </li>
+
+          {% endfor %}
         </ul>
       </li>

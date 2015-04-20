@@ -1,1 +1,3 @@
 polib
+pyyaml
+requests
