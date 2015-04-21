@@ -16,12 +16,16 @@ permalink: pretty
 defaults: 
   - 
     scope: 
-      path: "en" 
+      path: ""
     values: 
-      section: Open Data Handbook
+      section: Guide
       layout: page
-      lang: en
       edit: true
+  - 
+    scope: 
+      path: "en"
+    values: 
+      lang: en
   - 
     scope: 
       path: "contribute" 
