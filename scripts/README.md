@@ -20,3 +20,11 @@ Tests: for tests to work you will need to run them in the opendatahandbook base 
 
 ----
 
+Usage:
+
+    # check out the old opendatahandbook repo into e.g. a parallel directory
+    # then do
+    python scripts/translate.py ../opendatahandbook ./
+
+    # resulting output in ./en/guide/ ./de/guide/ ./{lang}/guide ...
+
