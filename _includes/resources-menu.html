@@ -1,5 +1,5 @@
    
-      <li{% if sectionlink == '/resources/' %} class="Selected"{% endif %}>
+      <li{% if current.last == 'resources' %} class="Selected"{% endif %}>
         <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data Resources</a>
         <ul>
           <li class="search">
