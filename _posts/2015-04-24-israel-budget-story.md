@@ -45,6 +45,7 @@ The latest version of Hasadna’s budget tool, called [‘Budget Key’](http://
 ### Down the rabbit hole
 
 [Mushon Zer-Aviv](http://mushon.com/) is a web designer who has been involved in the project from its early days. In an article charting on the history of the site, he reflects that it reveals a ‘transparency paradox’: as he puts it on the [The transparency & accountability blog](http://tech.transparency-initiative.org/follow-the-money-mushon-zer-aviv-the-keys-to-the-israeli-budget/)- 
+
 >'The more you make accessible, the deeper the rabbit hole goes.' 
 
 
