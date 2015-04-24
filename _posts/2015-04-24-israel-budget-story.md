@@ -1,16 +1,16 @@
 ---
 title:  "Winkling out budget data in Israel"
 permalink: /value-stories/2015-04-24-israel-budget-story/
+author: Mark Wainwright 
 ---
 
 In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
 
 ### Fire on the mountain
 
-On 2 December 2010, a deadly forest fire engulfed Mount Carmel in Israel and raged for four days before finally being brought under control. The fire services claimed that their 
-capacity to respond effectively had been impaired by chronic underfunding, and that despite the Mount Carmel disaster, their budget was not being increased in the proposed budget for the following year, 2011–12. The government denied this, but the budget data was not public and it was difficult for the public to know what to believe.
+On 2 December 2010, a deadly forest fire engulfed Mount Carmel in Israel and raged for four days before finally being brought under control. The fire services claimed that their capacity to respond effectively had been impaired by chronic underfunding, and that despite the Mount Carmel disaster, their budget was not being increased in the proposed budget for the following year, 2011–12. The government denied this, but the budget data was not public and it was difficult for the public to know what to believe.
 
-Amid claim and counterclaim, a developer, Adam Karkiv, set out to find the truth, along with other members of the Public Knowledge Workshop (Hasadna). Over the following few years, they overcame a series of obstacles to bring previously shadowy Israeli budget data into the open.
+Amid claim and counterclaim, a developer, Adam Karkiv, set out to find the truth, along with other members of [The Public Knowledge Workshop] (http://www.hasadna.org.il/en/) (Hasadna). Over the following few years, they overcame a series of obstacles to bring previously shadowy Israeli budget data into the open.
 
 ### Activism and hacktivism
 
@@ -32,7 +32,7 @@ When this problem came to light, Hasadna set out to discover how the budget had 
 
 One vital piece of the jigsaw was still missing. The data on transfers was only available for previous years. Hasadna and others felt that proposed transfers should be published at the time they were proposed, so that there could be a public debate about the merits of the budget changes before they were approved, usually with little oversight. The ministry, however, would not agree to provide the data in advance.
 
-Matters were put on hold by a general election campaign in 2013. After the election, Michael Eitan had lost his Knesset seat, and the ministry he had held was abolished. Hasadna ly approached a new MK, Stav Shaffir, at 27 the youngest ever. Shaffir, who had been one of the leaders of the 2011 social movement protests in Israel, had decided to change the system from within – and stood for election. On gaining a seat in the Knesset she was chosen to serve on the Finance Committee, so she was ideally placed to help.
+Matters were put on hold by a general election campaign in 2013. After the election, Michael Eitan had lost his Knesset seat, and the ministry he had held was abolished. Hasadna ly approached a new MK, [Stav Shaffir](http://stavshaffir.co.il), at 27 the youngest ever. Shaffir, who had been one of the leaders of the 2011 social movement protests in Israel, had decided to change the system from within – and stood for election. On gaining a seat in the Knesset she was chosen to serve on the Finance Committee, so she was ideally placed to help.
 
 Shaffir fought for publication of the transfers, even asking for Committee votes on the transfers to be suspended until they could be published. After a month of wrangling, the Ministry agreed to publish them, but once again they provided only scanned documents. Shaffir, unsatisfied, asked for the data to be provided in electronic form, but in vain. Eventually she filed a case in the Supreme Court, claiming that the Ministry’s actions in money transactions are a suitable form amounted to misconduct. She also organised a public conference at the Knesset on budget transparency, which got a fair amount of media coverage.
 
@@ -40,11 +40,12 @@ Shaffir fought for publication of the transfers, even asking for Committee votes
 
 Finally, in March 2014, with the appointment of a new head to the MoF’s Budget Division, the ministry decided not to wait for a Supreme Court judgement. They announced that the budget transactions would be published in advance on the ministry’s website from the next sitting of parliament.
 
-The latest version of Hasadna’s budget tool, called ‘Budget Key’, was launched in December 2014. The transfer data is now a central feature: animated bubbles let the viewer see which budgets grew and which were reduced through the year. The tool automatically polls the MoF site for new and proposed transfers and users can request e-mail alerts when these are published.
+The latest version of Hasadna’s budget tool, called [‘Budget Key’](http://www.obudget.org/?forcetour=1#main//2014/en), was launched in December 2014. The transfer data is now a central feature: animated bubbles let the viewer see which budgets grew and which were reduced through the year. The tool automatically polls the MoF site for new and proposed transfers and users can request e-mail alerts when these are published.
 
 ### Down the rabbit hole
 
-Mushon Zer-Aviv is a web designer who has been involved in the project from its early days. In an article charting on the history of the site, he reflects that it reveals a ‘transparency paradox’: as he puts it- 
+[Mushon Zer-Aviv](http://mushon.com/) is a web designer who has been involved in the project from its early days. In an article charting on the history of the site, he reflects that it reveals a ‘transparency paradox’: as he puts it on the [The transparency & accountability blog](http://tech.transparency-initiative.org/follow-the-money-mushon-zer-aviv-the-keys-to-the-israeli-budget/)- 
+
 >'The more you make accessible, the deeper the rabbit hole goes.' 
 
 
