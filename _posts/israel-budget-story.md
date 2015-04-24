@@ -3,7 +3,7 @@ title:  "Winkling out budget data in Israel"
 permalink: /value-stories/israel-budget-story/
 ---
 
-In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
+##In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
 
 ### Fire on the mountain
 
@@ -22,7 +22,7 @@ Meantime, to get the proposed 2011–12 budget, they approached Michael Eitan, a
 
 Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data is is based on, and the data they had been given was highly misleading. In fact, it was wrong.
 
-Shifting budgets
+### Shifting budgets
 
 The published data which Hasadna had worked with related to the budget as it was proposed by the MoF at the beginning of each financial year and amended throughout the year by or accepted by the Finance Committee, a committee consisting of 25 members of the Knesset or parliament (MKs). However, during the course of the year, the MoF would propose numerous amendments to the ongoing budget, effectively transferring money from one area to another. And in Israel, this amendments change on average 13% of the original budget. Like the original budget itself, these transfers were presented to the MKs in reams of complex documents and tables, with little notice before a decision was needed, so it was not clear that there was sufficient democratic oversight of the true amounts budgeted to different areas.
 
