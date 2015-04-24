@@ -1,9 +1,9 @@
 ---
 title:  "Winkling out budget data in Israel"
-permalink: /value-stories/israel-budget-story/
+permalink: /value-stories/2015-04-24-israel-budget-story/
 ---
 
-##In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
+In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
 
 ### Fire on the mountain
 
@@ -44,8 +44,10 @@ The latest version of Hasadna’s budget tool, called ‘Budget Key’, was laun
 
 ### Down the rabbit hole
 
-Mushon Zer-Aviv is a web designer who has been involved in the project from its early days. In an article charting on the history of the site, he reflects that it reveals a ‘transparency paradox’: as he puts it: 
->the more you make accessible, the deeper the rabbit hole goes. 
+Mushon Zer-Aviv is a web designer who has been involved in the project from its early days. In an article charting on the history of the site, he reflects that it reveals a ‘transparency paradox’: as he puts it- 
+>'The more you make accessible, the deeper the rabbit hole goes.' 
+
+
 The more data is available, the more people can see how much more is still being withheld - and the louder the demands for even fuller publication of government data. Hasadna's work on budget data is by no means finished, as they seek to open up information on government contracts, local government finances, and more. Rather, it is simply another part of the ongoing awakening in Israel to the possibilities of open government data.
 
 
