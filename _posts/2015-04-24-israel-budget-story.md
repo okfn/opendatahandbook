@@ -1,7 +1,8 @@
 ---
 title:  "Winkling out budget data in Israel"
 permalink: /value-stories/2015-04-24-israel-budget-story/
-authors: - Mark Wainwright 
+authors: 
+- Mark Wainwright 
 ---
 
 In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
