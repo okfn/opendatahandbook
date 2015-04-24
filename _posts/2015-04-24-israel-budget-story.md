@@ -22,6 +22,9 @@ Meantime, to get the proposed 2011–12 budget, they approached Michael Eitan, a
 
 Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data is is based on, and the data they had been given was highly misleading. In fact, it was wrong.
 
+![The Public Knowledge Workshop in action]({{site.url}}/img/value-stories/publicknowledgeworkshop.jpg)
+The Public Knowledge Workshop in action (Credit: The Public Knowledge Workshop)
+
 ### Shifting budgets
 
 The published data which Hasadna had worked with related to the budget as it was proposed by the MoF at the beginning of each financial year and amended throughout the year by or accepted by the Finance Committee, a committee consisting of 25 members of the Knesset or parliament (MKs). However, during the course of the year, the MoF would propose numerous amendments to the ongoing budget, effectively transferring money from one area to another. And in Israel, this amendments change on average 13% of the original budget. Like the original budget itself, these transfers were presented to the MKs in reams of complex documents and tables, with little notice before a decision was needed, so it was not clear that there was sufficient democratic oversight of the true amounts budgeted to different areas.
