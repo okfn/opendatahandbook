@@ -16,8 +16,8 @@ permalink: pretty
 defaults: 
 #en
   - 
-    scope: #this should be removed once guide is move
-      path: "en"
+    scope: #this should be removed once more specific paths are defined
+      path: ""
     values: 
       section: Guide
       layout: page
