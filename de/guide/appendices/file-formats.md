@@ -1,5 +1,5 @@
 ---
-title: Datenformate:
+title: Datenformate
 ---
 
 ## Eine Übersicht über Datenformate:
