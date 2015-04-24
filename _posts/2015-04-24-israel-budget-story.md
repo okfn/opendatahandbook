@@ -42,7 +42,7 @@ Finally, in March 2014, with the appointment of a new head to the MoF’s Budget
 
 The latest version of Hasadna’s budget tool, called [‘Budget Key’](http://www.obudget.org/?forcetour=1#main//2014/en), was launched in December 2014. The transfer data is now a central feature: animated bubbles let the viewer see which budgets grew and which were reduced through the year. The tool automatically polls the MoF site for new and proposed transfers and users can request e-mail alerts when these are published.
 
-!({{site.url}}/img/value-stories/budget-key.png)
+![The Israeli budget key]({{site.url}}/img/value-stories/budget-key.png)
 
 ### Down the rabbit hole
 
