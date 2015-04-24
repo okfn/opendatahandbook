@@ -15,8 +15,15 @@ permalink: pretty
 
 defaults: 
   - 
+    scope: #this should be removed once guide is move
+      path: "en"
+    values: 
+      section: Guide
+      layout: page
+      edit: true
+  -  
     scope: 
-      path: ""
+      path: "en/guide"
     values: 
       section: Guide
       layout: page
