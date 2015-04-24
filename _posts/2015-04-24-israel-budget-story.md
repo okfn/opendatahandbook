@@ -32,7 +32,7 @@ When this problem came to light, Hasadna set out to discover how the budget had 
 
 One vital piece of the jigsaw was still missing. The data on transfers was only available for previous years. Hasadna and others felt that proposed transfers should be published at the time they were proposed, so that there could be a public debate about the merits of the budget changes before they were approved, usually with little oversight. The ministry, however, would not agree to provide the data in advance.
 
-Matters were put on hold by a general election campaign in 2013. After the election, Michael Eitan had lost his Knesset seat, and the ministry he had held was abolished. Hasadna ly approached a new MK, [Stav Shaffir](http://stavshaffir.co.il), at 27 the youngest ever. Shaffir, who had been one of the leaders of the 2011 social movement protests in Israel, had decided to change the system from within – and stood for election. On gaining a seat in the Knesset she was chosen to serve on the Finance Committee, so she was ideally placed to help.
+Matters were put on hold by a general election campaign in 2013. After the election, Michael Eitan had lost his Knesset seat, and the ministry he had held was abolished. Hasadna approached a new MK, [Stav Shaffir](http://stavshaffir.co.il), at 27 the youngest ever. Shaffir, who had been one of the leaders of the 2011 social movement protests in Israel, had decided to change the system from within – and stood for election. On gaining a seat in the Knesset she was chosen to serve on the Finance Committee, so she was ideally placed to help.
 
 Shaffir fought for publication of the transfers, even asking for Committee votes on the transfers to be suspended until they could be published. After a month of wrangling, the Ministry agreed to publish them, but once again they provided only scanned documents. Shaffir, unsatisfied, asked for the data to be provided in electronic form, but in vain. Eventually she filed a case in the Supreme Court, claiming that the Ministry’s actions in money transactions are a suitable form amounted to misconduct. She also organised a public conference at the Knesset on budget transparency, which got a fair amount of media coverage.
 
@@ -41,6 +41,8 @@ Shaffir fought for publication of the transfers, even asking for Committee votes
 Finally, in March 2014, with the appointment of a new head to the MoF’s Budget Division, the ministry decided not to wait for a Supreme Court judgement. They announced that the budget transactions would be published in advance on the ministry’s website from the next sitting of parliament.
 
 The latest version of Hasadna’s budget tool, called [‘Budget Key’](http://www.obudget.org/?forcetour=1#main//2014/en), was launched in December 2014. The transfer data is now a central feature: animated bubbles let the viewer see which budgets grew and which were reduced through the year. The tool automatically polls the MoF site for new and proposed transfers and users can request e-mail alerts when these are published.
+
+![The Israeli budget key]({{site.url}}/img/value-stories/budget-key.png)
 
 ### Down the rabbit hole
 
