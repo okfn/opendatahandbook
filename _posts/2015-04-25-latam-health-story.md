@@ -27,6 +27,7 @@ If we cross Rio De La Plata, the situation in the neighbouring [Argentina](http:
 The Comprehensive Medical Attention Program, [PAMI](http://en.wikipedia.org/wiki/PAMI) (Programa de Atención Médica Integral in Spanish) is a public health medical insurance agency managed by the ministry of health. PAMI has 12.5 million beneficiaries, the majority of which are from aging population such as pensioners and veterans, and has facilities all over the country. PAMI was one of the first government agencies to computerised and to collect data on the services they provide. 
 
 In 2014, PAMI started a process of publishing data on their [open data portal](https://it.pami.org.ar/?q=dataset). The idea was to allow to the public to build applications that would help PAMI users receive a better service. To promote the use of data, PAMI held a hackathon in Buenos Aires that brought medical practitioners, designers and developers together to develop apps specifically designed to support aging populations benefiting from PAMI services. 
+
 ![PAMI Hackathon]({{ site.url}}/img/value-stories/pami.png)
 PAMI Hackathon poster
 
