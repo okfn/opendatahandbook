@@ -18,7 +18,7 @@ wide: true
       </li>
       <li>
         <h6>
-         <span class="post-excerpt>{{ post.excerpt }}</span>
+         <span class="post-excerpt>{{ post.excerpt | strip_html }} </span>
         </h6>
       </li>
     {% endfor %}
