@@ -37,3 +37,6 @@ defaults:
       permalink: /value-stories/:title/
       layout: post
       edit: true
+
+collections:
+  - resources

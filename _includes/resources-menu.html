@@ -9,7 +9,7 @@
             {% comment %}This block calculates the unique values of each type{% endcomment %}
             {% assign delimiter = "#" %}
             {% assign names_str = "" %}
-            {% assign names = site.data.resources |  map: type %}
+            {% assign names = site.resources | map: type %}
             
             {% for name in names %}
                 {% assign names_arr = names_str | split: delimiter %}
@@ -31,7 +31,7 @@
                         {% assign counter = counter | plus: 1 %}
                     {% endif %}
                   {% endfor %}
-                <a href="{{ "/resources/" | prepend: site.baseurl | append: name }}">{{ name }}<span class="count">{{ counter }}</span></a>
+                  <a data-filter="{{ type }}" data-value="{{ name }}">{{ name }}<span class="count">{{ counter }}</span></a>
               {% endfor% %}
               </span>
             </li>

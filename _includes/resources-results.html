@@ -1,58 +1,30 @@
-  <ul class="results">
-    <li>
-      <aside>
-       <a class="icon-info"><span>Metadata</span></a>
-        <dl>
-          <dt>Published by</dt>
-          <dd>Sunlight Foundation</dd>
-          <dt>Published date</dd>
-          <dd>2014</dd>
-          <dt>Language</dd>
-          <dd>English</dd>
-          <dt>Country</dd>
-          <dd>International
-          <dt>Region</dd>
-          <dd>Global</dd>
-        </dl>
-      </aside>
-      
-      <article>
-        <span class="topic">Open Data</span>
-        <h2>Open Data Policy Guidelines</h2>
-        <span class="author">
-          Sunlight Foundation
-        </span>
-        <p>Open data guidelines addressing what data should be public, how to make data public, and how to implement policy.</p>
-        <a><span class="icon-world"></span> <span>Open Website</span></a>
-      </article>
-    </li>
-    
-    <li>
-      <aside>
-       <a class="icon-info"><span>Metadata</span></a>
-        <dl>
-          <dt>Published by</dt>
-          <dd>Sunlight Foundation</dd>
-          <dt>Published date</dd>
-          <dd>2014</dd>
-          <dt>Language</dd>
-          <dd>English</dd>
-          <dt>Country</dd>
-          <dd>International
-          <dt>Region</dd>
-          <dd>Global</dd>
-        </dl>
-      </aside>
-      
-      <article>
-        <span class="topic">Open Data</span>
-        <h2>Ten Open Data principles</h2>
-        <span class="author">
-          Sunlight Foundation
-        </span>
-        <p>Ten basic principles of open data that provide a lens to evaluate the extent to which government data is open and accessible to the public.</p>
-        <a><span class="icon-file-pdf"></span> <span>Open PDF</span></a>
-      </article>
-    </li>
-  </ul>
-  
+{% assign resource = include.resource %}
+<li>
+<aside>
+  <a class="icon-info"><span>Metadata</span></a>
+  <dl>
+    <dt>Topic</dt>
+    <dd class="Topic">{{ resource.Topic }}</dd>
+    <dt>Published by</dt>
+    <dd>{{ resource.Publishing_entity }}</dd>
+    <dt>Published date</dt>
+    <dd>{{ resource.Publishing_date }}</dd>
+    <dt>Language</dt>
+    <dd class="Language">{{ resource.Langauge }}</dd>
+    <dt>Country</dt>
+    <dd class="Country">{{ resource.Country }}</dd>
+    <dt>Region</dd>
+    <dd class="Region">{{ resource.Region }}</dd>
+  </dl>
+</aside>
+
+<article>
+  <span data="topic">{{ resource.Topic }}</span>
+  <h2>{{ resource.Title }}</h2>
+  <span class="author">
+    {{ resource.Author }}
+  </span>
+  <p>{{ resource.Description }}<p>
+  <a href={{ resource.Link }}><span class="icon-world"></span> <span>Open Website</span></a>
+</article>
+</li>

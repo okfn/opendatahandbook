@@ -5,6 +5,10 @@ title: Open Data Resources
 ---
 <div class="resources">
   {% include resources-landing.html %}
-  {% include resources-results.html %}
+  <ul class="results">
+    {% for resource in site.resources %}
+      {% include resources-results.html resource=resource %}
+    {% endfor %}
+  </ul>
 </div>
 

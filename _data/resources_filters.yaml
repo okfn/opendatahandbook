@@ -3,6 +3,5 @@
 # if it is a column in resources.yaml
 - Topic
 - Country
-- Region
 - Language
 - MediaType
