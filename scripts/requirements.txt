@@ -1,3 +1,4 @@
 polib
 pyyaml
 requests
+slugify
