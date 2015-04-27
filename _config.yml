@@ -2,7 +2,7 @@
 title: Open Data Handbook
 email: admin@okfn.org
 description: > # this means to ignore newlines until "baseurl:"
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend metus eget justo tincidunt, nec consequat turpis pretium. Etiam varius tellus tortor, in mattis ex convallis vel.
+  A collection of research, resources, use cases and guides for civil society and government on the “what, why & how” of open data. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
@@ -14,15 +14,27 @@ markdown: kramdown
 permalink: pretty
 
 defaults: 
+#en
   - 
-    scope: 
-      path: "en" 
+    scope: #this should be removed once more specific paths are defined
+      path: ""
     values: 
-      section: Open Data Handbook
+      section: Guide
       layout: page
-      lang: en
       edit: true
-  - 
+  -
+    scope: 
+      path: "en"
+    values: 
+      lang: en
+  -   
+    scope: 
+      path: "en/guide"
+    values: 
+      section: Guide
+      layout: page
+      edit: true
+  -  
     scope: 
       path: "contribute" 
     values: 
@@ -37,6 +49,19 @@ defaults:
       permalink: /value-stories/:title/
       layout: post
       edit: true
+#de
+  - 
+    scope: 
+      path: "de"
+    values: 
+      lang: de
+  -   
+    scope: 
+      path: "de/guide"
+    values: 
+      section: Guide
+      layout: page
+      edit: true 
 
 collections:
   - resources

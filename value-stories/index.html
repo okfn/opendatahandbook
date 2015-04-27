@@ -15,6 +15,10 @@ wide: true
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+  
+        <h5>
+         <span align="justify" class="post-excerpt">{{ post.excerpt | strip_html }} </span>
+        </h5>
       </li>
     {% endfor %}
   </ul>
