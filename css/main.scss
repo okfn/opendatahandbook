@@ -1324,6 +1324,20 @@ html.mm-background .mm-page,
           @include media($medium-screen) {
             padding-top:100%;
             position:relative;
+            
+            &:after {
+              content: attr(data-attribution);
+              display:block;
+              position:absolute;
+              font-size:10px;
+              @include transform(rotate(-90deg));
+              @include transform-origin(100% 0);
+              right:20px;
+              line-height:20px;
+              top:0;
+              padding-right:10px;
+              opacity:0.8;
+            }
           }
           
           h3 {
