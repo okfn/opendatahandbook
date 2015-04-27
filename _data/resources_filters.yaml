@@ -2,6 +2,6 @@
 # This file is used to build the side menu, any item here will appear in the side menu
 # if it is a column in resources.yaml
 - Topic
-- Country
 - Language
+- Region
 - MediaType
