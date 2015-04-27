@@ -37,8 +37,12 @@
             }
           });
         }
-        headingLink('h3');
-        headingLink('h4');
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
         
         $(".headerlink a").click(function() { 
           $(this).parent('.headerlink').toggleClass("active");
