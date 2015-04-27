@@ -1,9 +1,11 @@
       <li{% if sectionlink == '/resources/' %} class="Selected"{% endif %}>
         <a href="{{ "/resources/" | prepend: site.baseurl }}">Open Data Resources</a>
         <ul>
+          <!--
           <li class="search">
             <input type="search" placeholder="Search">
           </li>
+          -->
           {% for type in site.data.resources_filters %}
 
             {% comment %}This block calculates the unique values of each type{% endcomment %}
