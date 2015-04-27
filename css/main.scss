@@ -1011,6 +1011,15 @@ html.mm-background .mm-page,
     padding-bottom:$base-spacing;
   }
   
+  & > .wrapper {
+    & > div {
+      padding:$base-spacing;
+      @include media($medium-screen) {
+        @include span-columns(4);
+      }
+    }
+  }
+  
   div {
     h2 {
       font-size:rem(24);
