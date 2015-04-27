@@ -21,12 +21,13 @@
 </aside>
 
 <article>
-  <span data="topic">{{ resource.Topic }}</span>
+  <span class="topic">{{ resource.Topic }}</span>
   <h2>{{ resource.Title }}</h2>
   <span class="author">
     {{ resource.Author }}
   </span>
   <p>{{ resource.Description }}<p>
+
   {% if resource.MediaType == 'Articles' %}
     {% assign icon = 'world' %}
     {% assign link_word = 'Website' %}
