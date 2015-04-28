@@ -405,10 +405,6 @@ pre,
 
 #menu {
   
-  &:not( .mm-menu ) {
-    display: none;
-  }
-  
   &.mm-menu {
     background-color:$light-gray;
     border-right: solid 1px $medium-gray;
@@ -438,6 +434,11 @@ pre,
     }
   }
 }
+
+.js #menu:not( .mm-menu )  {
+  display: none;
+}
+
 
 .site-header {
   border-bottom: solid 1px $medium-gray;
