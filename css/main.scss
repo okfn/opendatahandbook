@@ -15,6 +15,7 @@ $mm_maxWidth: 380px;
   "icons"
 ;
 
+$small-screen: em(400);
 $extra-large-screen: em(1280);
 
 
@@ -485,25 +486,29 @@ pre,
   
   .site-title {
     color:$base-font-color;
-    font-size:rem(20);
+    font-size:rem(19);
     line-height:60px;
     text-transform:uppercase;
     font-weight:700;
-    letter-spacing:2px;
     display:block;
     margin-left: 75px;
     
-    .icon {
-      @include icon-font();
-      font-size:rem(32);
-      float:left;
-      height:60px;
-      line-height:55px;
-      margin-right:5px;
-      text-align:center;
-      
-      &:before {
-        content: "\e034";
+    @include media($small-screen) {
+      letter-spacing:2px;
+      font-size:rem(20);
+    
+      .icon {
+        @include icon-font();
+        font-size:rem(32);
+        float:left;
+        height:60px;
+        line-height:55px;
+        margin-right:5px;
+        text-align:center;
+        
+        &:before {
+          content: "\e034";
+        }
       }
     }
   }
@@ -533,6 +538,12 @@ pre,
 
 
 .page-tools {
+  display:none;
+  
+  @include media($small-screen) {
+    display:block;
+  }
+  
   position:fixed;
   bottom:0;
   right:0;
