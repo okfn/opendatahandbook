@@ -861,7 +861,6 @@ html.mm-background .mm-page,
 
 
 .home {
-  background-color:$light-gray;
   
   .banner {
     background-image:url(../img/sky.jpg);
@@ -928,6 +927,24 @@ html.mm-background .mm-page,
       padding:$base-spacing;
       @include media($medium-screen) {
         @include span-columns(4);
+        position:relative;
+        padding-top: $base-spacing * 2;
+        padding-bottom:$base-spacing * 2;
+        
+        &:after {
+          content:'';
+          background-color:$medium-gray;
+          display: block;
+          position: absolute;
+          top:$base-spacing;
+          right: - $base-spacing / 2;
+          bottom:0;
+          width: 1px;
+        }
+        
+        &:last-child:after {
+          display:none;
+        }
       }
     }
   }
