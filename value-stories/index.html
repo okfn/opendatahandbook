@@ -1,27 +1,20 @@
 ---
 layout: default
 wide: true
+title: Value Stories
+section: Value Stories
 ---
-
-<div>
-
-  <h1>Value Stories</h1>
-  
-    <ul class="post-list">
+<div class="stories">
+  <span class="pre-header">{{ page.section }}</span>
+  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-  
-        <h5>
-         <span align="justify" class="post-excerpt">{{ post.excerpt | strip_html }} </span>
-        </h5>
-      </li>
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-excerpt">{{ post.excerpt | strip_html }} </span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">More</a>
+    </li>
     {% endfor %}
   </ul>
-
-
 </div>
