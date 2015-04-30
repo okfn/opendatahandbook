@@ -796,7 +796,7 @@ pre,
   // top-right on larger screens
   @include media($large-screen) {
     bottom: auto;
-    top: 100px;
+    top: 165px;
     width:auto;
     border:none;
     right:-115px;
@@ -836,7 +836,6 @@ pre,
     }
   }
   @include media($extra-large-screen) {
-    top: 80px;
     right:-1px;
     
     & > ul {
