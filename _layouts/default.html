@@ -7,7 +7,9 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <section id="ok-panel" class="closed"><iframe src="//assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></section>
     <div>
+      <a class="ok-ribbon" href="https://okfn.org/"><img src="{{ "/img/ok-ribbon.png" | prepend: site.baseurl }}" alt="Open Knowledge"></a>
       <div>
         {% include header.html %}
     
@@ -24,7 +26,7 @@
     <script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/resources.js" | prepend: site.baseurl }}"></script>
-
+    <script src="{{ "/js/ok-panel.js" | prepend: site.baseurl }}"></script>
     
     <script>
         // Append headings with link to ID
