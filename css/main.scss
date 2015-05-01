@@ -872,19 +872,51 @@ html.mm-background .mm-page,
   }
   
   .primary {
+    margin-bottom:10px;
+    
     @include media($medium-screen) {
-      @include span-columns(6);
+      float:left;
       padding-left:$base-spacing / 2;
       padding-right:$base-spacing / 2;
     }
   }
   
   .secondary {
+    margin-bottom:10px;
+    
+    h6 {
+      font-size:11px;
+      font-weight:normal;
+      text-transform:uppercase;
+    }
+    img {
+      margin-right:15px;
+    }
+    
     @include media($medium-screen) {
-      @include span-columns(6);
       @include omega();
       padding-left:$base-spacing / 2;
       padding-right:$base-spacing / 2;
+      display:table;
+      
+      h6 {
+        display:table-cell;
+        vertical-align:middle;
+        white-space:nowrap;
+        width:1%;
+        
+        &:after {
+          content:':';
+        }
+      }
+      
+      img {
+        display:table-cell;
+        vertical-align:middle;
+        margin-left: 15px;
+        margin-right:0;
+        float:left;
+      }
     }
   }
   
