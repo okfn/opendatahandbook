@@ -12,4 +12,5 @@ Publishing_entity: OK
 Region: Global
 Title: Open Data Dictionary
 Topic: The Basics
+section: resources
 ---

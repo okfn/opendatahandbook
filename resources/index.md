@@ -3,12 +3,14 @@ layout: default
 wide: true
 title: Open Data Resources
 ---
+
 <div class="resources">
   {% include resources-landing.html %}
   <ul class="results">
-    {% for resource in site.resources %}
-      {% include resources-results.html resource=resource %}
+    {% for page in site.pages %}
+    {% if page.section == 'resources' %}
+    {% include resources-results.html resource=page %}
+    {% endif %}
     {% endfor %}
   </ul>
 </div>
-

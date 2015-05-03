@@ -12,4 +12,5 @@ Publishing_entity: W3C
 Region: Global
 Title: W3C guidelines for Open Data
 Topic: The Basics
+section: resources
 ---
