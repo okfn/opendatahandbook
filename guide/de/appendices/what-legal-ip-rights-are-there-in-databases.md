@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: de
 title: Welche geistigen Eigentumsrechte finden in Daten(banken) verwendung
 ---
 

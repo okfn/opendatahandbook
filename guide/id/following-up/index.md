@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: id
 title: Nah Saya Sudah Membukakan Beberapa Data, Selanjutnya Apa?
 ---
 

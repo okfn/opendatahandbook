@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: es
 title: ¿Ya he publicado cierta información, y ahora qué?
 ---
 

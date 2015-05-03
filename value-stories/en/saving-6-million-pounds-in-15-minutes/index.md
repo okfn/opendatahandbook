@@ -1,8 +1,9 @@
 ---
+section: value-stories
+lang: en
 title:  "Saving 6 Million Pounds in 15 Minutes -  Value of Open Data"
 authors:
 - Katelyn Rogers
-section: value-stories
 ---
 
 ### Whether you are looking for a new apartment, calculating the best way to get from A to B or deciding who to vote for, making informed decisions nowadays requires data.  Of course, it is unlikely that we would be doing all the data collection, curation, cleaning and crunching for every one of life’s many questions on our own. We rely on infomediaries to bring us this data, reconfigured as graphics, applications, or platforms, to allow us the luxury of informed decision making. Unfortunately,  data collection,  cleaning and crunching remains an arduous process. As a result, we are limited in the questions we can use data to answer.

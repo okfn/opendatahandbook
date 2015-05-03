@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: lt_LT
 title: Atvėriau duomenų, ir kas dabar?
 ---
 

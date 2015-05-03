@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: hr
 title: Priručnik za otvorene podatke
 ---
 

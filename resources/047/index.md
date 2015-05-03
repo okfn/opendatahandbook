@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: The Open Learning Campus provides convenient and reliable access to the

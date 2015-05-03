@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ja
 title: オープンデータとは何か?
 ---
 

@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: TedxSantaCruz
 Country: USA
 Description: Martha Mendoza talks about the importance of open government and about

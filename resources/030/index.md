@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: UK Cabinet Office
 Country: UK
 Description: This document is a summary of the responses the British Cabinet Office

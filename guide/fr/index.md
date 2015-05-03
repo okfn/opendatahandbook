@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: fr
 title: Le Manuel de l'opendata
 ---
 

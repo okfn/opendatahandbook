@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: !!python/str "Summary from a recent workshop with the Independent Expert\

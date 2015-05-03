@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: fr
 title: Quels droits légaux (de PI) existe-t-il dans les (bases de) données
 ---
 

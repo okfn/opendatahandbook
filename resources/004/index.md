@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: John Wonderlich
 Country: Multiple
 Description: 'Ten basic principles of open data that provide a lens to evaluate the

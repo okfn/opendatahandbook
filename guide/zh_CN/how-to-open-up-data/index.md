@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_CN
 title: 如何将数据开放？
 ---
 

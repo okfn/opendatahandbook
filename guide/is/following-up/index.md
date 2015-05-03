@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: is
 title: Nú er ég búinn að frelsa gögn, hvað svo?
 ---
 

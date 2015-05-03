@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: en
 title: The Open Data Handbook
 ---
 

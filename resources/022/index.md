@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: A Guide to annonamization

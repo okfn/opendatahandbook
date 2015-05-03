@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Open Knowledge International '
 Country: Multiple
 Description: A very short intro to Open Data
@@ -12,5 +14,4 @@ Publishing_entity: OK
 Region: Global
 Title: https://okfn.org/opendata/
 Topic: The Basics
-section: resources
 ---

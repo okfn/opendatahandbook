@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: pt_BR
 title: Então Eu Abri Alguns Dados, e Agora?
 ---
 

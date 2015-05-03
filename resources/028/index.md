@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Open Government Partnership
 Country: England
 Description: 'This is a video of a panel that took place in November 2013 at the OGP

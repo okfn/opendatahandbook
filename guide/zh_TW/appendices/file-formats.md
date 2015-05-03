@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_TW
 title: 檔案格式
 ---
 

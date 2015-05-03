@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ko
 title: 어떤 법적 (IP) 권리가 데이터(베이스)에 있는가
 ---
 

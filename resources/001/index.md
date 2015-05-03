@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Mark Wainwright
 Country: Multiple
 Description: Glossary of Open Data terms
@@ -12,5 +14,4 @@ Publishing_entity: OK
 Region: Global
 Title: Open Data Dictionary
 Topic: The Basics
-section: resources
 ---

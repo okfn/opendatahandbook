@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Michael Rispoli
 Country: Kenya, Colombia, Egypt, Tunisia, Argentina, Uganda
 Description: The article highlight topics in survelliance and privacy in government

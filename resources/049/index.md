@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: Article sets "12 Principles on the Internet" for social, economic and

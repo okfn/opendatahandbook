@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ro
 title: Am deschis niște date, și acum?
 ---
 

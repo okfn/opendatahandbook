@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'IDRC research networks:  Privacy in the Developing World network, and the
   Open Data in Developing Countries network'
 Country: Multiple

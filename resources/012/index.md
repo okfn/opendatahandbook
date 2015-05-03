@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Joel Gorin
 Country: Multiple
 Description: A book focused on the business value of open data while also addressing

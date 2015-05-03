@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: en
 title: How to Open up Data
 ---
 

@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Katleen Janssen '
 Country: Multiple
 Description: This paper discusses the relationship between the open government data

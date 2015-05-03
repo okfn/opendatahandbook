@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Aikaterini Yannoukakoua, Iliana Arakab
 Country: Multiple
 Description: This paper attempts to present the underlined ideology of the Open Government

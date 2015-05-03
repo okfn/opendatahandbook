@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: UK Cabinet Office
 Country: UK
 Description: This document describe the open data principles and framework for the

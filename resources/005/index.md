@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Laurenellen McCann and Alisha Green
 Country: Multiple
 Description: ''

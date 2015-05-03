@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: fr
 title: Bon j'ai ouvert certaines données, et maintenant ?
 ---
 

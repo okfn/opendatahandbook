@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Sierra Leone
 Description: !!python/str "Historical account of when Society for Democratic Initiatives,\

@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Socrata
 Country: Multiple
 Description: A comprehensive guide for publishers (mainly governments) for ensuring

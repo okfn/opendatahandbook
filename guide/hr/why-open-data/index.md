@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: hr
 title: Čemu služe otvoreni podaci?
 ---
 

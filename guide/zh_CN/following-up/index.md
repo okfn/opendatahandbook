@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_CN
 title: 在开放了一些数据后，接下来该干什么？
 ---
 

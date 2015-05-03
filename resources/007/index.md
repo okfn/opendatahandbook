@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Josh Trauber
 Country: Multiple
 Description: A book on the principles, practices, and a history of the open government

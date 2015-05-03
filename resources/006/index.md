@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Vyatcheslav Cherkasov, Deniz Susar, Daniel Dietrich
 Country: Multiple
 Description: Guidelines, tailored to the needs and contraints of developing countries,

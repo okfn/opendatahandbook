@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ko
 title: 열린 데이터란 무엇인가?
 ---
 

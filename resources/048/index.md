@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Emi MacLean
 Country: Columbia
 Description: Article which looks at the limits of the public access to information

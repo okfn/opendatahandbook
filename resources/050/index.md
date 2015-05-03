@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Linda Raftree
 Country: Canada
 Description: 'Recap of panel talk by Linda Raftree at the Engineers Without Borders,

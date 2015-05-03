@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: The Guidelines on OGDCE focuses on how to open government data and how

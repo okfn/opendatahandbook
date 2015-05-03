@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: nl_BE
 title: Het Open Data Handboek
 ---
 

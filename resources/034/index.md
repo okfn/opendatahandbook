@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Phil Wainewright
 Country: UK
 Description: 'This article looks at the privacy breaches in British Open Data and

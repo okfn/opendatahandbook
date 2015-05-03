@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: id
 title: Mengapa Data Terbuka?
 ---
 

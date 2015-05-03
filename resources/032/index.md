@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: UK Cabinet Office
 Country: UK
 Description: The Digital by Default Service Standard is a set of criteria for digital

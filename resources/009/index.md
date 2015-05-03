@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Cabinet Office '
 Country: UK
 Description: 'G8 Guidelines on publishing Open Data. '

@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Mark J. Headd
 Country: Multiple
 Description: A guidebook for state & local government officials who want to get started

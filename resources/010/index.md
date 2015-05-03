@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Web Foundation
 Country: Chile, Ghana, Indonesia
 Description: Open Data Assessment studies from Chile, Ghana and Indonesia

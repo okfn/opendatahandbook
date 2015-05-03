@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: is
 title: Hvernig á að frelsa gögn
 ---
 

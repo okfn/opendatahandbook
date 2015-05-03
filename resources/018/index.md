@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: OECD
 Country: Multiple
 Description: Case studies on Open Data in LATAM

@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: nl_BE
 title: Welke Legale (IP, Internet Protocol) Rechten Zijn Er in Data(bases)
 ---
 

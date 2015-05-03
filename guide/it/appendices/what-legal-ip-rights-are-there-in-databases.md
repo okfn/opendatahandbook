@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: it
 title: Quali diritti (proprietà intellettuale) sussistono sulle (banche) dati
 ---
 

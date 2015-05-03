@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: nl_BE
 title: Dus ik heb data geopend, wat nu?
 ---
 

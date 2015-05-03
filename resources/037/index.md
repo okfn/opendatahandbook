@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: USA
 Description: !!python/str "Videos from workshop about Access To Infomation, which\

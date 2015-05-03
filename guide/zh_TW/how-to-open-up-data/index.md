@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_TW
 title: 如何將資料開放釋出
 ---
 

@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: de
 title: Wie kann ich (als Behörde, Verwaltung, Organisation, ...) eigentlich Daten öffnen?
 ---
 

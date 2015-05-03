@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: it
 title: Perché dati aperti (open data)?
 ---
 

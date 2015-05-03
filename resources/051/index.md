@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: Manifesto that states that we need a Data Revolution that sets a new

@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: nl_BE
 title: Hoe Data te Openen
 ---
 

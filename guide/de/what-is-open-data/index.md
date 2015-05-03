@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: de
 title: Was ist Open Data?
 ---
 

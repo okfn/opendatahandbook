@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: J. Preston Whitt
 Country: Brazil, Chile, Colombia, Dominican Republic, El Salvador, Honduras, Mexico,
   Paraguay, Peru, Uruguay

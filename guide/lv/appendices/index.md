@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: lv
 title: Appendices
 ---
 

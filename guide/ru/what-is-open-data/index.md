@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ru
 title: Что такое Открытые данные?
 ---
 

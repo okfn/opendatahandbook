@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: lt_LT
 title: Žodynas
 ---
 

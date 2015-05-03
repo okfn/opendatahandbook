@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Jonathan Gray
 Country: Multiple
 Description: Blog post outlining what access to information has to do with open data.

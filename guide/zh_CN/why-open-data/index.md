@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_CN
 title: 为什么要开放数据？
 ---
 

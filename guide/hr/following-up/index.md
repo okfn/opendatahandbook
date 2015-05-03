@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: hr
 title: Otvorio/la sam neke podatke, što sada?
 ---
 

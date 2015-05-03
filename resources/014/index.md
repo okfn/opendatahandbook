@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Cabinet Office '
 Country: UK
 Description: Policy paper by the british government regarding Open Data

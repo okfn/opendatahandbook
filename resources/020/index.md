@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: UK Information Commissioners' Office
 Country: UK
 Description: Explanation of the UK data protection act

@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_TW
 title: 為何要開放資料?
 ---
 

@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: it
 title: Cosi, adesso abbiamo aperto alcuni dati. E ora che si fa?
 ---
 

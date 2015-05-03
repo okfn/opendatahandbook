@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_TW
 title: 資料（庫）有什麼樣的法律（智權）規範
 ---
 

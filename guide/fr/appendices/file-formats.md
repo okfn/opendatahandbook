@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: fr
 title: Formats de fichier.
 ---
 

@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_TW
 title: 我將資料開放釋出了，那接著呢？
 ---
 

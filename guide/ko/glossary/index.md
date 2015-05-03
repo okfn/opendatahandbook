@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ko
 title: 용어 사전
 ---
 

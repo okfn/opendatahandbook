@@ -1,9 +1,10 @@
 ---
+section: value-stories
+lang: en
 title:  "Open Data Businesses - and oxymoron or a new model? "
 authors:
 - Mor Rubinstein
 - Chrisitan Villum
-section: value-stories
 ---
 
 Building a business model that involves open data in it is not an easy task. Firstly, one needs to recognize the type of data that can help their business grow. This may sound simple, but it involves not only understanding what open data is, but also creative thinking of what can be done with this data. Secondly, this data needs to be open. While the first part of open data use is independent and relies only on the business discovering a viable application of the data,, the second part is dependent completely on the data publisher and can hinder business opportunities.

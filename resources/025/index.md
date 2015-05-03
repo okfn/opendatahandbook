@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Robert Gellman
 Country: Multiple
 Description: 'This paper explore privacy practices in connection to the biometric

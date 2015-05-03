@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: es
 title: Qué derechos legales (IP) hay en las Bases de datos
 ---
 

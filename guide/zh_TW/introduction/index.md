@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: zh_TW
 title: 前言
 ---
 

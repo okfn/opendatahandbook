@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: Multiple
 Description: !!python/str "Emerging Insights from Phase I of 'Exploring the Emerging\

@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Open Data Institute '
 Country: Multiple
 Description: A collection of guides covering issues such as licensing, privacy and

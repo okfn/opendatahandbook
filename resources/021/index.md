@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: !!python/str "Kieron O\u2019Hara"
 Country: UK
 Description: A report about open data and privacy for the UK cabinet office with recommendations

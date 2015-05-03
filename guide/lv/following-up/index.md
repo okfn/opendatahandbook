@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: lv
 title: Esmu atvēris dažus datus. Kas tālāk?
 ---
 

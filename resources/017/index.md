@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Code for America '
 Country: Multiple
 Description: An open data playbook to help you get started in your city or county

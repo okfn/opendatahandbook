@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: pt_BR
 title: O que são Dados Abertos?
 ---
 

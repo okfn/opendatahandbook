@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: it
 title: Cosa sono i dati aperti (open data)?
 ---
 

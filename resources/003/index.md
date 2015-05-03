@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: 'Sunlight Foundation '
 Country: Multiple
 Description: Open data guidelines addressing what data should be public, how to make

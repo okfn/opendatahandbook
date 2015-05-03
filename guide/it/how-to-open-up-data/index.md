@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: it
 title: Come aprire i dati
 ---
 

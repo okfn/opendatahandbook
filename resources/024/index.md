@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: ''
 Country: EU
 Description: EU guide to Open Data and Privacy

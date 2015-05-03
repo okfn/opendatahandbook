@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: hr
 title: Što su otvoreni podaci?
 ---
 

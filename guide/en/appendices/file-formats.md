@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: en
 title: File Formats
 ---
 

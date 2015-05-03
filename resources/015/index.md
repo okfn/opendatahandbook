@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Open Government Partnership, Access Info, Center for Global Development ,
   Centre for Law and Democracy, Chr. Michelsen Institute (CMI), Construction Sector
   Transparency Initiative (CoST), Consumers International , Global Integrity, Global

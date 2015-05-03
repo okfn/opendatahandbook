@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Darren Samuelsohn
 Country: USA
 Description: 'This article discuss the ethics of data mining and data analytics for

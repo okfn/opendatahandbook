@@ -1,4 +1,6 @@
 ---
+section: guide
+lang: ru
 title: Итак, я открыл данные, что дальше?
 ---
 

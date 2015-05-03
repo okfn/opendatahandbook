@@ -1,4 +1,6 @@
 ---
+section: resources
+lang: en
 Author: Katleen Janssen
 Country: Multiple
 Description: Short overview of the drivers and background of the Open Government Data
