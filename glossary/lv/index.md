@@ -1,6 +1,6 @@
 ---
 section: glossary
-lang: en
+lang: lv
 title: Glossary
 ---
 
@@ -74,7 +74,7 @@ Copyright
 
 Re-use
 
-:   Use of content outside of its original intention.
+:   Satura izmantošana ārpus tā sākotnējā mērķa.
 
 Open standards
 
@@ -106,7 +106,7 @@ IAR
 
 EU
 
-:   European Union.
+:   Eiropas Savienība.
 
 EU PSI Directive
 

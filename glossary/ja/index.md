@@ -1,6 +1,6 @@
 ---
 section: glossary
-lang: en
+lang: ja
 title: Glossary
 ---
 

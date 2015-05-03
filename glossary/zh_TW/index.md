@@ -1,32 +1,22 @@
 ---
 section: glossary
-lang: en
-title: Glossary
+lang: zh_TW
+title: 詞彙對照表
 ---
 
-Open Data
+Open Data 開放資料能夠應用在各類型的目的上，更詳細的資訊請參考[opendefinition.org](http://www.opendefinition.org/).
 
-:   Open data are able to be used for any purpose. More details can be read at [opendefinition.org](http://www.opendefinition.org/).
+Machine-readable 所謂的機器可讀取的檔案格式意味著它們的數據能夠輕易的被電腦程式擷取。而PDF文件並不是機器可讀取的格式。電腦可以清楚的顯示PDF中的文字，但是在解讀文字以外的內容時，卻是非常的困難的。
 
-Machine-readable
+Connectivity 網路連線環境指的是社群連接上網路的能力，尤其是有沒有辦法瀏覽網站。
 
-:   Formats that are machine readable are ones which are able to have their data extracted by computer programs easily. PDF documents are not machine readable. Computers can display the text nicely, but have great difficulty understanding the context that surrounds the text.
-
-Connectivity
-
-:   Connectivity relates to the ability for communities to connect to the Internet, especially the World Wide Web.
-
-BitTorrent
-
-:   BitTorrent is a protocol for distributing the bandwith for transferring very large files between the computers which are participating in the transfer. Rather than downloading a file from a specific source, BitTorrent allows peers to download from each other.
+BitTorrent BitTorrent 是一個目前政策決策者越來越熟習的系統，因為這個系統的使用與侵犯版權等相關問題常常被放在一起提到。BitTorrent 使用一種稱為 torrents 的檔案，然後在運作上可以將檔案散佈的資源分散平均分配到每個讀取該檔案的使用者身上。這樣一來，就算對資料檔案的要求提高，也可避免伺服器出現頻寬不足的狀況，因為越多人下載檔案，就表示越多人同時也在分享。
 
 DAP
 
-:   See {term:Data Access Protocol}.
+:   參閱 {term:Data Access Protocol}.
 
-Data Access Protocol
-
-:   A system that allows outsiders to be granted access to databases without overloading either system.
+Data Access Protocol 一個提供認證機制，允許外部連線到資料庫並可避免系統產生超載的存取協定。
 
 Attribution License
 
@@ -38,7 +28,7 @@ Data protection legislation
 
 PSI
 
-:   See {term:Public Sector Information}.
+:   參閱 {term:Public Sector Information}.
 
 Public Sector Information
 
@@ -46,7 +36,7 @@ Public Sector Information
 
 API
 
-:   See {term:Application Programming Interface}.
+:   參閱 {term:Application Programming Interface}.
 
 Application Programming Interface
 
@@ -54,7 +44,7 @@ Application Programming Interface
 
 Web API
 
-:   An {term:API} that is designed to work over the Internet.
+:   一個設計來網路上使用的 {term:API}
 
 Share-alike License
 
@@ -64,7 +54,7 @@ Public domain
 
 :   No copyright exists over the work. Does not exist in all jurisdictions.
 
-Database rights
+資料庫 rights
 
 :   A right to prevent others from extracting and reusing content from a database. Exists mainly in European jurisdictions.
 
@@ -74,7 +64,7 @@ Copyright
 
 Re-use
 
-:   Use of content outside of its original intention.
+:   將資料內容使用在他建立時原本預定的範圍之外
 
 Open standards
 
@@ -82,7 +72,7 @@ Open standards
 
 Anonymization
 
-:   See {term:Anonymisation}.
+:   參閱 {term:Anonymisation}.
 
 Anonymisation
 
@@ -90,7 +80,7 @@ Anonymisation
 
 IP rights
 
-:   See {term:Intellectual property rights}.
+:   參閱 {term:Intellectual property rights}.
 
 Intellectual property rights
 
@@ -98,19 +88,17 @@ Intellectual property rights
 
 AR
 
-:   See {term:Information Asset Register}.
+:   參閱 {term:Information Asset Register}.
 
 IAR
 
-:   See {term:Information Asset Register}.
+:   參閱 {term:Information Asset Register}.
 
 EU
 
-:   European Union.
+:   歐盟
 
-EU PSI Directive
-
-:   The *Directive on the re-use of public sector information*, 2003/98/EC. "deals with the way public sector bodies should enhance re-use of their information resources." [Legislative Actions - PSI Directive](http://ec.europa.eu/information_society/policy/psi/actions_eu/policy_actions/index_en.htm)
+EU PSI Directive *公部門資訊重新使用指令 (The Directive on the re-use of public sector information) , 2003/98/EC.* "處理的是公部門單位如何加強他們對資訊資源的重新使用” Legislative Actions - PSI Directive\<http://ec.europa.eu/information\_society/policy/psi/actions\_eu/policy\_actions/index\_en.htm\>
 
 Information Asset Register
 
@@ -139,6 +127,4 @@ Open Government Data
 
 :   {term:Open data} produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of {term:Public Sector Information}, which is broader in scope. See <http://opengovernmentdata.org> for details.
 
-Tab-separated values
-
-:   Tab-separated values (TSV) are a very common form of text file format for sharing tabular data. The format is extremely simple and highly {term:machine-readable}.
+Tab-separated values Tab-separated values (TSV - 使用 TAB 鍵來區隔資料欄位) 是一種在分享表格類型資料時常會使用到的文字檔案格式。這種檔案格式極為簡易並具有高度的 {term:machine-readable} (機器可讀性)。

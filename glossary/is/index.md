@@ -1,6 +1,6 @@
 ---
 section: glossary
-lang: en
+lang: is
 title: Glossary
 ---
 
@@ -38,7 +38,7 @@ Data protection legislation
 
 PSI
 
-:   See {term:Public Sector Information}.
+:   Sjá {term:Public Sector Information}.
 
 Public Sector Information
 
@@ -46,7 +46,7 @@ Public Sector Information
 
 API
 
-:   See {term:Application Programming Interface}.
+:   Sjá {term:Application Programming Interface}.
 
 Application Programming Interface
 
@@ -64,7 +64,7 @@ Public domain
 
 :   No copyright exists over the work. Does not exist in all jurisdictions.
 
-Database rights
+Gagnagrunnar rights
 
 :   A right to prevent others from extracting and reusing content from a database. Exists mainly in European jurisdictions.
 
@@ -82,7 +82,7 @@ Open standards
 
 Anonymization
 
-:   See {term:Anonymisation}.
+:   Sjá: {term:Anonymisation}.
 
 Anonymisation
 
@@ -90,7 +90,7 @@ Anonymisation
 
 IP rights
 
-:   See {term:Intellectual property rights}.
+:   Sjá {term:Intellectual property rights}.
 
 Intellectual property rights
 
@@ -98,15 +98,15 @@ Intellectual property rights
 
 AR
 
-:   See {term:Information Asset Register}.
+:   Sjá {term:Information Asset Register}.
 
 IAR
 
-:   See {term:Information Asset Register}.
+:   Sjá {term:Information Asset Register}.
 
 EU
 
-:   European Union.
+:   Evrópusambandið
 
 EU PSI Directive
 
