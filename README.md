@@ -12,4 +12,3 @@ Please see the [Contribute](http://new.opendatahandbook.org/contribute/) section
 
 ###Dependancies
  * [Jekyll](http://jekyllrb.com/)
- 
