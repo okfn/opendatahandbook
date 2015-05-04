@@ -6,9 +6,14 @@
     </div>
     
     <div class="secondary">
+      {% if site.supporters %}
       <h6>Supported by</h6>
-      <a href="https://www.shuttleworthfoundation.org/" rel="external"><img src="{{ "/img/shuttleworth.png" | prepend: site.baseurl }}" width="132" height="34" alt="Shuttleworth Foundation"></a>
-      <a href="http://www.worldbank.org/" rel="external"><img src="{{ "/img/worldbank.png" | prepend: site.baseurl }}" width="76" height="34" alt="The World Bank"></a>
+      {% for supporter in site.supporters %}
+        {% if supporter.footer_logo %}
+        <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>
+        {% endif %}
+      {% endfor %}
+      {% endif %}
     </div>
     
     <div class="tertiary">

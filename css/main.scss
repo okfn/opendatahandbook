@@ -891,6 +891,7 @@ html.mm-background .mm-page,
     }
     img {
       margin-right:15px;
+      height:34px;
     }
     
     @include media($medium-screen) {
@@ -1595,4 +1596,60 @@ html.mm-background .mm-page,
 
 .stories {
   @include outer-container;
+}
+
+
+.credits {
+  @include outer-container;
+  text-align:center;
+  padding-top:$base-spacing * 2;
+  padding-bottom:$base-spacing * 2;
+  
+  h1 {
+    display:inline-block;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    border-bottom:solid 2px $dark-gray;
+    font-size: 0.7em;
+    font-weight: 700;
+    padding: 0.3em 0;
+  }
+  
+  h2 {
+    margin-top:2em;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: lighten($base-font-color,10%);
+    font-family:$serif;
+  }
+  
+  ul {
+  }
+  
+  img {
+    margin-top:1em;
+  }
+  
+  a {
+    color:$base-font-color;
+  }
+  
+  .supporters {
+    
+    li {
+      &:after {
+        content:'+';
+        color: lighten($base-font-color,10%);
+        display:block;
+      }
+      &:last-child:after {
+        display:none;
+      }
+      img {
+        max-height:76px;
+      }
+    }
+  }
 }
