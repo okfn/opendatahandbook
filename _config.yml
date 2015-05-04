@@ -8,6 +8,19 @@ url: "http://new.opendatahandbook.org" # the base hostname & protocol for your s
 github_username:  okfn
 github_repo:  opendatahandbook-v2
 
+supporters:
+  -
+    name: Shuttleworth Foundation
+    logo:
+    footer_logo: shuttleworth-footer.png
+    url: https://www.shuttleworthfoundation.org/
+  -
+    name: The World Bank
+    logo:
+    footer_logo: worldbank-footer.png
+    url: http://www.worldbank.org/
+    
+      
 #googleanalytics: UA-XXXXX-X
 
 # Build settings
