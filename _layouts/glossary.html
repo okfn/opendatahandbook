@@ -1,0 +1,13 @@
+---
+layout: page
+wide: true
+---
+
+<dl>
+{% for term in site.glossary %}
+{% if term.lang == page.lang %}
+<dt>{{ term.title }}</dt>
+<dd>{{ term.content }}</dd>
+{% endif %}
+{% endfor %}
+</dl>

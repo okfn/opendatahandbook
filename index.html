@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 ---
 
 <div class="home">
@@ -16,23 +17,22 @@ layout: default
         <h2>Open Data Guide</h2>
         <p>This guide discusses the legal, social and technical aspects of open data. It can be used by anyone but is especially designed for those seeking to open up data. It discusses the why, what and how of open data – why to go open, what open is, and the how to ‘open’ data.</p>
         <p>We warmly welcome comments on the text and will incorporate feedback as we go forward. We also welcome contributions or suggestions for additional sections and areas to examine.</p>
-      
-        <a href="en/introduction/">Start Reading</a>
-      </div>
 
+        <a href="{{ site.baseurl | append: 'guide/'| append: page.lang | append: '/introduction/'}}">Start Reading</a>
+      </div>
 
       <div>
         <div>
           <h2>Value Stories</h2>
           <p>Use cases, stories and case studies highlighting the social and economic value, the impact and the varied applications of open data from cities and countries across the globe.</p>
-          <a href="{{ "/value-stories/" | prepend: site.baseurl }}">Value Stories</a>
+          <a href="{{ site.baseurl | append: 'value-stories/' | append: page.lang | append: '/' }}">Value Stories</a>
        </div>
       </div>
       <div>
         <div>
           <h2>Resource Library</h2>
           <p>A curated collection of open data resources, including articles, longer publications, how to guides, presentations and videos, produced by the global open data community.</p>
-          <a href="#">Open Data Resources</a>
+          <a href="{{ site.baseurl | append: 'resources/' }}">Open Data Resources</a>
         </div>
       </div>
 

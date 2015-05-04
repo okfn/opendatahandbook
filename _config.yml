@@ -15,36 +15,54 @@ markdown: kramdown
 
 permalink: pretty
 
-defaults: 
+collections:
+  resources:
+    output: true
+    has_translation: false
+    title: Open Data Resources
+  guide:
+    output: true
+    has_translation: true
+    title: Open Data Guide
+  value-stories:
+    output: true
+    has_translation: true
+    title: Open Data Value Stories
+  glossary:
+    output: true
+    has_translation: true
+    title: Open Data Glossary
+
+defaults:
 #en
-  - 
+  -
     scope: #this should be removed once more specific paths are defined
       path: ""
-    values: 
+    values:
       section: Guide
       layout: page
       edit: true
   -
-    scope: 
+    scope:
       path: "en"
-    values: 
+    values:
       lang: en
-  -   
-    scope: 
+  -
+    scope:
       path: "en/guide"
-    values: 
+    values:
       section: Guide
       layout: page
       edit: true
-  -  
-    scope: 
-      path: "contribute" 
-    values: 
+  -
+    scope:
+      path: "contribute"
+    values:
       section: Contribute
       layout: docs
       edit: true
-  - 
-    scope: 
+  -
+    scope:
       type: "posts"
     values:
       section: Value Stories
@@ -52,18 +70,15 @@ defaults:
       layout: post
       edit: true
 #de
-  - 
-    scope: 
+  -
+    scope:
       path: "de"
-    values: 
+    values:
       lang: de
-  -   
-    scope: 
+  -
+    scope:
       path: "de/guide"
-    values: 
+    values:
       section: Guide
       layout: page
-      edit: true 
-
-collections:
-  - resources
+      edit: true
