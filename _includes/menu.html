@@ -1,61 +1,65 @@
-    {% assign current = page.url | downcase | split: '/' %}
+{% assign current = page.url | downcase | split: '/' %}
+
+{% assign guide = site.collections.guide %}
+{% assign glossary = site.collections.glossary %}
+{% assign value-stories = site.collections.value-stories %}
+{% assign resources = site.collections.resources %}
+{% assign guide_entry_point = site.baseurl | append: '/' | append: guide.label | append: '/' | append: page.lang | append: '/' | append: guide.toc.entry_point | append: '/' %}
+
     {% capture sectionlink %}/{% if page.section %}{{ page.section | downcase }}/{% endif %}{{ current.last }}/{% endcapture %}
     <ul>
       <li>
         <a href="{{ site.baseurl }}/">Home</a>
       </li>
- 
       <!-- Handbook menu -->
-      {% for handbook_en in site.data.handbook-contents-en %}
       <!-- check to see if the data file has a submenu, and if so display it -->
-      {% if handbook_en.subcategories != null %}
-      <li {% if current.last == handbook_en.href %}class="Selected"{% endif %}>
-        <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ handbook_en.href }}/">{{ handbook_en.title }}</a>
+      {% if guide.toc.chapters != null %}
+      <li {% if current.last == guide.toc.href %}class="Selected"{% endif %}>
+        <a href="{{ guide_entry_point }}">{{ guide.title }}</a>
         <ul>
-          {% for subcategory in handbook_en.subcategories %}
-          
-          {% capture handbooklink %}/{{ handbook_en.lang }}/{{ subcategory.subhref }}/{% endcapture %}
-          
-          <li {% if page.url == handbooklink %}class="Selected"{% endif %}>
-            <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ subcategory.subhref }}/">{{ subcategory.subtitle }}</a>
-            {% if subcategory.subsections %}
+          {% for chapter in guide.toc.chapters %}
+          {% assign chapter_url = site.baseurl | append: '/' | append:  guide.label | append: '/' | append: chapter.slug | append: '/' | append: page.lang | append: '/' %}
+
+          <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
+            <a href="{{ chapter_url }}">{{ chapter.title }}</a>
+            {% if chapter.sections %}
             <span class="subsections">
-              {% for subsection in subcategory.subsections %}
-              <a href="#{{ subsection.subid }}">{{ subsection.subheading }}</a>
+              {% for section in chapter.sections %}
+              <a href="#{{ section.slug }}">{{ section.title }}</a>
               {% endfor %}
             </span>
             {% endif %}
           </li>
           {% endfor %}
-          
+
           {% include contribute-menu.html %}
+
         </ul>
       </li>
       {% else %}
       <!-- display the top level navigation for items that don’t have a submenu -->
-      <li {% if current.last == handbook_en.href %}class="Selected"{% endif %}>
-        <a href="{{ site.baseurl }}/{{ handbook_en.lang }}/{{ handbook_en.href }}/">{{ handbook_en.title }}</a>
-        {% if subcategory.subsections %}
+      <li {% if current.last == guide.toc.entry_point %}class="Selected"{% endif %}>
+        <a href="{{ guide_entry_point }}">{{ guide.title }}</a>
+        {% if chapter.sections %}
         <span class="subsections">
-          {% for subsection in subcategory.subsections %}
-          <a href="#{{ subsection.subid }}">{{ subsection.subheading }}</a>
+          {% for section in chapter.sections %}
+          <a href="#{{ section.slug }}">{{ section.title }}</a>
           {% endfor %}
         </span>
         {% endif %}
       </li>
-      {% include contribute-menu.html %}  
+      {% include contribute-menu.html %}
       {% endif %}
-      {% endfor %}
-      
+
       <li{% if current.last == 'value-stories' %} class="Selected"{% endif %}>
         <a href="{{ "/value-stories/" | prepend: site.baseurl }}">Open Data Value Stories</a>
         <ul>
-          {% for post in site.posts %}
-          {% assign currentpost = post.url | downcase | split: '/' %}
-          <li{% if current.last == currentpost.last %} class="Selected"{% endif %}><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% for story in site.value-stories %}
+          {% assign story_url = site.baseurl | append: '/' | append: post.url | append: '/' | append: page.lang | append: '/' %}
+          {% assign currentstory = story.url | downcase | split: '/' %}
+          <li{% if current.last == currentstory.last %} class="Selected"{% endif %}><a href="{{ story_url }}">{{ story.title }}</a></li>
           {% endfor %}
         </ul>
       </li>
-      {% include resources-menu.html %} 
+      {% include resources-menu.html %}
     </ul>
-    
