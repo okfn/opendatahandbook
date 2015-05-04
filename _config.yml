@@ -1,5 +1,6 @@
 # Site settings
-title: Open Data Handbook
+title: The Open Data Handbook
+short_title: Open Data Handbook
 email: admin@okfn.org
 description: > # this means to ignore newlines until "baseurl:"
   A collection of research, resources, use cases and guides for civil society and government on the “what, why & how” of open data. 
@@ -8,15 +9,27 @@ url: "http://new.opendatahandbook.org" # the base hostname & protocol for your s
 github_username:  okfn
 github_repo:  opendatahandbook-v2
 
+devs:
+  -
+      name: Sam Smith
+      github: mintcanary
+  -
+      name: Rufus Pollock
+      github: rgrp
+  -
+      name: Paul Walsh
+      github: pwalsh
+      
+
 supporters:
   -
     name: Shuttleworth Foundation
-    logo:
+    logo: shuttleworth.png
     footer_logo: shuttleworth-footer.png
     url: https://www.shuttleworthfoundation.org/
   -
     name: The World Bank
-    logo:
+    logo: worldbank.png
     footer_logo: worldbank-footer.png
     url: http://www.worldbank.org/
     
