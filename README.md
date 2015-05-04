@@ -12,7 +12,7 @@ Please see the [Contribute](http://new.opendatahandbook.org/contribute/) section
 
 The site is divided into 4 distinct sections: Guide, Value Stories, Glossary, and Resources.
 
-Each section is further broken down into directories for localized content, where the directory name represents the language of localization.
+Each section is implemented as a [Jekyll Collection](http://jekyllrb.com/docs/collections/), and further broken down into directories for localized content, where the directory name represents the language of localization.
 
 ### Guide
 
