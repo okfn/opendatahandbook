@@ -4,4 +4,4 @@ lang: en
 title: Copyright
 ---
 
-A right for the creators of creative works to restrict others' use of those works. An owner of copyright is entitled to determine how others may use that work.
+A legal right over ןntellectual property (e.g. a book) belonging to the creator of the work. While individual data (facts) cannot be copyright, a database will in general be covered by copyright protecting the selection and arrangement of data within it. Within the European Union a separate 'database right' protects a database where there was a substantial effort in 'obtaining' the data. A copyright holder may use a {licence} to grant other people rights in the protected material, perhaps subject to specified restrictions.
