@@ -15,6 +15,24 @@ markdown: kramdown
 
 permalink: pretty
 
+collections:
+  resources:
+    output: true
+    has_translation: false
+    title: Open Data Resources
+  guide:
+    output: true
+    has_translation: true
+    title: Open Data Guide
+  value-stories:
+    output: true
+    has_translation: true
+    title: Open Data Value Stories
+  glossary:
+    output: true
+    has_translation: true
+    title: Open Data Glossary
+
 defaults:
 #en
   -

@@ -4,8 +4,8 @@ wide: true
 ---
 
 <dl>
-{% for term in site.pages %}
-{% if term.section == 'terms' and term.lang == page.lang %}
+{% for term in site.glossary %}
+{% if term.lang == page.lang %}
 <dt>{{ term.title }}</dt>
 <dd>{{ term.content }}</dd>
 {% endif %}
