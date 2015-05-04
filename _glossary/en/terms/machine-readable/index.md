@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: en
-title: Machine-readable
+title: Machine readable
 ---
 
-Formats that are machine readable are ones which are able to have their data extracted by computer programs easily. PDF documents are not machine readable. Computers can display the text nicely, but have great difficulty understanding the context that surrounds the text.
+Data in a {data format} that can be automatically read and processed by a computer, such as {CSV}, {JSON}, {XML}, etc. Machine-readable data must be {structured data}. Compare {human-readable}.
