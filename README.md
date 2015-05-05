@@ -10,23 +10,35 @@ Please see the [Contribute](http://new.opendatahandbook.org/contribute/) section
 
 ## Developers
 
-The site is divided into 4 distinct sections: Guide, Value Stories, Glossary, and Resources.
+### Dependancies
 
-Each section is implemented as a [Jekyll Collection](http://jekyllrb.com/docs/collections/), and further broken down into directories for localized content, where the directory name represents the language of localization.
+* [Jekyll](http://jekyllrb.com/)
 
-### Guide
+### Information architecture
+
+The site uses [Jekyll Collections](http://jekyllrb.com/docs/collections/) to group the different components of the Open Data Handbook.
+
+There are four collections: `guide`, `value-stories`, `glossary`, and `resources`.
+
+Some collections have translations. These are implemented by adjacent directories, where the name of the directory is the locale of the translation.
+
+#### Guide
 
 The narrative content of the Open Data Handbook.
 
-### Value Stories
+#### Value Stories
 
 A collection of stories demonstrating examples of open data wins.
 
-### Glossary
+#### Glossary
 
 A glossary explaining terms used in the Open Data Handbook.
 
-#### Working with the glossary
+#### Resources
+
+Additional resources for the Open Data Handbook.
+
+### Working with the glossary
 
 Each glossary (meaning, each glossary *translation*), is made of three components:
 
@@ -39,11 +51,3 @@ Currently, the English glossary has been organized. To expand this pattern to ot
 * Copy the English terms directory into your target language directory
 * If your current index.md has translated glossary terms, then add them to the appropriate page under 'terms', replacing the English text that was copied over from 'en'.
 * Then, replace your target language's index.md file with the 'en' one, changing the `lang` value to that of your target language.
-
-### Resources
-
-Additional resources for the Open Data Handbook.
-
-### Dependancies
-
-* [Jekyll](http://jekyllrb.com/)
