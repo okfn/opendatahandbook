@@ -4,4 +4,4 @@ lang: en
 title: Open Data
 ---
 
-Open data are able to be used for any purpose. More details can be read at [opendefinition.org](http://www.opendefinition.org/).
+{Data} is open if anyone is free to use, reuse, and redistribute it - subject only, at most, to the requirement to {attribute} and/or {share-alike}. See {Open Definition}
