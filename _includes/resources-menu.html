@@ -6,13 +6,13 @@
             <input type="search" placeholder="Search">
           </li>
           -->
-          {% for type in site.data.resources_filters %}
+          {% for type in site.collections.resources.filters %}
 
             {% comment %}This block calculates the unique values of each type{% endcomment %}
             {% assign delimiter = "#" %}
             {% assign names_str = "" %}
             {% assign names = site.resources | map: type %}
-            
+
             {% for name in names %}
                 {% assign names_arr = names_str | split: delimiter %}
                 {% unless names_arr contains name %}
