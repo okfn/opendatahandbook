@@ -62,4 +62,7 @@
         </ul>
       </li>
       {% include resources-menu.html %}
+      <li{% if current.last == 'credits' %} class="Selected"{% endif %}>
+        <a href="{{ "/credits/" | prepend: site.baseurl }}">Credits</a>
+      </li>
     </ul>
