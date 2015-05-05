@@ -25,6 +25,16 @@ $(document).ready(function() {
     );
     
     
+    //dropdown
+    $(".dropdown-button").click(function() {
+      $(".dropdown-menu").toggleClass("show-menu");
+      $(".dropdown-menu > li").click(function(){
+        $(".dropdown-menu").removeClass("show-menu");
+      });
+      
+    });
+    
+    
     //filters
     $("#menu .filter > a").click(function() { 
       $(this).parent('.filter').toggleClass("active");
