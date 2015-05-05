@@ -1,7 +1,7 @@
 //Ribbon
 
 .ok-ribbon {
-  height:62px;
+  height:60px;
   overflow:hidden;
   background-color:#7ab800;
   padding-left:10px;
@@ -18,24 +18,30 @@
 
   .ok-ribbon {
     position:absolute;
-    top:-2px;
+    top:-6px;
     right:10px;
-    width:160px;
+    width:161px;
+    height:64px;
     text-align:center;
     z-index:99;
-    padding:0;
+    padding: 4px 0 0 0;
     background-color:transparent;
+    
+    img {
+      margin-top:-40px;
+    }
        
     &:before {
       content:'';
       position:absolute;
       left:10px;
-      width:140px;
+      top:0;
+      width:141px;
       background-color:#7ab800;
-      height:62px;
-      border-radius: 0 0 12px 12px;
-      -webkit-transform: perspective(100px) rotateX(-14deg);
-      -moz-transform: perspective(100px) rotateX(-14deg);
+      height:67px;
+      border-radius: 0 0 11px 11px;
+      -webkit-transform:  translateZ(-1000px) perspective(100px) rotateX(-18deg); //translateZ fixes Safari bug
+      -moz-transform: perspective(100px) rotateX(-18deg);
       -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
       -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
       box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
@@ -76,7 +82,7 @@
    
     &.white {
       img {
-        margin-top:12px;
+        margin-top:10px;
       }
       &:before {
         background-color:#fff;
@@ -87,7 +93,7 @@
     }
     
     &.open {
-      top:0;
+      top:-4px;
       
       &:after {
         display: inline-block;
@@ -95,7 +101,7 @@
     }
     
     &:hover {
-      top:0;
+      top:-4px;
     }
   }
 }
