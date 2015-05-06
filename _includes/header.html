@@ -1,34 +1,142 @@
+{% assign current = page.url | downcase | split: '/' %}
+{% assign guide = site.meta.guide %}
+{% assign glossary = site.meta.glossary %}
+{% assign value-stories = site.meta.value-stories %}
+{% assign resources = site.meta.resources %}
+{% assign guide_entry_point = site.baseurl | append: '/' | append: guide.label | append: '/' | append: page.lang | append: '/' | append: guide.toc.entry_point | append: '/' %}
+{% assign value-stories_entry_point = site.baseurl | append: '/' | append: value-stories.label | append: '/' | append: page.lang | append: '/' %}
+{% assign resources_entry_point = site.baseurl | append: '/' | append: resources.label | append: '/' %}
+{% assign credits_entry_point = site.baseurl | append: '/credits/' %}
+
+
 <header class="site-header">
-    <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
 </header>
 
 <div class="language dropdown">
   <span class="dropdown-description">Language:</span>
   <span class="dropdown-button">English</span>
   <ul class="dropdown-menu dropdown-select">
-    <li><a href="#">English</a></li>
-    <li><a href="#">Bahasa</a></li>
-    <li><a href="#">Deutsch</a></li>
-    <li><a href="#">Ελληνικά</a></li>
-    <li><a href="#">Español/Castellano</a></li>
-    <li><a href="#">Français</a></li>
-    <li><a href="#">עברית</a></li>
-    <li><a href="#">Íslenska</a></li>
-    <li><a href="#">Italiano</a></li>
-    <li><a href="#">日本語</a></li>
-    <li><a href="#">Latviešu</a></li>
-    <li><a href="#">Lietuvių</a></li>
-    <li><a href="#">Nederlands (Belgisch)</a></li>
-    <li><a href="#">Português Brasileiro</a></li>
-    <li><a href="#">Română</a></li>
-    <li><a href="#">Pyccĸий</a></li>
-    <li><a href="#">中国语文</a></li>
-    <li><a href="#">繁體中文</a></li>
-    <li><a href="#">한국어</a></li>
+    {% for language in site.languages %}
+    <li><a href="/{{ language[0] }}/">{{ language[1] }}</a></li>
+    {% endfor %}
   </ul>
 </div>
 
 <nav id="menu">
-  {% include menu.html %}
+  <ul>
+
+    <li>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+
+    <li {% if current.last == guide.toc.entry_point %}class="Selected"{% endif %}>
+      <a href="{{ guide_entry_point }}">{{ guide.title }}</a>
+
+      <ul>
+
+        <!-- start navigation for guide section -->
+        {% for chapter in guide.toc.chapters %}
+        {% assign chapter_url = site.baseurl | append: '/' | append:  guide.label | append: '/' |  append: page.lang | append: '/' | append: chapter.slug | append: '/' %}
+        <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
+          <a href="{{ chapter_url }}">{{ chapter.title }}</a>
+          {% if chapter.sections %}
+          <span class="subsections">
+            {% for section in chapter.sections %}
+            <a href="#{{ section.slug }}">{{ section.title }}</a>
+            {% endfor %}
+          </span>
+          {% endif %}
+        </li>
+        {% endfor %}
+        <!-- end navigation for guide section -->
+
+        <!-- start navigation for contribute section -->
+        <li class="Spacer{% if current.last == 'contribute' %} Selected{% endif %}">
+          <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
+          <ul>
+            <li {% if current.last == 'contribute' %} class="Selected"{% endif %}>
+              <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contributing to the handbook</a>
+            </li>
+            <li {% if sectionlink == '/contribute/editing/' %} class="Selected"{% endif %}>
+              <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>
+            </li>
+            <li {% if sectionlink == '/contribute/adding/' %} class="Selected"{% endif %}>
+              <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
+            </li>
+            <li {% if sectionlink == '/contribute/markdown-examples/' %} class="Selected"{% endif %}>
+              <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">Markdown Examples</a>
+            </li>
+          </ul>
+        </li>
+        <!-- end navigation for contribute section -->
+
+      </ul>
+    </li>
+
+    <!-- start navigation for value stories section -->
+    <li{% if current.last == 'value-stories' %} class="Selected"{% endif %}>
+      <a href="{{ value-stories_entry_point }}">Open Data Value Stories</a>
+      <ul>
+        {% for story in site.value-stories %}
+        {% assign story_url = site.baseurl | append: '/' | append: post.url | append: '/' | append: page.lang | append: '/' %}
+        {% assign currentstory = story.url | downcase | split: '/' %}
+        <li{% if current.last == currentstory.last %} class="Selected"{% endif %}><a href="{{ story_url }}">{{ story.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+    <!-- end navigation for value stories section -->
+
+    <!-- start navigation for resources section -->
+    <li{% if current.last == 'resources' %} class="Selected"{% endif %}>
+      <a href="{{ resources_entry_point }}">Open Data Resources</a>
+      <ul>
+        <!--
+            <li class="search">
+              <input type="search" placeholder="Search">
+            </li>
+            -->
+        {% for type in site.meta.resources.filters %}
+
+        {% comment %}This block calculates the unique values of each type{% endcomment %}
+        {% assign delimiter = "#" %}
+        {% assign names_str = "" %}
+        {% assign names = site.resources | map: type %}
+
+        {% for name in names %}
+        {% assign names_arr = names_str | split: delimiter %}
+        {% unless names_arr contains name %}
+        {% assign names_str = names_str | append: delimiter | append: name %}
+        {% endunless %}
+        {% endfor %}
+        {% assign names_uniq = names_str | remove_first: delimiter | split:delimiter %}
+
+        <li class="filter">
+          <a>{{ type }}</a>
+          <span class="filter-items">
+
+            {% comment %}Calculate the number of each unique value{% endcomment %}
+            {% for name in names_uniq %}
+            {% assign counter = 0 %}
+            {% for resource in names %}
+            {% if name == resource %}
+            {% assign counter = counter | plus: 1 %}
+            {% endif %}
+            {% endfor %}
+            <a data-filter="{{ type }}" data-value="{{ name }}">{{ name }}<span class="count">{{ counter }}</span></a>
+            {% endfor% %}
+          </span>
+        </li>
+
+        {% endfor %}
+      </ul>
+    </li>
+    <!-- end navigation for resources section -->
+
+    <li{% if current.last == 'credits' %} class="Selected"{% endif %}>
+      <a href="{{ credits_entry_point }}">Credits</a>
+    </li>
+  </ul>
+
 </nav>
