@@ -42,6 +42,7 @@
       border-radius: 0 0 11px 11px;
       -webkit-transform:  translateZ(-1000px) perspective(100px) rotateX(-18deg); //translateZ fixes Safari bug
       -moz-transform: perspective(100px) rotateX(-18deg);
+      transform: perspective(100px) rotateX(-18deg);
       -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
       -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
       box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
