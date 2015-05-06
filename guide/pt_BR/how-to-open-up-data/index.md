@@ -45,7 +45,7 @@ Pergunte à comunidade
 
 Recomendamos que você consulte comunidade, quando for abrir seus dados pela primeira vez. Comunidade são as pessoas que vão acessar e usar os dados. Elas provavelmente terão um bom entendimento de que dados seriam valiosos.
 
-1. Prepare uma lista curta de conjuntos de dados em potencial sobre os quais você poderia obter retorno. Não é essencial que essa lista coincida com as suas expectativas. O principal objetivo aqui, é sentir a demanda. Ela pode ser baseada nos catálogos de {term:{dados abertos} {Open Data}} de outros países.
+1. Prepare uma lista curta de conjuntos de dados em potencial sobre os quais você poderia obter retorno. Não é essencial que essa lista coincida com as suas expectativas. O principal objetivo aqui, é sentir a demanda. Ela pode ser baseada nos catálogos de {term:{dados abertos} [Open Data](/glossary/pt_BR/terms/open-data/)} de outros países.
 
 2. Faça uma consulta pública.   
 
@@ -145,7 +145,7 @@ O FTP caiu em desuso. Navegar por um servidor FTP, em vez de em um website, é c
 
 #### Na forma de torrents
 
-{term:BitTorrent} é um sistema que tornou-se familiar a formuladores de políticas por causa de sua associação com violações de direitos autorais. O BitTorrent utiliza arquivos chamados torrents, que funcionam dividindo o custo de distribuição de arquivos entre todas as pessoas que acessam esses arquivos. Em vez de servidores centralizados e sobrecarregados, a oferta aumenta na medida em que a demanda aumenta. Este é o motivo do sucesso desse sistema no compartilhamento de filmes. É uma maneira incrivelmente eficiente de se distribuir volumes muito grandes de dados.
+[BitTorrent](/glossary/pt_BR/terms/bittorrent/) é um sistema que tornou-se familiar a formuladores de políticas por causa de sua associação com violações de direitos autorais. O BitTorrent utiliza arquivos chamados torrents, que funcionam dividindo o custo de distribuição de arquivos entre todas as pessoas que acessam esses arquivos. Em vez de servidores centralizados e sobrecarregados, a oferta aumenta na medida em que a demanda aumenta. Este é o motivo do sucesso desse sistema no compartilhamento de filmes. É uma maneira incrivelmente eficiente de se distribuir volumes muito grandes de dados.
 
 #### Como uma API
 
@@ -164,7 +164,7 @@ O acesso a dados em grande volume garante que:
 
 Fornecer dados em volume permite a terceiros usar os dados além de seus propósitos originais. Por exemplo, permite que eles sejam convertidos a um novo formato, ligados a outras fontes, ou versionados e arquivados em múltiplos lugares. Embora a versão mais atualizada dos dados possa ser disponibilizada por uma API, os dados brutos devem ser disponibilizados em volume em intervalos regulares.
 
-O serviço estatístico do Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\>, por exemplo, tem uma funcionalidade de download em volume que oferece acima de 4000 arquivos de dados. Ele é atualizado duas vezes ao dia, oferece dados em formato {term:{Valores Separados por Tabulação} {Tab-separated values}} (TSV, na sigla em inglês) e inclui documentação sobre a funcionalidade de download, bem como sobre os arquivos de dados.
+O serviço estatístico do Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\>, por exemplo, tem uma funcionalidade de download em volume que oferece acima de 4000 arquivos de dados. Ele é atualizado duas vezes ao dia, oferece dados em formato {term:{Valores Separados por Tabulação} [Tab-separated values](/glossary/pt_BR/terms/tab-separated-values/)} (TSV, na sigla em inglês) e inclui documentação sobre a funcionalidade de download, bem como sobre os arquivos de dados.
 
 Outro exemplo é o Catálogo de Dados de OCTO do Distrito de Colúmbia \<http://octo.dc.gov/DC/OCTO/\>, que permite que os dados sejam descarregados nos formatos CSV e XLS, além de feeds em tempo real dos dados.
 

@@ -14,7 +14,7 @@ BitTorrent BitTorrent is een protocol voor het verdelen van bandbreedte voor het
 
 DAP
 
-:   Zie {term:Data Access Protocol}.
+:   Zie [Data Access Protocol](/glossary/nl_BE/terms/data-access-protocol/).
 
 Data Access Protocol Een systeem dat buitenstaanders in staat stelt toegang te verkrijgen tot databases zonder enig systeem te belasten.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Gebruik van de inhoud buiten zijn oorspronkelijke bedoeling.
 
-Open standards Algemeen beschouwd als technische standaarden die vrij zijn van licentierestricties. Kan ook geïnterpreteerd worden als standaarden die zijn ontwikkeld op een leverancier-onafhankelijke wijze. Anonymization See {term:Anonymisation}.
+Open standards Algemeen beschouwd als technische standaarden die vrij zijn van licentierestricties. Kan ook geïnterpreteerd worden als standaarden die zijn ontwikkeld op een leverancier-onafhankelijke wijze. Anonymization See [Anonymisation](/glossary/nl_BE/terms/anonymisation/).
 
 Anonymisation
 
@@ -68,11 +68,11 @@ Intellectual property rights
 
 AR
 
-:   Zie {term:Information Asset Register}.
+:   Zie [Information Asset Register](/glossary/nl_BE/terms/information-asset-register/).
 
 IAR
 
-:   Zie {term:Information Asset Register}.
+:   Zie [Information Asset Register](/glossary/nl_BE/terms/information-asset-register/).
 
 EU
 

@@ -10,7 +10,7 @@ Această secțiune privește la lucruri suplimentare ce pot fi făcute pentru a 
 
 ## Împărtășește lumii
 
-În primul rând, spune că ai intrat într-o campanie care promovează {term:open data} în domeniul tău de expertiză.
+În primul rând, spune că ai intrat într-o campanie care promovează [open data](/glossary/ro/terms/open-data/) în domeniul tău de expertiză.
 
 Dacă deschizi mai multe seturi de date, merită să îți răpești puțin din timpul tău pentru a le spune și altora, sau să faci în așa fel încât să poată avea și alții acces la aceste informații.
 

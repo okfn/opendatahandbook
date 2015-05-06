@@ -14,7 +14,7 @@ BitTorrent BitTorrent - это сетевой протокол для распр
 
 DAP
 
-:   См. {term:Data Access Protocol}.
+:   См. [Data Access Protocol](/glossary/ru/terms/data-access-protocol/).
 
 Data Access Protocol Система, которая позволяет неспециалистам получить доступ к базам данных не создавая повышенной нагрузки на них.
 
@@ -24,7 +24,7 @@ Data protection legislation Законы о защите данных нужны
 
 PSI
 
-:   См. {term:Public Sector Information}.
+:   См. [Public Sector Information](/glossary/ru/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   См. {term:Application Programming Interface}.
+:   См. [Application Programming Interface](/glossary/ru/terms/application-programming-interface/).
 
 Application Programming Interface Способ, которым компьютеры общаются друг с другом. Можно представлять себе, что программист пересылает инструкции от программы к программе.
 
 Web API
 
-:   {term:API} разработанный для работы через сеть Интернет.
+:   [API](/glossary/ru/terms/api/) разработанный для работы через сеть Интернет.
 
 Share-alike License Лицензия которая требует от пользователей распространять произведение на тех же или похожих условиях, что и оригинал.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Использование содержания способами, которые исходно не подразумевались.
 
-Open standards Под этим принято подразумевать технические стандарты свободные от лицензионных ограничений. Также можно рассматривать как означающее стандарты которые разрабатываются вне зависимости от каких-либо поставщиков. Anonymization See {term:Anonymisation}.
+Open standards Под этим принято подразумевать технические стандарты свободные от лицензионных ограничений. Также можно рассматривать как означающее стандарты которые разрабатываются вне зависимости от каких-либо поставщиков. Anonymization See [Anonymisation](/glossary/ru/terms/anonymisation/).
 
 Anonymisation
 
@@ -60,7 +60,7 @@ Anonymisation
 
 IP rights
 
-:   См. {term:Intellectual property rights}.
+:   См. [Intellectual property rights](/glossary/ru/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -68,11 +68,11 @@ Intellectual property rights
 
 AR
 
-:   См. {term:Information Asset Register}.
+:   См. [Information Asset Register](/glossary/ru/terms/information-asset-register/).
 
 IAR
 
-:   См. {term:Information Asset Register}.
+:   См. [Information Asset Register](/glossary/ru/terms/information-asset-register/).
 
 EU
 

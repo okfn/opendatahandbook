@@ -16,7 +16,7 @@ XML este un format pentru schimbul de date folosit pe scară largă, deoarece of
 
 ### RDF
 
-Un format recomandat de W3C ce face posibilă reprezentarea datelor într-o formă ce face ușoară combinarea din mai multe surse. Datele RDF pot fi stocate în XML și JSON, printre altele. RDF încurajează folosirea URL ca identificatori, care oferă un mod convenabil de a interconecta inițiativele de {term:open data} de pe web. RDF nu este încă foarte răspândit, dar a devenit o tendință printre inițiativele de guvernare deschisă, inclusiv proiectele de date deschise conectate ale guvernelor Marii Britanii și Spaniei (British and Spanish Government Linked Open Data). Inventatorul Web, Tim Berners-Lee, a propus o schemă cinci-stele ([fivesstar](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/)) care include date RDF conectate ca scop al căutării de inițiative pentru date deschise.
+Un format recomandat de W3C ce face posibilă reprezentarea datelor într-o formă ce face ușoară combinarea din mai multe surse. Datele RDF pot fi stocate în XML și JSON, printre altele. RDF încurajează folosirea URL ca identificatori, care oferă un mod convenabil de a interconecta inițiativele de [open data](/glossary/ro/terms/open-data/) de pe web. RDF nu este încă foarte răspândit, dar a devenit o tendință printre inițiativele de guvernare deschisă, inclusiv proiectele de date deschise conectate ale guvernelor Marii Britanii și Spaniei (British and Spanish Government Linked Open Data). Inventatorul Web, Tim Berners-Lee, a propus o schemă cinci-stele ([fivesstar](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/)) care include date RDF conectate ca scop al căutării de inițiative pentru date deschise.
 
 ### Foi de Calcul
 

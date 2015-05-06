@@ -44,7 +44,7 @@ Nu există **nici o cerință** pentru crearea unei liste atotcuprinzătoare a s
 
 Îți recomandăm în primul rând să întrebi comunitatea. Aceasta reprezintă persoanele care vor accesa și utiliza datele, astfel încât s-ar putea să aibă o bună înțelegere a datelor care ar putea fi de valoare.
 
-1.  Pregătește o listă scurtă a eventualelor seturi de date asupra cărora dorești opinii. Nu este nevoie ca această listă să corespundă așteptărilor tale, intenția principală este să obții un indiciu asupra cererii. Lista se poate baza pe cataloagele de {term:open data} ale altor țări.
+1.  Pregătește o listă scurtă a eventualelor seturi de date asupra cărora dorești opinii. Nu este nevoie ca această listă să corespundă așteptărilor tale, intenția principală este să obții un indiciu asupra cererii. Lista se poate baza pe cataloagele de [open data](/glossary/ro/terms/open-data/) ale altor țări.
 2.  Creează o solicitare de comentarii.
 3.  Publică solicitarea ta pe o pagină web. Fii sigur că este posibilă accesarea solicitării printr-un URL propriu. Astfel, solicitarea poate fi găsită ușor când este distribuită prin rețele sociale.
 4.  Pune la dispoziție modalități simple pentru trimiterea răspunsurilor. Evită înregistrări obligatorii, deoarece acestea reduc numărul răspunsurilor.
@@ -82,7 +82,7 @@ Un scurt ghid de instrucțiuni de o pagină referitor la aplicarea licențelor p
 
 ## Fă datele accesibile (deschiderea tehnică)
 
-{term:Open data} trebuie să fie atât deschise din punct de vedere tehnic cât și din punct de vedere legal. Mai precis, datele trebuie să fie disponibile în vrac (bulk), într-un format care poate fi citit de către un calculator ({term:machine-readable}).
+[Open data](/glossary/ro/terms/open-data/) trebuie să fie atât deschise din punct de vedere tehnic cât și din punct de vedere legal. Mai precis, datele trebuie să fie disponibile în vrac (bulk), într-un format care poate fi citit de către un calculator ({term:machine-readable}).
 
 **Available**
 
@@ -106,7 +106,7 @@ Mai jos câteva direcții care vor aduce beneficii majore:
 
 Sunt foarte multe moduri diferite de a face datele accesibile către alții. Cel mai natural mod, în epoca Internetului, este publicarea online. Există multe variațiuni ale acestui model. Formula de bază este ca agențiile care dețin date publice să asigure accesul la date prin intermediul proprilor sit-uri web, iar un catalog central direcționează vizitatorii către sursa adecvată. În orice caz, există alternative.
 
-Când conectivitatea ({term:connectivity}) este limitată sau mărimea setului de date este este extrem de mare, ar putea fi asigurată distribuirea prin intermediul altor formate. Această secțiune va discuta alternative care ar putea avea un rol în a menține tarifele foarte scăzute.
+Când conectivitatea ([connectivity](/glossary/ro/terms/connectivity/)) este limitată sau mărimea setului de date este este extrem de mare, ar putea fi asigurată distribuirea prin intermediul altor formate. Această secțiune va discuta alternative care ar putea avea un rol în a menține tarifele foarte scăzute.
 
 ### Metode online
 
@@ -159,7 +159,7 @@ Un alt exemplu este Catalogul de Date al Districtului Columbia (District of Colu
 
 ## Fă datele cât mai ușor de găsit
 
-Datele deschise ({term:Open data}) nu înseamnă nimic fără utilizatori. Trebuie să fii sigur de faptul că oamenii vor găsi materialul-sursă. Această secțiune va acoperi diverse abordări de acest gen.
+Datele deschise ([Open data](/glossary/ro/terms/open-data/)) nu înseamnă nimic fără utilizatori. Trebuie să fii sigur de faptul că oamenii vor găsi materialul-sursă. Această secțiune va acoperi diverse abordări de acest gen.
 
 Cel mai important lucru este crearea unui spațiu neutru care să poată depăși atât politicile inter-agenții, cât și ciclurile bugetare viitoare. Frontierele juridice, atât cele sectoriale, cât și cele geografice, pot face cooperarea dificilă. Cu toate acestea, există beneficii semnificative în cazul îmbinării acestor forțe. Cu cât este mai ușor pentru cei din afară să descopere datele, cu atât mai repede se vor construi instrumente noi și utile.
 

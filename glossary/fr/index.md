@@ -44,7 +44,7 @@ Application Programming Interface
 
 Web API
 
-:   Une {term:API} qui est conçu pour fonctionner sur Internet.
+:   Une [API](/glossary/fr/terms/api/) qui est conçu pour fonctionner sur Internet.
 
 Share-alike License
 
@@ -62,7 +62,7 @@ Re-use
 
 :   Utilisation du contenu en dehors de son intention initiale.
 
-Open standards Généralement compris comme standards techniques libres de restrictions en terme de licence. Peut également être interprété comme standards développés de manière neutre par rapport au vendeur. Anonymization See {term:Anonymisation}.
+Open standards Généralement compris comme standards techniques libres de restrictions en terme de licence. Peut également être interprété comme standards développés de manière neutre par rapport au vendeur. Anonymization See [Anonymisation](/glossary/fr/terms/anonymisation/).
 
 Anonymisation
 
@@ -78,11 +78,11 @@ Intellectual property rights
 
 AR
 
-:   See {term:Information Asset Register}.
+:   See [Information Asset Register](/glossary/fr/terms/information-asset-register/).
 
 IAR
 
-:   See {term:Information Asset Register}.
+:   See [Information Asset Register](/glossary/fr/terms/information-asset-register/).
 
 EU
 
@@ -92,7 +92,7 @@ EU PSI Directive La *Directive concernant la réutilisation des données du sect
 
 Information Asset Register Les IAR sont des registres conçus pour collecter et organiser les méta-données relatives aux vastes quantités d'information prises en charge par les services et agences gouvernementaux. Un IAR exhaustif comprend des bases de données, les anciens ensembles de fichiers, les fichiers électroniques plus récents, des collections statistiques et de recherche, etc.
 
-> The {term:EU PSI Directive} recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
+> The [EU PSI Directive](/glossary/fr/terms/eu-psi-directive/) recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
 >
 >     Tools that help potential re-users to find documents available
 >     for re-use and the conditions for re-use can facilitate
@@ -113,7 +113,7 @@ Information Asset Register Les IAR sont des registres conçus pour collecter et 
 
 Open Government Data
 
-:   {term:Open data} produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of {term:Public Sector Information}, which is broader in scope. See <http://opengovernmentdata.org> for details.
+:   [Open data](/glossary/fr/terms/open-data/) produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of [Public Sector Information](/glossary/fr/terms/public-sector-information/), which is broader in scope. See <http://opengovernmentdata.org> for details.
 
 Tab-separated values
 

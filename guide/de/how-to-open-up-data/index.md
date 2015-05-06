@@ -157,7 +157,7 @@ Zugang zu Datenrepositories stellt sicher, dass:
 
 Daten als komplett Paket zum Download anzubieten erlaubt es anderen, diese Daten abseits ihrer ursprünglichen Zwecke zu nutzen. Daten können z.B. in ein anderes Format gebracht werden oder mit anderen Daten zusammengestellt werden.
 
-Die Server von Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\> bieten mehr als 4000 Dateien zum Download an. Diese werden zweimal täglich aktualisiert und bieten Daten im {term:Tab-separated values} (TSV) Format an. Außerdem ist eine umfangreiche Dokumentation beigefügt.
+Die Server von Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\> bieten mehr als 4000 Dateien zum Download an. Diese werden zweimal täglich aktualisiert und bieten Daten im [Tab-separated values](/glossary/de/terms/tab-separated-values/) (TSV) Format an. Außerdem ist eine umfangreiche Dokumentation beigefügt.
 
 Ein anders Beispiel ist der Daten Katalog von Washington D.C. \<http://octo.dc.gov/DC/OCTO/\>, der die Daten neben CSV und XLS auch als Live-Feed zum Download anbietet.
 

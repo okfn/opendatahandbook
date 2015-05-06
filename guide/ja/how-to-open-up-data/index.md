@@ -44,7 +44,7 @@ There is **no requirement** to create a comprehensive list of your datasets. The
 
 まずはじめに、コミュニティに聞いてみることをおすすめする。コミュニティとは、実際にそのデータにアクセスしたりデータを使ったりしている人のことである。彼らはきっと、どのデータに価値があるかをよく知っているだろう。
 
-1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' {term:open data} catalogs.
+1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' [open data](/glossary/ja/terms/open-data/) catalogs.
 2.  提案文書を作成する。
 3.  提案文書をウェブページに公開する。その提案を指す一意なURLを用意し、直接アクセスできるようにしておこう。そうすればソーシャルメディアでの共有がしやすくなり、提案が発見されやすくなる。
 4.  簡単に意見を表明できる方法を提供する。登録をしないと意見を投稿できないなどということはやめよう。そんなことをすれば、反応が少なくなってしまう。
@@ -135,11 +135,11 @@ FTPにはかつてほどの人気はなくなった。ウェブサイトを提�
 
 #### torrentで
 
-{term:BitTorrent} は、政府の人間にはおなじみになりつつあるシステムだろう。というのも、著作権違反に関連して語られることが多くなったからである。BitTorrentは、torrentsというファイルを利用するシステムであり、ファイルにアクセスしようとする人たちにコストを分散させる仕組みがある。サーバーにだけ負荷をかけるのではなく、需要が増加するのにあわせて供給も増やすようにしている。だからこそ、このシステムは動画の共有の世界で成功したのだ。大規模なデータを配布するためのシステムとして、これは非常に効率的なものだ。
+[BitTorrent](/glossary/ja/terms/bittorrent/) は、政府の人間にはおなじみになりつつあるシステムだろう。というのも、著作権違反に関連して語られることが多くなったからである。BitTorrentは、torrentsというファイルを利用するシステムであり、ファイルにアクセスしようとする人たちにコストを分散させる仕組みがある。サーバーにだけ負荷をかけるのではなく、需要が増加するのにあわせて供給も増やすようにしている。だからこそ、このシステムは動画の共有の世界で成功したのだ。大規模なデータを配布するためのシステムとして、これは非常に効率的なものだ。
 
 #### APIとして
 
-データの公開を {term:Application Programming Interface} (API)で行うこともできる。この方式は、近年はやりつつある。すべてのデータを巨大なファイルで一括提供するのではなく、プログラマー側で特定の箇所を選んで取得できるようにする仕組みだ。APIは一般的にデータベースにつながっており、データはリアルタイムに更新される。つまり、情報をAPI経由で公開しておけばそれが常に最新であることを保証できるというわけだ。
+データの公開を [Application Programming Interface](/glossary/ja/terms/application-programming-interface/) (API)で行うこともできる。この方式は、近年はやりつつある。すべてのデータを巨大なファイルで一括提供するのではなく、プログラマー側で特定の箇所を選んで取得できるようにする仕組みだ。APIは一般的にデータベースにつながっており、データはリアルタイムに更新される。つまり、情報をAPI経由で公開しておけばそれが常に最新であることを保証できるというわけだ。
 
 すべてのデータに対する主導権を握るには、一括で公開することをまず考えなければならない。APIとして提供すれば、次のようなコストが発生する。
 
@@ -154,7 +154,7 @@ FTPにはかつてほどの人気はなくなった。ウェブサイトを提�
 
 データを一括で提供すれば、他の人たちが本来の目的を超えてデータを活用できるようになる。たとえば別のフォーマットに変換したり他のリソースとリンクさせたり、バージョン管理して複数の場所でアーカイブしたりといった具合だ。最新版のデータがAPI経由で取得できるようにしたとしても、生のデータも定期的に一括公開しておくべきだ。
 
-For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in {term:Tab-separated values} (TSV) format, and includes documentation about the download facility as well as about the data files.
+For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/ja/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
 
 Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
 

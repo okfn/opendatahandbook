@@ -134,11 +134,11 @@ FTP jauh dari kenikmatan. Daripada menyediakan sebuah situs, melihat melalui seb
 
 #### Sebagai torrent
 
-{term:BitTorrent} adalah sebuah sistem yang telah menjadi akrab bagi para pembuat kebijakan karena korelasinya dengan isu pelanggaran hak cipta. BitTorrent menggunakan file-file yang disebut torrent, yang bekerja dengan memisahkan biaya distribusi file-file di antara orang-orang yang mengakses file-file tersebut. Alih-alih, server menjadi kelebihan beban, pasokan menjadi meningkat seiring dengan meningkatnya permintaan. Hal inilah yang menjadi alasan sistem ini menjadi sangat sukses dalam berbagi film. Ini adalah cara yang luar biasa efisiennya untuk mendistribusikan volume data yang sangat besar.
+[BitTorrent](/glossary/id/terms/bittorrent/) adalah sebuah sistem yang telah menjadi akrab bagi para pembuat kebijakan karena korelasinya dengan isu pelanggaran hak cipta. BitTorrent menggunakan file-file yang disebut torrent, yang bekerja dengan memisahkan biaya distribusi file-file di antara orang-orang yang mengakses file-file tersebut. Alih-alih, server menjadi kelebihan beban, pasokan menjadi meningkat seiring dengan meningkatnya permintaan. Hal inilah yang menjadi alasan sistem ini menjadi sangat sukses dalam berbagi film. Ini adalah cara yang luar biasa efisiennya untuk mendistribusikan volume data yang sangat besar.
 
 #### Sebagai sebuah API
 
-Data dapat dipublikasikan melalui {term:Application Programming Interface} (API). Antarmuka ini telah menjadi sangat populer. Ia memungkinkan para pemrogram untuk memilih secara spesifik jumlah datanya, daripa menyediakan semua data secara masal dengan sebuah file yang besar. API biasanya terhubung ke basisdata yang terus diperbarui secara aktual. Hal ini berarti membuat informasi menjadi tersedia melalui API dapat memastikan data itu selalu terperbarui.
+Data dapat dipublikasikan melalui [Application Programming Interface](/glossary/id/terms/application-programming-interface/) (API). Antarmuka ini telah menjadi sangat populer. Ia memungkinkan para pemrogram untuk memilih secara spesifik jumlah datanya, daripa menyediakan semua data secara masal dengan sebuah file yang besar. API biasanya terhubung ke basisdata yang terus diperbarui secara aktual. Hal ini berarti membuat informasi menjadi tersedia melalui API dapat memastikan data itu selalu terperbarui.
 
 Mempublikaskan data mentah secara masal harus menjadi perhatian khusus dari semua inisiatif data terbuka. Terdapat jumlah biaya untuk menyediakan sebuah API:
 
@@ -153,7 +153,7 @@ Akses ke data masal dapat memastikan bahwa:
 
 Menyediakan data secara masal memungkinkan orang lain untuk menggunakan data di luar tujuan awalnya. Misalnya, hal itu dapat memungkinkan untuk diubah menjadi format baru, terkait dengan sumber daya lainnya, atau diversi dan arsiparis di banyak tempat. Sedangkan versi terbaru dari data dapat dibuat tersedia melalui API, data mentah harus disediakan dalam jumlah besar secara berkala.
 
-Sebagai contoh, [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) mempunyai fasilitas pengunduhan masal yang menawarkan lebih dari 4000 file data. Selalu diperbarui dua hari sekali, menawarkan data dalam format {term:Tab-separated values} (TSV), dan termasuk dokumentasi mengenai fasilitas pengunduhan sebagaimana dokumentasi tentang file datanya.
+Sebagai contoh, [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) mempunyai fasilitas pengunduhan masal yang menawarkan lebih dari 4000 file data. Selalu diperbarui dua hari sekali, menawarkan data dalam format [Tab-separated values](/glossary/id/terms/tab-separated-values/) (TSV), dan termasuk dokumentasi mengenai fasilitas pengunduhan sebagaimana dokumentasi tentang file datanya.
 
 Contoh lainnya adalah [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), yang memungkinkan data untuk diunduh dalam format CSV dan XLS dan sebagai tambahannya feeds langsung dari data.
 

@@ -52,7 +52,7 @@ Re-use
 
 :   שימוש בתוכן, שלא על-פי הכוונה המקורית שלו
 
-Open standards בדרך כלל מובנים כסטנדרטים טכניים, שאינם דורשים רישוי. ניתנים גם לפירוש כסטנדרטים מסחריים נייטרליים. Anonymization See {term:Anonymisation}.
+Open standards בדרך כלל מובנים כסטנדרטים טכניים, שאינם דורשים רישוי. ניתנים גם לפירוש כסטנדרטים מסחריים נייטרליים. Anonymization See [Anonymisation](/glossary/he/terms/anonymisation/).
 
 Anonymisation
 

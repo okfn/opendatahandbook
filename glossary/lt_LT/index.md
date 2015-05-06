@@ -14,7 +14,7 @@ BitTorrent BitTorrent yra protokolas, leidžiantis paskirstyti ryšio resursus s
 
 DAP
 
-:   Žr. {term:Data Access Protocol}.
+:   Žr. [Data Access Protocol](/glossary/lt_LT/terms/data-access-protocol/).
 
 Data Access Protocol Sistema, leidžianti pašaliniams vartotojams prieiti prie duomenų bazių neperkraunant visos sistemos.
 
@@ -24,7 +24,7 @@ Data protection legislation Duomenų apsaugos teisės tikslas - ne apsaugoti duo
 
 PSI
 
-:   Žr. {term:Public Sector Information}.
+:   Žr. [Public Sector Information](/glossary/lt_LT/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   Žr. {term:Application Programming Interface}.
+:   Žr. [Application Programming Interface](/glossary/lt_LT/terms/application-programming-interface/).
 
 Application Programming Interface Būdas kompiuterių programoms "kalbėtis" viena su kita. API naudojasi programuotojas, siųsdamas instrukcijas tarp programų.
 
 Web API
 
-:   {term:API}, kuri sukurta dirbti internetu.
+:   [API](/glossary/lt_LT/terms/api/), kuri sukurta dirbti internetu.
 
 Share-alike License Licencija, reikalaujanti, kad asmuo, panaudojęs ir platinantis turinį, jam pritaikytų tokią pačią arba panašią licenciją, pagal kurią tuos duomenis naudojo pats.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Turinio naudojimas ne pagal originalią paskirtį.
 
-Open standards Bendai suprantamas kaip techninis standartas nesusijęs su licenzijavimo apribojimais. Gali būti suprantamas kaip prastas standartas sukurtas prekeivio būdu. Anonymization See {term:Anonymisation}.
+Open standards Bendai suprantamas kaip techninis standartas nesusijęs su licenzijavimo apribojimais. Gali būti suprantamas kaip prastas standartas sukurtas prekeivio būdu. Anonymization See [Anonymisation](/glossary/lt_LT/terms/anonymisation/).
 
 Anonymisation
 
@@ -60,7 +60,7 @@ Anonymisation
 
 IP rights
 
-:   Žr. {term:Intellectual property rights}.
+:   Žr. [Intellectual property rights](/glossary/lt_LT/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -68,11 +68,11 @@ Intellectual property rights
 
 AR
 
-:   Žr. {term:Information Asset Register}
+:   Žr. [Information Asset Register](/glossary/lt_LT/terms/information-asset-register/)
 
 IAR
 
-:   Žr. {term:Information Asset Register}
+:   Žr. [Information Asset Register](/glossary/lt_LT/terms/information-asset-register/)
 
 EU
 

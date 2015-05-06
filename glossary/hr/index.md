@@ -52,7 +52,7 @@ Re-use
 
 :   Korištenje sadržaja izvan originalne namjene.
 
-Open standards Obično definirani kao tehnički standardi koji su oslobođeni licencnih restrikcija. Mogu se intrepretirati i kao standardi koji su razvijeni po principu neutralnog prodavača. Anonymization See {term:Anonymisation}.
+Open standards Obično definirani kao tehnički standardi koji su oslobođeni licencnih restrikcija. Mogu se intrepretirati i kao standardi koji su razvijeni po principu neutralnog prodavača. Anonymization See [Anonymisation](/glossary/hr/terms/anonymisation/).
 
 Anonymisation
 

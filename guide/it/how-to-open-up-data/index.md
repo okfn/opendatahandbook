@@ -44,7 +44,7 @@ Non vi è **alcun obbligo** di creare un elenco completo dei dataset. Il punto p
 
 E’ consigliabile in primo luogo consultare la comunità. I soggetti che accederanno ed utilizzeranno i dati sono infatti nella migliore posizione per identificare quali dati siano di particolare valore.
 
-1.  Si può preparare un breve elenco di dataset potenziali su cui si desidera avere un feedback. Non è indispensabile che questa lista coincida con le vostre aspettative, l’intento principale è quello di avere una prima idea delle esigenze. L’elenco potrebbe ad esempio ispirarsi a cataloghi di {term:open data} di altri paesi.
+1.  Si può preparare un breve elenco di dataset potenziali su cui si desidera avere un feedback. Non è indispensabile che questa lista coincida con le vostre aspettative, l’intento principale è quello di avere una prima idea delle esigenze. L’elenco potrebbe ad esempio ispirarsi a cataloghi di [open data](/glossary/it/terms/open-data/) di altri paesi.
 2.  Creare una richiesta per ottenere commenti.
 3.  Pubblicizzare la richiesta di commenti in una pagina web e assicurarsi che sia possibile accedere alla richiesta attraverso l’URL indicato. In questo modo, in caso di condivisione attraverso social media, la richiesta risulterà facilmente reperibile.
 4.  Le risposte devono poter essere inviate attraverso una procedura semplice. É da evitare la richiesta di commenti previa registrazione perché ciò riduce il numero di risposte.
@@ -82,7 +82,7 @@ Una breve guida in inglese (una pagina) su come applicare una licenza Open Data 
 
 ## Rendere i dati disponibili (Aspetti Tecnici)
 
-Gli {term:Open data} devono essere aperti, sia dal punto di vista tecnico che da quello legale. In particolare i dati devono essere disponibili in grande quantità in un formato {term:machine-readable}.
+Gli [Open data](/glossary/it/terms/open-data/) devono essere aperti, sia dal punto di vista tecnico che da quello legale. In particolare i dati devono essere disponibili in grande quantità in un formato {term:machine-readable}.
 
 **Available**
 
@@ -134,7 +134,7 @@ FTP è caduto in disuso. Non è visualizzabile come un sito web, ma l'accesso ad
 
 #### Come file torrent
 
-{term:BitTorrent} è un sistema divenuto familiare ai politici a causa della sua associazione con il concetto di violazione del diritto d'autore. BitTorrent utilizza dei file chiamati torrent, e funziona ripartendo la distribuzione di un file tra tutte le persone che lo stanno scaricando al momento. Invece di sovraccaricare i server, all'aumentare della domanda cresce anche l'offerta. Questa è la ragione del successo di questo sistema per la condivisione di film. Si tratta infatti di una soluzione meravigliosamente efficiente per distribuire grandi volumi di dati.
+[BitTorrent](/glossary/en/terms/bittorrent/) è un sistema divenuto familiare ai politici a causa della sua associazione con il concetto di violazione del diritto d'autore. BitTorrent utilizza dei file chiamati torrent, e funziona ripartendo la distribuzione di un file tra tutte le persone che lo stanno scaricando al momento. Invece di sovraccaricare i server, all'aumentare della domanda cresce anche l'offerta. Questa è la ragione del successo di questo sistema per la condivisione di film. Si tratta infatti di una soluzione meravigliosamente efficiente per distribuire grandi volumi di dati.
 
 #### Attraverso una API
 

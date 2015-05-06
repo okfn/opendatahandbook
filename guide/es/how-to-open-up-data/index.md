@@ -155,7 +155,7 @@ El acceso a datos en grandes cantidades asegura que:
 
 Proveer datos en masa permite a otros usar esa información para propósitos distintos de sus originales. Por ejemplo permite que los datos sean convertidos a nuevos formatos, enlazados con otros recursos o versionados y archivados en múltiples lugares. Mientras que la última versión de la información puede ser disponibilizada a través de una API, datos crudos pueden ser disponibilizados en masa durante intervalos de tiempo regulares.
 
-Por ejemplo, el servicio estadístico Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\> tiene un sitio de descargas por volumen que ofrece más de 4000 archivos. Lo actualizan dos veces al día, ofrece datos en formato {term:{Valores separados por Tabulador} {Tab-separated values}} (TSV), e incluye documentación sobre el sitio de descarga, así como los archivos archivos de datos.
+Por ejemplo, el servicio estadístico Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\> tiene un sitio de descargas por volumen que ofrece más de 4000 archivos. Lo actualizan dos veces al día, ofrece datos en formato {term:{Valores separados por Tabulador} [Tab-separated values](/glossary/en/terms/tab-separated-values/)} (TSV), e incluye documentación sobre el sitio de descarga, así como los archivos archivos de datos.
 
 Otro ejemplo es el Distrito de Columbia Catálogo de Datos \<http://octo.dc.gov/DC/OCTO/\>, que permite que los datos sea descargados en formato CSV y XLS, además de las transmisiones en vivo de los datos.
 

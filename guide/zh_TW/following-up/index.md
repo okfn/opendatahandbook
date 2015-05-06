@@ -10,7 +10,7 @@ title: 我將資料開放釋出了，那接著呢？
 
 ## 告知全天下!
 
-First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote {term:open data} in your area of responsibility.
+First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote [open data](/glossary/zh_TW/terms/open-data/) in your area of responsibility.
 
 如果你已經開放釋出一些資料集，我們當然能花點時間確定所有的人都知道這 (或至少讓其他人可以發現)。
 

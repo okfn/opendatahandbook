@@ -10,7 +10,7 @@ Questa sezione prende in esame ulteriori attività che si possono intraprendere 
 
 ## Dirlo al mondo!
 
-In primo luogo, fare in modo che si promuova il fatto che l'ente ha intrapreso una campagna per promuovere {term:open data} per quanto è di propria competenza.
+In primo luogo, fare in modo che si promuova il fatto che l'ente ha intrapreso una campagna per promuovere [open data](/glossary/it/terms/open-data/) per quanto è di propria competenza.
 
 Se si aprono dei set di dati, vale sicuramente la pena di spendere un po' di tempo per assicurarsi che la gente ne venga a conoscenza (o abbia il modo di farlo)
 

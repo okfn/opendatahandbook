@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   See {term:Application Programming Interface}.
+:   See [Application Programming Interface](/glossary/ko/terms/application-programming-interface/).
 
 Application Programming Interface 컴퓨터 프로그램들이 다른 프로그램과 대화하는 방법. 프로그래머가 프로그램 사이에서 컴퓨터 명령을 보내는 방법으로 이해할 수 있음.
 
 Web API
 
-:   인터넷에서 동작할 수 있도록 설계된 {term:API}
+:   인터넷에서 동작할 수 있도록 설계된 [API](/glossary/ko/terms/api/)
 
 Share-alike License 원본과 같거나 유사한 조건으로 콘텐트를 제공하기 위해 작품의 사용자에게 필요한 라이센스
 
@@ -52,7 +52,7 @@ Re-use
 
 :   본래의 의도를 벗어난 사용
 
-Open standards 일반적으로 기술 표준은 라이센싱 제약에서 자유롭다고 이해된다.벤더-중립적인 방법으로 개발된 표준으로 해석될 수 있다. Anonymization See {term:Anonymisation}.
+Open standards 일반적으로 기술 표준은 라이센싱 제약에서 자유롭다고 이해된다.벤더-중립적인 방법으로 개발된 표준으로 해석될 수 있다. Anonymization See [Anonymisation](/glossary/ko/terms/anonymisation/).
 
 Anonymisation
 
@@ -82,7 +82,7 @@ EU PSI Directive *공공 부문 정보의 재사용을 위한 지시*, 2003/98/E
 
 Information Asset Register IAR는 정부 부처나 기관이 보유한 방대한 양의 메타데이터를 저장하고 조직화할 수 있도록 구축된 등록소이다. 종합 IAR는 데이터베이스, 오래된 파일들, 최근의 전자 파일, 통계 컬렉션, 연구 데이터 등을 포함한다.
 
-> {term:EU PSI Directive}는 공공 정보의 잠재적 사용자를 위해 자산 등록소의 중요성을 인정하고 있으며, 목록, 포털, 또는 유사한 것을 제공하는 회원국이 요구된다.
+> [EU PSI Directive](/glossary/ko/terms/eu-psi-directive/)는 공공 정보의 잠재적 사용자를 위해 자산 등록소의 중요성을 인정하고 있으며, 목록, 포털, 또는 유사한 것을 제공하는 회원국이 요구된다.
 >
 > > Tools that help potential re-users to find documents available for re-use and the conditions for re-use can facilitate considerably the cross-border use of public sector documents. Member States should therefore ensure that practical arrangements are in place that help re-users in their search for documents available for reuse. Assets lists, accessible preferably online, of main documents (documents that are extensively re-used or that have the potential to be extensively re-used), and portal sites that are linked to decentralised assets lists are examples of such practical arrangements.
 >
