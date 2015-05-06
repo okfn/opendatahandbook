@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: default
 wide: true
 title: Credits
@@ -20,15 +21,15 @@ title: Credits
     {% endif %}
   {% endfor %}
   </ul>
-{% endif %} 
-  
+{% endif %}
+
   {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}#{% endcapture %}
   {% assign authorstring = authors | remove: '@@#' | split: '@@' %}
-  
+
 {% if authorstring %}
   <h2>Words</h2>
   {% assign authorslist = authorstring[1] %}
-  
+
   {% for a in authorstring %}
     {% unless authorslist contains a %}
       {% capture authorslist %}{{ authorslist }}@@{{ a }}{% endcapture %}
@@ -36,14 +37,14 @@ title: Credits
   {% endfor %}
 
   {% assign authorssorted = authorslist | split: '@@' | sort %}
-  
+
   <ul>
   {% for author in authorssorted %}
     <li>{{ author }}</li>
   {% endfor %}
   </ul>
 {% endif %}
-  
+
 {% if site.devs %}
   <h2>Code</h2>
   <ul>

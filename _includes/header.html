@@ -1,4 +1,3 @@
-{% assign current = page.url | downcase | split: '/' %}
 {% assign guide = site.meta.guide %}
 {% assign glossary = site.meta.glossary %}
 {% assign value-stories = site.meta.value-stories %}
@@ -16,7 +15,7 @@
 
 <div class="language dropdown">
   <span class="dropdown-description">Language:</span>
-  <span class="dropdown-button">English</span>
+  <span class="dropdown-button">{{ site.languages[0][1] }}</span>
   <ul class="dropdown-menu dropdown-select">
     {% for language in site.languages %}
     <li><a href="/{{ language[0] }}/">{{ language[1] }}</a></li>
@@ -31,7 +30,7 @@
       <a href="{{ site.baseurl }}/">Home</a>
     </li>
 
-    <li {% if current.last == guide.toc.entry_point %}class="Selected"{% endif %}>
+    <li {% if page.url == guide.toc.entry_point %}class="Selected"{% endif %}>
       <a href="{{ guide_entry_point }}">{{ guide.title }}</a>
 
       <ul>
@@ -53,19 +52,19 @@
         <!-- end navigation for guide section -->
 
         <!-- start navigation for contribute section -->
-        <li class="Spacer{% if current.last == 'contribute' %} Selected{% endif %}">
+        <li class="Spacer{% if page.url contains 'contribute' %} Selected{% endif %}">
           <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
           <ul>
-            <li {% if current.last == 'contribute' %} class="Selected"{% endif %}>
+            <li {% if page.url contains 'contribute' %} class="Selected"{% endif %}>
               <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contributing to the handbook</a>
             </li>
-            <li {% if sectionlink == '/contribute/editing/' %} class="Selected"{% endif %}>
+            <li {% if page.url contains '/contribute/editing/' %} class="Selected"{% endif %}>
               <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>
             </li>
-            <li {% if sectionlink == '/contribute/adding/' %} class="Selected"{% endif %}>
+            <li {% if page.url contains '/contribute/adding/' %} class="Selected"{% endif %}>
               <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
             </li>
-            <li {% if sectionlink == '/contribute/markdown-examples/' %} class="Selected"{% endif %}>
+            <li {% if page.url contains '/contribute/markdown-examples/' %} class="Selected"{% endif %}>
               <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">Markdown Examples</a>
             </li>
           </ul>
@@ -76,12 +75,12 @@
     </li>
 
     <!-- start navigation for value stories section -->
-    <li{% if current.last == 'value-stories' %} class="Selected"{% endif %}>
+    <li{% if page.url contains 'value-stories' %} class="Selected"{% endif %}>
       <a href="{{ value-stories_entry_point }}">Open Data Value Stories</a>
       <ul>
         {% for story in site.pages %}
         {% if story.section == 'value-stories' and story.lang == page.lang %}
-        <li{% if current.last == story.last %} class="Selected"{% endif %}>
+        <li{% if page.url == story.url %} class="Selected"{% endif %}>
           <a href="{{ story.url }}" title="{{ story.title }}">{{ story.title }}</a>
         </li>
         {% endif %}
@@ -91,14 +90,17 @@
     <!-- end navigation for value stories section -->
 
     <!-- start navigation for resources section -->
-    <li{% if current.last == 'resources' %} class="Selected"{% endif %}>
+    <li{% if page.url contains 'resources' %} class="Selected"{% endif %}>
       <a href="{{ resources_entry_point }}">Open Data Resources</a>
+
+      {% comment %}
       <ul>
         <!--
             <li class="search">
               <input type="search" placeholder="Search">
             </li>
             -->
+
         {% for type in site.meta.resources.filters %}
 
         {% comment %}This block calculates the unique values of each type{% endcomment %}
@@ -132,11 +134,14 @@
         </li>
 
         {% endfor %}
+
       </ul>
+      {% endcomment %}
+
     </li>
     <!-- end navigation for resources section -->
 
-    <li{% if current.last == 'credits' %} class="Selected"{% endif %}>
+    <li{% if page.url contains 'credits' %} class="Selected"{% endif %}>
       <a href="{{ credits_entry_point }}">Credits</a>
     </li>
   </ul>
