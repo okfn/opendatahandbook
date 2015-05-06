@@ -38,7 +38,7 @@ Application Programming Interface Sebuah cara program komputer saling berbicara 
 
 Web API
 
-:   Sebuah {term:API} yang didesain untuk bekerja melalui Internet.
+:   Sebuah [API](/glossary/id/terms/api/) yang didesain untuk bekerja melalui Internet.
 
 Share-alike License Sebuah lisensi yang mewajibkan para pengguna produknya untuk menyediakan konten yang berada di bawah naungan yang sama atau mirip kondisinya dengan yang aslinya.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Penggunaan konten di luar tujuan aslinya.
 
-Open standards Umumnya dipahami sebagai standar teknis yang bebas dari pembatasan lisensi. Bisa juga diartikan standar yang dikembangkan dalam koridor vendor yang netral. Anonymization See {term:Anonymisation}.
+Open standards Umumnya dipahami sebagai standar teknis yang bebas dari pembatasan lisensi. Bisa juga diartikan standar yang dikembangkan dalam koridor vendor yang netral. Anonymization See [Anonymisation](/glossary/id/terms/anonymisation/).
 
 Anonymisation
 
@@ -82,7 +82,7 @@ EU PSI Directive *Petunjuk pada penggunaan ulang informasi sektor publik*, 2003/
 
 Information Asset Register IARS adalah register khusus yang dibentuk untuk menangkap dan mengatur meta-data tentang jumlah besar informasi yang dimiliki oleh departemen dan lembaga pemerintah. Sebuah IAR komprehensif mencakup basisdata, kumpulan file lama, file elektronik terbaru, koleksi statistik, penelitian dan sebagainya.
 
-> {term:EU PSI Directive} mengakui pentingnya register aset untuk calon pengguna ulang informasi publik. Hal ini memerlukan kesediaan negara-negara anggota untuk memberikan daftar, portal, atau sesuatu yang serupa. Ini menyatakan:
+> [EU PSI Directive](/glossary/id/terms/eu-psi-directive/) mengakui pentingnya register aset untuk calon pengguna ulang informasi publik. Hal ini memerlukan kesediaan negara-negara anggota untuk memberikan daftar, portal, atau sesuatu yang serupa. Ini menyatakan:
 >
 >     Tools that help potential re-users to find documents available
 >     for re-use and the conditions for re-use can facilitate

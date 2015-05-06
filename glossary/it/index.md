@@ -14,7 +14,7 @@ BitTorrent BitTorrent è un protocollo per la distribuzione di file di grandi di
 
 DAP
 
-:   vedi {term:Data Access Protocol}.
+:   vedi [Data Access Protocol](/glossary/it/terms/data-access-protocol/).
 
 Data Access Protocol Un sistema che permette a soggetti esterni di accedere a set di dati senza sovraccaricare il proprio sistema o quello dove i dati sono ospitati.
 
@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   Vedi {term:Application Programming Interface}.
+:   Vedi [Application Programming Interface](/glossary/it/terms/application-programming-interface/).
 
 Application Programming Interface Un modo per i programmi di comunicare tra loro. Si può comprendere nei termini di come un programmatore invia istruzioni tra programmi diversi.
 
 Web API
 
-:   una {term:API} che è stata progettata per funzionare su internet.
+:   una [API](/glossary/it/terms/api/) che è stata progettata per funzionare su internet.
 
 Share-alike License Una licenza che richiede che un'opera derivata sia protetta alle stesse condizioni o termini simile a quelle dell'opera originale.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Utilizzo di contenuti al di fuori della loro finalità originaria.
 
-Open standards Generalmente intesi come norme tecniche svincolati da restrizioni di licenza. Possono anche essere interpretati nel senso che gli standard sono sviluppati in modo da essere neutrali rispetto al produttore. Anonymization See {term:Anonymisation}.
+Open standards Generalmente intesi come norme tecniche svincolati da restrizioni di licenza. Possono anche essere interpretati nel senso che gli standard sono sviluppati in modo da essere neutrali rispetto al produttore. Anonymization See [Anonymisation](/glossary/it/terms/anonymisation/).
 
 Anonymisation
 
@@ -94,6 +94,6 @@ nazionali. Gli IAR possono includere informazioni detenute da enti pubblici, ma 
 >
 > È essenziale che i meta-dati negli IAR siano completi in modo che i motori di ricerca siano grado di funzionare efficacemente. Nello spirito degli open government data, gli enti pubblici dovrebbero rendere disponibili al pubblico i propri IAR offrendo dati grezzi e con una licenza aperta, in modo che i "civic hackers" possano utilizzare i dati, per creare - ad esempio - motori di ricerca e interfacce utente
 
-Open Government Data {term:Open data} prodotti dal governo. É comunemente accettato riferirsi ai dati raccolti nel corso dell'attività amministrativa, che non identificano soggetti specifici e che non violano la "commercial sensitivity". Il concetto di "dati governativi aperti" è un sottoinsieme della nozione di {term:Public Sector Information}, che ha una portata più ampia. Cfr. <http://opengovernmentdata.org> per ulteriori dettagli.
+Open Government Data [Open data](/glossary/it/terms/open-data/) prodotti dal governo. É comunemente accettato riferirsi ai dati raccolti nel corso dell'attività amministrativa, che non identificano soggetti specifici e che non violano la "commercial sensitivity". Il concetto di "dati governativi aperti" è un sottoinsieme della nozione di [Public Sector Information](/glossary/it/terms/public-sector-information/), che ha una portata più ampia. Cfr. <http://opengovernmentdata.org> per ulteriori dettagli.
 
 Tab-separated values I valori separati da tabulazione (TSV) sono un formato di file testuale per condividere dati tabellari. Il formato è estremamente semplice e altamente {term:machine-readable}.

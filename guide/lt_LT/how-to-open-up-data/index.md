@@ -134,7 +134,7 @@ FTP jau nebėra taip populiaru. Lyginant su interneto svetaine, FTP naudojimas p
 
 #### Naudojantis torrent-ais
 
-{term:BitTorrent} - tai sistema, politiką formuojančioms institucijoms pažįstama dėl asociacijos su piratavimu. BitTorrent naudoja bylas, vadinamas torrent-ais, kurie padalina keitimosi bylomis resursus tarp visų besikeičiančiųjų jomis. Skirtingai nei serverių atveju, kuomet jie gali būti perkrauti, naudojant torrent-us, resursų pasiūla didėja kartu su paklausa.
+[BitTorrent](/glossary/lt_LT/terms/bittorrent/) - tai sistema, politiką formuojančioms institucijoms pažįstama dėl asociacijos su piratavimu. BitTorrent naudoja bylas, vadinamas torrent-ais, kurie padalina keitimosi bylomis resursus tarp visų besikeičiančiųjų jomis. Skirtingai nei serverių atveju, kuomet jie gali būti perkrauti, naudojant torrent-us, resursų pasiūla didėja kartu su paklausa.
 
 #### Suteikiant API
 

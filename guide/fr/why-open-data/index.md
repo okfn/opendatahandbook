@@ -4,7 +4,7 @@ lang: fr
 title: Pourquoi Open Data?
 ---
 
-{term:Open data}, especially {term:open government data}, is a tremendous resource that is as yet largely untapped. Many individuals and organisations collect a broad range of different types of data in order to perform their tasks. Government is particularly significant in this respect, both because of the quantity and centrality of the data it collects, but also because most of that government data is public data by law, and therefore could be made open and made available for others to use. Why is that of interest?
+[Open data](/glossary/fr/terms/open-data/), especially {term:open government data}, is a tremendous resource that is as yet largely untapped. Many individuals and organisations collect a broad range of different types of data in order to perform their tasks. Government is particularly significant in this respect, both because of the quantity and centrality of the data it collects, but also because most of that government data is public data by law, and therefore could be made open and made available for others to use. Why is that of interest?
 
 Il y a de nombreux domaines où nous pouvons nous attendre à ce que les données ouvertes soient de valeur, et où existent déjà des exemples. Il y a aussi beaucoup de groupes de personnes différents et d'organisations qui peuvent bénéficier de la disponibilité de données ouvertes, y compris le gouvernement lui-même. Dans le même temps, il est impossible de prédire avec précision comment et où la valeur sera créée. La nature de l'innovation et des nouvelles choses, c'est qu'elles vont provenir d'endroits improbables.
 

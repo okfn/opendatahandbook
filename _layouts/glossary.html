@@ -5,7 +5,7 @@ wide: true
 
 <dl>
   {% for term in site.pages %}
-  {% if term.section == 'glossary' and term.lang == page.lang %}
+  {% if term.section == 'terms' and term.lang == page.lang %}
   <dt>{{ term.title }} [<a href="{{ term.url }}">Permalink</a>]</dt>
   <dd>{{ term.content }}</dd>
   {% endif %}

@@ -38,7 +38,7 @@ Application Programming Interface 这是一种使计算机程序可以和其他�
 
 Web API
 
-:   {term:API}是被设计成通过网络工作的。
+:   [API](/glossary/zh_CN/terms/api/)是被设计成通过网络工作的。
 
 Share-alike License 这个许可协议要求作品使用者使用相同或类似的许可协议来重利用和分发这个作品。
 
@@ -54,7 +54,7 @@ Re-use
 
 :   超出原预期的用途
 
-Open standards 通常被认为是不受许可协议限制的标准。也可以被理解为中立的标准。 Anonymization See {term:Anonymisation}.
+Open standards 通常被认为是不受许可协议限制的标准。也可以被理解为中立的标准。 Anonymization See [Anonymisation](/glossary/zh_CN/terms/anonymisation/).
 
 Anonymisation
 
@@ -88,7 +88,7 @@ Information Asset Register
 
 :   IARs are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR includes databases, old sets of files, recent electronic files, collections of statistics, research and so forth.
 
-    The {term:EU PSI Directive} recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
+    The [EU PSI Directive](/glossary/zh_CN/terms/eu-psi-directive/) recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
 
         Tools that help potential re-users to find documents available
         for re-use and the conditions for re-use can facilitate

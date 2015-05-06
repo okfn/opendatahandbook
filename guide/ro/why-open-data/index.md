@@ -4,7 +4,7 @@ lang: ro
 title: De ce date libere?
 ---
 
-{term:Open data}, în special {term:open government data}, reprezintă o resursă imensă care este încă neexplorată. Multe persoane și organizații colecteză un număr mare de tipuri de date pentru a-și îndeplini sarcinile. Administrația guvernamentală ocupă un seminifcativ loc în acest context, atât datorită cantității și centralizării seturilor de date, cât și datorită faptului că majoritatea datelor guvernamentale sunt publice prin lege, și astfel pot fi deschise, devenind disponibile pentru public. De ce este de interes?
+[Open data](/glossary/ro/terms/open-data/), în special {term:open government data}, reprezintă o resursă imensă care este încă neexplorată. Multe persoane și organizații colecteză un număr mare de tipuri de date pentru a-și îndeplini sarcinile. Administrația guvernamentală ocupă un seminifcativ loc în acest context, atât datorită cantității și centralizării seturilor de date, cât și datorită faptului că majoritatea datelor guvernamentale sunt publice prin lege, și astfel pot fi deschise, devenind disponibile pentru public. De ce este de interes?
 
 Există multe domenii unde datele deschise pot aduce valoare, și domenii unde găsim exemple de cum datele deschise au fost deja folosite. Sunt deja multe grupuri diferite de oameni și organizații, inclusiv guvernul, care pot beneficia din disponibilitatea datelor deschise. In același timp, este imposibil de prezis cu acuratețe când și unde valoarea va fi adăugată. Avantajul inovației stă în faptul că dezvoltarea vine din locuri neașteptate.
 

@@ -10,7 +10,7 @@ This section looks at additional things which can be done to promote data re-use
 
 ## Segðu heiminum frá!
 
-First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote {term:open data} in your area of responsibility.
+First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote [open data](/glossary/is/terms/open-data/) in your area of responsibility.
 
 If you open up a bunch of datasets, it’s definitely worth spending a bit of time to make sure that people know (or at least can find out) that you’ve done so.
 

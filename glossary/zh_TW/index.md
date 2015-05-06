@@ -14,7 +14,7 @@ BitTorrent BitTorrent 是一個目前政策決策者越來越熟習的系統，�
 
 DAP
 
-:   參閱 {term:Data Access Protocol}.
+:   參閱 [Data Access Protocol](/glossary/zh_TW/terms/data-access-protocol/).
 
 Data Access Protocol 一個提供認證機制，允許外部連線到資料庫並可避免系統產生超載的存取協定。
 
@@ -28,7 +28,7 @@ Data protection legislation
 
 PSI
 
-:   參閱 {term:Public Sector Information}.
+:   參閱 [Public Sector Information](/glossary/zh_TW/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -36,7 +36,7 @@ Public Sector Information
 
 API
 
-:   參閱 {term:Application Programming Interface}.
+:   參閱 [Application Programming Interface](/glossary/zh_TW/terms/application-programming-interface/).
 
 Application Programming Interface
 
@@ -44,7 +44,7 @@ Application Programming Interface
 
 Web API
 
-:   一個設計來網路上使用的 {term:API}
+:   一個設計來網路上使用的 [API](/glossary/zh_TW/terms/api/)
 
 Share-alike License
 
@@ -72,7 +72,7 @@ Open standards
 
 Anonymization
 
-:   參閱 {term:Anonymisation}.
+:   參閱 [Anonymisation](/glossary/zh_TW/terms/anonymisation/).
 
 Anonymisation
 
@@ -80,7 +80,7 @@ Anonymisation
 
 IP rights
 
-:   參閱 {term:Intellectual property rights}.
+:   參閱 [Intellectual property rights](/glossary/zh_TW/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -88,11 +88,11 @@ Intellectual property rights
 
 AR
 
-:   參閱 {term:Information Asset Register}.
+:   參閱 [Information Asset Register](/glossary/zh_TW/terms/information-asset-register/).
 
 IAR
 
-:   參閱 {term:Information Asset Register}.
+:   參閱 [Information Asset Register](/glossary/zh_TW/terms/information-asset-register/).
 
 EU
 
@@ -104,7 +104,7 @@ Information Asset Register
 
 :   IARs are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR includes databases, old sets of files, recent electronic files, collections of statistics, research and so forth.
 
-    The {term:EU PSI Directive} recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
+    The [EU PSI Directive](/glossary/zh_TW/terms/eu-psi-directive/) recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
 
         Tools that help potential re-users to find documents available
         for re-use and the conditions for re-use can facilitate
@@ -125,6 +125,6 @@ Information Asset Register
 
 Open Government Data
 
-:   {term:Open data} produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of {term:Public Sector Information}, which is broader in scope. See <http://opengovernmentdata.org> for details.
+:   [Open data](/glossary/zh_TW/terms/open-data/) produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of [Public Sector Information](/glossary/zh_TW/terms/public-sector-information/), which is broader in scope. See <http://opengovernmentdata.org> for details.
 
 Tab-separated values Tab-separated values (TSV - 使用 TAB 鍵來區隔資料欄位) 是一種在分享表格類型資料時常會使用到的文字檔案格式。這種檔案格式極為簡易並具有高度的 {term:machine-readable} (機器可讀性)。

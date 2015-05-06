@@ -14,7 +14,7 @@ BitTorrent BitTorrent eigent sich hervorragend um große Datenmengen kostengüns
 
 DAP
 
-:   Link {term:Data Access Protocol}.
+:   Link [Data Access Protocol](/glossary/de/terms/data-access-protocol/).
 
 Data Access Protocol Ein System, dass außenstehenden Zugang zu Datenbanken gewährt ohne das System zu überlasten.
 
@@ -24,7 +24,7 @@ Data protection legislation Datenschutzgesetzgebung soll nicht die Daten an sich
 
 PSI
 
-:   Link {term:Public Sector Information}.
+:   Link [Public Sector Information](/glossary/de/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   Link {term:Application Programming Interface}.
+:   Link [Application Programming Interface](/glossary/de/terms/application-programming-interface/).
 
 Application Programming Interface Die Art, wie Computer miteinander kommunizieren. Kann verstanden werden wie Programmierer Befehle zwischen Programmen verschicken.
 
 Web API
 
-:   Eine {term:API} die erstellt wurde um Informationen über das Internet auszutauschen.
+:   Eine [API](/glossary/de/terms/api/) die erstellt wurde um Informationen über das Internet auszutauschen.
 
 Share-alike License Eine Lizenz, die vorgibt, dass Inhalte unter der gleichen Lizenz weiterveröffentlicht werden müssen (Copyleft Effekt).
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Nutzung von Inhalten außerhalb des eigentlichen Einsatzzweckes.
 
-Open standards Prinzipiell sind technische Standards frei von Lizenzen und anderen restriktionen. Anonymization See {term:Anonymisation}.
+Open standards Prinzipiell sind technische Standards frei von Lizenzen und anderen restriktionen. Anonymization See [Anonymisation](/glossary/de/terms/anonymisation/).
 
 Anonymisation
 
@@ -60,7 +60,7 @@ Anonymisation
 
 IP rights
 
-:   Link {term:Intellectual property rights}.
+:   Link [Intellectual property rights](/glossary/de/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -68,11 +68,11 @@ Intellectual property rights
 
 AR
 
-:   Link {term:Information Asset Register}.
+:   Link [Information Asset Register](/glossary/de/terms/information-asset-register/).
 
 IAR
 
-:   Link {term:Information Asset Register}.
+:   Link [Information Asset Register](/glossary/de/terms/information-asset-register/).
 
 EU
 

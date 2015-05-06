@@ -8,7 +8,7 @@ Vai jūs ziniet precīzi cik liela jūsu nodokļu daļa tiek tērēta uz ielu ap
 
 Jaunās tehnoloģijas devušas iespēju sniegt pakalpojumus, kas atbild uz šiem jautājumiem automātiski. Lielu daļu datu, kas nepieciešami, lai atbildētu uz šiem jautājumiem, apkopo valsts pārvaldes institūcijas. Tomēr, bieži vien vajadzīgie dati vēl nav pieejami ērti lietojamā formā. Šī grāmata ir veltīta tam kā izmantot oficiālās un citas informācijas potenciālu, lai radītu jaunus pakalpojumus, lai uzlabotu iedzīvotāju dzīvi un dotu iespēju valdībai un sabiedrībai darboties labāk.
 
-The notion of {term:open data} and specifically {term:open government data} - information, public or otherwise, which anyone is free to access and re-use for any purpose - has been around for some years. In 2009 open data started to become visible in the mainstream, with various governments (such as the USA, UK, Canada and New Zealand) announcing new initiatives towards opening up their public information.
+The notion of [open data](/glossary/lv/terms/open-data/) and specifically {term:open government data} - information, public or otherwise, which anyone is free to access and re-use for any purpose - has been around for some years. In 2009 open data started to become visible in the mainstream, with various governments (such as the USA, UK, Canada and New Zealand) announcing new initiatives towards opening up their public information.
 
 Šī grāmata skaidro 'atvērto datu' principus, īpaši saistībā ar valsts pārvaldi. Tā parāda kā atvērtie dati rada vērtību un pozitīvi iespaido dažādas dzīves jomas. Vienlaikus ar ieskatu atvērto datu pamatos, rokasgrāmata sniedz konkrētu informāciju par to kā radīt atvērtos datus.
 

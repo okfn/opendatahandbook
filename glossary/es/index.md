@@ -52,7 +52,7 @@ Re-use
 
 :   Uso de contenido por fuera de su intención original.
 
-Open standards En general se entiende estándares técnicos libres de restricciones de licencias. También puede ser interpretado en el sentido los estándares que se desarrollan de manera independiente del proveedor. Anonymization See {term:Anonymisation}.
+Open standards En general se entiende estándares técnicos libres de restricciones de licencias. También puede ser interpretado en el sentido los estándares que se desarrollan de manera independiente del proveedor. Anonymization See [Anonymisation](/glossary/es/terms/anonymisation/).
 
 Anonymisation
 

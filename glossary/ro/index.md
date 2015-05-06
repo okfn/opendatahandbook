@@ -14,7 +14,7 @@ BitTorrent BitTorrent este un protocol pentru distribuirea capacității de tran
 
 DAP
 
-:   Vezi {term:Data Access Protocol}.
+:   Vezi [Data Access Protocol](/glossary/en/terms/data-access-protocol/).
 
 Data Access Protocol Un sistem care permite utilizatorilor externi să acceseze baze de date fără a supraîncărca sistemul.
 
@@ -24,7 +24,7 @@ Data protection legislation Legislația nu se referă la protejarea datelor, ci 
 
 PSI
 
-:   Vezi {term:Public Sector Information}.
+:   Vezi [Public Sector Information](/glossary/ro/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   Vezi {term:Application Programming Interface}.
+:   Vezi [Application Programming Interface](/glossary/en/terms/application-programming-interface/).
 
 Application Programming Interface O metodă prin care programele de calculator pot comunica între ele.
 
 Web API
 
-:   Un {term:API} proiectat să funcționeze prin Internet.
+:   Un [API](/glossary/ro/terms/api/) proiectat să funcționeze prin Internet.
 
 Share-alike License O licență care obligă utilizatorii să distribuie materialul în aceleași condiții juridice ca și materialul inițial.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   utilizarea conținutului dincolo de scopul original.
 
-Open standards Înțeles în general ca standarde tehnice care nu sunt constrânse prin restricții de licențiere. Poate fi interpretat ca standarde dezvoltate independent de un anumit furnizor. Anonymization See {term:Anonymisation}.
+Open standards Înțeles în general ca standarde tehnice care nu sunt constrânse prin restricții de licențiere. Poate fi interpretat ca standarde dezvoltate independent de un anumit furnizor. Anonymization See [Anonymisation](/glossary/ro/terms/anonymisation/).
 
 Anonymisation
 
@@ -60,7 +60,7 @@ Anonymisation
 
 IP rights
 
-:   Vezi {term:Intellectual property rights}.
+:   Vezi [Intellectual property rights](/glossary/en/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -68,11 +68,11 @@ Intellectual property rights
 
 AR
 
-:   Vezi {term:Information Asset Register}.
+:   Vezi [Information Asset Register](/glossary/ro/terms/information-asset-register/).
 
 IAR
 
-:   Vezi {term:Information Asset Register}.
+:   Vezi [Information Asset Register](/glossary/ro/terms/information-asset-register/).
 
 EU
 
@@ -101,6 +101,6 @@ Information Asset Register IAR sunt regiștri special făcuți pentru a stoca ș
 >
 > Este esențial ca metadatele din IAR să fie cuprinzătoare astfel încât motoarele de căutare să poată funcționa corespunzător. În spiritul datelor guvernamentale deschise, entitățile publice ar trebui să își facă IAR disponibile publicului general ca date brute sub o licență deschisă astfel încât hăcuitorii civici să poată folosi aceste date, spre exemplu pentru a construi motoare de căutare și interfețe cu utilizatorul.
 
-Open Government Data Date deschise ({term:Open data}) produse de guvern. E vorba în general despre date adunate de către guvern în decursul activităților obișnuite, care nu identifică indivizi și nu afectează interese economice. Datele guvernamentale deschise sunt parte din informații din sectorul public ({term:Public Sector Information}). Vezi <http://opengovernmentdata.org> pentru mai multe informații.
+Open Government Data Date deschise ([Open data](/glossary/ro/terms/open-data/)) produse de guvern. E vorba în general despre date adunate de către guvern în decursul activităților obișnuite, care nu identifică indivizi și nu afectează interese economice. Datele guvernamentale deschise sunt parte din informații din sectorul public ([Public Sector Information](/glossary/ro/terms/public-sector-information/)). Vezi <http://opengovernmentdata.org> pentru mai multe informații.
 
 Tab-separated values Tab-separated values (TSV) este un format comun de fișier text utilizat pentru distribuția datelor tabulare. Formatul este foarte simplu și citibil automat ({term:machine-readable}).

@@ -22,7 +22,7 @@ BitTorrent
 
 DAP
 
-:   See {term:Data Access Protocol}.
+:   See [Data Access Protocol](/glossary/lv/terms/data-access-protocol/).
 
 Data Access Protocol
 
@@ -38,7 +38,7 @@ Data protection legislation
 
 PSI
 
-:   See {term:Public Sector Information}.
+:   See [Public Sector Information](/glossary/lv/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -46,7 +46,7 @@ Public Sector Information
 
 API
 
-:   See {term:Application Programming Interface}.
+:   See [Application Programming Interface](/glossary/lv/terms/application-programming-interface/).
 
 Application Programming Interface
 
@@ -54,7 +54,7 @@ Application Programming Interface
 
 Web API
 
-:   An {term:API} that is designed to work over the Internet.
+:   An [API](/glossary/lv/terms/api/) that is designed to work over the Internet.
 
 Share-alike License
 
@@ -82,7 +82,7 @@ Open standards
 
 Anonymization
 
-:   See {term:Anonymisation}.
+:   See [Anonymisation](/glossary/lv/terms/anonymisation/).
 
 Anonymisation
 
@@ -90,7 +90,7 @@ Anonymisation
 
 IP rights
 
-:   See {term:Intellectual property rights}.
+:   See [Intellectual property rights](/glossary/lv/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -98,11 +98,11 @@ Intellectual property rights
 
 AR
 
-:   See {term:Information Asset Register}.
+:   See [Information Asset Register](/glossary/lv/terms/information-asset-register/).
 
 IAR
 
-:   See {term:Information Asset Register}.
+:   See [Information Asset Register](/glossary/lv/terms/information-asset-register/).
 
 EU
 
@@ -116,7 +116,7 @@ Information Asset Register
 
 :   IARs are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR includes databases, old sets of files, recent electronic files, collections of statistics, research and so forth.
 
-    The {term:EU PSI Directive} recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
+    The [EU PSI Directive](/glossary/lv/terms/eu-psi-directive/) recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
 
         Tools that help potential re-users to find documents available
         for re-use and the conditions for re-use can facilitate
@@ -137,7 +137,7 @@ Information Asset Register
 
 Open Government Data
 
-:   {term:Open data} produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of {term:Public Sector Information}, which is broader in scope. See <http://opengovernmentdata.org> for details.
+:   [Open data](/glossary/lv/terms/open-data/) produced by the government. This is generally accepted to be data gathered during the course of business as usual activities which do not identify individuals or breach commercial sensitivity. Open government data is a subset of [Public Sector Information](/glossary/lv/terms/public-sector-information/), which is broader in scope. See <http://opengovernmentdata.org> for details.
 
 Tab-separated values
 

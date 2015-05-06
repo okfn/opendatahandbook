@@ -14,7 +14,7 @@ BitTorrent Το BitTorrent είναι ένα πρωτόκολλο για την 
 
 DAP
 
-:   See {term:Data Access Protocol}.
+:   See [Data Access Protocol](/glossary/el/terms/data-access-protocol/).
 
 Data Access Protocol Ένα σύστημα που επιτρέπει σε τρίτους να έχουν πρόσβαση σε βάσεις δεδομένων χωρίς να υπερφορτώνουν κανένα σύστημα,
 
@@ -24,7 +24,7 @@ Data protection legislation Η νομοθεσία για τα προσωπικά
 
 PSI
 
-:   See {term:Public Sector Information}.
+:   See [Public Sector Information](/glossary/el/terms/public-sector-information/).
 
 Public Sector Information
 
@@ -32,13 +32,13 @@ Public Sector Information
 
 API
 
-:   See {term:Application Programming Interface}.
+:   See [Application Programming Interface](/glossary/el/terms/application-programming-interface/).
 
 Application Programming Interface Τρόπος επικοινωνίας μεταξύ διαφορετικών ηλεκτρονικών υπολογιστών. Μπορεί να εννοηθεί, κυρίως, σε σχέση με την αποστολή εντολών μεταξύ προγραμμάτων
 
 Web API
 
-:   Ένα {term:API} που σχεδιάστηκε για να λειτουργεί στο Διαδίκτυο.
+:   Ένα [API](/glossary/el/terms/api/) που σχεδιάστηκε για να λειτουργεί στο Διαδίκτυο.
 
 Share-alike License Μία άδεια που απαιτεί οι χρήστες του έργου να παρέχουν το περιεχόμενο υπό τους ίδιους όρους ή παρόμοιες συνθήκες όπως το αρχικό.
 
@@ -52,7 +52,7 @@ Re-use
 
 :   Χρήση του περιεχομένου πέρα από τις αρχικές προθέσεις χρήσης του.
 
-Open standards Γενικά, κατανοητά σαν τεχνολογικά πρότυπα που είναι απαλλαγμένα από περιορισμούς αδειών. Μπορούν, επίσης, να ερμηνευτούν σαν πρότυπα που αναπτύχθηκαν με έναν τρόπο ουδέτερο προς τους κατασκευαστές. Anonymization See {term:Anonymisation}.
+Open standards Γενικά, κατανοητά σαν τεχνολογικά πρότυπα που είναι απαλλαγμένα από περιορισμούς αδειών. Μπορούν, επίσης, να ερμηνευτούν σαν πρότυπα που αναπτύχθηκαν με έναν τρόπο ουδέτερο προς τους κατασκευαστές. Anonymization See [Anonymisation](/glossary/el/terms/anonymisation/).
 
 Anonymisation
 
@@ -60,7 +60,7 @@ Anonymisation
 
 IP rights
 
-:   See {term:Intellectual property rights}.
+:   See [Intellectual property rights](/glossary/en/terms/intellectual-property-rights/).
 
 Intellectual property rights
 
@@ -68,11 +68,11 @@ Intellectual property rights
 
 AR
 
-:   See {term:Information Asset Register}.
+:   See [Information Asset Register](/glossary/el/terms/information-asset-register/).
 
 IAR
 
-:   See {term:Information Asset Register}.
+:   See [Information Asset Register](/glossary/el/terms/information-asset-register/).
 
 EU
 

@@ -44,7 +44,7 @@ There is **no requirement** to create a comprehensive list of your datasets. The
 
 We recommend that you ask the community in the first instance. That is the people who will be accessing and using the data, as they are likely to have a good understanding of which data could be valuable.
 
-1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' {term:open data} catalogs.
+1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' [open data](/glossary/lv/terms/open-data/) catalogs.
 2.  Prasiet iesniegt komentārus
 3.  Publicise your request with a webpage. Make sure that it is possible to access the request through its own URL. That way, when shared via social media, the request can be easily found.
 4.  Radiet vienkāršus veidus, ka sniegt atbildes. Izvairieties no prasības reģistrēties, jo tas samazina atbilžu daudzumu.
@@ -82,7 +82,7 @@ A short 1-page instruction guide to applying an open data license can be found o
 
 ## Padariet datus pieejamus (Tehniskā pieejamība)
 
-{term:Open data} needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a {term:machine-readable} format.
+[Open data](/glossary/lv/terms/open-data/) needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a {term:machine-readable} format.
 
 **Available**
 
@@ -107,7 +107,7 @@ Daudz labāk ir iedot šodien neapstrādātus datus nekā perfektus datus pēc s
 
 There are many different ways to make data available to others. The most natural in the Internet age is online publication. There are many variations to this model. At its most basic, agencies make their data available via their websites and a central catalog directs visitors to the appropriate source. However, there are alternatives.
 
-When {term:connectivity} is limited or the size of the data extremely large, distribution via other formats can be warranted. This section will also discuss alternatives, which can act to keep prices very low.
+When [connectivity](/glossary/lv/terms/connectivity/) is limited or the size of the data extremely large, distribution via other formats can be warranted. This section will also discuss alternatives, which can act to keep prices very low.
 
 ### Tiešsaistes metodes
 
@@ -135,11 +135,11 @@ FTP ir zaudējusi atbalstu. Tā vietā, lai gādātu par mājas lapu, FTP server
 
 #### As torrents
 
-{term:BitTorrent} is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
+[BitTorrent](/glossary/lv/terms/bittorrent/) is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
 
 #### As an API
 
-Data can be published via an {term:Application Programming Interface} (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
+Data can be published via an [Application Programming Interface](/glossary/lv/terms/application-programming-interface/) (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
 
 Neapstrādātu datu publiskošanai lielos apjomos jābūt katras atvērto datu iniciatīvas primārai rūpei. Ir virkne izmaksu, lai nodrošinātu API:
 
@@ -154,7 +154,7 @@ Liela apjoma datu pieejamība nodrošina to, ka:
 
 Providing data in bulk allows others to use the data beyond its original purposes. For example, it allows it to be converted into a new format, linked with other resources, or versioned and archived in multiple places. While the latest version of the data may be made available via an API, raw data should be made available in bulk at regular intervals.
 
-For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in {term:Tab-separated values} (TSV) format, and includes documentation about the download facility as well as about the data files.
+For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/lv/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
 
 Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
 

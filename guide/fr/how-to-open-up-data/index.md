@@ -44,7 +44,7 @@ Il n'y a **aucune exigeance** pour créer une liste complète de vos jeu de donn
 
 Nous vous recommandons de demander à la communauté en premier lieu. Autrement dit, les personnes qui auront accès et utiliseront les données, seront susceptibles d'apporter une compréhension par laquelle les données sont précieuses.
 
-1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' {term:open data} catalogs.
+1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' [open data](/glossary/fr/terms/open-data/) catalogs.
 2.  Créer une demande commentaire.
 3.  Communiquez votre demande avec une page web. Assurez-vous qu'il est possible d'accéder à la demande sur sa propre URL. De cette façon, quand elle est partagée via les médias sociaux, la demande peut être facilement trouvé.
 4.  Offrez des manières simples de soumettre des réponses. Évitez d'exiger un enregistrement, vu que ça réduit le nombre de réponses.
@@ -82,7 +82,7 @@ Un guide d'instruction court d'une page sur l'application d'une licence de donn�
 
 ## Rendre les données accessibles (ouverture technique)
 
-{term:Open data} doit être ouvert aussi bien techniquement que juridiquement. Plus précisément les données doivent être disponible en vrac dans une format {term:Lisible par les machines}.
+[Open data](/glossary/fr/terms/open-data/) doit être ouvert aussi bien techniquement que juridiquement. Plus précisément les données doivent être disponible en vrac dans une format {term:Lisible par les machines}.
 
 **Available**
 
@@ -135,11 +135,11 @@ FTP est tombé en disgrâce. Plutôt que de fournir un site web, la recherche de
 
 #### comment torrents
 
-{term:BitTorrent} is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
+[BitTorrent](/glossary/fr/terms/bittorrent/) is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
 
 #### comme une API
 
-Data can be published via an {term:Application Programming Interface} (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
+Data can be published via an [Application Programming Interface](/glossary/fr/terms/application-programming-interface/) (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
 
 Publier de gros ensembles de données brutes devrait être la priorité numéro 1 de toute initiative de données ouvertes. Il y a des coûts associés à la fourniture d'une API:
 
@@ -154,13 +154,13 @@ L'accès aux données en vrac veille à ce que:
 
 Providing data in bulk allows others to use the data beyond its original purposes. For example, it allows it to be converted into a new format, linked with other resources, or versioned and archived in multiple places. While the latest version of the data may be made available via an API, raw data should be made available in bulk at regular intervals.
 
-Par exemple, le service de statistiques Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\> a un plate-forme de téléchargement groupé offrant plus de 4000 fichiers de données. Il est mis à jour deux fois par jour, présente les données dans le format {term:Tab-separated values} (TSV) et inclue une documentation sur la plate-forme de téléchargement, ainsi que sur les fichiers de données.
+Par exemple, le service de statistiques Eurostat \<http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/\> a un plate-forme de téléchargement groupé offrant plus de 4000 fichiers de données. Il est mis à jour deux fois par jour, présente les données dans le format [Tab-separated values](/glossary/fr/terms/tab-separated-values/) (TSV) et inclue une documentation sur la plate-forme de téléchargement, ainsi que sur les fichiers de données.
 
 Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
 
 ## Rendre les données détectable
 
-{term:Open data} is nothing without users. You need to be able to make sure that people can find the source material. This section will cover different approaches.
+[Open data](/glossary/fr/terms/open-data/) is nothing without users. You need to be able to make sure that people can find the source material. This section will cover different approaches.
 
 The most important thing is to provide a neutral space which can overcome both inter-agency politics and future budget cycles. Jurisdictional borders, whether sectorial or geographical, can make cooperation difficult. However, there are significant benefits in joining forces. The easier it is for outsiders to discover data, the faster new and useful tools will be built.
 

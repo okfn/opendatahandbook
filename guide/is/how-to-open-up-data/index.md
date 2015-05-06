@@ -43,7 +43,7 @@ There is **no requirement** to create a comprehensive list of your datasets. The
 
 We recommend that you ask the community in the first instance. That is the people who will be accessing and using the data, as they are likely to have a good understanding of which data could be valuable.
 
-1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' {term:open data} catalogs.
+1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' [open data](/glossary/is/terms/open-data/) catalogs.
 2.  Búa til beiðni um athugasemdir
 3.  Publicise your request with a webpage. Make sure that it is possible to access the request through its own URL. That way, when shared via social media, the request can be easily found.
 4.  Bjóða upp á einfaldar leiðir til að senda inn svör. Ekki krefjast þess að notendur skrái sig inn þar sem það dregur verulega úr fjölda svara.
@@ -81,7 +81,7 @@ A short 1-page instruction guide to applying an open data license can be found o
 
 ## Make Data Available (Technical Openness)
 
-{term:Open data} needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a {term:machine-readable} format.
+[Open data](/glossary/is/terms/open-data/) needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a {term:machine-readable} format.
 
 **Available**
 
@@ -106,7 +106,7 @@ Sér í lagi er betra að gefa út hrá gögn núna en fullkomin gögn eftir sex
 
 There are many different ways to make data available to others. The most natural in the Internet age is online publication. There are many variations to this model. At its most basic, agencies make their data available via their websites and a central catalog directs visitors to the appropriate source. However, there are alternatives.
 
-When {term:connectivity} is limited or the size of the data extremely large, distribution via other formats can be warranted. This section will also discuss alternatives, which can act to keep prices very low.
+When [connectivity](/glossary/is/terms/connectivity/) is limited or the size of the data extremely large, distribution via other formats can be warranted. This section will also discuss alternatives, which can act to keep prices very low.
 
 ### Online methods
 
@@ -134,11 +134,11 @@ FTP has fallen out of favour. Rather than providing a website, looking through a
 
 #### Sem torrent
 
-{term:BitTorrent} is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
+[BitTorrent](/glossary/is/terms/bittorrent/) is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
 
 #### As an API
 
-Data can be published via an {term:Application Programming Interface} (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
+Data can be published via an [Application Programming Interface](/glossary/is/terms/application-programming-interface/) (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
 
 Publishing raw data in bulk should be the primary concern of all open data intiatives. There are a number of costs to providing an API:
 
@@ -153,13 +153,13 @@ Aðgangur að hrágögnum tryggir:
 
 Providing data in bulk allows others to use the data beyond its original purposes. For example, it allows it to be converted into a new format, linked with other resources, or versioned and archived in multiple places. While the latest version of the data may be made available via an API, raw data should be made available in bulk at regular intervals.
 
-For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in {term:Tab-separated values} (TSV) format, and includes documentation about the download facility as well as about the data files.
+For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/is/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
 
 Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
 
 ## Make data discoverable
 
-{term:Open data} is nothing without users. You need to be able to make sure that people can find the source material. This section will cover different approaches.
+[Open data](/glossary/is/terms/open-data/) is nothing without users. You need to be able to make sure that people can find the source material. This section will cover different approaches.
 
 The most important thing is to provide a neutral space which can overcome both inter-agency politics and future budget cycles. Jurisdictional borders, whether sectorial or geographical, can make cooperation difficult. However, there are significant benefits in joining forces. The easier it is for outsiders to discover data, the faster new and useful tools will be built.
 
