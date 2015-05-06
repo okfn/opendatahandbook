@@ -8,6 +8,8 @@ baseurl: ""
 url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
 github_repo:  opendatahandbook-v2
+gems:
+  - jekyll-redirect-from
 
 devs:
   -
