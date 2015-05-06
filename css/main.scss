@@ -751,6 +751,10 @@ pre,
 
 //////////////////////////////////////////////////////////////////////////////////
 
+.page-content {
+  min-height:420px;
+}
+
 
 .post-content {
   @include span-columns(10);
