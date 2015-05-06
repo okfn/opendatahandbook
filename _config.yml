@@ -34,7 +34,7 @@ supporters:
     url: http://www.worldbank.org/
 
 
-#googleanalytics: UA-XXXXX-X
+googleanalytics: UA-8271754-28
 
 # Build settings
 markdown: kramdown
