@@ -668,8 +668,11 @@ pre,
   }
 
   .dropdown-button:after {
+    @include icon-font();
+    line-height:inherit;
+    font-size:1.2em;
     color: $base-font-color;
-    content: "\25BE";
+    content: "\e607";
     display: block;
     position: absolute;
     right: $dropdown-padding;
