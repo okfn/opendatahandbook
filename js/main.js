@@ -23,4 +23,10 @@ $(document).ready(function() {
               $(item).attr('target', '_blank');
           }
       );
+      
+     //home
+     if ($(window).width() > 640) {
+       $('.home > .wrapper').equalize({children: 'div p'});
+     }
+
  });
