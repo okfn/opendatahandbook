@@ -24,6 +24,11 @@ $(document).ready(function() {
         }
     );
     
+    //home
+    if ($(window).width() > 640) {
+      $('.home > .wrapper').equalize({children: 'div p'});
+    }
+    
     
     //dropdown
     $(".dropdown-button").click(function() {
