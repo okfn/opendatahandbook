@@ -203,6 +203,12 @@ meta:
           slug: 'why-open-data'
         - title: 'What is Open Data?'
           slug: 'what-is-open-data'
+        - title: 'How to Open Up Data'
+          slug: 'how-to-open-up-data'
+        - title: "So I've Opened Up Some Data, Now What? "
+          slug: 'following-up'
+        - title: 'Appendices'
+          slug: 'appendicies'
 
 defaults:
   -
