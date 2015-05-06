@@ -122,12 +122,16 @@ pre,
   font-family: $sans-serif;
   font-size: 0.7em;
   font-weight: 700;
-  margin-top:rem(40);
+  margin-top: 2em;
   margin-bottom: 2em;
   padding: 0.3em 0;
   text-align: left;
   text-transform: uppercase;
   line-height:inherit;
+  
+  @include media($medium-screen) {
+    margin-top:rem(40);
+  }
 }
 
 .post,
@@ -665,8 +669,11 @@ pre,
   }
 
   .dropdown-button:after {
+    @include icon-font();
+    line-height:inherit;
+    font-size:1.2em;
     color: $base-font-color;
-    content: "\25BE";
+    content: "\e607";
     display: block;
     position: absolute;
     right: $dropdown-padding;
