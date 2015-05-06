@@ -12,10 +12,4 @@ Accogliamo calorosamente ogni commento sul testo e incorporiamo i feedback di vo
 
 ## Indice dei Contenuti
 
--   [Introduzione](introduction/)
--   [Perché dati aperti (open data)?](why-open-data/)
--   [Cosa sono i dati aperti (open data)?](what-is-open-data)
--   [Come aprire i dati](how-to-open-up-data/)
--   [Cosi, adesso abbiamo aperto alcuni dati. E ora che si fa?](following-up/)
--   [Glossario](glossary/)
--   [Appendici](appendices/)
+{% include toc.html %}

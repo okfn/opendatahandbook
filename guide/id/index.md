@@ -12,10 +12,4 @@ Kami sangat menyambut komentar pada teks dan akan memasukkan umpan balik saat ki
 
 ## Daftar Isi
 
--   [Pengenalan](introduction/)
--   [Mengapa Data Terbuka?](why-open-data/)
--   [Apakah Data Terbuka itu?](what-is-open-data)
--   [Cara Membuka Data](how-to-open-up-data/)
--   [Nah Saya Sudah Membukakan Beberapa Data, Selanjutnya Apa?](following-up/)
--   [Kamus](glossary/)
--   [Lampiran](appendices/)
+{% include toc.html %}

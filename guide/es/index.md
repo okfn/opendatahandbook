@@ -12,10 +12,4 @@ Damos una cálida bienvenida a los comentarios sobre el texto e incorporaremos r
 
 ## Índice
 
--   [Introducción](introduction/)
--   [¿Por qué datos abiertos?](why-open-data/)
--   [¿Qué son los datos abiertos?](what-is-open-data)
--   [¿Cómo abrir datos?](how-to-open-up-data/)
--   [¿Ya he publicado cierta información, y ahora qué?](following-up/)
--   [Glosario](glossary/)
--   [Apéndices](appendices/)
+{% include toc.html %}

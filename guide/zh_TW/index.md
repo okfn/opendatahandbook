@@ -12,10 +12,4 @@ title: Open Data 開放資料手冊
 
 ## 目錄
 
--   [前言](introduction/)
--   [為何要開放資料?](why-open-data/)
--   [什麼是開放資料？](what-is-open-data)
--   [如何將資料開放釋出](how-to-open-up-data/)
--   [我將資料開放釋出了，那接著呢？](following-up/)
--   [詞彙對照表](glossary/)
--   [附錄](appendices/)
+{% include toc.html %}

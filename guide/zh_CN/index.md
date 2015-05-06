@@ -12,10 +12,4 @@ title: 开放数据手册
 
 ## 目录
 
--   [引言](introduction/)
--   [为什么要开放数据？](why-open-data/)
--   [什么是开放数据？](what-is-open-data)
--   [如何将数据开放？](how-to-open-up-data/)
--   [在开放了一些数据后，接下来该干什么？](following-up/)
--   [术语](glossary/)
--   [附录](appendices/)
+{% include toc.html %}

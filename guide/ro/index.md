@@ -12,10 +12,4 @@ Primim călduros observațiile cu privire la text și vom încorpora reacțiile 
 
 ## Cuprins
 
--   [Introducere](introduction/)
--   [De ce date libere?](why-open-data/)
--   [Ce sunt datele deschise?](what-is-open-data)
--   [Cum să deschizi datele](how-to-open-up-data/)
--   [Am deschis niște date, și acum?](following-up/)
--   [Glosar](glossary/)
--   [Anexe](appendices/)
+{% include toc.html %}

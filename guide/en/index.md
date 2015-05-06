@@ -1,5 +1,4 @@
 ---
-section: guide
 lang: en
 title: The Open Data Handbook
 ---
@@ -12,10 +11,4 @@ We warmly welcome comments on the text and will incorporate feedback as we go fo
 
 ## Table of Contents
 
--   [Introduction](introduction/)
--   [Why Open Data?](why-open-data/)
--   [What is Open Data?](what-is-open-data)
--   [How to Open up Data](how-to-open-up-data/)
--   [So I’ve Opened Up Some Data, Now What?](following-up/)
--   [Glossary](glossary/)
--   [Appendices](appendices/)
+{% include toc.html %}

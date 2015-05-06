@@ -12,10 +12,4 @@ title: ספר המידע הפתוח
 
 ## תוכן עניינים
 
--   [הקדמה](introduction/)
--   [מדוע לפתוח מידע?](why-open-data/)
--   [מה הוא מידע נגיש?](what-is-open-data)
--   [כיצד לפתוח מידע](how-to-open-up-data/)
--   [אז הצלחנו לפתוח קצת מידע. ומה עכשיו?](following-up/)
--   [מילון מונחים](glossary/)
--   [נספחים](appendices/)
+{% include toc.html %}

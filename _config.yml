@@ -170,6 +170,14 @@ meta:
       - ko
     toc:
       entry_point: 'introduction'
+      order:
+        - introduction
+        - why-open-data
+        - what-is-open-data
+        - how-to-open-up-data
+        - following-up
+        - glossary
+        - appendices
       chapters:
         - title: 'Introduction'
           slug: 'introduction'
@@ -180,6 +188,8 @@ meta:
               slug: 'credits'
         - title: 'Why Open Data?'
           slug: 'why-open-data'
+        - title: 'What is Open Data?'
+          slug: 'what-is-open-data'
         - title: 'What is Open Data?'
           slug: 'what-is-open-data'
 

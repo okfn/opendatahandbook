@@ -12,10 +12,4 @@ To get started, you may wish to look at the [Introduction](introduction/). You c
 
 ## 目次
 
--   [導入](introduction/)
--   [なぜオープンデータなのか?](why-open-data/)
--   [オープンデータとは何か?](what-is-open-data)
--   [データをオープンにするには](how-to-open-up-data/)
--   [データはオープンにした。それからどうする?](following-up/)
--   [Glossary](glossary/)
--   [Appendices](appendices/)
+{% include toc.html %}

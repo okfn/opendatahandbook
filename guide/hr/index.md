@@ -12,10 +12,4 @@ Otvoreni smo za komentare u vezi teksta i kako budemo napredovali, uklopit ćemo
 
 ## Sadržaj
 
--   [Uvod](introduction/)
--   [Čemu služe otvoreni podaci?](why-open-data/)
--   [Što su otvoreni podaci?](what-is-open-data)
--   [Kako učitiniti podatke otvorenima](how-to-open-up-data/)
--   [Otvorio/la sam neke podatke, što sada?](following-up/)
--   [Pojmovnik](glossary/)
--   [Dodaci](appendices/)
+{% include toc.html %}

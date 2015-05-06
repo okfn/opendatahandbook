@@ -12,10 +12,4 @@ We warmly welcome comments on the text and will incorporate feedback as we go fo
 
 ## Efnisyfirlit
 
--   [Inngangur](introduction/)
--   [Afhverju opin gögn?](why-open-data/)
--   [Hvað eru opin gögn](what-is-open-data)
--   [Hvernig á að frelsa gögn](how-to-open-up-data/)
--   [Nú er ég búinn að frelsa gögn, hvað svo?](following-up/)
--   [Glossary](glossary/)
--   [Appendices](appendices/)
+{% include toc.html %}

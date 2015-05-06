@@ -12,10 +12,4 @@ Mielai laukiame komentarų, atsižvelgsime į juos tobulindami šį tekstą. Tai
 
 ## Turinys
 
--   [Įžanga](introduction/)
--   [Kodėl reikia atvirų duomenų?](why-open-data/)
--   [Kas yra atviri duomenys?](what-is-open-data)
--   [Kaip atverti duomenis?](how-to-open-up-data/)
--   [Atvėriau duomenų, ir kas dabar?](following-up/)
--   [Žodynas](glossary/)
--   [Priedai](appendices/)
+{% include toc.html %}

@@ -12,10 +12,4 @@ Mēs laipni lūdzam sniegt komentārus par tekstu un iekļausim jūsu ierosināj
 
 ## Saturs
 
--   [Ievads](introduction/)
--   [Kāpēc "Atvērtie dati"?](why-open-data/)
--   [Kas ir atvērtie dati?](what-is-open-data)
--   [Kā atvērt datus](how-to-open-up-data/)
--   [Esmu atvēris dažus datus. Kas tālāk?](following-up/)
--   [Glossary](glossary/)
--   [Appendices](appendices/)
+{% include toc.html %}

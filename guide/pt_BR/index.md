@@ -12,10 +12,4 @@ Nós calorosamente o convidamos a comentar o texto e incorporaremos o retorno re
 
 ## Índice Analítico
 
--   [Introdução](introduction/)
--   [Por que Abrir Dados?](why-open-data/)
--   [O que são Dados Abertos?](what-is-open-data)
--   [Como Abrir Dados](how-to-open-up-data/)
--   [Então Eu Abri Alguns Dados, e Agora?](following-up/)
--   [Glossário](glossary/)
--   [Apêndices](appendices/)
+{% include toc.html %}

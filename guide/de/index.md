@@ -12,10 +12,4 @@ Wir freuen uns über Kommentare und Anregungen jeder Art und werden Feedback ein
 
 ## Inhaltsverzeichnis
 
--   [Einleitung](introduction/)
--   [Wieso eigentlich offene Daten?](why-open-data/)
--   [Was ist Open Data?](what-is-open-data)
--   [Wie kann ich (als Behörde, Verwaltung, Organisation, ...) eigentlich Daten öffnen?](how-to-open-up-data/)
--   [Die Daten sind offen, was nun?](following-up/)
--   [Glossar](glossary/)
--   [Anhang](appendices/)
+{% include toc.html %}

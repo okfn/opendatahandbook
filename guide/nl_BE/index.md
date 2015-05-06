@@ -12,10 +12,4 @@ Wij verwelkomen opmerkingen over de tekst van harte en zullen feedback opnemen b
 
 ## Inhoudsopgave
 
--   [Inleiding](introduction/)
--   [Waarom Open Data?](why-open-data/)
--   [Wat is Open Data?](what-is-open-data)
--   [Hoe Data te Openen](how-to-open-up-data/)
--   [Dus ik heb data geopend, wat nu?](following-up/)
--   [Woordenlijst](glossary/)
--   [Appendices](appendices/)
+{% include toc.html %}

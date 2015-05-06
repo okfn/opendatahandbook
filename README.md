@@ -16,11 +16,9 @@ Please see the [Contribute](http://new.opendatahandbook.org/contribute/) section
 
 ### Information architecture
 
-The site uses [Jekyll Collections](http://jekyllrb.com/docs/collections/) to group the different components of the Open Data Handbook.
+There are four sections of content, implemented as simple Jekyll pages: `guide`, `value-stories`, `glossary`, and `resources`.
 
-There are four collections: `guide`, `value-stories`, `glossary`, and `resources`.
-
-Some collections have translations. These are implemented by adjacent directories, where the name of the directory is the locale of the translation.
+Some sections have translations. These are implemented by adjacent directories, where the name of the directory is the locale of the translation.
 
 #### Guide
 
