@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/what-is-open-data/index.html
 section: guide
 lang: lv
 title: Kas ir atvērtie dati?

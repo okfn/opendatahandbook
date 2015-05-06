@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_TW/glossary.html
 section: glossary
 lang: zh_TW
 title: 詞彙對照表

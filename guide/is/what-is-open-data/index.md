@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/what-is-open-data/index.html
 section: guide
 lang: is
 title: Hvað eru opin gögn

@@ -1,4 +1,5 @@
 ---
+redirect_from: /nl_BE/following-up/index.html
 section: guide
 lang: nl_BE
 title: Dus ik heb data geopend, wat nu?

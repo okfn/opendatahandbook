@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/what-is-open-data/index.html
 section: guide
 lang: he
 title: מה הוא מידע נגיש?

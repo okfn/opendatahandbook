@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/appendices/index.html
 section: guide
 lang: lv
 title: What Legal (IP) Rights Are There in Data(bases)

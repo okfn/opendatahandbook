@@ -1,4 +1,5 @@
 ---
+redirect_from: /nl_BE/how-to-open-up-data/index.html
 section: guide
 lang: nl_BE
 title: Hoe Data te Openen

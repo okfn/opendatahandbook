@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/how-to-open-up-data/index.html
 section: guide
 lang: ja
 title: データをオープンにするには

@@ -1,4 +1,5 @@
 ---
+redirect_from: /ko/appendices/index.html
 section: guide
 lang: ko
 title: 파일 형식

@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_TW/why-open-data/index.html
 section: guide
 lang: zh_TW
 title: 為何要開放資料?

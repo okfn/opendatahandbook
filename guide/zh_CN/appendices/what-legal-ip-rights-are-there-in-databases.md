@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_CN/appendices/index.html
 section: guide
 lang: zh_CN
 title: 数据中有哪些法律权利？

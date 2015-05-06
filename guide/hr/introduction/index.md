@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/introduction/index.html
 section: guide
 lang: hr
 title: Uvod

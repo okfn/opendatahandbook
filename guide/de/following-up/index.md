@@ -1,4 +1,5 @@
 ---
+redirect_from: /de/following-up/index.html
 section: guide
 lang: de
 title: Die Daten sind offen, was nun?

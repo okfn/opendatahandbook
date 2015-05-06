@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/what-is-open-data/index.html
 section: guide
 lang: id
 title: Apakah Data Terbuka itu?

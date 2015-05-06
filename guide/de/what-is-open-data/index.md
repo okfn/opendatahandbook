@@ -1,4 +1,5 @@
 ---
+redirect_from: /de/what-is-open-data/index.html
 section: guide
 lang: de
 title: Was ist Open Data?

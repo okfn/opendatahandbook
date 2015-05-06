@@ -1,4 +1,5 @@
 ---
+redirect_from: /nl_BE/why-open-data/index.html
 section: guide
 lang: nl_BE
 title: Waarom Open Data?

@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/what-is-open-data/index.html
 section: guide
 lang: pt_BR
 title: O que são Dados Abertos?

@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/appendices/index.html
 section: guide
 lang: pt_BR
 title: Que Direitos Legais (PI) Existem em (Bancos de) Dados

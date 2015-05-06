@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/index.html
 section: guide
 lang: pt_BR
 title: Guia de Dados Abertos

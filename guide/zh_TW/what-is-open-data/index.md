@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_TW/what-is-open-data/index.html
 section: guide
 lang: zh_TW
 title: 什麼是開放資料？

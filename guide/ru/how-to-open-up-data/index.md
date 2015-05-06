@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/how-to-open-up-data/index.html
 section: guide
 lang: ru
 title: Как открывать данные

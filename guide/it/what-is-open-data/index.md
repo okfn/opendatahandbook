@@ -1,4 +1,5 @@
 ---
+redirect_from: /it/what-is-open-data/index.html
 section: guide
 lang: it
 title: Cosa sono i dati aperti (open data)?

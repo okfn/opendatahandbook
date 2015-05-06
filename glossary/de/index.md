@@ -1,4 +1,5 @@
 ---
+redirect_from: /de/glossary.html
 section: glossary
 lang: de
 title: Glossar

@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/following-up/index.html
 section: guide
 lang: ro
 title: Am deschis niște date, și acum?

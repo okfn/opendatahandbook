@@ -1,4 +1,5 @@
 ---
+redirect_from: /es/how-to-open-up-data/index.html
 section: guide
 lang: es
 title: ¿Cómo abrir datos?

@@ -1,4 +1,5 @@
 ---
+redirect_from: /nl_BE/appendices/index.html
 section: guide
 lang: nl_BE
 title: Bestandsformaten

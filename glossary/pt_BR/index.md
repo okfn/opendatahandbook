@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/glossary.html
 section: glossary
 lang: pt_BR
 title: Glossário

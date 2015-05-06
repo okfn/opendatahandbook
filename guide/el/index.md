@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/index.html
 section: guide
 lang: el
 title: Εγχειρίδιο Ανοικτών Δεδομένων

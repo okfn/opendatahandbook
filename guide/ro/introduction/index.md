@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/introduction/index.html
 section: guide
 lang: ro
 title: Introducere

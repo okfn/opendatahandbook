@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_CN/index.html
 section: guide
 lang: zh_CN
 title: 开放数据手册

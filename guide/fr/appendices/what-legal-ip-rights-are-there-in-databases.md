@@ -1,4 +1,5 @@
 ---
+redirect_from: /fr/appendices/index.html
 section: guide
 lang: fr
 title: Quels droits légaux (de PI) existe-t-il dans les (bases de) données

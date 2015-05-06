@@ -1,4 +1,5 @@
 ---
+redirect_from: /en/following-up/index.html
 section: guide
 lang: en
 title: So I’ve Opened Up Some Data, Now What?

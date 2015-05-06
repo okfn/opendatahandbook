@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/how-to-open-up-data/index.html
 section: guide
 lang: el
 title: Πώς μπορεί κανείς να «ανοίξει» τα δεδομένα;

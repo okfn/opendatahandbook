@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/what-is-open-data/index.html
 section: guide
 lang: ro
 title: Ce sunt datele deschise?

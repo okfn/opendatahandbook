@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/how-to-open-up-data/index.html
 section: guide
 lang: lv
 title: Kā atvērt datus

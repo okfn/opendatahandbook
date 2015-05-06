@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/index.html
 section: guide
 lang: ro
 title: Manualul despre date deschise

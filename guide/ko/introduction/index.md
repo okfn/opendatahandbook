@@ -1,4 +1,5 @@
 ---
+redirect_from: /ko/introduction/index.html
 section: guide
 lang: ko
 title: 서론

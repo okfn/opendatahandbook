@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/index.html
 section: guide
 lang: hr
 title: Priručnik za otvorene podatke

@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/appendices/index.html
 section: guide
 lang: pt_BR
 title: Formatos de Arquivo

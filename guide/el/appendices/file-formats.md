@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/appendices/index.html
 section: guide
 lang: el
 title: Μορφές αρχείων

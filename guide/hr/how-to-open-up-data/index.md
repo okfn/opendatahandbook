@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/how-to-open-up-data/index.html
 section: guide
 lang: hr
 title: Kako učitiniti podatke otvorenima

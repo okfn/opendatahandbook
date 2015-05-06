@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/why-open-data/index.html
 section: guide
 lang: lv
 title: Kāpēc "Atvērtie dati"?

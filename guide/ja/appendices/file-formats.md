@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/appendices/index.html
 section: guide
 lang: ja
 title: File Formats

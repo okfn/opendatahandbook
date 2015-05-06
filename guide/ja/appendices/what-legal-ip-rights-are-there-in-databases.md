@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/appendices/index.html
 section: guide
 lang: ja
 title: What Legal (IP) Rights Are There in Data(bases)

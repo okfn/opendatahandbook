@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/glossary.html
 section: glossary
 lang: el
 title: Γλωσσάρι

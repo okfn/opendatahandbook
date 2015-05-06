@@ -1,4 +1,5 @@
 ---
+redirect_from: /lt_LT/following-up/index.html
 section: guide
 lang: lt_LT
 title: Atvėriau duomenų, ir kas dabar?

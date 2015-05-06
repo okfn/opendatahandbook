@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/glossary.html
 section: guide
 lang: he
 title: מילון מונחים

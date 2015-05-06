@@ -1,4 +1,5 @@
 ---
+redirect_from: /fr/appendices/index.html
 section: guide
 lang: fr
 title: Formats de fichier.

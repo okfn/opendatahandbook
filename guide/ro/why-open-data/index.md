@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/why-open-data/index.html
 section: guide
 lang: ro
 title: De ce date libere?

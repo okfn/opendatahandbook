@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/introduction/index.html
 section: guide
 lang: is
 title: Inngangur

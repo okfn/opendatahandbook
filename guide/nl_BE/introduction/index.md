@@ -1,4 +1,5 @@
 ---
+redirect_from: /nl_BE/introduction/index.html
 section: guide
 lang: nl_BE
 title: Inleiding

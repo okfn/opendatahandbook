@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/appendices/index.html
 section: guide
 lang: hr
 title: Koja su zakonska (IP) prava u podacima (bazama podataka)

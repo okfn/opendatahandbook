@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/appendices/index.html
 section: guide
 lang: el
 title: Τι Νομικά (Πνευματικά) Δικαιώματα υπάρχουν στις Βάσεις Δεδομένων;

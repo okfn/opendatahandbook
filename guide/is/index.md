@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/index.html
 section: guide
 lang: is
 title: The Open Data Handbook

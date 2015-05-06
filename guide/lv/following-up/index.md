@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/following-up/index.html
 section: guide
 lang: lv
 title: Esmu atvēris dažus datus. Kas tālāk?

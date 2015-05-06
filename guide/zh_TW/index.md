@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_TW/index.html
 section: guide
 lang: zh_TW
 title: Open Data 開放資料手冊

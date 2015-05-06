@@ -1,4 +1,5 @@
 ---
+redirect_from: /en/why-open-data/index.html
 section: guide
 lang: en
 title: Why Open Data?

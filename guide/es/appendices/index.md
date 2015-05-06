@@ -1,4 +1,5 @@
 ---
+redirect_from: /es/appendices/index.html
 section: guide
 lang: es
 title: Apéndices

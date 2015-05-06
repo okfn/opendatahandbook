@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/introduction/index.html
 section: guide
 lang: pt_BR
 title: Introdução

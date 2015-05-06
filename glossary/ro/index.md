@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/glossary.html
 section: glossary
 lang: ro
 title: Glosar

@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/why-open-data/index.html
 section: guide
 lang: he
 title: מדוע לפתוח מידע?

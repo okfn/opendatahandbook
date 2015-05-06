@@ -1,4 +1,5 @@
 ---
+redirect_from: /en/introduction/index.html
 section: guide
 lang: en
 title: Introduction

@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/following-up/index.html
 section: guide
 lang: he
 title: אז הצלחנו לפתוח קצת מידע. ומה עכשיו?

@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/index.html
 section: guide
 lang: id
 title: Buku Pegangan Data Terbuka

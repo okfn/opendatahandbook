@@ -1,4 +1,5 @@
 ---
+redirect_from: /ko/following-up/index.html
 section: guide
 lang: ko
 title: 자, 데이터를 공개한 후 다음은?

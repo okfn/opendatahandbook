@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/why-open-data/index.html
 section: guide
 lang: id
 title: Mengapa Data Terbuka?

@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/glossary.html
 section: glossary
 lang: lv
 title: Glossary

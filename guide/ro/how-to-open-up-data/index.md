@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/how-to-open-up-data/index.html
 section: guide
 lang: ro
 title: Cum să deschizi datele

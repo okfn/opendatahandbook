@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/why-open-data/index.html
 section: guide
 lang: pt_BR
 title: Por que Abrir Dados?

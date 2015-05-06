@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/what-is-open-data/index.html
 section: guide
 lang: el
 title: Τι είναι τα Ανοιχτά Δεδομένα;

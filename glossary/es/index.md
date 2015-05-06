@@ -1,4 +1,5 @@
 ---
+redirect_from: /es/glossary.html
 section: glossary
 lang: es
 title: Glosario

@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/appendices/index.html
 section: guide
 lang: id
 title: Hak Hukum (IP) Apa yang Ada dalam (Basis)data

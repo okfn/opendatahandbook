@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/glossary.html
 section: guide
 lang: ru
 title: Глоссарий

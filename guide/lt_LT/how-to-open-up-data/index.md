@@ -1,4 +1,5 @@
 ---
+redirect_from: /lt_LT/how-to-open-up-data/index.html
 section: guide
 lang: lt_LT
 title: Kaip atverti duomenis?

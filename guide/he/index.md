@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/index.html
 section: guide
 lang: he
 title: ספר המידע הפתוח

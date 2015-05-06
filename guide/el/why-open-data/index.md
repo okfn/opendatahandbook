@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/why-open-data/index.html
 section: guide
 lang: el
 title: Γιατί Ανοιχτά Δεδομένα;

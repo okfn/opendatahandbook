@@ -1,4 +1,5 @@
 ---
+redirect_from: /en/index.html
 lang: en
 title: The Open Data Handbook
 ---

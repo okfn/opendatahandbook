@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/appendices/index.html
 section: guide
 lang: he
 title: פורמטי קבצים

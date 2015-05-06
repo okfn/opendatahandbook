@@ -1,4 +1,5 @@
 ---
+redirect_from: /ko/why-open-data/index.html
 section: guide
 lang: ko
 title: 왜 데이터를 공개해야 되는가?

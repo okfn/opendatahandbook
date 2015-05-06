@@ -1,4 +1,5 @@
 ---
+redirect_from: /lt_LT/glossary.html
 section: glossary
 lang: lt_LT
 title: Žodynas

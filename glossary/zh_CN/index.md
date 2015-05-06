@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_CN/glossary.html
 section: glossary
 lang: zh_CN
 title: 术语

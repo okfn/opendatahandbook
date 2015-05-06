@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/why-open-data/index.html
 section: guide
 lang: hr
 title: Čemu služe otvoreni podaci?

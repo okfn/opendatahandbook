@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/what-is-open-data/index.html
 section: guide
 lang: hr
 title: Što su otvoreni podaci?

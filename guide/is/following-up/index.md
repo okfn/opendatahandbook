@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/following-up/index.html
 section: guide
 lang: is
 title: Nú er ég búinn að frelsa gögn, hvað svo?

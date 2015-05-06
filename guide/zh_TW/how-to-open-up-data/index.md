@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_TW/how-to-open-up-data/index.html
 section: guide
 lang: zh_TW
 title: 如何將資料開放釋出

@@ -1,4 +1,5 @@
 ---
+redirect_from: /ro/appendices/index.html
 section: guide
 lang: ro
 title: Anexe

@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/how-to-open-up-data/index.html
 section: guide
 lang: pt_BR
 title: Como Abrir Dados

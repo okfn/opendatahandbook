@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/glossary.html
 section: glossary
 lang: ja
 title: Glossary

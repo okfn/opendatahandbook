@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/following-up/index.html
 section: guide
 lang: el
 title: Και τώρα, που «άνοιξα» τα Δεδομένα μου, τι γίνεται;

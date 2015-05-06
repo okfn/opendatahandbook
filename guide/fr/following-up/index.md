@@ -1,4 +1,5 @@
 ---
+redirect_from: /fr/following-up/index.html
 section: guide
 lang: fr
 title: Bon j'ai ouvert certaines données, et maintenant ?

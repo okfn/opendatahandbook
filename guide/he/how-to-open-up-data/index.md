@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/how-to-open-up-data/index.html
 section: guide
 lang: he
 title: כיצד לפתוח מידע

@@ -1,4 +1,5 @@
 ---
+redirect_from: /de/index.html
 section: guide
 lang: de
 title: Das Open Data Handbuch

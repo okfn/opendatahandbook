@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/why-open-data/index.html
 section: guide
 lang: ru
 title: Почему Открытые данные?

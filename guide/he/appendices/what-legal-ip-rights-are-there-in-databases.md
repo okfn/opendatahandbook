@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/appendices/index.html
 section: guide
 lang: he
 title: אילו זכויות חוקיות (IP) יש במידע (ובבסיסי המידע)

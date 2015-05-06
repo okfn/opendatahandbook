@@ -1,4 +1,5 @@
 ---
+redirect_from: /el/introduction/index.html
 section: guide
 lang: el
 title: Εισαγωγή

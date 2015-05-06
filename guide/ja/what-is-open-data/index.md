@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/what-is-open-data/index.html
 section: guide
 lang: ja
 title: オープンデータとは何か?

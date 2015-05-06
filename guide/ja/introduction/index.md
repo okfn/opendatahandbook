@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/introduction/index.html
 section: guide
 lang: ja
 title: 導入

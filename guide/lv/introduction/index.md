@@ -1,4 +1,5 @@
 ---
+redirect_from: /lv/introduction/index.html
 section: guide
 lang: lv
 title: Ievads

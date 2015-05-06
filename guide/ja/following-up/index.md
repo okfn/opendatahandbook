@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/following-up/index.html
 section: guide
 lang: ja
 title: データはオープンにした。それからどうする?

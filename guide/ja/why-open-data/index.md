@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/why-open-data/index.html
 section: guide
 lang: ja
 title: なぜオープンデータなのか?

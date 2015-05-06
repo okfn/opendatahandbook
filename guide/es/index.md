@@ -1,4 +1,5 @@
 ---
+redirect_from: /es/index.html
 section: guide
 lang: es
 title: El manual de Open Data

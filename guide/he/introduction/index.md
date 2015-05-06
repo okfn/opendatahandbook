@@ -1,4 +1,5 @@
 ---
+redirect_from: /he/introduction/index.html
 section: guide
 lang: he
 title: הקדמה

@@ -1,4 +1,5 @@
 ---
+redirect_from: /ko/how-to-open-up-data/index.html
 section: guide
 lang: ko
 title: 어떻게 데이터를 공개할 것인가

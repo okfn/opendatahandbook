@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/appendices/index.html
 section: guide
 lang: ru
 title: Какие интеллектуальные права существуют для данных (баз данных)

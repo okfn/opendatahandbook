@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/introduction/index.html
 section: guide
 lang: ru
 title: Введение

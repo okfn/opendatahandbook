@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/glossary.html
 section: glossary
 lang: is
 title: Glossary

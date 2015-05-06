@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_CN/what-is-open-data/index.html
 section: guide
 lang: zh_CN
 title: 什么是开放数据？

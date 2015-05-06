@@ -1,4 +1,5 @@
 ---
+redirect_from: /ko/glossary.html
 section: glossary
 lang: ko
 title: 용어 사전

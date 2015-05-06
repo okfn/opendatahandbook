@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_CN/introduction/index.html
 section: guide
 lang: zh_CN
 title: 引言

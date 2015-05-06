@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/introduction/index.html
 section: guide
 lang: id
 title: Pengenalan

@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/glossary.html
 section: glossary
 lang: id
 title: Kamus

@@ -1,4 +1,5 @@
 ---
+redirect_from: /ja/index.html
 section: guide
 lang: ja
 title: オープンデータ・ハンドブック

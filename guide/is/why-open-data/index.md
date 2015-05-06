@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/why-open-data/index.html
 section: guide
 lang: is
 title: Afhverju opin gögn?

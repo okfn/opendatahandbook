@@ -1,4 +1,5 @@
 ---
+redirect_from: /id/following-up/index.html
 section: guide
 lang: id
 title: Nah Saya Sudah Membukakan Beberapa Data, Selanjutnya Apa?

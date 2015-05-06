@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/what-is-open-data/index.html
 section: guide
 lang: ru
 title: Что такое Открытые данные?

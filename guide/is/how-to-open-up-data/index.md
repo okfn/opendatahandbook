@@ -1,4 +1,5 @@
 ---
+redirect_from: /is/how-to-open-up-data/index.html
 section: guide
 lang: is
 title: Hvernig á að frelsa gögn

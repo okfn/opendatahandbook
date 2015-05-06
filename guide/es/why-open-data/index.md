@@ -1,4 +1,5 @@
 ---
+redirect_from: /es/why-open-data/index.html
 section: guide
 lang: es
 title: ¿Por qué datos abiertos?

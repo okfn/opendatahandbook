@@ -1,4 +1,5 @@
 ---
+redirect_from: /es/following-up/index.html
 section: guide
 lang: es
 title: ¿Ya he publicado cierta información, y ahora qué?

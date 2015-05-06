@@ -1,4 +1,5 @@
 ---
+redirect_from: /zh_CN/how-to-open-up-data/index.html
 section: guide
 lang: zh_CN
 title: 如何将数据开放？

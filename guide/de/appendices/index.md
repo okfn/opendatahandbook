@@ -1,4 +1,5 @@
 ---
+redirect_from: /de/appendices/index.html
 section: guide
 lang: de
 title: Anhang

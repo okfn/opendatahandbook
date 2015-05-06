@@ -1,4 +1,5 @@
 ---
+redirect_from: /fr/index.html
 section: guide
 lang: fr
 title: Le Manuel de l'opendata

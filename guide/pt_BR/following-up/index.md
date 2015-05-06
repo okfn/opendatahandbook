@@ -1,4 +1,5 @@
 ---
+redirect_from: /pt_BR/following-up/index.html
 section: guide
 lang: pt_BR
 title: Então Eu Abri Alguns Dados, e Agora?

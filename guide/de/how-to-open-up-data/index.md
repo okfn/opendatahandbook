@@ -1,4 +1,5 @@
 ---
+redirect_from: /de/how-to-open-up-data/index.html
 section: guide
 lang: de
 title: Wie kann ich (als Behörde, Verwaltung, Organisation, ...) eigentlich Daten öffnen?

@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/appendices/index.html
 section: guide
 lang: ru
 title: Приложения

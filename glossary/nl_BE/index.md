@@ -1,4 +1,5 @@
 ---
+redirect_from: /nl_BE/glossary.html
 section: glossary
 lang: nl_BE
 title: Woordenlijst

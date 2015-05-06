@@ -1,4 +1,5 @@
 ---
+redirect_from: /hr/glossary.html
 section: glossary
 lang: hr
 title: Pojmovnik

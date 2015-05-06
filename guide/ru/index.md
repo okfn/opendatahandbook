@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/index.html
 section: guide
 lang: ru
 title: Руководство по открытым данным

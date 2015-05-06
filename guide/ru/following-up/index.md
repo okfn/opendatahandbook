@@ -1,4 +1,5 @@
 ---
+redirect_from: /ru/following-up/index.html
 section: guide
 lang: ru
 title: Итак, я открыл данные, что дальше?
