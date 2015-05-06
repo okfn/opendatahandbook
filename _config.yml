@@ -52,7 +52,7 @@ languages:
     - de
     - Deutsch
   -
-    - gr
+    - el
     - Ελληνικά
   -
     - es
@@ -140,7 +140,7 @@ meta:
       - en
       - id
       - de
-      - gr
+      - el
       - es
       - fr
       - he
@@ -165,7 +165,7 @@ meta:
       - en
       - id
       - de
-      - gr
+      - el
       - es
       - fr
       - he
@@ -215,28 +215,21 @@ defaults:
     scope: #this should be removed once more specific paths are defined
       path: ""
     values:
-      section: Guide
+      lang: en
       layout: page
       edit: true
   -
     scope:
       path: "guide"
     values:
-      section: Guide
+      lang: en
       layout: page
       edit: true
   -
     scope:
       path: "contribute"
     values:
-      section: Contribute
+      lang: en
+      section: contribute
       layout: docs
-      edit: true
-  -
-    scope:
-      type: "posts"
-    values:
-      section: Value Stories
-      permalink: /value-stories/:title/
-      layout: post
       edit: true
