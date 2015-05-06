@@ -3,7 +3,7 @@ title: The Open Data Handbook
 short_title: Open Data Handbook
 email: admin@okfn.org
 description: > # this means to ignore newlines until "baseurl:"
-  A collection of research, resources, use cases and guides for civil society and government on the “what, why & how” of open data. 
+  Guides, case studies and resources for civil society and government on the “what, why & how” of open data.
 baseurl: ""
 url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
@@ -34,7 +34,7 @@ supporters:
     url: http://www.worldbank.org/
 
 
-#googleanalytics: UA-XXXXX-X
+googleanalytics: UA-8271754-28
 
 # Build settings
 markdown: kramdown
