@@ -127,6 +127,7 @@ pre,
   padding: 0.3em 0;
   text-align: left;
   text-transform: uppercase;
+  line-height:inherit;
 }
 
 .post,
@@ -1728,6 +1729,48 @@ html.mm-background .mm-page,
 
 .stories {
   @include outer-container;
+  font-family:$serif;
+  
+  .post-content {
+    
+    .post-list {
+      li {
+        padding-bottom:$base-spacing;
+        margin-bottom:$base-spacing;
+        border-bottom:solid 1px $light-gray;
+        
+        h2 {
+          font-family: $serif;
+          font-size: 2em;
+          font-weight: 700;
+          margin-top:0;
+          margin-bottom: 0.1em;
+          
+          a {
+            color:$base-font-color;
+          }
+        
+          @include media($medium-screen) {
+            font-size: 2.6em;
+          }
+        }
+        
+        .post-excerpt {
+          display:block;
+        }
+        
+        & > a {
+          @extend button;
+          margin-top:1em;
+        }
+        
+        &:last-child {
+          border:none;
+          margin-bottom:0;
+        }
+      }
+    }
+  }
 }
 
 

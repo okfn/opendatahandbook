@@ -4,18 +4,23 @@ wide: true
 ---
 
 <div class="stories">
-  <span class="pre-header">{{ page.title }}</span>
-  <ul class="post-list">
-    {% for story in site.pages %}
-    {% if story.section == 'value-stories' and story.lang == page.lang %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ story.url | prepend: site.baseurl }}">{{ story.title }}</a>
-      </h2>
-      <span class="post-excerpt">{{ story.content | truncatewords: 100 | strip_html }}</span>
-      <a class="post-link" href="{{ story.url | prepend: site.baseurl }}">More</a>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
+  <div class="post-content">
+  <h1 class="pre-header">{{ page.title }}</h1>
+    <ul class="post-list">
+      {% for story in site.pages %}
+      {% if story.section == 'value-stories' and story.lang == page.lang %}
+      {% assign story_length = story.content | number_of_words %}
+      <li class="{% if story_length > 100 %}long{% else %}short{% endif %}">
+        <h2>
+          <a class="post-link" href="{{ story.url | prepend: site.baseurl }}">{{ story.title }}</a>
+        </h2>
+        <span class="post-excerpt">{{ story.content | truncatewords: 100 | strip_html }}</span>
+        {% if story_length > 100 %}
+        <a class="post-link" href="{{ story.url | prepend: site.baseurl }}">Read More</a>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
 </div>
