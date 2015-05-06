@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Markdown Examples
 ---
 
@@ -41,15 +42,15 @@ Header 2
 ###### Header 6
 
     # Header 1
-    
+
     ## Header 2
-    
+
     ### Header 3
-    
+
     #### Header 4
-    
+
     ##### Header 5
-    
+
     ###### Header 6
 
 
@@ -187,8 +188,8 @@ This paragraph has some `code` in it.
 ![Alt Text](http://placehold.it/200x50 "Image Title")
 
     ![Alt Text](http://placehold.it/200x50 "Image Title")
-    
-    
+
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
@@ -200,7 +201,7 @@ This paragraph has some `code` in it.
     | col 3 is      | right-aligned | $1600 |
     | col 2 is      | centered      |   $12 |
     | zebra stripes | are neat      |    $1 |
-    
+
 I bet you'd like more information about this sentence [^1].
 
 [^1]: Well lucky for you, I've included more information in a footnote.
@@ -209,4 +210,3 @@ I bet you'd like more information about this sentence [^1].
     I bet you'd like more information about this sentence [^1].
     [^1]: Well lucky for you, I've included more information in a footnote.
 ~~~
-
