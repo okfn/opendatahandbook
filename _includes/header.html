@@ -79,10 +79,12 @@
     <li{% if current.last == 'value-stories' %} class="Selected"{% endif %}>
       <a href="{{ value-stories_entry_point }}">Open Data Value Stories</a>
       <ul>
-        {% for story in site.value-stories %}
-        {% assign story_url = site.baseurl | append: '/' | append: post.url | append: '/' | append: page.lang | append: '/' %}
-        {% assign currentstory = story.url | downcase | split: '/' %}
-        <li{% if current.last == currentstory.last %} class="Selected"{% endif %}><a href="{{ story_url }}">{{ story.title }}</a></li>
+        {% for story in site.pages %}
+        {% if story.section == 'value-stories' and story.lang == page.lang %}
+        <li{% if current.last == story.last %} class="Selected"{% endif %}>
+          <a href="{{ story.url }}" title="{{ story.title }}">{{ story.title }}</a>
+        </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </li>
