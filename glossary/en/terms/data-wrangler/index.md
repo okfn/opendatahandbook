@@ -1,5 +1,5 @@
 ---
 section: terms
 lang: en
-title: Data-wrangler
+title: Data wrangler
 ---
