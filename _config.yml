@@ -100,6 +100,19 @@ languages:
     - ko
     - 한국어
 
+toc:
+  - guide
+    - introduction
+    - why-open-data
+    - what-is-open-data
+    - how-to-open-up-data
+    - following-up
+    - glossary
+    - appendices
+  - value-stories
+  - resources
+  - credits
+
 meta:
   resources:
     label: resources
@@ -188,8 +201,6 @@ meta:
               slug: 'credits'
         - title: 'Why Open Data?'
           slug: 'why-open-data'
-        - title: 'What is Open Data?'
-          slug: 'what-is-open-data'
         - title: 'What is Open Data?'
           slug: 'what-is-open-data'
 
