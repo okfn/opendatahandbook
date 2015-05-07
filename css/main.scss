@@ -801,7 +801,6 @@ pre,
   text-align:right;
   height:60px;
   line-height:59px;
-  white-space:nowrap;
   
   & > ul {
     float:left;
@@ -829,7 +828,6 @@ pre,
       .tooltip {
         width:230px;
         bottom: 60px;
-        white-space:normal;
       }
       
       &:hover {
@@ -973,6 +971,7 @@ pre,
         float:none;
         border-width: 1px;
         margin-bottom:10px;
+        min-width:215px;
         
         &:before {
           padding-right:20px;
@@ -1000,7 +999,7 @@ pre,
     }
   }
   @media all and (min-width: 1440px) {
-    right:-1px;
+    right:-23px;
     left:auto;
     
     & > ul {
@@ -1013,7 +1012,7 @@ pre,
   }
   
   @media all and (min-width: 1500px) {
-    right:15px;
+    right:-1px;
   }
 }
 
