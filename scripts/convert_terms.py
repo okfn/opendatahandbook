@@ -54,8 +54,8 @@ def run():
     new_pattern = '[{0}]({1})'
 
     # also was run with this, to catch newer stuff that didn't use terms:
-    current_pattern = '( {(.+?)})'
-    new_pattern = ' [{0}]({1})'
+    # current_pattern = '( {(.+?)})'
+    # new_pattern = ' [{0}]({1})'
 
     for filepath in files_to_act_on:
 
