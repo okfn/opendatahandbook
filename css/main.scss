@@ -795,13 +795,13 @@ pre,
   
   position:fixed;
   bottom:0;
-  right:0;
   width:100%;
   background-color: rgba( #fff, .95 );
   border-top:solid 1px $medium-gray;
   text-align:right;
   height:60px;
   line-height:59px;
+  white-space:nowrap;
   
   & > ul {
     float:left;
@@ -829,6 +829,7 @@ pre,
       .tooltip {
         width:230px;
         bottom: 60px;
+        white-space:normal;
       }
       
       &:hover {
@@ -908,6 +909,23 @@ pre,
           }
         }
       }
+      &.translate {
+        
+        &:before {
+          @include icon-font();
+          content: "\e608";
+          font-size:rem(18);
+          float:left;
+          margin-top:21px;
+          margin-right:5px;
+        }
+        
+        a {
+          @extend button;
+          display:block;
+          text-align:center;
+        }
+      }
     }
   }
   
@@ -944,8 +962,9 @@ pre,
     top: 165px;
     width:auto;
     border:none;
-    right:-115px;
+    left:100%;
     height:auto;
+    margin-left:-63px;
     
     & > ul {
       float:right;
@@ -980,8 +999,9 @@ pre,
       position:fixed;
     }
   }
-  @include media($extra-large-screen) {
+  @media all and (min-width: 1440px) {
     right:-1px;
+    left:auto;
     
     & > ul {
       & > li {
@@ -992,7 +1012,7 @@ pre,
     }
   }
   
-  @media all and (min-width: 1440px) {
+  @media all and (min-width: 1500px) {
     right:15px;
   }
 }
