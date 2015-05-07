@@ -137,9 +137,7 @@ Aber FTP ist nicht beliebt. Statt Informationen auf einer Website abzurufen, mü
 
 #### als Torrents
 
-term
-
-:   'BitTorrent' ist ein System, dass Politikern und Verwaltungen vor allem wegen seiner Verbindung zu Urheberrechtsverstößen bekannt ist. Bit Torrent verteilt Daten zwischen den verschiedenen Nutzern, jeder ist gleichzeitig Up- und Downloader von Daten. Das System ist sehr einfach aufgebaut und wunderbar geeignet um große Datenpakete zu versenden.
+{term:'BitTorrent'} ist ein System, dass Politikern und Verwaltungen vor allem wegen seiner Verbindung zu Urheberrechtsverstößen bekannt ist. Bit Torrent verteilt Daten zwischen den verschiedenen Nutzern, jeder ist gleichzeitig Up- und Downloader von Daten. Das System ist sehr einfach aufgebaut und wunderbar geeignet um große Datenpakete zu versenden.
 
 #### Als API
 
