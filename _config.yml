@@ -162,7 +162,7 @@ meta:
     label: guide
     output: true
     has_translation: true
-    title: Open Data Handbook
+    title: Guide
     languages:
       - en
       - id
