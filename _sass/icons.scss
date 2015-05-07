@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?s5tpeq');
-	src:url('fonts/icomoon.eot?#iefixs5tpeq') format('embedded-opentype'),
-		url('fonts/icomoon.woff?s5tpeq') format('woff'),
-		url('fonts/icomoon.ttf?s5tpeq') format('truetype'),
-		url('fonts/icomoon.svg?s5tpeq#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?77z4mw');
+	src:url('fonts/icomoon.eot?#iefix77z4mw') format('embedded-opentype'),
+		url('fonts/icomoon.woff?77z4mw') format('woff'),
+		url('fonts/icomoon.ttf?77z4mw') format('truetype'),
+		url('fonts/icomoon.svg?77z4mw#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -27,12 +27,12 @@
   @include icon-font();
 }
 
-.icon-arrow-drop-down:before {
-	content: "\e607";
+.icon-translate:before {
+	content: "\e608";
 }
 
-.icon-keyboard-arrow-down:before {
-	content: "\e608";
+.icon-arrow-drop-down:before {
+	content: "\e607";
 }
 
 .icon-youtube:before {
