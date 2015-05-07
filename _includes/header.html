@@ -22,24 +22,6 @@
   <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
 </header>
 
-
-{% if active_section.has_translation %}
-<div class="language dropdown">
-  <span class="dropdown-description">Language:</span>
-  <span class="dropdown-button">{{ site.languages[0][1] }}</span>
-  <ul class="dropdown-menu dropdown-select">
-    {% for language in site.languages %}
-    {% if active_section.languages contains language[0] %}
-    {% assign _url = page.url %}
-    {% assign old_lang_bit = page.lang | prepend: '/' | append: '/' %}
-    {% assign new_lang_bit = language[0] | prepend: '/' | append: '/' %}
-    <li><a href="{{ _url | replace: old_lang_bit, new_lang_bit }}">{{ language[1] }}</a></li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
 <nav id="menu">
   <ul>
 
@@ -72,18 +54,13 @@
         <li class="Spacer{% if page.url contains 'contribute' %} Selected{% endif %}">
           <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
           <ul>
-            <li {% if page.url contains 'contribute' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contributing to the handbook</a>
+            {% for contribute_page in site.pages %}
+            {% if contribute_page.section == 'contribute' %}
+            <li {% if contribute_page.url == page.url %} class="Selected"{% endif %}>
+              <a href="{{ contribute_page.url }}">{{ contribute_page.title }}</a>
             </li>
-            <li {% if page.url contains '/contribute/editing/' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>
-            </li>
-            <li {% if page.url contains '/contribute/adding/' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
-            </li>
-            <li {% if page.url contains '/contribute/markdown-examples/' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">Markdown Examples</a>
-            </li>
+            {% endif %}
+            {% endfor %}
           </ul>
         </li>
         <!-- end navigation for contribute section -->

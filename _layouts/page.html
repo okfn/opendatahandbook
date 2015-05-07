@@ -2,6 +2,7 @@
 layout: default
 wide: true
 ---
+
 <div class="post">
   <article class="post-content">
     <span class="pre-header">{{ page.section }}</span>
@@ -15,9 +16,12 @@ wide: true
       </ul>
     </div>
     {% endif %}
+
+    {% include languages.html %}
+
     {{ content }}
   </article>
-  
+
 </div>
 
 {% include page-tools.html %}
