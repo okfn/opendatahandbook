@@ -72,18 +72,13 @@
         <li class="Spacer{% if page.url contains 'contribute' %} Selected{% endif %}">
           <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
           <ul>
-            <li {% if page.url contains 'contribute' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contributing to the handbook</a>
+            {% for contribute_page in site.pages %}
+            {% if contribute_page.section == 'contribute' %}
+            <li {% if contribute_page.url == page.url %} class="Selected"{% endif %}>
+              <a href="{{ contribute_page.url }}">{{ contribute_page.title }}</a>
             </li>
-            <li {% if page.url contains '/contribute/editing/' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>
-            </li>
-            <li {% if page.url contains '/contribute/adding/' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/adding/" | prepend: site.baseurl }}">Adding a page</a>
-            </li>
-            <li {% if page.url contains '/contribute/markdown-examples/' %} class="Selected"{% endif %}>
-              <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">Markdown Examples</a>
-            </li>
+            {% endif %}
+            {% endfor %}
           </ul>
         </li>
         <!-- end navigation for contribute section -->
