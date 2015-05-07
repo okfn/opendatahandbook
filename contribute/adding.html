@@ -66,58 +66,7 @@ Another paragraph.
 
 <p>When you’re done, click ‘<em>Propose new file</em>’.</p>
 
-
-<h3>4: Add page to menu</h3>
-
-<p>Before you make your pull request, you need to add your new page to the site’s menu. On the pull request screen you’ll see a message telling you the name of the branch to which your new page was added. This will be something like <em><strong>patch-1</strong></em>, take note of this branch name.</p>
-
-<p>Do not create a pull request, but navigate to https://github.com/<em><strong>yourusername</strong></em>/{{ site.github_repo }}/edit/<em><strong>branch</strong></em>/_data/handbook-contents-en.yml</p>
-
-<div class="note">
-  <h6>Note</h6>
-  <p>‘<em><strong>branch</strong></em>’ represents the name you took note of previously, e.g. <em><strong>patch-1</strong></em>. If you are browsing to this manually, be sure to switch to this branch.</p>
-</div>
-
-<p>In this contents document, you’ll see a list of all the pages in the Handbook, accompanied by their respective file names, minus the extension (.md). It should look something like this:</p>
-
-<pre>
-<code>- title: "Open Data Handbook"
-  href: "introduction"
-  lang: "en"
-  subcategories:
-    - subtitle: "Introduction"
-      subhref: "introduction"
-    - subtitle: "Why Open Data?"
-      subhref: "why-open-data"
-    - subtitle: "What is Open Data?"
-      subhref: "what-is-open-data"</code>
-</pre>
-
-<p>The order in which the pages appear in this list, is the order they will appear in the website’s menu. So, if you think your new page should sit between ‘Why Open Data’ and ‘What is Open Data’, then you should edit the file like so:</p>
-
-<pre>
-<code>- title: "Open Data Handbook"
-  href: "introduction"
-  lang: "en"
-  subcategories:
-    - subtitle: "Introduction"
-      subhref: "introduction"
-    - subtitle: "Why Open Data?"
-      subhref: "why-open-data"
-    - subtitle: "My Cool Page"
-      subhref: "my-cool-page"
-    - subtitle: "What is Open Data?"
-      subhref: "what-is-open-data"</code>
-</pre>
-
-<p>Pay attention to the indentations, it is important to keep the syntax and the formatting of this document consistent. When you are happy, go ahead and click ‘<em>Commit changes</em>’.</p>
-
-<div class="note">
-  <h6>Note</h6>
-  <p>If your new content requires multiple pages, the above steps can be repeated in this branch.</p>
-</div>
-
-<h3>5: Make a pull request</h3>
+<h3>4: Make a pull request</h3>
 
 <p>Once you have created your page(s) and updated the contents document, you're ready to make your pull request. Click the pull request icon to the right of the screen <code class="icon-git-pull-request"><span>[git pull-request icon]</span></code>, then click ‘<em>New pull request</em>’.</p>
 
