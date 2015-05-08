@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Open Data Businesses - and oxymoron or a new model? "
+title:  "Open Data Businesses - an oxymoron or a new model? "
 authors:
 - Mor Rubinstein
 - Chrisitan Villum
