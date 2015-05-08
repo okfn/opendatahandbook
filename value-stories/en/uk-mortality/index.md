@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Open Data Businesses - and oxymoron or a new model? "
+title:  "Open Data Reduces Mortality Rate in UK Hospitals"
 authors:
 - Katelyn Rogers
 ---
