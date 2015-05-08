@@ -3,6 +3,7 @@
 {% assign value-stories = site.meta.value-stories %}
 {% assign resources = site.meta.resources %}
 {% assign guide_entry_point = site.baseurl | append: '/' | append: guide.label | append: '/' | append: page.lang | append: '/' | append: guide.toc.entry_point | append: '/' %}
+{% assign glossary_entry_point = site.baseurl | append: '/' | append: glossary.label | append: '/' | append: page.lang | append: '/' %}
 {% assign value-stories_entry_point = site.baseurl | append: '/' | append: value-stories.label | append: '/' | append: page.lang | append: '/' %}
 {% assign resources_entry_point = site.baseurl | append: '/' | append: resources.label | append: '/' %}
 {% assign credits_entry_point = site.baseurl | append: '/credits/' %}
@@ -48,29 +49,21 @@
           {% endif %}
         </li>
         {% endfor %}
-        <!-- end navigation for guide section -->
 
-        <!-- start navigation for contribute section -->
-        <li class="Spacer{% if page.url contains 'contribute' %} Selected{% endif %}">
-          <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
-          <ul>
-            {% for contribute_page in site.pages %}
-            {% if contribute_page.section == 'contribute' %}
-            <li {% if contribute_page.url == page.url %} class="Selected"{% endif %}>
-              <a href="{{ contribute_page.url }}">{{ contribute_page.title }}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-          </ul>
+        <!-- start navigation for glossary section -->
+        <li{% if page.url contains 'glossary' %} class="Selected"{% endif %}>
+          <a href="{{ glossary_entry_point }}">Glossary</a>
         </li>
-        <!-- end navigation for contribute section -->
+        <!-- end navigation for glossary section -->
 
+        <!-- end navigation for guide section -->
       </ul>
     </li>
 
     <!-- start navigation for value stories section -->
     <li{% if page.url contains 'value-stories' %} class="Selected"{% endif %}>
-      <a href="{{ value-stories_entry_point }}">Open Data Value Stories</a>
+      <a href="{{ value-stories_entry_point }}">Value Stories</a>
+      {% comment %}
       <ul>
         {% for story in site.pages %}
         {% if story.section == 'value-stories' and story.lang == page.lang %}
@@ -80,12 +73,13 @@
         {% endif %}
         {% endfor %}
       </ul>
+      {% endcomment %}
     </li>
     <!-- end navigation for value stories section -->
 
     <!-- start navigation for resources section -->
     <li{% if page.url contains 'resources' %} class="Selected"{% endif %}>
-      <a href="{{ resources_entry_point }}">Open Data Resources</a>
+      <a href="{{ resources_entry_point }}">Resources</a>
 
       {% comment %}
       <ul>
@@ -134,6 +128,21 @@
 
     </li>
     <!-- end navigation for resources section -->
+
+    <!-- start navigation for contribute section -->
+    <li class="{% if page.url contains 'contribute' %}Selected{% endif %}">
+      <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
+      <ul>
+        {% for contribute_page in site.pages %}
+        {% if contribute_page.section == 'contribute' %}
+        <li {% if contribute_page.url == page.url %} class="Selected"{% endif %}>
+          <a href="{{ contribute_page.url }}">{{ contribute_page.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+    <!-- end navigation for contribute section -->
 
     <li{% if page.url contains 'credits' %} class="Selected"{% endif %}>
       <a href="{{ credits_entry_point }}">Credits</a>
