@@ -1492,6 +1492,19 @@ html.mm-background .mm-page,
     }
   }
   
+  .intro {
+    @include span-columns(10);
+    @include shift(1);
+    margin-top: - $base-spacing / 2;
+    margin-bottom:$base-spacing * 1.5;
+    font-family:$serif;
+    
+    @include media($medium-screen) {
+      @include span-columns(8);
+      @include shift(2);
+    }
+  }
+  
   & > section {
     clear:both;
     @include clearfix;
