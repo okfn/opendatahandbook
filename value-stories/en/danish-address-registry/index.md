@@ -5,7 +5,7 @@ title:  "Danish Address registry"
 authors:
 - Katelyn Rogers
 ---
-### In 2002, the Danish government, having determined that “free and unrestricted access to addresses of high quality is beneficial to the public and forms the basis for reaping substantial benefits in public administration and in industry and commerce”, released its official Danish address database free of charge. 
+In 2002, the Danish government, having determined that “free and unrestricted access to addresses of high quality is beneficial to the public and forms the basis for reaping substantial benefits in public administration and in industry and commerce”, released its official Danish address database free of charge. 
 
 Eight years later, the government analysed the impact of opening up Danish address data and came to the following conclusion.
 * __Reuse__: In 2010, free-of-charge address data was deliver to total of 1,236 parties of which 70% were from private companies, 20% from the central government and 10% from municipalities.
