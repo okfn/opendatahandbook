@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: ja
 title: Five stars of open data
 ---
 

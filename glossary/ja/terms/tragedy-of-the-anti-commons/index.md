@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: ja
 title: Tragedy of the anti-commons
 ---
 
