@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Unique identifire
+lang: it
+title: Unique identifire / Identificatore univoco
 ---
 
-(or UID): An [identifier](/glossary/en/terms/identifier/) for an object which is guaranteed to be different from identifiers of all other objects in a collection. Within a database, every object will have a UID that is unique within the database. A UID assigned by a central registry (such as an ISBN for books, or a [DOI](/glossary/en/terms/doi/) for data) will be unique for all objects for which it is assigned. The http://... identifiers of [linked data](/glossary/en/terms/linked-data/) provide a technique for guaranteeing UIDs without a central authority. 
+(o UID): È un [identificatore](/glossary/it/terms/identifier/) for un oggetto di cui si garantisce essere diverso da tutti gli altri identificatore contenuti in una collezione di oggetti. All'interno di un database, ogni oggetto avrà un UID che è unico all'interno della banca dati. Ua UID assegnato da un registro centrale (come un ISBN per i libri, o di un [DOI](/glossary/it/terms/doi/) per i dati), sarà unico per tutti gli oggetti per i quali è assegnato. Gli identificatori http://... dei [linked data](/glossary/en/terms/linked-data/) forniscono una tecnologia per garantire gli UID senza un'autorità centrale.
