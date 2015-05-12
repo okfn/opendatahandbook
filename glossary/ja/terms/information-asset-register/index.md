@@ -4,9 +4,10 @@ lang: ja
 title: Information Asset Register
 ---
 
-IARs are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR includes databases, old sets of files, recent electronic files, collections of statistics, research and so forth.
+IARは、政府や官公庁が保持する大量の情報に関するメタデータをとりまとめて登録したものだ。広義のIARには、データベースや過去のファイル、最近の電子ファイル、統計情報、研究結果なども含まれる。
 
-    The [EU PSI Directive](/glossary/en/terms/eu-psi-directive/) recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
+[EU PSI Directive](/glossary/en/terms/eu-psi-directive/)  は、公開情報の再利用をしたい人向けに、資源の登録簿を作ることの重要性を認識している。所属するメンバーに、一覧表やポータルなどの何かを提供するよう要求している。こんな要求だ。
+
 
         Tools that help potential re-users to find documents available
         for re-use and the conditions for re-use can facilitate
