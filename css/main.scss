@@ -854,6 +854,9 @@ pre,
           & + a {
             display:block;
             margin-top: 10px;
+            @extend button;
+            text-align:center;
+            background-color:$dark-gray;
           }
         }
       }
