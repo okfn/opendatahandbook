@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Unconference
+lang: it
+title: Unconference / non-conferenza
 ---
 
-A meeting, similar to a conference, but with no agenda fixed in advance. Using various established techniques, participants jointly agree on the day what sessions will run. Some more traditional conference sessions with invited speakers may also be included. A popular format among the tech community, an unconference can be combined with or run alongside a [hackathon](/glossary/en/terms/hackathon/) based on open data. It is a possible method of {community engagement} by data {publishers}.
+Un meeting, simile ad una conferenza, ma senza un programma stabilito all'inzio. Utilizzando varie tecniche consolidate, i partecipanti concordano congiuntamente il giorno ciò che verranno eseguite le sessioni. Alcune sessioni saranno più tradizionali anche includendo relatori ad invito. Un formato popolare fra la comunità tecnologiche è quello di combinare o affiancare una non-conferenza con una [hackathon](/glossary/it/terms/hackathon/) su dati aperti. Si tratta di un possibile metodo di ingaggio di comunità ({community engagement}) attraverso i [fornitori](/glossary/it/terms/publisher/) di dati.
