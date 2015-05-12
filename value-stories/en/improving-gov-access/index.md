@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Improving Government Access to Government Data"
+title:  "Improving government access to government data"
 authors:
 - Katelyn Rogers
 ---
