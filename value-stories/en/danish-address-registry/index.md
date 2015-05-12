@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Danish Address registry"
+title:  "Danish address registry"
 authors:
 - Katelyn Rogers
 ---
