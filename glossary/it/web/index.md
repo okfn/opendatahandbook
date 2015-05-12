@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Web
 ---
 
-The World Wide Web, the vast collection of interlinked and linkable documents and services accessible via 'web browsers' over the [Internet](/glossary/en/terms/internet/).
+Il World Wide Web è una grande vasta di documenti collegati e collegabili e di servizi accessibili via 'web browser' attraverso [Internet](/glossary/it/terms/internet/).
