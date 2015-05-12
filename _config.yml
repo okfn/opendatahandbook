@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
-github_repo:  opendatahandbook-v2
+github_repo:  opendatahandbook
 paypal: admin@okfn.org
 
 gems:
