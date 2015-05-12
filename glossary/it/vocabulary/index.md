@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Vocabulary
+lang: it
+title: Vocabolario
 ---
 
-A [standard](/glossary/en/terms/standard/) specifying the {identifiers} to be used for a particular collection of objects. Using standard vocabularies where they exist is key to enabling [data integration](/glossary/en/terms/data-integration/). [Linked data](/glossary/en/terms/linked-data/) is rich in vocabularies in different topic areas.
+Uno [standard](/glossary/it/terms/standard/) le cui specifiche servono a definire degli [identificatori](/glossary/it/terms/identifier) da utilizzare per una particolare collezione di oggetti. L'utilizzo di vocabolari standard sono la chiave per abilitare l'[l'integrazione fra dati](/glossary/in/terms/data-integration/). I [linked data](/glossary/en/terms/linked-data/) sono ricchi di vocabolari in diversi argomenti.
