@@ -6,7 +6,7 @@ title: Information Asset Register
 
 IARは、政府や官公庁が保持する大量の情報に関するメタデータをとりまとめて登録したものだ。広義のIARには、データベースや過去のファイル、最近の電子ファイル、統計情報、研究結果なども含まれる。
 
-[EU PSI Directive](/glossary/en/terms/eu-psi-directive/)  は、公開情報の再利用をしたい人向けに、資源の登録簿を作ることの重要性を認識している。所属するメンバーに、一覧表やポータルなどの何かを提供するよう要求している。こんな要求だ。
+[EU PSI Directive](/glossary/ja/terms/eu-psi-directive/)  は、公開情報の再利用をしたい人向けに、資源の登録簿を作ることの重要性を認識している。所属するメンバーに、一覧表やポータルなどの何かを提供するよう要求している。こんな要求だ。
 
 
         Tools that help potential re-users to find documents available
