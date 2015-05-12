@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Exposing $62m in potential pharmaceutical savings in Southern Africa"
+title:  "Exposing $62m in potential pharmaceutical savings in southern Africa"
 authors:
 - The Open Data Institute
 ---
