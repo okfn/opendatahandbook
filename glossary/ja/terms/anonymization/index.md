@@ -1,6 +1,6 @@
 ---
 section: terms
-lang:ja
+lang: ja
 title: Anonymization
 ---
 
