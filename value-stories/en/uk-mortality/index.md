@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Open Data Reduces Mortality Rate in UK Hospitals"
+title:  "Open data reduces mortality rate in UK hospitals"
 authors:
 - Katelyn Rogers
 ---
