@@ -4,4 +4,4 @@ lang: ja
 title: Public Sector Information
 ---
 
-Information collected or controlled by the public sector.
+公的機関が収集した、あるいは管理する情報。
