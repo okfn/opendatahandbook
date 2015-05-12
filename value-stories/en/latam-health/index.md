@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Saludos - Health and open data in Uruguay and Argentina"
+title:  "Saludos - health and open data in Uruguay and Argentina"
 authors:
 - Mor Rubinstein
 - Katelyn Rogers
