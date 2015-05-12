@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-dhygks');
-	src:url('fonts/icomoon.eot?#iefix-dhygks') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-dhygks') format('woff'),
-		url('fonts/icomoon.ttf?-dhygks') format('truetype'),
-		url('fonts/icomoon.svg?-dhygks#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?bt1p51');
+	src:url('fonts/icomoon.eot?#iefixbt1p51') format('embedded-opentype'),
+		url('fonts/icomoon.woff?bt1p51') format('woff'),
+		url('fonts/icomoon.ttf?bt1p51') format('truetype'),
+		url('fonts/icomoon.svg?bt1p51#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -25,6 +25,10 @@
 
 [class^="icon-"], [class*=" icon-"] {
   @include icon-font();
+}
+
+.icon-plus:before {
+	content: "\e60a";
 }
 
 .icon-mail:before {

@@ -62,6 +62,15 @@
         <a href="https://twitter.com/home?status={{page.title }}: {{ site.url }}{{ page.url }}" class="twitter" rel="external">Share on Twitter</a>
       </span>
     </li>
+    {% if page.section == 'resources' %}
+    <li class="add tooltip-item">
+      Add a resource
+      
+      <span class="tooltip">
+        <a href="{{ "/contribute/add-resource/" | prepend: site.baseurl }}" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    {% endif %}
   </ul>
   
 </div>

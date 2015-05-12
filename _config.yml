@@ -223,7 +223,6 @@ defaults:
     values:
       lang: en
       layout: page
-      edit: true
   -
     scope:
       path: "guide"
@@ -238,4 +237,9 @@ defaults:
       lang: en
       section: contribute
       layout: docs
+      edit: true
+  -
+    scope:
+      path: "value-stories"
+    values:
       edit: true
