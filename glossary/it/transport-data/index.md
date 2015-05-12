@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Transport data
+lang: it
+title: Dati di Trasporto
 ---
 
-Public transport routes, timetables and [real time](/glossary/en/terms/real-time/) data are valuable but difficult candidates for open data. Even when they are published, data from different transit authorities and companies may not be available in compatible formats, making it difficult for third parties to provide integrated transport information. Work on {standardisation} and more open data is ongoing in the sector.
+I percorsi del trasporto pubblico, le tabelle orarie di attesa e i dati in [tempo reale](/glossary/en/terms/real-time/) sono dati che si candidano come di forte valore ma sempre difficili d'aprire. Anche quando vengono pubblicati, spesso i dati delle autorità o aziende di trasporto vengono rese disponibili con formati non compatibili, il che rende difficile per terzi fornire informazioni di trasporto integrato. I lavori per la [standardizzazione](/glossary/it/terms/standardisation/) e per rendere i dati aperti sono attualmente in corso.
