@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Saving 6 Million Pounds in 15 Minutes -  Value of Open Data"
+title:  "Saving 6 million pounds in 15 minutes -  the value of open data"
 authors:
 - Katelyn Rogers
 ---
