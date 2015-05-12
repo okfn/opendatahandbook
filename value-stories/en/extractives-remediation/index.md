@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Extractives Remediation & Public Health — Open Data Advocacy in Nigeria"
+title:  "Extractives remediation & public health — open data advocacy in Nigeria"
 authors:
 - Rahul Ghosh
 ---
