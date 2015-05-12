@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Triple store
 ---
 
-The 'triples' of [RDF](/glossary/en/terms/rdf/) data can be stored in a specialised database, called a triple store, against which {queries} can be made in the query language [SPARQL](/glossary/en/terms/sparql/).
+La 'tripla' di dati dati [RDF](/glossary/it/terms/rdf/) può essere archiviata in uno speciale database dal nome, attraverso cui le interrogazioni ({queries}) possono essere fatte attraverso il linguaggio [SPARQL](/glossary/it/terms/sparql/).
