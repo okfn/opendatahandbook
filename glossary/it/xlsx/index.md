@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: XLS(X)
 ---
 
-A proprietary [spreadsheet](/glossary/en/terms/spreadsheet/) format, the native format of the popular Microsoft Excel spreadsheet package. Older versions use .xls files, while more recent ones use the [XML](/glossary/en/terms/xml/)-based .xlsx variant.
+un formato proprietario per i foglio di calcolo [foglio di calcolo](/glossary/en/terms/spreadsheet/), quello nativo del popolare pacchetto Microsoft Excel. Nelle vecchie versioni il formato utilizzato è .xls, mentre quelle più recenti fanno uso di una variante .xslx basata su [XML](/glossary/en/terms/xml/)
