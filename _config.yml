@@ -24,6 +24,31 @@ devs:
       name: Paul Walsh
       github: pwalsh
 
+contributors:
+  -
+      name: Daniel Dietrich
+      link: http://ddie.me/
+  -
+      name: Jonathan Gray
+      link: http://jonathangray.org/
+  -
+      name: Tim McNamara
+      link: http://timmcnamara.co.nz/
+  -
+      name: Antti Poikola
+      link: http://poikola.fi/
+  -
+      name: Rufus Pollock
+      link: http://rufuspollock.org/
+  -
+      name: Julian Tait
+      link: http://www.littlestar.tv/
+  -
+      name: Ton Zijlstra
+      link: http://www.zylstra.org/blog/
+  -
+      name: Sam Smith
+      link: http://samsmith.name/
 
 supporters:
   -
