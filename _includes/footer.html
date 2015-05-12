@@ -41,7 +41,7 @@
       </div>
       <ul class="icons">
         {% if site.paypal %}
-        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{ site.paypal }}&lc=GB&item_name=Open%20Data%20Handbook%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{ site.paypal }}&lc=GB&item_name={{ site.short_title }}%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
         {% endif %}
         {% if site.email %}
         <li class="email"><a href="mailto:{{ site.email }}" rel="external"><span>Email</span></a></li>
