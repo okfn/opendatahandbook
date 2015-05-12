@@ -4,4 +4,4 @@ lang: ja
 title: Database rights
 ---
 
-A right to prevent others from extracting and reusing content from a database. Exists mainly in European jurisdictions.
+データベースの中身を他人が読み出したり再利用したりすることを禁じる権利。主にヨーロッパの法域に存在する。
