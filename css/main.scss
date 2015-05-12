@@ -117,7 +117,7 @@ pre,
 //////////////////////////////////////////////////////////////////////////////////
 
 .pre-header {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid $base-font-color;
   display: inline-block;
   font-family: $sans-serif;
   font-size: 0.7em;
@@ -128,9 +128,14 @@ pre,
   text-align: left;
   text-transform: uppercase;
   line-height:inherit;
+  color:$base-font-color;
   
   @include media($medium-screen) {
     margin-top:rem(40);
+  }
+  
+  a {
+    color:$base-font-color;
   }
 }
 
