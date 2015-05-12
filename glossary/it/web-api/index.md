@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Web API
 ---
 
-An [API](/glossary/en/terms/api/) that is designed to work over the Internet.
+Una [API](/glossary/it/terms/api/) che è costruita per funzionare via web.
