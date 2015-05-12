@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: URI / URL
 ---
 
-Uniform Resource Identifier / Uniform Resource Locator. A URL is the http://... web address of some page or resource. When a URL is used in [linked data](/glossary/en/terms/linked-data/) as the [identifier](/glossary/en/terms/identifier/) for some object, it is not strictly a locator for the object (e.g. http://dbpedia.org/page/Paris is the location of a document about Paris, but not of Paris itself), so in this context it is referred to as a URI
+Uniform Resource Identifier / Uniform Resource Locator. Un URL è l'indirizzo web http://... di una pagina o risorsa. Quando una URL è utilizzata nei [linked data](/glossary/it/terms/linked-data/) come [identificatore](/glossary/it/terms/identifier/) di un oggetto, non è l'esatta locazione dell'oggetto (es. http://it.dbpedia.org/page/Parigi porta ad un documento che parla di Parigi, non ma a Parigi in sè, in questo contesto allora si fa rifermento ad una URI
