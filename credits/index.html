@@ -22,12 +22,12 @@ title: Credits
   {% endfor %}
   </ul>
 {% endif %}
-
-  {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}#{% endcapture %}
+  
+  {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for author in site.contributors %}{{ author.name }}{% if author.link %}>>{{ author.link }}{% endif %}@@{% endfor %}#{% endcapture %}
   {% assign authorstring = authors | remove: '@@#' | split: '@@' %}
 
 {% if authorstring %}
-  <h2>Words</h2>
+  <h2>Contributing authors</h2>
   {% assign authorslist = authorstring[1] %}
 
   {% for a in authorstring %}
@@ -38,15 +38,24 @@ title: Credits
 
   {% assign authorssorted = authorslist | split: '@@' | sort %}
 
+  {% capture contributor_names %}{% for contributor in site.contributors %}{{ contributor.name }}@@{% endfor %}#{% endcapture %}
+  {% assign contributorstring = contributor_names | remove: '@@#' | split: '@@' %}
+  
   <ul>
   {% for author in authorssorted %}
+    {% if author contains '>>' %}
+    <li><a href="{{ author | split: '>>' | last }}" rel="external">{{ author | split: '>>' | first }}</a></li>
+    {% else %}
+    {% unless contributorstring contains author %}
     <li>{{ author }}</li>
+    {% endunless %}
+    {% endif %}
   {% endfor %}
   </ul>
 {% endif %}
 
 {% if site.devs %}
-  <h2>Code</h2>
+  <h2>Contributing coders</h2>
   <ul>
   {% for dev in site.devs %}
     <li><a {% if dev.github %} href="https://github.com/{{ dev.github }}" rel="external"{% endif %}>{{ dev.name }}</a></li>

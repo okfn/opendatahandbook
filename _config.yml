@@ -1,13 +1,15 @@
 # Site settings
 title: The Open Data Handbook
 short_title: Open Data Handbook
-email: admin@okfn.org
+email: opendatahandbook@okfn.org
 description: > # this means to ignore newlines until "baseurl:"
   Guides, case studies and resources for civil society and government on the “what, why & how” of open data.
 baseurl: ""
-url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
+url: "http://opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
-github_repo:  opendatahandbook-v2
+github_repo:  opendatahandbook
+paypal: admin@okfn.org
+
 gems:
   - jekyll-redirect-from
 
@@ -22,6 +24,31 @@ devs:
       name: Paul Walsh
       github: pwalsh
 
+contributors:
+  -
+      name: Daniel Dietrich
+      link: http://ddie.me/
+  -
+      name: Jonathan Gray
+      link: http://jonathangray.org/
+  -
+      name: Tim McNamara
+      link: http://timmcnamara.co.nz/
+  -
+      name: Antti Poikola
+      link: http://poikola.fi/
+  -
+      name: Rufus Pollock
+      link: http://rufuspollock.org/
+  -
+      name: Julian Tait
+      link: http://www.littlestar.tv/
+  -
+      name: Ton Zijlstra
+      link: http://www.zylstra.org/blog/
+  -
+      name: Sam Smith
+      link: http://samsmith.name/
 
 supporters:
   -
@@ -221,7 +248,6 @@ defaults:
     values:
       lang: en
       layout: page
-      edit: true
   -
     scope:
       path: "guide"
@@ -236,4 +262,9 @@ defaults:
       lang: en
       section: contribute
       layout: docs
+      edit: true
+  -
+    scope:
+      path: "value-stories"
+    values:
       edit: true

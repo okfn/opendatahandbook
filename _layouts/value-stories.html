@@ -15,9 +15,7 @@ wide: true
           <a class="post-link" href="{{ story.url | prepend: site.baseurl }}">{{ story.title }}</a>
         </h2>
         <span class="post-excerpt">{{ story.content | truncatewords: 100 | markdownify | strip_html }}</span>
-        {% if story_length > 100 %}
         <a class="post-link" href="{{ story.url | prepend: site.baseurl }}">Read More</a>
-        {% endif %}
       </li>
       {% endif %}
       {% endfor %}
