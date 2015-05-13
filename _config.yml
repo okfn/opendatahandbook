@@ -240,7 +240,7 @@ meta:
         - title: "So I've Opened Up Some Data, Now What? "
           slug: 'following-up'
         - title: 'Appendices'
-          slug: 'appendicies'
+          slug: 'appendices'
 
 defaults:
   -
