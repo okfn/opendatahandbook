@@ -2,9 +2,11 @@
 layout: default
 wide: true
 ---
+
+{% assign section_base = site.baseurl | append: page.section | append: '/' %}
 <div class="docs">
   <article class="post-content">
-    <span class="pre-header">{{ page.section }}</span>
+    <a href="/{{ section_base }}" class="pre-header">{{ page.section }}</a>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.authors %}
     <div class="author">Written by
