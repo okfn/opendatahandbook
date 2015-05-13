@@ -137,6 +137,7 @@ meta:
     label: glossary
     output: true
     has_translation: true
+    translate_link: true
     title: Open Data Glossary
     languages:
       - en
@@ -162,7 +163,8 @@ meta:
     label: guide
     output: true
     has_translation: true
-    title: Open Data Handbook
+    translate_link: true
+    title: Guide
     languages:
       - en
       - id

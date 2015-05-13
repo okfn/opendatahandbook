@@ -10,12 +10,14 @@
       </span>
     </li>
     {% endif %}
+    {% if active_section.translate_link %}
     <li class="translate tooltip-item">
       Translate this page
       <span class="tooltip">
         <a href="{{ "/contribute/translate" | prepend: site.baseurl }}" target="_blank">Translation guide</a>
       </span>
     </li>
+    {% endif %}
     <li class="donate tooltip-item">
       Donate
       
