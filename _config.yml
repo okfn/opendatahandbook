@@ -2,7 +2,7 @@
 title: The Open Data Handbook
 short_title: Open Data Handbook
 email: opendatahandbook@okfn.org
-description: > # this means to ignore newlines until "baseurl:"
+description: |
   Guides, case studies and resources for government & civil society  
   on the “what, why & how” of open data.
 baseurl: ""
