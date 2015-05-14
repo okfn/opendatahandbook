@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Open format
+lang: it
+title: Formato Aperto
 ---
 
-A [file format](/glossary/en/terms/file-format/) whose structure is set out in agreed {standards}, overseen and published by a non-commercial expert body. A file in an open format enjoys the guarantee that it can be correctly read by a range of different software programs or used to pass information between them. Compare [proprietary](/glossary/en/terms/proprietary/).
+Un [formato di file](/glossary/it/terms/file-format/) la cui struttura è definita seguendo uno [standard](/glossary/it/terms/standard), sorvegliato e pubblicato ad un ente esporto non cocmmericale. Un file in un formato aperto offre la garanzia che può essere letto correttamente da una serie di software diversi o utilizzato per trasmettere informazioni fra loro. Confronta con [proprietario](/glossary/it/terms/proprietary/).
