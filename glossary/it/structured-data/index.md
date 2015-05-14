@@ -4,4 +4,5 @@ lang: en
 title: Strcutured data
 ---
 
-All data has some structure, but 'structured data' refers to data where the structural relation between elements is explicit in the way the data is stored on a computer disk. [XML](/glossary/en/terms/xml/) and [JSON](/glossary/en/terms/json/) are common formats that allow many types of structure to be represented. The internal representation of, for example, word-processing documents or [PDF](/glossary/en/terms/pdf/) documents reflects the positioning of entities on the page, not their logical structure, which is correspondingly difficult or impossible to extract automatically.
+Tutti i dati hanno alcune forme di struttura, ma 'dati strutturati' si riferisce ai dati in cui la relazione strutturale tra gli elementi è esplicita nel modo in cui i dati sono memorizzati su un computer. [XML](/glossary/it/terms/xml/) e [JSON](/glossary/it/terms/json/) sono i formati più comuni che permettono di rappresentare molte tipologie di struttura.
+Ad esempio, La rappresentazione interna di formati di file di elaborazione testi o PDF [PDF](/glossary/it/terms/pdf/) rappresentano la posizione delle entità nella pagina e non la loro struttura logica, rendendo così difficile l'estrazione automatica dei contenuti.
