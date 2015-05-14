@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: Spreadsheet
+lang: it
+title: Spreadsheet - Foglio di calcolo
 ---
-
-A table of data and calculations that can be processed interactively with a specialised spreadsheet program such as Microsoft Excel or OpenOffice Calc.
+Una tabella di dati e calcoli che possono essere trattati in modo interattivo con un foglio di calcolo specializzato come Microsoft Excel o OpenOffice Calc.
