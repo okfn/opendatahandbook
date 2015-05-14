@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Source code
+lang: it
+title: Codice sorgente
 ---
 
-The {files} of computer code written by programmers that are used to produce a piece of software. The source code is usually converted or 'compiled' into a form that the user's computer can execute. The user therefore never sees the original source code, unless it is published as [open source](/glossary/en/terms/open-source/).
+File di codice informatico scritti da programmatori che vengono utilizzati per produrre un pezzo di software. Il codice sorgente è di solito convertito o 'compilato' in una forma che può essere eseguita dal computer dell'utente. L'utente pertanto non vede mai il codice sorgente originale, a meno che questo non venga pubblicato come [open source](/glossary/en/terms/open-source/).
