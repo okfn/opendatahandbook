@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: Open standards
+lang: it
+title: Open standard
 ---
-
-Generally understood as technical standards which are free from licencing restrictions. Can also be interpreted to mean standards which are developed in a vendor-neutral manner.
+Generalmente si intendo le norme tecniche che esenti da restrizioni di licenza. Può anche essere interpretato nel senso di standard che si sviluppano in maniera indipendente rispetto al fornitore.
