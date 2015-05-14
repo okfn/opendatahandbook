@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Open Development
 ---
 
-Open development seeks to bring the philosophy of the {open} movement to international development. It promotes [open government](/glossary/en/terms/open-government/), transparency of aid flows, engagement of beneficiaries in the design and implementation of development projects, and availability and use of open {development data}.
+L'Open Development cerca di portare la filosofia del movimento {open} per lo sviluppo internazionale. Promuove [open government](/glossary/en/terms/open-government/), trasparenza e flussi di aiuto, l'impegno dei beneficiari nella progettazione e realizzazione di progetti di sviluppo, e la disponibilità e l'uso di [dati per lo sviluppo](/glossary/it/terms/development-data/).
