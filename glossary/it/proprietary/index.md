@@ -1,9 +1,9 @@
 ---
 section: terms
-lang: en
-title: Proprietary
+lang: it
+title: Proprietario
 ---
 
-(i) Proprietary software is owned by a company which restricts the ways in which it can be used. Users normally need to pay to use the software, cannot read or modify the [source code](/glossary/en/terms/source-code/), and cannot copy the software or re-sell it as part of their own product. Common examples include Microsoft Excel and Adobe Acrobat. Non-proprietary software is usually [open source](/glossary/en/terms/open-source/).
+(i) Il software proprietario è posseduto da una azienda che ne restringe le modalità attraverso cui questo viene utilizzato. Gli utenti normalmente devono pagare per utilizzare il software, non è poi permesso leggere o modificare il [codice sorgente](/glossary/it/terms/source-code/), e copiare il software o rivenderlo come parte di un proprio prodotto. Esempi comuni includono include Microsoft Excel e Adobe Acrobat. Il software non proprietario è solitamente chiamato [open source](/glossary/it/terms/open-source/).
 
-(ii) A proprietary [file format](/glossary/en/terms/file-format/) is one that a company owns and controls. Data in this format may need proprietary software to be read reliably. Unlike an [open format](/glossary/en/terms/open-format/), the description of the format may be confidential or unpublished, and can be changed by the company at any time. Proprietary software usually reads and saves data in its own proprietary format. For example, different versions of Microsoft Excel use the proprietary XLS and XLSX formats.
+(ii) Un [format di file proprietaro](/glossary/it/terms/file-format/) è posseduto e controllato da una azienda. Dati in questo formato hanno spesso bisogno di software proprietario per essere utilizzati. A differenza di un [formato aperto](/glossary/it/terms/open-format/), la descrizione del formato può essere confidenziale o inpubblicata, e può essere modificata diverse volte dall'azienda. Software proprietari, solitamente, aprono e salvano dati in formati proprietari. Ad esempio, diverse verisioni di Microsoft Excel, usano diversi formati proprietari di XLS e XLSX.
