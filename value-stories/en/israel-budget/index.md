@@ -12,7 +12,7 @@ In Israel, what started as an attempt to find out how much the government spent 
 
 On 2 December 2010, a deadly forest fire engulfed Mount Carmel in Israel and raged for four days before finally being brought under control. The fire services claimed that their capacity to respond effectively had been impaired by chronic underfunding, and that despite the Mount Carmel disaster, their budget was not being increased in the proposed budget for the following year, 2011–12. The government denied this, but the budget data was not public and it was difficult for the public to know what to believe.
 
-Amid claim and counterclaim, a developer, Adam Karkiv, set out to find the truth, along with other members of [The Public Knowledge Workshop](http://www.hasadna.org.il/en/) (Hasadna). Over the following few years, they overcame a series of obstacles to bring previously shadowy Israeli budget data into the open.
+Amid claim and counterclaim, a developer, Adam Kariv, set out to find the truth, along with other members of [The Public Knowledge Workshop](http://www.hasadna.org.il/en/) (Hasadna). Over the following few years, they overcame a series of obstacles to bring previously shadowy Israeli budget data into the open.
 
 ## Activism and hacktivism
 
