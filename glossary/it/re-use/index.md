@@ -1,8 +1,6 @@
 ---
 section: terms
-lang: en
-title: Re-use
+lang: it
+title: Ri-uso
 ---
-
-
-It is rare that data gathered for a particular purpose does not have other possible uses. Happily, data is an infinite resource (see [tragedy of the anti-commons](/glossary/en/terms/tragedy-of-the-anti-commons/)); once gathered, for whatever reason, it can be re-used again and again, in ways that were never envisaged when it was collected, provided only that the data-holder makes it available under an {open licence} to enable such re-use.
+È raro che dati raccolti per un particolare scopo non abbia altri possibili utilizzi. Fortunatamente, i dati, una volta raccolti per qualsiasi scopo, sono una risorsa infinita (vedi [la tragedia degli anti-commons](/glossary/en/terms/tragedy-of-the-anti-commons/)) che può essere riutilizzata più e più volte, in modi che non sono mai stati previsti prima, alla sola condizione che il titolare dei dati gli metta a disposizione con una [licenza aperta](/glossary/it/terms/open-licence) per abilitarne il riuso.
