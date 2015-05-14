@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Open movement
+lang: it
+title: Movimento open
 ---
 
-The open movement seeks to work towards solutions of many of the world's most pressing problems in a spirit of transparency, collaboration, re-use and free access. It encompasses [open data](/glossary/en/terms/open-data/), [open government](/glossary/en/terms/open-government/), [open development](/glossary/en/terms/open-development/), [open science](/glossary/en/terms/open-science/) and much more. Participatory processes, sharing of knowledge and outputs and [open source](/glossary/en/terms/open-source/) software are among its key tools. The specific definition of “open” as applied to data, knowledge and content, is set out by the [Open Definition](/glossary/en/terms/open-definition/).
+Il movimento open cerca di lavorare verso soluzioni dei molti dei problemi più urgenti del mondo in uno spirito di trasparenza, collaborazione, il riutilizzo e il libero accesso. Esso comprende l'[open data](/glossary/it/terms/open-data/), l'[open government](/glossary/it/terms/open-government/), l'[open development](/glossary/it/terms/open-development/), l'[open science](/glossary/it/terms/open-science/) e molto altro. I processi partecipativi, la condivisione della conoscenza e i suoi output, il software [open source](/glossary/it/terms/open-source/) sono fra i suoi strumenti principali. La definizione specifica di "open", basata su dati, conoscenze e contenuti, è stabilita dalla [Open Definition](/glossary/en/terms/open-definition/).
