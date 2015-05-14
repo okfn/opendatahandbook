@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: SQL
 ---
 
-Structured Query Language, a standard language used for interrogating many types of [database](/glossary/en/terms/database/). See [query](/glossary/en/terms/query/).
+Structured Query Language, è un linguaggio standard di interrogazione di molte tipologie di [database](/glossary/it/terms/database/). Vedi [query](/glossary/it/terms/query/).
