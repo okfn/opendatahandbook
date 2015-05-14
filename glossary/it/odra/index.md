@@ -4,4 +4,4 @@ lang: en
 title: ODRA
 ---
 
-Open Data Readiness Assessment, a framework created by the World Bank for assessing the opportunities, obstacles and next steps to be taken in a country (especially a developing country) considering publishing [government data](/glossary/en/terms/government-data/) as open data. See {development data}.
+Open Data Readiness Assessment, è un framework creato da World Bank per valutare le opportunità, gli ostacoli e passi da seguire per un Paese (in particolare di un Paese in via di sviluppo) al fine di pubblicare i [dati governativi](/glossary/en/terms/government-data/) come open data. Vedi {development data}.
