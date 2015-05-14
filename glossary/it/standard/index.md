@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Standard
 ---
 
-A published specification for, e.g., the structure of a particular [file format](/glossary/en/terms/file-format/), recommended nomenclature to use in a particular domain, a common set of [metadata](/glossary/en/terms/metadata/) fields, etc. Conforming to relevant standards greatly increases the value of published data by improving machine readability and easing [data integration](/glossary/en/terms/data-integration/).
+Una specifica pubblica per, ad esempio, definire la struttura di un particolare [formato di file](/glossary/it/terms/file-format/), raccomanddare una nomenclatura da utilizzare in un particolare dominio, o in sieme comuni di campi di [metadati](/glossary/en/terms/metadata/), ecc. Adeguarsi a standard pertinenti aumenta notevolmente il valore dei dati pubblicati, migliorando la machine readability e facilitando la [integrazione fra dati](/glossary/it/terms/data-integration/)
