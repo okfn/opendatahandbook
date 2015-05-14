@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: OGP
 ---
 
-The Open Government Partnership, a partnership of national governments launched in 2011 with the aim of promoting [open government](/glossary/en/terms/open-government/) in the member countries and collaborating on multi-lateral agreements and best practice. At the time of writing (2014) there are 64 participating countries.
+L'Open Government Partnership, è una partnership fra i governi di varie nazioni lanciato nel 2011 con lo scopo di promuovere l'[open government](/glossary/it/terms/open-government/) fra gli stati aderenti e nella collaborazione multi-laterale di accordi e buone pratiche. Allo stato attuale della stesura di questo documento (2014) stanno partecipando circa 64 nazioni.
