@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Raw data
+lang: it
+title: dati grezzi - raw data
 ---
 
-The original data, in {machine-readable} form, underlying any application, visualisation, published research or interpretation, etc.
+I dato originali, in formato {machine-readable}, utilizzati in una qualsiasi applicazione, visualizzazione, ricerca scientifica o interpretazione, ecc..
