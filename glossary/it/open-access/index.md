@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Open Access
 ---
-
-The principle that access to the published papers and other results of research, especially publicly-funded research, should be freely available to all. This contrasts with the traditional model where research is published in journals which charge subscription fees to readers. Besides benefits similar to the {benefits of open data}, proponents suggest that it is immoral to withhold potentially life-saving and valuable research from some readers who may be able to use or build on it. Open-access journals now exist and the interest of research funders is giving them some traction, especially in the sciences.
+È il principio secondo il quale l'accesso ai paper pubblicati e altri risultati della ricerca, in particolare quella finanziata con fondi pubblici, dovrebbe essere liberamente accessibile a tutti. Questo contrasta con il modello tradizionale in cui la ricerca è pubblicata su riviste che fanno pagare costi di abbonamento ai lettori. Oltre ai benefici simili ai [benefici degli open data](/glossary/it/terms/benefits-of-open-data/), i sostenitori suggeriscono che è immorale trattenere potenziale salva-vita e che la ricerca acquisica valore da parte solo di alcuni lettori che possono esserein grado di utilizzare o costruire su di essa. Ora esistono diverse riviste ad accesso aperto e l'interesse dei finanziatori della ricerca sta dando loro un po di trazione, soprattutto nelle scienze.
