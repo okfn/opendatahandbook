@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: en
-title: NGO
+title: ONG
 ---
 
-Non-governmental organisation. NGOs are voluntary, non-profit organisations focussing on charitable work, community-building, campaigning, research, etc, making up a vital part of {civil society}.
+Organizzazioni Non-Governative. Le ONG sono organizzazioni volontari, senza fini di lucro, NGOs are voluntary, non-profit organizzazioni che si concentrano su opere di carità, community-building, campagne, la ricerca, ecc, che costituiscono una parte essenziale della [società civile](/glossary/it/terms/civil-society).
