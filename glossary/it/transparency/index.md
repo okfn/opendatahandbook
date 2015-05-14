@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: Transparency
+lang: it
+title: Trasparenza
 ---
-
-Governments and other organisations are said to be transparent when their workings and decision-making processes are well-understood, properly documented and open to scrutiny. Transparency is one of the aspects of [open government](/glossary/en/terms/open-government/). An increase in transparency is one of the benefits of open data.
+I governi e le altre organizzazioni vengono dette trasparenti quando il loro operato e i processi decisionali sono facilmente comprensibili, adeguatamente documentati e verificabili. La trasparenza è una delle caratteristiche dell'[open government](/glossary/it/terms/open-government/). Un aumento nella trasparenza è uno dei benefici derivati dagli open data..
