@@ -1,7 +1,6 @@
 ---
 section: terms
 lang: en
-title: Share-alike License
+title: Licenza Share-alike (condividi allo stesso modo)
 ---
-
-A license that requires users of a work to provide the content under the same or similar conditions as the original.
+Una licenza che richiede a chi genera contenuti da un prodotto di rilasciare i derivati con le stesse condizioni dell'orginale.
