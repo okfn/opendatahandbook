@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it
 title: RDF
 ---
-
-Resource Description Framework, the native way of describing [linked data](/glossary/en/terms/linked-data/). RDF is not exactly a {data format}; rather, there are a few equivalent formats in which RDF can be expressed, including an [XML](/glossary/en/terms/xml/)-based format. RDF data takes the form of 'triples' (each atomic piece of data has three parts, namely a subject, predicate and object), and can be stored in a specialised [database](/glossary/en/terms/database/) called a [triple store](/glossary/en/terms/triple-store/).
+Resource Description Framework, è la forma nativa per descrivere i [linked data](/glossary/en/terms/linked-data/). RDF non è esattamente un [formato dati](/glossary/it/terms/data-format/); piuttosto, esistono alcuni formati equivalenti, nei quali RDF può essere espressi, tra cui un formato basato su [XML](/glossary/it/terms/xml/). I dati RDF prendono la forma di un "tripla" (ogni atomo di dato è specificato in tre parti, vale a dire un soggetto, un predicato ed un oggetto), e può essere archiviato in un [database](/glossary/it/terms/database/) chiamato [triple store](/glossary/it/terms/triple-store/).
