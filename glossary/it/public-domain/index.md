@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Public domain
+lang: it
+title: Pubblico dominio
 ---
 
-Content to which [copyright](/glossary/en/terms/copyright/) does not apply, for example because it has expired, is free for any kind of use by anyone and is said to be in the public domain. CC0, one of the {licences} of [Creative Commons](/glossary/en/terms/creative-commons/), is a 'public domain dedication' which attempts so far as possible to renounce all rights in the work and place it in the public domain.
+Un contenuto dove il [copyright](/glossary/en/terms/copyright/) non si applica, ad esempio perchè scaduto,  in cui chiunque è libero farne di ogni tipo di utilizzo è definito come pubblico dominio. CC0, è uno strumento legale creato da [Creative Commons](/glossary/en/terms/creative-commons/) per rinunciare al copyright in tutto il mondo.
