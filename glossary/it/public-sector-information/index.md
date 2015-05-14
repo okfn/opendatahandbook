@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Public Sector Information
+lang: it
+title: Informazione del settore pubblico
 ---
 
-Information collected or controlled by the public sector.
+Informazione raccolta o controllata dal settore pubblico.
