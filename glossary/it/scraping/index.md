@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Scraping
 ---
 
-Extracting data from a non-{machine-readable} source, such as a website or a [PDF](/glossary/en/terms/pdf/) document, and creating {structured data} from the result. Screen-scraping a dataset requires dedicated programming and is expensive in programmer time, so is generally done only after all other attempts to get the data in structured form have failed. Legal questions may arise about whether the scraping breaches the source website's [copyright](/glossary/en/terms/copyright/) or terms of service.
+Estrazione di dati da una sorgente non-{machine-readable}, come un sito web o un documento [PDF](/glossary/en/terms/pdf/) al fine di creare [dati strutturati](/glossary/it/terms/structured_data). La creazione di un dataset da scraping richiede molto tempo da parte di un programmatore, pertanto, di solito si sceglie questo percorso dopo diversi tentativi falliti di avere i dati in forma strutturat. Possono essere avanzate questioni legali come violazioni di [copyright](/glossary/it/terms/copyright/) o di termini di utilizzo nelle operazioni di scraping da siti web.
