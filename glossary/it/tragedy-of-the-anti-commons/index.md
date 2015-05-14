@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: Tragedy of the anti-commons
+lang: it
+title: Tragedia degli anti-commons
 ---
-
-The well-known tragedy of the commons occurs when a common resource, such as grazing land, is degraded through over-use. Effectively, users are treating a limited resource as if it were limitless, owing to a poor incentive structure. The economist Michael Heller coined the term 'tragedy of the anti-commons' to describe the opposite failure, where poor incentives lead to under-use of an abundant or limitless resource. The case of data which is unpublished or charged for at above [marginal cost](/glossary/en/terms/marginal-cost/) is a prime example, data being in fact a limitless resource.
+La nota tragedia dei beni comuni si verifica quando una risorsa comune, come il pascolo, viene degradata attraverso un uso eccessivo. Effettivamente, gli utenti stanno trattando una risorsa limitata come se fosse illimitata, grazie ad una struttura povera di stimoli. L'economista Michael Heller ha coniato il termine 'tragedia degli anti-commons' per descrivere l'errore opposto, dove gli scarsi incentivi portano al sotto-utilizzo di una risorsa abbondante e senza limiti. Il caso dei dati non pubblicati o addebitati ad costo superiore a quello [marginale](/glossary/it/terms/marginal-cost/) ne sono un primo esempio, i dati devono essere in realtà una risorsa illimitata.
