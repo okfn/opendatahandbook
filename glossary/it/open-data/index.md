@@ -3,5 +3,4 @@ section: terms
 lang: en
 title: Open Data
 ---
-
-{Data} is open if anyone is free to use, reuse, and redistribute it - subject only, at most, to the requirement to {attribute} and/or {share-alike}. See [Open Definition](/glossary/en/terms/open-definition/)
+Un [dato](/glossary/it/terms/data/) è aperto si chiunque è libero di usarlo, riusarlo e ridistribuirlo - soggetto, eventualmente, al requisito di [attribuzione](/glossary/it/terms/attribute/) e/o [condividere allo stesso modo](/glossary/it/terms/share-alike). Vedi [Open Definition](/glossary/it/terms/open-definition/)
