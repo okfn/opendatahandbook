@@ -5,5 +5,5 @@ lang: en
 title: Appendices
 ---
 
--   [File Formats](file-formats.md)
--   [What Legal Rights are there in Databases](what-legal-ip-rights-are-there-in-databases.md)
+-   [File Formats](/guide/en/file-formats)
+-   [What Legal Rights are there in Databases](/guide/en/what-legal-ip-rights-are-there-in-databases)
