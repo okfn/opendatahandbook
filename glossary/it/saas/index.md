@@ -1,8 +1,8 @@
 ---
 section: terms
-lang: en
+lang: it
 title: SaaS
 ---
 
 
-Software as a Service, i.e. a software program that runs, not on the user's machine, but on the machines of a {hosting} company, which the user accesses over the [web](/glossary/en/terms/web/). The host takes care of associated data storage, and normally charges for the use of the service or monetises its client base in other ways.
+Software as a Service, es. un programma software che non viene eseguito sulla macchina utente ma su computer di una azienda di {hosting}, che l'utente raggiunge attraverso il [web](/glossary/it/terms/web/). Il server remoto si preoccupa della gestione dell'archiviazione dei dati, e, normalmente trae vantaggio nell'offrire questo servizio monetizzando o in altro modo.
