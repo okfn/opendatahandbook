@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Open Science
 ---
 
-The practice of science in accordance with {open} principles, including [open access](/glossary/en/terms/open-access/) publishing, publication of and collaboration around [research data](/glossary/en/terms/research-data/) as open data together with associated [source code](/glossary/en/terms/source-code/), and use and development of [open source](/glossary/en/terms/open-source/) data processing tools.
+La pratica della scienza in accordo con i principi {open}, che includono la pubblicazione [open access](/glossary/en/terms/open-access/), la pubblicazione e la collaborazione intorno ai [dati della ricerca](/glossary/en/terms/research-data/) come open data  e il rilascio del [codice sorgente](/glossary/en/terms/source-code/) utilizzato nel crearli, e nell'uso e nello sviluppo di strumenti [open source](/glossary/en/terms/open-source/) per l'elaborazione dei dati.
