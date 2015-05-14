@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Real time
+lang: it
+title: Real time - tempo reale
 ---
 
-Data (such as the current location of trains on a network) which is being constantly updated, where a [query](/glossary/en/terms/query/) needs to be against the latest version of the data. 
+Si trattai di dati (come la posizione attuale di un treno sulla rete ferroviaria) che sono constantemente aggiornati, dove è necessario utilizzare una [query](/glossary/it/terms/query/) per ottenere l'ultima versione.
