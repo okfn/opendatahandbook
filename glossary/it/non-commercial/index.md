@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Non commercial
+lang: it
+title: Non commerciale
 ---
 
-A restriction, as part of a [licence](/glossary/en/terms/licence/), that content cannot be freely {re-used} for 'commercial' purposes. Content or data subject to a non-commercial restriction is not open, according to the [Open Definition](/glossary/en/terms/open-definition/). Such a restriction reduces {economic value} and causes problems with {licence mixing}, as well as often ruling out more than is intended (for example, it is often unclear whether educational uses are 'commercial'). The intent of a non-commercial clause may be better captured by a {share-alike} requirement.
+Una restrizione, come parte di una [licenza](/glossary/it/terms/licence/), dove il contenuto non può essere liberamente  [ri-usato](/glossary/it/terms/re-use/) per fini 'commerciali'. Contenuti o dati soggetti a restrizioni non-commerciali, in accordo con la [Open Definition](/glossary/it/terms/open-definition/), non sono open. Una tale restrizione riduce il [valore economico](/glossary/it/terms/economic-value/) a causa di problemi di [mixaggio di licenze](/glossary/it/terms/licence-mixing/), e spesso esclude anche più di quanto previsto (es non è chiaro se gli usi educativi siano 'commerciali'). L'intento di una clausola non-commerciale può essere gestita meglio dal requisito di [condivisione allo stesso modo](/glossary/it/terms/share-alike/).
