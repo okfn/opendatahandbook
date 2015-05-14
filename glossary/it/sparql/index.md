@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: SPARQL
 ---
 
-A [query](/glossary/en/terms/query/) language similar to [SQL](/glossary/en/terms/sql/), used for queries to a linked-data [triple store](/glossary/en/terms/triple-store/).
+Una [query](/glossary/it/terms/query/) in un linguagio simile al [SQL](/glossary/en/terms/sql/), utilizzata per interrogare un [triple store](/glossary/it/terms/triple-store/) linked-data.
