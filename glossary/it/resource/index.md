@@ -1,8 +1,8 @@
 ---
 section: terms
 lang: en
-title: Resource
+title: Risorsa
 ---
 
 
-CKAN uses this term to denote one of the individual data objects (a {file} such as a spreadsheet, or an [API](/glossary/en/terms/api/)) in a [dataset](/glossary/en/terms/dataset/).
+CKAN utilizza questo termine per indicare un singolo oggetto (come un {file} in formato foglio di calcolo, o una [API](/glossary/it/terms/api/)) di un [dataset](/glossary/it/terms/dataset/).
