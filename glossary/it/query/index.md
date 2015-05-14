@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Query
 ---
-
-A type of question accepted by a [database](/glossary/en/terms/database/) about the data it holds. A complex query may ask the database to select records according to some criteria, aggregate certain quantities across those records, etc. Many databases accept queries in the specialised language SQL or dialects of it. A web [API](/glossary/en/terms/api/) allows an {app} to send queries to a database over the [web](/glossary/en/terms/web/). Compared with downloading and processing the data, this reduces both the computation load on the app and the {bandwidth} needed.
+Una tipologia di interrogazione accettata da un [database](/glossary/it/terms/database/) sui dati che archivia. Una query complessa può chiedere al databaset di selezionare i dati secondo alcuni criteri, aggregarli per quantità rispetto a delle caratteristiche, ecc... 
+Diversi database accettano query in linguaggio SQL o in un dialetto di questo. Una web [API](/glossary/it/terms/api/) permette ad una {app} di inviare query ad un database attraverso il  [web](/glossary/en/terms/web/). Rispetto a scaricare ed elaborare i dati, questo riduce il carico di calcolo della applicazione e la [banda](/glossary/en/terms/bandwidth)necessaria.
