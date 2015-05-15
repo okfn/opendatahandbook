@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Linked data
 ---
 
-A form of data representation where every [identifier](/glossary/en/terms/identifier/) is an http://... {URI}, using standard lists (see [vocabulary](/glossary/en/terms/vocabulary/)) of identifiers where possible, and where datasets include links to reference datasets of the same objects. A key aim is to make [data integration](/glossary/en/terms/data-integration/) automatic, even for large datasets. Linked data is usually represented using [RDF](/glossary/en/terms/rdf/). See also [five stars of open data](/glossary/en/terms/five-stars-of-open-data/); [triple store](/glossary/en/terms/triple-store/).
+Una forma di rappresentazione dei dati in cui ogni [identificatore](/glossary/en/terms/identifier/) è una {URI} http://..., utilizzando,ove possibile, elenchi standard di identificatori (vedi [vocabolario](/glossary/it/terms/vocabulary/)), e dove dataset includono link di riferimento set di dati degli stessi oggetti. Uno degli obiettivi principali è quello di rendere automatica l'[integrazione fra dati](/glossary/en/terms/data-integration/), anche per grandi insiemi di dati. I Linked Data sono di solito rappresentati utilizzando  [RDF](/glossary/it/terms/rdf/). Vedi anche [cinque stelle degli open data](/glossary/it/terms/five-stars-of-open-data/) e [triple store](/glossary/it/terms/triple-store/)
