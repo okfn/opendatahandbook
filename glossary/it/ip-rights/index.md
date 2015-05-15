@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: IP rights
+lang: it
+title: IP right
 ---
 
-See [Intellectual property rights](/glossary/en/terms/intellectual-property-rights/).
+Vedi [diritti di proprietà intellettuale](/glossary/it/terms/intellectual-property-rights/).
