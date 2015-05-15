@@ -8,7 +8,7 @@ Gli IAR sono registri appositamente costituiti per acquisire e organizzare i met
 
     La direttiva [EU PSI Directive](/glossary/it/terms/eu-psi-directive/) riconosce l'importanza dei registri di attività per i potenziali riutilizzatori di informazioni pubbliche. Si richiede agli Stati membri di fornire elenchi, portali, o qualcosa di simile. Essa afferma:
 
-    |   Gli strumenti che aiutano i potenziali riutilizzatori a trovare documenti disponibili
+       Gli strumenti che aiutano i potenziali riutilizzatori a trovare documenti disponibili
         per il riutilizzo e le condizioni di riutilizzo può facilitare
         notevolmente l'utilizzo transfrontaliero di documenti del settore pubblico.
         Gli Stati membri dovrebbero pertanto garantire che le disposizioni pratiche
