@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Principio dei molti occhi
 ---
 
