@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Internet
 ---
 
-A structured collection of [data](/glossary/en/terms/data/) presented in a form that people can understand and process. Information is converted into [knowledge](/glossary/en/terms/knowledge/) when it is contextualised with the rest of a person's knowledge and world model.
+Una collezione strutturata di [dati](/glossary/it/terms/data/) presentati in una forma che le persone sono in grado di capire ed elaborare. L'informazione è convertita in conoscenza quando questa è contestualizzata con il resto della [conoscenza](/glossary/it/terms/knowledge/) di una persona e del modello del mondo. 
