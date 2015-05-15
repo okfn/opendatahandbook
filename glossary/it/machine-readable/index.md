@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Machine readable
 ---
 
-Data in a {data format} that can be automatically read and processed by a computer, such as [CSV](/glossary/en/terms/csv/), [JSON](/glossary/en/terms/json/), [XML](/glossary/en/terms/xml/), etc. Machine-readable data must be {structured data}. Compare {human-readable}.
+I dati in un [formato per i dati](/glossary/it/terms/data-format) - come [CSV](/glossary/it/terms/csv/), [JSON](/glossary/it/terms/json/), [XML](/glossary/it/terms/xml/), ecc -  possono essere automaticamente letti e processati da un computer. I dati machine-readable devono essere presentati come [formato per i dati](/glossary/it/terms/structured-data). Confronta con [human-readable](/glossary/it/terms/structured-data).
