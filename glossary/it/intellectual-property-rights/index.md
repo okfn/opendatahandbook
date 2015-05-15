@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Intellectual property rights
+lang: it
+title: Diritti di proprietà intellettuale
 ---
 
-Monopolies granted to individuals for intellectual creations.
+Monopoli concessi a individui per creazioni intellettuali.
