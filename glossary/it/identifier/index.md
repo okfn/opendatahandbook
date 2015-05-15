@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Identifier
+lang: it
+title: Identificatore
 ---
 
-The name of an object or concept in a database. An identifier may be the object's actual name (e.g. 'London' or 'W1 1AA', a London postcode), or a word describing the concept ('population'), or an arbitrary identifier such as 'XY123' that makes sense only in the context of the particular dataset. Careful choice of identifiers using relevant {standards} can facilitate [data integration](/glossary/en/terms/data-integration/). See [linked data](/glossary/en/terms/linked-data/).
+Il nome di un oggetto o concetto in un database. Un identificatore può essere il nome dell'oggetto attuale (es 'Londra' o 'W1 1AA', un codice postale di Londra), o una parola che descrive il concetto ('popolazione'), o un identificatore arbitrario come 'XY123' che ha senso solo in contesto in un particolare set di dati. L'attenta scelta degli identificatori utilizzando [standard](/glossary/it/terms/standards/) pertinenti può facilitare l'[integrazione fra dati](/glossary/it/terms/data-integration/). Vedi [linked data](/glossary/it/terms/linked-data/).
