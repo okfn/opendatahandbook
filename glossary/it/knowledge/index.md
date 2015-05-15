@@ -4,4 +4,4 @@ lang: en
 title: Knowledge
 ---
 
-The sum of a person's - or mankind's - [information](/glossary/en/terms/information/) about and ability to understand the world. See also [data](/glossary/en/terms/data/)
+La somma delle [information](/glossary/it/terms/information/) di una persona - o dell'umanità - delle capacità di comprendere il modo. Vedi anche [dati](/glossary/it/terms/data/)
