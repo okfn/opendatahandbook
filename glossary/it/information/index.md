@@ -1,7 +1,8 @@
 ---
 section: terms
-lang: en
-title: Information
+lang: it
+title: Informazione
 ---
 
-A structured collection of [data](/glossary/en/terms/data/) presented in a form that people can understand and process. Information is converted into [knowledge](/glossary/en/terms/knowledge/) when it is contextualised with the rest of a person's knowledge and world model.
+Una collezione strutturata di [dati](/glossary/it/terms/data/) presentata in una forma per cui le persone sono in grado di capirla ed elaborarla.
+L'informazione è convertita in [conoscenza](/glossary/it/terms/knowledge/) quando è contestualizzata con il resto della conoscenza di una persona o di un modello del mondo.
