@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Licence mixing 
+lang: it
+title: mixaggio delle licenze 
 ---
 
-If Project X publishes content, and wants to include content from Project Y, it is necessary that Y's [licence](/glossary/en/terms/licence/) permits at least the same range of {re-uses} as X's licence. For example, content published under a {non-commercial} licence cannot be included in Wikipedia, since Wikipedia's {open licence} includes rights for commercial re-use which cannot be granted for the non-commercial data, an example of a failure of licences to mix well.
+Se il Progetto X pubblica contenuti, e vuole includere quelli del Progetto Y, è necessario che i permessi della [licenza](/glossary/it/terms/licence/) di Y ne permettano il [ri-uso](/glossary/it/terms/re-use/) con quelli della licenza di X. Ad esempio, un contenuto rilasciato come [non-commerciale](/glossary/it/terms/non-commercial) non può essere inclujso in Wikipedia, in quanto la [licenza aperta](/glossary/it/terms/open-licence) usata da quest'ultima abilita il riuso a fini commerciali che non può essere invece garantito da dati rilasciati con vincolo non-commerciale. Questo è un esempio di fallimento del mixagio delle licenze.
