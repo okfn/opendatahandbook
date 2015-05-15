@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: KML
 ---
 
-Keyhole Markup Language, an [XML](/glossary/en/terms/xml/)-based [open format](/glossary/en/terms/open-format/) for [geodata](/glossary/en/terms/geodata/). KML was devised for Keyhole Earth Viewer, later acquired by Google and renamed Google Earth, but has been an international [standard](/glossary/en/terms/standard/) of the Open Geospatial Consortium since 2008.
+Keyhole Markup Language, un [formato aperto](/glossary/it/terms/open-format/) basato su [XML](/glossary/it/terms/xml/)- per i [geodato](/glossary/en/terms/geodata/). KML è stato ideato per il Keyhole Earth Viewer, successivamente acquistato da Google e rinominato Google Earth, ma successivamente, dal 2008 Open Geospatial Consortium lo ha reso uno [standard](/glossary/en/terms/standard/) internazionale 
