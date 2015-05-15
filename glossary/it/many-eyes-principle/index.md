@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: en
-title: Many eyes principle
+title: Principio dei molti occhi
 ---
 
-If something is visible to many people then, collectively, they are more likely to find errors in it. Publishing open data can therefore be a way to improve its accuracy and [data quality](/glossary/en/terms/data-quality/), especially where a good interface for reporting errors is provided. See [crowdsourcing](/glossary/en/terms/crowdsourcing/).
+Se qualcosa è visibile da molte persone allora, insieme, si è più propensi a trovarne gli errori. La pubblicazione di open data può essere quindi anche un modo per migliorare l'accuratezza e la [qualità dei dati](/glossary/en/terms/data-quality/), in particolare se si fornisce una buona interfaccia per segnalare gli errori.  Vedi [crowdsourcing](/glossary/it/terms/crowdsourcing/).
