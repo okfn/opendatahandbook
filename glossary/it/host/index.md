@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Host
 ---
-
-A company that stores a customer's data on its own (the host's) computers and makes it available over the [internet](/glossary/en/terms/internet/). A hosted service is one that runs and stores data on the service-provider's computers and is accessed over the network. See also [SaaS](/glossary/en/terms/saas/).
+Una società che memorizza i dati di un cliente sui propri computer (gli host) e lo rende disponibile su internet. Un servizio di hosting quindi presenta un computer del provider che memorizza dati e a cui si accede attraverso la rete. Vedi anche [SaaS](/glossary/it/terms/saas/).
