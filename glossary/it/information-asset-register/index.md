@@ -1,26 +1,26 @@
 ---
 section: terms
-lang: en
-title: Information Asset Register
+lang: it
+title: Information Asset Register - informazioni sul registro dei beni
 ---
 
-IARs are registers specifically set up to capture and organise meta-data about the vast quantities of information held by government departments and agencies. A comprehensive IAR includes databases, old sets of files, recent electronic files, collections of statistics, research and so forth.
+Gli IAR sono registri appositamente costituiti per acquisire e organizzare i meta-dati sugrandi quantità di informazioni detenute da amministrazioni ed enti pubblici. Uno IAR completo include i database, i vecchi insiemi di file, i recenti file elettronici, le raccolte di dati statistici, di ricerca e così via.
 
-    The [EU PSI Directive](/glossary/en/terms/eu-psi-directive/) recognises the importance of asset registers for prospective re-users of public information. It requires member states to provide lists, portals, or something similar. It states:
+    La direttiva [EU PSI Directive](/glossary/it/terms/eu-psi-directive/) riconosce l'importanza dei registri di attività per i potenziali riutilizzatori di informazioni pubbliche. Si richiede agli Stati membri di fornire elenchi, portali, o qualcosa di simile. Essa afferma:
 
-        Tools that help potential re-users to find documents available
-        for re-use and the conditions for re-use can facilitate
-        considerably the cross-border use of public sector documents.
-        Member States should therefore ensure that practical arrangements
-        are in place that help re-users in their search for documents
-        available for reuse. Assets lists, accessible preferably online,
-        of main documents (documents that are extensively re-used or
-        that have the potential to be extensively re-used), and portal
-        sites that are linked to decentralised assets lists are examples
-        of such practical arrangements.
+    |   Gli strumenti che aiutano i potenziali riutilizzatori a trovare documenti disponibili
+        per il riutilizzo e le condizioni di riutilizzo può facilitare
+        notevolmente l'utilizzo transfrontaliero di documenti del settore pubblico.
+        Gli Stati membri dovrebbero pertanto garantire che le disposizioni pratiche
+        sono in atto che aiutano riutilizzatori nella ricerca di documenti
+        disponibile per il riutilizzo. Elenchi di contenuti, di preferenza accessibili,
+        dei documenti principali (documenti che sono ampiamente riutilizzati o
+        che hanno il potenziale per essere ampiamente riutilizzati), e il portale
+        siti che sono collegati a elenchi di contenuti decentralizzati sono esempi
+        di tali modalità pratiche.
 
-    IARs can be developed in different ways. Government departments can develop their own IARs and these can be linked to national IARs. IARs can include information which is held by public bodies but which has not yet been – and maybe will not be – proactively published. Hence they allow members of the public to identify information which exists and which can be requested.
+    Gli IAR possono essere sviluppati in modi diversi. Dipartimenti governativi possono sviluppare i propri IAR e questi possono essere legati alla RAI nazionali. RAI può includere informazioni detenute da enti pubblici, ma che non è ancora stato - e forse non sarà - in modo proattivo pubblicato. Di conseguenza, essi consentono al pubblico di identificare le informazioni che esiste e che può essere richiesto.
 
-    For the public to make use of these IARs, it is important that any registers of information held should be as complete as possible in order to be able to have confidence that documents can be found. The incompleteness of some registers is a significant problem as it creates a degree of unreliability which may discourage some from using the registers to search for information.
+    Per il pubblico a fare uso di questi IAR, è importante che tutti i registri di informazione presenti devono essere il più completo possibile, al fine di poter avere fiducia che i documenti possono essere trovati. L'incompletezza di alcuni registri è un problema significativo in quanto crea un grado di inaffidabilità che possono scoraggiare alcuni di utilizzare i registri per la ricerca di informazioni.
 
-    It is essential that the metadata in the IARs should be comprehensive so that search engines can function effectively. In the spirit of open government data, public bodies should make their IARs available to the general public as raw data under an open license so that civic hackers can make use of the data, for example by building search engines and user interfaces.
+    È essenziale che i metadati negli IAR debbano essere globali in modo che i motori di ricerca possa funzionare in modo efficace. Nello spirito dei dati delle amministrazioni aperte, gli enti pubblici dovrebbero mettere gli IAR a disposizione del pubblico come dati grezzi sotto una licenza aperta in modo che gli hacker civici possano utilizzare i dati, come, ad esempio, la costruzione di motori di ricerca e interfacce utente.
