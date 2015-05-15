@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: JSON
 ---
 
-JavaScript Object Notation, a simple but powerful format for data. It can describe complex data structures, is highly {machine-readable} as well as reasonably {human-readable}, and is independent of platform and programming language, and is therefore a popular format for data interchange between programs and systems.
+JavaScript Object Notation, un semplice ma potente sistema di formattazione di dati. È in grado di descrivere dati strutturati complessi, è altamente {machine-readable} e allo stesso modo ragionevolmente{human-readable}, ed è indipendente dalla piattaforma e dal linguaggio di programmazione. Per questo motivo è diventato un formato molto popolare di scambio di dati fra programmi e sistemi.
