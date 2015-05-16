@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: GIS
 ---
 
-Geographical Information System, any computer system designed to read, display, analyse and manipulate [geodata](/glossary/en/terms/geodata/).
+Geographical Information System - Sistemi Informativi Geografici, in qualsiasi sistema informatico creato per leggere, rappresentare, analizzare e manipolare [dati geografici](/glossary/it/terms/geodata/).
