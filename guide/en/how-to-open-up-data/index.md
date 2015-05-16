@@ -156,7 +156,7 @@ Providing data in bulk allows others to use the data beyond its original purpose
 
 For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/en/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
 
-Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
+Another example is the [District of Columbia Data Catalog](http://opendata.dc.gov/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
 
 ## Make data discoverable
 
