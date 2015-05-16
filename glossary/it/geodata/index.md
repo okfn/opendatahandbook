@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Geodata
+lang: it
+title: Geodata, geodati, dati geografici
 ---
 
-Any dataset where data points include a location, e.g. as latitude and longitude or another standard encoding. Maps, transport routes, environmental data, catastral data, and many other kinds of data can be published as geodata.
+Un qualsiasi dataset dove i dati includono informazioni di localizziazione, come, ad esempio la latitudine o longitudine un'altra codifica standard. Mappe, percorsi di trasporto, dati ambientali, dati catastali e e molti altri tipi di dati possono essere pubblicati come geodati.
