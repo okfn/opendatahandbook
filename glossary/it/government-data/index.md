@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: Government data
+lang: it
+title: dati della pubblica amministrazione - government data
 ---
-
-The work of government involves collecting huge amounts of data, much of which is not confidential (economic data, demographic data, spending data, crime data, transport data, etc). The value of much of this data can be greatly enhanced by releasing it as open data, freeing it for [re-use](/glossary/en/terms/re-use/) by business, research, {civil society}, {data journalists}, etc.
+Il lavoro della pubblica amministrazione consiste nel raccogliere una grande quantità di dati, molti dei quali non sono confidenziali (dati economici, demografici, di spesa, dei crimini, di trasporto, ecc..). Il valore di ciascuno di questi dati può essere migliorato se questi sono open data, quindi liberandoli per ogni tipo di [ri-uso](/glossary/it/terms/re-use/): impreditoriale, di ricerca, ad uso della [società civile](/glossary/it/terms/civil society/), per i [giornalisti](/glossary/it/terms/data journalists/), ecc..
