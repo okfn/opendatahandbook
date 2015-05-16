@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: GeoJSON
 ---
 
-A dialect of [JSON](/glossary/en/terms/json/) with specialised features for describing [geodata](/glossary/en/terms/geodata/), and hence a popular interchange format for geodata.
+Un dialetto del [JSON](/glossary/it/terms/json/) con caratteristiche specifiche per descrivere [dati geografici](/glossary/it/terms/geodata/), e pertanto anche un popolare formato per il loro interscambio.
