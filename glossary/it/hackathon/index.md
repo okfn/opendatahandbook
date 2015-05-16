@@ -1,7 +1,8 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Hackathon
 ---
 
-An event, usually over one or two days, where developers, subject experts and others come together to create {apps}, {visualisations} and prototypes that aim to address problems in a particular domain, usually making heavy use of data. Hackathons focusing on a particular collection of data are a possible form of {community engagement} by data publishers. The hackathon is a popular format in the [open source](/glossary/en/terms/open-source/) community.
+Un evento, solitamente di uno o due giorno, dove sviluppatori di software, esperti di settore ed altro si incontrano per creare [applicazioni](/glossary/it/terms/apps/),[visualizzazioni](/glossary/it/terms/visualizations) e prototipi con lo scopo di risolvere problemi di un particolare dominio, facendo uso solitamente un uso massiccio di dati. Le hackathon che si focalizzano su una particolare raccolta di dati sono una possibile forma di Hackathons concentrandosi su una particolare raccolta di dati sono una possibile forma di [coinvolgimento della comunità](/glossary/it/terms/community-engagement) da parte dei pubblicatori di dati.
+L'hackathon è un formato popolare nella comunità [open source](/glossary/it/terms/open-source/).
