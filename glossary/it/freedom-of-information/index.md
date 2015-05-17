@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Freedom of Information
+lang: it
+title: Freedom of Information - libertà di informazione
 ---
 
-Also known as FOI. A requirement in law (e.g. the Freedom of Information Act 2000 in the UK or the Right to Information Act 2005 in India) for public bodies to provide data held by them to citizens on request, unless a specific exemption applies, e.g. the data is confidential. The fact that information must be supplied under FoI laws does not in general make it open data, as it is not distributed, may not be available under an open [licence](/glossary/en/terms/licence/), etc.
+Noto anche come FOI. Un requisito di legge, come ad esempio il Freedom of Information Act 2000 in Inghilterra o il Right to Information Act 2005 in India, che prevede che enti pubblici forniscano, su richiesta, i dati in loro possesso ai cittadini, a meno che non si applichi una deroga specifica come nel caso dei dati sono riservati. Il fatto che le informazioni debba essere fornite ai sensi delle legge di un FoI non implica però che questi poi siano open data, o redistribuibili con una [licenza](/glossary/it/terms/licence/) aperta, ecc...
