@@ -4,4 +4,4 @@ lang: ja
 title: Corruption
 ---
 
-Misuse of public positions or funds, e.g. by embezzling money, extorting bribes, claiming unreasonable expenses, illicitly favouring friends or particular groups in public services or appointments, etc. Open data and, more generally, [open government](/glossary/en/terms/open-government/) is an important tool in the fight against corruption.
+汚職。公的な立場や資金の不適切な利用、例えば金銭の着服、贈収賄、根拠の無い支出の請求、公的なサービスや地位における緊密な交友関係の友人や組織の優先的な登用、など。オープンデータそして、より広義には [オープンガバメント](/glossary/ja/terms/open-government/)は、汚職に対向するための重要なツールのひとつである。
