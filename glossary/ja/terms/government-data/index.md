@@ -4,4 +4,4 @@ lang: ja
 title: Government data
 ---
 
-The work of government involves collecting huge amounts of data, much of which is not confidential (economic data, demographic data, spending data, crime data, transport data, etc). The value of much of this data can be greatly enhanced by releasing it as open data, freeing it for [re-use](/glossary/en/terms/re-use/) by business, research, {civil society}, {data journalists}, etc.
+行政データ。行政の活動を通して収集される膨大な量のデータのうち、秘匿する必要性の無いデータ (経済、民主活動、決算、犯罪、公共交通などのデータ) のこと。このデータの多くは、オープンデータとして、ビジネスや研究、 {市民活動}、{データジャーナリズム} などで [再利用](/glossary/ja/terms/re-use/) 可能な状態で公開されることによって価値が増大する。
