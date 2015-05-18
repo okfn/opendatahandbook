@@ -4,4 +4,4 @@ lang: ja
 title: Identifier
 ---
 
-The name of an object or concept in a database. An identifier may be the object's actual name (e.g. 'London' or 'W1 1AA', a London postcode), or a word describing the concept ('population'), or an arbitrary identifier such as 'XY123' that makes sense only in the context of the particular dataset. Careful choice of identifiers using relevant {standards} can facilitate [data integration](/glossary/en/terms/data-integration/). See [linked data](/glossary/en/terms/linked-data/).
+識別子。データベースにおけるコンセプト、あるいはオブジェクトの名称。識別子は、オブジェクトの実際の名称であったり (例: 'ロンドン'、'W1 1AA'、ロンドンの郵便コードなど) 、コンセプトに対する記述であったり ('人口') 、あるいは 'XY123' のように特定のデータセットの中における利用文脈のなかでのみ意味を持つ恣意的な符号であったりする。適切な {標準} を利用して識別子を慎重に定めることによって、[データ統合](/glossary/ja/terms/data-integration/)が促進される効果がある。 [linked data](/glossary/ja/terms/linked-data/) を参照。
