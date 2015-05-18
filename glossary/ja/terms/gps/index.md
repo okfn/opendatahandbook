@@ -4,4 +4,4 @@ lang: ja
 title: GPS
 ---
 
-The Global Positioning System, a satellite-based system which provides exact location information to any equipment with a suitable receiver (including modern smartphones). GPS is invaluable to many location-based {apps}, providing users with e.g. route-finding information or weather forecasts based on their current location. GPS is also a striking example of successful open data, as it is maintained by the US government and provided free of charge to anyone with a GPS receiver.
+衛星測位システム (グローバル・ポジショニング・システム/Global Positioning System) は衛星を基としたシステムで、適切な電波を受信できる機器 (昨今のスマートフォンを含む) に対し、正確な位置情報を提供することが可能である。GPSは、現在地情報を利用した経路探索情報や天気予報など、場所情報を利用した {アプリ} に必要不可欠となっている。GPSはまた、米国政府によってメンテナンスされ、GPS受信機が組み込まれた機器に対して無料で機能が提供されているという、この上なく成功したオープンデータの一例としても知られている。
