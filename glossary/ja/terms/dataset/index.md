@@ -4,4 +4,4 @@ lang: ja
 title: Dataset
 ---
 
-Any organised collection of data. 'Dataset' is a flexible term and may refer to an entire [database](/glossary/en/terms/database/), a [spreadsheet](/glossary/en/terms/spreadsheet/) or other data file, or a related collection of data resources.
+データセット。ひとまとまりに整理されたデータ。 'データセット'という語は状況によって対象が若干変動することがあり、 [データベース](/glossary/ja/terms/database/) 全体、 [スプレッドシート](/glossary/ja/terms/spreadsheet/)、あるいは単純にデータファイルや、データリソースに関連するデータのまとまりを指すことがある。
