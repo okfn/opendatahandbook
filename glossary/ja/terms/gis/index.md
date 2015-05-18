@@ -4,4 +4,4 @@ lang: ja
 title: GIS
 ---
 
-Geographical Information System, any computer system designed to read, display, analyse and manipulate [geodata](/glossary/en/terms/geodata/).
+地理空間情報システム (Geographical Information System)。[ジオデータ](/glossary/ja/terms/geodata/)の読み込みや表示、分析や操作を行うためのコンピュータシステム。
