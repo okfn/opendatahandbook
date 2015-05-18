@@ -4,4 +4,4 @@ lang: ja
 title: Data management
 ---
 
-The policies, procedures, and technical choices used to handle data through its entire lifecycle from [data collection](/glossary/en/terms/data-collection/) to storage, preservation and use. A data management policy should take account of the needs of [data quality](/glossary/en/terms/data-quality/), availability, {data protection}, [data preservation](/glossary/en/terms/data-preservation/), etc.
+[データ収集](/glossary/en/terms/data-collection/)から、格納、保存、利用というデータのライフサイクルを通してデータを扱うために利用するポリシーや手順、利用技術のこと。データ管理ポリシーは [データ品質](/glossary/ja/terms/data-quality/)、可用性、{データ保護}、[データ保護](/glossary/ja/terms/data-preservation/)等で要求される事柄を考慮して策定されるべきである。
