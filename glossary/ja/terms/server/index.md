@@ -4,4 +4,4 @@ lang: ja
 title: Server
 ---
 
-A computer on the internet, usually manged by a {hosting} company, that responds to requests from a user, e.g. for web pages, downloaded files or to access features in a [SaaS](/glossary/en/terms/saas/) package being run on the server.
+インターネット上に設置されたコンピュータで、通常は {ホスティング} 企業によって管理され、ユーザからのリクエストに対して応答する。例えばウェブページやファイルのダウンロード、あるいはサーバ上で実行される [SaaS](/glossary/ja/terms/saas/)パッケージの機能にアクセスするために必要となる。
