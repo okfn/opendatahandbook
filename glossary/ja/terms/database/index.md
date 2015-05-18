@@ -4,6 +4,6 @@ lang: ja
 title: Database
 ---
 
-(i) Any organised collection of data may be considered a database. In this sense the word is synonymous with [dataset](/glossary/en/terms/dataset/).
+(i) データの組織的なまとまりは、データベースとして扱われることがある。この場合の語句の意味は [データセット](/glossary/ja/terms/dataset/)と同義。
 
-(ii) A software system for processing and managing data, including features to extend or update, transform and query the data. Examples are the {open-source} PostgreSQL, and the [proprietary](/glossary/en/terms/proprietary/) Microsoft Access.
+(ii)データの管理と処理を行うソフトウェアシステムで、データの追加格納や更新、変更やクエリを行う機能を有する。{オープンソース} のPostgreSQLや、[プロプライエタリ](/glossary/ja/terms/proprietary/)のMicrosoft Accessなどが一例。
