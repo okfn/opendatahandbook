@@ -4,4 +4,4 @@ lang: ja
 title: Transport data
 ---
 
-Public transport routes, timetables and [real time](/glossary/en/terms/real-time/) data are valuable but difficult candidates for open data. Even when they are published, data from different transit authorities and companies may not be available in compatible formats, making it difficult for third parties to provide integrated transport information. Work on {standardisation} and more open data is ongoing in the sector.
+公共交通機関の経路、時刻表、そして [リアルタイム](/glossary/ja/terms/real-time/)データは、有益ではあるがオープンデータとして公開が困難なデータである。データが公開された場合であっても、異なる法人や交通機関から公開されたデータは形式が統一されていないため、サードパーティがそれらを統合した交通サービスを提供することが困難となっている。この分野に関しては {標準化} に向けた活動と、オープンデータ活動のより一層の進捗が求められている。
