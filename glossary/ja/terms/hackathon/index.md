@@ -4,4 +4,4 @@ lang: ja
 title: Hackathon
 ---
 
-An event, usually over one or two days, where developers, subject experts and others come together to create {apps}, {visualisations} and prototypes that aim to address problems in a particular domain, usually making heavy use of data. Hackathons focusing on a particular collection of data are a possible form of {community engagement} by data publishers. The hackathon is a popular format in the [open source](/glossary/en/terms/open-source/) community.
+ハッカソン。通常1〜2日間の期間で開催され、対象に詳しいエキスパートや開発者、その他の参加者が一緒に集まって、データを大量に扱いつつ、特定の領域における問題箇所への対処を目的とした {アプリ} や {可視化} 、プロトタイプを作成する。特定の範囲のデータに特化したハッカソンは、データ公開者にとって {コミュニティとの接触 community engagement} の一形態となる場合がある。ハッカソンは [オープンソース](/glossary/ja/terms/open-source/) コミュニティの界隈で任期の高い方式である。
