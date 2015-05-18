@@ -4,4 +4,4 @@ lang: ja
 title: CKAN
 ---
 
-An {open-source} software platform for creating {data portals}, built and maintained by Open Knowledge. CKAN is used as the official data-publishing platform of around 20 national governments and powers many more local, community, scientific and other data portals. Notable features are configurable [metadata](/glossary/en/terms/metadata/), user-friendly web interface for publishers and data users, data preview, organisation-based authorisation levels, and {APIs} giving access to all features as well as data access.
+{データポータル} を生成するための {オープンソース} ソフトウェアプラットフォームであり、 Open Knowledgeによってメンテナンスが行われている。CKANは、20以上の国や地域政府において公式のデータ公開プラットフォームとして利用されており、地方行政やコミュニティ、科学分野など、政府以外を含めればさらに多くの団体によってプラットフォームとして利用されている。特筆すべき機能としては、 [メタデータ](/glossary/ja/terms/metadata/) が編集できること、公開者とデータ利用者双方にとって使いやすいウェブインターフェース、データのプレビュー機能、組織単位での認証レベル設定、データアクセスを含めたすべての機能が {API} 経由で行えること、などがあげられる。
