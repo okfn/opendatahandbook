@@ -4,4 +4,4 @@ lang: ja
 title: GeoJSON
 ---
 
-A dialect of [JSON](/glossary/en/terms/json/) with specialised features for describing [geodata](/glossary/en/terms/geodata/), and hence a popular interchange format for geodata.
+[JSON](/glossary/ja/terms/json/)形式の派生で、[ジオデータ](/glossary/ja/terms/geodata/)を表現する機能に特化している。そのため、ジオデータの交換形式としてよく利用されている。
