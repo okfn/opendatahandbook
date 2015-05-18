@@ -4,6 +4,4 @@ lang: ja
 title: Cloud
 ---
 
-hagino3000作業中
-
-Data stored 'in the cloud' is handled by a {hosting} company, relieving the data owner of the need to manage its physical storage. Instead of being stored on a single machine, it may be stored across or moved between multiple machines in different locations, but the data owner and users do not need to know the details. The hosting company is responsible for keeping it available and accessible via the [internet](/glossary/en/terms/internet/).
+クラウドにデータを保管するとは {ホスティング} 会社にまかせ、データオーナーは物理ストレージの管理から開放される。一つのマシンに保管するのでは無く、異なるロケーションの複数のマシンに跨って保持される事が多い、しかしデータオーナーと利用者は詳細を知る必要は無い。ホスティング会社はデータの保持と[インターネット](/glossary/ja/terms/internet/)経由で利用可能な状態を維持する責任がある。
