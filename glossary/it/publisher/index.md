@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it 
 title: Publisher - Pubblicatore
 ---
 Chounque distribuisca e renda disponibili dati o altri contenuti. 

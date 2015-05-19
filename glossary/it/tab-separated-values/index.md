@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: in
+lang: it
 title: Tab-separated values - Valori separati da tabulatore
 ---
 
