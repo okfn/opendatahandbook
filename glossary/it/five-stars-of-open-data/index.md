@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Five stars of open data
+lang: it
+title: Le cinque stelle dell'open data
 ---
 
-A rating system for open data proposed by Tim Berners-Lee, founder of the World Wide [Web](/glossary/en/terms/web/). To score the maximum five stars, data must (1) be available on the Web under an open [licence](/glossary/en/terms/licence/), (2) be in the form of {structured data}, (3) be in a non-{proprietary} file format, (4) use {URIs} as its {identifiers} (see also [RDF](/glossary/en/terms/rdf/)), (5) include links to other data sources (see [linked data](/glossary/en/terms/linked-data/)). To score 3 stars, it must satisfy all of (1)-(3), etc. The [Open Definition](/glossary/en/terms/open-definition/) requires data to score 3 stars in order to qualify as open, not requiring [RDF](/glossary/en/terms/rdf/) or linking. This permits data of a wider variety of types and sources to be open, without the work of creating linking information.
+Un sistema di classica degli open data proposto da Tim Berners-Lee, creatore del World Wide [Web](/glossary/en/terms/web/). Il punteggio massimo è di cinque stelle, i dati devono essere (1) disponibili su Web con una [licenza](/glossary/it/terms/licence/) aperta, (2) essere in [formato strutturato](/glossary/it/terms/structured-data/), (3) essere in un formato di file non-[proprietario](/glossary/it/terms/proprietary), (4) fare uso di [proprietario](/glossary/it/terms/URI) come [identificatori]((/glossary/it/terms/identifiers) (vedi anche [RDF](/glossary/it/terms/rdf/)), (5) includere link ad altre sorgenti dati (vedi [linked data](/glossary/it/terms/linked-data/)). Per ottenere un punteggio di 3 stelle devono essere sodisfatte tutte le condizioni dalla (1) alla (3), ecc.. L'[Open Definition](/glossary/it/terms/open-definition/) richiede dati con punteggio a 3 stelle per essere definiti come open data, non è invece necessario il requisito [RDF](/glossary/it/terms/rdf/) o il linking. Questo Ciò permette di avere dati aperti di ampia varietà e da diverse fonti, senza il lavoro di modellazione delle informazioni di linking (collegamento).
