@@ -4,4 +4,4 @@ lang: ja
 title: Linked data
 ---
 
-A form of data representation where every [identifier](/glossary/en/terms/identifier/) is an http://... {URI}, using standard lists (see [vocabulary](/glossary/en/terms/vocabulary/)) of identifiers where possible, and where datasets include links to reference datasets of the same objects. A key aim is to make [data integration](/glossary/en/terms/data-integration/) automatic, even for large datasets. Linked data is usually represented using [RDF](/glossary/en/terms/rdf/). See also [five stars of open data](/glossary/en/terms/five-stars-of-open-data/); [triple store](/glossary/en/terms/triple-store/).
+リンクトデータ。データ表現形式のひとつで全ての[identifier](/glossary/ja/terms/identifier/)は http://... {URI}であり、可能な場合とデータセットが同じオブジェクトのデータセットリファレンスへのリンクを含む場合には識別子の標準リスト([vocabulary](/glossary/ja/terms/vocabulary/)参照)を使用する。その主な目的は巨大なデータセットであっても[data integration](/glossary/ja/terms/data-integration/)を自動的に行うことである。リンクトデータは通常[RDF](/glossary/en/terms/rdf/)で表現される。[five stars of open data](/glossary/ja/terms/five-stars-of-open-data/); [triple store](/glossary/ja/terms/triple-store/)も参照。
