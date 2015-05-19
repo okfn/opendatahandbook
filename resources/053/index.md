@@ -1,17 +1,17 @@
 ---
 section: resources
-lang: //Two first letters of the language, according to language code in this table.//
-Author: //The name(s) of the person(s) who wrote the text//
-Country: //One or more country by full name  separated with a comma:  “,”. If there is no specific country, write ‘global’//
-Description: //1-5 lines that summarizes the text. //
-Keywords: //Important descriptors of the text, separated with a comma, “,”.//
-Link: //The link to the resource online//
-MediaType: // List one out of these four types: Presentation, Article,  / Publication, Video//
-Notes: //Any notes or comments.//'
-Publishing_date: //The year the resource was published, e.g. 2015.//
-Publishing_entity: //The organisation(s) which publish the resource//
-Region: North America,Latin America,Asia,Europe,Africa,Mena,Global
-Title: //The name of the resource//
-Topic: //Choose one out of these nine : The Basics,Advocacy,Privacy,civic engagement,Right for information,Data training,PolicyStandards.
+lang: en
+Author: Collaboration
+Country: global
+Description: The Open Education Handbook is a collaboratively written living web document targeting educational practitioners and the education community at large. It has a section on Open Education data.
+Keywords: education, OER, openfacilitation, teaching, learning
+Link: http://education.okfn.org/handbook/
+MediaType: Publication
+Notes: This resource is available in different versions, editions and formats. It is available to be edited.
+Publishing_date: 2014
+Publishing_entity: Open Education Working Group
+Region: Global
+Title: Open Education Handbook
+Topic: Right for information
 ---
 
