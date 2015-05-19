@@ -2,8 +2,9 @@
 title: The Open Data Handbook
 short_title: Open Data Handbook
 email: opendatahandbook@okfn.org
-description: > # this means to ignore newlines until "baseurl:"
-  Guides, case studies and resources for civil society and government on the “what, why & how” of open data.
+description: |
+  Guides, case studies and resources for government & civil society  
+  on the “what, why & how” of open data.
 baseurl: ""
 url: "http://opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
@@ -239,7 +240,7 @@ meta:
         - title: "So I've Opened Up Some Data, Now What? "
           slug: 'following-up'
         - title: 'Appendices'
-          slug: 'appendicies'
+          slug: 'appendices'
 
 defaults:
   -

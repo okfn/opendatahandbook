@@ -5,5 +5,5 @@ lang: en
 title: Appendices
 ---
 
--   [File Formats](file-formats.html)
--   [What Legal Rights are there in Databases](what-legal-ip-rights-are-there-in-databases.html)
+-   [File Formats](http://opendatahandbook.org/guide/en/appendices/file-formats)
+-   [What Legal Rights are there in Databases](http://opendatahandbook.org/guide/en/appendices/what-legal-ip-rights-are-there-in-databases/)

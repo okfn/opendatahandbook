@@ -2,10 +2,17 @@
 layout: default
 wide: true
 ---
+{% if page.section == 'term' %}
+  {% assign section = 'glossary' %}
+{% else %}
+  {% assign section = page.section %}
+{% endif %}
+
+{% assign section_base = site.baseurl | append: section | append: '/' | append: page.lang | append: '/' %}
 
 <div class="post">
   <article class="post-content">
-    <span class="pre-header">{{ page.section }}</span>
+    <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.authors %}
     <div class="author">Written by

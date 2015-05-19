@@ -129,6 +129,13 @@ pre,
   text-transform: uppercase;
   line-height:inherit;
   color:$base-font-color;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color:$base-font-color;
+  }
+
   
   @include media($medium-screen) {
     margin-top:rem(40);
@@ -1291,6 +1298,7 @@ html.mm-background .mm-page,
           font-size:21px;
           margin-bottom:30px;
           opacity:0.7;
+          white-space: pre-line;
         }
       }
       

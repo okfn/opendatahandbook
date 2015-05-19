@@ -3,9 +3,10 @@ layout: default
 wide: true
 ---
 
+{% assign section_base = site.baseurl | append: 'value-stories' | append: '/' | append: page.lang | append: '/' %}
 <div class="stories">
   <div class="post-content">
-  <h1 class="pre-header">{{ page.title }}</h1>
+  <h1 class="pre-header"><a href="/{{ section_base }}">{{ page.title }}</a></h1>
     <ul class="post-list">
       {% for story in site.pages %}
       {% if story.section == 'value-stories' and story.lang == page.lang %}
