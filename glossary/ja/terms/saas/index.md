@@ -4,4 +4,4 @@ lang: ja
 title: SaaS
 ---
 
-Software as a Service, i.e. a software program that runs, not on the user's machine, but on the machines of a {hosting} company, which the user accesses over the [web](/glossary/en/terms/web/). The host takes care of associated data storage, and normally charges for the use of the service or monetises its client base in other ways.
+SaaS。サービスとしてのソフトウェア。すなわち利用者のマシン上だけではなく、利用者が[web](/glossary/ja/terms/web/)越しにアクセスする{ホスティング}会社のマシン上でも動作するもの。ホストは関係するストレージの面倒を見、通常サービス利用者への課金や他の方法でクライアントごとにマネタイズを行う。
