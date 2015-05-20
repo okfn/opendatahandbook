@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Database rights
+lang: it
+title: Diritto sulle banche dati
 ---
 
-A right to prevent others from extracting and reusing content from a database. Exists mainly in European jurisdictions.
+Un diritto per impedire agli altri di estrarre e riusare contenuti da una banca dati. Questo diritto esiste nella maggior parte delle giurisdizioni europee.
