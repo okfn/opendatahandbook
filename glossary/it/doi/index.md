@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: DOI
 ---
 
-Digital Object Identifier, an [identifier](/glossary/en/terms/identifier/) for a digital object (such as a document or dataset) that is assigned by a central registry and is therefore guaranteed to be a globally {unique identifier}: no two digital objects in the world will have the same DOI.
+Digital Object Identifier, un [identificatore](/glossary/it/terms/identifier/) di un oggetto digitale (come un documento ho dataset) che è stato assegnato da un ente centrale di registrazione e che quindi ne garantisce globalmente un [identificatore univoco](/glossary/it/terms/unique-identifier/): non esistono due oggetti digitali nel mondo che hanno lo stesso DOI.
