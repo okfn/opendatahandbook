@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: dimension
+lang: it
+title: dimensione
 ---
 
-An ordinary table or spreadsheet can easily represent two data dimensions: each data point has a row and a column. Plenty of real-world data has more dimensions, however: for example, a dataset of Earth surface temperature varying with position and time (two co-ordinates are required to specify the position on earth, e.g. latitude and longitude, and one to specify the time).
+Una tabella ordinaria o un foglio di calcolo possono rappresentare facilmente due dimensioni di dati: ogni punto di dati ha una riga e una colonna. Molti dati reali hanno più dimensioni, tuttavia, per esempio, un dataset sulla temperatura della superficie terrestre varia con la posizione e il tempo (due coordinate sono necessarie per specificare la posizione sulla terra, ad esempio latitudine e longitudine, e uno per specificarne il tempo).
