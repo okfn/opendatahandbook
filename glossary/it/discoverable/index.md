@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Discoverable
+lang: it
+title: Ritracciabili / Discoverable
 ---
 
-It is not enough for open data to be published if potential users cannot find it, or even do not know that it exists. Rather than simply publishing data haphazardly on websites, governments and other large data publishers can help make their datasets discoverable by indexing them in catalogues or {data portals}.
+Non è sufficiente per pubblicare gli open data se i potenziali utenti non riescono a trovarli, o addirittura non sanno che esiste. Piuttosto che limitarsi a pubblicare i dati a casaccio su siti web, i governi ed altri pubblicatori di dati di grandi dimensioni possono contribuire a rendere i propri dataset rintracciabili con l'indicizzazione dei loro cataloghi o nei [portali di dati](/glossary/it/terms/data-portals).
