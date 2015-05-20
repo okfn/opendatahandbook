@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Dataset
+lang: it
+title: Dataset - insieme di dati
 ---
 
-Any organised collection of data. 'Dataset' is a flexible term and may refer to an entire [database](/glossary/en/terms/database/), a [spreadsheet](/glossary/en/terms/spreadsheet/) or other data file, or a related collection of data resources.
+Una qualsiasi collezione di dati organizzata. 'Dataset' è un termine flessibile e può fare riferimento o ad una intera [banca dati](/glossary/it/terms/database/), o ad un [foglio di calcolo](/glossary/it/terms/spreadsheet/) o ad altri dati su file , oppure ad un insieme correlato di risorse di dati.
