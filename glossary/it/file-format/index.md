@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: File format
+lang: it
+title: Formato di file
 ---
 
-The description of how a {file} is represented on a computer disk. The format usually corresponds to the last part of the file name ('extension'), e.g. a file in file in [CSV](/glossary/en/terms/csv/) format might be called schools-list.csv. The file format refers to the internal format of the file, not how it is displayed to users. E.g. CSV and {XLS} files are structured very differently on disk, but may look similar or identical when opened in a [spreadsheet](/glossary/en/terms/spreadsheet/) program such as Excel.
+La descrizione di come un {file} è rappresentato sul disco di un computer. Il formato generalmente corrisponde all'ultima parte del nome del file ('estensione'), es. un archivio in un file in un formato [CSV](/glossary/it/terms/csv/) potrebbe essere chiamato lista-delle-scuole.csv. Il formato di file fa riferimento al formato interno del file, non come invece mostrato rispetto agli utenti. Es. file CSV e {XLS} hanno una struttura molto diversa, ma appaiono molto simili se non identici se aperti in un [foglio di calcolo](/glossary/it/terms/spreadsheet/) come Excel.
