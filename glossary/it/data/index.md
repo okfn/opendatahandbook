@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data
+lang: it
+title: Dati
 ---
 
-Data may be thought of as unprocessed atomic statements of fact. It very often refers to systematic collections of numerical information in tables of numbers such as {spreadsheets} or {databases}. When data is structured and presented so as to be useful and relevant for a particular purpose, it becomes [information](/glossary/en/terms/information/) available for human apprehension. See also [knowledge](/glossary/en/terms/knowledge/).
+I dati possono essere pensati come dichiarazioni atomiche di fatti non elaborati. Si riferisce molto spesso a raccolte sistematiche di informazioni numeriche in tabelle di numeri, come i [fogli di calcolo](/glossary/it/terms/spreadsheets/) o i [database](/glossary/it/terms/database/). Quando i dati sono strutturati e presentati in modo da essere utili e pertinenti per uno scopo particolare, diventano [informazioni](/glossary/it/terms/information/) disponibili per essere capiti dalle persone. Vedi anche [conoscenza](/glossary/it/terms/knowledge/).
