@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: de-identification
+lang: it
+title: de-identificazione
 ---
 
-A form of [anonymisation](/glossary/en/terms/anonymisation/) where personal records are kept intact but specific identifying information, such as names, are replaced with anonymous {identifiers}. Compared to {aggregation}, de-identification carries a greater risk of [data leakage](/glossary/en/terms/data-leakage/): for example, if prison records include a prisoner's criminal record and medical history, the prisoner could in many cases be identified even without their name by their criminal record, giving unauthorised access to their medical history. In other cases this risk is absent, or the value of the un-aggregated data is so great that it is worth making de-identified data available subject to carefully designed safeguards.
+Una forma di [anonimizzazione](/glossary/it/terms/anonymisation/) dove i dati personali sono mantenuti intatti, ma specifiche informazioni di identificazione, come ad esempio nomi, vengono sostituiti con [identificatori](/glossary/it/terms/identifiers/) anonimi. La de-identificazion comporta un rischio maggiore di [fuga di dati](/glossary/it/terms/identifiers/) rispetto all'[aggregazione]. Ad esempio, se la banca dati di una prigione detiene i precedenti penali di un detenuto e la sua storia medica, il detenuto potrebbe in molti casi essere identificato anche senza il nome guardando la fedina penale, e di conseguenza avere accesso non autorizzato anche alla sua storia medica. In altri casi, questo rischio è assente, oppure si ha un valore dai dati non-aggregati così grande che vale la pena lavorare sulla de-identificazione con molta cura e aumentando la sicurezza.
