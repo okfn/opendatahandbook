@@ -555,6 +555,24 @@ pre,
       }
     }
   }
+  
+  .apps-menu {
+    &:not( .mm-selected ) {
+      .mm-subopen {
+        display:none;
+      }
+    }
+    
+    display:none; //hide while testing
+  }
+}
+body:not( .filters ) {
+  .app-sub-menu {
+    .search,
+    .filter {
+      display:none;
+    }
+  }
 }
 
 .js #menu:not( .mm-menu )  {
@@ -1702,6 +1720,12 @@ html.mm-background .mm-page,
               bottom:0;
               @include transition(all 0.1s ease-in-out);
             }
+            
+            span {
+              display:block;
+              font-size:10px;
+              font-weight:normal;
+            }
           }
           
           [class^="icon-"] {
@@ -1726,7 +1750,8 @@ html.mm-background .mm-page,
         }
       }
     }
-    &.topics {
+    &.topics,
+    &.apps {
       & > ul {
         li {
           @include omega(3n);

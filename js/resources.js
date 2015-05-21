@@ -15,5 +15,10 @@ $(document).ready(function() {
         });
         $("div.resources > section.topics").hide("slow");
         $("div.resources > section.media-types").hide("slow");
-    });    
+    });  
+    
+    // toggle info
+    $(".resources .results .icon-info").click(function() { 
+      $(this).parent('aside').toggleClass("active");
+    });   
 });

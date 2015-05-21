@@ -45,8 +45,4 @@ $(document).ready(function() {
       $(this).parent('.filter').toggleClass("active");
     });    
     
-    //resources
-    $(".resources .results .icon-info").click(function() { 
-      $(this).parent('aside').toggleClass("active");
-    }); 
  });
