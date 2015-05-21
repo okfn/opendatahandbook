@@ -4,4 +4,4 @@ lang: ja
 title: Anonymization
 ---
 
-[Anonymisation](/glossary/ja/terms/anonymisation/)を参照。
+[匿名化](/glossary/ja/terms/anonymisation/)(Anonymisation)を参照。
