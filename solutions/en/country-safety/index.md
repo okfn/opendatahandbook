@@ -14,6 +14,7 @@ end: 2012
 countries: Kenya
 region: Africa
 cost: 
-code: 
-value story: https://github.com/StandardGroup/CountySafety
+code: https://github.com/StandardGroup/CountySafety
+value story: 
+data resource: Standard Group (newspaper)
 ---
