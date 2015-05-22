@@ -15,5 +15,5 @@ countries: Uruguay
 region: Latin America
 cost: 
 code: https://github.com/datauy/atuservicio_rails
-value story: /value-stories/en/latam-health/index.md
+value_story: /value-stories/en/latam-health/index.md
 ---

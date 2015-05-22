@@ -15,6 +15,6 @@ countries: Kenya
 region: Africa
 cost: 
 code: https://github.com/StandardGroup/CountySafety
-value story: 
-data resource: Standard Group (newspaper)
+value_story: 
+data_resource: Standard Group (newspaper)
 ---

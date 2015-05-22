@@ -15,5 +15,5 @@ countries: South Africa
 region: Africa
 cost: 
 code: https://github.com/Code4SA/medicine-price-registry
-value story: 
+value_story: 
 ---
