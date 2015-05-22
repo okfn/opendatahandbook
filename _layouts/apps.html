@@ -1,0 +1,44 @@
+---
+layout: default
+wide: true
+edit: true
+---
+
+{% assign section = page.section %}
+{% assign section_base = site.baseurl | append: section | append: '/' | append: page.lang | append: '/' %}
+
+<div class="app post">
+  <article class="post-content">
+    <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.creators %}
+    <div class="author">By
+      <ul>
+      {% for creator in page.creators %}
+        <li>{{ creator }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% include languages.html %}
+    {% if page.image %}
+    <div class="image">
+      <a style="background-image:url({{ page.image }})" data-adaptive-background='1' data-ab-css-background='1'{% if page.website %} href="{{ page.website }}" rel="external"{% endif %}></a>
+      {% if page.image_attribution %}
+        <span class="attribution">{{ page.image_attribution }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+    {{ content }}
+    {% if page.website %}
+    <a class="website-link" href="{{ page.website }}" rel="external">Go to website</a> &nbsp;
+    {% endif %}
+    {% if page.code %}
+    <a class="source-code-link" href="{{ page.code }}" rel="external">View source code</a>
+    {% endif %}
+  </article>
+
+</div>
+
+{% include page-tools.html %}

@@ -1998,5 +1998,39 @@ html.mm-background .mm-page,
 }
 
 
+// APPS //////////////////////////////////////////////////////////////////////////
+
+.app.post {
+  .image {
+    display:none;
+    
+    @include media($medium-screen) {
+      display:block;
+      margin-bottom:10px;
+      
+      a {
+        display:block;
+        height:200px;
+        background-position:center top;
+        background-repeat:no-repeat;
+        background-size:cover;
+      }
+      
+      .attribution {
+        font-size:10px;
+        opacity:0.8;
+      }
+    }
+  }
+  .website-link {
+    @extend button;
+  }
+  .source-code-link {
+    @extend button;
+    background-color:$dark-gray;
+  }
+}
+
+
 .active_language {color: red;}
 .languages {padding: 16px 0;}

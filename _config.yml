@@ -269,3 +269,8 @@ defaults:
       path: "value-stories"
     values:
       edit: true
+  -
+    scope:
+      section: "apps"
+    values:
+      layout: apps
