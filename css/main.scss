@@ -2022,34 +2022,73 @@ html.mm-background .mm-page,
       }
     }
   }
-  
-  .image {
-    display:none;
+  article.post-content {
+    padding-top:0;
+    @include media($large-screen) {
+      @include shift(0);
+    }
     
-    @include media($medium-screen) {
-      display:block;
-      margin-bottom:10px;
+    .image {
+      display:none;
       
-      a {
+      @include media($medium-screen) {
         display:block;
-        height:200px;
-        background-position:center top;
-        background-repeat:no-repeat;
-        background-size:cover;
-      }
-      
-      .attribution {
-        font-size:10px;
-        opacity:0.8;
+        margin-bottom:10px;
+        
+        a {
+          display:block;
+          height:200px;
+          background-position:center top;
+          background-repeat:no-repeat;
+          background-size:cover;
+        }
+        
+        .attribution {
+          font-size:10px;
+          opacity:0.8;
+        }
       }
     }
+    .website-link {
+      @extend button;
+    }
+    .source-code-link {
+      @extend button;
+      background-color:$dark-gray;
+    }
+    .data-resource {
+      margin-top:10px;
+    }
   }
-  .website-link {
-    @extend button;
-  }
-  .source-code-link {
-    @extend button;
-    background-color:$dark-gray;
+  
+  aside {
+    height:0;
+    overflow:hidden;
+    @include media($large-screen) {
+      @include span-columns(2);
+      height:auto;
+      text-align:right;
+      padding-left:$base-spacing;
+    
+      dl {
+        font-size:12px;
+        line-height:1.3;
+        margin-top:2px;
+        
+        dt,
+        dd {
+          display:inline;
+        }
+        dt:after {
+          content:': '
+        }
+        dd:after {
+          display:block;
+          content:'';
+          height:3px;
+        }
+      }
+    }
   }
 }
 
