@@ -11,6 +11,13 @@ edit: true
   <article class="post-content">
     <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
     <h1 class="post-title">{{ page.title }}</h1>
+    <span class="activity{% if page.creators %} has-creator{% endif %}">
+      {% if page.end %}
+      <span class="ended text">{% if page.start %}{{ page.start }} -{% else %}Ended{% endif %} {{ page.end }}</span>
+      {% else %}
+      <span class="icon-circle-check"></span><span class="text">Active</span>
+      {% endif %}
+    </span>
     {% if page.creators %}
     <div class="author">By
       <ul>

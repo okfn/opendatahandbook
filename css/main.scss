@@ -562,8 +562,6 @@ pre,
         display:none;
       }
     }
-    
-    display:none; //hide while testing
   }
 }
 body:not( .filters ) {
@@ -2001,6 +1999,30 @@ html.mm-background .mm-page,
 // APPS //////////////////////////////////////////////////////////////////////////
 
 .app.post {
+  .activity {
+    float:right;
+    margin-top: -3em;
+    font-family:$sans-serif;
+    color:lighten($base-font-color, 10%);
+    
+    &.has-creator {
+      margin-top: -1em;
+    }
+    
+    .icon-circle-check {
+      float:left;
+      line-height:inherit;
+      margin-right:1px;
+    }
+    .text {
+      font-size:13px;
+      
+      &.ended {
+        color:lighten($base-font-color, 20%);
+      }
+    }
+  }
+  
   .image {
     display:none;
     

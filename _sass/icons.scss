@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?bt1p51');
-	src:url('fonts/icomoon.eot?#iefixbt1p51') format('embedded-opentype'),
-		url('fonts/icomoon.woff?bt1p51') format('woff'),
-		url('fonts/icomoon.ttf?bt1p51') format('truetype'),
-		url('fonts/icomoon.svg?bt1p51#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?t6yryt');
+	src:url('fonts/icomoon.eot?#iefixt6yryt') format('embedded-opentype'),
+		url('fonts/icomoon.woff?t6yryt') format('woff'),
+		url('fonts/icomoon.ttf?t6yryt') format('truetype'),
+		url('fonts/icomoon.svg?t6yryt#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -27,110 +27,87 @@
   @include icon-font();
 }
 
+.icon-circle-check:before {
+	content: "\e60b";
+}
 .icon-plus:before {
 	content: "\e60a";
 }
-
 .icon-mail:before {
 	content: "\e609";
 }
-
 .icon-translate:before {
 	content: "\e608";
 }
-
 .icon-arrow-drop-down:before {
 	content: "\e607";
 }
-
 .icon-youtube:before {
 	content: "\e606";
 }
-
 .icon-square-minus:before {
 	content: "\e603";
 }
-
 .icon-square-plus:before {
 	content: "\e604";
 }
-
 .icon-link:before {
 	content: "\e602";
 }
-
 .icon-share:before {
 	content: "\e601";
 }
-
 .icon-git-compare:before {
 	content: "\f0ac";
 }
-
 .icon-git-pull-request:before {
 	content: "\f009";
 }
-
 .icon-eye:before {
 	content: "\f04e";
 }
-
 .icon-test-tube:before {
 	content: "\e600";
 }
-
 .icon-mark-github:before {
 	content: "\f00a";
 }
-
 .icon-markdown:before {
 	content: "\f0c9";
 }
-
 .icon-pencil:before {
 	content: "\f058";
 }
-
 .icon-fast-forward:before {
 	content: "\e055";
 }
-
 .icon-heart:before {
 	content: "\e024";
 }
-
 .icon-paper:before {
 	content: "\e034";
 }
-
 .icon-search:before {
 	content: "\e036";
 }
-
 .icon-menu:before {
 	content: "\e120";
 }
-
 .icon-github:before {
 	content: "\eab4";
 }
-
 .icon-section:before {
 	content: "\ea76";
 }
-
 .icon-book:before {
 	content: "\e91f";
 }
-
 .icon-file-pdf:before {
 	content: "\eada";
 }
-
 .icon-world:before {
 	content: "\e605";
 }
-
 .icon-info:before {
 	content: "\ea0c";
 }
