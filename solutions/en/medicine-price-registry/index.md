@@ -8,7 +8,7 @@ image_attribution:
 type: Web application
 language: en
 themes: Health, consumerism
-tags:medicines 
+tags: medicines 
 start: 2013
 end: 
 countries: South Africa
