@@ -787,7 +787,7 @@ body:not( .filters ) {
 
 //////////////////////////////////////////////////////////////////////////////////
 
-.page-content {
+.page-content > :first-child {
   min-height:460px;
 }
 
