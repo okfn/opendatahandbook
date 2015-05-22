@@ -3,7 +3,7 @@ section: solutions
 title: ATuServicio
 creators: DATA Urugauy 
 website: http://atuservicio.uy
-image:http://opendatahandbook.org/img/value-stories/atuservicio.png
+image: http://opendatahandbook.org/img/value-stories/atuservicio.png
 image_attribution:
 type: Web application
 language: es
