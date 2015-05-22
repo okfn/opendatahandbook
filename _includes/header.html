@@ -7,7 +7,7 @@
 {% assign value-stories_entry_point = site.baseurl | append: '/' | append: value-stories.label | append: '/' | append: page.lang | append: '/' %}
 {% assign resources_entry_point = site.baseurl | append: '/' | append: resources.label | append: '/' %}
 {% assign credits_entry_point = site.baseurl | append: '/credits/' %}
-{% assign apps_entry_point = site.baseurl | append: '/apps-dev/' %}
+{% assign apps_entry_point = site.baseurl | append: '/solutions/en/' %}
 
 {% assign url_parts = page.url | split: '/' %}
 
@@ -131,13 +131,13 @@
     <!-- end navigation for resources section -->
     
     <!-- start navigation for apps section -->
-    <li class="apps-menu{% if page.url contains 'apps-dev' %} Selected{% endif %}">
-      <a href="{{ apps_entry_point }}">Apps &amp; Solutions</a>
+    <li class="apps-menu{% if page.url contains 'solutions' %} Selected{% endif %}">
+      <a href="{{ apps_entry_point }}">Solutions</a>
       <ul class="app-sub-menu">
         <li class="search">
           <input type="search" placeholder="Search" class="quicksearch">
         </li>
-        {% capture appthemes %}{% for page in site.pages %}{% if page.section == 'apps' %}{{ page.themes }},{% endif %}{% endfor %}{% endcapture %}
+        {% capture appthemes %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.themes }},{% endif %}{% endfor %}{% endcapture %}
         {% assign appthemesArray = appthemes | split: "," %}
         {% assign appthemeslist = appthemesArray[1] %}
         {% for at in appthemesArray %}
@@ -156,7 +156,7 @@
           </span>
         </li>
         
-        {% capture apptags %}{% for page in site.pages %}{% if page.section == 'apps' %}{{ page.tags }},{% endif %}{% endfor %}{% endcapture %}
+        {% capture apptags %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.tags }},{% endif %}{% endfor %}{% endcapture %}
         {% assign apptagsArray = apptags | split: "," %}
         {% assign apptagslist = apptagsArray[1] %}
         {% for at in apptagsArray %}

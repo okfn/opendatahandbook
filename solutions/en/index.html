@@ -1,7 +1,7 @@
 ---
 layout: default
 wide: true
-title: Apps &amp; Solutions
+title: Solutions
 intro:
 filters: true
 js: 
@@ -25,7 +25,7 @@ js:
     </header>
     <ul>
     {% for page in site.pages %}
-      {% if page.section == 'apps' %}
+      {% if page.section == 'solutions' %}
       
       {% capture tags %}{% if page.tags %}{{ page.tags }}{% endif %}{% endcapture %}
       {% assign tagsArray = tags | split: "," %}
