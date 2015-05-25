@@ -167,7 +167,7 @@ pre,
       }
     }
     
-    h2 {
+    .lead {
       font-family: $serif;
       font-size: 1em;
       font-style: italic;
@@ -224,7 +224,7 @@ pre,
       }
     }
     
-    h3 {
+    h2 {
       font-family: $serif;
       font-size: 1.4em;
       line-height: 1.3em;
@@ -232,20 +232,24 @@ pre,
       font-weight:700;
     }
     
-    h4 {
+    h3 {
       font-size: 1.4em;
       font-family: $serif;
       font-weight: 400;
       margin-bottom: .4em;
     }
     
+    h4 {
+      font-size: 1.2em;
+      margin-bottom: .4em;
+    }
+    
     h5 {
-      font-size: rem(17);
       margin-bottom: .4em;
     }
     
     h6 {
-      margin-bottom: .4em;
+      display:inline;
     }
     
     p.date {
@@ -346,6 +350,7 @@ pre,
         margin-left: - $base-spacing;
         padding: $base-spacing / 3 $base-spacing $base-spacing / 3 $base-spacing;
         color:#fff;
+        display:block;
       }
       
       p  {
