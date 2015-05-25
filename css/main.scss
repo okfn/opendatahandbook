@@ -1670,7 +1670,7 @@ html.mm-background .mm-page,
       @include shift(1);
       
       @include media($medium-screen) {
-        @include span-columns(8);
+        @include span-columns(9);
         @include shift(2);
       }
       
@@ -1682,10 +1682,10 @@ html.mm-background .mm-page,
         display: block;
         @include media($medium-screen) {
           float: left;
-          width: 30.93%;
-          margin-right: 3.6%;
+          width: 208px;
+          margin-right: 24px;
         }
-        margin-bottom: 3.6%;
+        margin-bottom: 24px;
         
         a {
           background-color:$dark-gray;
@@ -1753,16 +1753,8 @@ html.mm-background .mm-page,
         }
       }
     }
-    &.topics,
-    &.apps {
-      & > ul {
-        li {
-          @include omega(3n);
-        }
-      }
-    }
+    
     &.media-types {
-      
       & > ul {
         li {
           @include media($medium-screen) {
