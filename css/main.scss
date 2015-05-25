@@ -1113,6 +1113,11 @@ html.mm-background .mm-page,
             content: "\e609";
           }
         }
+        &.discuss {
+          a:before {
+            content: "\e60c";
+          }
+        }
         &.source {
           a:before {
             content: "\eab4";

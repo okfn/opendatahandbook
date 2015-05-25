@@ -19,7 +19,6 @@
     <div class="secondary">
       <ul>
         <li><a href="{{ site.baseurl }}/contribute/">Contribute</a></li>
-        <li><a href="https://discuss.okfn.org/c/network-and-community/open-data-handbook" rel="external">Discuss</a></li>
         <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
         <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
         <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="{{ site.baseurl }}/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
@@ -43,8 +42,8 @@
         {% if site.paypal %}
         <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{ site.paypal }}&lc=GB&item_name={{ site.short_title }}%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
         {% endif %}
-        {% if site.email %}
-        <li class="email"><a href="mailto:{{ site.email }}" rel="external"><span>Email</span></a></li>
+        {% if site.contact %}
+        <li class="discuss"><a href="{{ site.contact }}" rel="external"><span>Contact</span></a></li>
         {% endif %}
         {% if site.github_repo %}
         <li class="source"><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external"><span class="text">Source</span></a></li>

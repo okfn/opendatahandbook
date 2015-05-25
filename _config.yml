@@ -1,7 +1,6 @@
 # Site settings
 title: The Open Data Handbook
 short_title: Open Data Handbook
-email: opendatahandbook@okfn.org
 description: |
   Guides, case studies and resources for government & civil society  
   on the “what, why & how” of open data.
@@ -10,6 +9,7 @@ url: "http://opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
 github_repo:  opendatahandbook
 paypal: admin@okfn.org
+contact: https://discuss.okfn.org/c/network-and-community/open-data-handbook
 
 gems:
   - jekyll-redirect-from
