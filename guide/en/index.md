@@ -1,5 +1,7 @@
 ---
-redirect_from: /en/index.html
+redirect_from:
+  - /en/index.html
+  - /guide/
 lang: en
 title: The Open Data Handbook
 section: guide
