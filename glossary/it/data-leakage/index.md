@@ -1,7 +1,8 @@
 ---
 section: terms
-lang: en
-title: Data leakage
+lang: it
+title: Dati trapelati / data leakage
 ---
 
-If personal data has been imperfectly {anonymised}, it may be possible by piecing it together (perhaps with data available from other sources) to reconstruct the identity of some data subjects together with personal data about them. The personal data, which should not have been published (see {data protection}), may be said to have 'leaked' from the 'anonymised' data. Other kinds of confidential data can also be subject to leakage by, for example, poor {data security} measures. See [de-identification](/glossary/en/terms/de-identification/).
+Se i dati personali non sono stati [anonimizzati](/glossary/it/terms/anonymised/) perfettamente, 
+If personal data has been imperfectly {anonymised}, può essere possibile, mettendo insieme pezzi (magari provenienti da altre fonti) di ricostruire l'identità o alcune informazioni personali. I dati personali, che non avrebbero dovuto essere pubblicati (vedi [protezione dei dati](/glossary/it/terms/data-protection), posso essere detti 'trapelati' dalla lo4o 'anonimizzazione'. Altri tipi di dati riservati possono essere soggetti a perdite, per esempio, per scarse misure di [sicurezza sui dati] (/glossary/it/terms/data-security). Vedi [de-identificazione](/glossary/it/terms/de-identification/).
