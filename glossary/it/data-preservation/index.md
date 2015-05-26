@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: Data preservation
+lang: it
+title: Preservazione dei dati
 ---
-
-The Domesday Book of 1086 was written with ink on vellum, a technology that is still legible today. Long-term preservation of present day datasets is more difficult to ensure owing to uncertainty about the future of {file formats}, computer architectures, storage media and network connectivity. Projects that put particular stress on data preservation take a variety of approaches to solving these problems.
+Il [Domesday Book](https://it.wikipedia.org/wiki/Domesday_Book) del 1086 è stato scritto con l'inchiostro su pergamena, una tecnologia che è ancora leggibile fino ad ora. La conservazione a lungo termine degli attuauli dataset è più difficile da garantire ai nostri giorni a causa dell'incertezza sul futuro dei [formati di file](/glossary/it/terms/file-format/) , architetture, supporti di memoria e connettività di rete. Progetti che mettono un accento particolare sulla conservazione dei dati assumendo  una varietà di approcci per risolvere questi problemi.
