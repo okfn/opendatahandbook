@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data journalism
+lang: it
+title: Giornalismo dai dati / data journalism
 ---
 
-The ability to work with data is an increasingly important part of a journalist's armoury. Skills needed to research and tell a good data-based story include finding relevant data, [data cleaning](/glossary/en/terms/data-cleaning/), exploring or mining the data to understand what story it is telling, and creating good {visualisations}
+La capacità di lavorare con i dati è una parte sempre più importante nel bagaglio di conoscenza di un giornalista. Le competenze necessarie per la ricerca e per raccontare una buona storia basata sui dati includono la capacità di sapere cercare di dati rilevanti, la [pulizia dei dati](/glossary/it/terms/data-cleaning/), l'esplorazione o estrazione dei dati per capire cosa storia  si sta raccontando, e la creazione di buone [visualizzazioni](/glossary/it/terms/visualisations)
