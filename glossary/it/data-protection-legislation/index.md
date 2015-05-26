@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data protection legislation
+lang: it
+title: Legislatura sulla protezione dei dati
 ---
 
-Data protection legislation is not about protecting the data, but about protecting the right of citizens to live without fear that information about their private lives might become public. The law protects privacy (such as information about a person's economic status, health and political position) and other rights such as the right to freedom of movement and assembly. For example, in Finland a travel card system was used to record all instances when the card was shown to the reader machine on different public transport lines. This raised a debate from the perspective of freedom of movement and the travel card data collection was abandoned based on the data protection legislation.
+La legislatura sulla protezione dei dati non riguarda i dati ma il diritto dei cittadini di vivere senza la paura che informazioni della loro vita privata siano resi pubblici. La legge protegge la privacy (come informazione sullo status economico personale, di salute e di posizione politica) e altri diritti come quello della libertà di movimento e di assemblea. Ad esempio, in Finlandia, un sistema di abbonamento per il trasporto pubblico è stato utilizzato per registrare tutti gli spostamenti. Ciò ha sollevato un dibattito dal punto di vista della libertà di circolazione e la raccolta dei dati della carta di viaggio è stato abbandonato in base alla legislazione sulla protezione dei dati.
