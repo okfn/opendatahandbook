@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data management
+lang: it
+title: Gestione dei dati
 ---
 
-The policies, procedures, and technical choices used to handle data through its entire lifecycle from [data collection](/glossary/en/terms/data-collection/) to storage, preservation and use. A data management policy should take account of the needs of [data quality](/glossary/en/terms/data-quality/), availability, {data protection}, [data preservation](/glossary/en/terms/data-preservation/), etc.
+Le politiche, le procedure e le scelte tecniche utilizzate per gestire i dati nel loro intero ciclo di vita dalla [collezione dei dati](/glossary/it/terms/data-collection/) all'archiviazione, preservazione e uso. Un politica di gestione dei dati deve tenere conto di tutte le necessità per la [qualità dei dati](/glossary/it/terms/data-quality/), disponibilità, la [protezione dei dati](/glossary/en/terms/data-protection), e la [preservazione dei dati](/glossary/it/terms/data-preservation/), ecc...
