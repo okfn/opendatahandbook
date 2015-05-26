@@ -1,5 +1,6 @@
 ---
 section: solutions
+layout: apps
 title: ATuServicio
 creators: DATA Urugauy 
 website: http://atuservicio.uy

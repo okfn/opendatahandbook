@@ -1,5 +1,6 @@
 ---
 section: solutions
+layout: apps
 title: OpenSpending
 creators: Open Knowledge
 website: 

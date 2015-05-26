@@ -1,5 +1,6 @@
 ---
 section: solutions
+layout: apps
 title: Country Safety
 creators: Code for Kenya
 website: http://countysafety.code4kenya.org

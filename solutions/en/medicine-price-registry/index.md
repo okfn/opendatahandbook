@@ -1,5 +1,6 @@
 ---
 section: solutions
+layout: apps
 title: Medicine price registry (MPR)
 creators: Code for South Africa 
 website: http://mpr.code4sa.org

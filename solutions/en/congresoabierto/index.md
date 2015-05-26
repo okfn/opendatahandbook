@@ -1,5 +1,6 @@
 ---
 section: solutions
+layout: apps
 title: Congreso Abeirto
 creators: Fundacion Ciudadano Inteligente 
 website: http://congresoabierto.cl/

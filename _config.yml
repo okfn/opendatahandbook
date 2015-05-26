@@ -271,11 +271,6 @@ defaults:
       edit: true
   -
     scope:
-      section: "apps"
-    values:
-      layout: apps
-  -
-    scope:
       section: "terms"
     values:
       layout: page
