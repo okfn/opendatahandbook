@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data integration
+lang: it
+title: Integrazione fra dati
 ---
 
-Almost any interesting use of data will combine data from different sources. To do this it is necessary to ensure that the different datasets are compatible: they must use the same names for the same objects, the same units or co-ordinates, etc. If the [data quality](/glossary/en/terms/data-quality/) is good this process of data integration may be straightforward but if not it is likely to be arduous. A key aim of [linked data](/glossary/en/terms/linked-data/) is to make data integration fully or nearly fully automatic. Non-{open data} is a barrier to data integration, as obtaining the data and establishing the necessary permission to use it is time-consuming and must be done afresh for each dataset.
+Generalmente qualsiasi uso interessante dei dati avviene dalla combinazione con differenti sorgenti. Per permettere questo è necessario garantire che i diversi dataset sia compatibili: questi devono usare gli stemmi nomi pergli oggetti, le stesse unità di misura o coordinate ecc... Se la [qualità dei dati](glossary/it/terms/data-quality) è buona allora questo processo di integrazione può essere semplice, ma se non lo è, allora è probabile che sarà arduo. Un obbiettivo dei [linked data](/glossary/it/terms/linked-data/) è di rendere automatica, o quasi, l'integrazione fra dati. I non-{open data} sono una barriera all'integrazione fra dati, come quando si ottengono i dati, usando molto tempo per avere i permessi necessari per utilizzarli che deve poi essere rifatto per ogni nuovo dataaset.
