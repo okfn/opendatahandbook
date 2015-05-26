@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data portal
+lang: it
+title: Portale di dati
 ---
 
-A [web](/glossary/en/terms/web/) platform for publishing data. The aim of a data portal is to provide a data catalogue, making data not only available but [discoverable](/glossary/en/terms/discoverable/) for data users, while offering a convenient publishing workflow for publishing organisations. Typical features are web interfaces for publishing and for searching and browsing the catalogue, machine interfaces (APIs) to enable automatic publishing from other systems, and data preview and visualisation. 
+Una piattaforma [web](/glossary/it/terms/web/) per pubblicare dati. Lo scopo di un portale di dati è quello di fornire un catalogo di dati, in modo da rendere i dati non solo disponibili ma anche [cercabili](/glossary/en/terms/discoverable/) dagli utenti, fornendo un comodo flusso di lavoro alle organizzazioni nella pubblicazione. Funzione tipiche sono interfacce web per pubblicare, cercare e prendere visione dei dati, interfacce utili alle macchine (API) per abilitare la pubblicazione automatica da altri sistemi, e l'anteprima dei dati e la loro visualizzazione.
