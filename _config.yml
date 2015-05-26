@@ -274,3 +274,9 @@ defaults:
       section: "apps"
     values:
       layout: apps
+  -
+    scope:
+      section: "terms"
+    values:
+      layout: page
+      edit: true
