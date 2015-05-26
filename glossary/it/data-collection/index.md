@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data collection
+lang: it
+title: Collezioni di dati
 ---
 
-Datasets are created by collecting data in different ways: from manual or automatic measurements (e.g. weather data), surveys (census data), records of decisions (budget data) or ongoing transactions (spending data), aggregation of many records (crime data), mathematical {modelling} (population projections), etc. 
+I dataset sono creati raccogliendo dati in diversi modi: manualmente o da misure automatiche (es. dati meteo), indagini (dati del censimento), registrazioni di decisioni (dati di bilancio) o transazioni in uscita (dati della spesa), aggregazioni da registrazionij diverse (dati del crimine), modeli matematici (proiezioni di popolazione), ecc..
