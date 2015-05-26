@@ -18,16 +18,14 @@ cost:
 code: https://github.com/ciudadanointeligente/legislative
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue consectetur faucibus. Sed convallis dapibus pharetra. Sed aliquam pellentesque risus ut luctus. In ac nisi faucibus, commodo sapien et, maximus nulla. Morbi non justo non dolor commodo mollis nec sit amet libero. Vivamus suscipit porttitor euismod.
-
 ###The Problem
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue consectetur faucibus. Sed convallis dapibus pharetra. Sed aliquam pellentesque risus ut luctus. In ac nisi faucibus, commodo sapien et, maximus nulla. Morbi non justo non dolor commodo mollis nec sit amet libero. Vivamus suscipit porttitor euismod. In eget justo sem. Duis est metus, luctus vitae efficitur sit amet, malesuada in justo. Nullam vel euismod purus, eu dignissim elit. Aliquam placerat nisl nibh, id gravida felis tristique at. Etiam orci dui, rhoncus vel lectus quis, fringilla posuere dolor. Suspendisse non ligula consequat, cursus ante vel, laoreet mauris. Integer accumsan tellus a luctus egestas.
+Parliament is one of the three big bodies which crates democracy. As the main legislative body, it main role is not only to create suggest new bills, but also to over seen the work of the government and to represent the citizens. Monitoring of the parliament work by citizens is important for reducing corruption and ensuring a strong democracy. 
 
 ###The Solution
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue consectetur faucibus. Sed convallis dapibus pharetra. Sed aliquam pellentesque risus ut luctus. In ac nisi faucibus, commodo sapien et, maximus nulla. Morbi non justo non dolor commodo mollis nec sit amet libero. Vivamus suscipit porttitor euismod. In eget justo sem. Duis est metus, luctus vitae efficitur sit amet, malesuada in justo. Nullam vel euismod purus, eu dignissim elit. Aliquam placerat nisl nibh, id gravida felis tristique at. Etiam orci dui, rhoncus vel lectus quis, fringilla posuere dolor. Suspendisse non ligula consequat, cursus ante vel, laoreet mauris. Integer accumsan tellus a luctus egestas.
+Congress Abierto allows citizens to follow the actions in parliament. Citizens can look for a bill, see their representative action in parliament and even to write to them.  
 
 ###Uses
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue consectetur faucibus. Sed convallis dapibus pharetra. Sed aliquam pellentesque risus ut luctus. In ac nisi faucibus, commodo sapien et, maximus nulla. Morbi non justo non dolor commodo mollis nec sit amet libero. Vivamus suscipit porttitor euismod. In eget justo sem. Duis est metus, luctus vitae efficitur sit amet, malesuada in justo. Nullam vel euismod purus, eu dignissim elit. Aliquam placerat nisl nibh, id gravida felis tristique at. Etiam orci dui, rhoncus vel lectus quis, fringilla posuere dolor. Suspendisse non ligula consequat, cursus ante vel, laoreet mauris. Integer accumsan tellus a luctus egestas.
+Civil Society Organisations use the tool to monitor government and since it is very easy to use it can be used by any citizen.
 
 ###Data Used
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue consectetur faucibus. Sed convallis dapibus pharetra. Sed aliquam pellentesque risus ut luctus. In ac nisi faucibus, commodo sapien et, maximus nulla. Morbi non justo non dolor commodo mollis nec sit amet libero. Vivamus suscipit porttitor euismod. In eget justo sem. Duis est metus, luctus vitae efficitur sit amet, malesuada in justo. Nullam vel euismod purus, eu dignissim elit. Aliquam placerat nisl nibh, id gravida felis tristique at. Etiam orci dui, rhoncus vel lectus quis, fringilla posuere dolor. Suspendisse non ligula consequat, cursus ante vel, laoreet mauris. Integer accumsan tellus a luctus egestas.
+Chile congress API 
