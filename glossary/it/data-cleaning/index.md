@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Data cleaning
+lang: it
+title: Pulizia dei dati
 ---
 
-Processing a dataset to make it easier to consume. This may involve fixing inconsistencies and errors, removing non-{machine-readable} elements such as formatting, using standard labels for row and column headings, ensuring that numbers, dates, and other quantities are represented appropriately, [conversion](/glossary/en/terms/conversion/) to a suitable [file format](/glossary/en/terms/file-format/), reconciliation of labels with another dataset being used (see [data integration](/glossary/en/terms/data-integration/)), etc. See [data quality](/glossary/en/terms/data-quality/).
+Il processamento di un dataset per renderlo più semplice da utilizzare. Questo può realizzarsi nella correzione di inconsistenze e errori, rimozioni di elementi non-{machine-readable} come la formattazione, uso di etichette standard per l'intestaazione di righe e colonne, garanzie che numeri, date ed altre quantità siano rappresentate in maniera appropriata, [coversioni](/glossary/it/terms/conversion/) in [formati di file](/glossary/it/terms/file-format/) più idonei, rinconciliazione delle etichette con un altro dataset che sarà utilizzato (vedi [integrazione fra dati](/glossary/it/terms/data-integration/),  ecc... Vedi [qualità dei dati](/glossary/it/terms/data-quality/).
