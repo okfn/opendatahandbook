@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Protocollo di accesso ai dati / data access protocol
 ---
 
