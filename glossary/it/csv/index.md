@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: CSV
 ---
 
-'Comma-separated values', a standard format for spreadsheet data. Data is represented in a plain text file, with each data row on a new line and commas separating the values on each row. As a very simple [open format](/glossary/en/terms/open-format/) it is easy to {consume} and is widely used for publishing open data.
+'Comma-separated values' (valori separati da virgola), un formato standard per i dati tabellari. I dati sono rappresentati in un file di testo dove ogni record corrisponde ad una nuova riga i cui valori sono separati da una vigola per ogni colonna. Si tratta di un [formato aperto](/glossary/it/terms/open-format/) particolarmente semplice da [utilizzare]{/glossary/it/terms/consume} e ampiamente utilizzato per pubblicare dati aperti.
