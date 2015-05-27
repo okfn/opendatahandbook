@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Corruption
+lang: it
+title: Corruzione
 ---
 
-Misuse of public positions or funds, e.g. by embezzling money, extorting bribes, claiming unreasonable expenses, illicitly favouring friends or particular groups in public services or appointments, etc. Open data and, more generally, [open government](/glossary/en/terms/open-government/) is an important tool in the fight against corruption.
+Abuso di posizioni o di fondi pubblici, come, ad esempio, essersi appropriati di denaro o estorcere tangenti, sostenendo spese irragionevoli, favorendo illecitamente gli amici o di particolari gruppi di servizi o appuntamenti pubblici, ecc.. Open Data e, più in generale, l'[open government](/glossary/en/terms/open-government/) è uno strumento importante nella lotta contro la corruzione.
