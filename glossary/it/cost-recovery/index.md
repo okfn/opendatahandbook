@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Cost recovery
+lang: it
+title: recupero dei costi
 ---
 
-The principle of setting a price for a resource, e.g. data, aiming to recover the cost of collecting the data, as distinct from [marginal cost](/glossary/en/terms/marginal-cost/). Data charged for on a cost-recovery basis is not open data according to the [Open Definition](/glossary/en/terms/open-definition/). Studies show that charging for {PSI} on a cost-recovery basis leads to lower growth than free or marginal-cost pricing
+Il principio di fissare un prezzo per una risorsa. Ad esempio, per i dati, al fine di recuperare il costo necessario per coprire la spesa della raccolta a differenza dei [costi marginali](/glossary/it/terms/marginal-cost/). Il caricare i dati di un costo di recupero, ai sensi della [Open Definition](/glossary/it/terms/open-definition/) non ne fa questi open data. Diversi studi dimostrano che caricare i dati del [settore informativo pubblico](/glossary/it/terms/public-sector-information/) con il recupero dei costi porta ad abbassare la crescita dei costi marginali.
