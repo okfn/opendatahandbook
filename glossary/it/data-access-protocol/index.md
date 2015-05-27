@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: en
-title: Data Access Protocol
+title: Protocollo di accesso ai dati / data access protocol
 ---
 
-A system that allows outsiders to be granted access to databases without overloading either system.
+Un sistema che permette ad esterni di avere accesso alla banca dati senza dover sovraccariare altri sistemi
