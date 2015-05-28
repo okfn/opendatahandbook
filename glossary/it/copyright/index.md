@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Copyright
+lang: it
+title: Copyright / Diritto d'autore
 ---
 
-A legal right over ןntellectual property (e.g. a book) belonging to the creator of the work. While individual data (facts) cannot be copyright, a database will in general be covered by copyright protecting the selection and arrangement of data within it. Within the European Union a separate 'database right' protects a database where there was a substantial effort in 'obtaining' the data. A copyright holder may use a [licence](/glossary/en/terms/licence/) to grant other people rights in the protected material, perhaps subject to specified restrictions.
+Un diritto legale sviluppato dove la proprietà intellettuale (es. un libro) appartiene al creatore dell'opera. Mentre i dati singoli (fatti) non possono avere un diritto d'autore, una banca dati può averlo come funzione di protezione di una selezione e la disposizioni dei dati al suo interno. All'interno dell'Unione Europea una banca dati può essere protetta attraverso un 'diritto sulla banca dati' (database right) come riconoscimento del lavoro svolto per 'ottenere' i dati. Chi detiene un copyright può utilizzare una [licenza](/glossary/it/terms/licence/) per permettere ad altre persone il riuso del materiale protetto soggetto però a specifiche restrizioni.
