@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Conversion
+lang: it
+title: Conversione
 ---
 
-The process of automatically reading data in one [file format](/glossary/en/terms/file-format/) and emitting the same data in a different format, thus making the data accessible to a wider range of applications.
+l processo automatico di letture dei dati da un [formato file](/glossary/en/terms/file-format/) per la scrittura degli stessi in un formato diverso, rendendo così i dati accessibili a una gamma più ampia di applicazioni.
