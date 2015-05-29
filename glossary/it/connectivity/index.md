@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Connectivity
+lang: it
+title: Connettività
 ---
 
-Connectivity relates to the ability for communities to connect to the Internet, especially the World Wide Web.
+Connettività riguarda per le comunità la possibilità di collegarsi a Internet, in particolar modo al World Wide Web.
