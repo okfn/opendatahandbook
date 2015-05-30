@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: it
 title: Bulk 
 ---
-The entirety of a dataset. Data is available in bulk if the entire dataset can be downloaded for further processing on the user's hardware. Bulk downloads should almost always be offered for open data, but may be impractical in the case of {big data} or {real-time data}.
+L'insieme completo di un set di dati. I dati sono disponibili in massa (bulk) se l'intero insieme può essere scaricato per ulteriori elaborazione sul hardware dell'utente. I bulk download devono quasi sempre essere offerti in open data, ma può essere poco pratico in caso di {big data} o di [dati in tempo reale](/glossary/in/terms/real-time-data/).
