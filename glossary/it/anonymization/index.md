@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Anonymization
+lang: it
+title: Anonimizazione
 ---
 
-See [Anonymisation](/glossary/en/terms/anonymisation/).
+vedi [anonimato](/glossary/it/terms/anonymisation/).
