@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: Spreadsheet
+title: スプレッドシート
 ---
 
-スプレッドシート。Microsoft ExcleやOpenOffice Calcのようなスプレッドシート専用プログラムで対話的に処理できるデータや計算式の表。
+Spreadsheet。Microsoft ExcleやOpenOffice Calcのようなスプレッドシート専用プログラムで対話的に処理できるデータや計算式の表。

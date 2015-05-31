@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: Conversion
+title: 変換
 ---
 
-変換。ある[ファイルフォーマット](/glossary/ja/terms/file-format/)のデータを読み込み、異なるフォーマットの同じデータを出力することで、より多くのアプリケーションにデータを利用可能にさせるための、自動処理。
+Conversion。ある[ファイル形式](/glossary/ja/terms/file-format/)のデータを読み込み、異なるフォーマットの同じデータを出力することで、より多くのアプリケーションにデータを利用可能にさせるための、自動処理。

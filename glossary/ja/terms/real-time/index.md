@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: Real time
+title: リアルタイム
 ---
 
-リアルタイム。ネットワーク上の列車の現在位置などのように継続的に更新されるデータ。その最新バージョンの取得には[query](/glossary/ja/terms/query/)が必要。
+Real time。ネットワーク上の列車の現在位置などのように継続的に更新されるデータ。その最新バージョンの取得には[クエリ](/glossary/ja/terms/query/)が必要。

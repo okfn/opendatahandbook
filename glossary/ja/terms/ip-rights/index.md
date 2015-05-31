@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: IP rights
+title: IP権
 ---
 
-[Intellectual property rights](/glossary/ja/terms/intellectual-property-rights/)参照。
+IP rights。[知的所有権](/glossary/ja/terms/intellectual-property-rights/)参照。
