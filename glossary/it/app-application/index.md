@@ -1,7 +1,6 @@
 ---
 section: terms
-lang: en
-title: App / Application
+lang: it
+title: App / Applicazione
 ---
-
-A piece of software (short for 'application'), especially one designed to run on the [web](/glossary/en/terms/web/) or on mobile phones and similar platforms. Apps can make network connections to large databases and thus be a powerful way of {consuming} open data, which may be {real-time}, personalised, and (using a mobile phone's [GPS](/glossary/en/terms/gps/)) location-specific information. [Crowdsourcing](/glossary/en/terms/crowdsourcing/) apps can also be used to build or improve datasets.
+Un pezzo di software (abbreviazione per 'app'), disegnato in particolar modo per essere eseguito via [web](/glossary/it/terms/web/) o da un dispositivo mobile o piattaforme analogo. Una app è in grado di collegarsi verso grandi banche data e quindi essere un potente modo per [consuming](/glossary/it/terms/consuming)/{consumare} dati aperti, che possono essere {real-time}, personalizzati, e (attraverso l'uso di un telefono cellulare dotato di [GPS](/glossary/it/terms/gps/), fornire informazioni specifiche posizione. Le applicazioni di [crowdsourcing](/glossary/en/terms/crowdsourcing/) possono essere anche usate per costruire o migliorare dataset.
