@@ -1,6 +1,7 @@
 ---
 section: terms
-lang: en
+lang: it
 title: App challenge
-
-A popular form of {community engagement} by data publishers that invites programmers to develop [App / Application](/glossary/en/terms/app-application/) that solve a problem or provide a service using the published data
+---
+Una formula particolare di 
+A popular form of  [community engagement](/glossary/it/terms/community engagement/) usata da chi pubblica dati per invitare gli sviluppatori a creare [application](/glossary/en/terms/app-application/) che risolvono un problema o che forniscono un servizio di pubblicazione dati.
