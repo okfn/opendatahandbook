@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
-title: Application Programming Interface
+lang: it
+title: Application Programming Interface - API
 ---
 
-A way computer programs talk to one another. Can be understood in terms of how a programmer sends instructions between programs.
+Un modo attraverso cui un software è in grado di comunicare con un altro. Le API possono essere interpretate come i termini attraverso cui uno sviluppaatore invia istruzioni fra programmi.
