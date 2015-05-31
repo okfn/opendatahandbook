@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: Public Sector Information
+title: 公共部門情報
 ---
 
-PSI。公的機関が収集した、あるいは管理する情報。
+Public Sector Information（PSI）。公的機関が収集した、あるいは管理する情報。
