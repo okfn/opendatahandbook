@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: dimension
+title: 次元
 ---
 
-An ordinary table or spreadsheet can easily represent two data dimensions: each data point has a row and a column. Plenty of real-world data has more dimensions, however: for example, a dataset of Earth surface temperature varying with position and time (two co-ordinates are required to specify the position on earth, e.g. latitude and longitude, and one to specify the time).
+dimension。通常のテーブルまたはスプレッドシートは、二つのデータ次元を簡単に表現できる。各データポイントは、行と列を持つ。現実の世界におけるデータは、より多くの次元を持っている。例えば、地球の表面温度というデータセットは、位置と時間によって変化する（地球上での位置を特定するには二つの座標が必要。たとえば緯度経度および時刻を特定するもの）

@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: Linked data
+title: リンクトデータ
 ---
 
-リンクトデータ。データ表現形式のひとつで全ての[identifier](/glossary/ja/terms/identifier/)は http://... {URI}であり、可能な場合とデータセットが同じオブジェクトのデータセットリファレンスへのリンクを含む場合には識別子の標準リスト([vocabulary](/glossary/ja/terms/vocabulary/)参照)を使用する。その主な目的は巨大なデータセットであっても[data integration](/glossary/ja/terms/data-integration/)を自動的に行うことである。リンクトデータは通常[RDF](/glossary/en/terms/rdf/)で表現される。[five stars of open data](/glossary/ja/terms/five-stars-of-open-data/); [triple store](/glossary/ja/terms/triple-store/)も参照。
+Linked data。データ表現形式のひとつで全ての[識別子](/glossary/ja/terms/identifier/)は http://... URIであり、可能な場合とデータセットが同じオブジェクトのデータセットリファレンスへのリンクを含む場合には識別子の標準リスト([語彙](/glossary/ja/terms/vocabulary/)参照)を使用する。その主な目的は巨大なデータセットであっても[データ統合](/glossary/ja/terms/data-integration/)を自動的に行うことである。リンクトデータは通常[RDF](/glossary/ja/terms/rdf/)で表現される。[5つ星オープンデータ](/glossary/ja/terms/five-stars-of-open-data/)、[トリプルストア](/glossary/ja/terms/triple-store/)も参照。

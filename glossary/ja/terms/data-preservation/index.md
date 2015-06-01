@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: ja
-title: Data preservation
+title: データ保全
 ---
 
-The Domesday Book of 1086 was written with ink on vellum, a technology that is still legible today. Long-term preservation of present day datasets is more difficult to ensure owing to uncertainty about the future of {file formats}, computer architectures, storage media and network connectivity. Projects that put particular stress on data preservation take a variety of approaches to solving these problems.
+Data preservation。1086年の英国土地台帳は羊皮紙上にインクで書かれているが、今日でもはっきりと読める技術である。近年のデータセットの長期におよぶ保全は、ファイル形式、コンピュータ基盤技術、記憶媒体そしてネットワーク接続性などが将来にわたって存続するかどうか不確かであるため、確約することが難しくなってきている。データ保全に特別な重点を置くプロジェクトはこれらの問題を避けるために様々なアプローチをとっている。
