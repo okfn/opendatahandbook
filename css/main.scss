@@ -12,8 +12,7 @@ $mm_maxWidth: 380px;
   "neat/neat",
   "mmenu/jquery.mmenu.all",
   "mmenu/addons/jquery.mmenu.header",
-  "icons",
-  "ok-panel"
+  "icons"
 ;
 
 $small-screen: em(400);
@@ -2094,6 +2093,13 @@ html.mm-background .mm-page,
   }
 }
 
+
+@media only screen and (min-width : 576px) {
+
+  .ok-ribbon {
+    position:absolute;
+  }
+}
 
 .active_language {color: red;}
 .languages {padding: 16px 0;}
