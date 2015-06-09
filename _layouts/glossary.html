@@ -1,0 +1,14 @@
+---
+layout: page
+wide: true
+edit: true
+---
+
+<dl>
+  {% for term in site.pages %}
+  {% if term.section == 'terms' and term.lang == page.lang %}
+  <dt>{{ term.title }} [<a href="{{ term.url }}">Permalink</a>]</dt>
+  <dd>{{ term.content }}</dd>
+  {% endif %}
+  {% endfor %}
+</dl>

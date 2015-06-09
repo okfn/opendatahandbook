@@ -2,14 +2,25 @@
   <ul>
     {% if site.github_repo and page.edit %}
     <li class="edit tooltip-item">
-      Edit this page
+      Improve this page
       
       <span class="tooltip">
         <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/edit/gh-pages/{{page.path}}" class="github" rel="external">Edit on Github</a>
-        <a href="{{ "/contribute/" | prepend: site.baseurl }}" target="_blank">Learn more about contributing</a>
+        <a href="{{ "/contribute/" | prepend: site.baseurl }}" target="_blank">Help and instructions</a>
       </span>
     </li>
     {% endif %}
+    {% if active_section.translate_link %}
+    <li class="translate tooltip-item">
+      Translate this page
+      <span class="tooltip">
+        <a href="{{ "/contribute/translate-guide" | prepend: site.baseurl }}" target="_blank">Translation guide</a>
+      </span>
+    </li>
+    {% endif %}
+
+    {% if site.paypal %}
+
     <li class="donate tooltip-item">
       Donate
       
@@ -39,11 +50,12 @@
           <img width="1" border="0" height="1" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" alt="">
           <img width="1" border="0" height="1" src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">
           <input type="hidden" value="_xclick" name="cmd">
-          <input type="hidden" value="{{ site.email }}" name="business">
-          <input type="hidden" value="Open Data Handbook Donation to the Open Knowledge Foundation" name="item_name">
+          <input type="hidden" value="{{ site.paypal }}" name="business">
+          <input type="hidden" value="{{ site.short_title }} Donation to Open Knowledge" name="item_name">
         </form>
       </span>
     </li>
+    {% endif %}
     <li class="share tooltip-item">
       Share
       
@@ -52,6 +64,24 @@
         <a href="https://twitter.com/home?status={{page.title }}: {{ site.url }}{{ page.url }}" class="twitter" rel="external">Share on Twitter</a>
       </span>
     </li>
+    {% if page.section == 'resources' %}
+    <li class="add tooltip-item">
+      Add a resource
+      
+      <span class="tooltip">
+        <a href="{{ "/contribute/add-resource/" | prepend: site.baseurl }}" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    {% endif %}
+    {% if page.section == 'solutions-landing' %}
+    <li class="add tooltip-item">
+      Add a solution
+      
+      <span class="tooltip">
+        <a href="{{ "/contribute/" | prepend: site.baseurl }}" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    {% endif %}
   </ul>
   
 </div>

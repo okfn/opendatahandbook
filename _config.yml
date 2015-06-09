@@ -1,12 +1,70 @@
 # Site settings
-title: Open Data Handbook
-email: admin@okfn.org
-description: > # this means to ignore newlines until "baseurl:"
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend metus eget justo tincidunt, nec consequat turpis pretium. Etiam varius tellus tortor, in mattis ex convallis vel.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://new.opendatahandbook.org" # the base hostname & protocol for your site
+title: The Open Data Handbook
+short_title: Open Data Handbook
+description: |
+  Guides, case studies and resources for government & civil society  
+  on the “what, why & how” of open data.
+baseurl: ""
+url: "http://opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
-github_repo:  opendatahandbook-v2
+github_repo:  opendatahandbook
+paypal: admin@okfn.org
+contact: https://discuss.okfn.org/c/network-and-community/open-data-handbook
+
+gems:
+  - jekyll-redirect-from
+
+devs:
+  -
+      name: Sam Smith
+      github: mintcanary
+  -
+      name: Rufus Pollock
+      github: rgrp
+  -
+      name: Paul Walsh
+      github: pwalsh
+
+contributors:
+  -
+      name: Daniel Dietrich
+      link: http://ddie.me/
+  -
+      name: Jonathan Gray
+      link: http://jonathangray.org/
+  -
+      name: Tim McNamara
+      link: http://timmcnamara.co.nz/
+  -
+      name: Antti Poikola
+      link: http://poikola.fi/
+  -
+      name: Rufus Pollock
+      link: http://rufuspollock.org/
+  -
+      name: Julian Tait
+      link: http://www.littlestar.tv/
+  -
+      name: Ton Zijlstra
+      link: http://www.zylstra.org/blog/
+  -
+      name: Sam Smith
+      link: http://samsmith.name/
+
+supporters:
+  -
+    name: Shuttleworth Foundation
+    logo: shuttleworth.png
+    footer_logo: shuttleworth-footer.png
+    url: https://www.shuttleworthfoundation.org/
+  -
+    name: The World Bank
+    logo: worldbank.png
+    footer_logo: worldbank-footer.png
+    url: http://www.worldbank.org/
+
+
+googleanalytics: UA-8271754-28
 
 #googleanalytics: UA-XXXXX-X
 
@@ -15,27 +73,207 @@ markdown: kramdown
 
 permalink: pretty
 
-defaults: 
-  - 
-    scope: 
-      path: "en" 
-    values: 
-      section: Open Data Handbook
-      layout: page
+languages:
+  -
+    - en
+    - English
+  -
+    - id
+    - Bahasa
+  -
+    - de
+    - Deutsch
+  -
+    - el
+    - Ελληνικά
+  -
+    - es
+    - Español/Castellano
+  -
+    - fr
+    - Français
+  -
+    - he
+    - עברית
+  -
+    - is
+    - Íslenska
+  -
+    - it
+    - Italiano
+  -
+    - ja
+    - 日本語
+  -
+    - lv
+    - Latviešu
+  -
+    - lt
+    - Lietuvių
+  -
+    - nl
+    - Nederlands (Belgisch)
+  -
+    - pt_BR
+    - Português Brasileiro
+  -
+    - ro
+    - Română
+  -
+    - ru
+    - Pyccĸий
+  -
+    - zh_CN
+    - 中国语文
+  -
+    - zh_TW
+    - 繁體中文
+  -
+    - ko
+    - 한국어
+
+toc:
+  - guide
+    - introduction
+    - why-open-data
+    - what-is-open-data
+    - how-to-open-up-data
+    - following-up
+    - glossary
+    - appendices
+  - value-stories
+  - resources
+  - credits
+
+meta:
+  resources:
+    label: resources
+    output: true
+    has_translation: false
+    title: Open Data Resources
+    filters:
+      - Topic
+      - Language
+      - Region
+      - MediaType
+  value-stories:
+    label: value-stories
+    output: true
+    has_translation: true
+    title: Open Data Value Stories
+    languages:
+      - en
+  glossary:
+    label: glossary
+    output: true
+    has_translation: true
+    translate_link: true
+    title: Open Data Glossary
+    languages:
+      - en
+      - id
+      - de
+      - el
+      - es
+      - fr
+      - he
+      - is
+      - it
+      - ja
+      - lv
+      - lt
+      - nl
+      - pt_BR
+      - ro
+      - ru
+      - zh_CN
+      - zh_TW
+      - ko
+  guide:
+    label: guide
+    output: true
+    has_translation: true
+    translate_link: true
+    title: Guide
+    languages:
+      - en
+      - id
+      - de
+      - el
+      - es
+      - fr
+      - he
+      - is
+      - it
+      - ja
+      - lv
+      - lt
+      - nl
+      - pt_BR
+      - ro
+      - ru
+      - zh_CN
+      - zh_TW
+      - ko
+    toc:
+      entry_point: 'introduction'
+      order:
+        - introduction
+        - why-open-data
+        - what-is-open-data
+        - how-to-open-up-data
+        - following-up
+        - glossary
+        - appendices
+      chapters:
+        - title: 'Introduction'
+          slug: 'introduction'
+          sections:
+            - title: 'Target Audience'
+              slug: 'target-audience'
+            - title: 'Credits'
+              slug: 'credits'
+        - title: 'Why Open Data?'
+          slug: 'why-open-data'
+        - title: 'What is Open Data?'
+          slug: 'what-is-open-data'
+        - title: 'How to Open Up Data'
+          slug: 'how-to-open-up-data'
+        - title: "So I've Opened Up Some Data, Now What? "
+          slug: 'following-up'
+        - title: 'Appendices'
+          slug: 'appendices'
+
+defaults:
+  -
+    scope: #this should be removed once more specific paths are defined
+      path: ""
+    values:
       lang: en
+      layout: page
+  -
+    scope:
+      path: "guide"
+    values:
+      lang: en
+      layout: page
       edit: true
-  - 
-    scope: 
-      path: "contribute" 
-    values: 
-      section: Contribute
+  -
+    scope:
+      path: "contribute"
+    values:
+      lang: en
+      section: contribute
       layout: docs
       edit: true
-  - 
-    scope: 
-      type: "posts"
+  -
+    scope:
+      path: "value-stories"
     values:
-      section: Value Stories
-      permalink: /value-stories/:title/
-      layout: post
+      edit: true
+  -
+    scope:
+      section: "terms"
+    values:
+      layout: page
       edit: true

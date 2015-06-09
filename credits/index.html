@@ -1,0 +1,65 @@
+---
+lang: en
+layout: default
+wide: true
+title: Credits
+---
+
+<div class="credits">
+
+  <h1>{{ page.title }}</h1>
+  <h2>{{ site.title }} was produced by</h2>
+  <a href="https://okfn.org/" rel="external"><img src="{{ "/img/open-knowledge-large.png" | prepend: site.baseurl }}" width="178" height="211" alt="Open Knowledge"></a>
+{% if site.supporters %}
+  <h2>with support from</h2>
+  <ul class="supporters">
+  {% for supporter in site.supporters %}
+    {% if supporter.logo %}
+    <li>
+      <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.logo }}" alt="{{ supporter.name }}"></a>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}
+  
+  {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for author in site.contributors %}{{ author.name }}{% if author.link %}>>{{ author.link }}{% endif %}@@{% endfor %}#{% endcapture %}
+  {% assign authorstring = authors | remove: '@@#' | split: '@@' %}
+
+{% if authorstring %}
+  <h2>Contributing authors</h2>
+  {% assign authorslist = authorstring[1] %}
+
+  {% for a in authorstring %}
+    {% unless authorslist contains a %}
+      {% capture authorslist %}{{ authorslist }}@@{{ a }}{% endcapture %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign authorssorted = authorslist | split: '@@' | sort %}
+
+  {% capture contributor_names %}{% for contributor in site.contributors %}{{ contributor.name }}@@{% endfor %}#{% endcapture %}
+  {% assign contributorstring = contributor_names | remove: '@@#' | split: '@@' %}
+  
+  <ul>
+  {% for author in authorssorted %}
+    {% if author contains '>>' %}
+    <li><a href="{{ author | split: '>>' | last }}" rel="external">{{ author | split: '>>' | first }}</a></li>
+    {% else %}
+    {% unless contributorstring contains author %}
+    <li>{{ author }}</li>
+    {% endunless %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% if site.devs %}
+  <h2>Contributing coders</h2>
+  <ul>
+  {% for dev in site.devs %}
+    <li><a {% if dev.github %} href="https://github.com/{{ dev.github }}" rel="external"{% endif %}>{{ dev.name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}
+</div>

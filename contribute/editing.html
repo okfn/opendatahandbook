@@ -1,16 +1,18 @@
 ---
+section: contribute
+lang: en
 title: Editing a page
 authors:
  - Sam Smith
 ---
 
-<h2>If you haven’t done so already, the first thing you need to do is head over to <a href="https://github.com/" rel="external">Github</a> and create your free account.</h2>
+<p class="lead">If you haven’t done so already, the first thing you need to do is head over to <a href="https://github.com/" rel="external">Github</a> and create your free account.</p>
 
 <p>There are three steps to editing a page. First you need to locate the page you wish to edit. There are a couple of ways to do this. <strong>Method A</strong> is probably the simplest, and most likely way you’ll do it. <strong>Method B</strong> will serve as a primer for the next section: <em>Adding a page</em>.</p>
 
-<h3>1: Locate the page</h3>
+<h2>1: Locate the page</h2>
 
-<h5>Method A: Browse the website</h5>
+<h4>Method A: Browse the website</h4>
 
 <p>While reading any section of the Handbook you’ll see an '<em>Edit this page</em>' link in the bottom left of the page. Following this link will take you directly to an editable version of that page. Easy huh?</p>
 
@@ -19,7 +21,7 @@ authors:
   <p>When the editable page opens it will (most likely) contain a message saying <em>“You're editing a file in a project you don't have write access to”</em>. If this is your first edit to The Open Data Handbook it will say <em>“We've created a fork of this project for you to commit your proposed changes to”</em>. This is normal and part of the workflow.</p>
 </div>
 
-<h5>Method B: Browse the Github repository</h5>
+<h4>Method B: Browse the Github repository</h4>
 
 <p>The entire file structure of this site can be browsed on Github. For example, the root of the site is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external">here</a>, and the English language handbook section is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/en" rel="external">here</a>. It’s helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Handbook introduction page, given that it’s URL is <code>{{ site.url }}/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>en</strong></code> directory with the filename <code><strong>introduction</strong>.md</code> <em>Note: the extension (.md) is stripped from the URL.</em> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.</p>
 
@@ -28,7 +30,7 @@ authors:
   <p>Press <code>t</code> on any tree or blob page to launch the file finder.</p>
 </div>
 
-<h3>2: Make your changes</h3>
+<h2>2: Make your changes</h2>
 
 With the editable content in front of you, you’re probably either thinking “great, let’s get editing”, or “hang on, this looks a bit weird”. In case it’s the latter, let’s have a closer look.
 
@@ -94,7 +96,7 @@ title: Introduction
 
 <p>Once you are happy with your changes, add a summary of what you've changed in the field below the editable text. Then click ‘<em>Propose file change</em>’.</p>
 
-<h3>3: Make a pull request</h3>
+<h2>3: Make a pull request</h2>
 
 <p>You will now be presented with a ‘pull request’ form. So far, the changes you have made are to your own copy, or fork of the handbook. A pull request simply sends a request to the authors/maintainers of the live handbook, asking them to include your changes - and put them live! Add any comments you have for the handbook team, then press ‘<em>Create pull request</em>’.</p>
 

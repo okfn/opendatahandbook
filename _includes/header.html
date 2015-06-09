@@ -1,22 +1,200 @@
+{% assign guide = site.meta.guide %}
+{% assign glossary = site.meta.glossary %}
+{% assign value-stories = site.meta.value-stories %}
+{% assign resources = site.meta.resources %}
+{% assign guide_entry_point = site.baseurl | append: '/' | append: guide.label | append: '/' | append: page.lang | append: '/' | append: guide.toc.entry_point | append: '/' %}
+{% assign glossary_entry_point = site.baseurl | append: '/' | append: glossary.label | append: '/' | append: page.lang | append: '/' %}
+{% assign value-stories_entry_point = site.baseurl | append: '/' | append: value-stories.label | append: '/' | append: page.lang | append: '/' %}
+{% assign resources_entry_point = site.baseurl | append: '/' | append: resources.label | append: '/' %}
+{% assign credits_entry_point = site.baseurl | append: '/credits/' %}
+{% assign apps_entry_point = site.baseurl | append: '/solutions/en/' %}
+
+{% assign url_parts = page.url | split: '/' %}
+
+{% if page.url contains 'guide'%}
+  {% assign active_section = site.meta['guide'] %}
+{% elsif page.url contains 'glossary'%}
+  {% assign active_section = site.meta['glossary'] %}
+{% elsif page.url contains 'value-stories'%}
+  {% assign active_section = site.meta['value-stories'] %}
+{% endif %}
+
 <header class="site-header">
-
-    <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
 </header>
 
-<!--
 <nav id="menu">
   <ul>
-    {% for page in site.pages %}
-      {% if page.title %}
-        <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</nav>
--->
 
-<nav id="menu">
-  {% include menu.html %}
+    <li>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+
+    <li {% if page.url == guide.toc.entry_point %}class="Selected"{% endif %}>
+      <a href="{{ guide_entry_point }}">{{ guide.title }}</a>
+
+      <ul>
+
+        <!-- start navigation for guide section -->
+        {% for chapter in guide.toc.chapters %}
+        {% assign chapter_url = site.baseurl | append: '/' | append:  guide.label | append: '/' |  append: page.lang | append: '/' | append: chapter.slug | append: '/' %}
+        <li {% if page.url == chapter_url %}class="Selected"{% endif %}>
+          <a href="{{ chapter_url }}">{{ chapter.title }}</a>
+          {% if chapter.sections %}
+          <span class="subsections">
+            {% for section in chapter.sections %}
+            <a href="#{{ section.slug }}">{{ section.title }}</a>
+            {% endfor %}
+          </span>
+          {% endif %}
+        </li>
+        {% endfor %}
+
+        <!-- start navigation for glossary section -->
+        <li{% if page.url contains 'glossary' %} class="Selected"{% endif %}>
+          <a href="{{ glossary_entry_point }}">Glossary</a>
+        </li>
+        <!-- end navigation for glossary section -->
+
+        <!-- end navigation for guide section -->
+      </ul>
+    </li>
+
+    <!-- start navigation for value stories section -->
+    <li{% if page.url contains 'value-stories' %} class="Selected"{% endif %}>
+      <a href="{{ value-stories_entry_point }}">Value Stories</a>
+      {% comment %}
+      <ul>
+        {% for story in site.pages %}
+        {% if story.section == 'value-stories' and story.lang == page.lang %}
+        <li{% if page.url == story.url %} class="Selected"{% endif %}>
+          <a href="{{ story.url }}" title="{{ story.title }}">{{ story.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      {% endcomment %}
+    </li>
+    <!-- end navigation for value stories section -->
+
+    <!-- start navigation for resources section -->
+    <li{% if page.url contains 'resources' %} class="Selected"{% endif %}>
+      <a href="{{ resources_entry_point }}">Resources</a>
+
+      {% comment %}
+      <ul>
+        <!--
+            <li class="search">
+              <input type="search" placeholder="Search">
+            </li>
+            -->
+
+        {% for type in site.meta.resources.filters %}
+
+        {% comment %}This block calculates the unique values of each type{% endcomment %}
+        {% assign delimiter = "#" %}
+        {% assign names_str = "" %}
+        {% assign names = site.resources | map: type %}
+
+        {% for name in names %}
+        {% assign names_arr = names_str | split: delimiter %}
+        {% unless names_arr contains name %}
+        {% assign names_str = names_str | append: delimiter | append: name %}
+        {% endunless %}
+        {% endfor %}
+        {% assign names_uniq = names_str | remove_first: delimiter | split:delimiter %}
+
+        <li class="filter">
+          <a>{{ type }}</a>
+          <span class="filter-items">
+
+            {% comment %}Calculate the number of each unique value{% endcomment %}
+            {% for name in names_uniq %}
+            {% assign counter = 0 %}
+            {% for resource in names %}
+            {% if name == resource %}
+            {% assign counter = counter | plus: 1 %}
+            {% endif %}
+            {% endfor %}
+            <a data-filter="{{ type }}" data-value="{{ name }}">{{ name }}<span class="count">{{ counter }}</span></a>
+            {% endfor% %}
+          </span>
+        </li>
+
+        {% endfor %}
+
+      </ul>
+      {% endcomment %}
+
+    </li>
+    <!-- end navigation for resources section -->
+    
+    <!-- start navigation for apps section -->
+    <li class="apps-menu{% if page.url contains 'solutions' %} Selected{% endif %}">
+      <a href="{{ apps_entry_point }}">Solutions</a>
+      <ul class="app-sub-menu">
+        <li class="search">
+          <input type="search" placeholder="Search" class="quicksearch">
+        </li>
+        {% capture appthemes %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.themes }},{% endif %}{% endfor %}{% endcapture %}
+        {% assign appthemesArray = appthemes | split: "," %}
+        {% assign appthemeslist = appthemesArray[1] %}
+        {% for at in appthemesArray %}
+          {% unless appthemeslist contains at %}
+            {% capture appthemeslist %}{{ appthemeslist }}@@{{ at }}{% endcapture %}
+          {% endunless %}
+        {% endfor %}
+        {% assign appthemessorted = appthemeslist | split: '@@' | sort %}
+
+        <li class="filter">
+          <a>Themes</a>
+          <span class="filter-items">
+            {% for apptheme in appthemessorted %}
+            <a data-filter=".selector-theme-{{ apptheme | downcase | replace:' ','' }}">{{ apptheme }}</a>
+            {% endfor %}
+          </span>
+        </li>
+        
+        {% capture apptags %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.tags }},{% endif %}{% endfor %}{% endcapture %}
+        {% assign apptagsArray = apptags | split: "," %}
+        {% assign apptagslist = apptagsArray[1] %}
+        {% for at in apptagsArray %}
+          {% unless apptagslist contains at %}
+            {% capture apptagslist %}{{ apptagslist }}@@{{ at }}{% endcapture %}
+          {% endunless %}
+        {% endfor %}
+        {% assign apptagssorted = apptagslist | split: '@@' | sort %}
+
+        <li class="filter">
+          <a>Tags</a>
+          <span class="filter-items">
+            {% for apptag in apptagssorted %}
+            <a data-filter=".selector-tag-{{ apptag | downcase | replace:' ','' }}">{{ apptag }}</a>
+            {% endfor %}
+          </span>
+        </li>
+      </ul>
+    </li>
+    
+    <!-- start navigation for contribute section -->
+    <li class="{% if page.url contains 'contribute' %}Selected{% endif %}">
+      <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
+      <ul>
+        {% for contribute_page in site.pages %}
+        {% if contribute_page.section == 'contribute' %}
+        <li {% if contribute_page.url == page.url %} class="Selected"{% endif %}>
+          <a href="{{ contribute_page.url }}">{{ contribute_page.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
+    <!-- end navigation for contribute section -->
+
+    <li{% if page.url contains 'credits' %} class="Selected"{% endif %}>
+      <a href="{{ credits_entry_point }}">Credits</a>
+    </li>
+  </ul>
+
 </nav>

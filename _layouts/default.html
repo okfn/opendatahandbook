@@ -3,11 +3,13 @@
 
   {% include head.html %}
 
-  <body>
+  <body{% if page.filters %} class="filters"{% endif %}>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <section id="ok-panel" class="closed"><iframe src="//assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></section>
     <div>
+      <a class="white ok-ribbon" href="https://okfn.org/"><img src="{{ "/img/ok-ribbon.png" | prepend: site.baseurl }}" alt="Open Knowledge"></a>
       <div>
         {% include header.html %}
     
@@ -23,7 +25,13 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
-
+    {% if page.js %}
+    {% for file in page.js %}
+    <script src="{{ site.baseurl }}/js/{{ file }}.js"></script>
+    {% endfor %}
+    {% endif %}
+    <script src="//cdn.rawgit.com/okfn/ok-panel/v1.0.0/assets/js/frontend.min.js"></script>
+    
     <script>
         // Append headings with link to ID
         function headingLink(heading) {

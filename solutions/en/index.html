@@ -1,0 +1,50 @@
+---
+layout: default
+wide: true
+title: Solutions
+intro:
+filters: true
+section: solutions-landing
+js: 
+ - vendor/isotope.pkgd.min
+ - apps
+redirect_from: "/solutions/"
+---
+
+<div class="app resources">
+
+  <h1>{{ page.title }}</h1>
+  {% if page.intro %}
+  <div class="intro">
+    {{ page.intro }} 
+  </div>
+  {% endif %}
+  
+  <!-- start resource topics section -->
+  <section class="apps">
+    <header>
+      <h2></h2>
+    </header>
+    <ul>
+    {% for page in site.pages %}
+      {% if page.section == 'solutions' %}
+      
+      {% capture tags %}{% if page.tags %}{{ page.tags }}{% endif %}{% endcapture %}
+      {% assign tagsArray = tags | split: "," %}
+      
+      {% capture themes %}{% if page.themes %}{{ page.themes }}{% endif %}{% endcapture %}
+      {% assign themesArray = themes | split: "," %}
+
+      <li class="{% if tagsArray %}{% for ta in tagsArray %}selector-tag-{{ ta | downcase | replace:' ','' }} {% endfor %}{% endif %}{% if themesArray %}{% for th in themesArray %}selector-theme-{{ th | downcase | replace:' ','' }} {% endfor %}{% endif %}">
+        <a href="{{ page.path | split: '.' | first | replace:'index',''| split: '/' | last }}"{% if page.image %} style="background-image:url({{ page.image }})"{% if page.image_attribution %} data-attribution="{{ page.image_attribution }}"{% endif %}{% endif %}>
+          <h3>{{ page.title }}{% if page.creators %}<span>by {{ page.creators }}</span>{% endif %}</h3>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </section>
+  <!-- end resource topics section -->
+
+</div>
+{% include page-tools.html %}

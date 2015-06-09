@@ -1,0 +1,95 @@
+---
+layout: default
+wide: true
+edit: true
+---
+
+{% assign section = page.section %}
+{% assign section_base = site.baseurl | append: section | append: '/' | append: page.lang | append: '/' %}
+
+<div class="app post">
+  <div class="post-content">
+    <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="activity{% if page.creators %} has-creator{% endif %}">
+      {% if page.end %}
+      <span class="ended text">{% if page.start %}{{ page.start }} -{% else %}Ended{% endif %} {{ page.end }}</span>
+      {% else %}
+      <span class="icon-circle-check"></span><span class="text">Active</span>
+      {% endif %}
+    </span>
+    {% if page.creators %}
+    <div class="author">By
+      <ul>
+      {% for creator in page.creators %}
+        <li>{{ creator }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% include languages.html %}
+    {% if page.image %}
+  </div>
+  <aside>
+    <dl>
+      {% if page.type %}
+      <dt>Type</dt>
+      <dd>{{ page.type }}</dd>
+      {% endif %}
+      {% if page.language %}
+      <dt>Language</dt>
+      <dd>{{ page.language }}</dd>
+      {% endif %}
+      {% if page.themes %}
+      <dt>Themes</dt>
+      <dd>{{ page.themes }}</dd>
+      {% endif %}
+      {% if page.start %}
+      <dt>Start</dt>
+      <dd>{{ page.start }}</dd>
+      {% endif %}
+      {% if page.end %}
+      <dt>End</dt>
+      <dd>{{ page.end }}</dd>
+      {% endif %}
+      {% if page.countries %}
+      <dt>Countries</dt>
+      <dd>{{ page.countries }}</dd>
+      {% endif %}
+      {% if page.region %}
+      <dt>Region</dt>
+      <dd>{{ page.region }}</dd>
+      {% endif %}
+      {% if page.cost %}
+      <dt>Cost</dt>
+      <dd>{{ page.cost }}</dd>
+      {% endif %}
+    </dl>
+  </aside>
+  <article class="post-content"> 
+    <div class="image">
+      <a style="background-image:url({{ page.image }})" data-adaptive-background='1' data-ab-css-background='1'{% if page.website %} href="{{ page.website }}" rel="external"{% endif %}></a>
+      {% if page.image_attribution %}
+        <span class="attribution">{{ page.image_attribution }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+    {{ content }}
+    {% if page.website %}
+    <a class="website-link" href="{{ page.website }}" rel="external">Go to website</a> &nbsp;
+    {% endif %}
+    {% if page.code %}
+    <a class="source-code-link" href="{{ page.code }}" rel="external">View source code</a>
+    {% endif %}
+    
+    {% if page.data_resource %}
+    <div class="data-resource">
+      Data resource: {{ page.data_resource }}
+    </div>
+    {% endif %}
+  </article>
+
+</div>
+
+{% include page-tools.html %}

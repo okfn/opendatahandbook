@@ -2,11 +2,27 @@
 
   <div>
     <div class="primary">
-      <img src="{{ "/img/open-knowledge.png" | prepend: site.baseurl }}" width="145" height="32" alt="Open Knowledge">
+      <a href="https://okfn.org/" rel="external"><img src="{{ "/img/open-knowledge.png" | prepend: site.baseurl }}" width="145" height="32" alt="Open Knowledge"></a>
+      
+      {% if site.supporters %}
+      <div class="supporters">
+        <h6>Supported by</h6>
+        {% for supporter in site.supporters %}
+          {% if supporter.footer_logo %}
+          <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
     
     <div class="secondary">
-      <h6>Supported by</h6>
+      <ul>
+        <li><a href="{{ site.baseurl }}/contribute/">Contribute</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="{{ site.baseurl }}/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
     </div>
     
     <div class="tertiary">
@@ -22,11 +38,17 @@
           <li><a href="http://okfn.org/opendata/" title="introduction to open data">Introducing Open Data</a></li>
         </ul>
       </div>
-      {% if site.github_repo %}
-      <div class="source">
-        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}"><span class="text">Source</span></a>
-      </div>
-      {% endif %}
+      <ul class="icons">
+        {% if site.paypal %}
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{ site.paypal }}&lc=GB&item_name={{ site.short_title }}%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        {% endif %}
+        {% if site.contact %}
+        <li class="discuss"><a href="{{ site.contact }}" rel="external"><span>Contact</span></a></li>
+        {% endif %}
+        {% if site.github_repo %}
+        <li class="source"><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external"><span class="text">Source</span></a></li>
+        {% endif %}
+      </ul>
     </div>
     
   </div>

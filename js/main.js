@@ -15,18 +15,34 @@ $(document).ready(function() {
         },
       })
       
-      // external links in new window
-      var extAnchors = $('a[rel~=external]');
-      $.each(
-          extAnchors,
-          function (index, item) {
-              $(item).attr('target', '_blank');
-          }
-      );
+    // external links in new window
+    var extAnchors = $('a[rel~=external]');
+    $.each(
+        extAnchors,
+        function (index, item) {
+            $(item).attr('target', '_blank');
+        }
+    );
+    
+    //home
+    if ($(window).width() > 640) {
+      $('.home > .wrapper').equalize({children: 'div p'});
+    }
+    
+    
+    //dropdown
+    $(".dropdown-button").click(function() {
+      $(".dropdown-menu").toggleClass("show-menu");
+      $(".dropdown-menu > li").click(function(){
+        $(".dropdown-menu").removeClass("show-menu");
+      });
       
-     //home
-     if ($(window).width() > 640) {
-       $('.home > .wrapper').equalize({children: 'div p'});
-     }
-
+    });
+    
+    
+    //filters
+    $("#menu .filter > a").click(function() { 
+      $(this).parent('.filter').toggleClass("active");
+    });    
+    
  });

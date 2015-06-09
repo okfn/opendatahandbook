@@ -1,0 +1,608 @@
+---
+layout: default
+wide: true
+section: resources
+js: 
+ - resources
+---
+
+<div class="resources">
+
+  <h1>{{ page.title }}</h1>
+  <div class="intro">
+    <p><em>The resource library gathers a variety of resource that relate to open data and are produced by the community. For academic research about open data, please refer to the <a href="http://bibliography.opendataresearch.org/">web foundation bibliography</a>. To add a resource to the library, follow <a href="http://new.opendatahandbook.org/contribute/translate-glossary/">these steps</a>.</em></p>
+  </div>
+
+  <!-- start resource topics section -->
+  <section class="topics">
+    <header>
+      <h2>Featured Topics</h2>
+    </header>
+    <ul>
+      <li>
+        <a href="#basics" style="background-image:url(../img/basics.jpg)" data-attribution="CC BY / iffany terry">
+          <h3>The basics</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#policy" style="background-image:url(../img/Policy.jpg)" data-attribution="CC BY / Connect Euranet">
+          <h3>Policy</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#standards" style="background-image:url(../img/print.jpg)" data-attribution="CC BY / Intrinsic-Image">
+          <h3>Standards</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#data-training" style="background-image:url(../img/training.jpg)" data-attribution="CC BY / cybrarian77">
+          <h3>Data Training</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#right-to-information" style="background-image:url(../img/FOI.jpg)" data-attribution="CC BY / opensource.com">
+          <h3>Right to Information</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#privacy" style="background-image:url(../img/lock.jpg)">
+          <h3>Privacy</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#civic-engagement" style="background-image:url(../img/Civic.jpg)" data-attribution="CC BY /Matt Fenby Taylor">
+          <h3>Civic Engagement</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#advocacy" style="background-image:url(../img/Advocacy.jpg)" data-attribution="CC BY /Alex Naanou">
+          <h3>Advocacy</h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- end resource topics section -->
+
+  {% comment %}
+  <!-- start resource media types section -->
+  <section class="media-types">
+    <header>
+      <h2>Media Types</h2>
+    </header>
+    <ul>
+      <li>
+        <a href="#">
+          <span class="icon-world"></span>
+          <h3>Articles</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon-file-pdf"></span>
+          <h3>Presentations</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon-book"></span>
+          <h3>Publications</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon-youtube"></span>
+          <h3>Video</h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- end resource media types section -->
+  {% endcomment %}
+
+  <!-- start resource list section -->
+  <ul class="results">
+    <li>
+      <a name="basics"></a>
+      <h2>The Basics</h2>
+    {% for resource in site.pages %}
+    {% if resource.section == 'resources' and resource.Topic contains 'Basics' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+    {% endif %}
+    {% endfor %}
+    </li>
+
+    <li>
+      <a name="policy"></a>
+      <h2>Policy</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'Policy' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+    {% endif %}
+    {% endfor %}
+    </li>
+
+    <li>
+      <a name="standards"></a>
+      <h2>Standards</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'stand' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+    {% endif %}
+    {% endfor %}
+    </li>
+
+    <li>
+      <a name="data-training"></a>
+      <h2>Data Training</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'raining' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+     {% endif %}
+    {% endfor %}
+    </li>
+
+    <li>
+      <a name="right-to-information"></a>
+      <h2>Right to Information</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'nformation' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+    {% endif %}
+    {% endfor %}
+    </li>
+
+    {% comment %}
+    <li>
+      <h2>Academic Research</h2>
+      <a name="academic-research"></a>
+    {% for resource in site.pages %}
+    {% if resource.section == 'resources' and resource.Topic contains 'cademic' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+    {% endif %}
+    {% endfor %}
+    </li>
+    {% endcomment %}
+
+    <li>
+      <a name="privacy"></a>
+      <h2>Privacy</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'rivacy' %}
+       <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+
+      {% endif %}
+      {% endfor %}
+    </li>
+
+    <li>
+      <a name="civic-engagement"></a>
+      <h2>Civic Engagement</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'ivic' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+
+    {% endif %}
+    {% endfor %}
+    </li>
+
+    <li>
+      <a name="advocacy"></a>
+      <h2>Advocacy</h2>
+      {% for resource in site.pages %}
+      {% if resource.section == 'resources' and resource.Topic contains 'cacy' %}
+      <aside>
+        <a class="icon-info"><span>Metadata</span></a>
+        <dl>
+          <dt>Topic</dt>
+          <dd class="Topic">{{ resource.Topic }}</dd>
+          <dt>Published by</dt>
+          <dd>{{ resource.Publishing_entity }}</dd>
+          <dt>Published date</dt>
+          <dd>{{ resource.Publishing_date }}</dd>
+          <dt>Language</dt>
+          <dd class="Language">{{ resource.Language }}</dd>
+          <dt>Country</dt>
+          <dd class="Country">{{ resource.Country }}</dd>
+          <dt>Region</dt>
+          <dd class="Region">{{ resource.Region }}</dd>
+          <dt>Media Type</dt>
+          <dd class="MediaType">{{ resource.MediaType }}</dd>
+        </dl>
+      </aside>
+      <article>
+        <span class="topic">{{ resource.Topic }}</span>
+        <h2>{{ resource.Title }}</h2>
+        <span class="author">
+          {{ resource.Author }}
+        </span>
+        <p>{{ resource.Description }}</p>
+
+        {% if resource.MediaType == 'Articles' %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Website' %}
+        {% elsif resource.MediaType == 'Presentations' %}
+        {% assign icon = 'file-pdf' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Publications' %}
+        {% assign icon = 'book' %}
+        {% assign link_word = 'Presentation' %}
+        {% elsif resource.MediaType == 'Video' %}
+        {% assign icon = 'youtube' %}
+        {% assign link_word = 'Video' %}
+        {% else  %}
+        {% assign icon = 'world' %}
+        {% assign link_word = 'Link' %}
+        {% endif %}
+
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+      </article>
+
+      {% endif %}
+      {% endfor %}
+    </li>
+
+  </ul>
+  <!-- end resource list section -->
+
+</div>
+{% include page-tools.html %}
