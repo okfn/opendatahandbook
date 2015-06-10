@@ -1288,7 +1288,7 @@ html.mm-background .mm-page,
 .home {
   
   .banner {
-    background-image:url(../img/sky.jpg);
+    background-image:url(../img/home-banner-bg.jpg);
     background-size: 1314px 333px;
     background-position:center bottom;
     position:relative;
@@ -1335,7 +1335,7 @@ html.mm-background .mm-page,
         left:50%;
         bottom:0;
         margin-left:-658px;
-        @include retina-image('../img/book', auto 215px, jpg);
+        @include retina-image('../img/home-banner', auto 215px, jpg);
         background-repeat:no-repeat;
         background-position:center bottom;
         height:215px;
