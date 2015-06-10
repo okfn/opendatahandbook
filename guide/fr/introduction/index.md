@@ -26,7 +26,7 @@ Ce manuel vise un public assez large:
 
 La plupart des informations actuellement proposées sont centrées sur les données détenues par le secteur public. Cependant, les intentions des auteurs sont d'élargir les secteurs suivant le temps disponible. Vous êtes les bienvenus pour participer et nous aider dans cet effort.
 
-Ce manuel est destiné à ceux qui n'ont que peu ou pas de connaissance du sujet. Si vous trouvez un mot de jargon our une terminologie dont vous n'êtes pas familier, veuillez consulter the Glossaire détaillé et la FAQ (Foire Aux Questions) qui se trouvent à la fin du manuel.
+Ce manuel est destiné à ceux qui n'ont que peu ou pas de connaissance du sujet. Si vous trouvez un mot de jargon ou une terminologie dont vous n'êtes pas familier, veuillez consulter le Glossaire détaillé et la FAQ (Foire Aux Questions) qui se trouvent à la fin du manuel.
 
 ## Crédits et Copyrights
 
