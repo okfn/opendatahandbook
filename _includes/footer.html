@@ -26,18 +26,16 @@
     </div>
     
     <div class="tertiary">
+      {% if site.related_projects %}
       <div>
         <h6>Related Projects</h6>
         <ul>
-          <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
-          <li><a href="http://datahub.io/">The DataHub</a></li>
-          <li><a href="http://datacatalogs.org/">DataCatalogs.org</a></li>
-          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
-          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
-          <li><a href="http://opendefinition.org/" title="defining open data">OpenDefinition.org</a></li>
-          <li><a href="http://okfn.org/opendata/" title="introduction to open data">Introducing Open Data</a></li>
+          {% for project in site.related_projects %}
+          <li><a href="{{ project.link }}">{{ project.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
+      {% endif %}
       <ul class="icons">
         {% if site.paypal %}
         <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{ site.paypal }}&lc=GB&item_name={{ site.short_title }}%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
