@@ -11,7 +11,7 @@ wide: true
 {% assign section_base = site.baseurl | append: section | append: '/' | append: page.lang | append: '/' %}
 
 <div class="post">
-  <article class="post-content">
+  <article class="post-content{% if page.lead %} lead-paragraph{% endif %}">
     <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.authors %}
