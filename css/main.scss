@@ -1343,6 +1343,15 @@ html.mm-background .mm-page,
         z-index:-1;
       }
     }
+    
+    &.ab-dark {
+      color:#fff;
+      
+      p {
+        color:#fff;
+        opacity:1;
+      }
+    }
   }
   
   @media (min-width: 1020px) {
