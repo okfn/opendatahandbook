@@ -1,4 +1,0 @@
-polib
-pyyaml
-requests
-slugify

@@ -2,13 +2,10 @@
 layout: default
 wide: true
 ---
-{% if page.section == 'terms' %}
-  {% assign section = 'glossary' %}
-{% else %}
-  {% assign section = page.section %}
-{% endif %}
 
-{% assign section_base = site.baseurl | append: section | append: '/' | append: page.lang | append: '/' %}
+{% assign section = page.section %}
+
+{% assign section_base = site.baseurl | append: section | append: '/' %}
 
 <div class="post">
   <article class="post-content{% if page.lead %} lead-paragraph{% endif %}">
@@ -23,8 +20,6 @@ wide: true
       </ul>
     </div>
     {% endif %}
-
-    {% include languages.html %}
 
     {{ content }}
   </article>

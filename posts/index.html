@@ -1,0 +1,31 @@
+---
+layout: default
+wide: true
+section: posts
+---
+
+{% assign section = page.section %}
+
+{% assign section_base = site.baseurl | append: section | append: '/' %}
+
+<div class="stories">
+  <article class="post-content">
+    <h1 class="pre-header"><a href="/{{ section_base }}">{{ section }}</a></h1>
+     
+    <ul class="post-list">
+      {% for post in site.posts %}
+      
+      {% assign post_length = post.content | number_of_words %}
+      <li class="{% if post_length > 100 %}long{% else %}short{% endif %}">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-excerpt">{{ post.content | truncatewords: 100 | markdownify | strip_html }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+
+</div>
