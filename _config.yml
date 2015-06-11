@@ -275,3 +275,26 @@ defaults:
     values:
       layout: page
       edit: true
+
+related_projects:
+  -
+      name: OpenGovernmentData.org
+      link: http://opengovernmentdata.org/
+  -
+      name: The DataHub
+      link: http://datahub.io/
+  -
+      name: DataCatalogs.org
+      link: http://datacatalogs.org/
+  -
+      name: OpenSpending.org
+      link: http://openspending.org/
+  -
+      name: SchoolOfData.org
+      link: http://schoolofdata.org/
+  -
+      name: OpenDefinition.org
+      link: http://opendefinition.org/
+  -
+      name: Introducing Open Data
+      link: http://okfn.org/opendata/
