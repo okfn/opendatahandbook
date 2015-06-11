@@ -54,4 +54,5 @@ Currently, the English glossary has been organized. To expand this pattern to ot
 
  - **gh-pages** - live site
  - **master** - minimal content, to speed up building (for development)
+ - **theme** - no site specific content, used to create new sites
  
