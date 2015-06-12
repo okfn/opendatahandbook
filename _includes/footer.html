@@ -9,7 +9,7 @@
         <h6>Supported by</h6>
         {% for supporter in site.supporters %}
           {% if supporter.footer_logo %}
-          <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>
+          <a{% if supporter.url %} href="{{ supporter.url }}" rel="external"{% endif %}><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>
           {% endif %}
         {% endfor %}
       </div>
