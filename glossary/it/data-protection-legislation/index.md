@@ -1,5 +1,5 @@
 ---
-section: terms
+section: 
 lang: it
 title: Legislatura sulla protezione dei dati
 ---

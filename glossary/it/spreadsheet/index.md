@@ -1,5 +1,5 @@
 ---
-section: terms
+section: 
 lang: it
 title: Spreadsheet - Foglio di calcolo
 ---

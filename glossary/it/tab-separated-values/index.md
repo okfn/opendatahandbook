@@ -1,5 +1,5 @@
 ---
-section: terms
+section: 
 lang: it
 title: Tab-separated values - Valori separati da tabulatore
 ---

@@ -1,5 +1,5 @@
 ---
-section: terms
+section: 
 lang: it
 title: Informazione del settore pubblico
 ---

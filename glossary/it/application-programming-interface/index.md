@@ -1,5 +1,5 @@
 ---
-section: terms
+section: 
 lang: it
 title: Application Programming Interface - API
 ---
