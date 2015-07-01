@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: it
-title: dati grezzi - raw data
+title: Dati grezzi - Raw data
 ---
 
-I dato originali, in formato {machine-readable}, utilizzati in una qualsiasi applicazione, visualizzazione, ricerca scientifica o interpretazione, ecc..
+I dati originali, in formato {machine-readable}, utilizzati in una qualsiasi applicazione, visualizzazione, ricerca scientifica o interpretazione, ecc..
