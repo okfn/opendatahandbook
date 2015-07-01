@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it
 title: Diritto sulle banche dati
 ---

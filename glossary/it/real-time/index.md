@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it
 title: Real time - tempo reale
 ---

@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it
 title: Freedom of Information - libertà di informazione
 ---

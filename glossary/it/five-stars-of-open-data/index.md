@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it
 title: Le cinque stelle dell'open data
 ---

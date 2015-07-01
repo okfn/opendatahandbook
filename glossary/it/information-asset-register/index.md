@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it
 title: Information Asset Register - informazioni sul registro dei beni
 ---

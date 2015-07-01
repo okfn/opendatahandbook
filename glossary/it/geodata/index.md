@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it
 title: Geodata, geodati, dati geografici
 ---

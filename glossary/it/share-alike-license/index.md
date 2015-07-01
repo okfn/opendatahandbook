@@ -1,5 +1,5 @@
 ---
-section: 
+section: terms
 lang: it 
 title: Licenza Share-alike (condividi allo stesso modo)
 ---
