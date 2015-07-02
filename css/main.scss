@@ -984,28 +984,54 @@ body:not( .filters ) {
           text-align:center;
         }
       }
+      
     }
-  }
-  
-  & > a {
-    float:right;
-    @include clearfix;
-    display:block;
-    padding-left:$base-spacing;
-    border-left:solid 1px $medium-gray;
-    color:rgba( $base-font-color, .7 );
-    
-    &:after {
-      content: "\e055";
-      @include icon-font();
+    &.pagination {
       float:right;
-      margin:21px $base-spacing 0 5px;
-      font-size:rem(18);
-    }
-    
-    &:hover {
-      background-color:#fff;
-      color:$base-font-color;
+      
+      & > li {
+        border-left-width:1px;
+        border-right-width:0;
+        
+        .tooltip {
+          left:auto;
+          
+          &:after {
+            left:auto;
+          }
+        }
+        
+        &:before {
+          @include icon-font();
+          font-size:rem(18);
+          float:left;
+          margin-top:21px;
+          margin-right:5px;
+        }
+        
+        &.start {
+          &:before {
+            content: "\e050";
+          }
+        }
+        &.previous {
+          &:before {
+            content: "\e051";
+          }
+        }
+        &.next {
+          &:before {
+            content: "\e055";
+          }
+        }
+        
+        a {
+          @extend button;
+          display:block;
+          text-align:center;
+          text-transform:capitalize;
+        }
+      }
     }
   }
   
@@ -1027,6 +1053,10 @@ body:not( .filters ) {
     & > ul {
       float:right;
       
+      &.pagination li {
+        background-color:$medium-gray;
+      }
+      
       & > li {
         float:none;
         border-width: 1px;
@@ -1040,7 +1070,7 @@ body:not( .filters ) {
         .tooltip {
           top:-2px;
           bottom:auto;
-          left: -225px;
+          left: -225px !important;
           right:auto;
           
           &:after {
@@ -1057,12 +1087,19 @@ body:not( .filters ) {
     .footer-in-view & {
       position:fixed;
     }
+    
   }
   @media all and (min-width: 1440px) {
     right:-23px;
     left:auto;
     
     & > ul {
+      float:none;
+      
+      &.pagination {
+        float:none;
+      }
+      
       & > li {
         &:before {
           padding-right:0;

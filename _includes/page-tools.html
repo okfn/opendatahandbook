@@ -1,4 +1,33 @@
 <div class="page-tools">
+ {% if page.pagination %}
+  <ul class="pagination">
+    {% if page.pagination.start %}
+    <li class="start tooltip-item">
+      Start
+      <span class="tooltip">
+        <a href="{{ page.pagination.start.link }}">{{ page.pagination.start.name }}</a>
+      </span>
+    </li>
+    {% endif %}
+    {% if page.pagination.previous %}
+    <li class="previous tooltip-item">
+      Previous
+      <span class="tooltip">
+        <a href="{{ page.pagination.previous.link }}">{{ page.pagination.previous.name }}</a>
+      </span>
+    </li>
+    {% endif %}
+    {% if page.pagination.next %}
+    <li class="next tooltip-item">
+      Next
+      <span class="tooltip">
+        <a href="{{ page.pagination.next.link }}">{{ page.pagination.next.name }}</a>
+      </span>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
+  
   <ul>
     {% if site.github_repo and page.edit %}
     <li class="edit tooltip-item">
