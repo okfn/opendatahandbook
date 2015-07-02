@@ -465,6 +465,13 @@ pre,
     
     li {
       
+      &.mm-selected {
+        a {
+          border-left:solid 5px $base-accent-color;
+          padding-left:15px;
+        }
+      }
+      
       &.search {
         padding:15px 18px;
         border-bottom:solid 1px rgba(0, 0, 0, 0.1);
