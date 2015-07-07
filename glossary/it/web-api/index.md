@@ -4,4 +4,4 @@ lang: it
 title: Web API
 ---
 
-Una [API](/glossary/it/terms/api/) che è costruita per funzionare via web.
+Una [API](/glossary/it/api/) che è costruita per funzionare via web.

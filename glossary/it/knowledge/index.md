@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: it
-title: Conoscenza - (knowledge)
+title: Conoscenza - Knowledge
 ---
 
-La somma delle [informazioni](/glossary/it/terms/information/) di una persona - o dell'umanità - delle capacità di comprendere il modo. Vedi anche [dati](/glossary/it/terms/data/)
+La somma delle [informazioni](/glossary/it/information/) di una persona - o dell'umanità - delle capacità di comprendere il mondo. Vedi anche [dati](/glossary/it/data/)

@@ -4,4 +4,4 @@ lang: it
 title: SPARQL
 ---
 
-Una [query](/glossary/it/terms/query/) in un linguagio simile al [SQL](/glossary/en/terms/sql/), utilizzata per interrogare un [triple store](/glossary/it/terms/triple-store/) linked-data.
+Una [query](/glossary/it/query/) in un linguagio simile al [SQL](/glossary/en/sql/), utilizzata per interrogare un [triple store](/glossary/it/triple-store/) linked-data.
