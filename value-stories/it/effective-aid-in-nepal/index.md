@@ -1,9 +1,12 @@
 ---
 section: value-stories
-lang: en
-title:  "Making aid more effective in Nepal"
+lang: it
+title:  "Rendere gli aiuti piu` efficaci in Nepal"
 authors:
 - The Open Data Institute
+translator:
+- Veronica Lipella
+
 ---
 
 Nepal is currently focusing on building transparent and accountable public institutions following a period of disruptive civil war. By 2013-14, foreign aid represented 22% of the national budget and financed most development spending. NGOs, journalists and civil society have demanded more comprehensive, timely and detailed information on aid flows, particularly geographic information, to show where money is being directed.
