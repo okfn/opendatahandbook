@@ -1,6 +1,6 @@
 ---
-lang: en
+lang: it
 layout: value-stories
-title: Value Stories
-redirect_from: "/value-stories/"
+title: Storie di successo
+redirect_from: "/value-stories/it"
 ---
