@@ -1,9 +1,12 @@
 ---
 section: value-stories
-lang: en
-title:  "Extractives remediation & public health — open data advocacy in Nigeria"
+lang: it
+title:  "Estrazioni di bonifica e salute pubblica – sostegno degli open data in Nigeria"
 authors:
 - Rahul Ghosh
+translator:
+- Veronica Lipella
+
 ---
 
 Following a recent lead poisoning epidemic in the Zamfara State of Northern Nigeria — the result of the local artisanal gold mining operations — local non-profit organisation [Follow The Money](http://followthemoneyng.org/) took immediate action against their corrupt local government who they presumed was not distributing aid funds fairly. They launched the [#SaveBagega initiative](http://followthemoneyng.org/savebagega.html) that relied heavily on visualizations and reports based on public data — some of which was open data and some of which they opened up through their campaign efforts — showing clearly where the previously released disaster relief funds should have gone. A global media outcry ensued and in January 2013, the voices of the people of Bagega had reached about 1 million people. Their story had been told by about 50 media organizations. By the end of January 2013, the [federal government of Nigeria released about $5.3 million for the cleanup of Bagega](http://www.premiumtimesng.com/regional/120165-lead-poison-remediation-of-bagega-community-commences.html) from the Ecological Funds, through the Ministry of Finance.
