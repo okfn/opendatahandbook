@@ -2,7 +2,7 @@
 ---
 section: value-stories
 lang: en
-title:  "Using maps to improve access to education in Kenya"
+title:  "Usare mappe per migliorare l'accesso all'educazione in Kenya"
 authors:
 - The Open Data Institute
 translator:
