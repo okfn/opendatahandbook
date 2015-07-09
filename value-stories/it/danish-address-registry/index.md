@@ -6,6 +6,7 @@ authors:
 - Katelyn Rogers
 translator:
 - Veronica Lipella
+---
 
 Nel 2002, il Governo Danese, avendo deciso che “accesso libero e senza restrizioni agli indirizzi di alta qualità è un beneficio per il pubblico e costituisce le basi per cogliere notevoli vantaggi nella pubblica amministrazione, nell’industria e nel commercio” rilascio` gratutamente l’ufficiale database dei numeri civici danesi.
 
