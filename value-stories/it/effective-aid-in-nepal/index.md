@@ -1,7 +1,7 @@
 ---
 section: value-stories
 lang: it
-title:  "Rendere gli aiuti piu` efficaci in Nepal"
+title:  "Rendere gli aiuti in Nepal più efficaci"
 authors:
 - The Open Data Institute
 translator:
