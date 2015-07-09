@@ -22,7 +22,7 @@ Using expert programming skills and with the help of an economist, the group wer
 
 Meantime, to get the proposed 2011–12 budget, they approached Michael Eitan, a minister responsible for the new government data office. Eitan was supportive and, by making an official request, was able to get the proposed budget from the MoF. It was therefore possible to present usable visualisations of both forthcoming and past budget data.
 
-Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data is is based on, and the data they had been given was incomplete and, in fact, highly misleading.
+Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data is based on, and the data they had been given was incomplete and, in fact, highly misleading.
 
 ![The Public Knowledge Workshop in action]({{ site.url}}/img/value-stories/Hasadna.jpg)
 
