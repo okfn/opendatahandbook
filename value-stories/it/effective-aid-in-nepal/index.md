@@ -15,4 +15,4 @@ In giugno 2013, l’Aid Management Platform venne lanciata dal Ministero delle F
 
 Ci sono stati indici positivi sull’uso degli open data: organizzazioni della società civile stanno usando budget e dati relativi agli aiuti per produrre analisi per la riforma della politica; agenzie di sviluppo e ONG usano dati open data government per pianificare programmi, monitorare e valutare; il Ministro delle Finanze usa i dati aperti per formulare l’intero budget di governo, contribuendo a tracciare il divario tra spesa e risultati.
 
-*View the report [Supporting sustainable development with open data](http://theodi.org/supporting-sustainable-development-with-open-data) from The Open Data Institute.*
+*Vedi il report [Supporting sustainable development with open data](http://theodi.org/supporting-sustainable-development-with-open-data) dell' Open Data Institute.*
