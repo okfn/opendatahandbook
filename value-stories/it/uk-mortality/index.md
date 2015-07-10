@@ -1,11 +1,13 @@
 ---
 section: value-stories
-lang: en
-title:  "Open data reduces mortality rate in UK hospitals"
+lang: it
+title:  "I dati aperti riducono il tasso di mortalità negli ospedali del Regno Unito"
 authors:
 - Katelyn Rogers
+translator:
+- Veronica Lipella
 ---
 
-In 2004, the UK heart surgeon Sir Bruce Keogh persuaded his colleagues (there are 240 heart surgeons in the English NHS) to publish comparable data on their individual clinical outcomes – a global first. 7 years later, dramatic improvements in survival rates are reported – in some procedures, more than a third of patients are living when they might previously have died; in all, there are 1,000 fewer deaths in English heart surgery units each year than there were.
+Nel 2004 il cardiochirurgo inglese Sir Bruce Keogh persuase i suoi colleghi (c’erano 240 cardiochirurghi nell’NHS inglese) a pubblicare dati comparabili dei loro risultati clinici individuali – per la prima volta al mondo. Sette anni più tardi, vennero riportati notevoli miglioramenti nei tassi di sopravvivenza – in alcune procedure, più di un terzo dei pazienti sopravvissero quando avrebbero dovuto essere già morti; in tutto, ci sono 1,000 morti in meno all’anno nelle unita` di cardiochirurgia rispetto a quelle che c’erano prima.
 
-Read more about this story in [this paper by Tim Kelsey](http://www.demographicsusergroup.co.uk/resources/Tim+Kelsey+DUG+2011.pdf). 
+Leggi di piu` in merito a questa storia in [questo paper di Tim Kelsey](http://www.demographicsusergroup.co.uk/resources/Tim+Kelsey+DUG+2011.pdf). 
