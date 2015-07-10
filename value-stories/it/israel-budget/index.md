@@ -57,7 +57,7 @@ _The Budget Key homepage screenshot_
 
 ## Nella tana del coniglio
 
-[Mushon Zer-Aviv](http://mushon.com/) Mushon Zer-Aviv e` un web designer che e` stato coinvolto nel progetto fin dai suoi primi giorni. In un articolo tracciando la storia del sito, riflette che rivela un “paradosso della trasparenza”:  cosi` l’ha messo nel  [The transparency & accountability blog](http://tech.transparency-initiative.org/follow-the-money-mushon-zer-aviv-the-keys-to-the-israeli-budget/),
+[Mushon Zer-Aviv](http://mushon.com/) Mushon Zer-Aviv è un web designer che è stato coinvolto nel progetto fin dai suoi primi giorni. In un articolo tracciando la storia del sito, riflette che rivela un “paradosso della trasparenza”:  cosi` l’ha messo nel  [The transparency & accountability blog](http://tech.transparency-initiative.org/follow-the-money-mushon-zer-aviv-the-keys-to-the-israeli-budget/),
 
 >‘Più la rendi accessibile, più la tana del coniglio e` profonda’.
 
