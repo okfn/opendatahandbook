@@ -1,9 +1,11 @@
 ---
 section: value-stories
-lang: en
-title:  "Improving government access to government data"
+lang: it
+title:  "Migliorare l’accesso del governo ai government data"
 authors:
 - Katelyn Rogers
+translator:
+- Veronica Lipella
 ---
 
-One of the primary users of open government data is government itself. Even from within government itself, it is not necessary easy to gain access to the data that you, as a civil servant needs as it is often locked up in departmental silos. This is why it should come a surprise that when the government of British Columbia began releasing open data in a centralised place, their open data portal, around one third of the site visits [came from within government itself](http://community.openspending.org/research/gift/publishing/databc/). In fact, the [Greater Manchester area has estimated](http://blog.okfn.org/2011/08/25/greater-manchester-open-data-city/) that “FOI requests cost Greater Manchester public bodies over £4 million a year, while over 600 public officials a day are unable to find or use data that they require for their jobs – costing authorities over £8.5 million a year.” By breaking down the silos that exist between the various departments, bodies, and layers of government and allowing data to flow, access to the information public servants need to deliver high quality services to communities becomes infinitely more efficient. 
+Uno dei principali utenti degli open data government è il governo stesso. Anche dall’interno del governo stesso, non è necessariamente semplice ottenere l’accesso ai data di cui una persona, in qualità di funzionario avrebbe bisogno, in quanto i data sono spesso chiusi in silos dipartimentali. Questo è il motivo per cui fu una sorpresa quando il governo della British Columbia cominciò a rilasciare dati aperti in un posto centralizzato, il loro portale open data, e circa un terzo delle visite  [proveniva dall’interno del governo stesso](http://community.openspending.org/research/gift/publishing/databc/). Infatti, il [Greater Manchester distretto ha stimato](http://blog.okfn.org/2011/08/25/greater-manchester-open-data-city/) che “le richieste del FOI costano agli enti pubblici del Greater Manchester più di 4 milioni di sterline all’anno, mentre più di 600 funzionari pubblici al giorno sono in grado di trovare o utilizzare i dati di cui hanno bisogno per lavoro – autorità che costano più di 8.5 milioni di sterline all’anno. Abbattendo il silos che esiste tra i vari dipartimenti, enti e livelli di governo e consentendo il flusso dei dati, l’accesso alle informazioni di cui i funzionari pubblici hanno bisogno per fornire servizi di alta qualità alle comunità, diventa infinitivamente piu` efficiente.
