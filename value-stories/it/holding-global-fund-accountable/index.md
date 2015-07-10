@@ -1,12 +1,14 @@
 ---
 section: value-stories
-lang: en
-title:  "Holding the Global Fund to account for its health spending"
+lang: it
+title:  "Tenendo conto del Fondo Globale per la spesa sanitaria" (?)
 authors:
 - The Open Data Institute
+translator:
+- Veronica Lipella
 ---
 
-An early application of open data has been the monitoring of aid spending, contributing towards greater donor transparency. Aidspan is an international NGO based in Kenya,working to enhance the effectiveness of the Global Fund to fight AIDS, Tuberculosis and Malaria by serving as a watchdog of the fund’s programmes. It does this using open data from the Global Fund to publish information, analysis and policy advice for use by policy- makers, data scientists and health advocates alike.
+Una prima applicazione degli open data è stata il monitoraggio della spesa per gli aiuti, contribuendo ad una maggiore trasparenza dei donatori. Aidspan e` un’ONG internazionale con base in Kenya, che lavora per migliorare l’efficacia del Fondo Globale a combattere l’AIDS, la tubercolosi e la malaria, servendo da cane da guardia nei programmi del fondo. Fa questo usando open data dal Fondo Globale per pubblicare informazioni, analisi e consulenze politiche a uso dei policy-makers, scienziati di data e sostenitori della salute e simili. (?)
 
 Aidspan publications have covered topics such as procurement cost trends; levels of donor contributions to the fund; the costs and impact of investment in antiviral therapy; and the effect of investment in malaria treatment on child mortality. Impacts of Aidspan’s work include informing Global Fund governance reform efforts, influencing the Global Fund funding model, improving the quality and completeness of data through requests to the fund for information, and exposing the misuse of Global Fund money.
 
