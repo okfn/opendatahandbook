@@ -1,63 +1,65 @@
 ---
 section: value-stories
-lang: en
-title:  "Winkling out budget data in Israel"
+lang: it
+title:  "Curiosare fra i dati del budget in Israele"
 authors:
 - Mark Wainwright
+translator:
+- Veronica Lipella
 ---
 
-In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
+In Israele, quello che era iniziato come un tentativo di scoprire quanto il governo aveva speso nella lotta agli incendi, divenne un progetto molto più ampio e lentamente emerse che i dati di bilancio pubblicati erano incomprensibili, in ritardo e – come gradualmente divenne chiaro – sbagliati. Un gruppo di programmatori e attivisti usò richieste ufficiali, lobbying, campagne e azioni legali per ottenere cifre più complete, migliori e molto più aggiornate. Con un pò di elaborazione di dati pesanti – e un po` di crowdsourcing – hanno pulito questi dati e li hanno presentati in una forma visiva, e col passare del tempo, vennero aggiunte funzioni interattive per consentire ai cittadini di esplorare i dati in dettaglio. Come risultato, i budget proposti divennero un elemento significante nel dibattito della politica nazionale.
 
-## Fire on the mountain
+## Fuoco sulle montagne
 
-On 2 December 2010, a deadly forest fire engulfed Mount Carmel in Israel and raged for four days before finally being brought under control. The fire services claimed that their capacity to respond effectively had been impaired by chronic underfunding, and that despite the Mount Carmel disaster, their budget was not being increased in the proposed budget for the following year, 2011–12. The government denied this, but the budget data was not public and it was difficult for the public to know what to believe.
+Il 2 dicembre 2010 un incendio boschivo micidiale inghiottì Mount Carmel in Israele e imperversò per quattro giorni prima di essere finalmente sotto controllo. I vigili del fuoco hanno sostenuto che la loro capacità di rispondere efficacemente era stata compromessa da un sottofinanziamento cronico e che nonostante il disastro del Monte Carmel, il loro bilancio non era stato aumentato nella proposta di bilancio per l’anno successivo, il 2011-2012. Il governo nego` questo, ma i dati del budget non vennero pubblicati e fu difficile per il pubblico sapere a cosa credere.
 
-Amid claim and counterclaim, a developer, Adam Kariv, set out to find the truth, along with other members of [The Public Knowledge Workshop](http://www.hasadna.org.il/en/) (Hasadna). Over the following few years, they overcame a series of obstacles to bring previously shadowy Israeli budget data into the open.
+Tra querele e controquerele, uno sviluppatore, Adam Kariv, cercò di scoprire la verita`insieme ad altri membri del [The Public Knowledge Workshop](http://www.hasadna.org.il/en/) (Hasadna). In seguito a pochi anni, hanno superato una serie di ostacoli per portare allo scoperto i precedenti e oscuri dati di bilancio israeliani.
 
-## Activism and hacktivism
+## Attivismo e hacktivismo
+L’annuale budget del governo israeliano venne redatto dal Ministero delle Finanze (MoF). Hasadna trovo` che i dati dell’anno precedente erano pubblicati sul sito web del MoF, ma era in una caotica collezione di formati di dati e file che non poteva essere interpretato senza l’aiuto di un esperto. Per la proposta di budget per il 2011-2012, non riuscirono per niente a trovare dati. 
 
-The annual Israeli government budget is drafted by the Ministry of Finance (MoF). Hasadna found that data for previous years was published on the MoF’s website, but it was in a chaotic collection of data formats and file types, which could not be interpreted without expert help. For the proposed budget for 2011–12, they could find no data at all.
+Usando competenze di programmazione degli esperti e con l’aiuto di un economista, il gruppo fu in grado di elaborare i dati esistenti e caricarli in un formato consistente in un singolo database. Costruendo questo, crearono il sito web che presentava le visualizzazioni dei budget passati. Inizialmente, con il permesso del governo, questo apparve come un sito web ufficiale del governo, anche se successivamente venne tolto dal dominio .gov.il e presentato come un sito separato.
 
-Using expert programming skills and with the help of an economist, the group were able to process the existing data and load it in a consistent form into a single database. Building on this, they created a website presenting visualisations of the past budgets. Initially, with government permission, this appeared as an official government website, though it was later taken out of the .gov.il domain and presented as a separate site.
+Intanto, per ottenere la proposta di bilancio del 2011-2012, avvicinarono Michael Eitan, un ministro responsabile del nuovo ufficio degli open government. Eitan era favorevole e, facendo una richiesta ufficiale, fu in grado di ottenere la proposta di budget dall’ MoF. Fu quindi possibile presentare una visualizzazione utilizzabile sia dei dati di bilancio futuri e passati
 
-Meantime, to get the proposed 2011–12 budget, they approached Michael Eitan, a minister responsible for the new government data office. Eitan was supportive and, by making an official request, was able to get the proposed budget from the MoF. It was therefore possible to present usable visualisations of both forthcoming and past budget data.
-
-Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data is is based on, and the data they had been given was incomplete and, in fact, highly misleading.
+Hasadna continuò a lavorare sul sito, aggiungendo funzionalità di drill-down nel bilancio in modo più dettagliato, e confrontare i budget di anni diversi. Tuttavia, ben presto scoprì un problema. Una visualizzazione è valida solo se i dati su cui si basa sono altrettanto validi, ed i dati che erano stati forniti erano incompleti e, infatti, altamente fuorvianti.
 
 ![The Public Knowledge Workshop in action]({{ site.url}}/img/value-stories/Hasadna.jpg)
 
 _The Public Knowledge Workshop in action (Credit: The Public Knowledge Workshop)_
 
-## Shifting budgets
+## Budgets mutevoli
 
-The published data which Hasadna had worked with related to the budget as it is proposed by the MoF at the beginning of each financial year and amended or accepted by the Finance Committee, a committee consisting of 25 members of the Knesset or parliament (MKs). However, during the course of the year, the MoF propose numerous amendments to the ongoing budget, effectively transferring money from one area to another. These amendments change on average 13% of the original budget. Like the original budget itself, these transfers were presented to the MKs in reams of complex documents and tables, with little notice before a decision was needed, so it was not clear that there was sufficient democratic oversight of the true amounts budgeted to different areas.
+I dati pubblicati su cui Hasadna aveva lavorato riguardavano il bilancio proposto dal MoF all’inizio di ogni anno finanziario e modificato o accettato dal Comitato Finanziario, un comitato formato da 25 membri del Knesset o del parlamento (MKs). Comunque, durante il corso dell’anno, il MoF propose numerosi emendamenti al bilancio in corso, trasferendo effettivamente soldi da un’area all’altra. Questi emendamenti cambiarono in media il 13% del budget originario. Come per il budget originario stesso, questi trasferimenti vennero presentati al MK in risme di complessi documenti e tabelle, con poco preavviso prima che fosse necessario prendere una decisione, in modo che non fu chiaro se c’era stato un sufficiente controllo democratico dei veri importi scritti in bilancio, nelle diverse aree. 
 
-When this problem came to light, Hasadna set out to discover how the budget had changed over the 2010–11 budget year. Eitan again approached the Ministry of Finance for the transfer data. The Ministry claimed, strangely, not to have the data in spreadsheets. Instead they produced the paperwork from all Finance Committee meetings over the year. This could not be used without a huge amount of work to digitise and combine all the data.
+Quando questo problema venne alla luce, Hasadna cercò di scoprire come il budget era cambiato nel corso dell’anno 2010-2011. Eitan ancora una volta avvicino` il Ministero delle Finanze per il trasferimento dei dati. Il Ministero, stranamente, sostenne di non avere i dati in fogli di calcolo. Invece aveva prodotto i documenti di tutte le riunioni del Comitato di Finanza nel corso dell'anno. Questo non era utilizzabile senza un enorme lavoro di digitalizzazione e combinazione di tutti i dati.
 
-Nothing daunted, Hasadna created a crowd-sourcing platform enabling volunteers from the Israeli open data community to work on the digitisation task together. Meantime, the coders added features to the budget site to show how the transfers had changed the budget during the year. On the day the new version was due to launch, the MoF, fearing negative publicity from the affair, finally ‘found’ the electronic version of the transfer data, and agreed to provide it for past years.
+Per nulla intimidito, Hasadna creò una piattaforma di crowdsourcing consentendo ai volontari della comunità degli open data israeliana di lavorare alla digitalizzazione assieme. Allo stesso tempo, i programmatori aggiunsero funzionalità al sito del budget per mostrare come i trasferimenti avevano cambiato il budget nel corso dell’anno. Il giorno in cui la nuova versione fu pronta per il lancio, l’MoF, avendo paura della pubblicità negativa della vicenda, alla fine “trovò” la versione elettronica del trasferimento dei dati e accetto` a fornire quelli degli anni passati.
 
-## Looking ahead
+## Guardando oltre
 
-One vital piece of the jigsaw was still missing. The data on transfers was only available for past years. Hasadna and others felt that proposed transfers should be published at the time they were proposed, so that there could be a public debate about the merits of the budget changes before they were approved. This would also help the MKs on the Finance Committee to make more informed decisions. The ministry, however, would not agree to provide the data in advance.
+Un pezzo vitale del jigsaw era ancora mancante. I dati in trasferimento erano disponibili solo per il passato. Hasadna e altri hanno ritenuto che i trasferimenti proposti dovevano essere pubblicati nel momento in cui venivano proposti, in modo che ci potesse essere un dibattito pubblico sui meriti dei cambiamenti di bilancio prima della loro approvazione. Ciò avrebbe aiutato anche l’MK del Comitato di Finanza a prendere decisioni più consapevoli. Il ministro, comunque, non accetto` di consegnare i dati in anticipo.
 
-Matters were put on hold by a general election campaign in 2013. After the election, Michael Eitan had lost his Knesset seat, and the ministry he had held was abolished. Hasadna therefore approached a new MK, [Stav Shaffir](http://stavshaffir.co.il), at 27 the youngest ever. Shaffir, who had been one of the leaders of the 2011 social movement protests in Israel, had decided to change the system from within – and stood for election. On gaining a seat in the Knesset she was chosen to serve on the Finance Committee, so she was ideally placed to help.
+Le questioni vennero lasciate in sospeso a causa della campagna elettorale del 2013. Dopo le elezioni, Michael Eitan aveva perso il suo posto di Knesset e il ministero che aveva guidato venne abolito. Hasadna avvicinò quindi il nuovo MK, [Stav Shaffir](http://stavshaffir.co.il),che a 27 anni era la più giovane mai avuta. Shaffir, che era stata una dei leaders dei movimenti di protesta sociale in Israele nel 2011, decise di cambiare il sistema dall’interno – e si fermò per l’elezione. Avendo guadagnato un posto nel Knesset venne scelta per far parte del Comitato di Finanza, cosi`fu nella posizione ideale per poter fare qualcosa.
 
-Shaffir fought for publication of the transfers, even asking for Committee votes on the transfers to be suspended until they could be published. After a month of wrangling, the Ministry agreed to publish them, but once again they provided only scanned documents. Shaffir, unsatisfied, asked for the data to be provided in electronic form, but in vain. She also filed a case in the Supreme Court, claiming that the transfers broke the Ministry’s rules and amounted to misconduct. (The transparency issue was mentioned in the case, though it was not the subject of the alleged misconduct.) Shaffir also organised a public conference at the Knesset on budget transparency, which got a fair amount of media coverage.
+Shaffir lottò per la pubblicazione dei trasferimenti, perfino chiedendo al Comitato di votare sulla sospensione dei trasferimenti fino a quando non potessero essere pubblicati. Dopo un mese di discussioni, il Ministero accettò di pubblicarli, ma ancora una volta fornirono solo documenti acquisiti. Shaffir, non soddisfatta, chiese che i dati fossero forniti in formato elettronico, ma invano. Presento` anche un caso alla Corte Suprema, sostenendo che i trasferimenti infransero le regole del Ministero e portarono ad una cattiva condotta. (La questione della trasparenza è stata menzionata nel caso, anche se non era l'oggetto della presunta cattiva condotta.) Shaffir organizzò anche una conferenza pubblica al Knesset sulla trasparenza di bilancio, che ottenne una discreta quantità di copertura mediatica.
 
-## Visualising change
 
-Finally, in March 2014, with the appointment of a new head to the MoF’s Budget Division, the ministry decided not to wait for a Supreme Court judgement. They announced that the budget transactions would be published in advance on the ministry’s website from the next sitting of parliament.
+## Visualizzare il cambiamento
 
-The latest version of Hasadna’s budget tool, called [‘Budget Key’](http://www.obudget.org/?forcetour=1#main//2014/en), was launched in December 2014. The transfer data is now a central feature: animated bubbles let the viewer see which budgets grew and which were reduced through the year. The tool automatically polls the MoF site for new and proposed transfers and users can request e-mail alerts when these are published.
+Finalmente in marzo 2014, con la nomina di un nuovo capo della divisione di bilancio del Ministero delle Finanze, il ministero decise di non aspettare una sentenza della Corte Suprema. Annunciarono che i trasferimenti del budget sarebbero stati pubblicati in anticipo sul sito web del ministero a partire dalla prossima seduta del parlamento.
+
+L'ultima versione dello strumento di bilancio di Hasadna, chiamato  [‘Budget Key’](http://www.obudget.org/?forcetour=1#main//2014/en), venne lanciato a dicembre 2014. Il trasferimento dei dati è oggi un elemento centrale: bolle animate lasciano vedere ai visitatori quali budget sono cresciuti e quali sono stati ridotti durante l’anno. Lo strumento automaticamente sonda il sito dell’MoF per nuovi e proposte di trasferimenti e gli utenti possono richiedere via e-mail di essere avvisati quando questi saranno pubblicati.
 
 ![The Israeli budget key]({{site.url}}/img/value-stories/budget-key.png)
 _The Budget Key homepage screenshot_
 
-## Down the rabbit hole
+## Nella tana del coniglio
 
-[Mushon Zer-Aviv](http://mushon.com/) is a web designer who has been involved in the project from its early days. In an article charting on the history of the site, he reflects that it reveals a ‘transparency paradox’: as he puts it on the [The transparency & accountability blog](http://tech.transparency-initiative.org/follow-the-money-mushon-zer-aviv-the-keys-to-the-israeli-budget/),
+[Mushon Zer-Aviv](http://mushon.com/) Mushon Zer-Aviv e` un web designer che e` stato coinvolto nel progetto fin dai suoi primi giorni. In un articolo tracciando la storia del sito, riflette che rivela un “paradosso della trasparenza”:  cosi` l’ha messo nel  [The transparency & accountability blog](http://tech.transparency-initiative.org/follow-the-money-mushon-zer-aviv-the-keys-to-the-israeli-budget/),
 
->'The more you make accessible, the deeper the rabbit hole goes.'
+>‘Più la rendi accessibile, più la tana del coniglio e` profonda’.
 
 
-The more data is available, the more people can see how much more is still being withheld - and the louder the demands for even fuller publication of government data. Hasadna's work on budget data is by no means finished, as they seek to open up information on government contracts, local government finances, and more. Rather, it is simply another part of the ongoing awakening in Israel to the possibilities of open government data.
+Più i dati sono disponibili, più la gente può vedere quanto ancora viene nascosto e più forti sono le richieste di sempre piu` complete pubblicazioni dei dati delle amministrazioni. Il lavoro di Hasadna sui dati di bilancio non è affatto finito, in quanto cercano di aprire informazioni sui contratti pubblici, le finanze pubbliche locali, e altro ancora. Piuttosto, si tratta semplicemente di un'altra parte del risveglio in corso in Israele sulle possibilità dei dati di governo aperto.
