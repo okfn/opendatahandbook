@@ -5,7 +5,8 @@ edit: true
 ---
 
 <dl>
-  {% for term in site.pages %}
+  {% assign sorted_pages = (site.pages | sort: 'title') %}
+  {% for term in sorted_pages %}
   {% if term.section == 'terms' and term.lang == page.lang %}
   <dt>{{ term.title }} [<a href="{{ term.url }}">Permalink</a>]</dt>
   <dd>{{ term.content }}</dd>
