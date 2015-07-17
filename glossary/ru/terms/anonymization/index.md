@@ -1,7 +1,7 @@
 ---
 section: terms
-lang: en
+lang: ru
 title: Anonymization
 ---
 
-See [Anonymisation](/glossary/en/terms/anonymisation/).
+See [Anonymisation](../anonymisation/).
