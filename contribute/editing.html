@@ -14,16 +14,16 @@ authors:
 
 <h4>Method A: Browse the website</h4>
 
-<p>While reading any section of the Handbook you’ll see an '<em>Edit this page</em>' link in the bottom left of the page. Following this link will take you directly to an editable version of that page. Easy huh?</p>
+<p>While reading any section of the Handbook you’ll see a button with the paper icon <code class="icon-paper"><span>[paper icon]</span> Improve this page</code> in the right side of the page. Hovering over it then clicking an '<em>Edit on Github</em>' button will take you directly to an editable version of that page. Easy huh?</p>
 
 <div class="note">
   <h6>Note</h6>
-  <p>When the editable page opens it will (most likely) contain a message saying <em>“You're editing a file in a project you don't have write access to”</em>. If this is your first edit to The Open Data Handbook it will say <em>“We've created a fork of this project for you to commit your proposed changes to”</em>. This is normal and part of the workflow.</p>
+  <p>When the editable page opens it will (most likely) contain a message saying <em>“You need to fork this repository to propose changes.”</em>. If this is your first edit to The Open Data Handbook there will be a '<em>Fork this repository and propose changes</em>' button. This is normal and part of the workflow. Click the button to start editing.</p>
 </div>
 
 <h4>Method B: Browse the Github repository</h4>
 
-<p>The entire file structure of this site can be browsed on Github. For example, the root of the site is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external">here</a>, and the English language handbook section is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/en" rel="external">here</a>. It’s helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Handbook introduction page, given that it’s URL is <code>{{ site.url }}/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>en</strong></code> directory with the filename <code><strong>introduction</strong>.md</code> <em>Note: the extension (.md) is stripped from the URL.</em> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.</p>
+<p>The entire file structure of this site can be browsed on Github. For example, the root of the site is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external">here</a>, and the English language guide section of the Handbook is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/guide/en" rel="external">here</a>. It’s helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Open Data Guide introduction page, given that it’s URL is <code>{{ site.url }}/<strong>guide</strong>/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>guide</strong>/<strong>en</strong>/<strong>introduction</strong></code> directory with the filename <code><strong>index</strong>.md</code> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.</p>
 
 <div class="note">
   <h6>Pro Tip!</h6>
@@ -82,7 +82,7 @@ title: Introduction
 
 <div class="note">
   <h6>Pro Tip!</h6>
-  <p>To get a link to a specific heading on this site, hover over it then click the section icon <code class="icon-section"><span>[section icon]</span></code>. This will put the URL into your address bar.</p>
+  <p>To get a link to a specific heading on this site, hover over it then click the section icon <code class="icon-section"><span>[section icon]</span></code>. This will show you the URL.</p>
 </div>
 
 <p>More Markdown examples can be found <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">here</a>, and a more detailed overview <a href="http://daringfireball.net/projects/markdown/syntax" rel="external">here</a>.</p>
