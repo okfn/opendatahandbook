@@ -1,6 +1,6 @@
 ---
 section: terms
-lang: en
+lang: es
 title: Registro de Información
 ---
 
