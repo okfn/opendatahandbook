@@ -4,4 +4,4 @@ lang: ja
 title: JSON
 ---
 
-JavaScript Object Notation の略。単純だが記述力の高いデータフォーマット。複雑なデータ構造の記述ができ、[機械可読](/glossary/ja/terms/machine-readable)性が高いと同時に[人間可読](/glossary/ja/terms/human-readable)性もそれなりにあり、プラットフォームやプログラミング言語に依存しない。従って、プログラムやシステム間のデータ交換用に良く使われるフォーマットとなっている。
+JavaScript Object Notation の略。単純だが記述力の高いデータフォーマット。複雑なデータ構造の記述ができ、[機械可読](../machine-readable/)性が高いと同時に[人間可読](../human-readable/)性もそれなりにあり、プラットフォームやプログラミング言語に依存しない。従って、プログラムやシステム間のデータ交換用に良く使われるフォーマットとなっている。

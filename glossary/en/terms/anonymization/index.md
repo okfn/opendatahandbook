@@ -4,4 +4,4 @@ lang: en
 title: Anonymization
 ---
 
-See [Anonymisation](/glossary/en/terms/anonymisation/).
+See [Anonymisation](../anonymisation/).
