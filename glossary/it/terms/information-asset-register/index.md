@@ -6,7 +6,7 @@ title: Information Asset Register - Informazioni sul registro dei beni
 
 Gli IAR sono registri appositamente costituiti per acquisire e organizzare i meta-dati su grandi quantità di informazioni detenute da amministrazioni ed enti pubblici. Uno IAR completo include i database, i vecchi insiemi di file, i recenti file elettronici, le raccolte di dati statistici, di ricerca e così via.
 
-    La direttiva [EU PSI Directive](/glossary/it/eu-psi-directive/) riconosce l'importanza dei registri di attività per i potenziali riutilizzatori di informazioni pubbliche. Si richiede agli Stati membri di fornire elenchi, portali o qualcosa di simile. Essa afferma:
+    La direttiva [EU PSI Directive](../eu-psi-directive/) riconosce l'importanza dei registri di attività per i potenziali riutilizzatori di informazioni pubbliche. Si richiede agli Stati membri di fornire elenchi, portali o qualcosa di simile. Essa afferma:
 
        Gli strumenti che aiutano i potenziali riutilizzatori a trovare documenti disponibili
         per il riutilizzo e le condizioni di riutilizzo può facilitare
