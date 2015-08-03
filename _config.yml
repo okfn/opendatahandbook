@@ -73,17 +73,14 @@ permalink: pretty
 
 languages:
   -
-    - en
-    - English
-  -
-    - id
-    - Bahasa
-  -
     - de
     - Deutsch
   -
     - el
     - Ελληνικά
+  -
+    - en
+    - English
   -
     - es
     - Español/Castellano
@@ -94,6 +91,9 @@ languages:
     - he
     - עברית
   -
+    - id
+    - Bahasa
+  -
     - is
     - Íslenska
   -
@@ -103,11 +103,14 @@ languages:
     - ja
     - 日本語
   -
-    - lv
-    - Latviešu
+    - ko
+    - 한국어
   -
     - lt
     - Lietuvių
+  -
+    - lv
+    - Latviešu
   -
     - nl
     - Nederlands (Belgisch)
@@ -126,9 +129,6 @@ languages:
   -
     - zh_TW
     - 繁體中文
-  -
-    - ko
-    - 한국어
 
 toc:
   - guide
@@ -168,25 +168,25 @@ meta:
     translate_link: true
     title: Open Data Glossary
     languages:
-      - en
-      - id
       - de
       - el
+      - en
       - es
       - fr
       - he
+      - id
       - is
       - it
       - ja
-      - lv
+      - ko
       - lt
+      - lv
       - nl
       - pt_BR
       - ro
       - ru
       - zh_CN
       - zh_TW
-      - ko
   guide:
     label: guide
     output: true
@@ -194,25 +194,25 @@ meta:
     translate_link: true
     title: Guide
     languages:
-      - en
-      - id
       - de
       - el
+      - en
       - es
       - fr
       - he
+      - id
       - is
       - it
       - ja
-      - lv
+      - ko
       - lt
+      - lv
       - nl
       - pt_BR
       - ro
       - ru
       - zh_CN
       - zh_TW
-      - ko
     toc:
       entry_point: 'introduction'
       order:
