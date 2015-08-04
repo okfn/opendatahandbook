@@ -9,7 +9,7 @@ edit: true
   {% for term in sorted_pages %}
   {% if term.section == 'terms' and term.lang == page.lang %}
   <dt>{{ term.title }} [<a href="{{ term.url }}">Permalink</a>]</dt>
-  <dd>{{ term.content | markdownify }}</dd>
+  <dd>{{ term.content | markdownify | replace: 'href="../', 'href="terms/' }}</dd>
   {% endif %}
   {% endfor %}
 </dl>
