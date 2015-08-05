@@ -523,7 +523,7 @@ pre,
           
           &:after {
             @include icon-font();
-            content: "\e604";
+            content: "\e606";
             position:absolute;
             top:12px;
             right:19px;
@@ -534,7 +534,7 @@ pre,
           background-color:rgba(255, 255, 255, 0.6);
           
           & > a:after {
-            content: "\e603";
+            content: "\e605";
             opacity:0.5;
           }
           
@@ -705,7 +705,7 @@ body:not( .filters ) {
     line-height:inherit;
     font-size:1.2em;
     color: $base-font-color;
-    content: "\e607";
+    content: "\e609";
     display: block;
     position: absolute;
     right: $dropdown-padding;
@@ -871,7 +871,7 @@ body:not( .filters ) {
         
         &:before {
           @include icon-font();
-          content: "\e034";
+          content: "\e104";
           font-size:rem(18);
           float:left;
           margin-top:21px;
@@ -920,7 +920,7 @@ body:not( .filters ) {
         
         &:before {
           @include icon-font();
-          content: "\e601";
+          content: "\e603";
           font-size:rem(18);
           float:left;
           margin-top:21px;
@@ -946,7 +946,7 @@ body:not( .filters ) {
         
         &:before {
           @include icon-font();
-          content: "\e608";
+          content: "\e60a";
           font-size:rem(18);
           float:left;
           margin-top:21px;
@@ -964,7 +964,7 @@ body:not( .filters ) {
         
         &:before {
           @include icon-font();
-          content: "\e60a";
+          content: "\e60c";
           font-size:rem(18);
           float:left;
           margin-top:21px;
@@ -1115,12 +1115,12 @@ html.mm-background .mm-page,
         }
         &.email {
           a:before {
-            content: "\e609";
+            content: "\e60b";
           }
         }
         &.discuss {
           a:before {
-            content: "\e60c";
+            content: "\e60e";
           }
         }
         &.source {
@@ -1504,7 +1504,7 @@ html.mm-background .mm-page,
         }
         &.jekyll {
           a:before {
-            content: "\e600";
+            content: "\e602";
           }
         }
         &.markdown {
