@@ -49,7 +49,7 @@ We recommend that you ask the community in the first instance. That is the peopl
 3.  Publicise your request with a webpage. Make sure that it is possible to access the request through its own URL. That way, when shared via social media, the request can be easily found.
 4.  Provide easy ways to submit responses. Avoid requiring registration, as it reduces the number of responses.
 5.  Circulate the request to relevant mailing lists, forums and individuals, pointing back to the main webpage.
-6.  Run a consultation event. Make sure you run it at a convenient time where the average business person, data wrangler and official can attend.
+6.  Run a consultation event. Make sure you run it at a convenient time where the average business person, [data wrangler](/glossary/en/terms/data-wrangler/) and official can attend.
 7.  Ask a politician to speak on your agency's behalf. Open data is very likely to be part of a wider policy of increasing access to government information.
 
 ### Cost basis
