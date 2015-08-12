@@ -1,7 +1,7 @@
 ---
-redirect_from: /lt_LT/introduction/index.html
+redirect_from: /lt/introduction/index.html
 section: guide
-lang: lt_LT
+lang: lt
 title: Įžanga
 ---
 

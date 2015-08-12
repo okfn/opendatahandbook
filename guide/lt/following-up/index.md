@@ -1,7 +1,7 @@
 ---
-redirect_from: /lt_LT/following-up/index.html
+redirect_from: /lt/following-up/index.html
 section: guide
-lang: lt_LT
+lang: lt
 title: Atvėriau duomenų, ir kas dabar?
 ---
 

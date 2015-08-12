@@ -1,7 +1,7 @@
 ---
-redirect_from: /lt_LT/what-is-open-data/index.html
+redirect_from: /lt/what-is-open-data/index.html
 section: guide
-lang: lt_LT
+lang: lt
 title: Kas yra atviri duomenys?
 ---
 

@@ -1,7 +1,7 @@
 ---
-redirect_from: /lt_LT/appendices/index.html
+redirect_from: /lt/appendices/index.html
 section: guide
-lang: lt_LT
+lang: lt
 title: Failų formatai
 ---
 
