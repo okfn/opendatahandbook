@@ -17,7 +17,7 @@ To add a new term, all you need is to have a Github account.</p>
 
 <h3>1: Create a folder for the term</h3>
 
-<p>Log - in to Github and go to this <a href="https://github.com/{{ site.github_repo }}tree/gh-pages/glossary/en/terms">link</a></p>
+<p>Log - in to Github and go to this <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/glossary/en/terms">link</a></p>
 
 <p>You will see a the branch name (“gh-pages”) and a directory. You will also see the breadcrumb <code>{{ site.github_repo }} / glossary / en / terms / + </code>. Click on the "+" to create a new folder.<p/>
 
