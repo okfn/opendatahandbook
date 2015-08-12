@@ -112,7 +112,7 @@ languages:
     - lv
     - Latviešu
   -
-    - nl
+    - nl_BE
     - Nederlands (Belgisch)
   -
     - pt_BR
@@ -181,7 +181,7 @@ meta:
       - ko
       - lt
       - lv
-      - nl
+      - nl_BE
       - pt_BR
       - ro
       - ru
@@ -207,7 +207,7 @@ meta:
       - ko
       - lt
       - lv
-      - nl
+      - nl_BE
       - pt_BR
       - ro
       - ru
