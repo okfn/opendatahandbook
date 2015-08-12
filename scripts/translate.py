@@ -155,9 +155,9 @@ def get_all_source_files(basepath):
 
 
 langs = [
-    'en',
     'de',
     'el',
+    'en',
     'es',
     'fr',
     'he',
@@ -167,7 +167,7 @@ langs = [
     'it',
     'ja',
     'ko',
-    'lt_LT',
+    'lt',
     'lv',
     'nl_BE',
     'pt_BR',
