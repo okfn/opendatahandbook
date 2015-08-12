@@ -1,7 +1,7 @@
 ---
 redirect_from:
   - /it/glossary.html
-  - /glossary/it/
+  - /glossary/it/terms/
   - /glossary/
 layout: glossary
 lang: it
