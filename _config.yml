@@ -91,6 +91,9 @@ languages:
     - he
     - עברית
   -
+    - hr
+    - hrvatski
+  -
     - id
     - Bahasa
   -
@@ -174,6 +177,7 @@ meta:
       - es
       - fr
       - he
+      - hr
       - id
       - is
       - it
@@ -200,6 +204,7 @@ meta:
       - es
       - fr
       - he
+      - hr
       - id
       - is
       - it
