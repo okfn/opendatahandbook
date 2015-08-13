@@ -241,6 +241,28 @@ meta:
           slug: 'following-up'
         - title: 'Appendices'
           slug: 'appendices'
+  contribute:
+    label: contribute
+    output: true
+    title: Contribute
+    has_translation: false
+    toc:
+      chapters:
+        - title: 'Contributing To The Handbook'
+        - title: 'Adding A Page'
+          slug: 'adding'
+        - title: 'Editing A Page'
+          slug: 'editing'
+        - title: 'Adding A Term To The Glossary'
+          slug: 'add-term'
+        - title: 'Adding A Resource To The Library'
+          slug: 'add-resource'
+        - title: 'Translating The Guide'
+          slug: 'translate-guide'
+        - title: 'Translating The Glossary'
+          slug: 'translate-glossary'
+        - title: 'Markdown Examples'
+          slug: 'markdown-examples'
 
 defaults:
   -

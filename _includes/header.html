@@ -2,6 +2,7 @@
 {% assign glossary = site.meta.glossary %}
 {% assign value-stories = site.meta.value-stories %}
 {% assign resources = site.meta.resources %}
+{% assign contribute = site.meta.contribute %}
 {% assign guide_entry_point = site.baseurl | append: '/' | append: guide.label | append: '/' | append: page.lang | append: '/' | append: guide.toc.entry_point | append: '/' %}
 {% assign glossary_entry_point = site.baseurl | append: '/' | append: glossary.label | append: '/' | append: page.lang | append: '/' %}
 {% assign value-stories_entry_point = site.baseurl | append: '/' | append: value-stories.label | append: '/' | append: page.lang | append: '/' %}
@@ -181,12 +182,14 @@
     <li class="{% if page.url contains 'contribute' %}Selected{% endif %}">
       <a href="{{ "/contribute/" | prepend: site.baseurl }}">Contribute</a>
       <ul>
-        {% for contribute_page in site.pages %}
-        {% if contribute_page.section == 'contribute' %}
-        <li {% if contribute_page.url == page.url %} class="Selected"{% endif %}>
-          <a href="{{ contribute_page.url }}">{{ contribute_page.title }}</a>
-        </li>
+        {% for chapter in contribute.toc.chapters %}
+        {% assign chapter_url = site.baseurl | append: '/' | append: contribute.label | append: '/' %}
+        {% if chapter.slug %}
+        {% assign chapter_url = chapter_url | append: chapter.slug | append: '/' %}
         {% endif %}
+        <li {% if chapter_url == page.url %} class="Selected"{% endif %}>
+          <a href="{{ chapter_url }}">{{ chapter.title }}</a>
+        </li>
         {% endfor %}
       </ul>
     </li>
