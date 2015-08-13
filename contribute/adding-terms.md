@@ -5,43 +5,43 @@ title: Adding a term to the glossary
 authors:
  - Mor Rubinstein
 ---
-<p>Each glossary (meaning, each translated instance of the glossary), has three components:
-<ul>
-<li> A layout template for the glossary homepage: 'glossary.html'</li>
-<li> A layout template for the glossary in each language: 'glossary/{lang}/index.md'</li>
-<li> A directory of the glossary terms. Each term in the directory is listed as the url slug (In English, all lower case letters, and hyphens instead of white spaces).</li>
-</ul>
 
-<p></p>Currently, the English glossary has been updated and organized. Other languages please follow these <a href=http://new.opendatahandbook.org/contribute/translate-glossary/>instructions</a>
-To add a new term, all you need is to have a Github account.</p>
+<p class="lead">Each glossary (meaning, each translated instance of the glossary), has three components:</p>
 
-<h3>1: Create a folder for the term</h3>
+* A layout template for the glossary homepage: 'glossary.html'
+* A layout template for the glossary in each language: 'glossary/{lang}/index.md'
+* A directory of the glossary terms. Each term in the directory is listed as the url slug (In English, all lower case letters, and hyphens instead of white spaces).
 
-<p>Log - in to Github and go to this <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/glossary/en/terms">link</a></p>
+Currently, the English glossary has been updated and organized. Other languages please follow these [instructions](http://opendatahandbook.org/contribute/translate-glossary/).
 
-<p>You will see a the branch name (“gh-pages”) and a directory. You will also see the breadcrumb <code>{{ site.github_repo }} / glossary / en / terms / + </code>. Click on the "+" to create a new folder.<p/>
+To add a new term, all you need is to have a GitHub account.
 
-<p>  Write the name of the term that you want to add in a new slug (In English, all lower case letters, and hyphens instead of white spaces) and add a “/” at the end of the terms name. This will create a new folder name. </p>
+## 1. Create a folder for the term
 
-<h3>2: Create a file for your term</h3>
+Log in to GitHub and go to this [link](https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/glossary/en/terms)
 
-<p> Now you will see the breadcrumb - <code>{{ site.github_repo }} / glossary / en / terms / your-new-term / +  </code> Click on the “+” sign again. Now write in the path “index.md”. This will save the whole file as a markdown file.  </p>
+You will see the branch name ('gh-pages') and a directory. You will also see the breadcrumb `{{ site.github_repo }} / glossary / en / terms / +`. Click on the plus symbol <code class="icon-plus"><span>[plus icon]</span></code> to create a new folder.
 
-<h3>3: Write the term definition </h3>
-<p> In  the text editor below, add the front matter (Jekyll way to mark the page) - </p>
-<pre>
----
-section: terms
-lang: en
-title: // the term name //
----
-</pre>
+Write the name of the term that you want to add in a new slug (In English, all lower case letters, and hyphens instead of white spaces) and add a slash ('/') at the end of the terms name. This will create a new folder name.
+
+## 2. Create a file for your term
+
+Now you will see the breadcrumb - `{{ site.github_repo }} / glossary / en / terms / your-new-term / + ` Click on the plus symbol <code class="icon-plus"><span>[plus icon]</span></code> again. Now write in the path 'index.md'. This will save the whole file as a markdown file.
+
+## 3. Write the term definition
+
+In the text editor below, add the front matter (Jekyll way to mark the page):
+
+    ---
+    section: terms
+    lang: en
+    title: The term name
+    ---
 
 Write the term definition after the front matter as usual.
 
+## 4. Make a pull request
 
-<h3>4: Make a pull request</h3>
+Click on “Create a new branch for this commit and start a pull request.” This will allow us to review your changes.
 
-<p> Click on “Create a new branch for this commit and start a pull request.” This will allow us to review your changes. <p/>
-
-<p>Thank you! All done! If the handbook editors are happy with your term, it will be added to the glossary. </p>
+Thank you! All done! If the handbook editors are happy with your term, it will be added to the glossary.

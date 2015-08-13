@@ -6,74 +6,66 @@ authors:
  - Sam Smith
 ---
 
-<p class="lead">Most of what you need to know to add a new page is covered under ‘<a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">Editing a page</a>’, so make sure you have first read through that section.</p>
+<p class="lead">Most of what you need to know to add a new page is covered under '<a href="{{ "/contribute/editing/" | prepend: site.baseurl }}" rel="external">Editing a page</a>', so make sure you have first read through that section.</p>
 
-<p>Adding a page follows a similar process to editing. Instead of locating your page, your first step is to locate your new page’s parent directory.</p>
+Adding a page follows a similar process to editing. Instead of locating your page, your first step is to locate your new page's parent directory.
 
-<h2>1: Create the page</h2>
+## 1. Create the page
 
-<p>First locate the parent directory, or folder, in which your file will live. If you are adding a page to the English language Handbook, for example, you should be in the '<strong>en</strong>' directory, where you’ll see a list of all the Handbook pages.</p>
+First locate the parent directory, or folder, in which your file will live. If you are adding a page to the English language Handbook, for example, you should be in the '**en**' directory, where you'll see a list of all the Handbook pages.
 
-<p>Above the list of pages is a breadcrumb trail <code>{{ site.github_repo }} / guide / en /</code>, to the right of which is a plus symbol <code><strong>+</strong></code>. Click the plus symbol to create your new page.</p>
+Above the list of pages is a breadcrumb trail `{{ site.github_repo }} / guide / en /`, to the right of which is a plus symbol <code class="icon-plus"><span>[plus icon]</span></code>. Click the plus symbol to create your new page.
 
-<h2>2: Name your file</h2>
+## 2. Name your file
 
-<p>You should now have a new file editor page open. The first editable section you are presented with is the ‘<em>Name your file</em>’ field. As we touched upon when looking at <a href="{{ "/contribute/editing/" | prepend: site.baseurl }}">editing files</a>, the file name corresponds to the URL of the page on the site. There are a few of rules to follow here:</p>
+You should now have a new file editor page open. The first editable section you are presented with is the '*Name your file*' field. As we touched upon when looking at [editing files]({{ "/contribute/editing/" | prepend: site.baseurl }}), the file name corresponds to the URL of the page on the site. There are a few of rules to follow here:
 
-<ul>
-  <li>The file name should reflect the title of the new page</li>
-  <li>Must be unique</li>
-  <li>Should be all lowercase</li>
-  <li>Words should be separated by hyphens (-)</li>
-  <li>File name should end with the extension '<em>.md</em>' (the .md extension indicates a markdown file)</li>
-</ul>
+* The file name should reflect the title of the new page
+* Must be unique
+* Should be all lowercase
+* Words should be separated by hyphens (-)
+* File name should end with the extension '*.md*' (the .md extension indicates a markdown file)
 
-<p>As an example, if you were creating a page titled '<em>My Cool Page</em>', you would use a file name of:</p>
+As an example, if you were creating a page titled '*My Cool Page*', you would use a file name of:
 
-<pre>
-<code>my-cool-page.md</code>
-</pre>
+    my-cool-page.md
 
-<p>Assuming you are creating this in the '<em>en</em>' directory, this would result in a URL of <em>{{ site.url }}/en/my-cool-page</em></p>
+Assuming you are creating this in the '*en*' directory, this would result in a URL of *{{ site.url }}/en/my-cool-page*
 
 <div class="note">
   <h6>Note</h6>
   <p>The actual words used in your file name are not crucial. It’s fine to use a more succinct version of your page title, for example.</p>
 </div>
 
-<h2>3: Formatting your content</h2>
+## 3. Formatting your content
 
-<p>This step is the same as when editing a page. You need to start your file with the Front Matter, then add your content, formatting it using Markdown. Here is a template to get you started:</p>
+This step is the same as when editing a page. You need to start your file with the Front Matter, then add your content, formatting it using Markdown. Here is a template to get you started:
 
-<pre>
-<code>---
-title: My Cool Page
-authors:
- - Fred Bloggs
----
+    ---
+    title: My Cool Page
+    authors:
+     - Fred Bloggs
+    ---
 
-##A large introductory paragraph.
+    ##A large introductory paragraph.
 
-Regular paragraphs, separated by empty lines.
+    Regular paragraphs, separated by empty lines.
 
-###A heading
+    ###A heading
 
-Another paragraph.
+    Another paragraph.
 
- * Maybe
- * a
- * list</code>
-</pre>
+     * Maybe
+     * a
+     * list
 
-<p>When you’re done, click ‘<em>Propose new file</em>’.</p>
+When you’re done, click '*Propose new file*'.
 
-<h2>4: Make a pull request</h2>
+## 4. Make a pull request
 
-<p>Once you have created your page(s) and updated the contents document, you're ready to make your pull request. Click the pull request icon to the right of the screen <code class="icon-git-pull-request"><span>[git pull-request icon]</span></code>, then click ‘<em>New pull request</em>’.</p>
+Once you have created your page(s) and updated the contents document, you're ready to make your pull request. Click the pull request icon to the right of the screen <code class="icon-git-pull-request"><span>[git pull-request icon]</span></code>, then click '*New pull request*'.
 
-<p>At the top of the resulting comparison screen, you’ll see a row of select boxes. You want to make sure these are configured like so:</p>
-
-</article>
+At the top of the resulting comparison screen, you’ll see a row of select boxes. You want to make sure these are configured like so:
 
 <div class="github panel">
   <div class="range-editor">
@@ -118,9 +110,8 @@ Another paragraph.
   </div>
 </div>
 
-<article class="post-content">
-<p><em><strong>username</strong> being your github username, <strong>branch</strong> being the branch you have been working on.</em></p>
+_**username** being your github username, **branch** being the branch you have been working on._
 
-<p>You should now be able to see listed below, all the changes that you wish to contribute. If everything looks as it should, click ‘<em>Create pull request</em>’.</p>
+You should now be able to see listed below, all the changes that you wish to contribute. If everything looks as it should, click '*Create pull request*'.
 
-<p>Give your pull request a title and description, then click ‘<em>Create pul request</em>’. You have now contributed your pages to the Handbook :)</p>
+Give your pull request a title and description, then click '*Create pul request*'. You have now contributed your pages to the Handbook :)

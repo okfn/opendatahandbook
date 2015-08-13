@@ -6,96 +6,86 @@ authors:
  - Sam Smith
 ---
 
-<p class="lead">If you haven’t done so already, the first thing you need to do is head over to <a href="https://github.com/" rel="external">Github</a> and create your free account.</p>
+<p class="lead">If you haven't done so already, the first thing you need to do is head over to <a href="https://github.com/" rel="external">Github</a> and create your free account.</p>
 
-<p>There are three steps to editing a page. First you need to locate the page you wish to edit. There are a couple of ways to do this. <strong>Method A</strong> is probably the simplest, and most likely way you’ll do it. <strong>Method B</strong> will serve as a primer for the next section: <em>Adding a page</em>.</p>
+There are three steps to editing a page. First you need to locate the page you wish to edit. There are a couple of ways to do this. **Method A** is probably the simplest, and most likely way you'll do it. **Method B** will serve as a primer for the next section: *Adding a page*.
 
-<h2>1: Locate the page</h2>
+## 1. Locate the page
 
-<h4>Method A: Browse the website</h4>
+#### Method A: Browse the website
 
-<p>While reading any section of the Handbook you’ll see a button with the paper icon <code class="icon-paper"><span>[paper icon]</span> Improve this page</code> in the right side or bottom of the page, depending on the size of the screen. Hovering over it then clicking an '<em>Edit on Github</em>' button will take you directly to an editable version of that page. Easy huh?</p>
+While reading any section of the Handbook you'll see a button with the paper icon <code class="icon-paper"><span>[paper icon]</span> Improve this page</code> in the right side or bottom of the page, depending on the size of the screen. Hovering over it then clicking an '*Edit on Github*' button will take you directly to an editable version of that page. Easy huh?
 
 <div class="note">
   <h6>Note</h6>
-  <p>When the editable page opens it will (most likely) contain a message saying <em>“You need to fork this repository to propose changes.”</em>. If this is your first edit to The Open Data Handbook there will be a '<em>Fork this repository and propose changes</em>' button. This is normal and part of the workflow. Click the button to start editing.</p>
+  <p>When the editable page opens it will (most likely) contain a message saying <em>"You need to fork this repository to propose changes."</em>. If this is your first edit to The Open Data Handbook there will be a '<em>Fork this repository and propose changes</em>' button. This is normal and part of the workflow. Click the button to start editing.</p>
 </div>
 
-<h4>Method B: Browse the Github repository</h4>
+#### Method B: Browse the Github repository
 
-<p>The entire file structure of this site can be browsed on Github. For example, the root of the site is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external">here</a>, and the English language guide section of the Handbook is <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/guide/en" rel="external">here</a>. It’s helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Open Data Guide introduction page, given that it’s URL is <code>{{ site.url }}/<strong>guide</strong>/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>guide</strong>/<strong>en</strong>/<strong>introduction</strong></code> directory with the filename <code><strong>index</strong>.md</code> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.</p>
+The entire file structure of this site can be browsed on Github. For example, the root of the site is [here](https://github.com/{{ site.github_username }}/{{ site.github_repo }}), and the English language guide section of the Handbook is [here](https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/guide/en). It's helpful to understand that the page URLs correspond to the file structure you see here. So, if you wanted to edit the Open Data Guide introduction page, given that it's URL is <code>{{ site.url }}/<strong>guide</strong>/<strong>en</strong>/<strong>introduction</strong>/</code> we know this file can be found in the <code><strong>guide</strong>/<strong>en</strong>/<strong>introduction</strong></code> directory with the filename <code><strong>index</strong>.md</code> Following these links you should see a preview of the page you wish to edit. From here click the edit icon <code class="icon-pencil"><span>[pencil icon]</span></code> to start editing.
 
 <div class="note">
   <h6>Pro Tip!</h6>
   <p>Press <code>t</code> on any tree or blob page to launch the file finder.</p>
 </div>
 
-<h2>2: Make your changes</h2>
+## 2. Make your changes
 
-<p>With the editable content in front of you, you’re probably either thinking “great, let’s get editing”, or “hang on, this looks a bit weird”. In case it’s the latter, let’s have a closer look. The first thing to recognise is the ‘Front Matter’, which will look like this:</p>
+With the editable content in front of you, you're probably either thinking "great, let's get editing", or "hang on, this looks a bit weird". In case it's the latter, let's have a closer look. The first thing to recognise is the 'Front Matter', which will look like this:
 
-<pre>
-<code>---
-title: Introduction
----</code>
-</pre>
+    ---
+    title: Introduction
+    ---
 
-<p>The front matter must be the first thing in the file, must adhere to the above syntax, and must be set between triple-dashed lines. Numerous variables can be set here, but you’ll usually just need <code>title</code>. The title set here will be used as the main heading for the page, as well as in the browser tab.</p>
+The front matter must be the first thing in the file, must adhere to the above syntax, and must be set between triple-dashed lines. Numerous variables can be set here, but you'll usually just need `title`. The title set here will be used as the main heading for the page, as well as in the browser tab.
 
-<p>The other important thing to recognise is the Markdown syntax. For example, where you see a line commencing with two hash marks:</p>
+The other important thing to recognise is the Markdown syntax. For example, where you see a line commencing with two hash marks:
 
-<pre>
-<code>##Do you know exactly how much of your tax money is spent on street lights?</code>
-</pre>
+    ## Do you know exactly how much of your tax money is spent on street lights?
 
-<p>This is the Markdown way of creating a level two heading. On the site it will be outputted like so:</p>
+This is the Markdown way of creating a level two heading. On the site it will be outputted like so:
 
-<h2>Do you know exactly how much of your tax money is spent on street lights?</h2>
+## Do you know exactly how much of your tax money is spent on street lights?
 
-<p>Another common formatting requirement is bullet points, or lists. These are achieved in Markdown by using asterisks, like so:</p>
+Another common formatting requirement is bullet points, or lists. These are achieved in Markdown by using asterisks, like so:
 
-<pre>
-<code>* civil servants
+    * civil servants
+    * journalists
+    * politicians
+
+giving you:
+
+* civil servants
 * journalists
-* politicians</code>
-</pre>
+* politicians
 
-<p>giving you:</p>
+Links are created like so:
 
-<ul>
-  <li>civil servants</li>
-  <li>journalists</li>
-  <li>politicians</li>
-</ul>
+    Give your data a home at the [Datahub](http://datahub.io/).
 
-<p>Links are created like so:</p>
+result:
 
-<pre>
-<code>Give your data a home at the [Datahub](http://datahub.io/).</code>
-</pre>
-
-<p>result:</p>
-
-<p>Give your data a home at the <a href="http://datahub.io/">Datahub</a>.</p>
+Give your data a home at the [Datahub](http://datahub.io/).
 
 <div class="note">
   <h6>Pro Tip!</h6>
   <p>To get a link to a specific heading on this site, hover over it then click the section icon <code class="icon-section"><span>[section icon]</span></code>. This will show you the URL.</p>
 </div>
 
-<p>More Markdown examples can be found <a href="{{ "/contribute/markdown-examples/" | prepend: site.baseurl }}">here</a>, and a more detailed overview <a href="http://daringfireball.net/projects/markdown/syntax" rel="external">here</a>.</p>
+More Markdown examples can be found [here]({{ "/contribute/markdown-examples/" | prepend: site.baseurl }}), and a more detailed overview [here](http://daringfireball.net/projects/markdown/syntax).
 
-<p>If you are unsure of your markup while editing, you can switch to the preview tab <code class="icon-eye"><span>[eye icon]</span> Preview changes</code> to see how it will be rendered.</p>
+If you are unsure of your markup while editing, you can switch to the preview tab <code class="icon-eye"><span>[eye icon]</span> Preview changes</code> to see how it will be rendered.
 
 <div class="note">
   <h6>Note</h6>
   <p>The Github previews will look stylistically different from the live site. A different font will be used for example.</p>
 </div>
 
-<p>Once you are happy with your changes, add a summary of what you've changed in the field below the editable text. Then click ‘<em>Propose file change</em>’.</p>
+Once you are happy with your changes, add a summary of what you've changed in the field below the editable text. Then click '*Propose file change*'.
 
-<h2>3: Make a pull request</h2>
+## 3. Make a pull request
 
-<p>You will now be presented with a ‘pull request’ form. So far, the changes you have made are to your own copy, or fork of the handbook. A pull request simply sends a request to the authors/maintainers of the live handbook, asking them to include your changes - and put them live! Add any comments you have for the handbook team, then press ‘<em>Create pull request</em>’.</p>
+You will now be presented with a 'pull request' form. So far, the changes you have made are to your own copy, or fork of the handbook. A pull request simply sends a request to the authors/maintainers of the live handbook, asking them to include your changes - and put them live! Add any comments you have for the handbook team, then press '*Create pull request*'.
 
-<p>Your work here is done :) If you need to make related changes though, any new commits pushed to your branch will automatically be added to the pull request.</p>
+Your work here is done :) If you need to make related changes though, any new commits pushed to your branch will automatically be added to the pull request.

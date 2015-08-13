@@ -6,46 +6,43 @@ authors:
 lang: en
 ---
 
-<p>Our resource library is a curated collection open data reosurces from across the community. Everyone can add a resource to the library. This is how to do so.</p>
+<p class="lead">Our resource library is a curated collection of open data reosurces across the community. Everyone can add a resource to the library. This is how to do so.</p>
 
-<h2>1. Add a folder</h2> 
+## 1. Add a folder
 
-<p>Log in to github and head to the following <a href=https://github.com https://github.com/{{ site.github_username }}/tree/gh-pages/resources> link: </a></p>
+Log in to GitHub and head to this [link](https://github.com/{{ site.github_username }}/{{ site.github_repo }}/tree/gh-pages/resources).
 
-Every resource has a slug number. To add your resource, you need to give it a number. Look at the list and give you resource the number that follows  the current last number in the list (e.g - if the number is 056, your resource should be named 057).
-Click on the + sign in the directory line and add the number and a “/”. For example: 060/. 
+Every resource has a slug number. To add your resource, you need to give it a number. Look at the list and give your resource the number that follows the current last number in the list (e.g. if the number is 056, your resource should be named 057).
 
-<h2>2. Add an index file</h2>
+Click on the plus symbol <code class="icon-plus"><span>[plus icon]</span></code> in the directory line and add the number and a slash ('/'). For example: `060/`.
 
-<p>Click on the + sign again. Add a file named index.md to your new folder.</p>
+## 2. Add an index file
 
-<h2>3. Add the resource</h2>
+Click on the plus symbol <code class="icon-plus"><span>[plus icon]</span></code> again. Add a file named 'index.md' to your new folder.
 
-<p>In the text editor, add the front matter fields in this pattern:</p>
-<pre>
----
-section: resources
-lang: //Two first letters of the language, according to language code in this table.//
-Author: //The name(s) of the person(s) who wrote the text//
-Country: //One or more country by full name  separated with a comma:  “,”. If there is no specific country, write ‘global’//
-Description: //1-5 lines that summarizes the text. //
-Keywords: //Important descriptors of the text, separated with a comma, “,”.//
-Link: //The link to the resource online//
-MediaType: // List one out of these four types: Presentation, Article,  / Publication, Video//
-Notes: //Any notes or comments.//'
-Publishing_date: //The year the resource was published, e.g. 2015.//
-Publishing_entity: //The organisation(s) which publish the resource//
-Region: North America,Latin America,Asia,Europe,Africa,Mena,Global
-Title: //The name of the resource//
-Topic: //Choose one out of these nine : The Basics,Advocacy,Privacy,civic engagement,Right for information,Data training,PolicyStandards.
----
-</pre>
+## 3. Add the resource
 
-<h2>4. Make a pull request</h2>
+In the text editor, add the front matter fields in this pattern:
 
-<p>Click on “Create a new branch for this commit and start a pull request.” This will allow us to review your changes.</p>
+    ---
+    section: resources
+    lang: Two first letters of the language, according to language code in this table
+    Author: The name(s) of the person(s) who wrote the text
+    Country: One or more countries by full name, separated with a comma: ",". If there is no specific country, write 'global'
+    Description: 1-5 lines that summarizes the text
+    Keywords: Important descriptors of the text, separated with a comma, ","
+    Link: The link to the resource online
+    MediaType: List one out of these four types: Presentation, Article, Publication, Video
+    Notes: Any notes or comments
+    Publishing_date: The year the resource was published, e.g. 2015
+    Publishing_entity: The organisation(s) which publish the resource
+    Region: North America, Latin America, Asia, Europe, Africa, Mena, Global
+    Title: The name of the resource
+    Topic: Choose one out of these nine: The Basics, Advocacy, Privacy, Civic Engagement, Right for Information, Data Training, Policy Standards
+    ---
 
-Thank you! All done! 
+## 4. Make a pull request
 
- 
+Click on “Create a new branch for this commit and start a pull request.” This will allow us to review your changes.
 
+Thank you! All done!
