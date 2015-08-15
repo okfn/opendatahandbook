@@ -1599,6 +1599,16 @@ html.mm-background .mm-page,
         margin: 0 4px;
       }
     }
+
+    &.panel {
+      margin-bottom:1.5em;
+      text-align:center;
+
+      @include media($large-screen) {
+        margin-left:-10em;
+        margin-right:-10em;
+      }
+    }
   }
 }
 
