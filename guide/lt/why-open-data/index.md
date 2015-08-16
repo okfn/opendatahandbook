@@ -1,7 +1,7 @@
 ---
-redirect_from: /lt_LT/why-open-data/index.html
+redirect_from: /lt/why-open-data/index.html
 section: guide
-lang: lt_LT
+lang: lt
 title: Kodėl reikia atvirų duomenų?
 ---
 

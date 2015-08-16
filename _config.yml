@@ -91,6 +91,9 @@ languages:
     - he
     - עברית
   -
+    - hr
+    - hrvatski
+  -
     - id
     - Bahasa
   -
@@ -112,7 +115,7 @@ languages:
     - lv
     - Latviešu
   -
-    - nl
+    - nl_BE
     - Nederlands (Belgisch)
   -
     - pt_BR
@@ -174,6 +177,7 @@ meta:
       - es
       - fr
       - he
+      - hr
       - id
       - is
       - it
@@ -181,7 +185,7 @@ meta:
       - ko
       - lt
       - lv
-      - nl
+      - nl_BE
       - pt_BR
       - ro
       - ru
@@ -200,6 +204,7 @@ meta:
       - es
       - fr
       - he
+      - hr
       - id
       - is
       - it
@@ -207,7 +212,7 @@ meta:
       - ko
       - lt
       - lv
-      - nl
+      - nl_BE
       - pt_BR
       - ro
       - ru

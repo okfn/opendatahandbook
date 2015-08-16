@@ -1,7 +1,7 @@
 ---
-redirect_from: /lt_LT/index.html
+redirect_from: /lt/index.html
 section: guide
-lang: lt_LT
+lang: lt
 title: Atvirų duomenų vadovėlis
 ---
 
