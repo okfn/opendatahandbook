@@ -5,7 +5,7 @@ lang: nl_BE
 title: Woordenlijst
 ---
 
-Open Data Open data kunnen gebruikt worden voor wat voor doel dan ook. Meer daarover kunt u lezen op \` opendefinition.org \<<http://www.opendefinition.org/>\> \` \_.
+Open Data Open data kunnen gebruikt worden voor wat voor doel dan ook. Meer daarover kunt u lezen op '[opendefinition.org](http://opendefinition.org/)'.
 
 Machine-readable Formats die machine-leesbaar zijn, zijn die formats die hun data makkelijk kunnen laten lezen door computerprogramma's. PDF documenten zijn niet machine-leesbaar. Computers kunnen de tekst op een mooie manier weergeven, maar hebben grote moeite om de context van de tekst te begrijpen.
 
