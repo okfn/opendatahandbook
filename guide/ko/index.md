@@ -1,7 +1,5 @@
 ---
-redirect_from:
-  - /ko/index.html
-  - /guide/ko/
+redirect_from: /ko/index.html
 lang: ko
 title: 오픈 데이터 핸드북
 section: guide
