@@ -43,6 +43,6 @@ In the text editor, add the front matter fields in this pattern:
 
 ## 4. Make a pull request
 
-Click on “Create a new branch for this commit and start a pull request.” This will allow us to review your changes.
+Click on "Create a new branch for this commit and start a pull request." This will allow us to review your changes.
 
 Thank you! All done!

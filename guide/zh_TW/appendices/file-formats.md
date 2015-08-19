@@ -61,9 +61,9 @@ Probably the least suitable form for most data, but both TIFF and JPEG-2000 can 
 
 就算資訊是詳細的透過電子、機器可讀的格式提供出來，但是在檔案本身的格式上面可能還是會遇到一些問題。
 
-The formats in which information is published – in other words, the digital base in which the information is stored - can either be “open” or “closed”. An open format is one where the specifications for the software are available to anyone, free of charge, so that anyone can use these specifications in their own software without any limitations on re-use imposed by intellectual property rights.
+The formats in which information is published – in other words, the digital base in which the information is stored - can either be "open" or "closed". An open format is one where the specifications for the software are available to anyone, free of charge, so that anyone can use these specifications in their own software without any limitations on re-use imposed by intellectual property rights.
 
-If a file format is “closed”, this may be either because the file format is proprietary and the specification is not publicly available, or because the file format is proprietary and even though the specification has been made public, re-use is limited. If information is released in a closed file format, this can cause significant obstacles to reusing the information encoded in it, forcing those who wish to use the information to buy the necessary software.
+If a file format is "closed", this may be either because the file format is proprietary and the specification is not publicly available, or because the file format is proprietary and even though the specification has been made public, re-use is limited. If information is released in a closed file format, this can cause significant obstacles to reusing the information encoded in it, forcing those who wish to use the information to buy the necessary software.
 
 開放文件格式的好處在於他們讓開發者能夠利用這些格式開發多類型的套裝軟體與服務。如此一來，就能夠減少資料重複使用上的困難。
 

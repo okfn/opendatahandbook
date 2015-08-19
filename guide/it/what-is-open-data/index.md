@@ -19,7 +19,7 @@ La [full Open Definition](http://opendefinition.org/okd/) spiega nei dettagli co
 -   **Riutilizzo e ridistribuzione:** i dati devono essere forniti a condizioni tali da permetterne il riutilizzo e la ridistribuzione. Ciò comprende la possibilità di combinarli con altre basi di dati.
 -   \**Partecipazione universale:* tutti devono essere in grado di usare, riutilizzare e ridistribuire i dati. Non ci devono essere discriminazioni né di ambito di iniziativa né contro soggetti o gruppi. Ad esempio, la clausola 'non commerciale', che vieta l'uso a fini commerciali o restringe l'utilizzo solo per determinati scopi (es. quello educativo) non è ammessa.
 
-La ragione fondamentale per cui è importante chiarire il significato di “aperto” e del perché utilizzare proprio questa definizione, può essere identificata in un termine: interoperabilità.
+La ragione fondamentale per cui è importante chiarire il significato di "aperto" e del perché utilizzare proprio questa definizione, può essere identificata in un termine: interoperabilità.
 
 L'interoperabilità è la capacità di diversi sistemi e organizzazioni di lavorare insieme (Inter-operare). In questo caso, è la capacità di combinare una base di dati con altre.
 
