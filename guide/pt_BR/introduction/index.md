@@ -11,13 +11,13 @@ Novas tecnologias tornam possível desenvolver serviços para responder essas pe
 
 A noção de dados abertos e, especificamente, dados abertos governamentais - informação, pública ou não, que qualquer um tem liberdade de acesso e reutilização para qualquer propósito - existe há alguns anos. Em 2009, dados abertos começaram a se tornar visíveis ao público em geral, na medida em que vários governos (tais como os E.U.A., Reino Unido, Canadá e Nova Zelândia) anunciaram novas iniciativas de abertura de suas informações públicas.
 
-Este guia explica os conceitos básicos de ‘dados abertos’, especialmente em relação ao governo. Ele descreve como dados abertos criam valor e podem ter um impacto positivo em muitas áreas diferentes. Além de explorar o conceito de dados abertos, o guia também provê informações concretas sobre como produzir esses dados.
+Este guia explica os conceitos básicos de 'dados abertos', especialmente em relação ao governo. Ele descreve como dados abertos criam valor e podem ter um impacto positivo em muitas áreas diferentes. Além de explorar o conceito de dados abertos, o guia também provê informações concretas sobre como produzir esses dados.
 
 ## Público-alvo
 
 Este guia tem um público-alvo abrangente:
 
--   aqueles que nunca ouviram falar de dados abertos e aqueles que se consideram ‘profissionais de dados’ experientes
+-   aqueles que nunca ouviram falar de dados abertos e aqueles que se consideram 'profissionais de dados' experientes
 -   servidores públicos e ativistas
 -   jornalistas e pesquisadores
 -   políticos e desenvolvedores

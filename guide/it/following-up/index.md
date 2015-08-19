@@ -88,7 +88,7 @@ A seconda dello scopo che si vuole raggiungere, vi sono anche molti modi diversi
 -   Improvvisare micro-brevi presentazioni su qualcosa su a cui stanno lavorando
 -   Condurre sessioni su qualcosa di loro interesse
 
-Esiste un'abbondante documentazione online su come realizzare questo tipi di eventi (si possono trovare cercando parole chiave come: 'unconference', 'barcamp', 'meetup', 'speedgeek', ‘lightning talk’, e così via). Si possono anche contattare soggetti che hanno esperienza di questo tipo di eventi in altri paesi: probabilmente vi aiuteranno volentieri e vi daranno consigli sul vostro evento. Può essere utile collaborare con un'altra organizzazione (ad esempio un'organizzazione della società civile, che si occupi di informazione o di istruzione) per ampliare la base di partecipanti e per aumentare la visibilità.
+Esiste un'abbondante documentazione online su come realizzare questo tipi di eventi (si possono trovare cercando parole chiave come: 'unconference', 'barcamp', 'meetup', 'speedgeek', 'lightning talk', e così via). Si possono anche contattare soggetti che hanno esperienza di questo tipo di eventi in altri paesi: probabilmente vi aiuteranno volentieri e vi daranno consigli sul vostro evento. Può essere utile collaborare con un'altra organizzazione (ad esempio un'organizzazione della società civile, che si occupi di informazione o di istruzione) per ampliare la base di partecipanti e per aumentare la visibilità.
 
 ## Fare cose! Hackdays, premi e prototipi
 

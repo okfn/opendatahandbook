@@ -17,11 +17,11 @@ La définition complète d'ouvert donne des détails précis quant à ce que cel
 
 -   "**Disponibilité et accès:** Les données doivent être disponible dans leurs ensembles et pour un coût raisonnable de reproduction, de préférence téléchargeable sur internet. Les données doivent êtes aussi disponibles dans un format pratique et sous forme modifiable.
 -   **Réutilisation et Redistribution** Les données doivent être disponibles sous une license autorisant la réutilisation et la redistribution incluant le croisement avec d'autres ensembles de données.
--   *\* Participation universelle:*\* tout le monde doit être en mesure d'utiliser, de réutiliser et redistribuer - il ne devrait y avoir aucune discimination contre les champs de l'activité ou contre des personnes ou des groupes. Pour exemple, des restrictions ‘non-commercial’ qui empêcheraient les utilisations ‘commercial‘ ou des restrictions d'utilisation à certaines fins (par exemple seulement dans l'éducation) ne sont pas autorisés.
+-   *\* Participation universelle:*\* tout le monde doit être en mesure d'utiliser, de réutiliser et redistribuer - il ne devrait y avoir aucune discimination contre les champs de l'activité ou contre des personnes ou des groupes. Pour exemple, des restrictions 'non-commercial' qui empêcheraient les utilisations 'commercial' ou des restrictions d'utilisation à certaines fins (par exemple seulement dans l'éducation) ne sont pas autorisés.
 
 Si vous vous demandez pourquoi il est si important d'être clair à propos de ce qu'ouvert signifie et pourquoi cette définition est utilisée, il y a une réponse simple: **interopérabilité.**
 
-L'interopérabilité désigne la capacité de divers systèmes et organisations à travailler ensemble (inter-opérer). Dans ce cas, c'est la capacité d’interopérer - ou entremêler - des ensembles de données différents.
+L'interopérabilité désigne la capacité de divers systèmes et organisations à travailler ensemble (inter-opérer). Dans ce cas, c'est la capacité d'interopérer - ou entremêler - des ensembles de données différents.
 
 L'interopérabilité est importante car elle permet à différents modules de fonctionner ensembles. Cette possibilité de modularisation et de 'branchement' de modules est essentielles afin de bâtir de gros systèmes complexes. Sans interopérabilité, cela devient quasiment impossible - comme nous l'indique le mythe de la tour de Babel où l'(im)possibilité de communiquer (d'interopérer) conduisit à l'anéantissement de l'entreprise-
 

@@ -88,7 +88,7 @@ Há também muitas diferentes maneiras de promover eventos, e tipos diferentes d
 -   Fazer apresentações micro-curtas improvisadas sobre algo no qual estiverem trabalhando
 -   Dirigir sessões sobre algo que lhes interessa
 
-Há farta documentação online sobre como promover esse tipo de evento. Você pode encontrar essas referências procurando por coisas tais como ‘desconferência’, ‘barcamp’, ‘meetup’, ‘speedgeek’, ‘palestra relâmpago’, e por aí vai. Você pode também achar que vale a pena contatar pessoas que tenham promovido esses tipos de eventos em outros países, que muito provavelmente estarão interessados em ajudá-lo e aconselhá-lo em relação ao seu evento. Pode ser valioso estabelecer uma parceria com outra organização (ex.: uma organização da sociedade civil, uma organização da imprensa ou uma instituição educacional) para ampliar a sua base de participantes e para aumentar a sua exposição.
+Há farta documentação online sobre como promover esse tipo de evento. Você pode encontrar essas referências procurando por coisas tais como 'desconferência', 'barcamp', 'meetup', 'speedgeek', 'palestra relâmpago', e por aí vai. Você pode também achar que vale a pena contatar pessoas que tenham promovido esses tipos de eventos em outros países, que muito provavelmente estarão interessados em ajudá-lo e aconselhá-lo em relação ao seu evento. Pode ser valioso estabelecer uma parceria com outra organização (ex.: uma organização da sociedade civil, uma organização da imprensa ou uma instituição educacional) para ampliar a sua base de participantes e para aumentar a sua exposição.
 
 ## Fazer coisas! Hackdays, prêmios e protótipos
 

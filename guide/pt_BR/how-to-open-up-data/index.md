@@ -25,7 +25,7 @@ Há quatro passos principais ao abrir dados. Cada um deles será abordado em det
 2.  **Use uma licença livre.**
     1.  Verifique os direitos de propriedade intelectual dos dados.
 
-> 2.  Use uma licença ‘livre’ apropriada para licenciar todos esses direitos e que dê suporte à definição de abertura discutida na seção ‘Que Dados Abertos’
+> 2.  Use uma licença 'livre' apropriada para licenciar todos esses direitos e que dê suporte à definição de abertura discutida na seção 'Que Dados Abertos'
 > 3.  Nota: se você não puder fazer isso, volte ao passo um e tente com outro conjunto de dados.
 
 3.  **Disponibilize os dados** - em grande volume e num formato útil. Você também pode considerar meios alternativos de torná-los disponíveis, tais como por uma API.
@@ -39,7 +39,7 @@ Se você já sabe exatamente qual(is) conjunto(s) de dados pretende abrir, vá d
 
 Fazer esta lista é um processo rápido, para identificar os conjuntos de dados que podem ser abertos em primeiro lugar. Haverá tempo, nos próximos passos, para conferir em detalhes se cada conjunto de dados é adequado.
 
-**Não é necessário** criar uma lista abrangente dos seus conjuntos de dados. O ponto principal para se ter em mente é se é mesmo viável publicar esses dados (de maneira aberta ou não) - veja est seção \<what-data-can-be-open\>’.
+**Não é necessário** criar uma lista abrangente dos seus conjuntos de dados. O ponto principal para se ter em mente é se é mesmo viável publicar esses dados (de maneira aberta ou não) - veja est seção \<what-data-can-be-open\>'.
 
 Pergunte à comunidade
 ----------------------------------------------------------------------------------------------------

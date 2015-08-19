@@ -88,7 +88,7 @@ Postoji mnogo različith načina za pokretanje događanja, te mnoštvo njihovih 
 -   Dati improvizirane, kratke prezentacije o stvarima na kojima rade
 -   Voditi radionice o nečemu što ih interesira
 
-Mnogo je online dokumentacije koja objašnjava kako organizirati ovakve tipove događanja, koju možete naći tražeći : ‘unconference’, ‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’, itd. Ne bi bilo loše i kontaktirati ljude koji su organizirali događanja u inozemstvu te koji bi vam mogli pomoći i savjetovati vas u vezi vašeg događanja. Također, moglo bi biti korisno ući u partnerstvo s nekom drugom organizacijom (npr. društvenom organizacijom, organizacijom koja prenosi vijesti ili obrazovnom institucijom) kako bi proširili bazu sudionika, te povećali izloženost.
+Mnogo je online dokumentacije koja objašnjava kako organizirati ovakve tipove događanja, koju možete naći tražeći : 'unconference', 'barcamp', 'meetup', 'speedgeek', 'lightning talk', itd. Ne bi bilo loše i kontaktirati ljude koji su organizirali događanja u inozemstvu te koji bi vam mogli pomoći i savjetovati vas u vezi vašeg događanja. Također, moglo bi biti korisno ući u partnerstvo s nekom drugom organizacijom (npr. društvenom organizacijom, organizacijom koja prenosi vijesti ili obrazovnom institucijom) kako bi proširili bazu sudionika, te povećali izloženost.
 
 ## Djelovanje! Dani hakiranja, nagrade i prototipovi
 
