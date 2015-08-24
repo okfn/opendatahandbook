@@ -15,7 +15,7 @@ Noi recomandăm să fie urmate trei reguli de bază când se deschid date:
 
 -   **Colaborează devreme și colaborează des.** Colaborează cu utilizatori reali, potențiali și care refolosesc datele cât mai devreme și cât de des poți, fie aceștia cetățeni, afaceriști sau dezvoltatori. Astfel te vei asigura că următoarea iterație a serviciului tău va fi cât mai relevantă.
 
-> Este esențial să ai în vedere că o mare pare din date nu va ajunge la utilizatorii finali în mod direct, ci prin „info-mediari”. Aceștia sunt oamenii care iau datele și le transformă sau le recombină pentru prezentare. De exemplu, cei mai mulți dintre noi nu doresc sau nu au nevoie de o bază mare de date cu coordonate GPS, în schimb preferăm o hartă. De aceea, e bine să colaborezi prima dată cu infomediarii. Ei vor refolosi și vor găsi noi utilități materialului.
+> Este esențial să ai în vedere că o mare pare din date nu va ajunge la utilizatorii finali în mod direct, ci prin "info-mediari". Aceștia sunt oamenii care iau datele și le transformă sau le recombină pentru prezentare. De exemplu, cei mai mulți dintre noi nu doresc sau nu au nevoie de o bază mare de date cu coordonate GPS, în schimb preferăm o hartă. De aceea, e bine să colaborezi prima dată cu infomediarii. Ei vor refolosi și vor găsi noi utilități materialului.
 
 -   **Abordează temerile și confuziile comune.** Acest lucru este foarte important dacă lucrezi cu sau într-o instituție mare cum sunt cele guvernamentale. Când deschizi date, te vei lovi de o serie de întrebări și temeri. Este foarte important (a) să le identifici pe cele mai importante și (b) să le abordezi, pe cât posibil, din primele etape.
 
@@ -25,7 +25,7 @@ Deschiderea datelor presupune efecturarea a patru pași de bază, fiecare dintre
 2.  *\* Folosește o licență deschisă.*\*
     1.  Determină ce drepturi de proprietate intelectuală sunt în date.
 
-> 2.  Aplică o licență „deschisă” potrivită care cuprinde toate aceste drepturi și se încadrează la definiția deschiderii care a fost discutată în secțiunea anterioară despre „Ce sunt datele deschise”.
+> 2.  Aplică o licență "deschisă" potrivită care cuprinde toate aceste drepturi și se încadrează la definiția deschiderii care a fost discutată în secțiunea anterioară despre "Ce sunt datele deschise".
 > 3.  Observație: dacă nu poți să treci de acest pas, întoarce-te la primul pas și alege un alt set de date.
 
 3.  **Pune datele la dispoziție** - tot volumul și într-un format accesibil. S-ar putea să iei în considerare alternative de publicare, cum este, de exemplu, o interfață de programare.
@@ -39,7 +39,7 @@ Dacă știi deja care sunt seturile de date pe care intenționezi să le deschiz
 
 Crearea acestei liste ar trebui să fie un proces rapid care identifică ce seturi de date pot fi deschise încă de la început. Va fi timp în fazele ulterioare pentru verificarea în detaliu dacă fiecare set de date este potrivit.
 
-Nu există **nici o cerință** pentru crearea unei liste atotcuprinzătoare a seturilor tale de date. Principalul lucru de care trebuie ținut seama este fezabilitatea publicării acestor date (fie deschis, fie în alt fel) – vezi [secțiunea “Care Date” de mai sus](../what-is-open-data/).
+Nu există **nici o cerință** pentru crearea unei liste atotcuprinzătoare a seturilor tale de date. Principalul lucru de care trebuie ținut seama este fezabilitatea publicării acestor date (fie deschis, fie în alt fel) – vezi [secțiunea "Care Date" de mai sus](../what-is-open-data/).
 
 ### Consultarea comunității
 
@@ -57,7 +57,7 @@ Nu există **nici o cerință** pentru crearea unei liste atotcuprinzătoare a s
 
 Câți bani cheltuiesc instituțiile pentru colectarea și administrarea datelor pe cale le dețin? În cazul în care cheltuiala este mare pentru un anumit set de date, atunci este foarte probabil ca alții să dorească să le acceseze.
 
-Acest argument poate fi destul de vulnerabil în fața temerilor privind beneficii nemeritate. Întrebarea la care va trebui să răspunzi este “de ce să obțină alte persoane în mod gratuit informații care sunt atât de costisitoare?”. Răspunsul este că acest cost este suportat de sectorul public pentru îndeplinirea unei anumite funcții. Costul transmiterii acestor date către terți, odată ce acestea au fost colectate, este practic nul. De aceea, nu ar trebui percepută nici o taxă.
+Acest argument poate fi destul de vulnerabil în fața temerilor privind beneficii nemeritate. Întrebarea la care va trebui să răspunzi este "de ce să obțină alte persoane în mod gratuit informații care sunt atât de costisitoare?". Răspunsul este că acest cost este suportat de sectorul public pentru îndeplinirea unei anumite funcții. Costul transmiterii acestor date către terți, odată ce acestea au fost colectate, este practic nul. De aceea, nu ar trebui percepută nici o taxă.
 
 ### Ușurința de publicare
 

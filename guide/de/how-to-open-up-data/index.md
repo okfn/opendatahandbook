@@ -25,7 +25,7 @@ Die Offenlegung von Daten umfasst hauptsächlich 4 Schritte, die weiter unten im
 2.  **Vergeben sie eine offene Lizenz.**
     1.  Stellen sie fest, wer das Urheberrecht an den Daten besitzt, um die es geht.
 
-> 2.  Stellen sie die Daten unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt. Mehr dazu erfahren sie im Abschnitt ‘What Open Data’
+> 2.  Stellen sie die Daten unter eine geeignete Lizenz, die den Nutzern größtmöglichen Spielraum beim Umgang mit den Daten einräumt und den Anforderungen an Offenheit genügt. Mehr dazu erfahren sie im Abschnitt 'What Open Data'
 > 3.  Falls das nicht möglich ist, gehen sie zurück zu Schritt 1 und suchen sie eine andere Datensammlung.
 
 3.  **Machen sie die Daten verfügbar** - als Massen-Download und in nützlichen Formaten. Bedenken sie auch die Veröffentlichung auf alternativen Wegen wie z.B. über eine API.

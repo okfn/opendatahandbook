@@ -11,13 +11,13 @@ Teknologi baru sekarang memungkinkan untuk membangun layanan yang menjawab perta
 
 Gagasan dari {term:data terbuka} dan khususnya {term:data terbuka pemerintah} - informasi, publik atau lainnya, di mana setiap orang bebas untuk mengakses dan menggunakan ulang untuk berbagai tujuan - sudah bergulir dalam beberapa tahun ini. Pada tahun 2009 data terbuka mulai terlihat dalam arus utama, beberapa pemerintah (seperti di Amerika Serikat, Inggris, Kanada dan Selandia Baru) mengumumkan inisiatif baru dengan membuka informasi publik mereka.
 
-Buku ini menjelaskan konsep dasar dari ‘data terbuka’, khususnya yang berkaitan dengan pemerintahan. Buku ini melingkupi bagaimana data terbuka dapat menghasilkan nilai-nilai dan dapat berdampak positif pada area yang berbeda. Sebagai tambahan dalam mengeksplorasi latar belakangnya, buku pegangan ini juga menyuguhkan data konkrit tentang bagaimana memproduksi data terbuka.
+Buku ini menjelaskan konsep dasar dari 'data terbuka', khususnya yang berkaitan dengan pemerintahan. Buku ini melingkupi bagaimana data terbuka dapat menghasilkan nilai-nilai dan dapat berdampak positif pada area yang berbeda. Sebagai tambahan dalam mengeksplorasi latar belakangnya, buku pegangan ini juga menyuguhkan data konkrit tentang bagaimana memproduksi data terbuka.
 
 ## Target Pemirsa
 
 Buku pegangan ini telah memiliki khalayak yang luas:
 
--   bagi mereka yang belum pernah mendengar tentang data terbuka sebelumnya dan bagi mereka yang telah berpengalaman dalam ‘data profesional’
+-   bagi mereka yang belum pernah mendengar tentang data terbuka sebelumnya dan bagi mereka yang telah berpengalaman dalam 'data profesional'
 -   untuk pelayan masyarakat dan para aktivis
 -   untuk para jurnalis dan peneliti
 -   untuk politisi dan pengembang

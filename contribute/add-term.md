@@ -42,6 +42,6 @@ Write the term definition after the front matter as usual.
 
 ## 4. Make a pull request
 
-Click on “Create a new branch for this commit and start a pull request.” This will allow us to review your changes.
+Click on "Create a new branch for this commit and start a pull request." This will allow us to review your changes.
 
 Thank you! All done! If the handbook editors are happy with your term, it will be added to the glossary.

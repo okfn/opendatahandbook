@@ -11,13 +11,13 @@ New technologies now make it possible to build the services to answer these ques
 
 The notion of [open data](/glossary/en/terms/open-data/) and specifically {term:open government data} - information, public or otherwise, which anyone is free to access and re-use for any purpose - has been around for some years. In 2009 open data started to become visible in the mainstream, with various governments (such as the USA, UK, Canada and New Zealand) announcing new initiatives towards opening up their public information.
 
-This book explains the basic concepts of ‘open data’, especially in relation to government. It covers how open data creates value and can have a positive impact in many different areas. In addition to exploring the background, the handbook also provides concrete information on how to produce open data.
+This book explains the basic concepts of 'open data', especially in relation to government. It covers how open data creates value and can have a positive impact in many different areas. In addition to exploring the background, the handbook also provides concrete information on how to produce open data.
 
 ## Target Audience
 
 This handbook has a broad audience:
 
--   for those who have never heard of open data before and those who consider themselves seasoned ‘data professionals’
+-   for those who have never heard of open data before and those who consider themselves seasoned 'data professionals'
 -   for civil servants and for activists
 -   for journalists and researchers
 -   for politicians and developers

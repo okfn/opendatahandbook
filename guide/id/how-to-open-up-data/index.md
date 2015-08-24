@@ -15,7 +15,7 @@ Terdapat tiga aturan kunci yang kami rekomendasikan saat membuka data:
 
 -   **Terlibat dari awal dan melibatkan diri sesering mungkin.** Melibatkan diri sesering mungkin dengan para pengguna aktual dan yang potensial serta dengan pengguna yang menggunakan ulang data, jadilah warga mereka, bisnis mereka atau menjadi pengembang mereka. Ini akan memastikan bahwa pada siklus berikutnya dari layanan anda menjadi lebih relevan lagi.
 
-> Sangat penting untuk diingat bahwa banyak data tidak akan menjangkau pengguna akhir secara langsung, melainkan melalui ‘mediator-info’. Mereka ini adalah orang-orang yang mengambil data dan mentransformasinya atau meramunya untuk dipresentasikan. Sebagai contoh, kebanyakan dari kita tidak ingin atau butuh dengan sebuah basisdata yang besar dari koordinat GPS, melainkan kita lebih memilih sebuah peta. Oleh karena itu, awali berhubungan dengan para mediator info ini. Mereka akan menggunakan ulang dan mendaur guna material tersebut.
+> Sangat penting untuk diingat bahwa banyak data tidak akan menjangkau pengguna akhir secara langsung, melainkan melalui 'mediator-info'. Mereka ini adalah orang-orang yang mengambil data dan mentransformasinya atau meramunya untuk dipresentasikan. Sebagai contoh, kebanyakan dari kita tidak ingin atau butuh dengan sebuah basisdata yang besar dari koordinat GPS, melainkan kita lebih memilih sebuah peta. Oleh karena itu, awali berhubungan dengan para mediator info ini. Mereka akan menggunakan ulang dan mendaur guna material tersebut.
 
 -   **Mengatasi kekhawatiran umum dan kesalahpahaman**. Hal ini terutama penting jika anda bekerja dengan institusi besar seperti pemerintahan. Ketika membuka data anda akan dihadapkan pada banyak pertanyaan dan kekhawatiran. Hal ini penting untuk (a) mengidentifikasi hal-hal yang paling penting (b) dan mengarahkan mereka ke tahap awal sedini mungkin.
 
@@ -25,7 +25,7 @@ Ada empat langkah utama dalam membuat data terbuka, yang masing-masing akan diba
 2.  **Menerapkan lisensi terbuka.**
     1.  Tentukan hak kekayaan intelektual yang ada dalam data.
 
-> 2.  Terapkan lisensi ‘terbuka’ yang tepat yang dapat melisensi semua hak dan mendukung diskusi definisi tentang keterbukaan pada seksi ‘Apakah Data Terbuka’ di atas.
+> 2.  Terapkan lisensi 'terbuka' yang tepat yang dapat melisensi semua hak dan mendukung diskusi definisi tentang keterbukaan pada seksi 'Apakah Data Terbuka' di atas.
 > 3.  NB: bila anda tidak dapat melakukan ini maka kembalilah ke langkah 1 dan cobalah dengan kumpulan data berbeda.
 
 3.  **Menjadikan data tersedia** - secara masal dan format yang berguna. Anda mungkin juga mempertimbangkan cara alternatif untuk membuatnya menjadi tersedia misalnya seperti melalui sebuah API.

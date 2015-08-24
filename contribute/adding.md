@@ -34,7 +34,7 @@ Assuming you are creating this in the '*en*' directory, this would result in a U
 
 <div class="note">
   <h6>Note</h6>
-  <p>The actual words used in your file name are not crucial. It’s fine to use a more succinct version of your page title, for example.</p>
+  <p>The actual words used in your file name are not crucial. It's fine to use a more succinct version of your page title, for example.</p>
 </div>
 
 ## 3. Formatting your content
@@ -59,13 +59,13 @@ This step is the same as when editing a page. You need to start your file with t
      * a
      * list
 
-When you’re done, click '*Propose new file*'.
+When you're done, click '*Propose new file*'.
 
 ## 4. Make a pull request
 
 Once you have created your page(s) and updated the contents document, you're ready to make your pull request. Click the pull request icon to the right of the screen <code class="icon-git-pull-request"><span>[git pull-request icon]</span></code>, then click '*New pull request*'.
 
-At the top of the resulting comparison screen, you’ll see a row of select boxes. You want to make sure these are configured like so:
+At the top of the resulting comparison screen, you'll see a row of select boxes. You want to make sure these are configured like so:
 
 <div class="github panel">
   <div class="range-editor">

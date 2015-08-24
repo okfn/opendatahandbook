@@ -7,13 +7,13 @@ title: Come aprire i dati
 
 Questa sezione costituisce il nucleo centrale del manuale: fornisce consigli concreti e dettagliati ai detentori di dati che intendano aprirli. Sono esaminate le questioni fondamentali e i principali rischi. Saranno infine discusse anche le problematiche più complesse che si possono presentare.
 
-Ci sono tre regole fondamentali che si consiglia di seguire nell’apertura dei dati:
+Ci sono tre regole fondamentali che si consiglia di seguire nell'apertura dei dati:
 
 -   **Scegliere la semplicità**. Cominciare con un progetto piccolo, semplice e veloce. Non è necessario aprire tutti i dati in una sola volta. Inizialmente va bene aprire anche un solo dataset, o anche una sua parte – naturalmente, più dati si aprono, meglio è.
 
 > Da ricordare che è innovazione. Muoversi il più in fretta possibile è bene, perché significa prendere slancio e imparare dall'esperienza -- innovare comporta successi ed errori, e non tutte le banche dati saranno utili.
 
--   **Coinvolgere gli utenti fin dall’inizio e coinvolgerli spesso.** Cercare presto e spesso il confronto con i potenziali utilizzatori dei dati fra cittadini, imprese o sviluppatori Ciò aumenterà la rilevanza dell’iniziativa durante tutto il suo percorso.
+-   **Coinvolgere gli utenti fin dall'inizio e coinvolgerli spesso.** Cercare presto e spesso il confronto con i potenziali utilizzatori dei dati fra cittadini, imprese o sviluppatori Ciò aumenterà la rilevanza dell'iniziativa durante tutto il suo percorso.
 
 > È essenziale tenere presente che gran parte dei dati non raggiungeranno gli utenti finali direttamente, ma tramite 'info-intermediari'. Queste sono le persone che prendono i dati e li trasformano o li remixano per la presentazione. Ad esempio, la maggior parte di noi non vuole o non ha bisogno di un grande database di coordinate GPS, preferiamo decisamente una mappa. Così coinvolgete da subito gli info-intermediari, in modo che essi possano riutilizzare e riadattare i vostri dati.
 
@@ -33,21 +33,21 @@ Ci sono quattro passi principali per rendere i dati aperti, saranno tutte affron
 
 ## Scegliere le banche dati
 
-La scelta dei dati che si prevede di rendere aperti è il primo passo da compiere - anche se è bene ricordare che l’intero processo di apertura dei dati è iterativo e pertanto rimane possibile tornare indietro qualora si presentino problemi.
+La scelta dei dati che si prevede di rendere aperti è il primo passo da compiere - anche se è bene ricordare che l'intero processo di apertura dei dati è iterativo e pertanto rimane possibile tornare indietro qualora si presentino problemi.
 
-Se si ha già esattamente un’idea di quali dati si prevede di aprire si può passare direttamente alla sezione successiva. In molti casi, tuttavia, soprattutto nel caso delle grandi istituzioni, stabilire con quale insieme di dati cominciare è sempre una sfida. Come si dovrebbe procedere in questo caso?
+Se si ha già esattamente un'idea di quali dati si prevede di aprire si può passare direttamente alla sezione successiva. In molti casi, tuttavia, soprattutto nel caso delle grandi istituzioni, stabilire con quale insieme di dati cominciare è sempre una sfida. Come si dovrebbe procedere in questo caso?
 
 Creare una lista potrebbe aiutare a velocizzare il processo di identificazione dei dati con cui cominciare il processo di apertura. In un momento successivo sarà possibile poi verificare nel dettaglio se tutte le banche dati sono adatte allo scopo.
 
-Non vi è **alcun obbligo** di creare un elenco completo dei dataset. Il punto principale da considerare è se sia possibile pubblicare questi dati o meno (qualsiasi sia l’approccio scelto, aperto o meno) - si veda [la sezione](../what-is-open-data/).
+Non vi è **alcun obbligo** di creare un elenco completo dei dataset. Il punto principale da considerare è se sia possibile pubblicare questi dati o meno (qualsiasi sia l'approccio scelto, aperto o meno) - si veda [la sezione](../what-is-open-data/).
 
 ### Consultare la comunità
 
-E’ consigliabile in primo luogo consultare la comunità. I soggetti che accederanno ed utilizzeranno i dati sono infatti nella migliore posizione per identificare quali dati siano di particolare valore.
+E' consigliabile in primo luogo consultare la comunità. I soggetti che accederanno ed utilizzeranno i dati sono infatti nella migliore posizione per identificare quali dati siano di particolare valore.
 
-1.  Si può preparare un breve elenco di dataset potenziali su cui si desidera avere un feedback. Non è indispensabile che questa lista coincida con le vostre aspettative, l’intento principale è quello di avere una prima idea delle esigenze. L’elenco potrebbe ad esempio ispirarsi a cataloghi di [open data](/glossary/it/terms/open-data/) di altri paesi.
+1.  Si può preparare un breve elenco di dataset potenziali su cui si desidera avere un feedback. Non è indispensabile che questa lista coincida con le vostre aspettative, l'intento principale è quello di avere una prima idea delle esigenze. L'elenco potrebbe ad esempio ispirarsi a cataloghi di [open data](/glossary/it/terms/open-data/) di altri paesi.
 2.  Creare una richiesta per ottenere commenti.
-3.  Pubblicizzare la richiesta di commenti in una pagina web e assicurarsi che sia possibile accedere alla richiesta attraverso l’URL indicato. In questo modo, in caso di condivisione attraverso social media, la richiesta risulterà facilmente reperibile.
+3.  Pubblicizzare la richiesta di commenti in una pagina web e assicurarsi che sia possibile accedere alla richiesta attraverso l'URL indicato. In questo modo, in caso di condivisione attraverso social media, la richiesta risulterà facilmente reperibile.
 4.  Le risposte devono poter essere inviate attraverso una procedura semplice. É da evitare la richiesta di commenti previa registrazione perché ciò riduce il numero di risposte.
 5.  Utilizzare mailing list, forum e soggetti rilevanti per far condividere la richiesta attraverso un link diretto alla pagina web.
 6.  Si può organizzare uno speciale evento di consultazione. É importante riuscire a trovare un orario conveniente per chi lavora in ufficio, nell'area commerciale e per gli sviluppatori.
@@ -73,7 +73,7 @@ Open data è un movimento in crescita. Probabilmente nella vostra zona molte per
 
 Nella maggior parte delle legislazioni nazionali ci sono diritti di proprietà intellettuale dei dati che impediscono a terzi l'uso, il riutilizzo e la ridistribuzione dei dati senza un'autorizzazione esplicita. Anche nei casi in cui l'esistenza di diritti è incerta, è importante applicare una licenza per motivi di chiarezza. Così, *\* se stai progettando di rendere i tuoi dati disponibili, dovresti mettere una licenza su di essi*\* - e se volete che i vostri dati siano aperti\_ questo è ancora più importante.
 
-Quali licenze usare? Per i dati aperti consigliamo una licenza che sia compatibile con la Open Definition e che sia applicabile ai dati. Una lista (con le relative istruzioni per l’uso) si può trovare presso:
+Quali licenze usare? Per i dati aperti consigliamo una licenza che sia compatibile con la Open Definition e che sia applicabile ai dati. Una lista (con le relative istruzioni per l'uso) si può trovare presso:
 
 -   <http://opendefinition.org/licenses/>
 
@@ -91,7 +91,7 @@ I dati dovrebbero essere dispinibili ad una tariffa non superiore al ragionevole
 
 **In bulk**
 
-I dati dovrebbero essere disponibili come insieme completo. Se ad esempio si dispone di un registro mantenuto per obblighi di legge, allora l’intero registro dovrebbe essere disponibile per il download. Una API web o un servizio simile possono essere molto utili, ma non possono sostituire l’accesso diretto ai dati.
+I dati dovrebbero essere disponibili come insieme completo. Se ad esempio si dispone di un registro mantenuto per obblighi di legge, allora l'intero registro dovrebbe essere disponibile per il download. Una API web o un servizio simile possono essere molto utili, ma non possono sostituire l'accesso diretto ai dati.
 
 **In an open, machine-readable format**
 

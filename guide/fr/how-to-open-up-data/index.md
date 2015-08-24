@@ -5,7 +5,7 @@ lang: fr
 title: Comment ouvrir les données
 ---
 
-This section forms the core of this handbook. It gives concrete, detailed advice on how data holders can open up data. We’ll go through the basics, but also cover the pitfalls. Lastly, we will discuss the more subtle issues that can arise.
+This section forms the core of this handbook. It gives concrete, detailed advice on how data holders can open up data. We'll go through the basics, but also cover the pitfalls. Lastly, we will discuss the more subtle issues that can arise.
 
 Nous recommandons l'utilisation de trois règles clés lors de la publication de données.
 
@@ -15,7 +15,7 @@ Nous recommandons l'utilisation de trois règles clés lors de la publication de
 
 -   **Engage early and engage often.** Engage with actual and potential users and re-users of the data as early and as often as you can, be they citizens, businesses or developers. This will ensure that the next iteration of your service is as relevant as it can be.
 
-    It is essential to bear in mind that much of the data will not reach ultimate users directly, but rather via ‘info-mediaries’. These are the people who take the data and transform or remix it to be presented. For example, most of us don’t want or need a large database of GPS coordinates, we would much prefer a map. Thus, engage with infomediaries first. They will re-use and repurpose the material.
+    It is essential to bear in mind that much of the data will not reach ultimate users directly, but rather via 'info-mediaries'. These are the people who take the data and transform or remix it to be presented. For example, most of us don't want or need a large database of GPS coordinates, we would much prefer a map. Thus, engage with infomediaries first. They will re-use and repurpose the material.
 
 -   **Address common fears and misunderstandings**. This is especially important if you are working with or within large institutions such as government. When opening up data you will encounter plenty of questions and fears. It is important to (a) identify the most important ones and (b) address them at as early a stage as possible.
 
@@ -25,7 +25,7 @@ Il y a quatre étapes principales pour ouvrir les données, et chacune d'entre e
 2.  **Appliquer une licence ouverte.**
     1.  Déterminer quels droits de propriété intellectuelles existent dans les données.
 
-> 2.  Appliquer une licence ‘ouverte’ adaptée pour l'ensemble des droits et adhérer à la définition sur l'ouverture discuté dans la section ‘Qu'est-ce que l'Open Data?’
+> 2.  Appliquer une licence 'ouverte' adaptée pour l'ensemble des droits et adhérer à la définition sur l'ouverture discuté dans la section 'Qu'est-ce que l'Open Data?'
 > 3.  NB: si vous n'arrivez pas à faire cela, retournez à l'étape 1 et essayez un autre ensemble de données.
 
 3.  **Rendez les données disponibles** - en gros ensembles et dans des formats utiles. Vous pourriez aussi considérer d'autres solutions, comme de les rendre disponibles au travers d'une API.

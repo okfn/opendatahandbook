@@ -99,7 +99,7 @@ EU
 
 :   歐盟
 
-EU PSI Directive *公部門資訊重新使用指令 (The Directive on the re-use of public sector information) , 2003/98/EC.* "處理的是公部門單位如何加強他們對資訊資源的重新使用” Legislative Actions - PSI Directive\<http://ec.europa.eu/information\_society/policy/psi/actions\_eu/policy\_actions/index\_en.htm\>
+EU PSI Directive *公部門資訊重新使用指令 (The Directive on the re-use of public sector information) , 2003/98/EC.* "處理的是公部門單位如何加強他們對資訊資源的重新使用" Legislative Actions - PSI Directive\<http://ec.europa.eu/information\_society/policy/psi/actions\_eu/policy\_actions/index\_en.htm\>
 
 Information Asset Register
 

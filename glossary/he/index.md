@@ -25,7 +25,7 @@ Data protection legislation חקיקה להגנה על מידע לא קיימת 
 
 PSI
 
-:   ראו :מונח:’מידע מהסקטור הציבור'.
+:   ראו :מונח:'מידע מהסקטור הציבור'.
 
 Public Sector Information
 
@@ -39,7 +39,7 @@ Application Programming Interface הדרך בה תוכנות מחשב מדברו
 
 Web API
 
-:   :מונח:’API’המיועד לעבודה באינטרנט/
+:   :מונח:'API'המיועד לעבודה באינטרנט/
 
 Share-alike License רישיון הדורש מהמשתמשים לספק את התוכן, תחת תנאים זהים או קרובים למקוריים.
 
@@ -83,7 +83,7 @@ EU PSI Directive ה\*הנחיה לאחזור מידע ציבורי\* (Directive 
 
 Information Asset Register רשימות IAR מיועדות לאסוף ולארגן מידע-על, על כמויות המידע העצומות המצויות בידי משרדים וגופים ממשלתיים. רשימה כזו כוללת בסיסי נתונים, רשימות של קבצי עבר, קבצים חדשים, אוספים של סטטיסטיקה, מחקר, וכדומה.
 
-> ה- :מונח:’EU PSI Directive.’ מכיר בחשיבות רשימות המידע לצורך אחזור של מידע ציבורי. גוף זה דורש מהמדינות החברות בו ,לספק רשימות, פורטלים, או משהו דומה. הוא מצהיר:
+> ה- :מונח:'EU PSI Directive.' מכיר בחשיבות רשימות המידע לצורך אחזור של מידע ציבורי. גוף זה דורש מהמדינות החברות בו ,לספק רשימות, פורטלים, או משהו דומה. הוא מצהיר:
 >
 > > Tools that help potential re-users to find documents available for re-use and the conditions for re-use can facilitate considerably the cross-border use of public sector documents. Member States should therefore ensure that practical arrangements are in place that help re-users in their search for documents available for reuse. Assets lists, accessible preferably online, of main documents (documents that are extensively re-used or that have the potential to be extensively re-used), and portal sites that are linked to decentralised assets lists are examples of such practical arrangements.
 >
@@ -93,6 +93,6 @@ Information Asset Register רשימות IAR מיועדות לאסוף ולארג
 >
 > חשוב ביותר, שהמטא דאטה של רשימות ה- IAR יהיה מפורט, כך שמנועי חיפוש יוכלו לחפש בו ביעילות. ברוח המידע הממשלתי הפתוח, גופים ציבוריים צרכים להפוך לזמינות את רשימות ה- IAR שלהם כחומר גלם, תחת רישיון פתוח, כך שהאקרים לגיטימיים יוכלו להשתמש במידע, לדוגמה, על-ידי בניית מנועי חיפוש וממשקי משתמש.
 
-Open Government Data :מונח:’מידע פתוח הנוצר על-ידי הממשלה.’ זהו מידע הנוצר במהלך הפעילות השגרתית של משרדי הממשלה ,מבלי שהוא חושף יחידים או מידע מסחרי רגיש. מידע ממשלתי פתוח הינו תת-מערך של :מונח:’מידע מהסקטור הציבורי’, שהינו רחב יותר. לפרטים, ראו <http://opengovernmentdata.org>.
+Open Government Data :מונח:'מידע פתוח הנוצר על-ידי הממשלה.' זהו מידע הנוצר במהלך הפעילות השגרתית של משרדי הממשלה ,מבלי שהוא חושף יחידים או מידע מסחרי רגיש. מידע ממשלתי פתוח הינו תת-מערך של :מונח:'מידע מהסקטור הציבורי', שהינו רחב יותר. לפרטים, ראו <http://opengovernmentdata.org>.
 
-Tab-separated values ערכים מופרדי טאב (TSV), הם צורה מקובלת של פורמט קבצי טקסט לשיתוף מידע טבלאי. פורמט זה פשוט מאוד ו:מונח:’קריא על-ידי מחשב.
+Tab-separated values ערכים מופרדי טאב (TSV), הם צורה מקובלת של פורמט קבצי טקסט לשיתוף מידע טבלאי. פורמט זה פשוט מאוד ו:מונח:'קריא על-ידי מחשב.
