@@ -4,7 +4,7 @@ lang: en
 title: Machine readable
 ---
 
-Data in a data format that can be automatically read and processed by a computer, such as [CSV](../csv/), [JSON](../json/), [XML](../xml/), etc. Machine-readable data must be structured data. Compare [human-readable][hr].
+Data in a data format that can be automatically read and processed by a computer, such as [CSV](../csv/), [JSON](../json/), [XML](../xml/), etc. Machine-readable data must be [structured data](../structured-data/). Compare [human-readable][hr].
 
 [hr]: ../human-readable/
 

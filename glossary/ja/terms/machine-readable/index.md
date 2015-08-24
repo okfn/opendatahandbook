@@ -4,7 +4,7 @@ lang: ja
 title: 機械可読
 ---
 
-Machine readable。コンピュータが自動的に読み込んで処理できるデータ形式のデータ。たとえば[CSV](../csv/),[JSON](../json/), [XML](../xml/)など。機械可読なデータは{構造化データ}でなければならない。比較参照：[人間可読][hr]。
+Machine readable。コンピュータが自動的に読み込んで処理できるデータ形式のデータ。たとえば[CSV](../csv/),[JSON](../json/), [XML](../xml/)など。機械可読なデータは[構造化データ](../structured-data/)でなければならない。比較参照：[人間可読][hr]。
 
 [hr]: ../human-readable/
 
