@@ -11,7 +11,15 @@ Há muitas áreas onde dados abertos têm valor e exemplos de como eles são usa
 
 Já é possível apontar muitas áreas onde os dados abertos governamentais estão criando valor. Algumas dessas áreas são:
 
--   Transparency and democratic control \* Participation \* Self-empowerment \* Improved or new private products and services \* Innovation \* Improved efficiency of government services \* Improved effectiveness of government services \* Impact measurement of policies \* Produzir novos conhecimentos a partir da combinação de várias fontes de dados e enxergar padrões em grandes volumes de dados
+-   Transparência e controle da Democracia 
+-   Participation 
+-   Self-empowerment 
+-   Melhoria ou criação de produtos e serviços privados
+-   Inovação
+-   Melhoria na eficiência dos serviços públicos
+-   Melhoria na efetividade dos serviços públicos
+-   Acompanhamento do impacto de politicas públicas
+-   Produzir novos conhecimentos a partir da combinação de várias fontes de dados e enxergar padrões em grandes volumes de dados
 
 Existem exemplos para a maioria dessas áreas.
 
