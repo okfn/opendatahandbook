@@ -9,7 +9,7 @@ Deze sectie vormt de kern van dit handboek. Het geeft concreet, gedetailleerd ad
 
 Er zijn drie hoofdregels die wij aanraden te volgen wanneer men data open wil maken.
 
--   **Hou het simpel.** Begin klein, eenvoudig en snel. Er is geen vereiste dat else dataset direct op dit moment open gemaakt wordt. Begin met het open maken van een enkele dataset, of misschien zelfs maar een deel van een grote dataset, dit is prima -- natuurlijk, hoe meer datasets u kunt openen, hoe beter.
+-   **Hou het simpel.** Begin klein, eenvoudig en snel. Er is geen vereiste dat elke dataset direct op dit moment open gemaakt wordt. Begin met het open maken van een enkele dataset, of misschien zelfs maar een deel van een grote dataset, dit is prima -- natuurlijk, hoe meer datasets u kunt openen, hoe beter.
 
 > Vergeet niet dat dit over innovatie gaat. Zo snel mogelijk vooruit gaan is goed, omdat het betekent dat je momentum kan opbouwen en leren uit ervaring - innovatie gaat zowel over mislukking als over succes en niet elke dataset zal nuttig zijn.
 
