@@ -69,7 +69,7 @@ The benefit of open file formats is that they permit developers to produce multi
 
 Using proprietary file formats for which the specification is not publicly available can create dependence on third-party software or file format license holders. In worst-case scenarios, this can mean that information can only be read using certain software packages, which can be prohibitively expensive, or which may become obsolete.
 
-The preference from the {term:open government data} perspective therefore is that information be released in **open file formats which are machine-readable.**
+The preference from the [open government](/glossary/en/terms/open-government/) data perspective therefore is that information be released in **open file formats which are machine-readable.**
 
 ### Example: UK traffic data
 
