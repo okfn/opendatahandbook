@@ -82,7 +82,7 @@ A short 1-page instruction guide to applying an open data license can be found o
 
 ## Make Data Available (Technical Openness)
 
-[Open data](/glossary/en/terms/open-data/) needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a {term:machine-readable} format.
+[Open data](/glossary/en/terms/open-data/) needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a [machine-readable](/glossary/en/terms/machine-readable/) format.
 
 **Available**
 
