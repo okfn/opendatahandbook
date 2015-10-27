@@ -125,7 +125,7 @@ Third party sites can be very useful. The main reason for this is that they have
 
 Wholesale data platforms already provide the infrastructure which can support the demand. They often provide analytics and usage information. For public sector agencies, they are generally free.
 
-These platforms can have two costs. The first is independence. Your agency needs to be able to yield control to others. This is often politically, legally or operationally difficult. The second cost may be openness. Ensure that your data platform is agnostic about who can access it. Software developers and scientists use many operating sytems, from smart phones to supercomputers. They should all be able to access the data.
+These platforms can have two costs. The first is independence. Your agency needs to be able to yield control to others. This is often politically, legally or operationally difficult. The second cost may be openness. Ensure that your data platform is agnostic about who can access it. Software developers and scientists use many operating systems, from smart phones to supercomputers. They should all be able to access the data.
 
 #### Via FTP servers
 
