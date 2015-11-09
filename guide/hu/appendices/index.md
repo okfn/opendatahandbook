@@ -1,6 +1,6 @@
 ---
 section: guide
-lang: en
+lang: hu
 title: Függelék
 ---
 
