@@ -156,7 +156,7 @@ Az egyben történő letöltés lehetősége bizosítja, hogy:
 
 Az adatok egészben történő publikálása lehetővé teszi, hogy azokat az eredetitől eltérő célra használják. Például, más formátumba konvertálhatják őket, összevethetik őket más forrásokkal, verziókövetést alkalmazhatnak rajtuk vagy több helyen archiválhatják őket. Habár az adatok legfrissebb verzióját nyugodtan publikálhatjuk egy API-n keresztül, a nyers adatokat is célszerű egyben, szabályos időközönként publikálni.
 
-Például, az [az Eurostat statisztikai szolgáltatás](http://epp.eurostat.ec.europa.eu/) esetén az élő adatok mellett lehetőség van az adatok egyben történő letöltésére, az oldal közel 4 000 adatfájllal rendelkezik. Az oldal naponta kétszer frissül és  [Tab-separated values] (/glossary/en/terms/tab-separated-values/) (TSV) formátumban kínál letöltéseket. Továbbá, dokumentációt is tartalmaz a letöltés módjáról valamint az adatfájlokról.
+Például, az [Eurostat statisztikai szolgáltatás](http://epp.eurostat.ec.europa.eu/) esetén az élő adatok mellett lehetőség van az adatok egyben történő letöltésére, az oldal közel 4 000 adatfájllal rendelkezik. Az oldal naponta kétszer frissül és  [Tab-separated values] (/glossary/en/terms/tab-separated-values/) (TSV) formátumban kínál letöltéseket. Továbbá, dokumentációt is tartalmaz a letöltés módjáról valamint az adatfájlokról.
 
 Egy másik példa a [District of Columbia Data Catalog](http://opendata.dc.gov/), amely az aktuális élő adatok mellett lehetővé teszi adatok CSV és XLS formátumú letöltését.
 
