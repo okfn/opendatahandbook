@@ -20,7 +20,7 @@ Jelenleg is nagyszámú olyan területet ismerünk, ahol a nyílt állami adatok
 -   A szabályozások hatásainak mérése
 -   Új tudásanyagok létrehozása kombinált adatforrásokból és minták felfedezése nagy adatkötetekben
 
-A felsorolt területek legtöbbjére már létezik példa.
+A felsorolt területek legtöbbjére már találhatunk példákat.
 
 Az átláthatóság növelésére szolgáló projektek, például a finn "adó fa", vagy a brit "Where does my money go (hová kerül a pénzem)" segítenek nyomon követni, hogy az állam mire költi az adóbevételeit. Kanadában például a nyílt adatok segítettek felderíteni egy 3.2 milliárd dolláros jótékonysági adócsalást. Egyes weblapok, például a dánfolketingstidende.dk segítségével nyomon követhetjük a parlamenti tevékenységet és a törvényhozási folyamatot, így láthatjuk, hogy pontosan mi történik a parlamentben, és mely képviselők vesznek részt az egyes ügyekben.
 
