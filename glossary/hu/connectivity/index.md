@@ -1,7 +1,7 @@
 ---
 section: terms
 lang: hu
-title: Connectivity
+title: konnektivitás
 ---
 
 A konnektivitás a közösségek internetre, különösképp a World Wide Webre való csatlakozásának képességét jellemzi.
