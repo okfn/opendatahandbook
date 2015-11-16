@@ -13,7 +13,7 @@ It shows that one of the biggest beneficiaries of government open data programs 
 
 We emphasize this point that government itself is a major beneficiary of open data because it is distinct from - and complements - the more frequently cited benefits around innovation and transparency driven by third-party use in businesses and civil-society. As such, it provides a powerful additional reason for government to pursue an open data agenda.[^1] 
 
-[^1]: Obviously open data should only non-personal data. Much government data *is* personal in nature, for example, individual tax records or social security records. This peronsal data should and would never be shared as open data.
+[^1]: Personal data should generally not be published as open data unless there are strong public interest arguments for making this information available as part of the public record (e.g. in the case of information about company directors in company registries, or information in parliamentary records). Much government data *is* personal in nature, for example, individual tax records or social security records. This personal data would not be shared as open data.
 
 [open data]: http://okfn.org/opendata/
 
