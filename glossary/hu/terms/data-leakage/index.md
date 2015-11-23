@@ -1,4 +1,4 @@
- ---
+---
 section: terms
 lang: hu
 title: adatszivárgás
