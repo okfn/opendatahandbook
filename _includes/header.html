@@ -138,6 +138,25 @@
         <li class="search">
           <input type="search" placeholder="Search" class="quicksearch">
         </li>
+        {% capture appproblems %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.problem }},{% endif %}{% endfor %}{% endcapture %}
+        {% assign appproblemsArray = appproblems | split: "," %}
+        {% assign appproblemslist = appproblemsArray[1] %}
+        {% for at in appproblemsArray %}
+          {% unless appproblemslist contains at %}
+            {% capture appproblemslist %}{{ appproblemslist }}@@{{ at }}{% endcapture %}
+          {% endunless %}
+        {% endfor %}
+        {% assign appproblemssorted = appproblemslist | split: '@@' | sort %}
+
+        <li class="problems filter active">
+          <a>Problems</a>
+          <span class="filter-items">
+            {% for appproblem in appproblemssorted %}
+            <a data-filter=".selector-problem-{{ appproblem | downcase | replace:' ','' }}" data-pid=".problem-{{ appproblem | downcase | replace:' ','' }}">{{ appproblem }}</a>
+            {% endfor %}
+          </span>
+        </li>
+
         {% capture appthemes %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.themes }},{% endif %}{% endfor %}{% endcapture %}
         {% assign appthemesArray = appthemes | split: "," %}
         {% assign appthemeslist = appthemesArray[1] %}

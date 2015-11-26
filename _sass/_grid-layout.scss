@@ -1,6 +1,45 @@
 .resources {
   @include outer-container;
-  
+
+  .overviews {
+      @include span-columns(10);
+      @include shift(1);
+
+      @include media($medium-screen) {
+        @include span-columns(8);
+        @include shift(2);
+      }
+
+      .overview {
+          display: none;
+
+          &.active {
+              display: block;
+          }
+
+          h2 {
+              margin-bottom: $small-spacing;
+
+              strong {
+                  text-transform: uppercase;
+              }
+          }
+
+          h3 {
+              text-transform: uppercase;
+              margin-top: $base-spacing;
+              margin-bottom: $base-spacing;
+              border-bottom: 2px solid $dark-gray;
+              display: inline-block;
+              letter-spacing: 1px;
+          }
+
+          p {
+            margin-bottom: $small-spacing;
+          }
+      }
+  }
+
   h1 {
     display:inline-block;
     text-transform:uppercase;
@@ -20,8 +59,8 @@
     @include shift(1);
     margin-top: - $base-spacing / 2;
     margin-bottom:$base-spacing * 1.5;
-    font-family:$serif;
-    
+    font-style: italic;
+
     @include media($medium-screen) {
       @include span-columns(8);
       @include shift(2);
@@ -131,7 +170,21 @@
               font-weight:normal;
             }
           }
-          
+
+          .tag {
+              display: none;
+              @include media($medium-screen) {
+                  display: inline-block;
+                  position: absolute;
+                  top: $small-spacing;
+                  background-color: $dark-gray;
+                  text-transform: uppercase;
+                  font-size: 11px;
+                  padding: $small-spacing / 2 $small-spacing;
+                  line-height: 1.5;
+              }
+          }
+
           [class^="icon-"] {
             position:absolute;
             width:100%;
