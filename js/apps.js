@@ -34,6 +34,11 @@ $(document).ready(function() {
       $buttonGroup.on( 'click', 'a', function() {
         $('.app-sub-menu').find('.filter-items .active').removeClass('active');
         $( this ).addClass('active');
+
+        //active classes for overviews
+        $('.overviews').find('.overview.active').removeClass('active');
+        $('.overviews').find($(this).data("pid")).addClass('active');
+
       });
     });
 

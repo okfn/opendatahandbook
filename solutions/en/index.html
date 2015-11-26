@@ -1,8 +1,8 @@
 ---
 layout: default
 wide: true
-title: Solutions
-intro:
+title: Solutions Bank
+intro: In this section you'll find case studies of problems being tackled by open data.
 filters: true
 section: solutions-landing
 js:
@@ -16,12 +16,25 @@ redirect_from: "/solutions/"
   <h1>{{ page.title }}</h1>
   {% if page.intro %}
   <div class="intro">
-    {{ page.intro }} 
+    {{ page.intro }}
+    <br>
+    Filter solutions by <strong>problem</strong>, <strong>theme</strong> or <strong>tags</strong>, using the menu to the left.
   </div>
   {% endif %}
 
   <!-- start resource topics section -->
   <section class="apps">
+
+    <div class="problem overviews">
+    {% for prob in site.data.problems %}
+      <div class="overview problem-{{ prob.problem | downcase | replace:' ','' }}">
+          <h2><strong>Problem:</strong> {{ prob.problem }}</h2>
+          {{ prob.p_overview | markdownify }}
+          <h3>Solutions</h3>
+      </div>
+    {% endfor %}
+    </div>
+
     <header>
       <h2></h2>
     </header>
@@ -29,15 +42,25 @@ redirect_from: "/solutions/"
     {% for page in site.pages %}
       {% if page.section == 'solutions' %}
 
+      {% capture problems %}{% if page.problem %}{{ page.problem }}{% endif %}{% endcapture %}
+      {% assign problemsArray = problems | split: "," %}
+
       {% capture tags %}{% if page.tags %}{{ page.tags }}{% endif %}{% endcapture %}
       {% assign tagsArray = tags | split: "," %}
 
       {% capture themes %}{% if page.themes %}{{ page.themes }}{% endif %}{% endcapture %}
       {% assign themesArray = themes | split: "," %}
 
-      <li class="{% if tagsArray %}{% for ta in tagsArray %}selector-tag-{{ ta | downcase | replace:' ','' }} {% endfor %}{% endif %}{% if themesArray %}{% for th in themesArray %}selector-theme-{{ th | downcase | replace:' ','' }} {% endfor %}{% endif %}">
+      <li class="{% if problemsArray %}{% for pr in problemsArray %}selector-problem-{{ pr | downcase | replace:' ','' }} {% endfor %}{% endif %}{% if tagsArray %}{% for ta in tagsArray %}selector-tag-{{ ta | downcase | replace:' ','' }} {% endfor %}{% endif %}{% if themesArray %}{% for th in themesArray %}selector-theme-{{ th | downcase | replace:' ','' }} {% endfor %}{% endif %}">
         <a href="{{ page.path | split: '.' | first | replace:'index',''| split: '/' | last }}"{% if page.image %} style="background-image:url({{ page.image }})"{% if page.image_attribution %} data-attribution="{{ page.image_attribution }}"{% endif %}{% endif %}>
           <h3>{{ page.title }}{% if page.creators %}<span>by {{ page.creators }}</span>{% endif %}</h3>
+          {% if problemsArray %}
+          {% for pr in problemsArray %}
+          <span class="tag">
+              {{ pr }}
+          </span>
+          {% endfor %}
+          {% endif %}
         </a>
       </li>
       {% endif %}
