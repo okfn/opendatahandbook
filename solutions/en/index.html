@@ -5,7 +5,7 @@ title: Solutions
 intro:
 filters: true
 section: solutions-landing
-js: 
+js:
  - vendor/isotope.pkgd.min
  - apps
 redirect_from: "/solutions/"
@@ -19,7 +19,7 @@ redirect_from: "/solutions/"
     {{ page.intro }} 
   </div>
   {% endif %}
-  
+
   <!-- start resource topics section -->
   <section class="apps">
     <header>
@@ -28,10 +28,10 @@ redirect_from: "/solutions/"
     <ul>
     {% for page in site.pages %}
       {% if page.section == 'solutions' %}
-      
+
       {% capture tags %}{% if page.tags %}{{ page.tags }}{% endif %}{% endcapture %}
       {% assign tagsArray = tags | split: "," %}
-      
+
       {% capture themes %}{% if page.themes %}{{ page.themes }}{% endif %}{% endcapture %}
       {% assign themesArray = themes | split: "," %}
 

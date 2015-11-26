@@ -3,7 +3,7 @@ $(document).ready(function() {
     // quick search regex
     var qsRegex;
     var buttonFilter;
-    
+
     // init Isotope
     var $container = $('section.apps > ul').isotope({
       itemSelector: 'section.apps > ul > li',
@@ -15,19 +15,19 @@ $(document).ready(function() {
         return searchResult && buttonResult;
       }
     });
-  
+
     $('.filter').on( 'click', 'a', function() {
       buttonFilter = $( this ).attr('data-filter');
       $container.isotope();
     });
-    
+
     // use value of search field to filter
     var $quicksearch = $('.quicksearch').keyup( debounce( function() {
       qsRegex = new RegExp( $quicksearch.val(), 'gi' );
       $container.isotope();
     }) );
-  
-    
+
+
       // change is-checked class on buttons
     $('.filter').each( function( i, buttonGroup ) {
       var $buttonGroup = $( buttonGroup );
@@ -36,10 +36,10 @@ $(document).ready(function() {
         $( this ).addClass('active');
       });
     });
-    
-    
+
+
   });
-  
+
   // debounce so filtering doesn't happen every millisecond
   function debounce( fn, threshold ) {
     var timeout;
