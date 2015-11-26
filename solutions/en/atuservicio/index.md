@@ -17,6 +17,7 @@ region: Latin America
 cost: 
 code: https://github.com/datauy/atuservicio_rails
 value story: /value-stories/en/latam-health/index.md
+problem: Gentrification
 ---
 
 
