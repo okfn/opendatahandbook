@@ -138,62 +138,68 @@
         <li class="search">
           <input type="search" placeholder="Search" class="quicksearch">
         </li>
-        {% capture appproblems %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.problem }},{% endif %}{% endfor %}{% endcapture %}
-        {% assign appproblemsArray = appproblems | split: "," %}
-        {% assign appproblemslist = appproblemsArray[1] %}
-        {% for at in appproblemsArray %}
-          {% unless appproblemslist contains at %}
-            {% capture appproblemslist %}{{ appproblemslist }}@@{{ at }}{% endcapture %}
-          {% endunless %}
-        {% endfor %}
-        {% assign appproblemssorted = appproblemslist | split: '@@' | sort %}
-
-        <li class="problems filter active">
-          <a>Problems</a>
-          <span class="filter-items">
-            {% for appproblem in appproblemssorted %}
-            <a data-filter=".selector-problem-{{ appproblem | downcase | replace:' ','' }}" data-pid=".problem-{{ appproblem | downcase | replace:' ','' }}">{{ appproblem }}</a>
+        {% capture appproblems %}{% for page in site.pages %}{% if page.section == 'solutions' %}{% if page.problem %}{{ page.problem }},{% endif %}{% endif %}{% endfor %}{% endcapture %}
+        {% if appproblems != '' %}
+            {% assign appproblemsArray = appproblems | split: "," %}
+            {% assign appproblemslist = appproblemsArray[1] %}
+            {% for at in appproblemsArray %}
+              {% unless appproblemslist contains at %}
+                {% capture appproblemslist %}{{ appproblemslist }}@@{{ at }}{% endcapture %}
+              {% endunless %}
             {% endfor %}
-          </span>
-        </li>
+            {% assign appproblemssorted = appproblemslist | split: '@@' | sort %}
 
-        {% capture appthemes %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.themes }},{% endif %}{% endfor %}{% endcapture %}
-        {% assign appthemesArray = appthemes | split: "," %}
-        {% assign appthemeslist = appthemesArray[1] %}
-        {% for at in appthemesArray %}
-          {% unless appthemeslist contains at %}
-            {% capture appthemeslist %}{{ appthemeslist }}@@{{ at }}{% endcapture %}
-          {% endunless %}
-        {% endfor %}
-        {% assign appthemessorted = appthemeslist | split: '@@' | sort %}
+            <li class="problems filter active">
+              <a>Problems</a>
+              <span class="filter-items">
+                {% for appproblem in appproblemssorted %}
+                <a data-filter=".selector-problem-{{ appproblem | downcase | replace:' ','' }}" data-pid=".problem-{{ appproblem | downcase | replace:' ','' }}">{{ appproblem }}</a>
+                {% endfor %}
+              </span>
+            </li>
+        {% endif %}
 
-        <li class="filter">
-          <a>Themes</a>
-          <span class="filter-items">
-            {% for apptheme in appthemessorted %}
-            <a data-filter=".selector-theme-{{ apptheme | downcase | replace:' ','' }}">{{ apptheme }}</a>
+        {% capture appthemes %}{% for page in site.pages %}{% if page.section == 'solutions' %}{% if page.themes %}{{ page.themes }},{% endif %}{% endif %}{% endfor %}{% endcapture %}
+        {% if appthemes != '' %}
+            {% assign appthemesArray = appthemes | split: "," %}
+            {% assign appthemeslist = appthemesArray[1] %}
+            {% for at in appthemesArray %}
+              {% unless appthemeslist contains at %}
+                {% capture appthemeslist %}{{ appthemeslist }}@@{{ at }}{% endcapture %}
+              {% endunless %}
             {% endfor %}
-          </span>
-        </li>
+            {% assign appthemessorted = appthemeslist | split: '@@' | sort %}
+
+            <li class="filter">
+              <a>Themes</a>
+              <span class="filter-items">
+                {% for apptheme in appthemessorted %}
+                <a data-filter=".selector-theme-{{ apptheme | downcase | replace:' ','' }}">{{ apptheme }}</a>
+                {% endfor %}
+              </span>
+            </li>
+        {% endif %}
+
+        {% capture apptags %}{% for page in site.pages %}{% if page.section == 'solutions' %}{% if page.tags %}{{ page.tags }},{% endif %}{% endif %}{% endfor %}{% endcapture %}
+        {% if apptags != '' %}
+            {% assign apptagsArray = apptags | split: "," %}
+            {% assign apptagslist = apptagsArray[1] %}
+            {% for at in apptagsArray %}
+              {% unless apptagslist contains at %}
+                {% capture apptagslist %}{{ apptagslist }}@@{{ at }}{% endcapture %}
+              {% endunless %}
+            {% endfor %}
+            {% assign apptagssorted = apptagslist | split: '@@' | sort %}
         
-        {% capture apptags %}{% for page in site.pages %}{% if page.section == 'solutions' %}{{ page.tags }},{% endif %}{% endfor %}{% endcapture %}
-        {% assign apptagsArray = apptags | split: "," %}
-        {% assign apptagslist = apptagsArray[1] %}
-        {% for at in apptagsArray %}
-          {% unless apptagslist contains at %}
-            {% capture apptagslist %}{{ apptagslist }}@@{{ at }}{% endcapture %}
-          {% endunless %}
-        {% endfor %}
-        {% assign apptagssorted = apptagslist | split: '@@' | sort %}
-
-        <li class="filter">
-          <a>Tags</a>
-          <span class="filter-items">
-            {% for apptag in apptagssorted %}
-            <a data-filter=".selector-tag-{{ apptag | downcase | replace:' ','' }}">{{ apptag }}</a>
-            {% endfor %}
-          </span>
-        </li>
+            <li class="filter">
+              <a>Tags</a>
+              <span class="filter-items">
+                {% for apptag in apptagssorted %}
+                <a data-filter=".selector-tag-{{ apptag | downcase | replace:' ','' }}">{{ apptag }}</a>
+                {% endfor %}
+              </span>
+            </li>
+        {% endif %}
       </ul>
     </li>
 
