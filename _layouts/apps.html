@@ -29,7 +29,7 @@ edit: true
     {% endif %}
 
     {% include languages.html %}
-    {% if page.image %}
+
   </div>
   <aside>
     <dl>
@@ -67,7 +67,8 @@ edit: true
       {% endif %}
     </dl>
   </aside>
-  <article class="post-content"> 
+  <article class="post-content">
+    {% if page.image %}
     <div class="image">
       <a style="background-image:url({{ page.image }})" data-adaptive-background='1' data-ab-css-background='1'{% if page.website %} href="{{ page.website }}" rel="external"{% endif %}></a>
       {% if page.image_attribution %}
