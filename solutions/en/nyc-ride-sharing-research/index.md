@@ -1,7 +1,6 @@
 ---
 section: solutions
 layout: apps
-problem: The Intersection of Ride-sharing and Public Transit
 title: NYC Ride Sharing Research 
 creators: Ben Wellington 
 website: "http://www.newyorker.com/tech/elements/uber-isnt-causing-new-york-citys-traffic-slowdown"
