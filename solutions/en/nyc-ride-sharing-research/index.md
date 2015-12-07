@@ -16,8 +16,6 @@ end:
 countries: USA
 region: North America
 cost: 
-code: 
-value story:
 ---
 While getting data from private enterprises, will be difficult for the foreseeable future, mobile and public transit data can shed light on transportation services, public and private alike.
 
