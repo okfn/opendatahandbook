@@ -4,7 +4,7 @@ layout: apps
 title: NYC Ride Sharing Research 
 creators: Ben Wellington 
 website: "http://www.newyorker.com/tech/elements/uber-isnt-causing-new-york-citys-traffic-slowdown"
-image: "https://flic.kr/p/bsJNfx"
+image: "https://www.flickr.com/photos/chrisgold/6866146867/in/photolist-bsJNfx-zEQvV5-f7znyb-9jhE6e-mL5LYv-turZ4j-aZiu2-bM6Qp4-dcizHk-Asbs1P-8eB6eX-jZ4Cm-dpk2JY-5QDE3E-8ih7k-8h2h3m-3cgRP-azTBxn-4q6Yj1-5g9TV-6cixwp-eK5bK1-2faV1-8qPwEv-5TNHDZ-oWWwMc-8BDNHr-9jo9G5-fPNnj1-47eXh-6Q5ewv-ctxxNG-96erWL-rdhE4t-ok66j1-4R2oFJ-qDCjfq-oB5YDC-hPRRTc-j7X7ai-4Ma4eD-9wM9ZV-cUHFwj-52SPy-cb8Yhd-c4RANj-nivYws-B7CpuC-22Lxr-6xowPu"
 image_attribution: Chris Goldberg
 type: Research 
 language: en
