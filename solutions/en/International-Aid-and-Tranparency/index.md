@@ -1,7 +1,7 @@
 ---
 section: solutions
 layout: apps
-title: Open Data Italia 
+title: Italia Aid 
 creators: 
 website: "http://openaid.esteri.it"
 image: 
