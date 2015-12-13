@@ -15,7 +15,7 @@ end:
 countries: Italy
 region: Europe
 cost: 
-problem: International-Aid-and-Transparency
+problem: International Aid and Transparency
 ---
 As a consequence of digital technologies, it is cheaper for citizens and donor countries to monitor receiving countries. Open data greatly reduces the cost of transparency and transferability of international aid data. While open data is hardly a panacea for international aid’s negative effects, it does undoubtedly encourage a visibility to international aid that is unprecedented.   
 
