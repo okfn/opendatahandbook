@@ -3,7 +3,7 @@ section: solutions
 layout: apps
 title: Real TIme Conflict Data 
 creators: Armed Conflict Location and Event Data Project 
-website: 
+website:'http://www.acleddata.com/data/'
 image: https://github.com/okfn/opendatahandbook/blob/gh-pages/img/crisis.jpg?raw=true 
 image_attribution: Cristian V.
 type: Research 
