@@ -3,8 +3,8 @@ section: solutions
 layout: apps
 title: Real TIme Conflict Data 
 creators: Armed Conflict Location and Event Data Project 
-website: "http://www.newyorker.com/tech/elements/uber-isnt-causing-new-york-citys-traffic-slowdown"
-image: 
+website: 
+image: https://github.com/okfn/opendatahandbook/blob/gh-pages/img/crisis.jpg?raw=true 
 image_attribution:
 type: Research 
 language: en
