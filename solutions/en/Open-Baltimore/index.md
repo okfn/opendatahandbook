@@ -4,8 +4,8 @@ layout: apps
 title: Open Baltimore 
 creators: City of Baltimore 
 website: "https://data.baltimorecity.gov/Financial/Real-Property-Taxes/27w9-urtv"
-image: 
-image_attribution:
+image: "http://techpresident.com/files/images/Screen%20shot%202011-01-26%20at%2012.11.58%20PM.png"
+image_attribution: Open Baltimore
 type: Web Application
 language: en
 themes: Gentrification
