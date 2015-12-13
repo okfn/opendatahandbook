@@ -1,7 +1,7 @@
 ---
 section: solutions
 layout: apps
-title: Aids Flow 
+title: Aid Flow 
 creators: OECD, World Bank; Asian Inter-American, Islamic and African Development Bank
 website: "http://www.aidflows.org"
 image: http://www.aidflows.org/about/webroot/images/aidflows-logo.png
