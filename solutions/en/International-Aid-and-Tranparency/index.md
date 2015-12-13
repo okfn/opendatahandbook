@@ -4,7 +4,7 @@ layout: apps
 title: Italia Aid 
 creators: 
 website: "http://openaid.esteri.it"
-image: 
+image: http://openaid.esteri.it/static/img/layout/logo_openaid.png
 image_attribution:
 type: Web Application 
 language: en
