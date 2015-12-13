@@ -4,8 +4,8 @@ layout: apps
 title: The Urban Institute 
 creators: The Urban Institute 
 website: "http://www.urban.org"
-image: 
-image_attribution:
+image: "http://www.urban.org/sites/all/themes/urban/images/logo.png"
+image_attribution: The Urban Institute
 type: Research 
 language: en
 themes: Prison Policy
