@@ -5,7 +5,7 @@ title: Real TIme Conflict Data
 creators: Armed Conflict Location and Event Data Project 
 website: 
 image: https://github.com/okfn/opendatahandbook/blob/gh-pages/img/crisis.jpg?raw=true 
-image_attribution:
+image_attribution: Cristian V.
 type: Research 
 language: en
 themes: Civil Conflict, International Conflict
