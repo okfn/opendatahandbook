@@ -9,7 +9,7 @@ image_attribution:
 type: Research 
 language: en
 themes: Transport
-tags: Taxi, ride-sharing, transit
+tags: Taxi, metro, public transit
 start: 2015
 end: 
 countries: USA
@@ -23,6 +23,6 @@ Increasingly state and municipal governments are releasing data that show with g
 
 Data scientists Andy Monat, Andrew Collier, and Ari Ofsevit used datasets from the Massachusetts Bay Transportation Authority to examine the cost and impact of the late night T service in order to compare it to alternatives such as the (now defunct) Night Owl Bus Service or cab rides. The [study](http://ariofsevit.com/latenightt/wordpress/?p=51) found that the cost per ride of using the metro late at night was not only significantly cheaper than cab fare, but that also late night metro rides increased the overall demand and use of public transit. In short, the implementation of late night public transit, not only is economically more efficient for citizens, but also encouraged greater overall use of public transit. 
 
-Data Used: [Late Night T Dataset](https://github.com/MassBigData/LateNightT/), [Massachusetts Bay Transportation Authority API ](http://realtime.mbta.com/portal)
+Data Used: [Late Night T Dataset](https://github.com/MassBigData/LateNightT/), [Massachusetts Bay Transportation Authority API](http://realtime.mbta.com/portal)
 
 Credit: MBTA
