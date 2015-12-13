@@ -9,7 +9,7 @@ image_attribution:
 type: Research 
 language: en
 themes: Prison Policy
-tags: Prison Policy, Incarceration Rates
+tags: Prison Policy, Incarceration Rates, Crime
 start: 2015
 end: 
 countries: USA
