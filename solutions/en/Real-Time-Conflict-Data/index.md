@@ -15,7 +15,7 @@ end:
 countries: Global
 region: Global
 cost: 
-problem: Ride-sharing and Public Transit
+problem: Tracking Modern Warfare
 ---
 Digital technologies provide new ways to access and interact with data about civil and international conflict that is more comprehensive and immediate. Using said data so that it is both more digestible and interactive can encourage us to reflect in ways that otherwise wouldn’t be possible. 
 
