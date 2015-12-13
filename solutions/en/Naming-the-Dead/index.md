@@ -22,4 +22,5 @@ Digital technologies provide new ways to access and interact with data about civ
 The Bureau of Investigative Journalism launched a project, [Naming the Dead](https://www.thebureauinvestigates.com/namingthedead/the-dead/?lang=en), which published biographical and circumstantial information of all victims in the US drone strikes in Pakistan since 2004. This campaign humanizes otherwise faceless victims, that are not just alleged terrorists, but innocent men, women, and children. 
 
 [Drone Datasets](https://www.thebureauinvestigates.com/category/projects/drones/drones-graphs/)
+
 Credit: The Bureau of Investigative Journalism
