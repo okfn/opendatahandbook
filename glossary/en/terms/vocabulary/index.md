@@ -4,4 +4,4 @@ lang: en
 title: Vocabulary
 ---
 
-A [standard](../standard/) specifying the [identifiers](../identifier/) to be used for a particular collection of objects. Using standard vocabularies where they exist is key to enabling [data integration](../data-integration/). [Linked data](../linked-data/) is rich in vocabularies in different topic areas.
+A [standard](/glossary/en/terms/standard/) specifying the {identifiers} to be used for a particular collection of objects. Using standard vocabularies where they exist is key to enabling [data integration](/glossary/en/terms/data-integration/). [Linked data](/glossary/en/terms/linked-data/) is rich in vocabularies in different topic areas.

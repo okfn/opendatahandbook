@@ -4,4 +4,4 @@ lang: en
 title: Raw data
 ---
 
-The original data, in [machine-readable](../machine-readable/) form, underlying any application, visualisation, published research or interpretation, etc.
+The original data, in {machine-readable} form, underlying any application, visualisation, published research or interpretation, etc.

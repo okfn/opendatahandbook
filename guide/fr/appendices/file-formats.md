@@ -21,15 +21,15 @@ Un format recommandé par le W3C est le RDF, car il permet de représenter les d
 
 ### Feuilles de calcul
 
-De nombreuses autorités ont laissé des informations dans la feuille de calcul, par exemple Microsoft Excel. Ces données peuvent souvent être utilisées immédiatement avec des descriptions correctes des différentes colonnes.
+De nombreuses autorités ont laissé des informations dans la feuille de calcul, par exemple Microsoft Excel. Ces données peuvent souvent être utilisé immédiatement avec des descriptions correctes des différentes colonnes.
 
-Cependant, dans certains cas, des macros et des formules subsistent dans les feuills de calcul, ce qui peut s'avérer somewhat more cumbersome to handle. Il est toutefois conseillé de documenter ces calculs dans les feuilles de calcul, pour que cela soit plus facilement compréhensible par les utilisateurs.
+However, in some cases there can be macros and formulas in spreadsheets, which may be somewhat more cumbersome to handle. It is therefore advisable to document such calculations next to the spreadsheet, since it is generally more accessible for users to read.
 
 ### Séparer les fichiers par une virgule
 
-Les fichiers CSV sont un format très utile, car ils sont compacts et permetttent ainsi de transférer de larges ensembles de données en conservant la même structure. Cependant, ce format est tellement fruste que, sans métadonnées, certaines données peuvent être inutiles car il est impossible de deviner le sens des différentes colonnes. C'est pourquoi il est important, lors du recours à des formats séparés par des virgules, que les métadonnées des champs individuels soient renseignées.
+Les fichiers CSV sont un format très utile, car ils sont compacts et permetttent ainsi de transférer de large ensembles de données en conservant la même structure. Cependant, ce format est tellement fruste que, sans métadonnées, certaines données peuvent être inutiles car il est impossible de deviner le sens des différentes colonnes. C'est pourquoi il est important, lors du recours à des formats séparés par des virgules, que les métadonnées des champs individuels soit renseigné.
 
-Par ailleurs, il est essentiel que la structure du fichier soit conservée, car une seule omission d'un champ peut perturber la lecture de tout le document et des données qui suivent, sans pouvoir corriger l'erreur pusiqu'il ne préjuge aucunement de la façon dont les données suivantes doivent être interprétées.
+Furthermore it is essential that the structure of the file is respected, as a single omission of a field may disturb the reading of all remaining data in the file without any real opportunity to rectify it, because it cannot be determined how the remaining data should be interpreted.
 
 ### Document texte
 

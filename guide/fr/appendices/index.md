@@ -5,6 +5,5 @@ lang: fr
 title: Appendices
 ---
 
--   [Formats de fichier.](file-formats/index.html)
--   [Quels droits légaux (de PI) existe-t-il dans les (bases de) données](what-legal-ip-rights-are-there-in-databases/index.html)
--   
+-   [Formats de fichier.](file-formats.html)
+-   [What Legal Rights are there in Databases](what-legal-ip-rights-are-there-in-databases.html)

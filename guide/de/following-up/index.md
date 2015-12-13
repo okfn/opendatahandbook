@@ -17,13 +17,13 @@ Wenn Sie mehrere Datensätze geöffnet haben sollten Sie darüber nachdenken die
 
 Zusätzlich zu Pressemitteilungen, Bekanntmachung auf der Website und so weiter könnte Sie das folgende tun:
 
--   kontaktieren Sie relevante Organisationen aus dem Open Data Bereich
--   Kontaktieren Sie relevante Mailinglisten oder Soziale Netzwerke
+-   -   kontaktieren Sie relevante Organisationen aus dem Open Data Bereich
+-   -   Kontaktieren Sie relevante Mailinglisten oder Soziale Netzwerke
 -   Community-Management ist wichtig -
 
-### Versuchen Sie, ihre Zielgruppe zu verstehen
+### *\* Versuchen Sie, ihre Zielgruppe zu verstehen*\*
 
-Kontaktieren Sie also relevante Zielgruppen.
+kontaktieren Sie also relevante Zielgruppen.
 
 Digitale Communites sind in der Regel bereit, Informationen auszutauschen. Sie werden in der Regel kurze, klare Emails langen und umständlichen vor. Machen Sie sich auf konkrete Nachfragen gefasst und antworten Sie ernsthaft darauf.
 

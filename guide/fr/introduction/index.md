@@ -5,14 +5,13 @@ lang: fr
 title: Introduction
 ---
 
-Savez-vous exactement quelle est la fraction de vos impôts dépensée pour l'éclairage extérieur ou pour la recherche sur le cancer? Connaissez-vous le chemin le plus court, le plus sûr et le plus joli pour rentrer chez vous à vélo? Et ce que contient l'air que vous allez respirer sur ce chemin ? Où vous pouvez trouver les meilleures opportunités d'emploi dans votre région, ou le nombre le plus important d'arbres fruitiers par personne ? A quel moment il est possible d'influencer des décisions sur des sujets qui vous intéressent, et à qui s'adresser?
+Savez-vous exactement quelle est la fraction de vos impôts dépensée pour l'éclairage extérieur ou pour la recherche sur le cancer? Connaissez-vous le chemin le plus court, le plus sûr et le plus joli pour rentrer chez vous à vélo? Et ce que contient l'air que vous allez respirer sur ce chemin? Où vous pouvez trouver les meilleures opportunités d'emploi dans votre région, ou le nombre le plus important d'arbres fruitiers par tête? A quel moment il est possible d'influencer des décisions sur des sujets qui vous intéressent, et à qui s'adresser?
 
-Les nouvelles technologies rendent la construction de services répondant à ces questions possible. La plupart des données nécessaires pour répondre à ces questions sont générées par des entités publiques. Cependant, ces données nécessaires ne sont souvent pas encore disponibles en format simple à utiliser. Ce livre traite de comment ouvrir le potentiel d'informations, officielles ou non, afin de permettre le développement de nouveaux services, de comment améliorer la vie des citoyens et  faire en sorte que le gouvernement et la société fonctionnent mieux.
+Les nouvelles technologies rendent la construction de services répondant à ces questions possible. La plupart des données nécessaires pour répondre à ces questions sont générées par des entités publiques. Cependant, ces données nécessaires ne sont souvent pas encore disponibles en format simple à utiliser. Ce livre traite de comment ouvrir le potentiel d'informations officielles ou non, afin de permettre le développement de nouveau service, de comment améliorer la vie des citoyens et de faire en sorte que le gouvernement et la société fonctionne mieux.
 
-La notion d'[open data](/glossary/fr/terms/open-data/) et plus spécifquement{term:open government data} - l'information, qu'elle soit publique ou privée, que chacun peut consulter ou réutiliser librement - existe depuis plusieurs années déjà.
-En 2009 l'open data commence à être plus visible avec les initiatives de plusieurs gouvernements (Etats-Unis, Royaume Uni, Canada et Nouvelle Zélande) pour ouvrir leurs propres données publiques.
+The notion of [open data](/glossary/fr/terms/open-data/) and specifically {term:open government data} - information, public or otherwise, which anyone is free to access and re-use for any purpose - has been around for some years. In 2009 open data started to become visible in the mainstream, with various governments (such as the USA, UK, Canada and New Zealand) announcing new initiatives towards opening up their public information.
 
-Ce livre explique les concepts de base des 'données ouvertes' (open data), particulièrement en ce qui a trait à la gouvernance. Il couvre comment les données ouvertes créent de la valeur et peuvent avoir un impact positif dans de nombreux secteurs. En plus d'explorer le fond du sujet, ce manuel donne aussi des informations concrètes sur comment mettre à disposition des données ouvertes.
+Ce livre explique les concepts de base des 'données ouvertes' (open data), particulièrement en ce qui a trait à la gouvernance. Il couvre comment les données ouvertes créent de la valeur et peuvent avoir un impact positif dans de nombreux secteurs. En plus d'explorer le fond du sujet, ce manuel donne aussi des informations concrète sur comment mettre à disposition des données ouvertes.
 
 ## Public cible
 
@@ -26,7 +25,7 @@ Ce manuel vise un public assez large:
 
 La plupart des informations actuellement proposées sont centrées sur les données détenues par le secteur public. Cependant, les intentions des auteurs sont d'élargir les secteurs suivant le temps disponible. Vous êtes les bienvenus pour participer et nous aider dans cet effort.
 
-Ce manuel est destiné à ceux qui n'ont que peu ou pas de connaissance du sujet. Si vous trouvez un mot de jargon ou une terminologie dont vous n'êtes pas familier, veuillez consulter le Glossaire détaillé et la FAQ (Foire Aux Questions) qui se trouvent à la fin du manuel.
+Ce manuel est destiné à ceux qui n'ont que peu ou pas de connaissance du sujet. Si vous trouvez un mot de jargon our une terminologie dont vous n'êtes pas familier, veuillez consulter the Glossaire détaillé et la FAQ (Foire Aux Questions) qui se trouvent à la fin du manuel.
 
 ## Crédits et Copyrights
 
