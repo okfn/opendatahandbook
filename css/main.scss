@@ -568,6 +568,12 @@ pre,
       }
     }
   }
+
+  .mm-current {
+    .mm-subopen + .mm-subopen {
+      display: none;
+    }
+  }
 }
 body:not( .filters ) {
   .app-sub-menu {
