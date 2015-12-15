@@ -1,8 +1,11 @@
 ---
 section: solutions
 layout: apps
-title: Late Night T 
-creators:Andy Monat, Andrew Collier, and Ari Ofsevit
+title: Late Night T
+creators:
+- Andy Monat
+- Andrew Collier
+- Ari Ofsevit
 website: "http://ariofsevit.com/latenightt/wordpress/?p=51"
 image: "http://www.mbta.com/uploadedimages/Schedules_and_Maps/System_Map/Survey%20Map%201%20lg.jpg"
 image_attribution: Michael Kvrivishvili
