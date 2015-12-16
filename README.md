@@ -26,6 +26,8 @@ Aside from standard Jekyll options, we have:
  - `googleanalytics` - assign a Google Analytics tracking ID to add the analytics code to the footer. If you do not wish to include the Google Analytics code, remove this.
  - `related_projects` - populates the list in the footer
 
+ Note: the correct use of `baseurl` is as described [here](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
+
 ## Front matter
 
 Set per page, layout or as a default (see http://jekyllrb.com/docs/configuration/#front-matter-defaults)
