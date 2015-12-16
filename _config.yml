@@ -17,7 +17,7 @@ gems:
 devs:
   -
       name: Sam Smith
-      github: mintcanary
+      github: smth
   -
       name: Rufus Pollock
       github: rgrp
@@ -49,7 +49,7 @@ contributors:
       link: http://www.zylstra.org/blog/
   -
       name: Sam Smith
-      link: http://samsmith.name/
+      link: http://smth.uk/
 
 supporters:
   -
