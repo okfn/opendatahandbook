@@ -62,6 +62,11 @@ supporters:
     logo: worldbank.png
     footer_logo: worldbank-footer.png
     url: http://www.worldbank.org/
+  -
+    name: OD4D
+    logo: od4d.png
+    footer_logo: od4d-footer.png
+    url: http://od4d.net/
 
 
 googleanalytics: UA-8271754-28
