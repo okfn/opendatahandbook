@@ -4,8 +4,8 @@ layout: apps
 title: NYC Property Tax Explorer
 creators: Chris Whong, Akil Harris, and Ameen Soleman
 website: "http://nyctaxmap.herokuapp.com"
-image: 
-image_attribution:
+image: "http://41.media.tumblr.com/4d0341ee9218d0f92ee273f64f56c41a/tumblr_n1x9dzlV3R1r677bio1_1280.jpg"
+image_attribution: NYC Property Tax Explorer
 type: Web Application
 language: en
 themes: Gentrification

@@ -4,8 +4,8 @@ layout: apps
 title: Open Baltimore 
 creators: City of Baltimore 
 website: "https://data.baltimorecity.gov/Financial/Real-Property-Taxes/27w9-urtv"
-image: 
-image_attribution:
+image: "http://techpresident.com/files/images/Screen%20shot%202011-01-26%20at%2012.11.58%20PM.png"
+image_attribution: Open Baltimore
 type: Web Application
 language: en
 themes: Gentrification
@@ -14,7 +14,7 @@ start: 2015
 end: 
 countries: USA
 region: North America
-cost: 
+cost:
 problem: Influx of Housing Price Increases
 ---
 Luckily, property taxation data, a very crucial datapoint through which to view the impacts of gentrification, is often provided by municipal and state government taxation departments. Mapped property taxation data allows one to quantify a hard-to-conceptualize phenomenon through visualization. Open data sets on housing prices and property taxes overtime can give a comprehensive view of the where, what, and how of gentrification. 

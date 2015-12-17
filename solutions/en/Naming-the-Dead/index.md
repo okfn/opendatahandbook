@@ -4,8 +4,8 @@ layout: apps
 title: Naming the Dead 
 creators: Bureau of Investigative Journalism 
 website: "https://www.thebureauinvestigates.com/namingthedead/the-dead/?lang=en"
-image: 
-image_attribution:
+image: "https://www.thebureauinvestigates.com/namingthedead/wp-content/themes/naming-the-dead/assets/img/people.jpg"
+image_attribution: Bureau of Investigative Journalism
 type: Research 
 language: en
 themes: Modern Warfare

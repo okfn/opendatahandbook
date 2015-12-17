@@ -17,7 +17,7 @@ gems:
 devs:
   -
       name: Sam Smith
-      github: mintcanary
+      github: smth
   -
       name: Rufus Pollock
       github: rgrp
@@ -49,7 +49,7 @@ contributors:
       link: http://www.zylstra.org/blog/
   -
       name: Sam Smith
-      link: http://samsmith.name/
+      link: http://smth.uk/
 
 supporters:
   -
@@ -62,9 +62,15 @@ supporters:
     logo: worldbank.png
     footer_logo: worldbank-footer.png
     url: http://www.worldbank.org/
+  -
+    name: OD4D
+    logo: od4d.png
+    footer_logo: od4d-footer.png
+    url: http://od4d.net/
 
 
 googleanalytics: UA-8271754-28
+google_verification: U6RmQ0BoQ9f1Omog3Mnas-Yd1At38pTDZbM1AtnOpnc
 
 # Build settings
 markdown: kramdown

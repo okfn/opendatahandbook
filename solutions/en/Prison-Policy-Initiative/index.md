@@ -4,8 +4,8 @@ layout: apps
 title: Prison Policy Initiative 
 creators: Prison Policy Initiative 
 website: "http://www.prisonpolicy.org"
-image: 
-image_attribution:
+image: "https://pbs.twimg.com/profile_images/2097899406/LOGO_OnBlack_260s_400x400.gif"
+image_attribution: Prison Policy Initiative
 type: Research 
 language: en
 themes: Prison Policy
