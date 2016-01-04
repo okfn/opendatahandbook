@@ -19,6 +19,8 @@ countries: USA
 region: North America
 cost:
 problem: Ride-sharing and Public Transit
+data_used: "[Late Night T Dataset](https://github.com/MassBigData/LateNightT/), [Massachusetts Bay Transportation Authority API](http://realtime.mbta.com/portal)"
+credit: MBTA
 ---
 ##The problem 
 Ride-sharing services, like Uber and Lyft are those services in which passengers ride in a private vehicle driven by the owner, for a fee or for free. The widespread adoption of ride-sharing services drastically changes how people get from place to place and as a result creates new policy challenges. 
@@ -32,7 +34,3 @@ While getting data from private enterprises, will be difficult for the foreseeab
 Increasingly state and municipal governments are releasing data that show with granularity how transportations services are affecting our everyday lives. Open datasets that tell us the why, when, what, where of how people use public and private transport can make for more informed policy debates and decisions.  
 
 Data scientists Andy Monat, Andrew Collier, and Ari Ofsevit used datasets from the Massachusetts Bay Transportation Authority to examine the cost and impact of the late night T service in order to compare it to alternatives such as the (now defunct) Night Owl Bus Service or cab rides. The [study](http://ariofsevit.com/latenightt/wordpress/?p=51) found that the cost per ride of using the metro late at night was not only significantly cheaper than cab fare, but that also late night metro rides increased the overall demand and use of public transit. In short, the implementation of late night public transit, not only is economically more efficient for citizens, but also encouraged greater overall use of public transit.
-
-Data Used: [Late Night T Dataset](https://github.com/MassBigData/LateNightT/), [Massachusetts Bay Transportation Authority API](http://realtime.mbta.com/portal)
-
-Credit: MBTA

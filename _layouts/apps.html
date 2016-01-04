@@ -77,6 +77,20 @@ edit: true
     </div>
     {% endif %}
     {{ content }}
+
+    {% if page.data_used %}
+    <div class="note">
+      <h6>Data Used</h6>
+      {{ page.data_used | markdownify }}
+    </div>
+    {% endif %}
+
+    {% if page.credit %}
+    <p class="credit">
+      Credit: {{ page.credit }}
+    </p>
+    {% endif %}
+
     {% if page.website %}
     <a class="website-link" href="{{ page.website }}" rel="external">Go to website</a> &nbsp;
     {% endif %}
