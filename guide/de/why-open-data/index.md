@@ -11,7 +11,14 @@ Es gibt viele Bereiche in denen offene Daten wertvoll sind, und in denen es bere
 
 Wir können bereits heute auf eine Vielzahl an Bereichen verweisen, wo offene Regierungsdaten Mehrwert schaffen. Einige dieser Bereiche sind:
 
--   Transparency and democratic control \* Participation \* Self-empowerment \* Improved or new private products and services \* Innovation \* Improved efficiency of government services \* Improved effectiveness of government services \* Impact measurement of policies \* Neues Wissen aus einer Kombination von Datenquellen und Mustern aus großen Datensammlungen
+-   Transparenz und demokratische Kontrolle 
+-   Partizipation 
+-   Befähigung der BürgerInnen
+-   Verbesserte oder neue Produkte und Dienstleistungen in der Privatwirtschaft
+-   Innovation 
+-   Verbesserte Effizienz und Wirksamkeit von Behördendienstleistungen 
+-   Wirkungsmessung von politischen Entscheidungen
+-   Neues Wissen aus einer Kombination von Datenquellen und Mustern aus großen Datensammlungen
 
 Für fast alle dieser Bereiche existieren schon spannende Beispiele.
 
