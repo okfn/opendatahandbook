@@ -1,0 +1,7 @@
+---
+section: terms
+lang: hu
+title: Open definition
+---
+
+Az Open Definition-t az Open Knowledge által 2005-ben kiadott dokumentum, amely meghatározza, hogy az adatok és tartalmak mely feltételek meglétekor tekinthetőek nyíltnak. Az Open Definition által nyújtott "szabvány" kulcsfontosságú, hiszen a nyílt adatok értékének nagy része a különböző adatforrások egyszerű kombinálhatóságából ered. Rendkívül fontos mind a jogi, mint a technikai nyíltság: az Open Definition biztosítja, hogy a nyílt licensszel rendelkező adatok keverhetőek, és segít elkerülni a különböző licenszek és feltételek túlburjánzását, amely túlzott komplexitáshoz és inkompatibilitáshoz vezet. Manapság egyes kormányok és szervezetek tolakodva próbálják magukra aggatni a "nyílt" címkét: az Open Definition biztosítja, hogy a kifejezés ne veszítsen jelentéséből. Napjainkban ez számít a fő nemzetközi szabványnak a nyílt adatok és nyílt adatlicenszek területén. Az Open Definition egy nyílt adat elveket gyakorló tanácsadói testülettel egyetemben az [opendefinition.org](http://opendefinition.org/) címen érhető el. A szakértők által vezetett licenszmegfelelőségi folyamat és benne tett javaslatok világ számos licenszére, például az Egyesült Királyság nemzetközileg is jelentős Open Government Licence-ére is hatással voltak. A definíció más mozgalmak formálásában is részt vett, például a közpénzből végzett kutatásokhoz való nyílt hozzáférésben, a nyílt hardverekben, és sok másban. Összefoglalóért lásd: [nyílt adatok](../open-data/).
