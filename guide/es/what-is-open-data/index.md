@@ -21,7 +21,7 @@ La definición de apertura completa da detalles precisos de lo que significa. Pa
 
 Si te estás preguntando por qué es tan importante ser claros respecto de lo que significa ser "Abierto" y por qué se usa esta definición, hay una respuesta simple: interoperabilidad.
 
-La interoperabilidad denota la habilidad de diversos sistemas y organizaciones para trabajar juntos (interoperar). En este caso, es la habilidad para interoperar o integrar diferentes bases de datos.
+La interoperabilidad denota la habilidad de diversos sistemas y organizaciones para trabajar juntos (interoperar). En este caso, es la habilidad para interoperar o integrar diferentes conjuntos de datos.
 
 La interoperabilidad es importante porque permite que distintos componentes trabajen juntos. Esta habilidad de integrar componentes es esencial para construir sistemas complejos y grandes. Sin interoperabilidad es casi imposible lograrlo -como lo demuestra el famoso mito de la Torre de Babel, donde la inhabilidad de comunicar (interoperar) da como resultado el colapso de todo el esfuerzo para construir la torre.
 
