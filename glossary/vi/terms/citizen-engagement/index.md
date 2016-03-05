@@ -1,6 +1,8 @@
 ---
 section: terms
-lang: en
-title: Citizen Engagement 
----
-Actively involving the public in policy and decision-making. Citizen engagement is a central aim of [open government](../open-government/), with the aims of improving decision making and gaining or retaining citizens' consent and support. Open data is an essential tool for ensuring informed engagement.
+lang: vi
+title: Gắn kết sự tham gia của công dân
+
+Thu hút công chúng vào quá trình xây dựng chính sách và ra quyết định một cách chủ động. Gắn kết sự tham gia của công dân là mục tiêu chính của [chính phủ mở](../open-government/), với mục tiêu cải thiện quá trình ra quyết định đồng thời đạt được sự đồng thuận và ủng hộ của người dân. Dữ liệu mở là công cụ quan trọng để duy trì gắn kết này.
+
+. 
