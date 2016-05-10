@@ -7,16 +7,15 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <section id="ok-panel" class="closed"><iframe src="//assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe></section>
-    <div>
-      <a class="white ok-ribbon" href="https://okfn.org/"><img src="//okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+    <div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+      <a class="white ok-ribbon" href="https://okfn.org/"><img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge International"></a>
       <div>
         {% include header.html %}
-    
+
         <div class="page-content">
           {{ content }}
         </div>
-    
+
         {% include footer.html %}
       </div>
     </div>
@@ -30,8 +29,8 @@
     <script src="{{ site.baseurl }}/js/{{ file }}.js"></script>
     {% endfor %}
     {% endif %}
-    <script src="//cdn.rawgit.com/okfn/ok-panel/v1.0.0/assets/js/frontend.min.js"></script>
-    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
     <script>
         // Append headings with link to ID
         function headingLink(heading) {
@@ -49,12 +48,12 @@
         headingLink('.post h4');
         headingLink('.post h5');
         headingLink('.post h6');
-        
-        $(".headerlink a").click(function() { 
+
+        $(".headerlink a").click(function() {
           $(this).parent('.headerlink').toggleClass("active");
         });
     </script>
-    
+
     {% if site.googleanalytics %}
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -65,7 +64,7 @@
         ga('create','{{ site.googleanalytics }}','auto');ga('send','pageview');
     </script>
     {% endif %}
-    
+
   </body>
 
 </html>
