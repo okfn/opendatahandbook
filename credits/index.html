@@ -9,7 +9,7 @@ title: Credits
 
   <h1>{{ page.title }}</h1>
   <h2>{{ site.title }} was produced by</h2>
-  <a href="https://okfn.org/" rel="external"><img src="{{ "/img/open-knowledge-large.png" | prepend: site.baseurl }}" width="178" height="211" alt="Open Knowledge"></a>
+  <a href="https://okfn.org/" rel="external"><img src="//a.okfn.org/img/oki/standard-rgb-667x687.png" width="178" height="183" alt="Open Knowledge International"></a>
 {% if site.supporters %}
   <h2>with support from</h2>
   <ul class="supporters">
@@ -22,7 +22,7 @@ title: Credits
   {% endfor %}
   </ul>
 {% endif %}
-  
+
   {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for author in site.contributors %}{{ author.name }}{% if author.link %}>>{{ author.link }}{% endif %}@@{% endfor %}#{% endcapture %}
   {% assign authorstring = authors | remove: '@@#' | split: '@@' %}
 
@@ -40,7 +40,7 @@ title: Credits
 
   {% capture contributor_names %}{% for contributor in site.contributors %}{{ contributor.name }}@@{% endfor %}#{% endcapture %}
   {% assign contributorstring = contributor_names | remove: '@@#' | split: '@@' %}
-  
+
   <ul>
   {% for author in authorssorted %}
     {% if author contains '>>' %}
