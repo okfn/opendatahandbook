@@ -5,74 +5,74 @@ lang: es
 title: ¿Cómo abrir datos?
 ---
 
-Esta sección constituye el núcleo de este manual. Le da consejos concretos y detallados de cómo los poseedores de datos pueden abrir sus datos. Pasaremos por lo más básico, pero también cubriremos las trampas. Por último, vamos a discutir las cuestiones más sutiles que pueden surgir.
+Esta sección constituye el núcleo de este manual. Da consejos concretos y detallados de cómo los poseedores de datos pueden abrir sus datos. Veremos lo más básico, pero también cubriremos las dificultades. Por último, vamos a discutir los problemas menos perceptibles que pueden surgir.
 
 Existen tres reglas clave que recomendamos seguir en la apertura de datos:
 
--   **Mantenlo simple.** Inicia con lo pequeño, sencillo y rápido. No hay requisito que los conjuntos de datos deben tener en este momento. Inicie abriendo sólo un conjunto de datos, o incluso una parte de un conjunto de datos grande, esta muy bien -- y claro, entre más conjuntos de datos pueda abrir, mejor.
+-   **Mantenlo simple.** Inicia con lo pequeño, sencillo y rápido. No hay requisito que los conjuntos de datos deben tener en este momento. Inicia abriendo sólo un conjunto de datos, o incluso una parte de un conjunto de datos grande, esta muy bien -- y claro, entre más conjuntos de datos puedas abrir, mejor.
 
-> Recuerda que esto es acerca de la innovación. Moverse tan rápido como puedes es bueno porque significa que puedes crear impulso y aprender de la experiencia -- la innovación es tanto sobre el fracaso como el éxito y no todo dataset será útil.
+> Recuerda que esto se trata de innovación. Moverse tan rápido como puedas es bueno porque significa que puedes crear momento y aprender de la experiencia -- la innovación es tanto sobre el fracaso como el éxito y no todos los datos serán útiles.
 
--   **Comprometerse temprano y comprometerse con frecuencia** Comprometerse con los usuarios reales y potenciales, y en cambio usuarios de los datos tan pronto y tan a menudo como pueda, ya sean ciudadanos, empresas o desarrolladores. Esto asegurará que la próxima versión de su servicio sea tan relevante como pueda ser.
+-   **Relacionarse temprano y relacionarse con frecuencia** Relacionate con los usuarios reales y potenciales de los datos tan pronto y tan a menudo como puedas, ya sean ciudadanos, empresas o programadores. Esto asegurará que la próxima versión de tu servicio sea tan relevante como pueda ser.
 
-> Es esencial tener en cuenta que gran parte de los datos no llegarán a los usuarios finales directamente, sino que a través de "info-mediarios". Estas son las personas que toman los datos y la transforman para presentarla. Por ejemplo, la mayoría de nosotros no quiere o necesita una gran base de datos de las coordenadas GPS, preferiríamos un mapa. Por lo tanto, comprometerse con infomediarios en primer lugar. Ellos volverán a utilizar y reutilizar el material.
+> Es esencial tener en cuenta que gran parte de los datos no llegarán a los usuarios finales directamente, sino que a través de "info-mediarios". Estas son las personas que toman los datos y la transforman para presentarlos. Por ejemplo, la mayoría de nosotros no quiere o necesita una gran base de datos de coordenadas GPS, preferimos un mapa. Por lo tanto, relacionate con infomediarios en primer lugar. Ellos reutilizaran y encontrarán nuevos propositos para el material.
 
--   **Direcciona temores y malentendidos comunes**. Esto es especialmente importante si usted está trabajando con o dentro de las grandes instituciones como el gobierno. Cuando la apertura de datos se encontrará con un montón de preguntas y temores. Es importante (a) identificar las más importantes y (b) abordar estos problemas en la fase más temprana posible.
+-   **Soluciona temores y malentendidos comunes**. Esto es especialmente importante si se está trabajando con o dentro de grandes instituciones como el gobierno. Durante la apertura de datos te encontrarás con un montón de preguntas y temores. Es importante (a) identificar los más importantes y (b) abordar estos problemas en la fase más temprana posible.
 
-Existen cuatro pasos principales para la creación de Datos Abiertos, cada una será explicada en detalle más abajo. Se encuentran en un orden muy aproximado y pueden ser realizados simultáneamente.
+Existen cuatro pasos principales para la creación de Datos Abiertos, cada uno será explicado en detalle a continuación. Se encuentran en un orden aproximado - muchos de los pasos pueden ser realizados simultáneamente.
 
-1.  **Elija el conjunto de datos (s).** Elija el conjunto de datos (s) que desea hacer público. Tenga en cuenta que usted puede (y puede ser necesario) regresar a este paso si tiene problemas en una etapa posterior.
+1.  **Elije el dato o conjunto de datos.** Elije el conjunto de datos que deseas hacer público. Ten en cuenta que puedes (y puede ser necesario) regresar a este paso si tienes problemas en una etapa posterior.
 2.  **Utilizar una licencia abierta**
-    1.  Determine qué derechos de propiedad intelectual existen en la información.
-    2.  Aplica una licencia "abierta" adecuada que licencie todos esos derecho y soporte la definición de apertura discutida en la sección anterior, en "Qué es Datos Abiertos".
-    3.  Nota: Si tu no puedes hacer esto, vuelve al paso 1 y prueba con un dataset diferente.
+    1.  Determina qué derechos de propiedad intelectual existen en la información.
+    2.  Aplica una licencia "abierta" adecuada que licencie todos esos derecho y soporte la definición de apertura discutida en la sección anterior, en "Qué son los Datos Abiertos".
+    3.  Nota: Si no puedes hacer esto, vuelve al paso 1 y prueba con otros datos.
 
-3.  **Poner a disposición la información**- en conjunto y en un formato útil. También puedes considerar otras alternativas de hacerla disponible, así como una API.
-4.  **Hazla visible**- Publícala en la web y quizás organiza un catálogo central que enumere tus datasets abiertos.
+3.  **Haz disponible la información**- en conjunto y en un formato útil. También puedes considerar otras alternativas para hacerla disponible, como una API.
+4.  **Hazla visible**- Publícala en la web y quizás organiza un catálogo central que enumere tus datos abiertos.
 
 ## Escoger bases de datos
 
-Escoger los conjuntos de datos que planee abrir es el primer paso - aunque recuerde que el proceso completo de abrir los datos es iterativo y puede regresar a este paso si encuentra problemas en un futuro.
+Escoger los conjuntos de datos que planeas abrir es el primer paso - aunque recuerda que el proceso completo de abrir los datos es iterativo y puedes regresar a este paso si encuentras problemas en un futuro.
 
-Si usted ya conoce exactamente que conjunto(s) de dato(s) planea abrir, puede dirigirse a la siguiente sección. Sin embargo, en muchos casos, especialmente para grandes instituciones, escoger un conjunto de datos al cuál enfocarse es todo un reto. ¿Cómo se debería proceder en estos casos?
+Si ya conoces exactamente que conjunto(s) de datos planeas abrir, puedes pasar a la siguiente sección. Sin embargo, en muchos casos, especialmente para grandes instituciones, escoger un conjunto de datos en el cual enfocarse es todo un reto. ¿Cómo se debe proceder en estos casos?
 
-Crear esta lista puede ser un proceso rápido para identificar qué conjuntos de datos pueden ser abiertos para empezar. Ya habrá tiempo en etapas posteriores de revisar en detalle si cada conjunto de datos es adecuado para abrirse.
+Crear esta lista puede ser un proceso rápido para identificar qué conjuntos de datos pueden ser abiertos al principio. Ya habrá tiempo en etapas posteriores de revisar en detalle si cada conjunto de datos es adecuado para abrirse.
 
-**No hay requisitos** para crear una lista completa de conjuntos de datos. El principal punto a tener en cuenta es pensar si es factible publicar todos sus datos (ya sea abiertamente o no) - vea [esta sección](../what-is-open-data/) a continuación.
+**No hay requisitos** para crear una lista completa de conjuntos de datos. El principal punto a tener en cuenta es pensar si es factible publicar todos los datos (ya sea abiertamente o no) - vea [esta sección](../what-is-open-data/) a continuación.
 
-### Pregunte a la comunidad
+### Pregunta a la comunidad
 
 Recomendamos preguntar a la comunidad en primera instancia. Estas son las personas que tendrán acceso y utilizarán los datos, ya que es probable que tengan un mejor entendimiento de cuáles datos podrían ser valiosos.
 
-1.  Prepare una pequeña lista de los potenciales conjuntos de datos de los cuales desea tener comentarios. No es esencial que esta lista coincida con sus expectativas, la principal intención es obtener una idea de la demanda. Esto podría estar basado en otros catálogos de [open data](/glossary/en/terms/open-data/) de otros países.
-2.  Solicite comentarios.
-3.  Publique su petición en una página web. Asegúrese de que es posible acceder a dicha petición a través de su propia URL. De esta manera, cuando sea compartida a través de las redes sociales, la petición será fácilmente encontrada.
-4.  Provea formas sencillas de enviar respuestas. Evite el requisito de registro, puesto que reduce el número de respuestas.
-5.  Circule la petición a listas de correos relevantes, foros y participantes, señalando de nuevo la página web principal.
-6.  Ejecute un evento de consulta. Asegúrese de que se realice a una hora conveniente, donde el hombre de negocios promedio, los interesados en los datos y el representante del gobierno puedan asistir.
-7.  Pídale a un político que hable en nombre de su agencia. Es muy posible que Datos Abiertos sea parte de una política mayor de incremento del acceso a la información gubernamental.
+1.  Prepara una pequeña lista con los potenciales conjuntos de datos de los cuales desees tener comentarios. No es esencial que esta lista coincida con 5us expectativas, la principal intención es obtener una idea de la demanda. Esto podría estar basado en otros catálogos de [open data](/glossary/en/terms/open-data/) de otros países.
+2.  Solicita comentarios.
+3.  Publica tu petición en una página web. Asegúrate de que es posible acceder a dicha petición a través de su propia URL. De esta manera, cuando sea compartida a través de las redes sociales, la petición será fácilmente encontrable.
+4.  Provee formas sencillas de enviar respuestas. Evita el requisito de registro, puesto que reduce el número de respuestas.
+5.  Envía la petición a listas de correos relevantes, foros y participantes, señalando de nuevo la página web principal.
+6.  Realiza un proceso de consulta. Asegúrate de que se realiza a una hora conveniente, donde el empresario medio, los interesados en los datos y el representante del gobierno puedan asistir.
+7.  Pídele a un político que hable en nombre de tu agencia. Es muy posible que los Datos Abiertos sean parte de una política a mayor escala del incremento del acceso a la información gubernamental.
 
 ### Base del costo
 
 ¿Cuánto dinero gastan las agencias en la recolección y mantenimiento de datos que poseen? Si gastan demasiado en un conjunto de datos en particular, entonces es muy probable que otros deseen acceder a él.
 
-Este argumento puede ser altamente suceptible a las preocupaciones del freeriding. La pregunta que necesita responder es: "¿Porqué otras personas deberían obtener información gratis si es tan cara?". La respuesta es que los gastos son absorbidos por el sector público para realizar una función en particular. El costo de enviar los datos a un tercero, una vez que han sido recolectados, es aproximadamente nada. Por lo tanto, deberían cobrar nada.
+Este argumento puede ser altamente suceptible a preocupaciones sobre oportunismo. La pregunta que necesitas responder es: "¿Porqué otras personas deberían obtener información gratis si es tan cara?". La respuesta es que los gastos son absorbidos por el sector público para realizar una función en particular. El costo de enviar los datos a un tercero, una vez que han sido recolectados, es aproximadamente nada. Por lo tanto, deberían cobrar nada.
 
-### Alivio de la liberación
+### Facilidad de la liberación
 
-Algunas veces, en vez de decidir cuáles datos serían más valiosos, sería más útil el mirar cuáles datos son más fáciles de dar a manos públicas. Versiones pequeñas y fáciles pueden actuar como el catalizador de grandes cambios de comportamiento en las organizaciones.
+Algunas veces, en vez de decidir cuáles datos serían más valiosos, es más útil ver cuáles datos son más fáciles de abrir al público. Publicaciones pequeñas y fáciles pueden actuar como el catalizador de grandes cambios de comportamiento en las organizaciones.
 
-Sin embargo, se cuidadoso con esta aproximación. Quizás sea el caso que estas publicaciones sean de tan poco valor que nada pueda construirse a partir de ellas. Si ocurre, la fe en todo el proyecto puede ser socavada.
+Sin embargo, hay que se cuidadoso con esta forma de actuar. Quizás se de el caso que estas publicaciones son de tan poco valor que nada pueda construirse a partir de ellas. Si ocurre, la fe en todo el proyecto puede ser socavada.
 
-### Observe a sus pares
+### Observa a tus pares
 
-Los datos abiertos es un movimiento en crecimiento. Es probable que haya mucha gente en su área que entiende lo que hacen otras áreas. Formule una lista en base a lo que esas agencias están haciendo.
+Los datos abiertos es un movimiento en crecimiento. Es probable que haya mucha gente en su área que entiende lo que hacen otras áreas. Formula una lista en base a lo que esas agencias están haciendo.
 
-## Solicite una Licencia Abierta (Apertura Legal)
+## Solicita una Licencia Abierta (Apertura Legal)
 
-En la mayoría de las jurisdicciones existen derechos de propiedad intelectual en los datos, los cuales evita que terceros los usen, reutilicen y redistribuyan datos sin el permiso explícito. Aún en lugares donde la existencia de derechos es incierta, es importante aplicar una licencia simplemente en aras de la claridad. Por lo tanto, **si está planeando hacer disponible sus datos, debería ponerles una licencia** - y y si desea que sus datos sean [libres](http://opendefinition.org/) esto es aún más importante.
+En la mayoría de las jurisdicciones existen derechos de propiedad intelectual de los datos, los cuales evitan que terceros los usen, reutilicen o redistribuyan sin el permiso explícito. Aún en lugares donde la existencia de derechos es incierta, es importante aplicar una licencia simplemente en aras de la claridad. Por lo tanto, **si está planeando hacer disponible sus datos, debería ponerles una licencia** - y y si desea que sus datos sean [libres](http://opendefinition.org/) esto es aún más importante.
 
-¿Qué licencias puede usar? Recomendamos que para "abrir" datos use una de las licencias alineadas con la 'Definición de Abierto"\_ y marcarlas como adecuada para datos. Esta lista (además de las instrucciones para su uso) puede ser localizada en:
+¿Qué licencias puedes usar? Recomendamos que para "abrir" datos use una de las licencias alineadas con la 'Definición de Abierto"\_ y marcarlas como adecuada para datos. Esta lista (además de las instrucciones para su uso) puede ser localizada en:
 
 -   <http://opendefinition.org/licenses/>
 
@@ -80,35 +80,35 @@ Una breve guía (de una página) para utilizar una licencia para datos abiertos 
 
 -   <http://opendatacommons.org/guide/>
 
-## Pon los datos a disposición (Apertura Técnica)
+## Haz disponible la información (Apertura Técnica)
 
 term
 
-:   Los 'Datos Abiertos' necesitan estar abiertos tanto técnica, como legalmente. Específicamente, los datos necesitan estar disponibles en volumen en un formato {term:machine-readable}.
+:   Los 'Datos Abiertos' necesitan estar abiertos tanto técnica, como legalmente. Específicamente, los datos necesitan estar disponibles en volumen en un formato legible por máquina {term:machine-readable}.
 
-**Available**
+**Disponible**
 
-La información no debe tener un precio mayor que un costo de reproducción razonable, preferentemente debe ser una descarga gratuita en Internet. El modelo de precios se consigue porque su agencia no debe entrar en costos al proveer la información para su uso.
+La información no debe tener un precio mayor que un costo de reproducción razonable, preferentemente debe ser una descarga gratuita en Internet. El modelo de precios se consigue porque tu agencia no debe tener costos al proveer la información para su uso.
 
-**In bulk**
+**En Masa**
 
-Los datos deberían estar disponibles como un conjunto completo. Si usted tiene un registro que se recoge en el estatuto, todo el registro debe estar disponible para su descarga. Una API web o servicio similar, también puede ser muy útil, pero no son sustitutos de acceso masivo.
+Los datos deberían estar disponibles como un conjunto completo. Si tienes un registro que se recoge por estatuto, todo el registro debe estar disponible para su descarga. Una API web o servicio similar, también puede ser muy útil, pero no son sustitutos del acceso masivo.
 
-**In an open, machine-readable format**
+**En un formato abierto, legible por computadora**
 
-Re-uso de los datos en poder del sector público no debe estar sujeto a restricciones de patentes. Más importante aún, es asegurarse de que usted está proporcionando los formatos legibles que permitan una mayor reutilización. Para ilustrar esto, considere las estadísticas publicadas como :abbr: PDF (Portable Document Format) documentos, a menudo usados ​​para la impresión de alta calidad. Aunque estas estadísticas pueden ser leídas por los seres humanos, son muy difíciles para un ordenador usarlas. Esto limita enormemente la capacidad para que otros puedan volver a utilizar esos datos.
+La reutilización de los datos del sector público no debe estar sujeto a restricciones por patentes. Más importante aún es asegurarse de que los datos se están proporcionando en formatos legibles por computadora que permitan una mayor reutilización. Para ilustrar esto, considera unas estadísticas publicadas como un documento :abbr: PDF (Portable Document Format), a menudo usados ​​para la impresión de alta calidad. Aunque estas estadísticas pueden ser leídas por los seres humanos, son muy difíciles para usarlas con una computadora. Esto limita enormemente la capacidad para que otros puedan volver a utilizar esos datos.
 
 Aquí hay algunas políticas que serán de gran beneficio:
 
--   Manténgalo simple,
--   Muévete rápido.
--   Sea pragmático.
+-   Manténlo simple
+-   Muévete rápido
+-   Sea pragmático
 
-En particular es mejor brindar datos crudos ahora, que información perfecta en seis meses.
+En particular, es mejor proveer datos crudos ahora, que información perfecta, en seis meses.
 
-Hay muchas maneras de hacer que la información este disponible para terceros. La más natural en la era de Internet es la publicación en línea. Hay muchas variaciones para este modelo. En el más básico, las agencias disponibilizan la información a través de sus sitios web y un catálogo central direcciona a los visitantes a la fuente apropiada. Sin embargo, hay alternativas.
+Hay muchas maneras de hacer que la información este disponible para terceros. La más natural en la era de Internet es la publicación en línea. Hay muchas variaciones para este modelo. En el más básico, las agencias distribuyen la información a través de sus sitios web y un catálogo central direcciona a los visitantes a la fuente apropiada. Sin embargo, hay alternativas.
 
-Cuando: término: la "conectividad" es limitada o el tamaño de los datos demasiado grande, la distribución en otros formatos puede ser justificada. Esta sección también discutirá alternativas, que podrán accionar para mantener los precios muy bajos.
+Cuando: término: la "conectividad" es limitada o el tamaño de los datos demasiado grande, la distribución en otros formatos puede estar justificada. Esta sección también discutirá alternativas, que podrás implementar para mantener los precios muy bajos.
 
 ### Métodos en línea
 
