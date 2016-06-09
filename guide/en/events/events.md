@@ -20,9 +20,9 @@ The events run by Open Knowledge are of three different kinds:
 * Events organized by third parties, considering each individual case and its requirements (e.g. paid training workshops, panels)
 
 
-###Events hosted by Open Knowledge Central
+###Events hosted by Open Knowledge International
 
-Open Knowledge Central runs international events and small curated events by topic/region.
+Open Knowledge International runs international events and small curated events by topic/region.
 
 * Local Meetups - informal in-person get-togethers,  [from Cambridge to Cape Town to Copenhagen](http://www.meetup.com/OpenKnowledgeFoundation/). 
 * Workshops - focussed on a particular topic. For example [Open Data and Cultural Heritage](http://openglam.org/2011/12/07/open-data-and-cultural-heritage-workshop/) or the   [Data Catalogues Interoperability Workshop](http://lod2.okfn.org/2011/05/04/notes-from-data-catalogues-interoperability-workshop-edinburgh-3-4th-may-2011/)
@@ -34,6 +34,6 @@ Open Knowledge Central runs international events and small curated events by top
 
 Open Knowledge brings together a diverse community, creating a network of individuals and organisations, founded on key principles. The network, constituted by Local Groups, Working Groups and Project Teams, has the power to spread awareness and knowledge through offline and online events. These can be of various kinds and formats, but should always aim to reach a unique outcome, being this the consolidation of a grassroots local groups’ engagement, an online sprint or a panel gathering cutting-edge experts on a certain field. This handbook provides a set of guidelines to be observed for every event organized by Open Knowledge network. Then it will go into more detail, highlighting each format’s specific best practices. 
 
-As an OKFN'er, besides organising events, you will very likely attend lots of events organised by other organisations. We will explain further on what to do when you're representing OK at an event.
+As an OK'er, besides organising events, you will very likely attend lots of events organised by other organisations. We will explain further on what to do when you're representing OK at an event.
 
 We are often approached about co-organising events or asked to host events for other organisations. For more information on this, please see [http://wiki.okfn.org/Events/Co-organising_Hosting Co-organising and Hosting Guide]
