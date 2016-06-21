@@ -1,7 +1,7 @@
 ---
 section: solutions
 layout: apps
-title: Cross Agency Strategy
+title: Develop and Implement a Cross Agency Strategy
 creators: 
 website: "https://www.w3.org/2013/share-psi/bp/cas/"
 image: 
