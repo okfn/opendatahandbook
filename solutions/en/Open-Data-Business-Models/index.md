@@ -1,9 +1,9 @@
 ---
 section: solutions
 layout: apps
-title: Develop and implement a cross agency strategy
+title: Open Data Business Models and Value Disciplines
 creators: 
-website: "https://www.w3.org/2013/share-psi/bp/cas/"
+website: "https://www.w3.org/2013/share-psi/bp/odbm/"
 image: 
 image_attribution:
 type: Best Practice  
@@ -12,10 +12,10 @@ themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
 end: 
-countries: Europe, North America
-region: Europe, North America
+countries: Europe, Global
+region: Europe, Global
 cost: 
-problem: Develop and implement a cross agency strategy
+problem: Open Data Business Models
 ---
 
 ## The problem

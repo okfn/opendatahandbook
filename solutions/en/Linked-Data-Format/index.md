@@ -1,9 +1,9 @@
 ---
 section: solutions
 layout: apps
-title: Develop and implement a cross agency strategy
+title: Publish Statistical Data In Linked Data Format
 creators: 
-website: "https://www.w3.org/2013/share-psi/bp/cas/"
+website: "https://www.w3.org/2013/share-psi/bp/stats/"
 image: 
 image_attribution:
 type: Best Practice  
@@ -12,10 +12,10 @@ themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
 end: 
-countries: Europe, North America
-region: Europe, North America
+countries: Europe, Global
+region: Europe, Global
 cost: 
-problem: Develop and implement a cross agency strategy
+problem: Publish Statistical Data In Linked Data Format
 ---
 
 ## The problem

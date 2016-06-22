@@ -1,9 +1,9 @@
 ---
 section: solutions
 layout: apps
-title: Develop and implement a cross agency strategy
+title: Establish an Open Data Ecosystem
 creators: 
-website: "https://www.w3.org/2013/share-psi/bp/cas/"
+website: "https://www.w3.org/2013/share-psi/bp/eode/"
 image: 
 image_attribution:
 type: Best Practice  
@@ -12,10 +12,10 @@ themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
 end: 
-countries: Europe, North America
-region: Europe, North America
+countries: Europe, Global
+region: Europe, Global
 cost: 
-problem: Develop and implement a cross agency strategy
+problem: Establish an Open Data Ecosystem
 ---
 
 ## The problem
