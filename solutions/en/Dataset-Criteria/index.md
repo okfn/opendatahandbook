@@ -1,9 +1,9 @@
 ---
 section: solutions
 layout: apps
-title: Develop and implement a cross agency strategy
+title: Develop dataset criteria
 creators: 
-website: "https://www.w3.org/2013/share-psi/bp/cas/"
+website: "https://www.w3.org/2013/share-psi/bp/dc/"
 image: 
 image_attribution:
 type: Best Practice  
@@ -12,10 +12,10 @@ themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
 end: 
-countries: Europe, North America
+countries: Europe, U.S.
 region: Europe, North America
 cost: 
-problem: Develop and implement a cross agency strategy
+problem: Develop dataset criteria
 ---
 
 ## The problem
