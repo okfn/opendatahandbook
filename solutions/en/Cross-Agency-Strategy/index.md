@@ -19,5 +19,7 @@ problem: Cross agency strategy
 ---
 
 ## The problem
+ 
 
 ## The solution
+blurb
