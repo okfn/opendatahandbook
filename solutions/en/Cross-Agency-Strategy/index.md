@@ -15,11 +15,11 @@ end:
 countries: Europe, North America
 region: Europe, North America
 cost: 
-problem: Cross agency strategy
+problem: Cross Agency strategy
 ---
 
 ## The problem
  
 
 ## The solution
-blurb
+PSI best practice
