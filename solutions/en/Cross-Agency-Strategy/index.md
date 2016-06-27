@@ -15,7 +15,7 @@ end:
 countries: Europe, North America
 region: Europe, North America
 cost: 
-problem: Develop and implement a cross agency strategy
+problem: Cross Agency strategy
 ---
 
 ## The problem
