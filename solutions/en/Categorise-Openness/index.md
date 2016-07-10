@@ -4,7 +4,7 @@ layout: apps
 title: Categorise openness of data
 creators: 
 website: "https://www.w3.org/2013/share-psi/bp/cod/"
-image: 
+image: "https://www.github.com/opendatahandbook/img/share_psi_logo_vert_RGB.png"
 image_attribution:
 type: Best Practice  
 language: en
