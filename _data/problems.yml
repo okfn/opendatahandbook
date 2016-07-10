@@ -44,7 +44,76 @@
     Sustained civil and international conflict is complex, difficult to measure, and often highly politicized. Knowledge about violence in conflict is often piecemeal and error ridden.It is not easy for an individual to learn about country’s contemporary and past history of conflict.   
 
     This problem is made twofold by modern day warfare which relies on technologies that do not need military personnel to endanger themselves. Despite being hailed as a more deliberate, controllable, and therefore ‘humane’ way of waging conflict, the aggregate effect of this new warfare is just as destructive and devastating as traditional warfare, but due to its non-civilian and dispersed nature it is easier to hide and less demanding of attention. Ultimately for those types of violence whose manifestations are less visible there needs to be a pronounced effort to educate and inform the public.   
-
+    
 - problem: Cross Agency strategy
   p_overview: |
-    PSI best practice.
+    When different agencies in the public sector develop and implement their own strategies on open data, it is hard to apply central planning and evaluation. A strategy that coordinates the efforts of multiple agencies allows different agencies to understand what is required, plan accordingly and measure progress. Both the G8 Open Data Charter, published in 2013, and the Shakespeare Review of Public Sector Information, emphasised the need for a clear, visible, auditable plan for publishing data as quickly as possible, defined both by bottom-up market demand and by top-down strategic thinking, as well as a process to overcome institutional and technical obstacles.
+    
+- problem: Categorise openness of data
+  p_overview: |
+    Public sector organisations often only consider what data can be open for all. However, there may be some types of data that may also be useful to publish, but can only be shared under certain restrictions. Conducting an initial overview of what data can be opened and establishing a corresponding scheme that indicates the category of openness of data makes it easier for public sector organisations to determine with whom data can be shared. For example, a colour scheme of green, yellow and red to indicate varying level of restrictions can be employed.
+    
+- problem: Develop dataset criteria
+  p_overview: |
+    Throughout the implementation of an open data plan, public sector actors will need to understand what can be considered ‘high-value datasets’ so that publication of these datasets can be prioritized. This best practice sets out a number of criteria that can be used to determine what are ‘high-value datasets,’ taking into consideration the likely re-use of open data and to help governments understand which datasets to prioritise for publication. The characteristics of ‘high-value datasets’ are seen from three perspectives: re-usability, value for data owners, value for re-users. On-going engagement with the greater open data ecosystem is encouraged.
+    
+- problem: Enable feedback channels for improving data quality
+  p_overview: |
+    It is important for data released to be accurate. However, even when significant time and resources are invested toward enhancing accuracy, mistakes may still happen, especially when working with a large dataset. By providing feedback mechanisms through which stakeholders can report and correct errors, inconsistencies and incompleteness in already published data, the public sector body can increase the quality of the data while distributing the cost of publication.
+    
+- problem: Enable quality assessment of open data
+  p_overview: |
+    The proliferation of open data as a mean to foster open innovation processes towards improved or new products and services, to increase transparency and to perform self-empowered impact measurement of policies is dependent upon the Data Quality (DQ) of that which is released and being re-used.  In order to sustainably raise DQ, measures need to be in place all along the data pipeline and not only at the providing front end. DQ improvement has to be considered as a process rather than a one-time measure. Some initial metrics to assess Data Quality that should be taken into consideration include: accuracy, applicability, understandability, relevance, availability, timeliness and primacy.
+    
+- problem: Encourage crowdsourcing around PSI
+  p_overview: |
+    Preparing PSI for sharing can be time consuming, expensive and, sometimes difficult. Engaging the community in the task by encouraging crowdsourcing will help enthuse potential users while increasing the quality and quantity of available data when working within a constrained budget. A variety of practical and innovative platforms, such as GitHub, are at your disposal to harness the skill and enthusiasm of the community at large.
+    
+- problem: Establish Open Government Portal
+  p_overview: |
+    Data portals can facilitate the distribution of open data by providing easy-to-access, searchable hub for multiple datasets. They often also act as showcases for reuse of data and as a hub for the interested community. Data portal software can be developed from scratch, bought off the shelf or obtained as open source software.
+    
+- problem: (Re)use federated tools
+  p_overview: |
+    The number of datasets and dataset owners is large and may cross various levels of government, making it difficult to implement a central solution where all owners unify their data in one system. However, federated/distributed tools for open data collection enable the automatic publication of metadata for each dataset which allow for the creation of a complete index of reusable public information. Users can then access this portal to find the website of the public entity holding the data in which they are interested in.
+    
+- problem: Standards for Geospatial Data
+  p_overview: |
+    Public administration bodies need to work with many outside actors where accurate location is critical to ensure the necessary delivery of services. This requires the many different sources of geographic information to be shared in a way most likely to be re-usable by partner organisations and interoperable with other location information according to a common standard.
+    
+- problem: Assess holistic metrics
+  p_overview: |
+    In cases where a data publisher, be it a department or agency, generates revenue by monetizing the concerned data, the immediate impact on this publisher of the PSI Directive mandate that data should be free or available at marginal cost may not be favourable. However, publication of data and information according to regulations, principles, best practices or recommendations generally has positive effects at a larger scale. Therefore, a range of metrics at a higher level that take into account the whole data life cycle should be considered in assessing the impacts of the release of public sector information.
+    
+- problem: Identify what you already publish
+  p_overview: |
+    As organisations determine what should be published through the PSI Directive, information already published represent a good candidate for datasets to be published as open data. However, organisations may encounter challenges due to a lack of knowledge of what information is already published or be faced with so much amount of information might be too large to be catalogued manually. An inventory of already published information helps organisations to understand what information they provide and what assets they can make more re-usable.
+    
+- problem: Publish Statistical Data In Linked Data Format
+  p_overview: |
+    Statistical data may be published in a range of formats and standards that do not allow linking across datasets. However, this data is often the foundations for policy prediction, planning and adjustments, and therefore has a significant impact on the society. The process of collecting and monitoring socio-economic indicators can be considerably improved if the data produced by government organizations are published in Linked Data Format.
+    
+- problem: Open Data Business Models
+  p_overview: |
+    Open data holds considerable economic and social value beyond the walls of the governments and institutions that share their data. However, there are still many open data-driven organisations that are struggling to comprehend how to generate revenue and survive by adapting to the changes brought on by the ubiquitous growth of open data and 'Big Data.' Therefore, data-driven organisations should develop and implement a business model before starting their business.
+    
+- problem: Establish an Open Data Ecosystem
+  p_overview: |
+    Simply making data available to the public isn’t enough to make that data useful. Citizens are not interested in data: they are interested in services being built with the available data and information. Therefore the establishment of an active open data network is needed, facilitating interaction and communication amongst everybody interested and/or involved in open data and the re-use of information and data.  Interaction, collaboration and trainings between a wide range of actors, from NGOs to the private sector to individual citizens is needed to foster the development of new innovative products and services that will help realise the goals of the PSI Directive.
+    
+- problem: Open Up Public Transport Data
+  p_overview: |
+    Open transport data has the potential to greatly benefit both citizens and the public sector. Public transport will only be widely used if the service is effective, efficient and user-friendly. Information that can help citizens plan their journey in advance can help enhance service and ultimately facilitate greater use. Additionally, although the transport service may be run by a private company, most of the information is non-sensitive and may be released openly. Therefore municipalities and local governments should put forth effort in opening the information on public transport under machine-readable and easy to use formats.
+    
+- problem: Develop an Open Data Publication Plan
+  p_overview: |
+    Due to various constraints of public sector bodies, not all potential public sector information may be made available at one time. Therefore these organisations should develop an Open Data publication plan that balances the requirements and needs of all stakeholders, both internal and external, with the available resources as well as the potential benefits and risks associated with the publication of the identified datasets.
+    
+- problem: Publish overview of managed data
+  p_overview: |
+    There is often a ‘catch 22’ situation when identifying data for release. The public sector asks the user community what data they would like and they will prioritise this for release. However, the user community are often not aware of what exists and therefore cannot respond meaningfully. Therefore an overview of datasets managed by an organisation should be published.
+    
+- problem: Provide PSI at zero charge
+  p_overview: |
+    In order to unlock the maximum commercial and non-commercial potential of public sector information, organisations should strive to publish as much data for re-use as possible at no charge. As a result, commercial products and services developed will have lower cost, increasing their viability and lowering the barrier for their access to the public. At the same time, zero charges facilitate non-commercial re-uses that otherwise would not have been possible.
+
