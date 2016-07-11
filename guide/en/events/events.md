@@ -55,3 +55,5 @@ Open Knowledge brings together a diverse community, creating a network of indivi
 As an OK'er, besides organising events, you will very likely attend lots of events organised by other organisations. We will explain further on what to do when you're representing OK at an event.
 
 We are often approached about co-organising events or asked to host events for other organisations. For more information on this, please see [http://wiki.okfn.org/Events/Co-organising_Hosting Co-organising and Hosting Guide]
+
+
