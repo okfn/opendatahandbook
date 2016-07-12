@@ -26,5 +26,5 @@ As organisations determine what should be published through the PSI Directive, i
 
 _Create a public, comprehensive list of all information holdings_,[Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/#lists-of-holdings), Sunlight Foundation: This guideline advocates for the creation of an inventory of already available information, in line with the Share PSI best practice.
 
-_ How to open up data_, [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/): The section of Open Knowledge International's Open Data Handbook intended for governments emphasizes the value of publishing data holdings and mentions CKAN.
+_How to open up data_, [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/): The section of Open Knowledge International's Open Data Handbook intended for governments emphasizes the value of publishing data holdings and mentions CKAN.
 
