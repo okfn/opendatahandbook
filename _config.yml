@@ -2,7 +2,7 @@
 title: The Open Data Handbook
 short_title: Open Data Handbook
 description: |
-  Guides, case studies and resources for government & civil society  
+  Guides, case studies and resources for government & civil society
   on the "what, why & how" of open data.
 baseurl: ""
 url: "http://opendatahandbook.org" # the base hostname & protocol for your site
@@ -232,6 +232,7 @@ meta:
         - what-is-open-data
         - how-to-open-up-data
         - following-up
+        - events
         - glossary
         - appendices
       chapters:
@@ -250,6 +251,8 @@ meta:
           slug: 'how-to-open-up-data'
         - title: "So I've Opened Up Some Data, Now What? "
           slug: 'following-up'
+        - title: "Make data social"
+          slug: 'events'
         - title: 'Appendices'
           slug: 'appendices'
   contribute:
