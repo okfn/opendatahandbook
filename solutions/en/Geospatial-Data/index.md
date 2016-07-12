@@ -29,7 +29,7 @@ _US Opening GPS Data for Civilian Use_, [ODImpact](http://odimpact.org/case-unit
 
 _UK's HM Land Registry Price Paid Data_, [ODImpact](http://odimpact.org/case-united-kingdoms-hm-land-registry-price-paid-data.html): This case study, part of the ODImpact work created by [the GovLab](thegovlab.org), shows how opening geospatial data creates economic opportunities for the real estate market and proptech community.
 
-_Engage mapping meetups and [OpenStreetMap community_](http://forum.openstreetmap.org/): Governments should work to engage with these groups on data standards and to help determine what data to release for their use.
+_Engage mapping meetups and [OpenStreetMap community](http://forum.openstreetmap.org/)_: Governments should work to engage with these groups on data standards and to help determine what data to release for their use.
 
 [_INSPIRE Directive_](http://inspire.ec.europa.eu/): This EU directive puts forth standards for government release of geospatial data.
 
