@@ -28,6 +28,6 @@ _Integrating user-centered design into open data strategy_, [OpenFDA](http://uxp
 
 [_Open Data 500_](http://www.opendata500.com/): This resource maps how different companies use open government data, including several EU countries.
 
-_Open data means business_, [The Open Data Institute](http://theodi.org/open-data-means-business): This case study conducted by [The Open Data Institute] (https://theodi.org/) shows the different innovation that has been possible in the UK as a result of open data.
+_Open data means business_, [The Open Data Institute](http://theodi.org/open-data-means-business): This case study conducted by [The Open Data Institute](https://theodi.org/) shows the different innovation that has been possible in the UK as a result of open data.
 
-_How to make a business case for open data_, [The Open Data Institute](http://theodi.org/guides/how-make-business-case-open-data): This guide, developed by [The Open Data Institute] (https://theodi.org/), helps organizations and potentially governments identify how open data aligns with their business model. 
+_How to make a business case for open data_, [The Open Data Institute](http://theodi.org/guides/how-make-business-case-open-data): This guide, developed by [The Open Data Institute](https://theodi.org/), helps organizations and potentially governments identify how open data aligns with their business model. 
