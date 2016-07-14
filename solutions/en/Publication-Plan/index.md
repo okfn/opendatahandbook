@@ -28,6 +28,6 @@ _How to make data public_, [Open Data Policy Guidelines](http://sunlightfoundati
 
 [_Open Knowledge Network_](okfn.org/network): Public sector should consider utilizing some sort of public comment/feedback mechanism that leverages the Open Knowledge Network and civil society more broadly. Github presents a potential platform for this.
 
-_How to plan and budget an open data initiative_, [The Open Data Institute](http://theodi.org/guides/how-to-plan-and-budget-an-open-data-initiative): This guide, developed by [The Open Data Institute] (https://theodi.org/), helps governments plan the costs and data prioritization to guide an open data publication plan.
+_How to plan and budget an open data initiative_, [The Open Data Institute](http://theodi.org/guides/how-to-plan-and-budget-an-open-data-initiative): This guide, developed by [The Open Data Institute](https://theodi.org/), helps governments plan the costs and data prioritization to guide an open data publication plan.
 
 [_Open Data Readiness Assessment_](http://opendatatoolkit.worldbank.org/en/odra.html): This tool, developed by the [World Bank](http://www.worldbank.org/), helps identify current government state to determine where they can go in terms of open data.
