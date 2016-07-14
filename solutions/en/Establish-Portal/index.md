@@ -26,5 +26,5 @@ Data portals can facilitate the distribution of open data by providing easy-to-a
 
 _How to open data_, [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/): The Open Data Handbook, developed by Open Knowledge International, outlines different methods for publishing open data online, including establishing a portal or using an existing portal.
 
-_Open Data Portal Requirements_, [Center for Government Excellence](http://govex.jhu.edu/open-data-portal-requirements/): This guide, developed by the [Center for Government Excellence] (http://govex.jhu.edu/) at John Hopkins University, contains a set of sample requirements to help governments evaluate, develop (or procure), deploy, and launch an open data portal.
+_Open Data Portal Requirements_, [Center for Government Excellence](http://govex.jhu.edu/open-data-portal-requirements/): This guide, developed by the [Center for Government Excellence](http://govex.jhu.edu/) at John Hopkins University, contains a set of sample requirements to help governments evaluate, develop (or procure), deploy, and launch an open data portal.
 
