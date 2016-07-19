@@ -2,7 +2,7 @@
 redirect_from: /en/events/index.html
 section: guide
 lang: en
-title: Open Knowledge events
+title: events
 ---
 
 ## In case you need some ideas to gather your local community, an event is a great way to do so. Throughout the years, the  Open Knowledge International Network have developed a bunch of different events around open data and open knowledge. Some of these are in person events organized by the community, some are events that staff or communities attend and others are online events. In this section we will cover how to create these different types of events. Help us to improve this section by adding content to it using Github!
