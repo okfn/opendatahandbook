@@ -13,12 +13,12 @@ Open Knowledge Events are important for the community. Some of the opportunities
 
 #### Why organize an Open Knowledge event?
 
-While most of the network activities takes place in the virtual realm, most of the human interaction is still relaying on face to face interactions. Having event helps you to grow you local community and stay connected to one another.
+While most of the network activities takes place in the virtual realm, most of the human interaction is still relying on face to face interactions. Having event helps you to grow your local community and stay connected to one another.
 When face to face events are not possible, virtual events can help you to boost the community, and to make sure the group is staying connected.
 
 #### What are the golden rules for an event?
 
-As a start and event need to be true to [Open Knowledge values](https://okfn.org/about/vision-and-values/). This means that the event has to be in an open and inclusive environment that will make all participants from civil society to government, feel confortable in the settings of the event.
+As a start an event need to be true to [Open Knowledge values](https://okfn.org/about/vision-and-values/). This means that the event has to be in an open and inclusive environment that will make all participants from civil society to government, feel comfortable in the settings of the event.
 In addition your event should focus on results. These results can be varied, and should fit your local needs. From strengthening a local community to igniting a common passion about open data through talks and meetings, to writing a document together or to set up a workshop. In any case, before planning anything, you should ask yourself (and your co-orginisers) what you want your event’s outcome to be, and communicate it clearly. Your event will have a greater impact when you have a firm idea of what results you hope to inspire!
 
 #### Prep your social media
