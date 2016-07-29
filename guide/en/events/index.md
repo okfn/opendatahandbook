@@ -11,7 +11,7 @@ title: Making Data Social
 
 Open Knowledge Events are important for the community. Some of the opportunities include: focus attention, gather audience around specific topics and represent both the public face of the organization and its multiple projects. It is a way to help data enthusiasts meet face to face to work and learn together.
 
-#### Why organise an Open Knowledge event?
+#### Why organize an Open Knowledge event?
 
 While most of the network activities takes place in the virtual realm, most of the human interaction is still relaying on face to face interactions. Having event helps you to grow you local community and stay connected to one another.
 When face to face events are not possible, virtual events can help you to boost the community, and to make sure the group is staying connected.
@@ -28,7 +28,7 @@ Social media is a good tool not only to promote and event, but also to document 
 * Open a facebook page for the event.
 * Use tools like [attending.io](https://attending.io) or [eventbrite](http://eventbrite.com) to keep information and registration for the event.
 * Create a hashtag for your event and tweet about it from your group twitter account
-* Blog about the event and publish it with other organisations in your area that can help you reach the crowd you are looking for.
+* Blog about the event and publish it with other organizations in your area that can help you reach the crowd you are looking for.
 * If you have time, create a video to promote the event
 
 #### Documenting
@@ -39,7 +39,7 @@ Social media is a good tool not only to promote and event, but also to document 
 
 #### What could be done during an event?
 
-The content of the event is up to its organiser – open knowledge is such a wide world, not even the sky is the limit. If you’re looking for an idea, here are some great things you might like to do:
+The content of the event is up to its organizer – open knowledge is such a wide world, not even the sky is the limit. If you’re looking for an idea, here are some great things you might like to do:
 
 #### Face-to-face:
 
@@ -63,7 +63,8 @@ However, we do not recommend to run a "one time" event once a year which tend a 
 #### Don't forget the follow up!
 When an event is over, you still have work to do so you can make sure that the goals are fully acheived.
 
-* Write a blogpost or publish a podcast about the event so people who did not attend can catch up and that other people in the network can learn from. * Make a [storify](https://storify.com) page to your event.
+* Write a blogpost or publish a podcast about the event so people who did not attend can catch up and that other people in the network can learn from.
+* Make a [storify](https://storify.com) page to your event.
 * Send an email to participant and tell them about future projects that they can take part in.
 
 #### A couple tips
