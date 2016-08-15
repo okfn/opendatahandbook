@@ -24,6 +24,10 @@ $(document).ready(function() {
         hashValue = '*';
       }
       location.hash = 'filter=' + encodeURIComponent( hashValue );
+
+      //active classes for overviews
+      $('.overviews').find('.overview.active').removeClass('active');
+      $('.overviews').find($(this).data("pid")).addClass('active');
     });
 
     // use value of search field to filter
