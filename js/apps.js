@@ -8,10 +8,29 @@ $(document).ready(function() {
     return hashFilter && decodeURIComponent( hashFilter );
   }
 
-  $( function () {
-    // quick search regex
+  $( function() {
+
+    var $container = $('section.apps > ul');
     var qsRegex;
-    var buttonFilter;
+
+    // bind filter button click
+    var $filters = $('.filter').on( 'click', 'a', function() {
+      var filterAttr = $( this ).attr('data-filter');
+      // set filter in hash
+      if ( filterAttr ) {
+        hashValue = filterAttr;
+      }
+      else {
+        hashValue = '*';
+      }
+      location.hash = 'filter=' + encodeURIComponent( hashValue );
+    });
+
+    // use value of search field to filter
+    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+      $container.isotope();
+    }) );
 
     var isIsotopeInit = false;
 
@@ -20,54 +39,24 @@ $(document).ready(function() {
       if ( !hashFilter && isIsotopeInit ) {
         return;
       }
+
       isIsotopeInit = true;
-      // init Isotope
-      var $container = $('section.apps > ul').isotope({
+      // filter isotope
+      $container.isotope({
         itemSelector: 'section.apps > ul > li',
         layoutMode: 'fitRows',
-        filter: hashFilter,
         filter: function() {
           var $this = $(this);
           var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
-          var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
-          return searchResult && buttonResult;
+          var hashResult = hashFilter ? $this.is( hashFilter ) : true;
+          return searchResult && hashResult;
         }
       });
-
-      $('.filter').on( 'click', 'a', function() {
-        buttonFilter = $( this ).attr('data-filter');
-        $container.isotope();
-
-        // set filter in hash
-        if ( buttonFilter ) {
-          hashValue = buttonFilter.replace('.selector-', '');
-        }
-        else {
-          hashValue = '';
-        }
-        location.hash = encodeURIComponent( hashValue );
-      });
-
-      // use value of search field to filter
-      var $quicksearch = $('.quicksearch').keyup( debounce( function() {
-        qsRegex = new RegExp( $quicksearch.val(), 'gi' );
-        $container.isotope();
-      }) );
-
-
-        // change is-checked class on buttons
-      $('.filter').each( function( i, buttonGroup ) {
-        var $buttonGroup = $( buttonGroup );
-        $buttonGroup.on( 'click', 'a', function() {
-          $('.app-sub-menu').find('.filter-items .active').removeClass('active');
-          $( this ).addClass('active');
-
-          //active classes for overviews
-          $('.overviews').find('.overview.active').removeClass('active');
-          $('.overviews').find($(this).data("pid")).addClass('active');
-
-        });
-      });
+      // set selected class on button
+      if ( hashFilter ) {
+        $filters.find('.active').removeClass('active');
+        $filters.find('[data-filter="' + hashFilter + '"]').addClass('active');
+      }
     }
 
     $(window).on( 'hashchange', onHashchange );
