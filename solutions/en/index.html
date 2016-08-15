@@ -51,7 +51,7 @@ redirect_from: "/solutions/"
       {% capture themes %}{% if page.themes %}{{ page.themes }}{% endif %}{% endcapture %}
       {% assign themesArray = themes | split: "," %}
 
-      <li class="{% if problemsArray %}{% for pr in problemsArray %}selector-problem-{{ pr | downcase | replace:' ','' | replace:'(','' | replace:')','' }} {% endfor %}{% endif %}{% if tagsArray %}{% for ta in tagsArray %}selector-tag-{{ ta | downcase | replace:' ','' | replace:'(','' | replace:')','' }} {% endfor %}{% endif %}{% if themesArray %}{% for th in themesArray %}selector-theme-{{ th | downcase | replace:' ','' | replace:'(','' | replace:')','' }} {% endfor %}{% endif %}">
+      <li class="{% if problemsArray %}{% for pr in problemsArray %}selector-problem-{{ pr | downcase | replace:' ','' | replace:'(','' | replace:')','' | replace:'&','and' }} {% endfor %}{% endif %}{% if tagsArray %}{% for ta in tagsArray %}selector-tag-{{ ta | downcase | replace:' ','' | replace:'(','' | replace:')','' | replace:'&','and' }} {% endfor %}{% endif %}{% if themesArray %}{% for th in themesArray %}selector-theme-{{ th | downcase | replace:' ','' | replace:'(','' | replace:')','' | replace:'&','and' }} {% endfor %}{% endif %}">
         <a href="{{ page.path | split: '.' | first | replace:'index',''| split: '/' | last }}"{% if page.image %} style="background-image:url({{ page.image }})"{% if page.image_attribution %} data-attribution="{{ page.image_attribution }}"{% endif %}{% endif %}>
           <h3>{{ page.title }}{% if page.creators %}<span>by {{ page.creators }}</span>{% endif %}</h3>
           {% if problemsArray %}

@@ -153,7 +153,7 @@
               <a>Problems</a>
               <span class="filter-items">
                 {% for appproblem in appproblemssorted %}
-                <a data-filter=".selector-problem-{{ appproblem | downcase | replace:' ','' | replace:'(','' | replace:')','' }}" data-pid=".problem-{{ appproblem | downcase | replace:' ','' | replace:'(','' | replace:')','' }}">{{ appproblem }}</a>
+                <a data-filter=".selector-problem-{{ appproblem | downcase | replace:' ','' | replace:'(','' | replace:')',''  | replace:'&','and'}}" data-pid=".problem-{{ appproblem | downcase | replace:' ','' | replace:'(','' | replace:')',''  | replace:'&','and'}}">{{ appproblem }}</a>
                 {% endfor %}
               </span>
             </li>
@@ -174,7 +174,7 @@
               <a>Themes</a>
               <span class="filter-items">
                 {% for apptheme in appthemessorted %}
-                <a data-filter=".selector-theme-{{ apptheme | downcase | replace:' ','' | replace:'(','' | replace:')','' }}">{{ apptheme }}</a>
+                <a data-filter=".selector-theme-{{ apptheme | downcase | replace:' ','' | replace:'(','' | replace:')','' | replace:'&','and' }}">{{ apptheme }}</a>
                 {% endfor %}
               </span>
             </li>
@@ -195,7 +195,7 @@
               <a>Tags</a>
               <span class="filter-items">
                 {% for apptag in apptagssorted %}
-                <a data-filter=".selector-tag-{{ apptag | downcase | replace:' ','' | replace:'(','' | replace:')','' }}">{{ apptag }}</a>
+                <a data-filter=".selector-tag-{{ apptag | downcase | replace:' ','' | replace:'(','' | replace:')','' | replace:'&','and' }}">{{ apptag }}</a>
                 {% endfor %}
               </span>
             </li>
