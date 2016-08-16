@@ -3,6 +3,13 @@ layout: default
 wide: true
 title: Solutions Bank
 intro: In this section you'll find case studies of problems being tackled by open data.
+banner:
+ -
+  image: ../../img/share_psi_icon.svg
+  heading: Share-PSI
+  text: Guidance documents, examples, case studies and recommendations for engagement based on Open Knowledge International’s experience as a global steward of the openness movement.
+  link: "#filter=.selector-theme-sharepsi"
+  colour: 005a9c
 filters: true
 section: solutions-landing
 js:
@@ -20,6 +27,28 @@ redirect_from: "/solutions/"
     <br>
     Filter solutions by <strong>problem</strong>, <strong>theme</strong> or <strong>tags</strong>, using the menu to the left.
   </div>
+  {% endif %}
+
+  {% if page.banner %}
+  {% for b in page.banner %}
+  <div class="banner">
+    <a{% if b.link %} href="{{ b.link }}"{% endif %}>
+      {% if b.image %}
+      <span class="image">
+        <img src="{{ b.image }}" alt="{{ b.heading }}" />
+      </span>
+      {% endif %}
+      <span class="text">
+        {% if b.heading %}
+        <h2{% if b.colour %} style="color: #{{ b.colour }}"{% endif %} class="heading">{{ b.heading }}</h2>
+        {% endif %}
+        {% if b.text %}
+        {{ b.text | markdownify }}
+        {% endif %}
+      </span>
+    </a>
+  </div>
+  {% endfor %}
   {% endif %}
 
   <!-- start resource topics section -->
