@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: Encourage crowdsourcing around Public Sector Information
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/ec/"
-image: 
+image: http://opendatahandbook.org/img/share_psi_icon.svg
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
-end: 
+end:
 countries: Europe, Global
 region: Europe, Global
-cost: 
+cost:
 problem: Encourage crowdsourcing around PSI
 ---
 

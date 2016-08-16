@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: Standards for Geospatial Data
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/sgd/"
-image: 
+image: http://opendatahandbook.org/img/share_psi_icon.svg
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI, Transport
 tags: Transparency, E-Government, Share PSI, Metro
 start: 2016
-end: 
+end:
 countries: England, Belgium, Global
 region: Europe, Global
-cost: 
+cost:
 problem: Standards for Geospatial Data
 ---
 

@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: Assess holistic metrics
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/hm/"
-image: 
+image: http://opendatahandbook.org/img/share_psi_icon.svg
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
-end: 
+end:
 countries: Europe, Global, Uruguay
 region: Europe, Global
-cost: 
+cost:
 problem: Assess holistic metrics
 ---
 
@@ -24,7 +24,7 @@ In cases where a data publisher, be it a department or agency, generates revenue
 ## The solution
 _Open Data: Measuring What Matters_, [Center for Government Excellence](http://govex.jhu.edu/open-data-measuring-what-matters/): This resource, developed by the [Center for Government Excellence](http://govex.jhu.edu/) at John Hopkins University, lays out how to tie performance measurement analytics to a government open data program.
 
-[_Atuservicio_](http://opendatahandbook.org/value-stories/en/latam-health/): This value story, featured within OKI's [Open Data Handbook](opendatahandbook.org), uses improved service delivery as a metric for assessing value of open data. 
+[_Atuservicio_](http://opendatahandbook.org/value-stories/en/latam-health/): This value story, featured within OKI's [Open Data Handbook](opendatahandbook.org), uses improved service delivery as a metric for assessing value of open data.
 
 [_Social Impact of Open Data_](https://www.scribd.com/doc/263776138/The-Social-Impact-of-Open-Data): This research paper, created by the [Sunlight Foundation](sunlightfoundation.com), puts forth methodology for assessing impact of open data when the hopeful outcome is to see a change in behavior.
 

@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: (Re)use federated tools
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/ft/"
-image: 
+image: http://opendatahandbook.org/img/share_psi_icon.svg
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
-end: 
+end:
 countries: Europe, North America
 region: Europe, North America, Global
-cost: 
+cost:
 problem: (Re)use federated tools
 ---
 

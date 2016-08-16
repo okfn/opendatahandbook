@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: Identify what you already publish
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/iwyap/"
-image: 
+image: http://opendatahandbook.org/img/share_psi_icon.svg
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
-end: 
+end:
 countries: Europe, Global
 region: Europe, Global
-cost: 
+cost:
 problem: Identify what you already publish
 ---
 
@@ -27,4 +27,3 @@ As organisations determine what should be published through the PSI Directive, i
 _Create a public, comprehensive list of all information holdings_, [Open Data Policy Guidelines](http://sunlightfoundation.com/opendataguidelines/#lists-of-holdings), Sunlight Foundation: This guideline advocates for the creation of an inventory of already available information, in line with the Share PSI best practice.
 
 _How to open up data_, [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/): The section of Open Knowledge International's Open Data Handbook intended for governments emphasizes the value of publishing data holdings and mentions CKAN.
-

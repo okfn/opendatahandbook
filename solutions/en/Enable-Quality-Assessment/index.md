@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: Enable quality assessment of open data
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/eqa/"
-image: 
+image: http://opendatahandbook.org/img/share_psi_icon.svg
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
-end: 
+end:
 countries: Europe, Global
 region: Europe, Global
-cost: 
+cost:
 problem: Enable quality assessment of open data
 ---
 
@@ -27,4 +27,3 @@ The proliferation of open data as a mean to foster open innovation processes tow
 [_Open Definition_](http://opendefinition.org/): [Open Knowledge International](okfn.org), along with the stewards of the open movement created the open definition to capture the principles of openness. Governments could annotate their datasets according to these principles online.
 
 _How to open up data_, [Open Data Handbook](http://opendatahandbook.org/guide/en/how-to-open-up-data/): This resource gives recommendations and examples of how to open up data according to the principles of openness. It is a valuable resource for governments implementing open data programs.
-
