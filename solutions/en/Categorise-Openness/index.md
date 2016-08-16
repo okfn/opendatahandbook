@@ -2,19 +2,19 @@
 section: solutions
 layout: apps
 title: Categorise openness of data
-creators: 
+creators:
 website: "https://www.w3.org/2013/share-psi/bp/cod/"
-image: "https://www.github.com/opendatahandbook/img/share_psi_logo_vert_RGB.png"
+image: "http://opendatahandbook.org/img/share_psi_icon.svg"
 image_attribution:
 type: Best Practice  
 language: en
 themes: Share PSI
 tags: Transparency, E-Government, Share PSI
 start: 2016
-end: 
+end:
 countries: Europe, Global
 region: Europe, Global
-cost: 
+cost:
 problem: Categorise openness of data
 ---
 
@@ -27,4 +27,3 @@ _Data Deposit Framework_, [Oxfam](https://responsibledata.io/summary-of-the-rdf-
 _Identify and manage risks associated with the release and use of open data_, [ODImpact Key Findings](http://odimpact.org/key-findings.html): Open Data Impact case studies conducted by the [GovLab](http://www.thegovlab.org/) recommends community approach to determining when and how to release data, involving citizen groups and external experts
 
 [_Responsible Data Forum_](https://responsibledata.io/): This community of advocacy organizations provide resources and advice on how to maintain the privacy of individuals and gain consent such that their data is being used in an ethical way.
-
