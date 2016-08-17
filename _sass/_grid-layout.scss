@@ -78,7 +78,7 @@
     padding-bottom: $base-spacing;
     position: relative;
 
-    a {
+    .banner-content {
       display: table;
       width: 100%;
 
@@ -107,6 +107,43 @@
         @include media($large-screen) {
           vertical-align: middle;
         }
+      }
+    }
+
+    .info {
+      display: block;
+      margin-top: $small-spacing;
+
+      @include media($medium-screen) {
+        position: absolute;
+        right: - $base-spacing;
+        bottom: 0;
+        background-color: $medium-gray;
+        padding-left: $small-spacing /2;
+        padding-right: $small-spacing /2;
+        z-index: 1;
+        border-radius: 3px 0 0 0;
+      }
+
+      &:before {
+        @include icon-font();
+        content: "\ea0c";
+        position: relative;
+        top: 1px;
+      }
+
+      .no-info-text {
+        @include hide-text;
+        display: block;
+        width: 0;
+        height: 0;
+      }
+
+      .info-text {
+        font-size: 12px;
+        padding-left: $small-spacing /2;
+        position: relative;
+        top: -1px;
       }
     }
 

@@ -839,6 +839,7 @@ body:not( .filters ) {
   text-align:right;
   height:60px;
   line-height:59px;
+  z-index: 1;
 
   & > ul {
     float:left;

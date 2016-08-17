@@ -10,6 +10,8 @@ banner:
   text: Guidance documents, examples, case studies and recommendations for engagement based on Open Knowledge International’s experience as a global steward of the openness movement.
   link: "#filter=.selector-theme-sharepsi"
   colour: 005a9c
+  info_link: https://www.w3.org/2013/share-psi/
+  info_text: Learn about Share-PSI
 filters: true
 section: solutions-landing
 js:
@@ -32,7 +34,7 @@ redirect_from: "/solutions/"
   {% if page.banner %}
   {% for b in page.banner %}
   <div class="banner">
-    <a{% if b.link %} href="{{ b.link }}"{% endif %}>
+    <a{% if b.link %} href="{{ b.link }}"{% endif %} class="banner-content">
       {% if b.image %}
       <span class="image">
         <img src="{{ b.image }}" alt="{{ b.heading }}" />
@@ -47,6 +49,9 @@ redirect_from: "/solutions/"
         {% endif %}
       </span>
     </a>
+    {% if b.info_link %}
+    <a href="{{ b.info_link }}" rel="external" class="info"{% if b.colour %} style="color: #{{ b.colour }}"{% endif %}>{% if b.info_text %}<span class="info-text">{{ b.info_text }}{% else %}<span class="no-info-text">Info{% endif %}</span></a>
+    {% endif %}
   </div>
   {% endfor %}
   {% endif %}
