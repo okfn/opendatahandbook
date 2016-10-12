@@ -1,115 +1,115 @@
 ---
-redirect_from: /en/following-up/index.html
+redirect_from: /rs/following-up/index.html
 section: guide
-lang: en
-title: So I've Opened Up Some Data, Now What?
+lang: rs
+title: Otvorili smo neke podatke i šta sada?
 ---
 
-We've looked at how to make government information legally and technically reusable. The next step is to encourage others to make use of that data.
+Videli smo kako se vladini podaci mogu legalno i tehnički ponovo koristiti. Sledeći korak jeste kako podstaći druge da te podatke koriste.
 
-This section looks at additional things which can be done to promote data re-use.
+Ovaj deo istražuje šta se sve još može uraditi u svrhu promocije upotrebe podataka izvan njihovog originalnog područja.
 
-## Tell the world!
+## Proširite vest!
 
-First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote [open data](/glossary/en/terms/open-data/) in your area of responsibility.
+Prvo i osnovno, pobrinite se da promovišete činjenicu da ste deo kampanje za promociju [otvorenih podataka](/glossary/en/terms/open-data/) u vašem interesnom području.
 
-If you open up a bunch of datasets, it's definitely worth spending a bit of time to make sure that people know (or at least can find out) that you've done so.
+Ako otvorite veći broj baza podataka, dobro bi bilo da se pobrinete da ljudi znaju (ili da barem mogu da saznaju) šta ste uradili.
 
-In addition to things like press releases, announcements on your website, and so on, you may consider:
+Pored saopštenja, objave na vašem sajtu, i tako dalje, možete da još da:
 
--   Contacting prominent organisations or individuals who work/are interested in this area
--   Contacting relevant mailing lists or social networking groups
--   Directly contacting prospective users who you know may be interested in this data
+-   Kontaktirate ugledne kompanije ili pojedince koji rade u ovom pordručju ili su zainteresirani za ovo područje
+-   Informaciju podelite putem relevantnih mailing lista ili grupa na društvenim mrežama
+-   Direktno kontaktirate buduće korisnike za koje znate da bi bili zainteresovani za ove podatke
 
-### Understanding your audience
+### Poznavanje publike
 
-Like all public communication, engaging with the data community needs to be targeted. Like all stakeholder groups, the right message can be wasted if it is directed to the wrong area.
+Kao i sva javna komunikacija, stupanje u kontakt sa zajednicom koja se bavi podacima mora biti ciljano. Prava poruka se može izgubiti ako je usmerena u pogrešnom smeru.
 
-Digital communities tend to be very willing to share new information, yet they very rapidly consume it. Write as if your messages will be skimmed over, rather than critically examined in-depth.
+Digitalne zajednice imaju tendenciju da dele nove informacje, ali ih isto tako i vrlo brzo konzumiraju. Pišite kao da će vaše poruke biti samo letimice pročitane, a ne analizirane u detalje.
 
-Members of the tech community are less likely than the general public to use MS Windows. This means that you should not save documents in MS Office formats which can be read offline. There are two resons for this:
+Članovi tehničkih zajednica ređe od prosečne publike koristi MS Windows. To znači da ne bi trebalo da čuvate dokumenta u MS Office formatu, koji se mogu čitati dok niste na mreži. Postoje dva razloga:
 
--   The first is that those documents will be less accessible. Rather than the document you see on your screen, readers may see an imperfect copy from an alternative.
--   Secondly, your agency sends an implicit message that you are unwilling to take a step towards developers. Instead, you show that you are expecting the technology community to come to you.
+-   Prvi je da su ti dokumenti manje dostupni. Umesto dokumenta koje vi vidite na ekranu, čitaoci mogu videti nepotpunu kopiju iz drugog izvora.
+-   Drugo, vaša organizacija šalje direktnu poruku da niste spremni da se prilagodite programerima. Umesto toga, očekujete da članovi tehnološke zajednice priđu vama.
 
-### Post your material on third-party sites
+### Objavite vaš materijal na tuđim sajtovima
 
-Many blogs have created a large readership in specialised topic areas. It may be worthwhile adding an article about your initiative on their site. These can be mutually beneficial. You receive more interest and they receive a free blog post in their topic area.
+Mnogi blogovi imaju velike baze čitalaca, zainteresovane za teme specijalizovane za određena područja. Zato mi moglo biti korisno ukoliko članak o vašoj inicijativi postavite na njihovu stranicu. Vi dobijate veće interesovanje, a oni besplatan tekst.
 
-### Making your communications more social-media friendly
+### Prilagodite vašu komunikaciju društvenim mrežama
 
-It's unrealistic to expect that officials should spend long periods of time engaging with social media. However, there are several things that you can do to make sure that your content can be easily shared between technical users. Some tips:
+Nerealno je za očekivati da državni službenici provode dosta vremena na društvenim mrežama. Međutim, postoji nekoliko načina da se vaš sadržaj lako deli među tehničkim korisnicima. Nekoliko saveta:
 
--   Provide unique pages for each piece of content
+-   Napravite posebne stranice za svaki sadržaj
 
     When a message is shared with others, the recipient of the referral will be looking for the relevant content quickly.
 
--   Avoid making people download your press releases
+-   Nemojte da terate ljude da preuzimaju vaša saopštenja za štampu
 
-    Press releases are fine. They are concise messages about a particular point. However, if you require people to download the content and for it to open outside of a web browser, then fewer people will read it. Search engines are less likely to index the content. People are less likely to click to download.
+    Saopštenja za štampu su u redu. Ona sadrže precizne poruke o konkretnom pitanju. Međutim, ako tražite da korisnici preuzmu sadržaj s interneta, da ga otvore u novom programu, manje ljudi će ga pročitati. Pretraživači će ređe indeksirati takav sadržaj. Ljudi će retko kliknuti za preuzimanje.
 
--   Consider using an [Open license](http://opendefinition.org/licenses/#content) for your content
+-   Razmotrite korišćenje [Otvorene licence](http://opendefinition.org/licenses/#content) za vaš sadržaj
 
-    Apart from providing certainty to people who wish to share your content that this is permissible, you send a message that your agency understands openness. This is bound to leave an impression far more significant to proponents of open data than any specific sentence in your press release.
+    Osim što ćete ljudima koji žele da podele vaš sadržaj reći da je to dozvoljeno, poslaćete i poruku da vaša organizacija razume otvorenost. To će sigurno ostaviti mnogo bolji utisak na zagovornike otvorenih podataka nego bilo koja rečenica iz vašeg saopštenja.
 
-### Social media
+### Društveni mediji
 
-It's inefficient for cash-strapped agencies to spend hours on social media sites. The most significant way that your voice can be heard through these fora is by making sure that blog posts are easily shareable. That means, before reading the next section, make sure that you have read the last. With that in mind, here are a few suggestions:
+Za organizacije koje nemaju novca nije neefikasno da troše sate na društvenim medijima. Najbolji način da se vaš glas čuje na ovim formumima jeste da omogućite da vaši članci mogu lako da se dele. To znači da pre nego što pređete na sledeći deo, traba da proverite da li ste pročitali prethodni. Imajući to na umu, evo i nekoliko predloga:
 
--   Discussion fora
+-   Forumi za diskusiju
 
-    Twitter has emerged as the platform of choice for disseminating information rapidly. Anything tagged with \#opendata will be immediately seen by thousands.
+    Tviter je postao platforma koja se koristi ukoliko želite brzo da proširite informacije. Sve sa heštegom \#opendata odmah će videti na hiljade ljudi.
 
-    LinkedIn has a large selection of groups which are targeted towards open data.
+    Na LinkedIn-u postoji mnogo grupa koje su orijentisane ka otvorenim podacima.
 
-    While Facebook is excellent for a general audience, it has not received a great deal of attention in the open data community.
+    Dok je Fejsbuk odličan za običnu publiku, to nije platforma koja privlači veliku pažnju zajednice koja se bavi otvorenim podacima.
 
--   Link aggregators
+-   Agregatori
 
-    Submit your content to the equivalent of newswires for geeks. Reddit and Hacker News are the two biggest in this arena at the moment. To a lesser extent, Slashdot and Digg are also useful tools in this area.
+    ošaljite vaš sadržaj sajtovima koji imaju vesti za štrebere. Reddit i Hacker News trenutno su najveći u ovom području. Nešto manje korisni alati su Slashdot i Digg.
 
-    These sites have a tendency to drive significant traffic to interesting material. They are also heavily focused on topic areas.
+    Ove stranice dosta saobraćaja usmeravaju ka nekim zanimljivimm materijalima. Takođe se fokusiraju na teme iz određenih oblasti.
 
-## Getting folks in a room: Unconferences, Meetups and Barcamps
+## Okupiti ljude: Ne-konferencije, sastanci i kampovi
 
-Face-to-face events can be a very effective way to encourage others to use your data. Reasons that you may consider putting on an event include:
+Događaji “licem u lice” mogu biti vrlo efikasan način da se ljudi podstaknu da koriste vaše podatke. Takav događaj bi možda trebalo organizovati iz sledećih razloga:
 
--   Finding out more about prospective re-users
--   Finding out more about demand for different datasets
--   Finding out more about how people want to re-use your data
--   Enabling prospective re-users to find out more about what data you have
--   Enabling prospective users to meet each other (e.g. so they can collaborate)
--   Exposing your data to a wider audience (e.g. from blog posts or media coverage that the event may help to generate)
+-   Možete naučiti o budućim korisnicima
+-   Možete naučiti o potražnji za različitim skupovima podataka
+-   Možete naučiti o tome kako drugi ljudi žele da koriste vaše podatke
+-   Možete budućim korisnicima pružiti više informacija o podacima koje posedujete
+-   Možete omogućiti budućim korisnicima da se upoznaju (kako bi sarađivali)
+-   Možete predstaviti vaše podatke široj publici (npr. blogovi i medijski izveštaji koji nastanu posle vaših događaja)
 
-There are also lots of different ways of running events, and different types of events, depending on what aim you want to achieve. As well as more traditional conference models, which will include things like preprepared formal talks, presentations and demonstrations, there are also various kinds of participant driven events, where those who turn up may:
+Postoji mnogo različith načina za organizovanje događanja, kao i mnogo različitih vrsta događaja, u zavisnosti od toga šta želite da postignete. Osim tradicionalnih konferencijskih modela koji uključuju pripremljene formalne govore, prezentacije i demonstracije, postoje i različite vrste događaja gde učesnici dominiraju i gde oni koji se pojave mogu da:
 
--   Guide or define the agenda for the event
--   Introduce themselves, talk about what they're interested in and what they're working on, on an ad hoc basis
--   Give impromptu micro-short presentations on something they are working on
--   Lead sessions on something they are interested in
+-   Vode ili definišu agendu samog događaja
+-   Predstave sebe, kažu šta ih interesuje i na čemu rade
+-   Iznesu improvizovane, kratke prezentacije o tome na čemu rade
+-   Vode radionice o nečemu što ih interesuje
 
-There is plenty of documentation online about how to run these kinds of events, which you can find by searching for things like: 'unconference', 'barcamp', 'meetup', 'speedgeek', 'lightning talk', and so on. You may also find it worthwhile to contact people who have run these kinds of events in other countries, who will most likely be keen to help you out and to advise you on your event. It may be valuable to partner with another organisation (e.g. a civic society organisation, a news organisation or an educational institution) to broaden your base participants and to increase your exposure.
+Postoji dosta dokumenata na internetu koji objašnjavaju kako se mogu organizovati ovakvi događaji, što možete pronaći tražeći: unconference [ne-konferencija], barcamp [kamp], meetup [neformalno okupljanje], lightning talk [blic prezentacije], itd. Ne bi bilo loše kontaktirati ljude koji su organizovali slične događaje u drugim zemljama, koji će verovatno želeti da vam pomognu i daju savete u vezi sa događajem koji orgnaizujete. Takođe, ono što može biti korisno jeste da postanete partneri sa još nekom organizacijom (npr. organizacijom civilnog društva, medijskom organizacijom ili obrazovnom institucijom) kako bi proširili bazu učesnika, i povećali vidljivost.
 
-## Making things! Hackdays, prizes and prototypes
+## Osmišljavanje! Hakaton, nagrade i prototipovi
 
-The structure of these competitions is that a number of datasets are released and programmers then have a short time-frame -running from as little as 48 hours to a few weeks - to develop applications using the data. A prize is then awarded to the best application. Competitions have been held in a number of countries including the UK, the US, Norway, Australia, Spain, Denmark and Finland.
+Koncept ovakvih takmičenja je takav da se objavi određeni broj skupova podataka, a potom programerima da kratak vremenski okvir - od svega 48 sati do nekoliko nedelja - kada moraju da razviju aplikacije koje koriste te podatke. Nagrada se zatim dodjeljuje najboljoj aplikaciji. Takmičenja su održana u mnogim zemljama, uključujući Ujedinjeno Kraljevstvo, SAD, Norvešku, Australiju, Španiju, Dansku i Finsku. 
 
-### Examples for Competitions
+### Primeri takmičenja
 
-**Show us a better way** was the first such competition in the world. It was initiated by the UK Government's "The Power of Information Taskforce" headed by Cabinet Office Minister Tom Watson in March 2008. This competition asked "What would you create with public information?" and was open to programmers from around the world, with a tempting £80,000 prize for the five best applications.
+**Pokaži nam bolji način** jeste bilo prvo takvo takmičenje u svetu. Inicirano je od strane vlade Ujedinjenog Kraljevstva, odnosno "The Power of Information Taskforce" [Jedinice za moć informacija] na čelu sa ministrom Tomom Votsonom u martu 2008. Na ovom takmičenju programerima iz čitavog sveta postavljeno je sledeće pitanje: "Šta biste vi napravili od javnih podataka?", uz primamljivu nagradu od 80.000 funti za pet najboljih aplikacija.
 
-**Apps for Democracy**, one of the first competitions in the United States, was launched in October 2008 by Vivek Kundra, at the time Chief Technology Officer (CTO) of the District of Columbia (DC) Government. Kundra had developed the groundbreaking DC data catalog, <http://data.octo.dc.gov/>, which included datasets such as real-time crime feeds, school test scores, and poverty indicators. It was at the time the most comprehensive local data catalog in the world. The challenge was to make it useful for citizens, visitors, businesses and government agencies of Washington, DC.
+**Aplikacije za demokratiju**, bio je naziv jednog od prvih takmičenja u Sjedinjenim Američkim Državama, održanog u oktobru 2008. Pokrenuo ga je Vivek Kundra, tada tehnološki direktor u vladi Distrikta Kolumbija. Kundra je razvio revolucionarnu bazu podataka, <http://data.octo.dc.gov/>, koja je sadržala podatke kao što su informacije o kriminalu u realnom vremenu, zatim rezultate školskih testova i indikatore siromaštva. Tada je to bila najiscrpnija lokalna baza podataka u svetu. Izazov je bio kako da ta baza postane korisna za građane, posetioce, kompanije i vladine agencije u Vašingtonu.
 
-The creative solution was to create the Apps for Democracy contest. The strategy was to ask people to build applications using the data from the freshly launched data catalog. It included an online submission for applications, many small prizes rather than a few large ones, and several different categories as well as a "People's Choice" prize. The competition was open for 30 days and cost the DC government \$50,000. In return, a total of 47 iPhone, Facebook and web applications were developed with an estimated value in excess of \$2,600,000 for the local economy.
+Rešenje je bilo organizovati takmičenje Apps for Democracy (Aplikacije za demokratiju). Strategija je bila pronaći ljude koji bi razvili aplikacije koristeći podatke iz nedavno objavljene baze podataka. Podrazumevala je onalajn podnošenje aplikacija, mnogo manjih nagrada umesto nekoliko velikih, te nekoliko različitih kategorija, kao i nagradu "People’s Choice" [Izbor publike]. Takmičenje je trajalo 30 dana, a vladu je koštalo 50.000 dolara. Zauvrat, razvijeno je ukupno 47 aplikacija za iPhone, Facebook i web aplikacija procenjene vrednosti za lokalnu ekonomiju koja prevazilazi 2.600.000 dolara.
 
-**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, this contest invited developers to create open source applications making use of public data in just 48 hours. The competition had 29 teams of participants who developed applications that included a mobile phone programme for accessing traffic information in the Basque Country, and for accessing data on buses and bus stops in Madrid, which won the first and second prizes of €3,000 and €2,000 respectively.
+**The Abre Datos (Open Data) Challenge 2010**. Ovo takmičenje, održano u Španiji u aprilu 2010, okupilo je programere uz zahtev da naprave aplikacije otvorenog koda za samo 48 sati, koristeći javne podatke. Na takmičenju je učestvovalo 29 timova koji su razvili razne aplikacije, uključujući program o stanju u saobraćaju u Baskiji, kao i aplikaciju sa podacima o autobusima i autobuskim stajalištima u Madridu, koje su osvojile prvo i drugo mesto i nagrade od 3.000 i 2.000 evra.
 
-**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government Administration held "Nettskap 2.0". Norwegian developers – companies, public agencies or individuals – were challenged to come up with web-based project ideas in the areas of service development, efficient work processes, and increased democratic participation. The use of government data was explicitly encouraged. Though the application deadline was just a month later, on May 9, the Minister Rigmor Aasrud said the response was "overwhelming". In total 137 applications were received, no less than 90 of which built on the re-use of government data. A total amount of NOK 2.5 million was distributed among the 17 winners; while the total amount applied for by the 137 applications was NOK 28.4 million.
+**Nettskap 2.0**. U aprilu 2010, norveško ministarstvo za državnu administraciju organizovalo je “Nettskap 2.0”. Norveške kompanije koje se bave programiranjem, agencije i pojedinci dobili su zadatak da izrade projekte u oblasti razvoja usluga, efikasnih radnih procesa i povećanog demokratskog učešća. Poseban naglasak je bio na upotrebi državnih podataka. Iako je rok za predaju bio mesec dana kasnije, 9. maja, ministar Rigmor Asrud je izjavio da je odziv bio “ogroman”. Ukupno je primljeno 137 aplikacija, od čega je 90 koristilo državne podatke. Ukupan iznos od 2.5 miliona norveških kruna podeljen je na 17 pobednika, a ukupna vrednost svih 137 aplikacija je iznosila 28.4 miliona norveških kruna.
 
-**Mashup Australia**. The Australian Government 2.0 Taskforce invited citizens to show why open access to Australian government information would be positive for the country's economy and social development. The contest ran from October 7th to November 13th 2009. The Taskforce released some datasets under an open license and in a range of reusable formats. The 82 applications that were entered into the contest are further evidence of the new and innovative applications which can result from releasing government data on open terms. Now [GovHack](http://www.govhack.org) runs in multiple locations across Australia and New Zealand each year.
+**Mashup Australia**. Vlada Australije sa svojim 2.0 Taskforce-om (operativnom grupom) htela je građanima da pokaže kako bi otvoreni pristup državnim podacima imao pozitivan uticaj na državnu ekonomiju i društveni razvoj. Takmičenje je trajalo od 7. oktobra do 13. novembra 2009. Operativna grupa je objavila određeni broj otvorenih baza podataka u velikom broju formata. Ukupno 82 aplikacije koje su rezultat takmičenja jesu dokaz kako nove i inovativne aplikacije mogu nastati objavljivanjem državnih podataka u otvorenom formatu. Sada se svake godine organizuje [GovHack](http://www.govhack.org) na više lokacija u Australiji i na Novom Zelandu.
 
-### Conferences, Barcamps, Hackdays
+### Konferencije, kampovi, dani programiranja
 
-One of the more effective ways for Civil Society Organisations (CSOs) to demonstrate to governments the value of opening up their datasets is to show the multiple ways in which the information can be managed to achieve social and economic benefit. CSOs that promote re-use have been instrumental in countries where there have been advances in policy and law to ensure that datasets are both technically and legally open.
+Jedan od efikasnijih načina da organizacije civilnog društva pokažu vladama kolika je vrednost otvaranja njihovih baza podataka jeste da ukažu na to kako upotreba informacija može dovesti do društvenih i ekonomskih koristi. Organizacije civilnog društva koje promovišu upotrebu podataka jesu ključne u državama u kojima je ostvaren pomak kada je reč o politikama i zakonima, koji omogućavaju i tehničko i pravno otvaranje skupova podataka.
 
-The typical activities which are undertaken as part of these initiatives normally include competitions, [open government](/glossary/en/terms/open-government/) data conferences, "unconferences", workshops and "hack days". These activities are often organised by the user community with data that has already been published proactively or obtained using access to information requests. In other cases, civil society advocates have worked with progressive public officials to secure new release of datasets that can be used by programmers to create innovative applications.
+Tipične aktivnosti koje se sprovode u sklopu ovih inicijativa obično uključuju takmičenja, konferencije o [ otvorenoj upravi](/glossary/en/terms/open-government/) , “ne-konferencije”, radionice i “dane programiranja”. Ove aktivnosti često su organizovane od strane zajednice korisnika sa podacima koji su već objavljeni ili prikupljeni uz pomoć zahteva za pristup informacijama od javnog značaja. U drugim slučajevima, predstavnici civilnog sektora su u saradnji sa naprednijim državnim službenicima radili na objavljivanju novih skupova podataka koje bi programeri koristili za izradu inovativnih aplikacija.

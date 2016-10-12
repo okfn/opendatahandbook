@@ -1,30 +1,30 @@
 ---
-redirect_from: /en/appendices/index.html
+redirect_from: /rs/appendices/index.html
 section: guide
-lang: en
-title: What Legal (IP) Rights Are There in Data(bases)
+lang: rs
+title: Koja su zakonska prava (na intelektualnu svojinu) u podacima (bazama podataka)
 ---
 
-When talking about data(bases) we first need to distinguish between the structure and the content of a database (when we use the term 'data' we shall mean the content of the database itself). Structural elements include things like the field names and a model for the data – the organization of these fields and their inter-relation.
+Kada govorimo o podacima ili bazama podataka prvo moramo da napravimo razliku između strukture i sadržaja baze podataka (kada koristimo reč podaci, mislimo na sadržaj same baze podataka). Strukturni elementi sadrže stvari poput imena polja i modela za podatke, odnosno organizaciju ovih polja i njihovu međusobnu povezanost.
 
-In many jurisdictions it is likely that the structural elements of a database will be covered by copyright (it depends somewhat on the level of 'creativity' involved in creating this structure).
+U mnogim slučajevima, velika je verovatnoća da će strukturni elementi baze podataka biti zaštićeni autorskim pravima (to donekle zavisi od nivoa "kreativnosti" u kreiranju te strukture).
 
-However, here we are particularly interested in the data. When we talk of "data" we need to be a bit careful because the word isn't particularly precise: "data" can mean a few items or even a single item (for example a single bibliographic record, a lat/long etc) or "data" can mean a large collection (e.g. all the material in the database). To avoid confusion we shall reserve the term "content" to mean the individual items, and data to denote the collection.
+Međutim, nas zanimaju podaci. Kada govorimo o “podacima”, treba biti oprezan, jer sam ovaj termin nije u potpunosti precizan: "podatak" može da znači nekoliko stvari ili čak samo jednu stvar (npr. jedan bibliografski zapis, geografska širina/dužina, itd.), a može značiti i veliku skupinu (npr. sav materijal u bazi podataka). Kako bismo izbegli zabune, termin "sadržaj" ćemo koristiti za pojedinačne stvari, a podaci će se odnositi na skupove, zbir podataka.
 
-Unlike for material such as text, music or film, the legal situation for data varies widely across countries. However, most jurisdictions **do** grant some rights in the data (as a collection).
+Za razliku od tekstova, muzike ili filma, pravna situacija kod podataka dosta varira od zemlje do zemlje. Međutim, većina jurisdikcija **odobrava** određena prava u podacima (kao zbiru).
 
-This distinction between the "content" of a database and the collection is especially crucial for factual databases since no jurisdiction grants a monopoly right over the individual facts (the "content"), even though it may grant right(s) in them as a collection. To illustrate, consider the simple example of a database which lists the melting point of various substances. While the database as a whole might be protected by law so that one is not allow to access, re-use or redistribute it without permission, this would never prevent you from stating the fact that substance Y melts at temperature Z.
+Razlika između "sadržaja" baze podataka i zbira jeste posebno važna za činjenične baze podataka, jer ne postoji nadležnost koja bi dala monopol nad pojedinim činjenicama ("sadržaj"), čak i ako može dati pravo (ili prava) skupu podataka kao celini. Da ilustrujemo, zamislite jednostavan primer baze podataka koja sadrži tačke topljenja različitih supstanci. Dok cela baza podataka može biti zaštićena zakonom tako da ne možemo da joj pristupimo, koristimo ili redistribuiramo bez dozvole, ništa vas ne sprečava da konstatujete da se supstanca Y topi pri temperaturi Z, što je činjenica.
 
-Forms of protection fall broadly into two cases:
+Oblici zaštite dele se u dve kategorije:
 
--   Copyright for compilations
--   A *sui generis* right for collections of data
+-   Autorska prava za kompilacije
+-   *Sui generis* prava za skupove podataka
 
-As we have already emphasized, there are no general rules and the situation varies by jurisdiction. Thus we proceed country by country detailing which (if any) of these approaches is used in a particular jurisdiction.
+Kao što smo već naglasili, ne postoje opšta pravila i situacije se razlikuju od zemlje do zemlje. Stoga nastavljamo analizu po državama razmatrajući koji od ovih pristupa (ako ijedan) se koristiti u konkretnoj jurisdikciji.
 
-Finally, we should point out that in the absence of any legal protection, many providers of (closed) databases are able to use a simple contract combined with legal provisions prohibiting violation of access-control mechanisms to achieve results similar to a formal IP right. For example, if X is a provider of a citation database, it can achieve any set of terms of conditions it wants simply by:
+Naposletku, treba istaći da u slučaju da ne postoji nikakva pravna zaštita, mnogi koji pružaju pristup (zatvorenim) bazama podataka mogu da koriste običan ugovor u kombinaciji sa zakonskim odredbama koje zabranjuju kršenje pristupnih i kontrolnih mehanizama kako bi postigli rezultate slične formalnim pravima na intelektualnu svojinu. Na primer, ako X pruža pristup bazi podataka sa citatima, on može da uspostavi bilo koji skup uslova tako što će jednostavno:
 
-(a) Requiring users to login with a password
-(b) Only providing a user with an account and password on the condition that the user agrees to the terms and conditions
+(a) Tražiti korisnicima da se uloguju koristeći šifru
+(b) Dozvoliti pristup samo korisnicima koji imaju nalog i šifru, i ukoliko je korisnik sagalsan sa uslovima korišćenja
 
-You can read more about the jurisdiction by jurisdiction situation in the [Guide to Open Data Licensing](http://opendefinition.org/guide/data/).
+Više o situacijama u različitim državama možete pročitati u [Vodiču za licenciaranje otvorenih podataka (Guide to Open Data Licensding)](http://opendefinition.org/guide/data/).

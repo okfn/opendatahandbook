@@ -1,96 +1,96 @@
 ---
-redirect_from: /en/appendices/index.html
+redirect_from: /rs/appendices/index.html
 section: guide
-lang: en
-title: File Formats
+lang: rs
+title: Formati fajlova
 ---
 
-## An Overview of File Formats
+## Pregled formata fajlova
 
 ### JSON
 
-JSON is a simple file format that is very easy for any programming language to read. Its simplicity means that it is generally easier for computers to process than others, such as XML.
+JSON je jednostavan format koji je lako čitljiv za bilo koji programski jezik. Njegova jednostavnost omogućava kompjuterima lakšu obradu nego recimo u slučaju XML formata.
 
 ### XML
 
-XML is a widely used format for data exchange because it gives good opportunities to keep the structure in the data and the way files are built on, and allows developers to write parts of the documentation in with the data without interfering with the reading of them.
+XML je široko korišćen format za razmenu podataka, jer ima mogućnost čuvanja strukture podataka i način na koji su podaci uneti, a programerima omogućava da unose delove dokumentacije unutar podataka bez mešanja, odnosno čitanja istih.
 
 ### RDF
 
-A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be stored in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides a convenient way to directly interconnect existing [open data](/glossary/en/terms/open-data/) initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a [fivesstar](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/) scheme that includes linked RDF data as a goal to be sought for open data initiatives.
+Preporučeni W3C format, RDF, omogućava prestavljanje podataka u formi koja olakšava kombinaciju podataka iz više izvora. RDF podaci mogu biti sačuvani u XML-u i JSON-u, između ostalih. RDF podstiče upotrebu URL-ova kao identifikatora, što predstavlja jednostavan način povezivanja inicijativa u vezi sa [otvorenim podacima](/glossary/en/terms/open-data/) , koje već postoje na vebu. RDF još nije široko rasprostranjen, ali predstavlja trend u inicijativama otvorenih vlada, uključujući projekte britanske i španske vlade u vezi sa otvorenim podacima. Pronalazač veba, Tim Berners-Li, nedavno je predložio šemu od [pet zvezdica](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/) koja uključuje povezane RDF podatke kao cilj kome treba da teže inicijative otvorenih podataka.
 
 ### Spreadsheets
 
-Many authorities have information left in the spreadsheet, for example Microsoft Excel. This data can often be used immediately with the correct descriptions of what the different columns mean.
+Mnoge institucije svoje podatke drže u spreadsheets (podaci organizovani u formi tabele), kao što je Microsoft Excel. Ti podaci često se mogu odmah koristiti uz tačan opis šta različite kolone znače.
 
-However, in some cases there can be macros and formulas in spreadsheets, which may be somewhat more cumbersome to handle. It is therefore advisable to document such calculations next to the spreadsheet, since it is generally more accessible for users to read.
+Međutim, u nekim slučajevima, oni mogu sadržati šablone i formule, što može biti teško za rukovanje. Stoga se predlaže da ti proračuni budu odvojeni od samih tabela (spreadsheets), jer je korisnicima generalno lakše za čitanje.
 
-### Comma Separated Files
+### Podaci odvojeni zarezima
 
-CSV files can be a very useful format because it is compact and thus suitable to transfer large sets of data with the same structure. However, the format is so spartan that data are often useless without documentation since it can be almost impossible to guess the significance of the different columns. It is therefore particularly important for the comma-separated formats that documentation of the individual fields are accurate.
+CSV ili Comma Separated Files (podaci odvojeni zarezima) mogu biti veoma koristan format zbog svoje kompaktnosti, a to znači i mogućnosti prenosa velikih količina podataka iste sturkture. Međutim, ovaj format je toliko “spartanski” da su podaci često beskorisni bez dokumentacije, pošto je skoro pa nemoguće prepoznati što koji stupac znači. Stoga je za formate koji koriste zareze posebno značajno da sadrže precizna uputstva o značenju pojedinih polja.
 
-Furthermore it is essential that the structure of the file is respected, as a single omission of a field may disturb the reading of all remaining data in the file without any real opportunity to rectify it, because it cannot be determined how the remaining data should be interpreted.
+Osim toga, nužno je očuvati strukturu datoteke, jer samo jedno pogrešno polje može da poremeti značenja svih preostalih podataka bez stvarne mogućnosti ispravke, jer se ne može utvrditi kako treba interpretirati preostale podatke.
 
-### Text Document
+### Tekstualni dokument
 
-Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient to show certain kinds of data - for example, relatively stable mailing lists or equivalent. It may be cheap to exhibit in, as often it is the format the data is born in. The format gives no support to keep the structure consistent, which often means that it is difficult to enter data by automated means. Be sure to use templates as the basis of documents that will display data for re-use, so it is at least possible to pull information out of documents.
+Klasični dokumenti u formatima poput Word-a, ODF-a, OOXML-a ili PDF-a mogu biti dovoljni za pokazivanje određenih vrsta podataka - na primer, relativno stabilnih mailing lista ili nečega sličnog tome. Možda je ovaj način prikazivanja podataka jeftin, budući da je reč o formatu u kome su podaci najčešće i nastali. Format ne podržava očuvanje konzistente strukture, što često znači probleme prilikom automatizovanog unosa podataka. Pobrinite se da koristite utvrđene obrasce kao osnovu za dokumenta, koji će prikazati podatke za ponovnu upotrebu, kako bi barem bilo moguće izvući informacije iz dokumenata.
 
-It can also support the further use of data to use typography markup as much as possible so that it becomes easier for a machine to distinguish headings (any type specified) from the content and so on. Generally it is recommended not to exhibit in word processing format, if data exists in a different format.
+Može podržati i daju upotrebu podataka za korišćenje tipografskih oznaka što je više moguće, tako da mašina lakše raspoznaje zaglavlja (bilo kog tipa) od sadržaja i tako dalje. Generalno se ne predlaže izlaganje u ovom formatu, ukoliko podaci postoje i u nekom drugom formatu.
 
-### Plain Text
+### Čist tekst
 
-Plain text documents (.txt) are very easy for computers to read. They generally exclude structural metadata from inside the document however, meaning that developers will need to create a parser that can interpret each document as it appears.
+Čisti tekstualni dokumenti (.txt) lako su čitljivi za komjutere. Oni obično ne sadrže strukturalne metapodatke unutar dokumenta, što znači da programeri moraju naprave analizator koji će interpretirati svaki dokument kako se pojavi.
 
-Some problems can be caused by switching plain text files between operating systems. MS Windows, Mac OS X and other Unix variants have their own way of telling the computer that they have reached the end of the line.
+Određeni problemi mogu nastati prebacivanjem čistog teksta između različitih operativnih sistema. MS Windows, Mac OS X i druge Unix varijante imaju svoje posebne načine kojima govore kompjuteru da su stigli do kraja reda.
 
-### Scanned image
+### Skenirana slika
 
-Probably the least suitable form for most data, but both TIFF and JPEG-2000 can at least mark them with documentation of what is in the picture - right up to mark up an image of a document with full text content of the document. It may be relevant to their displaying data as images whose data are not born electronically - an obvious example is the old church records and other archival material - and a picture is better than nothing.
+Verovatno najmanje pogodan oblik za većinu podataka, ali i TIFF i JPEG-2000 mogu barem da dokumentuju šta je na slici - pa sve do toga da mogu kreirati sliku dokumenta sa celim tekstualnim sadržajem dokumenta. To može biti korisno za prikazivanje podataka koji nisu nastali u elektornskoj formi  - očigledan primer su stari crkveni zapisi i drugi arhivski materijal - a bolje je imati sliku nego ništa.
 
-### Proprietary formats
+### Zakonom zaštićeni formati
 
-Some dedicated systems, etc. have their own data formats that they can save or export data in. It can sometimes be enough to expose data in such a format - especially if it is expected that further use would be in a similar system as that which they come from. Where further information on these proprietary formats can be found should always be indicated, for example by providing a link to the supplier's website. Generally it is recommended to display data in non-proprietary formats where feasible.
+Neki posebni sistemi, na primer, imaju svoje formate u kojima mogu čuvati ili eksportovati podatke. Nekada je dovoljno samo izložiti podatke u takvom formatu, naročito ako je očekivano da će se i ubuduće koristiti u sličnom sistemu iz koga su potekli. Kada god je moguće utvrditi dodatne informacije o ovim zaštićenim formatima to uvek treba naznačiti, na primer linkovima do sajta proizvođača. Generalno se preporučuje prikazivanje podataka u zakonom nezaštićenim formatima kad god je to moguće.
 
 ### HTML
 
-Nowadays much data is available in HTML format on various sites. This may well be sufficient if the data is very stable and limited in scope. In some cases, it could be preferable to have data in a form easier to download and manipulate, but as it is cheap and easy to refer to a page on a website, it might be a good starting point in the display of data.
+Danas je sve više podataka dostupno u HTML formatu na raznim sajtovima. To može biti sasvim dovoljno ako su podaci dosta stabilni i ograničenog obima. U nekim slučajevima, poželjno je imati podatke u obliku jednostavnijem za preuzimanje i modifikovanje, ali kako je ovo jeftin i jednostavan način za upućivanje na druge stranice na sajtu, može biti dobra početna tačka u prikazivanju podataka.
 
-Typically, it would be most appropriate to use tables in HTML documents to hold data, and then it is important that the various data fields are displayed and are given IDs which make it easy to find and manipulate data. Yahoo has developed a tool (<http://developer.yahoo.com/yql/>) that can extract structured information from a website, and such tools can do much more with the data if it is carefully tagged.
+Po pravilu, najbolje bi bilo koristiti tabele u HTML dokumentima za unos podataka, a zatim je bitno da različita polja podataka budu prikazana i identifikovana radi lakog pronalaženja i menjanja podataka. Yahoo je razvio alat (http://developer.yahoo.com/yql/) koji može izvlačiti strukturirane informacije sa nekog sajta, a takvi alati mogu pružiti dosta više ukoliko su podaci pažljivo označeni.
 
-## Open File Formats
+## Fajlovi otvorenih formata
 
-Even if information is provided in electronic, machine-readable format, and in detail, there may be issues relating to the format of the file itself.
+Čak i ako su informacije date u elektronskom i mašinski čitljivom formatu, i ako su detaljne, mogu se pojaviti problemi u vezi sa samim formatom fajla.
 
-The formats in which information is published – in other words, the digital base in which the information is stored - can either be "open" or "closed". An open format is one where the specifications for the software are available to anyone, free of charge, so that anyone can use these specifications in their own software without any limitations on re-use imposed by intellectual property rights.
+Format u kome su objavljene informacije, drugim rečima, digitalna baza u kojoj su informacije sačuvane, može biti "otvorena" ili "zatvorena". Otvoren format je onaj format gde su specifikacije za softver dostupne svima i besplatne, tako da bilo ko može da koristi ove specifikacije u svom programu bez bilo kakvih ograničenja nametnutih zakonima o intelektualnoj svojini.
 
-If a file format is "closed", this may be either because the file format is proprietary and the specification is not publicly available, or because the file format is proprietary and even though the specification has been made public, re-use is limited. If information is released in a closed file format, this can cause significant obstacles to reusing the information encoded in it, forcing those who wish to use the information to buy the necessary software.
+Ukoliko je format fajla "zatvoren", razlog tome može biti zato što je format zaštićen i specifikacije nisu objavljene ili zato što je format zakonom zaštićen, a iako su specifikacije objavljene, upotreba je ograničena. Ako su informacije objavljene unutar zatvorenog formata, to može izazvati značajne prepreke kod upotrebe tih informacija i primorati one koji žele da koriste te podatke da kupe potrebni softver.
 
-The benefit of open file formats is that they permit developers to produce multiple software packages and services using these formats. This then minimises the obstacles to reusing the information they contain.
+Korist od fajlova otvorenog formata jeste to što programerima dozvoljavaju izradu većeg broja paketa programa i usluga korišćenjem ovih formata. To zatim umanjuje prepreke za ponovno korišćenje informacija koje sadrže.
 
-Using proprietary file formats for which the specification is not publicly available can create dependence on third-party software or file format license holders. In worst-case scenarios, this can mean that information can only be read using certain software packages, which can be prohibitively expensive, or which may become obsolete.
+Korišćenje zaštićenih formata, gde specifikacije nisu javno dostupne može da dovede do zavisnosti od sfotvera trećih lica ili vlasnika licence za format fajla. U najgorem slučaju, to znači da se informacije čitaju samo uz pomoć određenih programskih paketa, koji mogu biti naročito skupi ili koji mogu da zastare.
 
-The preference from the [open government](/glossary/en/terms/open-government/) data perspective therefore is that information be released in **open file formats which are machine-readable.**
+Stoga je iz perspektive [otvorenih podataka državnih institucija](/glossary/en/terms/open-government/)  poželjno objavljivanje podataka u **otvorenom formatu, koji je mašinski čitljiv.**
 
-### Example: UK traffic data
+### Primer: Podaci o saobraćaju u Ujedinjenom Kraljevstvu
 
-Andrew Nicolson is a software developer who was involved in an (ultimately successful) campaign against the construction of a new road, the Westbury Eastern bypass, in the UK. Andrew was interested in accessing and using the road traffic data that was being used to justify the proposals. He managed to obtain some of the relevant data via freedom of information requests, but the local government provided the data in a proprietary format which can only be read using software produced by a company called Saturn, who specialise in traffic modelling and forecasting. There is no provision for a "read only" version of the software, so Andrew's group had no choice but to purchase a software license, eventually paying £500 (€600) when making use of an educational discount. The main software packages on the April 2010 price list from Saturn start at £13,000 (over €15,000), a price which is beyond the reach of most ordinary citizens.
+Endrju Nikolson je programer koji je bio deo (uspešne) kampanje protiv izgradnje novog puta u Ujedinjenom Kraljevstvu, Vestburi Istern zaobilaznice. Njega je zanimalo kako da pristupi i koristi podatke o saobraćaju, koji su korišćeni kao artument u prilog predlogu za izgradnju puta. On je uspeo da nabavi deo relevantnih podataka uz pomoeć zahteva za slobodan pristup informacijama, ali su mu lokalne vlasti dale podatke u zaštićenom formatu, čitljivom samo uz pomoć softvera kompanije Saturn, koja je specijalizovana za modele i prognoze u saobraćaju. Kako nije postojala “read only” (samo čitanje) verzija tog softvera, Endrju i njegova grupa nisu imali izbora sem da kupe licencu za softver i plate 500 funti (600 evra) i to sa popustom za obrazovne svrhe. Početna cena osnovnih programskih paketa Saturna u aprilu 2010. godine bila je 13.000 funti (više od 15.000 evra), što je cena koju retko koji običan građanin može da plati.
 
-Although no access to information law gives a right of access to information in open formats, open government data initiatives are starting to be accompanied by policy documents which stipulate that official information must be made available in open file formats. Setting the gold standard has been the Obama Administration, with the Open Government Directive issued in December 2009, which says:
+Iako ne postoji zakon o slobodnom pristupu informacijama od javnog značaja, koji garantuje pravo pristupa informacijama u otvorenom formatu, inicijative otvorenih državnih podataka sve češće sadrže i dokumentaciju koja propisuje da zvanične informacije moraju biti dostupne u otvorenom formatu. Uspostavljanje zlatnog standarda desilo se u vreme Obamine administracije, sa Direktivom otvorene vlade, koja je objavljena u decembru 2009. i koja kaže:
 
-> *To the extent practicable and subject to valid restrictions, agencies should publish information online in an open format that can be retrieved, downloaded, indexed, and searched by commonly used web search applications. An open format is one that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.*
+> *Do određene mere i podložne određenim restrikcijama, organizacije bi trebalo da  informacije objavljuju onlajn u otvorenom formatu koji se može pronaći, preuzeti, indeksirati i pretraživati uz pomoć uobičajenih aplikacija za pretragu. Otvoreni format je onaj format koij ne zavisi od platforme, mašinski čitljiv i dostupan javnosti bez ograničenja koja bi sprečavala ponovnu upotrebu tih informacija.*
 
-## How do I use a given format?
+## Kako koristiti dati format?
 
-When an authority must exhibit new data – data that has not been exhibited before – you should choose the format that provides the best balance between cost and suitability for purpose. For each format there are some things you should be aware of, and this section aims to explain them.
+Kada vlast treba da predstavi nove podatke, koji još nisu predstavljeni, treba odabrati format koji pruža najbolji odnos troškova i namene. Za svaki format treba imati na umu nekoliko stvari, što će biti objašnjeno u nastavku.
 
-This section focuses only on how the cut surfaces are best arranged so that machines can access them directly. Advice and guidance about how web sites and web solutions should be designed can be found elsewhere.
+Ovaj deo se pre svega bavi time kako najbolje urediti stranice tako da mašine mogu direktno da im pristupe. Saveti i uputstva o dizajniranju web stranica i izradi web rešenja mogu se naći na drugom mestu.
 
-### Web services
+### Web servisi
 
-For data that changes frequently, and where each pull is limited in size, it is very relevant to expose data through web services. There are several ways to create a web service, but some of the most used is SOAP and REST. Generally, SOAP over REST, REST services, but are very easy to develop and use, so it is a widely used standard.
+Za podatke koji se često menjaju, a preuzimanja su ograničena u veličini, veoma je važno prikazati podatke putem web servisa. Postoji nekoliko načina za izradu web servisa, a među onima koji se najčešće koriste jesu SOAP i REST. Po pravilu, SOAP se češće koristi od REST-a, ali su oba vrlo jednostavna za izradu i korišćenje, pa je to dosta raširen standard.
 
-### Database
+### Baza podataka
 
-Like web services, databases provide direct access to data dynamically. Databases have the advantage that they can allow users to put together just the extraction that they are interested in.
+Kao i web servisi, baze podataka dinamički pružaju direktan pristup podacima. Baze podataka imaju tu prednost što korisnicima omogućavaju da izdvoje samo ono što ih zanima.
 
-There are some security concerns about allowing remote database extraction and database access is only useful if the structure of the database and the importance of individual tables and fields are well documented. Often, it is relatively simple and inexpensive to create web services that expose data from a database, which can be an easy way to address safety concerns.
+Postoje određena bezbednosna pitanja u vezi sa izdvajanjem podataka iz baze na daljinu, a pristup bazi podataka koristan je samo onda kada su struktura baze i važnost pojedinih tablica i polja dobro dokumentovane. Često je relativno jednostavno i jeftino napraviti web servis za prikaz podataka iz baze, što može biti dobar odgovor na sigurnosna pitanja.

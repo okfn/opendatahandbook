@@ -1,38 +1,38 @@
 ---
-redirect_from: /en/what-is-open-data/index.html
+redirect_from: /rs/what-is-open-data/index.html
 section: guide
-lang: en
-title: What is Open Data?
+lang: rs
+title: Šta su otvoreni podaci?
 ---
 
-This handbook is about *open data* but what exactly is it? In particular what makes *open* data open, and what sorts of data are we talking about?
+Ovaj priručnik govori o *otvorenim podacima*, ali što je to tačno? Što ih to čini *otvorenim* i o kojoj vrsti podataka pričamo?
 
-## What is Open?
+## Što znači otvoreno?
 
-This handbook is about open data - but what exactly is *open* data? For our purposes, open data is as defined by the [Open Definition](http://opendefinition.org/):
+Ovaj priručnik govori o otvorenim podacima - ali šta su zapravo *otvoreni* podaci? Za naše potrebe, otvorene podatke definišemo uz pomoć [definicije otvorenog](http://opendefinition.org/):
 
-*Open data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike.*
+*Otvoreni podaci jesu podaci koje svi mogu slobodno da koriste, ponovno koriste i distribiraju - pod uslovom da se navede autor i da se deli pod istim uslovima.*
 
-The [full Open Definition](http://opendefinition.org/okd/) gives precise details as to what this means. To summarize the most important:
+[Potpuna definicija otvorenog](http://opendefinition.org/okd/) daje detaljan uvid šta to znači, a najvažnije odlike mogu se sumirati ovako::
 
--   **Availability and Access:** the data must be available as a whole and at no more than a reasonable reproduction cost, preferably by downloading over the internet. The data must also be available in a convenient and modifiable form.
--   **Re-use and Redistribution:** the data must be provided under terms that permit re-use and redistribution including the intermixing with other datasets.
--   **Universal Participation:** everyone must be able to use, re-use and redistribute - there should be no discrimination against fields of endeavour or against persons or groups. For example, 'non-commercial' restrictions that would prevent 'commercial' use, or restrictions of use for certain purposes (e.g. only in education), are not allowed.
+-   **Dostupnost i pristupačnost:** Podaci moraju biti dostupni u celosti i po ceni ne većoj od realne cene štampe, poželjno preuzimanjem sa interneta. Podaci, takođe, moraju biti dostupni u prigodnom obliku i obliku koji dozvoljava izmene.
+-   **Ponovna upotreba i redistribucija:** Podaci se pružaju uz dozvolu za ponovno korišćenje i redistribuciju, uključujući mešanje sa drugim skupovima podataka.
+-   **Globalna uključenost:** Svi moraju imati pravo na korišćenje, ponovno korišćenje i redistribuciju - ne sme postojati nikakva diskriminacija među područjima korišćenja, ljudima ili grupama. Na primer, 'nekomercijalna' ograničenja koja bi sprečila komercijalnu upotrebu ili ograničenja upotrebe u određenu svrhu (na primer, samo za obrazovanje) nisu dozvoljena.
 
-If you're wondering why it is so important to be clear about what open means and why this definition is used, there's a simple answer: **interoperability.**
+Ako se pitate zašto je toliko važno razjasniti šta tačno pojam otvorenosti znači i zašto se koristi ova definicija, postoji jednostavan odgovor: **interoperabilnost**.
 
-Interoperability denotes the ability of diverse systems and organizations to work together (inter-operate). In this case, it is the ability to interoperate - or intermix - different datasets.
+Interoperabilnost podrazumeva mogućnost različitih sistema i organizacija da rade zajedno (među-delovanje). U ovom slučaju, reč je o mogućnosti zajedničkog rada ili spajanja različitih skupova podataka.
 
-Interoperability is important because it allows for different components to work together. This ability to componentize and to 'plug together' components is essential to building large, complex systems. Without interoperability this becomes near impossible — as evidenced in the most famous myth of the Tower of Babel where the (in)ability to communicate (to interoperate) resulted in the complete breakdown of the tower-building effort.
+Interoperabilnost je važna, jer omogućava zajednički rad različitih komponenti. Ovakva mogućnost spajanja komponenti jeste ključna za izgradnju velikih, kompleksnih sistema. Bez interoperabilnosti to je gotovo nemoguće - kao što se pokazalo u poznatom mitu o Vavilonskoj kuli, gde je to što su napori da se izgradi kula u potpunosti propali posledica (ne)mogućnosti komunikacije (interoperabilnosti).
 
-We face a similar situation with regard to data. The core of a "commons" of data (or code) is that one piece of "open" material contained therein can be freely intermixed with other "open" material. This interoperability is absolutely key to realizing the main practical benefits of "openness": the dramatically enhanced ability to combine different datasets together and thereby to develop more and better products and services (these benefits are discussed in more detail in the section on 'why' open data).
+Sličnu situaciju imamo kada je reč o podacima. Suština 'zajedništva' podataka (ili koda) jeste da se bilo koji otvoreni podatak može spojiti sa drugim otvorenim materijalom. Ova interoperabilnost jeste ključ za razumevanje koristi od "otvorenosti": dramatično uvećanje mogućnosti za kombinovanje različitih skupova podataka, a time i mogućnosti za razvoj više proizvoda i boljih proizvoda i usluga (ove koristi detaljnije su objašnjene u delu 'zašto' otvoriti podatke).
 
-Providing a clear definition of openness ensures that when you get two open datasets from two different sources, you will be able to combine them together, and it ensures that we **avoid our own 'tower of babel': lots of datasets but little or no ability to combine them together into the larger systems where the real value lies.**
+Jasna definicija otvorenosti obezbeđuje da kada imate dva otvorena skupa podataka iz dva različita izvora da imate mogućnost da ih kombinujete i omogućava nam da izbegnemo **našu verziju 'Vavilnoske kule': mnoštvo skupova podataka sa malom ili nikakvom mogućnošću za spajanje u veće sisteme gde leži prava vrednost.**
 
-## What Data are You Talking About?
+## O kakvim podacima je reč?
 
-Readers have already seen examples of the sorts of data that are or may become open - and they will see more examples below. However, it will be useful to quickly outline what sorts of data are, or could be, open -- and, equally importantly, what won't be open.
+Čitaoci su već videli različite primere podataka koji su već otvoreni ili mogu postati otvoreni - a u nastavku će videti još takvih primera. Ipak, može biti korisno ukatko objasniti koji tipovi podataka jesu ili mogu postati otvoreni, a isto tako, važno je istaći koji ne mogu biti otvoreni.
 
-The key point is that when opening up data, the focus is on non-personal data, that is, data which does not contain information about specific individuals.
+Kod otvaranja podataka je ključno to što je fokus na podatke koji nisu lični, odnosno podatke koji ne sadrže informacije o konkretnim osobama.
 
-Similarly, for some kinds of government data, national security restrictions may apply.
+Slično tome, određena ograničenja u vezi sa nacionalnom bezbednošću mogu postojati kod neke vrste podataka državnih organa.

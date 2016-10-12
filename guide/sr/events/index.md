@@ -1,75 +1,73 @@
 ---
-redirect_from: /en/events/index.html
+redirect_from: /rs/events/index.html
 section: guide
-lang: en
-title: Making Data Social
+lang: rs
+title: Podaci postaju društveni
 ---
 
-## In case you need some ideas to gather your local community, an event is a great way to do so. Throughout the years, the  Open Knowledge International Network have developed a bunch of different events around open data and open knowledge. Some of these are in person events organized by the community, some are events that staff or communities attend and others are online events. In this section we will cover how to create these different types of events. Help us to improve this section by adding content to it using Github!
+## U slučaju da vam treba ideja kako da okupite lokalnu zajednicu, organizacija događaja je odličan način da to učinite. Prethodnih godina Open Knowledge International Network (Međunarodna mreža za otvoreno znanje) razvila je dosta različitih događaja u vezi sa otvorenim podacima i otvorenim znanjem. Nekada je reč o događajima koje organizuje zajednica, nekada o događajima kojima prisustvuju funkcioneri i predstavnici zajednice, a ima i onlajn događaja. U ovom delu objašnjavamo kako organizovati različite tipove događaja. Pomozite nam da unapredimo ovaj deo dodavanjem sadržaja uz pomoć Github-a!
 
-### Introduction
+### Uvod
 
-Open Knowledge Events are important for the community. Some of the opportunities include: focus attention, gather audience around specific topics and represent both the public face of the organization and its multiple projects. It is a way to help data enthusiasts meet face to face to work and learn together.
+Događaji Otvoreno znanje jesu veoma važni za zajednicu, a nude neke od sledećih mogućnosti: skreću pažnju, okupljaju publiku oko određenih tema i predstavljaju lice organizacije i njenih brojnih projekata. To je dobar način da se entuzijastima koji se bave podacima omogući da se sretnu licem u lice i da rade i uče zajedno.
 
-#### Why organise an Open Knowledge event?
+#### Zašto organizovati događaj Otvoreno znanje?
 
-While most of the network activities takes place in the virtual realm, most of the human interaction is still relaying on face to face interactions. Having event helps you to grow you local community and stay connected to one another.
-When face to face events are not possible, virtual events can help you to boost the community, and to make sure the group is staying connected.
+Dok se većina aktivnosti u mreži odigrava u virtuelnoj realnosti, većina ljudskih interakcija i dalje se oslanja na interakciju licem u lice. Organizovanje događaja pomaže razvijanje lokalne zajednice i umrežavanje. Kada događaji licem u lice nisu mogući, virtuelni događaji mogu vam pomoći da podstaknete zajednicu i pobrinete se da će grupa ostati povezana.
 
-#### What are the golden rules for an event?
+#### Koja su to zlatna pravila za organizovanje događaja?
 
-As a start and event need to be true to [Open Knowledge values](https://okfn.org/about/vision-and-values/). This means that the event has to be in an open and inclusive environment that will make all participants from civil society to government, feel confortable in the settings of the event.
-In addition your event should focus on results. These results can be varied, and should fit your local needs. From strengthening a local community to igniting a common passion about open data through talks and meetings, to writing a document together or to set up a workshop. In any case, before planning anything, you should ask yourself (and your co-orginisers) what you want your event’s outcome to be, and communicate it clearly. Your event will have a greater impact when you have a firm idea of what results you hope to inspire!
+Za početak to mora da bude događaj u skladu sa [vrednostima Otvorenog znanja](https://okfn.org/about/vision-and-values/). To znači da događaj mora biti u otvorenom i inkluzivnom okruženju, koje će omogućiti da se svi učesnici, od civilnog društva do vlade tu osećaju prijatno. Pored toga, vaš događaj bi trebalo da se fokusira na rezultate. Ovi rezultati mogu biti različiti i treba da budu u skladu sa lokalnim potrebama. Od jačanja lokalne zajednice do podsticanja zajedničke pasije prema otvorenim podacima kroz razgovore i sastanke, do zajedničkog pisanja dokumenata ili organizovanja radionica. U svakom slučaju, pre nego što bilo šta planirate, trebalo bi da se zapitate (kao i drugi orgnaizatori) šta treba da bude ishod tog događaja, i da to jasno iskažete. Vaš događaj će imati veći uticaj kada imate jasnu ideju o tome kakvim rezultatima se nadate!
 
-#### Prep your social media
-Social media is a good tool not only to promote and event, but also to document the event itself.
+#### Pripremite socijalne medije
+Socijalni mediji nisu samo dobar alat za promociju događaja, već i za dokumentovanje samog događaja.
 
-#### Promoting
-* Open a facebook page for the event.
-* Use tools like [attending.io](https://attending.io) or [eventbrite](http://eventbrite.com) to keep information and registration for the event.
-* Create a hashtag for your event and tweet about it from your group twitter account
-* Blog about the event and publish it with other organisations in your area that can help you reach the crowd you are looking for.
-* If you have time, create a video to promote the event
+#### Promovisanje
+* Otvorite Fejsbuk stranicu događaja.
+* Koristite alate kao što su [attending.io](https://attending.io) ili [eventbrite](http://eventbrite.com) za prikupljanje podataka i registraciju za događaj.
+* Napravite haštag za vaš događaj i tvitujte o tome sa tviter naloga vaše grupe
+* Napišite blog o događaju i objavite zajedno sa drugim organizacijama iz vaše oblasti, koje vam mogu pomoći da dođete do potrebne publike.
+* Ukoliko imate vremena, napravite video radi promocije događaja
 
-#### Documenting
+#### Dokumenotvanje
 
-* Ask participants to use the hashtag to help and gather important insights during the events.
-* Take picture and upload them to Flickr.
-* Use Facebook to publish videos or photos during the event.
+* Zamolite učesnike da koriste haštagove kako bi pomogli da se prikupe korisni uvidi tokom samog događaja.
+* Fotografišite događaj i slike postavite na Flickr.
+* Kristite Fejsbuk za objavu video snimaka i fotografija za vreme samog događaja
 
-#### What could be done during an event?
+#### Šta se može raditi za vreme samog događaja?
 
-The content of the event is up to its organiser – open knowledge is such a wide world, not even the sky is the limit. If you’re looking for an idea, here are some great things you might like to do:
+Sadržaj događaja zavisi od organizatora - otvoreno znanje je svet za sebe, ni nebo nije ganica. Ukoliko vam je potrebna ideja, evo nekoliko odličnih stvari koje biste voleli da uradite:
 
-#### Face-to-face:
+#### Licem u lice:
 
-* Explore a topic: talks, panels, Q&As, discussions
-* Showcase projects and ideas: lighting talks, [speed geeking](http://www.kstoolkit.org/Speed+geeking?responseToken=876633d8de129f2ca0e7598f85ba60e5)
-* Learn together and from each other: workshops, [barcamp](https://en.wikipedia.org/wiki/BarCamp)
-* Working on a project together: text sprints, code sprints, datathons
+* Istražite temu: razgovori, paneli, pitanja i odgovori, diskusije
+* Predstavite projekte i ideje:  lighting talks (blic prezentacije), [speed geeking (brzo predstavljanje sebe i ideja)](http://www.kstoolkit.org/Speed+geeking?responseToken=876633d8de129f2ca0e7598f85ba60e5)
+* Učite zajedno i jedni od drugih: radionice,  [kampovi](https://en.wikipedia.org/wiki/BarCamp)
+* Radite zajedno na projektima: text sprints, code sprints (kodiranje u ograničenom vremenskom periodu), datathons (radionica o upotrebi baza podataka i unapređenju znanja na osnovu podatka)
 
-#### Virtual
+#### Virtuelno
 
-* Sharing: Team calls, slack updates
-* Learning: Skill share via video chat, tutorials
+* Deljenje: Timski pozivi, brza komunikacija putem Slack-a
+* Učenje: Deljenje veština putem video četa, tutorijala
 
-Of course, you can create a virtual dimension to any of the face to face activities that you run, either by adding a link to a video, or even by using twitter feed for questions time.
+Naravno, uvek možete dodati virtuelnu dimenziju bilo kojoj aktivnosti licem u lice, bilo tako što ćete upotrebiti video link ili korišćenjem tvitera za postavljanje pitanja.
 
-#### How many events should I run?
+#### Koliko događaja treba organizovati?
 
-There is not easy answer for that. Some communities have a weekly local meetup, while others try to focus on quarterly events. You need to consult your community and see what are their needs and wants on timing and frequency of events.
-However, we do not recommend to run a "one time" event once a year which tend a big crowd. These events, while getting a lot of attention and crowd, can create frustration if there is no follow up on them, and as a reaction to less participation in the long run.
+Tu nema jednostavnog odgovora. Neke zajednice se sastaju jednom nedeljno, dok drugi organizuju događaje jednom u tri meseca. Morate da komunicirate sa svojom zajednicom kako biste videli šta su njihove želje i potrebe u vezi sa vremenom i učestalošću događaja.
+Mi, međutim, ne preporučujemo da organizujete događaj jednom godišnje, sa namerom da okupite mnogo ljudi. Ovakvi događaji privlače dosta pažnje i dosta ljudi, ali mogu stvoriti nezadovoljstvo ukoliko nema događaja koji ih prate, i posledica može biti manje učesnika na dugi rok. 
 
-#### Don't forget the follow up!
-When an event is over, you still have work to do so you can make sure that the goals are fully acheived.
+#### Ne zaboravite praćenje!
+Kada je događaj završen, i dalje morate da radite kako biste bili sigurni da su ciljevi u potpunosti ostvareni.
 
-* Write a blogpost or publish a podcast about the event so people who did not attend can catch up and that other people in the network can learn from. * Make a [storify](https://storify.com) page to your event.
-* Send an email to participant and tell them about future projects that they can take part in.
+* Napišite blog ili objavite podkast o događaju, kako bi ljudi koji nisu prisustvovali događaju mogli da budu u toku i kako bi drugi ljudi u mreži mogli iz toga nešto da nauče. Napravite [storify](https://storify.com) stranicu za svoj događaj.
+* Pošaljite mail učesnicima i obavestite ih o budućim projektima na kojima mogu da učestvuju.
 
-#### A couple tips
+#### Nekoliko saveta 
 
-* If you run an by yourself, try to have someone to help you and have clear responsibilities. .
-* Remember that in every event there is going to be an emergency to fix.
-* Always a backup plan if too many arrive or people cancelling.
-* Stay cool, look confident, and remember that no one is going to die if it won’t be successful (at least we hope). You can freak out inside, but remember to be professional.
-* Have a debrief with your team - look at what to keep and what to improve and what is funny.
+* Ukoliko sami sve organizujete, potrudite se da imate nekoga ko će vam pomoći i ko će imati jasna zaduženja
+* Zapamtite da će kod svakog događaja postojati nešto što je hitno i što mora da se ispravi.
+* Uvek treba imati plan B ukoliko dođe previše ljudi ili dosta ljudi otkaže.
+* Budite pribrani, izgledajte samouvereno i zapamtite da niko neće umreti ukoliko to ne bude uspešno (barem se nadamo). U sebi možete da odlepite, ali zapamtite da treba da bude profesionalni.
+* Razgovarajte sa timom posle događaja - vidite šta treba zadržati, šta treba unaprediti i šta je bilo zanimljivo.

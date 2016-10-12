@@ -1,17 +1,17 @@
 ---
 redirect_from:
-  - /en/index.html
+  - /rs/index.html
   - /guide/
-lang: en
-title: The Open Data Handbook
+lang: rs
+title: Priručnik za otvorene podatke
 section: guide
 ---
 
-**This handbook discusses the legal, social and technical aspects of open data.** It can be used by anyone but is especially designed for those seeking to **open up** data. It discusses the **why, what and how** of open data -- why to go open, what open is, and the how to 'open' data.
+**Ovaj priručnik se bavi zakonskNamenjen je svima, a naročito onima koji žele da **otvaraju** podatke. U priručniku se razmatra **zašto, šta i kako** u vezi sa otvorenim podacima -- zašto treba da budu otvoreni, šta znače otvoreni podaci i kako “otvoriti” podatke.
 
-To get started, you may wish to look at the [Introduction](introduction/). You can navigate through the report using the Table of Contents (see sidebar or below).
+Možda ćete na počeku želeti da pogledate [Uvod](introduction/). Kroz izveštaj se možete kretati koristeći Sadržaj (pogledajte u odeljku sa strane ili ispod).
 
-We warmly welcome comments on the text and will incorporate feedback as we go forward. We also welcome contributions or suggestions for additional sections and areas to examine.
+Vaši komentari u vezi sa tekstom jesu dobrodošli, jer želimo da u budućnosti u ovaj priručnik uvrstimo i povratne informacije koje dobijamo od čitalaca. Takođe, dobrodošao je svaki dobrinos ili predlog za nove sekcije ili oblasti istraživanja.
 
 ## Table of Contents
 
