@@ -2,7 +2,7 @@
 redirect_from: /hr/how-to-open-up-data/index.html
 section: guide
 lang: hr
-title: Kako učitiniti podatke otvorenima
+title: Kako učiniti podatke otvorenima
 ---
 
 Ovo poglavlje čini srž ovog priručnika. Ono daje konkretne, detaljne prijedloga kako ljudi koji posjeduju podatke mogu njih učiniti otvorenima. Proći ćemo kroz osnove, ali isto tako analizirati zamke. Na kraju ćemo se dotaknuti osjetljive problematike koja se može pojaviti.
