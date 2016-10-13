@@ -11,7 +11,14 @@ Mnogo je područja u kojima možemo očekivati da će otvoreni podaci biti od ko
 
 Već postoji velik broj područja gdje su otvoreni državni podaci korisni. Neka od tih područja uključuju:
 
--   Transparency and democratic control \* Participation \* Self-empowerment \* Improved or new private products and services \* Innovation \* Improved efficiency of government services \* Improved effectiveness of government services \* Impact measurement of policies \* Nova znanja iz zajedničkih podatkovnih izvora i uzoraka iz velikih masa podataka
+-   Transparentnost i demokaracija
+-   Participacija
+-   Osnaživanje
+-   Bolji ili novi proizvodi i usluge
+-   Inovacija
+-   Poboljšana učinkovitost državnih službi
+-   Mjerenje utjecaja politike
+-   Nova znanja iz zajedničkih podatkovnih izvora i uzoraka iz velikih masa podataka
 
 Postoje primjeri za većinu ovih područja.
 
