@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/following-up/index.html
+redirect_from: /sr/following-up/index.html
 section: guide
-lang: rs
+lang: sr
 title: Otvorili smo neke podatke i šta sada?
 ---
 

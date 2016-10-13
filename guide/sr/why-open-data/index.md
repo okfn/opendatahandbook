@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/why-open-data/index.html
+redirect_from: /sr/why-open-data/index.html
 section: guide
-lang: rs
+lang: sr
 title: Zašto otvoreni podaci?
 ---
 

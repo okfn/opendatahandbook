@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/appendices/index.html
+redirect_from: /sr/appendices/index.html
 section: guide
-lang: rs
+lang: sr
 title: Formati fajlova
 ---
 

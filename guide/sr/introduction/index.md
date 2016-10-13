@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/introduction/index.html
+redirect_from: /sr/introduction/index.html
 section: guide
-lang: rs
+lang: sr
 title: Uvod
 ---
 

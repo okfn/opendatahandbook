@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/what-is-open-data/index.html
+redirect_from: /sr/what-is-open-data/index.html
 section: guide
-lang: rs
+lang: sr
 title: Šta su otvoreni podaci?
 ---
 

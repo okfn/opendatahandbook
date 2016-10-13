@@ -1,8 +1,8 @@
 ---
 redirect_from:
-  - /rs/index.html
+  - /sr/index.html
   - /guide/
-lang: rs
+lang: sr
 title: Priručnik za otvorene podatke
 section: guide
 ---

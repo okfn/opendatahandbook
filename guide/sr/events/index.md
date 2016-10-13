@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/events/index.html
+redirect_from: /sr/events/index.html
 section: guide
-lang: rs
+lang: sr
 title: Podaci postaju društveni
 ---
 

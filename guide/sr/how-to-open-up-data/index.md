@@ -1,7 +1,7 @@
 ---
-redirect_from: /rs/how-to-open-up-data/index.html
+redirect_from: /sr/how-to-open-up-data/index.html
 section: guide
-lang: rs
+lang: sr
 title: Kako otvoriti podatke?
 ---
 
