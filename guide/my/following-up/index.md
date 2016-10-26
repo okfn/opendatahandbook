@@ -1,92 +1,93 @@
 ---
 redirect_from: /en/following-up/index.html
 section: guide
-lang: en
-title: So I've Opened Up Some Data, Now What?
+lang: my
+title: Data အချို့ကို Open လုပ်ပြီးပြီ၊ နောက်ဘာဆက်လုပ်ကြမလဲ။
 ---
 
-We've looked at how to make government information legally and technically reusable. The next step is to encourage others to make use of that data.
+အစိုးရဆီက သတင်းအချက်အလက်တွေကို တရားဝင်နဲ့ နည်းပညာပိုင်းအရ ဘယ်လို ပြန်လည်အသုံးပြုနိုင်တယ်ဆိုတာ လေ့လာပြီးပါပြီ။ နောက်တစ်ဆင့်ကတော့ အခြားသူတွေကိုလည်း data အသုံးပြုနိုင်အောင်တိုက်တွန်းအားပေးဖို့ဖြစ်ပါတယ်။ 
 
-This section looks at additional things which can be done to promote data re-use.
+ဤအခန်းသည် Data များကိုပြန်လည်အသုံးပြုနိုင်ရေးအတွက် တိုက်တွန်းအားပေးခြင်းဖြစ်သည်။ 
 
-## Tell the world!
+## ကမ္ဘာကြီးကိုပြောပြပါ
 
-First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote [open data](/glossary/en/terms/open-data/) in your area of responsibility.
+ပထမဦးဆုံးအနေဖြင့် သင်တာဝန်ရှိသည့် နယ်ပယ်အတွင်းမှာ [open data](/glossary/en/terms/open-data/) နှင့်ပါတ်သက်သော စည်းရုံးမှုများကို အားပေးရန်လိုအပ်ပါသည်။ 
 
-If you open up a bunch of datasets, it's definitely worth spending a bit of time to make sure that people know (or at least can find out) that you've done so.
+Datasets  အမြောက်အများကို open လုပ်ပြီးပါက သင်လုပ်ထားသည့်အရာကို လူအများသိအောင် (ရှာဖွေရယူနိုင်ကြောင်း) အချိန်ပေးပြုလုပ်သင့်သည်။ 
 
-In addition to things like press releases, announcements on your website, and so on, you may consider:
+နောက်ဆက်တွဲအနေဖြင့် သင်၏ website ပေါ်တွင် သတင်းထုတ်ပြန်ချက်များ၊ ကြေငြာချက်များထားရှိသကဲ့သို့ သင့်အနေဖြင့် 
 
--   Contacting prominent organisations or individuals who work/are interested in this area
--   Contacting relevant mailing lists or social networking groups
--   Directly contacting prospective users who you know may be interested in this data
+-   ဤနယ်ပယ်အတွင်းအလုပ်လုပ်ကိုင်နေသော သို့မဟုတ် စိတ်ဝင်စားသော သြဇာလွှမ်းမိုးမှုရှိသည့် အဖွဲ့အစည်းများ သို့မဟုတ် လူပုဂ္ဂိုလ်များ ဆက်သွယ်ခြင်း။ 
+-   သင့်လျော်မှုရှိသောသူများ သို့မဟုတ် လူမှုကွန်ယက် အုပ်စုများကို ဆက်သွယ်ခြင်း။
+-   Data ၏ အကြောင်းအရာပေါ်မူတည်၍ စိတ်ဝင်စားနိုင်သော သူများထံသို့ တိုက်ရိုက်ဆက်သွယ်ခြင်း။ 
 
-### Understanding your audience
+### သင်၏ ပရိသတ်ကို နားလည်သဘောပေါက်ထားခြင်း 
 
-Like all public communication, engaging with the data community needs to be targeted. Like all stakeholder groups, the right message can be wasted if it is directed to the wrong area.
+လူထုနှင့် ဆက်သွယ်ပြန်ကြားရေးနည်းလမ်းများကဲ့သို့ပင် data ရပ်ဝန်းများနှင့် ချိန်ဆက်ဆောင်ရွက်မှုကိုလည်း ဦးတည်ထားသင့်သည်။ ပတ်သက်ဆက်နွှယ်သူအုပ်စုများအားလုံးကဲ့သို့ပင် မှန်ကန်သည့်သတင်းစကားသည် မှားယွင်းသည့် နယ်ပယ်သို့ ဦးတည်သွားပါက အလဟာသဖြစ်တတ်သည်။ 
 
-Digital communities tend to be very willing to share new information, yet they very rapidly consume it. Write as if your messages will be skimmed over, rather than critically examined in-depth.
+ဒစ်ဂျစ်တယ်ရပ်ဝန်းများသည် သတင်းအချက်အလက်အသစ်များကိုဝေမျှရန်အလွန်ပင်စိတ်ဆန္ဒထက်သန် သကဲ့သို့ သတင်းအချက်အလက်များကိုလည်း အလွန်လျင်မြန်စွာအသုံးပြုနိုင်ကြသည်။ သင်၏ သတင်းစကားကို နက်ရှိုင်းစွာစစ်ဆေးရေးသားမည့်အစား စစ်ထုတ်လိုက်မည်ဟူ၍သဘောထားပြီး ရှင်းလင်းပြတ်သားစွာရေးသားသင့်သည်။ 
 
-Members of the tech community are less likely than the general public to use MS Windows. This means that you should not save documents in MS Office formats which can be read offline. There are two resons for this:
+နည်းပညာရပ်ဝန်းမှသူများသည် Microsoft Windows ကိုအသုံးပြုနိုင်ချေမှာ သာမန်လူထုထက်နည်းပါသည်။ ဆိုလိုသည်မှာ offline အနေဖြင့်ဖတ်ရှု၍ရနိုင်သောနည်းလမ်းဖြင့်သာ သင်၏ စာရွက်စာတမ်းများကို သိမ်းဆည်း မထားသင့်ချေ။ ထိုသို့ပြုလုပ်ရခြင်းအတွက် အကြောင်းပြချက်နှစ်ခုရှိပါသည်။ 
 
--   The first is that those documents will be less accessible. Rather than the document you see on your screen, readers may see an imperfect copy from an alternative.
--   Secondly, your agency sends an implicit message that you are unwilling to take a step towards developers. Instead, you show that you are expecting the technology community to come to you.
+-   ပထမတစ်ခုမှာ ထိုသို့သိမ်းဆည်းထားသော စာရွက်စာတမ်းများကို ရယူအသုံးပြုနိုင်ရန်အတွက် အခွင့်အလမ်း အလွန်နည်းပါးသည်။ သင်၏ ကွန်ပြူတာပေါ်တွင်ဖတ်ရှုနိုင်သည်ထက် စာဖတ်သူများသည် အခြားရှုထောင့်မှ တစ်ဆင့် ကူးယူရန်ခက်ခဲနိုင်သည်ဟုမြင်နိုင်သည်။ 
+-   ဒုတိယအနေဖြင့် သင်၏ အဖွဲ့အစည်းသည် developers များနှင့် အလုပ်လုပ်လိုခြင်းမရှိကြောင်း အဓိပ္ပါယ် မှားယွင်းစွာသက်ရောက်စေသည်။ သင့်အနေဖြင့် နည်းပညာရပ်ဝန်းမှသူများကို သင့်ထံသို့လာစေချင်ကြောင်း လည်းပြသရာရောက်သည်။ 
 
-### Post your material on third-party sites
+### Third-party site များတွင် သင်၏ material များတင်ခြင်း။ 
 
-Many blogs have created a large readership in specialised topic areas. It may be worthwhile adding an article about your initiative on their site. These can be mutually beneficial. You receive more interest and they receive a free blog post in their topic area.
+အထူးပြုခေါင်းစဥ်များ၊ နယ်ပယ်များနှင့်ပါတ်သက်၍ ရေးသားထားသော blog များသည် စာဖတ်ပရိသတ်ပေါင်းများစွာရရှိထားနိုင်ပြီးဖြစ်သည်။ သင်လုပ်ဆောင်နေသော ဦးဆောင်မှုအကြောင်း ရေးသားချက်ကို ဖော်ပြစေခြင်းသည်လည်း အဖိုးတန်ပေလိမ့်မည်။ ထိုသို့ပြုလုပ်ခြင်းသည် နှစ်ဦးနှစ်ဖက် အကျိုးရှိစေပါသည်။ သင်အနေဖြင့်လည်း ဦးဆောင်မှုအကြောင်း စိတ်ဝင်းစားမှုပိုမိုရရှိနိုင်သကဲ့သို့ ထိုသူတို့အနေဖြင့်လည်း အကြောင်းအရာနှင့်ဆက်နွှယ်သော blog post တစ်ခုကို အခမဲ့ရရှိနိုင်မည်။ 
 
-### Making your communications more social-media friendly
+### သင်၏ ပြန်ကြားဆက်သွယ်မှုများကို လူမှုမီဒီယာနှင့် ပိုမို အံဝင်စေခြင်း 
 
-It's unrealistic to expect that officials should spend long periods of time engaging with social media. However, there are several things that you can do to make sure that your content can be easily shared between technical users. Some tips:
+ဝန်ထမ်းများအနေဖြင့် လူမှုကွန်ယက်များပေါ်တွင် အချိန်များစွာပေးပြီး လူထုနှင့်ချိတ်ဆက်ဆောင်ရွက်စေ လိုခြင်းမှာယုတ္တိမတန်သောအရာဖြစ်သည်။ မည်သို့ပင်ဆိုစေ သင်ဝေမျှလိုသည့် အကြောင်းအရာကို အသုံးပြုသူများအကြား လွယ်ကူစွာဝေမျှနိုင်သည့် နည်းလမ်းများလည်းရှိပါသည်။ 
 
--   Provide unique pages for each piece of content
+-   အကြောင်းအရာတစ်ခုအတွက် ထူးခြားကောင်းမွန်သောစာမျက်နှာများ ထောက်ပံ့ပေးခြင်း။ 
 
-    When a message is shared with others, the recipient of the referral will be looking for the relevant content quickly.
+    အကြောင်းအရာကို အခြားသူများနှင့်ဝေမျှပြီးပါက လက်ခံသူများသည် သင့်လျော်မှုရှိသော အကြောင်းအရာကို လျှင်မြန်စွာရှာဖွေပါလိမ့်မည်။ 
 
--   Avoid making people download your press releases
+-   သတင်းထုတ်ပြန်ချက်များကို လူအများ download လုပ်ခြင်းမှရှောင်ကျဥ်နိုင်မည်။ 
 
-    Press releases are fine. They are concise messages about a particular point. However, if you require people to download the content and for it to open outside of a web browser, then fewer people will read it. Search engines are less likely to index the content. People are less likely to click to download.
+    သတင်းထုတ်ပြန်မှုများသည် အဆင်ပြေပါသည်။ ၎င်းတို့သည် အကြောင်းကိစ္စတစ်ခုနှင့် ပါတ်သက်၍ ရှင်းလင်းတိကျသော သတင်းအချက်အလက်ကိုပေးနိုင်သည်။ မည်သို့ပင်ဆိုစေ ထိုအကြောင်းအရာနှင့် ပါတ်သက်သောရေးသားချက်ကို လူအများကိုဖတ်ရှုစေလိုပါက ဖတ်ရှုသူများသည် လက်ရှိ web browser တွင်မဟုတ်သောပြင်ပတစ်ခုတွင် ဖွင့်ရန်လိုအပ်ပြီး လူအနည်းငယ်သာဖတ်ရှုကြပါတော့မည်။ ရှာဖွေရေး အင်ဂျင်များသည်လည်း အကြောင်းအရာကို အစီအစဥ်တကျ ဖော်ပြနိုင်ချေမှာအလွန်နည်းပါသည်။ လူအများသည် download ပြုလုပ်နိုင်ချေမှာ အလွန်နည်းသွားသည်။
 
--   Consider using an [Open license](http://opendefinition.org/licenses/#content) for your content
+-   သင်၏ အကြောင်းအရာအတွက် Open ဖြစ်သောလိုင်စင်တစ်ခု ([Open license](http://opendefinition.org/licenses/#content)) အသုံးပြုရန်စဥ်းစားပါ။
 
-    Apart from providing certainty to people who wish to share your content that this is permissible, you send a message that your agency understands openness. This is bound to leave an impression far more significant to proponents of open data than any specific sentence in your press release.
+    သင်ရေးသားထားသောအကြောင်းအရာကိုဝေမျှရန် ဆန္ဒရှိသည့်သူများကို သေချာမှုပေးခြင်းမှလွဲ၍ သင်၏ အဖွဲ့အစည်းသည် open ဖြစ်မှုကိုနားလည်သဘောပေါက်ထားကြောင်းစာကို ပေးပို့ရန်ခွင့်ပြုထားသည်။ ဤအရာသည် သင်၏ သတင်းထုတ်ပြန်မှုတွင် open data နှင့်ပတ်သက်သောတိကျစွာညွှန်းဆိုထားသည့် မည်သည့်စာကြောင်းထက်မဆို ပိုမိုကောင်းမွန်သောထင်မြင်ချက်မျိုးပေးနိုင်သည်။ 
 
-### Social media
+### လူမှုမီဒီယာ 
 
-It's inefficient for cash-strapped agencies to spend hours on social media sites. The most significant way that your voice can be heard through these fora is by making sure that blog posts are easily shareable. That means, before reading the next section, make sure that you have read the last. With that in mind, here are a few suggestions:
+ငွေကြေးအရ ပြည့်စုံလုံလောက်မှုမရှိသော အဖွဲ့အစည်းများအတွက် လူမှုမီဒီယာများပေါ်တွင် အချိန်နာရီပေါင်းများစွာ အသုံးပြုခြင်းသည် စနစ်ကျ အဆင်ပြေမှုမရှိချေ။ ဤအခြေအနေတွင် သင်ပြောလိုသည့် သတင်းစကားကို ရရှိအောင်ပြုလုပ်နိုင်သည့် အကောင်းဆုံးနည်းလမ်းမှာ သင်၏ blog post များကို လွယ်လွယ်ကူကူ ဝေမျှ၍ရနိုင်အောင်ပြုလုပ်ခြင်းဖြစ်သည်။ ဆိုလိုသည်မှာ နောက်ကဏ္ဌတစ်ခုကို မဖတ်ရှုမီ သင်သည်နောက်ဆုံးတစ်ခုကို ဖတ်ရှုပြီးသား ဖြစ်နေရန်လိုအပ်သည်။ 
+ဤအကြောင်းကိစ္စနှင့်ပါတ်သက်၍ အကြံပေးချက်အချို့မှာ 
 
--   Discussion fora
+-   ဆွေးနွေးမှုဖိုရမ်
 
-    Twitter has emerged as the platform of choice for disseminating information rapidly. Anything tagged with \#opendata will be immediately seen by thousands.
+    Twitter သည် စိတ်ကူးအကြံဥာဏ်များနှင့်ပါတ်သက်သော သတင်းအချက်အလက်များ လျင်မြန်စွာ ရွေးချယ်နိုင်သည့် နေရာတစ်ခုဖြစ်လာနေသည်။ \#opendata ဟု tag လုပ်ထားသော မည်သည်မဆိုကို လူထောင်ပေါင်းများစွာက ချက်ချင်းမြင်တွေ့နိုင်သည်။ 
 
-    LinkedIn has a large selection of groups which are targeted towards open data.
+    LinkedIn တွင်လည်း open data ကိုရည်ရွယ်ဦးတည်ထားသည့် စိတ်ဆန္ဒတူသည့် အုပ်စုရှိများရှိသည်။ 
 
-    While Facebook is excellent for a general audience, it has not received a great deal of attention in the open data community.
+    တစ်ချိန်တည်းတွင် Facebook သည်ယေဘုယျပရိသတ်အတွက် အလွန်ကောင်းသည့် နေရာတစ်ခု ဖြစ်နေသော်လည်း open data ရပ်ဝန်းမှသူများအတွက် အာရုံစိုက်မှုကြီးကြီးမားမား မရရှိထားသေးချေ။
 
--   Link aggregators
+-   သတင်းအချက်အလက်များကို တစ်နေရာတည်းတွင် စုဆောင်းသူများနှင့် ချိန်ဆက်ပါ။
 
-    Submit your content to the equivalent of newswires for geeks. Reddit and Hacker News are the two biggest in this arena at the moment. To a lesser extent, Slashdot and Digg are also useful tools in this area.
+    သင်ပြောပြလိုသည့်အကြောင်းအရာကို နည်းပညာကျွမ်းကျင်သူများအတွက် ကိုက်ညီမှုရှိသည့် သတင်းဌာနများကို ပေးပို့ပါ။ Reddit နှင့် Hacker News သည် ယခုအချိန်တွင် ဤသို့ပြုလုပ်ရန်အတွက် အကြီးမားဆုံးနေရာဖြစ်သည်။ ထိုမျှကြီးမားကျယ်ပြန့်မှုမရှိသော်လည်း Slashdot နှင့် Digg ကိုလည်း ဤနယ်ပယ်အတွက်အသုံးပြုနိုင်သည်။
 
-    These sites have a tendency to drive significant traffic to interesting material. They are also heavily focused on topic areas.
+    ထို site များသည် စိတ်ဝင်စားဖွယ်ကောင်းသော အကြောင်းအရာများကြောင့် ကြည့်ရှုသူအမြောက်အများကို စွဲဆောင်ထားနိုင်သည်။ ၎င်းတို့သည် နယ်ပယ်အကြောင်းအရာများကိုပဲ ဦးတည်ထားခြင်းလည်းဖြစ်သည်။
 
-## Getting folks in a room: Unconferences, Meetups and Barcamps
+## စိတ်ကူးစိတ်သန်းတူသူများနှင့်တွေ့ဆုံခြင်း၊ တွေ့ဆုံမှုများ၊ တွေ့ဆုံပွဲများ၊ နှင့် ဘားကမ့်များ
 
-Face-to-face events can be a very effective way to encourage others to use your data. Reasons that you may consider putting on an event include:
+အခြားသူများနှင့် မျက်နှာချင်းဆိုင်တွေ့ဆုံဆွေးနွေးခြင်းသည် data ကိုအသုံးပြုရန်တိုက်တွန်းအားပေးသည့် နည်းလမ်းများထဲမှ အထိရောက်ဆုံးနည်းလမ်းဖြစ်သည်။ ထိုသို့တွေ့ဆုံဆွေးနွေးမှုများပြုလုပ်သင့်သည့် အကြောင်းပြချက်အချို့မှာ
 
--   Finding out more about prospective re-users
--   Finding out more about demand for different datasets
--   Finding out more about how people want to re-use your data
--   Enabling prospective re-users to find out more about what data you have
--   Enabling prospective users to meet each other (e.g. so they can collaborate)
--   Exposing your data to a wider audience (e.g. from blog posts or media coverage that the event may help to generate)
+-   ပြန်လည်အသုံးပြုရန်အတွက် အလားအလာကောင်းရှိသူများကို ပိုမိုသိရှိလာခြင်း။
+-   မတူညီသည့် dataset လိုအပ်ချက်များကို ပိုမိုသိရှိလာခြင်း။
+-   လူထုအနေဖြင့် သင်၏ data ကို မည်ကဲ့သို့ ပြန်လည်အသုံးပြုလိုသည်ကို ပိုမိုသိရှိလာခြင်း။
+-   သင့်တွင်ရှိပြီးသော data များကို ပြန်လည်အသုံးပြုရန်အတွက် အလားအလာကောင်းရှိသူများအား ပိုမို သိရှိစေခြင်း။
+-   ပြန်လည်အသုံးပြုရန်အတွက် အလားအလာကောင်းရှိသူများ အပြန်အလှန်တွေ့ဆုံခွင့်ရခြင်း။ (ဥပမာ၊ ပူးပေါင်းဆောင်ရွက်နိုင်ရန်အတွက်)
+-   သင့်တွင်ရှိသော data များကို ပရိသတ် အမြောက်အများထံတင်ဆက်ခွင့်ရခြင်း။ (ဥပမာ၊ ထိုတွေ့ဆုံမှု အကြောင်းရေးသားထားသည့် blog post များ သို့မဟုတ် သတင်းမီဒီယာများ တစ်ဆင့်) 
 
-There are also lots of different ways of running events, and different types of events, depending on what aim you want to achieve. As well as more traditional conference models, which will include things like preprepared formal talks, presentations and demonstrations, there are also various kinds of participant driven events, where those who turn up may:
+သင်မည်ကဲ့သို့ ရည်ရွယ်ထားသည် အပေါ်တွင်မူတည်၍ မတူညီသည့်တွေ့ဆုံမှုများကို မတူညီသည့် ပုံစံဖြင့် ပြုလုပ်နိုင်သည်။ ကြိုတင်ပြင်ဆင်ထားသော သမရိုးကျပုံစံဆွေးနွေးပြောကြားသည့်ပုံစံများ၊ တင်ဆက်မှုများ၊ သရုပ်ဖော်မှုများ ရှိသကဲ့သို့ တက်ရောက်ဆွေးနွေးသူများကိုယ်တိုင် ဦးဆောင်ဆွေးနွေးကြသည့် ပုံစံများလည်း ရှိသည်။ ထိုကဲ့သို့ ပုံစံဖြင့်ဆွေးနွေးရန်ပြင်ဆင်ရာတွင်
 
--   Guide or define the agenda for the event
--   Introduce themselves, talk about what they're interested in and what they're working on, on an ad hoc basis
--   Give impromptu micro-short presentations on something they are working on
--   Lead sessions on something they are interested in
+-   တွေ့ဆုံမှု၏ အစီအစဥ်သတ်မှတ်ရန်အတွက် လမ်းညွှန် သို့မဟုတ် အဓိပ္ပယ်ဖွင့်ဆိုချက်။
+-   တက်ရောက်လာသူအချင်းချင်းမိတ်ဆက်ပြီး စိတ်ဝင်စားသည့် အကြောင်းအရာနှင့် လုပ်ကိုင်နေသော လုပ်ငန်းများအကြောင်းကို ဆွေးနွေးကြစေခြင်း။
+-   သင်လုပ်ကိုင်နေသည့် အကြောင်းအရာပေါ်တွင်ကြိုတင်ပြင်ဆင်ထားခြင်းမဟုတ်သည့် တင်ဆက်မှုတစ်ခုကို ပြုလုပ်ခြင်း။ 
+-   တက်ရောက်ဆွေးနွေးသူများစိတ်ဝင်စားသည့် အကြောင်းအရာကို ဦးဆောင်ဆွေးနွေးမှုပေးခြင်း။
 
 There is plenty of documentation online about how to run these kinds of events, which you can find by searching for things like: 'unconference', 'barcamp', 'meetup', 'speedgeek', 'lightning talk', and so on. You may also find it worthwhile to contact people who have run these kinds of events in other countries, who will most likely be keen to help you out and to advise you on your event. It may be valuable to partner with another organisation (e.g. a civic society organisation, a news organisation or an educational institution) to broaden your base participants and to increase your exposure.
 

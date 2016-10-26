@@ -2,193 +2,193 @@
 redirect_from: /en/how-to-open-up-data/index.html
 section: guide
 lang: en
-title: How to Open up Data
+title: Data ကို Open ဖြစ်အောင်ဘယ်လိုလုပ်မလဲ။ 
 ---
 
-This section forms the core of this handbook. It gives concrete, detailed advice on how data holders can open up data. We'll go through the basics, but also cover the pitfalls. Lastly, we will discuss the more subtle issues that can arise.
+ဤအပိုင်းသည် လက်စွဲစာအုပ်၏ အဓိကအရေးကြီးဆုံးအပိုင်းဖြစ်သည်။ ဤတွင် Data ရှိသည့်သူများအနေဖြင့်မည်ကဲ့သို့ Data ကို Open ဖြစ်အောင်လုပ်နိုင်မည်ကို အသေးစိတ် အကြံပေးထားသည်။ ထိုသို့လုပ်နိုင်ရန်အတွက် အခြေခံအကြောင်းအရာများလည်းနှင့် မမျှော်လင့်ပဲကြုံတွေ့ရနိုင်သည့်အခက်အခဲများအကြောင်းကိုပါ ဖော်ပြသွားမည်။ နောက်ဆုံးအနေဖြင့် မြင်သာမှုမရှိသော်လည်း ထွက်ပေါ်လာနိုင်သည့် အကြောင်းအရာများကိုဆွေးနွေး သွားမည်။ 
 
-There are three key rules we recommend following when opening up data:
+Data ကို Open လုပ်ရန်အတွက် အဓိကလိုက်နာရမည့်အောက်ပါ စည်းမျဉ်း(၃)ခုကို ကျွန်ုပ်တို့အနေဖြင့် အကြံပေးလိုပါသည်။
 
--   **Keep it simple.** Start out small, simple and fast. There is no requirement that every dataset must be made open right now. Starting out by opening up just one dataset, or even one part of a large dataset, is fine -- of course, the more datasets you can open up the better.
+-   **ရိုးရှင်းအောင်ထားပါ** အသေးငယ်ဆုံး၊ အရိုးရှင်းဆုံးနှင့် အမြန်ဆန်ဆုံး စတင်ပါ။ Dataset အားလုံး ထုတ်ပြီးလျှင်ပြီးချင်း Open ဖြစ်ရန်မလိုအပ်ပါ။ Dataset တစ်ခုကိုပဲ Open လုပ်ခြင်း သို့မဟုတ် ကြီးမားသည့် dataset အတွင်းမှ အစိတ်အပိုင်းတစ်ခုကိုပင်လျှင် Open ဖြစ်အောင် လုပ်ခြင်းသည်လည်း အဆင်ပြေပါသည်။ သေချာသည်မှာ သင့်အနေဖြင့် Dataset များများ Open လုပ်ပေးနိုင်လေ ပိုကောင်းလေဖြစ်ပေသည်။ 
 
-    Remember this is about innovation. Moving as rapidly as possible is good because it means you can build momentum and learn from experience -- innovation is as much about failure as success and not every dataset will be useful.
+   ဤသည်မှာ စိတ်ကူး နည်းလမ်းသစ် ဖြစ်ကြောင်းသတိရပါ။ အလွန်လျှင်မြန်စွာသွားခြင်းကြောင့် သင့်အနေဖြင့် အရှိန်အဟုတ်တစ်ခုတည်ဆောက်နိုင်ပြီး အတွေ့အကြုံမှတဆင့် သင်ယူနိုင်စေသည်။ စိတ်ကူး အကြံဥာဏ် သစ်သည် အောင်မြင်မှုထက်ရှုံးနိမ့်မှုအကြောင်းဖြစ်သည်၊ အတွေ့အကြုံမှ သင်ယူစေသည်။ ထို့ကြောင့် Dataset တိုင်းသည်အသုံးတည့် လိမ့်မည်မဟုတ်ပါ။ 
 
--   **Engage early and engage often.** Engage with actual and potential users and re-users of the data as early and as often as you can, be they citizens, businesses or developers. This will ensure that the next iteration of your service is as relevant as it can be.
+-   **စောစော စေ့စပ်ပါ၊ မကြာခဏ စေ့စပ်ပါ။** Data အသုံးပြုနိုင်ချေရှိသူများနှင့် ပြန်လည်အသုံးပြုနိုင်ချေရှိသူများ နှင့် သင်တတ်နိုင်သမျှ စောစော စေ့စပ်ပါ၊ မကြာခဏစေ့စပ်ပါ။ ထိုသူများသည် နိုင်ငံသားများ၊ စီးပွါးရေးလုပ်ငန်းများ သို့မဟုတ် developer များ ဖြစ်သင့်သည်။ ထိုအရာသည် သင်၏နောက်တစ်ကြိမ် ဝန်ဆောင်မှုအတွက် အကျိုးသက်ရောက်မှုရှိစေမည်။
 
-    It is essential to bear in mind that much of the data will not reach ultimate users directly, but rather via 'info-mediaries'. These are the people who take the data and transform or remix it to be presented. For example, most of us don't want or need a large database of GPS coordinates, we would much prefer a map. Thus, engage with infomediaries first. They will re-use and repurpose the material.
+    ဤမျှ Data ပမာဏသည် ‘info-mediaries’ မှလွဲ၍ အသုံးပြုသူအမြောက်အများထံသို့တိုက်ရိုက်ရောက်နိုင်မည်မဟုတ်ပါ။ ထိုသူများသည် Data များကိုရယူပြီးနောက် ပြန်လည်ပြင်ဆင်ပြီး သို့မဟုတ် ရောနှောပြီး တင်ဆက်ကြသည်။ ဥပမာအားဖြင့် ကျွန်ုပ်တို့လိုသူအများစုမှာ database ကြီးတစ်ခု၏ GPS တန်ဖိုးများ မလိုချင်ကြပေ သို့မဟုတ် မလိုအပ်ကြချေ။ ထိုအစား မြေပုံတစ်ပုံဆိုလျှင် ကျွန်ုပ်တို့သဘောကျကြလိမ့်မည်။ ထို့ကြောင့် infomediaries နှင့် ပထမဦးစွာ ရင်းနှီးကျွမ်းဝင်အောင်လုပ်ပါ။ ထိုသူများသည် data ကိုပြန်လည်အသုံးပြုခြင်းနှင့် အခြားရည်ရွယ်ချက်တစ်ခုဖြင့် အသုံးတည့်အောင်ပြုလုပ်လိမ့်မည်။
 
--   **Address common fears and misunderstandings**. This is especially important if you are working with or within large institutions such as government. When opening up data you will encounter plenty of questions and fears. It is important to (a) identify the most important ones and (b) address them at as early a stage as possible.
+-   **ဖြစ်လေ့ဖြစ်ထရှိတတ်သော ကြောက်ရွံမှုနှင့် နားလည်မှုလွဲခြင်းများကိုဖြေရှင်းပါ။**.  အစိုးရကဲ့သို့သော အဖွဲ့အစည်းမျိုးနှင့် သင်အလုပ်လုပ်ပါက သို့မဟုတ် ထိုကဲ့သို့အဖွဲ့အစည်းအတွင်းတွင် သင်ပါဝင်ပါက ဤအရာသည် အထူးအရေးပါသည်။ Data ကို Open လုပ်ခြင်းဖြင့် မေးခွန်းပေါင်းများနှင့် ကြောက်ရွံ မှုများကို သင်ရင်ဆိုင်ကြုံတွေ့ရမည်။ (၁) အရေးကြီးဆုံးအရာများကို ခွဲခြားသတ်မှတ်ရန် နှင့် (၂) ထိုအရာများကို တတ်နိုင်သမျှ အစောဆုံးအခြေအနေတွင် ဖြေရှင်းရန်။ 
 
-There are four main steps in making data open, each of which will be covered in detail below. These are in very approximate order - many of the steps can be done simultaneously.
+Data ကို Open ဖြစ်အောင်ပြုလုပ်ရာတွင် အဓိက အဆင့်ကြီး ၄ဆင့်ရှိသည်၊ ထိုအကြောင်းအရာများ အသေးစိတ်ကို အောက်တွင်ဖော်ပြထားသည်။ ထိုအဆင့်များသည် အတတ်နိုင်ဆုံး တစ်ဆင့်တည်းရှိရမည်၊ အဆင့်တော်တော်များများသည် တစ်ချိန်တည်းတွင်ဖြစ်နိုင်သည်။ 
 
-1.  **Choose your dataset(s).** Choose the dataset(s) you plan to make open. Keep in mind that you can (and may need to) return to this step if you encounter problems at a later stage.
-2.  **Apply an open license.**
-    1.  Determine what intellectual property rights exist in the data.
-    2.  Apply a suitable 'open' license that licenses all of these rights and supports the definition of openness discussed in the section above on 'What Is Open Data'
-    3.  NB: if you can't do this go back to step 1 and try a different dataset.
+1.  **သင်၏ dataset (များ) ကို ရွေးချယ်ပါ။** သင် Open လုပ်ချင်သော dataset ကိုရွေးချယ်ပါ။ နောက်အဆင့်များတွင် သင် ပြဿနာကြုံတွေ့ရပါက ဤအဆင့်သို့ပြန်လာနိုင်သည်။ (ပြန်လာရန်လိုအပ်သည်)
+2.  **Open License လျှောက်ထားပါ။.**
+    1.  Data ထဲတွင် မည်သည့် ပညာရပ်ဆိုင်ရာ ပိုင်ဆိုင်မှုအခွင့်အရေး ရှိသည်ကို သိအောင်လုပ်ပါ။
+    2.  ဤအခွင့်အရေးများကို လိုင်စင်ပေးပြီး ‘ဘာက Open Data လဲ အခန်းတွင် ဖေါ်ပြခဲ့သည့် Open ဖြစ်မှုကို အထောက်အပံ့ပေးနိုင်သည့် သင့်လျော်သော Open လိုင်စင်ကိုလျှောက်ထားရမည်။ 
+    3.  NB: အကယ်၍ ဤအဆင့်ကို ပြုလုပ်၍မရပါက မတူညီသည့် dataset တစ်ခုဖြင့်စမ်းကြည့်ပါ။
 
-3.  **Make the data available** - in bulk and in a useful format. You may also wish to consider alternative ways of making it available such as via an API.
-4.  **Make it discoverable** - post on the web and perhaps organize a central catalog to list your open datasets.
+3.  ** Data အပြည့်အစုံ တစ်ခုလုံးနှင့် အသုံးတည့်သည့် format ဖြင့် ရရှိနိုင်အောင်ပြုလုပ်ပါ။** - Data ကို API မှတဆင့် ရရှိနိုင်အောင်လုပ်ခြင်းကဲ့သို့သော အခြားနည်းလမ်းများကို သင့်အနေဖြင့် ထည့်သွင်းစဉ်းစားလိုလိမ့်မည်။ 
+4.  **ရှာဖွေနိုင်အောင်ပြုလုပ်ထားပါ။ ** - Data ကို web ပေါ်တွင်တင်ခြင်းနှင့် သင့်၏ open datasets ကတ်တလောက်စာရင်းပြုစုထားခြင်းဖြင့် ရှာဖွေနိုင်အောင်ပြုလုပ်ထားပါ။ 
 
-## Choose Dataset(s)
+## Dataset ကိုရွေးချယ်ခြင်း။
 
-Choosing the dataset(s) you plan to make open is the first step – though remember that the whole process of opening up data is iterative and you can return to this step if you encounter problems later on.
+သင် Open လုပ်လိုသော dataset ကိုရွေးချယ်ခြင်းမှာ ပထမအဆင့်ဖြစ်သော်လည်း မှတ်သားထားရန်လိုအပ်သည်မှာ Data ကို Open ဖြစ်အောင်လုပ်ခြင်းသည် ဖလှယ်နိုင်စွမ်းရှိအောင်လုပ်ခြင်းနှင့် အကယ်၍ နောက်တွင် ပြဿနာကြုံတွေ့ရပါက ဤအဆင့်သို့ပြန်လာနိုင်သည်။ 
 
 If you already know exactly what dataset(s) you plan to open up you can move straight on to the next section. However, in many cases, especially for large institutions, choosing which datasets to focus on is a challenge. How should one proceed in this case?
 
 Creating this list should be a quick process that identifies which datasets could be made open to start with. There will be time at later stages to check in detail whether each dataset is suitable.
 
-There is **no requirement** to create a comprehensive list of your datasets. The main point to bear in mind is whether it is feasible to publish this data at all (whether openly or otherwise) - see [this previous section](../what-is-open-data/).
+သင်၏ dataset စာရင်းများကိုဖန်တီးရန်အတွက် **မည်သည့် လိုအပ်ချက်မျှမရှိချေ။** မှတ်သားထားရန် လိုအပ်သည်မှာ dataset ကို ထုတ်ဝေရန်ဖြစ်နိုင်ချေရှိခြင်းမရှိခြင်းဖြစ်သည်။ (Open ထုတ်ဝေသည်ဖြစ်စေ၊ အခြားနည်းဖြင့်ထုတ်ဝေသည်ဖြစ်စေ) [ပြီးခဲ့သည့် အပိုင်းတွင်ကြည့်ပါ။](../what-is-open-data/)
 
-### Asking the community
+### ရပ်ရွာလူထုကိုမေးခြင်း။
 
-We recommend that you ask the community in the first instance. That is the people who will be accessing and using the data, as they are likely to have a good understanding of which data could be valuable.
+ပထမဦးစွာ ရပ်ရွာလူထုကိုမေးမြန်းရန်အတွက် အကြံပြုလိုပါသည်။ ထိုသည်များသည် Data ကိုရယူအသုံးပြုမည့်သူများဖြစ်သကဲ့သို့မည်သည့် data သည် တန်ဖိုးရှိနိုင်မည်ကိုလည်း သဘောပေါက် ထားနိုင်သည်။
 
-1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' [open data](/glossary/en/terms/open-data/) catalogs.
-2.  Create a request for comment.
-3.  Publicise your request with a webpage. Make sure that it is possible to access the request through its own URL. That way, when shared via social media, the request can be easily found.
-4.  Provide easy ways to submit responses. Avoid requiring registration, as it reduces the number of responses.
-5.  Circulate the request to relevant mailing lists, forums and individuals, pointing back to the main webpage.
-6.  Run a consultation event. Make sure you run it at a convenient time where the average business person, [data wrangler](/glossary/en/terms/data-wrangler/) and official can attend.
-7.  Ask a politician to speak on your agency's behalf. Open data is very likely to be part of a wider policy of increasing access to government information.
+1.  တုံ့ပြန်မှုတစ်စုံတစ်ရာ သင်ရရှိလိုသော အလားအလာရှိသည့် dataset များကိုစာရင်းပြုစုပါ။ စာရင်းသည် သင်မျှော်လင့်ထားချက်များနှင့် ကိုက်ညီရန်မဖြစ်မနေမလိုအပ်ချေ၊ အဓိကရည်ရွယ်ချက်မှာ လိုအပ်သည်ဟု ခံစားမိစေရန်ဖြစ်သည်။ ဤသည်ကို အခြားနိုင်ငံများ၏ [Open data](/glossary/en/terms/open-data/) ကတ်တလောက်များပေါ်တွင်အခြေခံနိုင်သည်။ 
+2.  ဝေဖန်အကြံပြုရန်လည်း တောင်းဆိုပါ။
+3.  သင်၏တောင်းဆိုချက်ကို webpage ဖြင့် လူအများသိမြင်နိုင်အောင်လုပ်ပါ။ ၎င်း၏ ကိုယ်ပိုင် URL မှတဆင့် ရရှိနိုင်အောင်လုပ်ပါ။ ထိုနည်းဖြင့် လူမှုကွန်ယက်များမှတဆင့် ဝေမျှပါက ထိုတောင်းဆိုချက်ကို လွယ်လွယ်ကူကူတွေ့နိုင်မည်။ 
+4.  တုံ့ပြန်မှုများကို ပေးပို့ရန်အတွက် လွယ်ကူသော နည်းလမ်းများပေးထားပါ။ Register လုပ်ထားမှသာ တုံ့ပြန်မှုပြုနိုင်ခြင်းကိုရှောင်ပါ၊ ၎င်းသည် တုံ့ပြန်မှုပေးသော အရေအတွက်ကိုလျော့ကျသွားစေနိုင်သည်။ 
+5.  စာပို့ခြင်း၊ ဖိုရမ်များ၊ တစ်ဦးချင်စီ မှ တုံ့ပြန်မှုရရှိရန် တောင်းဆိုချက်ကို မူလ webpage သို့လာရောက်ပေးရန် ညွှန်းပေးပါ။
+6.  အကြံဥာဏ်တောင်းခံသည့် ပွဲတစ်ခုလည်းပြုလုပ်ပါ။ ထိုသို့ပြုလုပ်ရာတွင် သာမန် စီးပွါးရေးသမား၊ [Data ကျွမ်းကျင်သူ](/glossary/en/terms/data-wrangler/) နှင့် ဝန်ထမ်းများတက်ရောက်နိုင်ရန် သင့်လျော်သည့် အချိန်ကိုရွေးချယ်ပါ။ 
+7.  သင်၏ အေဂျင်စီကိုယ်စား နိုင်ငံရေးသမား တစ်ဦးဦးကို ပြောဆိုခိုင်းပါ၊ Open Data ဆိုသည်မှာ လည်း အစိုးရ၏ သတင်းအချက်အလက်များကို ပိုမိုရယူနိုင်ရန်အတွက် ကျယ်ပြန့်လှသည့် မူဝါဒထဲမှ တစ်စိတ်တစ်ပိုင်းဖြစ်သည်။ 
 
-### Cost basis
+### အခြေခံကုန်ကျစရိတ်
 
-How much money do agencies spend on the collection and maintainence of data that they hold? If they spend a great deal on a particular set of data, then it is highly likely that others would like to access it.
+အေဂျင်စီများသည် ၎င်းတို့ကိုင်ဆောင်ထားသော data များစုဆောင်းခြင်းနှင့် ထိန်းသိမ်းခြင်းအတွက် ငွေကြေးပမာဏ မည်မျှ အသုံးပြုနေကြပါသလဲ။ Dataset တစ်ခုအတွက် ကုန်ကျစရိတ်ကြီးကြီးမားမား အသုံးပြုထားပါက အခြားသူများ၏ ပိုမိုရယူလိုပေမည်။ 
 
-This argument may be fairly susceptible to concerns of freeriding. The question you will need to respond to is, "Why should other people get information for free that is so expensive?". The answer is that the expense is absorbed by the public sector to perform a particular function. The cost of sending that data, once it has been collected, to a third party is approximately nothing. Therefore, they should be charged nothing.
+ထိုကဲ့သို့အခမဲ့ရယူခြင်းကြောင့်  ဆိုးကျိုးသက်ရောက်မှုတစ်ခုခုရှိနိုင်မည်ဟုလည်း ငြင်းချက်ထုတ်နိုင်သည်။ ထိုအရာကိုတုံ့ပြန်နိုင်သည့်မေခွန်းမှာ “ကုန်ကျစရိတ်အများအပြားဖြင့်ကောက်ခံထားသော သတင်းအချက်အလက်ကို အခြားသူတွေက ဘာကြောင့် အခမဲ့ ရယူနိုင်ရမှာလဲ” ဖြစ်သည်။ ကုန်ကျစရိတ်သည် နိုင်ငံတော်မှ ကိစ္စတစ်စုံတစ်ရာ လုပ်ဆောင်ရန်အတွက် အကုန်အကျခံရခြင်းဖြစ်သည်။ Data ကိုစုဆောင်းပြီးသည်နှင့် တတိယလူထံပို့ပေးခြင်းကုန်ကျစရိတ်မှာ အကြမ်းအားဖြင့် ဘာမျှမရှိချေ။ ထို့ကြောင့် Data ကိုရယူရန် ကုန်ကျစရိတ် လုံးဝမရှိသင့်ချေ။ 
 
-### Ease of release
+### ထုတ်လုပ်ရန်လွယ်ကူမှု
 
-Sometimes, rather than deciding which data would be most valuable, it could be useful to take a look at which data is easiest to get into the public's hands. Small, easy releases can act as the catalyst for larger behavioural change within organisations.
+တစ်ခါတစ်လေ မည်သည့် Data ကပိုတန်ဖိုးရှိသည်ဟုဆုံးဖြတ်ခြင်းထက် လူထုလက်တွင်းသို့မည်သည့် Data ကပိုမိုလွယ်ကူစွာရောက်ရှိနိုင်မည်၊ ပိုအသုံးတည့်မည်ကိုလည်း ထည့်သွင်းစဉ်းစားသင့်သည်။ သေးငယ်ပြီး ထုတ်လုပ်ရန် ပိုမိုလွယ်ကူသော Dataset များသည် အဖွဲ့အစည်းအတွင်း ပြုမူဆောင်ရွက်မှုများကို ပိုမို လျှင်မြန်စွာပြောင်းလဲပေးနိုင်သည်။ 
 
-Be careful with this approach however. It may be the case that these small releases are of so little value that nothing is built from them. If this occurs, faith in the entire project could be undermined.
+မည်သို့ပင်ဆိုစေ ဤချဉ်းကပ်မှုကို အသုံးပြုပါက ဂရုစိုက်ရန်လိုအပ်သည်။ ထိုကဲ့သို့အသေးစား ထုတ်လုပ်မှုသည် တန်ဖိုးအားဖြင့်လည်း အလွန်သေးငယ်သောကြောင့် ထိုမှတဆင့်မည်သည့် အရာမျှ တည်ဆောက်၍မရဘဲလည်းရှိတတ်သည်။ ဤကဲ့သို့ဖြစ်ပါက စီမံကိန်းအပေါ် ယုံကြည်နေမှုသည် အားပျော့လာတတ်သည်။ 
 
-### Observe peers
+### အခြားသူများကို လေ့လာပါ။
 
-Open data is a growing movement. There are likely to be many people in your area who understand what other areas are doing. Formulate a list on the basis of what those agencies are doing.
+Open Data သည် ဆက်လက်လုပ်ဆောင်နေရမည့် လှုပ်ရှားမှုဖြစ်သည်။ သင်၏နယ်ပယ်ထဲတွင် အခြားနယ်ပါယ်တွင် မည်သည့်အရာများဖြစ်ပျက်နေသည်ကို နားလည်သဘောပေါက်ထားသူများရှိသည်။ အခြား အေဂျင်စီများ မည်သည့်အရာများ လုပ်ဆောင်နေသည်ကို အခြေခံစာရင်းတစ်ခု ပြုစုပါ။
 
-## Apply an Open License (Legal Openness)
+## Open လိုင်စင်လျှောက်ထားပါ။ (တရားဝင် Open ဖြစ်မှု)
 
-In most jurisdictions there are intellectual property rights in data that prevent third-parties from using, reusing and redistributing data without explicit permission. Even in places where the existence of rights is uncertain, it is important to apply a license simply for the sake of clarity. Thus, **if you are planning to make your data available you should put a license on it** – and if you want your data to be [open](http://opendefinition.org/) this is even more important.
+ဥပဒေအများစုတွင် Data တွင်းရှိသော ဥာဏ်ဏပိုင်ဆိုင်မှုအခွင့်အရေးအတွက် တတိယ ပုဂ္ဂိုလ်၊ အဖွဲ့အစည်းများကို ရှင်းလင်းသည့် ခွင့်ပြုချက်မပါရှိဘဲ Data ကို အသုံးပြုခြင်း၊ ပြန်လည်အသုံးပြုခြင်း နှင့် ပြန်လည်ဖြန့်ဝေခြင်းတို့ပြုလုပ်ရန် ခွင့်မပြုချေ။ အခွင့်အရေးရှိမရှိ မသေချာသည့် နေရာများတွင်ပင်လျှင် ရှင်းလင်းမှုရှိစေရန်အတွက် လိုင်စင်လျှောက်ထားရန် အလွန်အရေးကြီးသည်။ ထို့ကြောင့် **သင့် Data ကို ရယူနိုင်အောင်လုပ်နေပါက ထို Data အတွက် လိုင်စင်ရှိထားသင့်သည်။** သင့် Data ကို [open](http://opendefinition.org/) ဖြစ်အောင်လုပ်လိုပါက လိုင်စင်သည်သာ၍ပင်အရေးကြီးပါ့သည်။ 
 
-What licenses can you use? We recommend that for 'open' data you use one of the licenses conformant with the [Open Definition](open_) and marked as suitable for data. This list (along with instructions for usage) can be found at:
+သင်မည်သည့်လိုင်စင်များကို အသုံးပြုနေပါသလဲ။ Open အဓိပ္ပါယ်ဖွင့်ဆိုချက် ([Open Definition](open_))နှင့် ကိုက်ညီမှုရှိသော၊ သင့်လျော်မှုရှိသော  လိုင်စင်တစ်မျိုးမျိုးကို သင် Open လုပ်လိုသော Data အတွက် အသုံးပြုရန် အကြံပြုလိုပါသည်။ ထိုစာရင်းကို အညွှန်းများနှင့်တကွ [http://opendefinition.org/licenses/](http://opendefinition.org/licenses/)  တွင် တွေ့နိုင်သည်။ 
 
 -   <http://opendefinition.org/licenses/>
 
-A short 1-page instruction guide to applying an open data license can be found on the Open Data Commons site:
+[Open Data Commons](http://opendatacommons.org/guide/) တွင်လည်း Open Data လိုင်စင်လျှောက်ထားခြင်းနှင့်ပါတ်သက်ပြီး တစ်မျက်နှာစာ အညွှန်းကိုကြည့်ရှုနိုင်သည်။ 
 
 -   <http://opendatacommons.org/guide/>
 
-## Make Data Available (Technical Openness)
+## Data ကိုရယူနိုင်အောင်ပြုလုပ်ခြင်း။ (နည်းပညာပိုင်းဆိုင်ရာ Open ဖြစ်မှု)
 
-[Open data](/glossary/en/terms/open-data/) needs to be technically open as well as legally open. Specifically, the data needs to be available in bulk in a [machine-readable](/glossary/en/terms/machine-readable/) format.
+[Open data](/glossary/en/terms/open-data/) သည် နည်းပညာပိုင်းအရ Open ဖြစ်သကဲ့သို့ တရားဝင်လည်း Open ဖြစ်ရန်လိုအပ်သည်။ တိတိကျကျဆိုရလျှင် Data တစ်ခုလုံးသည် [machine-readable](/glossary/en/terms/machine-readable/)format ဖြစ်ရန် လိုအပ်ပါသည်။
 
-**Available**
+**ရယူနိုင်မှု**
 
-Data should be priced at no more than a reasonable cost of reproduction, preferably as a free download from the Internet. This pricing model is achieved because your agency should not undertake any cost when it provides data for use.
+Data ကိုရယူပြီး ပြန်လည်ထုတ်လုပ်ရာတွင် သင့်လျော်သော ကုန်ကျစရိတ် ထက်မပိုသင့်ချေ၊ အင်တာနက်မှ အခမဲ့ download လုပ်၍ ရယူနိုင်လျှင် ပို၍အဆင်ပြေသည်။ ဈေးနှုန်းသတ်မှတ်သည့်ပုံစံ အောင်မြင်ခဲ့သည်မှာ သင့် အေဂျင်စီသည် Data ကိုအသုံးပြုရန် ပေးသည့်အခါတွင်မည်သည့်ကုန်ကျစရိတ်အတွက်မျှ အာမခံမထားခြင်းကြောင့်ဖြစ်သည်။ 
 
-**In bulk**
+**တစ်ခုလုံးရရှိနိုင်မှု**
 
-The data should be available as a complete set. If you have a register which is collected under statute, the entire register should be available for download. A web API or similar service may also be very useful, but they are not a substitutes for bulk access.
+Dataset တစ်ခုကို အပြည့်အစုံရယူနိုင်ရမည်။ ဥပဒေအရ၊ လုပ်ထုံးလုပ်နည်းအရ သင့် Data ကိုမှတ်ပုံတင် ထားပါက မှတ်ပုံတင်ထားသော Data တစ်ခုလုံးကို download လုပ်၍ ရယူနိုင်ရမည်။ Web API သို့မဟုတ် ဆင်တူသည့် ဝန်ဆောင်မှုသည်အသုံးတည့်နိုင်သော်လည်း တစ်ခုလုံး ရယူနိုင်မှုအတွက် ထိုအရာများဖြင့် အစားမထိုးနိုင်ချေ။
 
-**In an open, machine-readable format**
+**Open ဖြစ်သော machine-readable format**
 
-Re-use of data held by the public sector should not be subject to patent restrictions. More importantly, making sure that you are providing machine-readable formats allows for greatest re-use. To illustrate this, consider statistics published as PDF (Portable Document 
-Format) documents, often used for high quality printing. While these statistics can be read by humans, they are very hard for a computer to use. This greatly limits the ability for others to re-use that data.
+အစိုးရပိုင်လုပ်ငန်းများတွင်ရှိသော Data များကို ပြန်လည်အသုံးပြုနိုင်ရန်အတွက် မလိုအပ်သော တားမြစ်ချက်များ မရှိသင့်ချေ။ ပို၍အရေးကြီးသည်မှာ ၎င်းတို့ထောက်ပံ့ပေးသော Data များသည် အလွန်ကောင်းမွန်စွာ ပြန်လည်အသုံးပြုနိုင်ရန် အတွက် machine-readable format ဖြစ်ရမည်။ ထိုအရာကို ပုံဖော်ပြောရလျှင် PDF အနေဖြင့်ထုတ်ဝေသော ကိန်းကဏန်းအချက်အလက်များသည် အရည်အသွေးကောင်းသော ပုံနှိပ်မှုအတွက်သာ များသောအားဖြင့် အသုံးပြုသည်။ ထိုကိန်းကဏန်းများကို လူအနေဖြင့် ဖတ်နိုင်သော်လည်း ကွန်ပြူတာဖြင့် ဖတ်ပြီး အသုံးပြုရန် အလွန် ခက်ခဲပေမည်။ ထိုအရာသည် အခြားသူများ Data ကို ပြန်လည်အသုံးနိုင်ရန်အတွက် အလွန် အကန့်အသတ်ကြီးသည်။ 
 
-Here are a few policies that will be of great benefit:
+အောက်ပါ မူဝါဒ အနည်းငယ်သည် ကြီးမားသောအကျိုးကျေးဇူးရရှိရန်အတွက်ဖြစ်သည်။ 
 
--   Keep it simple,
--   Move fast
--   Be pragmatic.
+-   ရိုးရှင်းစွာထားပါ။
+-   မြန်မြန်ရွှေ့ပါ။
+-   ပြဿနာများကို ယုတ္တိကျကျဖြေရှင်းပါ။
 
-In particular it is better to give out raw data now than perfect data in six months' time.
+တစ်နည်းအားဖြင့်ဆိုရလျှင် Data အကြမ်းရှိလျှင်ရှိခြင်းပေးလိုက်ခြင်းက ပြီးပြည့်စုံသည့် Data ကို ၆လ ကြာမှ ပေးခြင်းထက်ပိုကောင်းသည်။
 
-There are many different ways to make data available to others. The most natural in the Internet age is online publication. There are many variations to this model. At its most basic, agencies make their data available via their websites and a central catalog directs visitors to the appropriate source. However, there are alternatives.
+အခြားသူများ Data ရယူနိုင်အောင်ပြုလုပ်နိုင်သည့် မတူညီသည့်နည်းလမ်းပေါင်းများစွာရှိသည်။ အင်တာနက်ခေတ်ကြီးထဲတွင် သဘာဝအကျဆုံးနည်းလမ်းမှာ online ထုတ်ဝေမှုဖြစ်သည်။ ဤပုံစံအတွက်လည်း ဆင်တူသည့်နည်းလမ်းများစွာရှိသည်။ အခြေအကျဆုံးအနေဖြင့် အေဂျင်စီများသည် ၎င်းတို့website များမှတဆင့်နှင့်မူလကတ်တလောက်မှ သင့်လျော်မှုရှိသော ရင်းဖြစ်များကို ညွှန်းပေးခြင်းဖြစ်သည်။ မည်သို့ပင်ဆိုစေ မတူညီသည့် နည်းလမ်းပေါင်းများစွာရှိသည်။
 
-When [connectivity](/glossary/en/terms/connectivity/) is limited or the size of the data extremely large, distribution via other formats can be warranted. This section will also discuss alternatives, which can act to keep prices very low.
+[အင်တာနက်လိုင်းအရည်အသွေး](/glossary/en/terms/connectivity/)သည် ကန့်သတ်ချက်ရှိနေပါက သို့မဟုတ် Data ၏အရွယ်အစားသည် အလွန်ကြီးမားပါက အခြား format များဖြင့် ဖြန့်ချိနိုင်သည်။ ဤအပိုင်းတွင် ဈေးနှုန်းကိုအတတ်နိုင်ဆုံးလျှော့ချရန်အတွက် မတူညီသည့်နည်းလမ်းများကို ဆွေးနွေးသွားမည်။ 
 
-### Online methods
+### Online နည်းလမ်းများ
 
-#### Via your existing website
+#### သင့်တွင်ရှိပြီးသား website မှတဆင့် 
 
-The system which will be most familiar to your web content team is to provide files for download from webpages. Just as you currently provide access to discussion documents, data files are perfectly happy to be made available this way.
+ဤစနစ်သည် သင့် webpage တွင် တိုက်ရိုက် download လုပ်ရန်အတွက် ဖိုင် ထောက်ပံ့ပေးခြင်းဖြစ်သောကြောင့် သင်၏ web content အဖွဲ့နှင့် ရင်းနှီးကျွမ်းဝင်မှု အရှိဆုံးဖြစ်နိုင်သည်။ ဆွေးနွေးပွဲနှင့်ဆိုင်သော စာရွက်စာတမ်းများကို အလွယ်တကူရရှိနိုင်သကဲ့သို့ထိုနည်းဖြင့် Data ဖိုင်များကို ရယူနိုင်အောင်ပြုလုပ်ခြင်းသည်လည်းအဆင်ပြေပါသည်။ 
 
-One difficulty with this approach is that it is very difficult for an outsider to discover where to find updated information. This option places some burden on the people creating tools with your data.
+ဤချည်းကပ်မှု၏ အခက်အခဲတစ်ခုမှာ update အဖြစ်ဆုံးသတင်းအချက်အလက်ကို အပြင်လူအနေဖြင့် ရှာတွေ့ရန်အလွန်ခက်ခဲခြင်းဖြစ်သည်။ ဤနည်းလမ်းသည် သင်၏ data ဖြင့် tools များဖန်တီးလိုသူအတွက် အနည်းငယ်မျှဝန်ထုပ်ဝန်ပိုးဖြစ်စေသည်။
 
-#### Via 3rd party sites
+#### တတိယ ပုဂ္ဂိုလ်၊ site များမှတဆင့် 
 
-Many repositories have become hubs of data in particular fields. For example, pachube.com is designed to connect people with sensors to those who wish to access data from them. Sites like Infochimps.com and Talis.com allow public sector agencies to store massive quantities of data for free.
+သတင်းအချက်အလက်များသိမ်းဆည်းသည့် နေရာအများစုသည် နယ်ပယ်အမျိုးမျိုးအတွက် Data Hub များဖြစ်လာသည်။ ဥပမာအားဖြင့် pachube.com သည် ၎င်းတို့ထံမှ Data ရယူလိုသောသူများကို sensor များဖြင့် ချိတ်ဆက်ပေးရန် ဒီဇိုင်းဆွဲထားခြင်းဖြစ်သည်။ Infochimps.com နှင့် Talis.com ကဲ့သို့Site များသည် အစိုးပိုင်လုပ်ငန်းများလုပ်ကိုင်သော အေဂျင်စီများ၏ Data ကို ပမာဏကြီးကြီးမားမားထိ အခမဲ့ သိမ်းဆည်းခွင့်ပေးသည်။ 
 
-Third party sites can be very useful. The main reason for this is that they have already pooled together a community of interested people and other sets of data. When your data is part of these platforms, a type of positive compound interest is created.
+တတိယကြားခံ site များသည်လည်းအလွန်အသုံးဝင်နိုင်သည်။ အဓိကရည်ရွယ်ချက်မှာ ၎င်းသည် စိတ်ဝင်စားသည့် လူအုပ်စုအဖွဲ့အစည်းတစ်ခုကိုရရှိပြီးဖြစ်သည်၊ အခြား Dataset များလည်း ရှိပြီးဖြစ်သည်။ သင်၏ Data သည် ဤ platform ၏တစ်စိတ်တစ်ပိုင်းဖြစ်ပါက အပြုသဘောဆောင်သော စိတ်ဝင်စားမှုတစ်ခုကို စုဆည်းပြီးဖြစ်သည်။ 
 
-Wholesale data platforms already provide the infrastructure which can support the demand. They often provide analytics and usage information. For public sector agencies, they are generally free.
+Data အမြောက်အများရှိပြီးသော လက်ကား platform များသည် တောင်းဆိုချက်များကို အထောက်အပံ့ပေးနိုင်သော အခြေခံလိုအပ်ချက်များရှိပြီးဖြစ်သည်။ ၎င်းတို့သည် လေ့လာဆန်းစစ်ရန် နည်းလမ်းများနှင့် အသုံးပြုခြင်း အတွက် သတင်းအချက်အလက်များကိုပါ ပေးလေ့ရှိသည်။ အစိုးရပိုင်းနှင့်ဆိုင်သော အေဂျင်စီများအတွက် ထို platform များမှာ အခမဲ့ဖြစ်သည်။ 
 
-These platforms can have two costs. The first is independence. Your agency needs to be able to yield control to others. This is often politically, legally or operationally difficult. The second cost may be openness. Ensure that your data platform is agnostic about who can access it. Software developers and scientists use many operating systems, from smart phones to supercomputers. They should all be able to access the data.
+ဤ platform များကြောင့် ဆုံးရှုံးမှု နှစ်ခုရှိသည်။ ပထမတစ်ခုမှာ အမှီအခိုကင်းမှု ဖြစ်သည်။ သင့် အေဂျင်စီအနေဖြင့် အခြားသူများ၏ ထိန်းချုပ်မှုကို ကာကွယ်နိုင်ရမည်။ ထိုအရာသည် နိုင်ငံရေးအရ၊ တရားဝင်ဖြစ်မှုအရ သို့မဟုတ် အကောင်အထည်ဖော်မှုပိုင်းအရ ခက်ခဲမှုရှိသည်။ ဒုတ်ယတစ်ခုမှာ Open ဖြစ်မှု ဖြစ်သည်။ သင်၏ Data Platform ကိုမည်သူများရယူနေသည်ဟု တစ်ထစ်ချ မယုံကြည်ထားသင့်ချေ။ Software developer များနှင့် သိပ္ပံပညာရှင်များသည် smartphone မှအစ supercomputer များအထိ operating system အမျိုးမျိုးကို အသုံးပြုကြသည်။ ထိုသူအားလုံးသည် Data ကိုရယူနိုင်ရမည်။
 
-#### Via FTP servers
+#### FTP ဆာဗာများမှတစ်ဆင့် 
 
-A less fashionable method for providing access to files is via the File Transfer Protocol (FTP). This may be suitable if your audience is technical, such as software developers and scientists. The FTP system works in place of HTTP, but is specifically designed to support file transfers.
+ဖိုင်များကို ရယူနိုင်သော်လး ခေည်တ်မစားသည့် နည်းလမ်းတစ်ခုမှာ File Transfer Protocol (FTP) ဖြစ်သည်။ ဤနည်းလမ်းသည် သင်၏ Data ကိုရယူမည့်သူများမှာ software developer ကဲ့သို့သော နည်းပညာသမားများနှင့် သိပ္ပံပညာရှင်များအတွက်သာ သင့်လျော်မှုရှိနိုင်သည်။ FTP စနစ်သည် HTTP ကဲ့သို့သော နေရာများ တွင်သာအလုပ်လုပ်သည်၊ သို့သော် ထိုအရာသည် ဖိုင်များ ပေးပို့ခြင်းအတွက် အထူးဒီဇိုင်းဆွထြားခြင်းဖြစ်သည်။ 
 
-FTP has fallen out of favour. Rather than providing a website, looking through an FTP server is much like looking through folders on a computer. Therefore, even though it is fit for purpose, there is far less capacity for web development firms to charge for customisation.
+FTP ကို ကိုလူကြိုက်များမှုနည်းသွာ.းပြီဖြစ်သည်။ Website ရှိမည့်အစား FTP ဆာဗာမှ တဆင့် ရှာဖွေခြင်းသည် ကွန်ပြူတာထဲမှ folder များကိုရှာဖေါခြင်းနှင့် ဆင်တူသည်။ ထို့ကြောင့် ၎င်းသည် ရည်ရွယ်ချက်နှင့် ကိုက်ညီသော်လည်း web development လုပ်ငန်းများအတွက် စိတ်ကြိုက်ဖန်တီးပေးပြီး ဈေးနှုန်းသတ်မှတ်ရန်အတွက် စွမ်းရည်နည်းပေသည်။  
 
-#### As torrents
+#### Torrent များကဲ့သို့
 
-[BitTorrent](/glossary/en/terms/bittorrent/) is a system which has become familiar to policy makers because of its association with copyright infringement. BitTorrent uses files called torrents, which work by splitting the cost of distributing files between all of the people accessing those files. Instead of servers becoming overloaded, the supply increases with the demand increases. This is the reason that this system is so successful for sharing movies. It is a wonderfully efficient way to distribute very large volumes of data.
+[BitTorrent](/glossary/en/terms/bittorrent/) သည် ၎င်း၏ မူပိုင်ခွင့် ချိုးဖောက်ခြင်းနှင့်ဆက်နွှယ်မှုကြောင့် မူဝါဒချမှတ်သူများ သတိပြုမိလာသော စနစ်တစ်ခုဖြစ်သည်။ BitTorrent သည် ဖိုင်များကို ရယူသည့်သူများထံမှ ဖြန့်ချီရေးကုန်ကျစရိတ်ကို ခွဲဝေရယူခြင်းဖြင့် အလုပ်လုပ်သော torrent ဟူသည့် ဖိုင်များကို အသုံးပြုသည်။ ဆာဗာများ overload ဖြစ်လာမည့်အစား အထောက်အပံ့ပေးမှုသည် ရယူလိုမှုမြင့်တက်လာသည်နှင့်အမျှ မြင့်တက်လာသည်။ ထို့ကြောင့်ပင်လျှင် ဤစနစ်သည် ရုပ်ရှင်များဝေမျှခြင်းဖြင့် အောင်မြင်လာသည်။ ၎င်းသည် ပမာဏကြီးမားသော Data များ ဖြန့်ချီရာတွင် အလွန်စွမ်းဆောင်ရည်ကောင်းသည့် နည်းလမ်းဖြစ်သည်။ 
 
-#### As an API
+#### API တစ်ခုကဲ့သို့
 
-Data can be published via an [Application Programming Interface](/glossary/en/terms/application-programming-interface/) (API). These interfaces have become very popular. They allow programmers to select specific portions of the data, rather than providing all of the data in bulk as a large file. APIs are typically connected to a database which is being updated in real-time. This means that making information available via an API can ensure that it is up to date.
+Data ကို [Application Programming Interface](/glossary/en/terms/application-programming-interface/) (API) ဖြင့်လည်းထုတ်ဝေနိုင်သည်။ ဤကွန်ပြူတာစနစ်သည်လည်း လူသိအလွန်များလာခဲ့သည်။ ၎င်းသည် programmer များကို Data ဖိုင်ကြီးတစ်ခုလုံးအနေဖြင့် ထောက်ပံ့ပေးမည့်အစား လိုအပ်သည့် Data ၏အစိတ်အပိုင်းအသေးစိတ်ကို ရွေးချယ်ခွင့်ပေးသည်။ API သည် များသောအားဖြင့် အချိန်နှင့်တပြေးညီ update လုပ်ပေးသော database နှင့် များသောအားဖြင့်ချိတ်ဆက်ထားသည်။ ဆိုလိုသည်မှာ API မှတဆင့် သတင်းအချက်အလက်ကို ရယူနိုင်အောင်ပြုလုပ်ခြင်းသည် အမြဲတမ်း update နေစေသည်။
 
-Publishing raw data in bulk should be the primary concern of all open data intiatives. There are a number of costs to providing an API:
+Data အကြမ်းထည်တစ်ခုလုံးကို ထုတ်ဝေရာတွင် Open Data ရှေ့ဆောင်လှုပ်ရှားမှုများကိုလည်း မူလပထမ ထည့်သွင်းစဉ်းစားသင့်သည်။ API ဖြင့်အထောက်အပံ့ပေးခြင်းကြောင့် ကုန်ကျစရိတ်အနည်းငယ်ရှိသည်။ 
 
-1.  The price. They require much more development and maintainence than providing files.
-2.  The expectations. In order to foster a community of users behind the system, it is important to provide certainty. When things go wrong, you will be expected to incur the costs of fixing them.
+1.  ဈေးနှုန်း။ ဖိုင်များအထောက်အပံ့ပေးရသည်ထက်ပို၍ တိုးတက်အောင်လုပ်ရခြင်းနှင့် ထိန်းသိမ်းစောင့်ရှောက်ရခြင်းက ပိုများသည်။ 
+2.  မျှော်လင့်ထားချက်များ။ စနစ်၏နောက်ကွယ်တွင်ရှိသော ရပ်ရွာလူထုကိုအထောက်အပံ့ပေးရန်အတွက် အရေးကြီးသည်မှာ တိကျသေချာမှုကို အထောက်အပံ့ပေးခြင်းဖြစ်သည်။ တစ်စုံတစ်ခုမှာယွင်းသွားပါက ပြင်ဆင်ရန်အတွက် ကုန်ကျစရိတ်သည် သင့်စိတ်ကို အနှောင့်အယှက်ပေးလိမ့်မည်။ 
 
-Access to bulk data ensures that:
+Data တစ်ခုလုံးကို ရယူနိုင်မှုသည် အောက်ပါအချက်များကို သေချာစေသည်။
 
--   there is no dependency on the original provider of the data, meaning that if a restructure or budget cycle changes the situation, the data are still available.
--   anyone else can obtain a copy and redistribute it. This reduces the cost of distribution away from the source agency and means that there is no single point of failure.
--   others can develop their own services using the data, because they have certainty that the data will not be taken away from them.
+-   Data ကိုမူလအထောက်အပံ့ပေးသူအပေးတွင် မှီခိုမှုမရှိပါ။ ဆိုလိုသည်မှာ ပြန်လည်တည်ဆောက်မှု သို့မဟုတ် ငွေကြေးလည်ပါတ်မှုက အခြေအနေကို ပြောင်းလဲလိုက်သော်လည်း Data ကိုရယူနိုင်ဦးမည်ဖြစ်သည်။ 
+-   မည်သူမဆို copy တစ်ခုရယူနိုင်ပြီး ပြန်လည်ဖြန့်ချိနိုင်သည်။ ထိုအရာသည် ဖြန့်ချိရေးကုန်ကျစရိတ်ကို မူလရင်းမြစ်မှ လျှော့ချနိုင်သည်၊ ဆိုလိုသည်မှာ အရှုံးမရှိပါ။
+-   အခြားသူများသည် Data ကိုအသုံးပြုပြီး ၎င်းတို့၏ကိုယ်ပိုင် ဝန်ဆောင်မှုများစတင်နိုင်သည်၊ အဘယ်ကြောင့်ဆိုသော် မည်သူကမျှ ၎င်းတို့ထံမှ Data ကိုပြန်မယူသွားနိုင်ကြောင်း သေချာနေသောကြောင့်ဖြစ်သည်။ 
 
-Providing data in bulk allows others to use the data beyond its original purposes. For example, it allows it to be converted into a new format, linked with other resources, or versioned and archived in multiple places. While the latest version of the data may be made available via an API, raw data should be made available in bulk at regular intervals.
+Data တစ်ခုလုံးကို အခြားသူများအသုံးပြုရန် ခွင့်ပြုခြင်းသည် ၎င်း၏ မူလရည်ရွယ်ချက်ထက်ပင်ကျော်လွန်ပေသည်။ ဥပမာအားဖြင့် ၎င်းသည် အခြား format အသစ်သို့ကူးပြောင်းနိုင်သည်၊ အခြားရင်းမြစ်များဖြင့် ချိတ်ဆက်နိုင်သည် သို့မဟုတ် နေရာအမြောက်အများတွင် version အမျိုးမျိုးဖြင့်သိမ်းထားနိုင်သည်။ နောက်ဆုံးပေါ် version ကို API မှတဆင့် ရယူနိုင်အောင်လုပ်သည့်အချိန်တွင် Data အကြမ်းတစ်ခုလုံးကို ပုံမှန်အတိုင်းပါဝင်အောင်လုပ်သင့်သည်။ 
 
-For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/en/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
+ဥပမာအားဖြင့် [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) သည် Data ဖိုင်ပေါင်း ၄၀၀၀ ကကျော်ကို တစ်ခုလုံး download ပြုလုပ်နိုင်အောင်ပြုလုပ်ပေးထားသည့် ဝန်ဆောင်မှုဖြစ်သည်။ တစ်ရက်တွင် ၂ကြိမ် update လုပ်ပြီး Data များကို [Tab-separated values](/glossary/en/terms/tab-separated-values/) (TSV) format ဖြင့်ပေးသည့်အပြင် download လုပ်နိုင်ရန်ဝန်ဆောင်မှု၊ Data ဖိုင်များ၏ မှတ်တမ်းလည်းပါရှိသည်။ 
 
-Another example is the [District of Columbia Data Catalog](http://opendata.dc.gov/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
+နောက်ဥပမာတစ်ခုမှာ Data များကို CSV နှင့် XLS format များအပြင် Data တိုက်ရိုက်ထုတ်လုပ်မှုများကို download လုပ်ခွင့်ပေးသည့် [District of Columbia Data Catalog](http://opendata.dc.gov/) ဖြစ်သည်။
 
-## Make data discoverable
+## Data ကိုရှာဖွေရလွယ်ကူအောင်ပြုလုပ်ပါ။
 
-[Open data](/glossary/en/terms/open-data/) is nothing without users. You need to be able to make sure that people can find the source material. This section will cover different approaches.
+[Open data](/glossary/en/terms/open-data/) ကိုအသုံးပြုသူမရှိပါက မည်သည့်အဓိပ္ပါယ်မျှမရှိချေ။ မူလရင်းမြစ်ကို အခြားသူများရှာဖွေ နိုင်အောင်လည်းပြုလုပ်ပေးရန်လိုအပ်သည်။ ဤအပိုင်းတွင် မတူညီသည့်ချည်းကပ်မှုများအကြောင်း ပြောသွားမည်။ 
 
-The most important thing is to provide a neutral space which can overcome both inter-agency politics and future budget cycles. Jurisdictional borders, whether sectorial or geographical, can make cooperation difficult. However, there are significant benefits in joining forces. The easier it is for outsiders to discover data, the faster new and useful tools will be built.
+အရေးကြီးဆုံးမှာ အေဂျင်စီများအကြားနိုင်ငံရေးနှင့် ငွေကြေးလည်ပါတ်မှုကို ဖြတ်ကျော်လာနိုင်သည့် ဓာတ်ပြယ်နေသော နေရာလွတ်တစ်ခု ထောက်ပံ့ပေးရန်ဖြစ်သည်။ ဌာနအလိုက်သော်လည်းကောင်း ပထဝီအနေအထားအရသော်လည်းကောင်း အုပ်ချုပ်ရေးနယ်နိမိတ်များသည် ပူပေါင်းဆောင်ရွက်ရန်အတွက် အခက်တွေ့စေသည်။ မည်သို့ပင်ဆိုစေ အင်အားစုများနှင့် ပူပေါင်းခြင်း ကြောင့် ကောင်းကျိုးများရှိသည်။ အပြင်လူများအနေဖြင့် Data ရှာဖွေရပိုမိုလွယ်ကူလေလေ၊ မြန်ဆန်ပြီး အသုံးတည့်သော tool အသစ်များတည်ဆောက်နိုင်လေဖြစ်သည်။ 
 
-### Existing tools
+### ရှိပြီးသား tool များ 
 
-There are a number of tools which are live on the web that are specifically designed to make data more discoverable.
+Data ရှာဖွေရပိုမိုလွယ်ကူစေရန်အတွက် အထူးဒီဇိုင်းဆွဲထားသော tool များကို web ပေါ်တွင် တိုက်ရိုက် အသုံးပြုနိုင်သည်။ 
 
-One of the most prominent is the [DataHub](http://thedatahub.org/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
+လွှမ်းမိုးမှုအရှိဆုံးတစ်ခုမှာ [DataHub](http://thedatahub.org/) ဖြစ်သည်။ ၎င်းသည် ကမ္ဘာအနှံ့မှ dataset များကို ကတ်တလောက်တွင်း ထည့်သွင်းခြင်းနှင့် Data များကို သိမ်းဆည်းထားသည်။ ဤ site သည် တစ်သီးပုဂ္ဂနှင့် အဖွဲ့အစည်းများ၏ Data ကိုထုတ်ဝေရန်နှင့် Data အသုံးပြုသူများလိုအပ်သည်များကို ရှာဖွေနိုင်အောင်ပြုလုပ်ထားသည်။ 
 
-In addition, there are dozens of specialist catalogs for different sectors and places. Many scientific communities have created a catalog system for their fields, as data are often required for publication.
+ထို့အပြင် ကဏ္ဍအလိုက်နှင့် နေရာအလိုက်အတွက် အထူးပြု ကတ်တလောက်များ ဒါဇင်နှင့် ချီ၍ရှိသည်။ သိပ္ပံနည်းကျပြုလုပ်နေသော နယ်ပယ်အမြောက်အများတွင် ထုတ်ဝေမှုပြုလုပ်ရန် Data လိုအပ်သကဲ့သို့၎င်းတို့၏နယ်ပယ်များတွင် ကတ်တလောက်စနစ်ကို ဖန်တီးပြီးဖြစ်သည်။ 
 
-### For government
+### အစိုးရအတွက် 
 
-As it has emerged, orthodox practice is for a lead agency to create a catalog for the government's data. When establishing a catalog, try to create some structure which allows many departments to easily keep their own information current.
+လူသိများလာပြီး မှန်ကန်သော အလေ့အကျင့်မှာ ထိပ်တန်း အေဂျင်စီတစ်ခုအနေဖြင့် အစိုးရ၏ Data ကို ကတ်တလောက်တစ်ခုအဖြစ်ဖန်တီးပေးရန်ဖြစ်လာသည်။ ကတ်တလောက်တစ်ခု ထုတ်လုပ်ရာတွင်လည်း ဌာနတိုင်းသည် ၎င်းတို့၏ လက်ရှိသတင်းအချက်အလက်ကိုတင်ပေးနိုင်ရန်အတွက် အချို့သောတည်ဆောက်မှုများကို ဖန်တီးရန်လိုအပ်သည်။ 
 
-Resist the urge to build the software to support the catalog from scratch. There are free and open source software solutions (such as [CKAN](http://ckan.org/)) which have been adopted by many governments already. As such, investing in another platform may not be needed.
+ကတ်တလောက်ကြီးမပျက်စီးစေရန်အတွက် software တစ်ခုရေးဆွဲရန် ဆွဲဆောင်အားပေးမှုကိုလည်း ခံနိုင်ရည်ရှိရမည်။ အစိုးရပေါင်းများစွာ အသုံးပြုနေၿ႔ီးဖြစ်သော ([CKAN](http://ckan.org/) ကဲ့သို့သော) အခမဲ့နှင့် Open Source software များဖြင့်ဖြေရှင်းနိုင်ပါသည်။ ထို့ကြောင့် အခြား platform တစ်ခုတွင်ရင်းနှီးမြှုပ်နှံရန် မလိုအပ်ချေ။ 
 
-There are a few things that most open data catalogs miss. Your programme could consider the following:
+Open Data ကတ်တလောက်များ မေ့ကျန်ခဲ့လေ့ရှိသော အရာအနည်းငယ်ရှိသည်။ သင့် program အတွက် အောက်ပါအချက်များကို ထည့်သွင်းစဉ်းစားထားသင့်သည်။
 
--   Providing an avenue to allow the private and community sectors to add their data. It may be worthwhile to think of the catalog as the region's catalog, rather than the regional government's.
--   Facilitating improvement of the data by allowing derivatives of datasets to be cataloged. For example, someone may geocode addresses and may wish to share those results with everybody. If you only allow single versions of datasets, these improvements remain hidden.
--   Be tolerant of your data appearing elsewhere. That is, content is likely to be duplicated to communities of interest. If you have river level monitoring data available, then your data may appear in a catalog for hydrologists.
--   Ensure that access is equitable. Try to avoid creating a privileged level of access for officials or tenured researchers as this will undermine community participation and engagement.
+-   ပုဂ္ဂလိကနှင့် ရပ်ရွာကဏ္ဍမှသူများ ၎င်းတို့၏ Data ကို ကိုယ်တိုင်ထည့်သွင်းနိုင်ရန် လမ်းဖွင့်ထားပေးခြင်း၊ ကတ်တလောက်ကိုလည်း ဒေသဆိုင်ရာအစိုးရ၏ ကတ်တလောက်ဟု စဉ်းစားခြင်းထက် ဤဒေသ၏ ကတ်တလောက်ဟု စဉ်းစားပါက ပို၍တန်ဖိုးရှိပေမည်။ 
+-   Data များပိုမိုတိုးတက်လာစေရန်အတွက် Dataset များ၏ ဆင့်ပွါး Data များကို ကတ်တလောက် ထည့်သွင်းခြင်း။ ဥပမာ တစ်စုံတစ်ယောက်က လိပ်စာများကို geocode ပြုလုပ်ပြီးသော်လည်း ရလဒ်ကို လူတိုင်းနှင့် ဝေမျှလိုဦးပေမည်။ Dataset များ၏ version တစ်မျိုးတည်းကိုသာ တင်ရန်ခွင့်ပြုပါက ထို Data များ၏ တိုးတက်မှုသည် ဖုံးကွယ်ခံနေရဦးပေမည်။
+-   သင်၏ Data ကို အခြားနေရာတွင်လည်း တွေ့နိုင်ပါက ခံနိုင်ရည်ရှိပါ။ ဤသည်မှာ ရပ်ရွာလူထု၏ စိတ်ဝင်စားမှုအလျောက် အကြောင်းအရာသည် ကူးယူခံရနိုင်သည်။ အကယ်၍ သင့်ထ့တွင် မြစ်ရေ အခြေအနေ စောင့်ကြည့်ထားသည့် Data ရှိပါက ထို Data သည် ရေအရင်းမြစ်ဆိုင်ရာပညာရှင်များ ကတ်တလောက်တွင်းသို့ရောက်ရှိသွားမည်။ 
+-   ရယူနိုင်မှုသည် လူတိုင်းအတွက် တန်းတူညီမျှဖြစ်ရမည်၊ အရာရှိများအတွက် သို့မဟုတ် သုတေသနပြုသူများဟု ခေါင်းစဉ်တပ်ထားသူများအတွက် အထူးရယူနိုင်မှု အဆင့်ဖန်တီးပေးခြင်းကို ရှောင်ကျဉ်ပါ၊ ထိုအရာသည် ရပ်ရွာလူထု၏ ပါဝင်မှု၊ စေ့စပ်ဆောင်ရွက်မှု 
+ကို အားလျော့စေသည်။ 
 
-### For civil society
+### အရပ်ဘက်လူမှုအဖွဲ့အစည်းအတွက်
 
-Be willing to create a supplementary catalog for non-official data.
+တရားဝင်မဟုတ်သော Data များအတွက် ဖြည့်စွက်ထားသော ကတ်တလောက်တစ်ခု ဖန်တီးပေးရန် ဆန္ဒရှိပါစေ။
 
-It is very rare for governments to associate with unofficial or non-authoritative sources. Officials have often gone to great expense to ensure that there will not be political embarrassment or other harm caused from misuse or overreliance on data.
+အစိုးရအနေဖြင့် တရားဝင်မဟုတ်သော သို့မဟုတ် အာမခံချက်မပေးနိုင်သော ရင်းမြစ်များဖြင့် ဆက်နွှယ်မှု ပြုခြင်းသည် အလွန်ရှားပါသည်။ တရားဝင်ထုတ်လုပ်မှုများသည် နိုင်ငံရေးအရ အကြည်အညို ပျက်စေနိုင်မှု သို့မဟုတ် အလွဲသုံးစားမှုကြောင့် ဆိုးကျိုးဖြစ်မှု သို့မဟုတ် Data အပေါ်အလွန်အကျွံယုံကြည်မှုတို့မဖြစ်စေရန်အတွက် ကုန်ကျစရိတ်အမြောက်အများရှိခဲ့သည်။ 
 
-Moreover, governments are unlikely to be willing to support activities that mesh their information with information from businesses. Governments are rightfully skeptical of profit motives. Therefore, an independent catalog for community groups, businesses and others may be warranted.
+ထို့အပြင် အစိုးရများသည် ၎င်းတို့၏ သတင်းအချက်အလက်နှင့် စီးပွါးရေးလောကမှ သတင်းအချက်အလက်ကို ချိတ်ဆက်မှုရှိနေသည်ကို ဖော်ပြသည့် လှုပ်ရှားမှုများကို အထောက်အပံ့ပေးလို သည့် ဆန္ဒမရှိချေ။ အစိုးရများသည် အမြတ်ရရှိမှု၏ အကြောင်းတရားဖြစ်ကြောင်း သံသယဖြစ်စရာရှိသည်။ ထို့ကြောင့် ရပ်ရွာအုပ်စုများ၊ စီးပွါးရေးလုပ်ငန်းများ၊ နှင့် အခြားအရာများအတွက် လွတ်လပ်သော ကတ်တလောက်များထားရှိရမည်။ 

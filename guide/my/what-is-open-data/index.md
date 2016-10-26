@@ -2,37 +2,37 @@
 redirect_from: /en/what-is-open-data/index.html
 section: guide
 lang: en
-title: What is Open Data?
+title: Open Data ဆိုတာဘာလဲ။
 ---
 
-This handbook is about *open data* but what exactly is it? In particular what makes *open* data open, and what sorts of data are we talking about?
+စာအုပ်က open data အကြောင်းဖြစ်ပါတယ်၊ ဒါပေမဲ့ အဲဒါက ဘာလဲ။ တိတိကျကျပြောရရင် open data ကို ဘာက open ဖြစ်စေတာလဲ။ ဘယ်လို data အမျိုးအစားကို ဆိုလိုတာလဲ။ 
 
-## What is Open?
+## ဘာက open ဖြစ်တာလဲ။ 
 
-This handbook is about open data - but what exactly is *open* data? For our purposes, open data is as defined by the [Open Definition](http://opendefinition.org/):
+ဤလက်စွဲစာအုပ်သည် Open Data အကြောင်းဖြစ်သည်၊ သို့သော် Open Data ဆိုတာ တိတိကျကျ ဘာကိုပြောတာပါလဲ။ ကျွန်ုပ်တို့၏ ရည်ရွယ်ချက်အတွက် [Open Definition](http://opendefinition.org/) မှ အဓိပ္ပါယ်ဖွင့်ဆိုထားပါသည်။ 
 
-*Open data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike.*
+*Open Data ဆိုသည်မှာ မည်သူမဆို  အကြောင်းအရာ၏ တစ်စိတ်တစ်ပိုင်းကိုဖြစ်စေ၊ အကုန်လုံးကိုဖြစ်စေ အရည်သွေးကောင်းမွန်စေရန်လိုအပ်ချက်   နှင့် sharealike တို့ကို လွတ်လပ်စွာအသုံးပြုနိုင်ခြင်း၊ ပြန်လည်အသုံးပြုနိုင်ခြင်းနှင့် ပြန်လည်ဖြန့်ဝေနိုင်ခြင်း ရှိရမည်။*
 
 The [full Open Definition](http://opendefinition.org/okd/) gives precise details as to what this means. To summarize the most important:
 
--   **Availability and Access:** the data must be available as a whole and at no more than a reasonable reproduction cost, preferably by downloading over the internet. The data must also be available in a convenient and modifiable form.
--   **Re-use and Redistribution:** the data must be provided under terms that permit re-use and redistribution including the intermixing with other datasets.
--   **Universal Participation:** everyone must be able to use, re-use and redistribute - there should be no discrimination against fields of endeavour or against persons or groups. For example, 'non-commercial' restrictions that would prevent 'commercial' use, or restrictions of use for certain purposes (e.g. only in education), are not allowed.
+-   **ရရှိနိုင်မှု နှင့် ရယူနိုင်မှု:** ပြန်လည်ထုတ်လုပ်ရန်အတွက် သင့်လျော်သော ကုန်ကျစရိတ်ဖြင့် data တစ်ခုလုံးရရှိနိုင်ရမည်။ အင်တာနက်ပေါ်မှ ဒေါင်းလုတ်ချနိုင်လျှင် ပိုကောင်းသည်။ Data သင့်လျော်မှုရှိပြီး ထပ်မံပြုပြင်ပြောင်းလဲနိုင်သော ပုံစံတွင် ရရှိနိုင်ရမည်။
+-   **ပြန်လည်အသုံးပြုခြင်း နှင့် ပြန်လည်ဖြန့်ဝေခြင်း:** Data ကို ပြန်လည်အသုံးပြုခြင်းနှင့် ပြန်လည်ဖြန့်ဝေခြင်း အခြား dataset များ နှင့်ပေါင်းစပ်ခွင့် အပါအဝင် အခြေအနေများ၊ သဘောတူညီချက်များဖြင့် ထောက်ပံ့ပေးရမည်။ 
+-   **လူတိုင်းပါဝင်နိုင်မှု:** လူတိုင်း အသုံးပြုနိုင်ခြင်း၊ ပြန်လည်အသုံးပြုနိုင်ခြင်း နှင့် ပြန်လည်ဖြန့်ဝေနိုင်ခြင်း ရှိရမည်။ လူတစ်ဦး သို့မဟုတ် အုပ်စုတစ်စု ၏ အသုံးပြုနိုင်ခွင့်ကို ခွဲခြားသတ်မှတ်ခြင်းမရှိရ။ ဥပမာ၊ စီးပွါးရေးအတွက် အသုံးမပြုရဟု တားမြစ်ခြင်းသည် စီးပွါးရေး ရည်ရွယ်ချက်ဖြင့်အသုံးပြုခြင်းကို ကန့်သတ်ထားသည်။ သို့မဟုတ် ရည်ရွယ်ချက်အချို့အတွက်သာ အသုံးပြုရန် ခွင့်ပြုခြင်း (ဥပမာ၊ ပညာရေးအတွက်သာ) ထိုတားမြစ်များထားရှိရန်ခွင့်မပြုချေ။
 
-If you're wondering why it is so important to be clear about what open means and why this definition is used, there's a simple answer: **interoperability.**
+အကယ်၍သင်သည် Open ၏ ဆိုလိုရင်းကိုရှင်းလင်းစွာ သဘောပေါက်ရန် အဘယ်ကြောင့်အရေးကြီး သနည်းနှင့် အဘယ်ကြောင့် Open ၏အဓိပ္ပါယ်ဖွင့်ဆိုချက်ကို အသုံးပြုသည်ကို သိရှိလိုပါက ရိုးရှင်းသော အဖြေမှာ **ဖလှယ်အသုံးပြုနိုင်စွမ်း** ဖြစ်သည်။
 
-Interoperability denotes the ability of diverse systems and organizations to work together (inter-operate). In this case, it is the ability to interoperate - or intermix - different datasets.
+ဖလှယ်အသုံးပြုနိုင်စွမ်း ဟူသည့် စကားလုံးသည် မတူညီသည့် စနစ်များနှင့် အဖွဲ့အစည်းများကို အလုပ်အတူတကွ လုပ်စေနိုင်စွမ်း ရှိသည်။ (ပူးပေါင်းလုပ်ဆောင်ခြင်း) ဤအခြေအနေတွင် ၎င်းသည် ပူးပေါင်းလုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် မတူညီသည့် dataset များကိုပေါင်းစပ်နိုင်စွမ်း ဖြစ်သည်။ 
 
-Interoperability is important because it allows for different components to work together. This ability to componentize and to 'plug together' components is essential to building large, complex systems. Without interoperability this becomes near impossible — as evidenced in the most famous myth of the Tower of Babel where the (in)ability to communicate (to interoperate) resulted in the complete breakdown of the tower-building effort.
+ဖလှယ်အသုံးပြုနိုင်စွမ်း သည် အရေးပါပါသည် အဘယ်ကြောင့်ဆိုသော် ၎င်းသည် မတူညီသည့်အစိတ်အပိုင်းများကို အတူအတွအလုပ်လုပ်စေနိုင်သောကြောင့်ဖြစ်သည်။ အစိတ်ပိုင်းအမျိုးမျိုးဖြစ်အောင်ခွဲထုတ်နိုင်ခြင်း၊ နှင့် အစိတ်အပိုင်းများကို အတူတကွပေါင်းစပ်ခြင်းသည် ကြီးမားပြီး ရှုထွေးသော စနစ်များတည်ဆောက်ရန်အတွက် မရှိမဖြစ်လိုအပ်သည်။ ဖလှယ်အသုံးပြုနိုင်စွမ်းမရှိပါက ဤအရာသည် မဖြစ်နိုင်ကြောင်း သက်သေသာဓက ရှိပါသည်။ ဒဏ္ဍာရီဆန်ဆန်ကျော်ကြားလှသည့် Tower of Babel သည် ပြန်ကြားဆက်သွယ်နိုင်စွမ်း (ဖလှယ်အသုံးပြုနိုင်စွမ်း) မရှိသောကြောင့် မျှော်စဉ်ကြီး တည်ဆောက်ရန်အားထုတ်မှုများ လုံးဝ ပြိုကျပျက်စီးခဲ့ရသည်။
 
-We face a similar situation with regard to data. The core of a "commons" of data (or code) is that one piece of "open" material contained therein can be freely intermixed with other "open" material. This interoperability is absolutely key to realizing the main practical benefits of "openness": the dramatically enhanced ability to combine different datasets together and thereby to develop more and better products and services (these benefits are discussed in more detail in the section on 'why' open data).
+Data နှင့် ပါတ်သက်ပြီးလည်း ထိုကဲ့သို့ဆင်တူသည့် အခြေအနေမျိုးကြုံတွေ့ရသည်။ Data ၏ အဓိကအရေးပါသော အစိတ်အပိုင်းမှာ ၎င်း၏ Open ဖြစ်သော အစိတ်အပိုင်းကို အခြား Open ဖြစ်သော Data အစိတ်အပိုင်းနှင့် လွတ်လပ်စွာ ဖလှယ်အသုံးပြုနိုင်ရမည်။ ဖလှယ်နိုင်စွမ်းသည် Open ဖြစ်မှု၏ လက်တွေ့အကျိုးကျေးဇူးဖြစ်သည်။ ၎င်းတွင် မတူညီသည့် Dataset များကို ပေါင်းစပ်ပြီး ပိုမိုကောင်းမွန်သည့်ထုန်ကုန်များနှင့် ဝန်ဆောင်မှုများကို ဖြစ်စေသည်။ (ဤအကျိုးကျေးဇူးများ အသေးစိတ်ကို ဘာကြောင့် Open Data လုပ်ရသလဲ ဆိုသည့် အပိုင်းတွင်ရှင်းပြထားသည်။)
 
-Providing a clear definition of openness ensures that when you get two open datasets from two different sources, you will be able to combine them together, and it ensures that we **avoid our own 'tower of babel': lots of datasets but little or no ability to combine them together into the larger systems where the real value lies.**
+Open ဖြစ်မှု၏ အဓိပ္ပါယ်ကိုရှင်းလင်းစွာ ရှင်းလင်းစွာဖော်ပြထားခြင်းသည် မတူညီသည့် ရင်းမြစ်နှစ်ခုမှ Dataset နှစ်ခုကို သင်ရရှိသည့်အချိန်တွင် သင့်အနေဖြင့် ပေါင်းစပ်အသုံးပြုနိုင်ပြီး **‘Towel of Babel’  မဖြစ်အောင်တည်ဆောက်ယူနိုင်မည်။ ဆိုလိုသည်မှာ Dataset အမြောက်အများရှိသောလည်း အမှန်တကယ် တန်ဖိုးရှိသည့် ပိုမိုကြီးမားသည့် စနစ်များအတွင်းသို့ထည့်သွင်းပေါင်းစပ်နိုင်စွမ်းမရှိခြင်း ဖြစ်သည်။**
 
-## What Data are You Talking About?
+## ဘယ် Data ကိုပြောချင်တာလဲ။
 
-Readers have already seen examples of the sorts of data that are or may become open - and they will see more examples below. However, it will be useful to quickly outline what sorts of data are, or could be, open -- and, equally importantly, what won't be open.
+စာဖတ်သူအနေဖြင့် Data အမျိုးအစားအမျိုးမျိုး သို့မဟုတ် Open လာခြင်းကို တွေ့မြင်ဖူးပြီးဖြစ်ပါလိမ့်မည်။ အောက်တွင်လည်း နောက်ထပ်ဥပမာများကို တွေ့နိုင်သည်။ မည်သို့ပင်ဆိုစေ မည်သည့် Data များသည် Open ဖြစ်သည် သို့မဟုတ် ဖြစ်လာနိုင်သည်၊ ထို့အတူ မည်သည့် Data များသည် Open မဖြစ်နိုင်ကြောင်း သိသာမြင်သာအောင်ပြုလုပ်ပေးပါကလည်း အသုံးတည့်နိုင်သည်။ 
 
 The key point is that when opening up data, the focus is on non-personal data, that is, data which does not contain information about specific individuals.
 
-Similarly, for some kinds of government data, national security restrictions may apply.
+အစိုးရ၏ အချို့Data များသည် နိုင်ငံတော်လုံခြုံရေးအတွက် တားမြစ်ချက်များရှိနိုင်သည်။ 
