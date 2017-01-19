@@ -202,4 +202,4 @@ Esteja apto a criar um catálogo suplementar para dados não-oficiais.
 
 É muito raro que governos se associem a fontes não-oficiais ou não-regulamentares. Funcionários públicos muitas vezes realizam grandes esforços para garantir que não haverá constrangimento político ou outros danos causados por mau uso ou uma dependência excessiva em relação aos dados.
 
-Aém disso, é pouco provável que os governos se disponham a dar suporte a atividades que fundamentam suas informações com informações de empresas. Governos são, com razão, desconfiados da motivação por lucro. Portanto, pode-se justificar um catálogo independente para grupos da comunidade, empresas e outros.
+Além disso, é pouco provável que os governos se disponham a dar suporte a atividades que fundamentam suas informações com informações de empresas. Governos são, com razão, desconfiados da motivação por lucro. Portanto, pode-se justificar um catálogo independente para grupos da comunidade, empresas e outros.
