@@ -10,7 +10,7 @@ Please see the [Contribute](http://opendatahandbook.org/contribute/) section of 
 
 ## Developers
 
-### Dependancies
+### Dependencies
 
 * [Jekyll](http://jekyllrb.com/)
 

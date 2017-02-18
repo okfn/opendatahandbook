@@ -6,7 +6,7 @@ authors:
 - Mark Wainwright
 ---
 
-In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
+In Israel, what started as an attempt to find out how much the government spent on firefighting became a much larger project, as it slowly emerged that published budget data was unintelligible, late, and – as gradually became clear – wrong. A group of coders and activists used official requests, lobbying, campaigning, and legal action to get fuller, better and more up-to-date figures. With some heavy data processing – and some crowd-sourcing – they cleaned this data and present it in a visual form, and as time went on, interactive features were added to enable citizens to explore the data in detail. As a result, proposed budgets became a significant element in the national political debate.
 
 ## Fire on the mountain
 
@@ -22,7 +22,7 @@ Using expert programming skills and with the help of an economist, the group wer
 
 Meantime, to get the proposed 2011–12 budget, they approached Michael Eitan, a minister responsible for the new government data office. Eitan was supportive and, by making an official request, was able to get the proposed budget from the MoF. It was therefore possible to present usable visualisations of both forthcoming and past budget data.
 
-Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data is is based on, and the data they had been given was incomplete and, in fact, highly misleading.
+Hasadna continued to work on the site, adding features to drill down into the budget in more detail and to compare budgets in different years.  However, they soon discovered a problem. A visualisation is only as good as the data it is based on, and the data they had been given was incomplete and, in fact, highly misleading.
 
 ![The Public Knowledge Workshop in action]({{ site.url}}/img/value-stories/Hasadna.jpg)
 
