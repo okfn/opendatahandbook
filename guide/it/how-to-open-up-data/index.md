@@ -21,12 +21,11 @@ Ci sono tre regole fondamentali che si consiglia di seguire nell'apertura dei da
 
 Ci sono quattro passi principali per rendere i dati aperti, saranno tutte affrontate in dettaglio di seguito. Le abbiamo elencate in un ordine molto approssimativo - molti passi possono essere fatti contemporaneamente.
 
-1.  *\* Scegliere i dataset.*\* Scegliere ciò che si intende rendere aperto, ricordando che si può (ovvero potrebbe essere necessario), rivedere questo passaggio se si incontrano problemi nelle fasi successive.
-2.  *\* Utilizzare una licenza open .*\*
+1.  ** Scegliere i dataset.** Scegliere ciò che si intende rendere aperto, ricordando che si può (ovvero potrebbe essere necessario), rivedere questo passaggio se si incontrano problemi nelle fasi successive.
+2.  ** Utilizzare una licenza open .**
     1.  Determinare quali sono i diritti di proprietà intellettuale che insistono sui dati.
-
-> 2.  Applicare una adeguata licenza 'open' che copra tutti i diritti identificati, compatibile con la definizione di apertura discussa nella precedente sezione 'Cosa è Open Data'
-> 3.  NB: se ciò non è possibile, si ritorni al punto 1 e riprovare con una banca dati diversa.
+    2.  Applicare una adeguata licenza 'open' che copra tutti i diritti identificati, compatibile con la definizione di apertura discussa nella precedente sezione 'Cosa è Open Data'
+    3.  NB: se ciò non è possibile, si ritorni al punto 1 e riprovare con una banca dati diversa.
 
 3.  **Rendere i dati disponibili** - in gran quantità e in un formato utile. Si possono prendere in considerazione anche metodi alternativi come la distribuzione attraverso API.
 4.  **Renderlo disponibile** - pubblicare sul Web e forse organizzando un catalogo centrale dove elencare l'insieme dei dati aperti.
@@ -57,7 +56,7 @@ E' consigliabile in primo luogo consultare la comunità. I soggetti che accedera
 
 Quanti soldi spendono le agenzie per la raccolta e manutenzione dei dati in loro possesso? Se passano molto tempo su un particolare insieme di dati, allora è molto probabile che altri utenti vorrebbero accedervi.
 
-Questo discorso potrebbe certo suscitare timori di freeriding. La domanda cui bisogna rispondere è: "Perché consentire ad altri di ottenere nere gratuita ente informa tanto costose?". La risposta è che questo costo viene già sopportato dal settore pubblico, nello svolgimento di una funzione particolare. E il costo di trasmettere i dati a terzi, dopo averli raccolti, è all'incirca nullo. Perciò, non si dovrebbe esigere nulla.
+Questo discorso potrebbe certo suscitare timori di freeriding. La domanda cui bisogna rispondere è: "Perché consentire ad altri di ottenere gratuitamente informazioni tanto costose?". La risposta è che questo costo viene già sopportato dal settore pubblico, nello svolgimento di una funzione particolare. E il costo di trasmettere i dati a terzi, dopo averli raccolti, è all'incirca nullo. Perciò, non si dovrebbe esigere nulla.
 
 ### Facilità di rilascio
 
@@ -71,7 +70,7 @@ Open data è un movimento in crescita. Probabilmente nella vostra zona molte per
 
 ## Applicare una licenza aperta (apertura giuridica)
 
-Nella maggior parte delle legislazioni nazionali ci sono diritti di proprietà intellettuale dei dati che impediscono a terzi l'uso, il riutilizzo e la ridistribuzione dei dati senza un'autorizzazione esplicita. Anche nei casi in cui l'esistenza di diritti è incerta, è importante applicare una licenza per motivi di chiarezza. Così, *\* se stai progettando di rendere i tuoi dati disponibili, dovresti mettere una licenza su di essi*\* - e se volete che i vostri dati siano aperti\_ questo è ancora più importante.
+Nella maggior parte delle legislazioni nazionali ci sono diritti di proprietà intellettuale dei dati che impediscono a terzi l'uso, il riutilizzo e la ridistribuzione dei dati senza un'autorizzazione esplicita. Anche nei casi in cui l'esistenza di diritti è incerta, è importante applicare una licenza per motivi di chiarezza. Così, ** se stai progettando di rendere i tuoi dati disponibili, dovresti mettere una licenza su di essi** - e se volete che i vostri dati siano [aperti](http://opendefinition.org/) questo è ancora più importante.
 
 Quali licenze usare? Per i dati aperti consigliamo una licenza che sia compatibile con la Open Definition e che sia applicabile ai dati. Una lista (con le relative istruzioni per l'uso) si può trovare presso:
 
@@ -83,7 +82,7 @@ Una breve guida in inglese (una pagina) su come applicare una licenza Open Data 
 
 ## Rendere i dati disponibili (Aspetti Tecnici)
 
-Gli [Open data](/glossary/it/terms/open-data/) devono essere aperti, sia dal punto di vista tecnico che da quello legale. In particolare i dati devono essere disponibili in grande quantità in un formato {term:machine-readable}.
+Gli [Open data](/glossary/it/terms/open-data/) devono essere aperti, sia dal punto di vista tecnico che da quello legale. In particolare i dati devono essere disponibili in grande quantità in un formato [machine-readable](/glossary/it/terms/machine-readable/).
 
 **Available**
 
