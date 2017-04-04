@@ -1,37 +1,37 @@
 ---
 redirect_from: /en/events/index.html
 section: guide
-lang: en
-title: Making Data Social
+lang: my
+title: Data များကို လူထုနှင့်ပိုမိုနီးစပ်အောင်ပြုလုပ်ခြင်း
 ---
 
-## In case you need some ideas to gather your local community, an event is a great way to do so. Throughout the years, the  Open Knowledge International Network have developed a bunch of different events around open data and open knowledge. Some of these are in person events organized by the community, some are events that staff or communities attend and others are online events. In this section we will cover how to create these different types of events. Help us to improve this section by adding content to it using Github!
+## ရပ်ရွာလူထုပါစုစုစည်းစည်းပါဝင်လာရန် စိတ်ဆန္ဒရှိပါက တွေ့ဆုံပွဲတစ်ခုပြုလုပ်ခြင်းသည်အကောင်းဆုံးနည်းလမ်းတစ်ခုဖြစ်သည်။ နှစ်ပေါင်းများစွာအတွင်း Open Knowledge International Network သည် open data နှင့် open knowledge နှင့်ဆက်စပ်သော တွေ့ဆုံမှုများစွာကို ကျင်းပခဲ့သည်။ ထိုထဲမှ အချို့မှာ ရပ်ရွာအတွင်းမှ လူထုကိုယ်တိုင်စီစဥ်သည့် လူကိုယ်တိုင်တက်ရောက်နိုင်သည့် ပွဲများဖြစ်ပြီး အချို့မှာ ဝန်ထမ်းများ သို့မဟုတ် လူထုကိုယ်တိုင်တက်ရောက်နိုင်သည်နှင့် အချို့မှာ online ပေါ်မှတွေ့ဆုံပွဲမျာဖြစ်သည်။ ဤအပိုင်းတွင် ထိုကဲ့သို့ တွေ့ဆုံမှုအမျိုးမျိုးကို မည်ကဲ့သို့ ပြုလုပ်နိုင်သည်ကို ရှင်းပြထားသည်။ ဤကဏ္ဌပါအကြောင်းအရာများတိုးတက်လာရန်အတွက် သင့်အနေဖြင့် Github ကိုအသုံးပြုပြီး ကူညီနိုင်ပါသည်။
 
-### Introduction
+### မိတ်ဆက်
 
-Open Knowledge Events are important for the community. Some of the opportunities include: focus attention, gather audience around specific topics and represent both the public face of the organization and its multiple projects. It is a way to help data enthusiasts meet face to face to work and learn together.
+Open Knowledge နှင့်ဆက်စပ်သော တွေ့ဆုံပွဲများသည် ရပ်ရွာအတွက်အရေးကြီးသည်။ ပါဝင်သည့်အခွင့်အရေးအချို့မှာ ရှင်းလင်းသောအာရုံစိုက်မှု၊ အကြောင်းအရာ ခေါင်းစဥ်တစ်ခုခုနှင့် ပတ်သက်၍ ပရိသတ်များရရှိခြင်းနှင့် အဖွဲ့အစည်းနှင့် ၎င်း၏ စီမံကိန်းအမျိုးမျိုးမှာ လူထုကိုယ်စားပြုလာနိုင်ခြင်း တို့ဖြစ်သည်။ ဤသည်မှာ data နှင့်ပတ်သက်၍ အလုပ်လုပ်ကိုင်နေကြသူများ စိတ်ဝင်စားသူများကို မျက်နှာချင်းဆိုင်တွေ့ဆုံခွင့် အပြန်အလှန်သင်ယူခွင့် ရရှိအောင်ကူညီပေးခြင်းလည်းဖြစ်သည်။
 
-#### Why organize an Open Knowledge event?
+#### Open Knowledge နှင့်ဆက်စပ်သောတွေ့ဆုံပွဲများ ဘာကြောင့်ကျင်းပရမှာလဲ။
 
-While most of the network activities takes place in the virtual realm, most of the human interaction is still relying on face to face interactions. Having event helps you to grow your local community and stay connected to one another.
-When face to face events are not possible, virtual events can help you to boost the community, and to make sure the group is staying connected.
+ကွန်ယက်ချိတ်ဆက်ခြင်းအတွက် လုပ်ဆောင်ချက်အများစုမှာ ပုံရိပ်ယောင်များအနေဖြင့်အများဆုံးပြုလုပ်နေသော်လည်း လူသားများ၏ ဆက်သွယ်ဆောင်ရွက်မှုအတွက် မျက်နှာချင်းဆိုင်ဆက်သွယ်မှုအပေါ်တွင် အများဆုံးမှီခိုနေရဆဲဖြစ်သည်။ တွေ့ဆုံပွဲများပြုလုပ်ခြင်းဖြင့် ရပ်ရွာလူထုထံပိုမိုရောက်ရှိစေနိုင်ပြီး တစ်ဦးနှင့်တစ်ဦး ချိတ်ဆက်မှုကိုအမြဲရှိစေသည်။
+မျက်နှာချင်းဆိုင်တွေ့ဆုံမှုများ ပြုလုပ်ရန်မဖြစ်နိုင်သေးသည့်အချိန်တွင် ပုံရိပ်ယောင်များဖြင့်တွေ့ဆုံခြင်းသည် ရပ်ရွာလူထူ၏ ပါဝင်မှုကို အားမပြတ်စေပဲ အချိတ်အဆက်အမြဲရှိစေသည်။
 
-#### What are the golden rules for an event?
+#### တွေ့ဆုံပွဲတစ်ခုအတွက် ရွှေစည်းမျဥ်းတွေကဘာတွေလဲ။
 
-As a start an event need to be true to [Open Knowledge values](https://okfn.org/about/vision-and-values/). This means that the event has to be in an open and inclusive environment that will make all participants from civil society to government, feel comfortable in the settings of the event.
-In addition your event should focus on results. These results can be varied, and should fit your local needs. From strengthening a local community to igniting a common passion about open data through talks and meetings, to writing a document together or to set up a workshop. In any case, before planning anything, you should ask yourself (and your co-orginisers) what you want your event’s outcome to be, and communicate it clearly. Your event will have a greater impact when you have a firm idea of what results you hope to inspire!
+ပထမဦးစွာ တွေ့ဆုံပွဲတစ်ခုသည် [Open Knowledge တန်ဖိုးများ](https://okfn.org/about/vision-and-values/)နှင့်ကိုက်ညီမှုရှိရမည်။ ဆိုလိုသည်မှာ ထိုတွေ့ဆုံပွဲသည် အရပ်ဘက်လူမှုအဖွဲ့အစည်းများမှ အစိုးရအထိ ပွင့်လင်းပြီး အားလုံးပါဝင်နိုင်သည့် ပတ်ဝန်းကျင်အနေအထားမျိုးဖြစ်ရမည်။
+ထို့အပြင်တွေ့ဆုံမှုသည် ရလဒ်အပေါ်တွင်အာရုံစိုက်သင့်သည်။ ထိုရလဒ်များသည် အမျိုးမျိုးကွဲပြားနိုင်ပြီး ရပ်ရွာလိုအပ်ချက်များနှင့်လည်း ကိုက်ညီမှုရှိရမည်။ ဟောပြောပွဲများ အစည်းဝေးပွဲများမှ ဘုံတူညီစိတ်အားထက်သန်မှုကိုမွေးဖွားပေးခြင်း၊ စာတမ်းများအတူတကွရေးသားခြင်း သို့မဟုတ် အလုပ်ရုံဆွေးနွေးပွဲများပြုလုပ်ခြင်းဖြင့် ရပ်ရွာလူထုကို အားကောင်းအောင်ပြုလုပ်ပေးနိုင်သည်။ မည်သည့်အခြေအနေတွင်မဆို အစီအစဥ်များမဆွဲမီ ကိုယ့်ကိုကိုယ် (နှင့် ပူးပေါင်းစီစဥ်သူများကို)မည်သည်မှာ တွေ့ဆုံမှု၏ရလဒ်ဖြစ်သနည်းဟု မေးရန်လိုအပ်ပြီး ရှင်းလင်းစွာပြန်ကြားဆက်သွယ်မှုပြုလုပ်ထားရန်လည်း လိုအပ်ပါသည်။ မည်သည့်ရလဒ်ကိုလိုချင်သည်ဟု ရှင်းလင်းခိုင်မာစွာသိရှိထားပါက တွေ့ဆုံမှု၏ အကျိုးသက်ရောက်မှုသည်လည်း ကြီးမားပေမည်။
 
-#### Prep your social media
-Social media is a good tool not only to promote and event, but also to document the event itself.
+#### လူမှုမီဒီယာအတွက် ပြင်ဆင်ခြင်း
+လူမှုမီဒီယာသည် တွေ့ဆုံပွဲကို လူသိများအောင်ပြုလုပ်ရန်အတွက်သာမဟုတ်ပဲ ယင်းကိုယ်တိုင်ပင် တွေ့ဆုံမှုကို မှတ်တမ်းပြုစုထားခြင်းဖြစ်သည်။
 
-#### Promoting
-* Open a facebook page for the event.
-* Use tools like [attending.io](https://attending.io) or [eventbrite](http://eventbrite.com) to keep information and registration for the event.
-* Create a hashtag for your event and tweet about it from your group twitter account
-* Blog about the event and publish it with other organizations in your area that can help you reach the crowd you are looking for.
-* If you have time, create a video to promote the event
+#### လူသိများအောင်ပြုလုပ်ခြင်း
+* တွေ့ဆုံမှုအတွက် facebook page တစ်ခုပြုလုပ်ပါ။
+* [attending.io](https://attending.io) သို့မဟုတ် [eventbrite](http://eventbrite.com) ကိုအသုံးပြုပြီး တွေ့ဆုံပွဲ၏ သတင်းအချက်အလက်နှင့် တက်ရောက်သူများ မှတ်ပုံတင်မှုကို သိမ်းဆည်းပါ။
+* သင်၏ အဖွဲ့အစည်း twitter account မှ တွေ့ဆုံပွဲအတွက် hashtag တစ်ခုဖန်တီးပြီး tweet လုပ်ပါ။
+* တွေ့ဆုံပွဲအတွက် Blog ရေးသားပြီး သင်ရှာဖွေနေသော ပရိသတ်ထံသို့ ကူညီရောက်ရှိနိုင်သည့် အခြားအဖွဲ့အစည်းများတွင်လည်းထုတ်ဝေပါ။
+* အချိန်ရှိပါက ဗီဒီယိုတစ်ခုဖန်တီးပြီး တွေ့ဆုံပွဲကြောင်းလူသိများလာအောင်းပြုလုပ်ပါ။
 
-#### Documenting
+#### မှတ်တမ်းပြုစုခြင်း
 
 * Ask participants to use the hashtag to help and gather important insights during the events.
 * Take picture and upload them to Flickr.
