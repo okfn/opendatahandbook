@@ -1,30 +1,30 @@
 ---
 redirect_from: /en/appendices/index.html
 section: guide
-lang: en
-title: What Legal (IP) Rights Are There in Data(bases)
+lang: my
+title: မည်သည့် တရားဝင် အခွင့်အရေးများ Data(bases) တွင်ရှိသနည်း။
 ---
 
-When talking about data(bases) we first need to distinguish between the structure and the content of a database (when we use the term 'data' we shall mean the content of the database itself). Structural elements include things like the field names and a model for the data – the organization of these fields and their inter-relation.
+Data(bases) များအကြောင်းကိုပြောရာတွင် ပထမဦးစွာ ဖွဲ့စည်းတည်ဆောက်ပုံနှင့် database တစ်ခုတွင်ပါဝင်သည့်အကြောင်းအရာများကို ပြောရန်လိုအပ်သည်။ ('data' ဟုပြောရာတွင် database တွင်ပါဝင်သည့်အကြောင်းအရာကိုဆိုလိုခြင်းဖြစ်သည်) စနစ်တကျဖွဲ့စည်းထားသော အစိတ်အပိုင်းများတွင် အကွက်များ၏ အမည်နှင့် ထိုအကွက်များကို စုစည်းထားသော အစုအစည်းနှင့် သူတို့၏ ချိတ်ဆက်ပတ်သက်မှုဖြစ်သော data ၏ ပုံစံပါဝင်သည်။
 
-In many jurisdictions it is likely that the structural elements of a database will be covered by copyright (it depends somewhat on the level of 'creativity' involved in creating this structure).
+တရားဝင်ဆုံးဖြတ်ချက်များတွင် database တစ်ခု၏ စနစ်တကျဖွဲ့စည်းထားသော အစိတ်အပိုင်းများကို မူပိုင်ခွင့်မှအကာအကွယ်ပေးသည်။ (ထိုအရာသည် ထိုတည်ဆောက်မှုပုံစံကို ဖန်တီးရာတွင် ပါဝင်သည့် စိတ်ကူးစိတ်သန်း အဆင့်တစ်ခုခုအပေါ်တွင်မူတည်သည်)
 
-However, here we are particularly interested in the data. When we talk of "data" we need to be a bit careful because the word isn't particularly precise: "data" can mean a few items or even a single item (for example a single bibliographic record, a lat/long etc) or "data" can mean a large collection (e.g. all the material in the database). To avoid confusion we shall reserve the term "content" to mean the individual items, and data to denote the collection.
+မည်သို့ပင်ဆိုစေ ဤအခြေအနေတွင် data တွင်သာ အထူးတလှယ်စိတ်ဝင်စားသည်။ "data" ဟုဆိုရာတွင် အနည်းငယ် ဂရုတစိုက်ပြောဆိုသင့်သည် အဘယ်ကြောင့်ဆိုသော် ထိုစကားလုံးသည် အထူးတလှယ် အတိအကျဆိုထားခြင်း မဟုတ်သောကြောင့်ဖြစ်သည် "data" ဟူသည့်စကားလုံးကပင် အမျိုးအမည်အချို့ သို့မဟုတ် အမျိုးအမည်တစ်ခုတည်းကိုသာ ဆိုလိုနိုင်သည်။ (ဥပမာအားဖြင့် ရည်ညွှန်းကိုးကားစာရင်းတစ်ခု၊ လတ္တီကျု/လောင်တီကျု စသည်ဖြင့်) သို့မဟုတ် "data" သည် အလွန်ကြီးမားသည့် စုစည်းမှုတစ်ခုလည်းဖြစ်နိုင်သည်။ (ဥပမာ database တစ်ခုထဲတွင်ပါဝင်သည့်အရာအားလုံး) ရှုပ်ထွေးမှုများမဖြစ်ပေါ်စေရန်အတွက် အမျိုးအမည်တစ်ခုကို "ပါဝင်သည့်အကြောင်းအရာ" နှင့် စုစည်းမှု အစုအဝေးတစ်ခုကို data ဟုခေါ်ဆိုမည်။
 
-Unlike for material such as text, music or film, the legal situation for data varies widely across countries. However, most jurisdictions **do** grant some rights in the data (as a collection).
+စာသား၊ ဂီတ သို့မဟုတ် ရုပ်ရှင်ဆိုင်ရာများနှင့် မတူညီသည်မှာ data အတွက် တရားဥပဒေဆိုင်ရာ အခြေအနေသည် နိုင်ငံအလိုက် ကွဲပြးမှုရှိသည်။ မည်သို့ပင်ဆိုစေ တရားဝင်ဆုံးဖြတ်ချက်အချို့တွင် (စုစည်းမှုတစ်ခုအဖြစ်ရှိနေသည့်) data အတွင်းတွင်ရှိသော အခွင့်အရေးအချို့အတွက် **သေချာပေါက်** အာမခံချက်ပေးသည်။
 
-This distinction between the "content" of a database and the collection is especially crucial for factual databases since no jurisdiction grants a monopoly right over the individual facts (the "content"), even though it may grant right(s) in them as a collection. To illustrate, consider the simple example of a database which lists the melting point of various substances. While the database as a whole might be protected by law so that one is not allow to access, re-use or redistribute it without permission, this would never prevent you from stating the fact that substance Y melts at temperature Z.
+Database တွင် "ပါဝင်သည့်အကြောင်းအရာ" နှင့် စုစည်းမှုတစ်ခုအကြားကွာခြားချက်မှာ သီးခြားအချက်အလက်များအတွက် မိုနိုပိုလီအခွင့်အရေးများကို တရားဝင်ဆုံးဖြတ်ထားခြင်းမရှိသောကြောင့် အချက်အလက်ကိုအခြေခံသည့် database များအတွက် အထူးတလှယ်အရေးပါသည်။ ပုံဖော်ပြရသော် အရာဝတ္ထုတစ်ခုချင်းစီ၏အရည်ပျော်မှတ်ကို စာရင်းပြုစုထားသော database တစ်ခုကို ရိုးရှင်းသည့် ဥပမာတစ်ခုအနေဖြင့်စဥ်းစားကြည့်ပါ။ ဥပဒေကြောင်းအရ database တစ်ခုလုံးကို ရယူခြင်း၊  ပြန်လည်သုံးစွဲခြင်း သို့မဟုတ် ခွင့်ပြုချက်မပါပဲ ပြန်လည်ဖြန့်ဝေခြင်းမရှိစေရန်အကာအကွယ်ပေးထားသော်လည်း ထိုအရာသည် သင်အနေဖြင့် အရာဝတ္ထု Y သည် အပူချိန် Z ၌အရည်ပျော်သည်ဟူသည့်အချက်ကို ပြောဆိုခြင်းမှ မတားဆီးနိုင်ပေ။
 
-Forms of protection fall broadly into two cases:
+အကာအကွယ်ပေးမှုပုံစံကို အကျယ်အားဖြင့်နှစ်ပိုင်းခွဲနိုင်သည်။
 
--   Copyright for compilations
--   A *sui generis* right for collections of data
+- သတင်းအချက်အလက်များ စုဆည်း စုဆောင်းခြင်းအတွက် မူပိုင်ခွင့်။
+- Data စုဆောင်းခြင်းအတွက် *sui generis* အခွင့်အရေး။
 
-As we have already emphasized, there are no general rules and the situation varies by jurisdiction. Thus we proceed country by country detailing which (if any) of these approaches is used in a particular jurisdiction.
+ကျွန်ုပ်တို့အထူးပြုခဲ့ပြီးသလိုပင် ယေဘုယျစည်းမျဥ်းဟူ၍ မရှိဘဲ အခြေအနေများသည် တရားဝင်အဆုံးအဖြတ်များအပေါ်တွင် မူတည်၍ကွဲပြားနိုင်သည်။ ထို့ကြောင့် ကျွန်ုပ်တို့သည် ဤသည်များထဲမှ မည်သည့်ချဥ်းကပ်နည်းကို တရားဝင်အဆုံးအဖြတ်အတွက် အသုံးပြုခြင်းဖြစ်သည်ဟု တစ်နိုင်ငံပြီး တစ်နိုင်ငံ အသေးစိတ်ချဥ်းကပ််ခြင်းနည်းကိုလုပ်ဆောင်ခြင်းဖြစ်သည်။
 
-Finally, we should point out that in the absence of any legal protection, many providers of (closed) databases are able to use a simple contract combined with legal provisions prohibiting violation of access-control mechanisms to achieve results similar to a formal IP right. For example, if X is a provider of a citation database, it can achieve any set of terms of conditions it wants simply by:
+နောက်ဆုံးအနေဖြင့် တရားဥပဒေကြောင်းအရ အကာအကွယ်ပေးမှုမရှိခြင်းသည် (closed) databases များထောက်ပံ့ပေးနေသူများ ရိုးရှင်းသည့် စာချုပ်တစ်ခုကို ရလဒ်ဆင်တူသည့် မူလ IP အခွင့်အရေး ရနိုင်မှုကိုထိန်းချုပ်သည့်ယန္တရားကိုချိုးဖောက်ခြင်းမှ ဥပဒေကြောင်းအရကာကွယ် ပေးသည်။ ဥပမာအားဖြင့် အကယ်၍ X သည် ဥပမာ database တစ်ခုကိုထောက်ပံ့ပေးသူဖြစ်ပါက ထိုအရာသည် အောက်ပါ အခြေခံသဘောတူညီချက်နှင့်မဆို ရရှိအောင်မြင်နိုင်သည်။
 
-(a) Requiring users to login with a password
-(b) Only providing a user with an account and password on the condition that the user agrees to the terms and conditions
+(က) အသုံးပြုသူများ စကားဝှက်တစ်ခုနှင့် login လုပ်ရန်လိုအပ်ခြင်း။
+(ခ) အသုံးပြုသူက အခြေခံသဘောတူညီချက်နှင့် အခြေအနေများကို သဘောတူမှသာ account နှင့် password တစ်ခုပေးခြင်း။
 
-You can read more about the jurisdiction by jurisdiction situation in the [Guide to Open Data Licensing](http://opendefinition.org/guide/data/).
+သင့်အနေဖြင့် တရားဝင်ဆုံးဖြတ်ချက်ချခြင်းနှင့် တရားဝင်ဆုံးဖြတ်ချက်ချသည့် အခြေအနေများကို ပိုမိုသိရှိလိုပါက [Guide to Open Data Licensing](http://opendefinition.org/guide/data/) တွင်ဖတ်ရှုနိုင်သည်။

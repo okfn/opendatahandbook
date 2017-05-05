@@ -1,96 +1,97 @@
 ---
 redirect_from: /en/appendices/index.html
 section: guide
-lang: en
-title: File Formats
+lang: my
+title: ဖိုင်အမျိုးအစားများ
 ---
 
-## An Overview of File Formats
+## ဖိုင်အမျိုးအစားများ လေ့လာခြင်း
 
 ### JSON
 
-JSON is a simple file format that is very easy for any programming language to read. Its simplicity means that it is generally easier for computers to process than others, such as XML.
+JSON သည် မည်သည့် programming ဘာသာစကားဖြင့်မဆို လွယ်ကူစွာဖတ်နိုင်သည်။ ၎င်း၏ ရိုးရှင်းမှုမှာ ကွန်ပြူတာများအတွက် ယေဘုယျအားဖြင့် အခြား အမျိုးအစားများထက် ဥပမာ XML ထက်လုပ်ဆောင်ရန်လွယ်ကူသည်။
 
 ### XML
 
-XML is a widely used format for data exchange because it gives good opportunities to keep the structure in the data and the way files are built on, and allows developers to write parts of the documentation in with the data without interfering with the reading of them.
+XML သည် data များ လွှဲပြောင်းအသုံးပြုရန်အတွက်အသုံးပြုသည် အဘယ်ကြောင့်ဆိုသော် data များကို တည်ဆောက်ထားသည့် နည်းလမ်းအတိုင်း ပြန်လည်ရရှိနိုင်သည့် အခွင့်အရေးကိုပေးသောကြောင့်ဖြစ်ပြီး data များကိုဖတ်ရာတွင် ဝင်ရောက်နှောင့်ယှက်မှုမရှိပဲ developers များကို documentation ၏အစိတ်အပိုင်းများတွင် ရေးရန်အတွက် အခွင့်အရေးပေးသည်။
 
 ### RDF
 
-A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be stored in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides a convenient way to directly interconnect existing [open data](/glossary/en/terms/open-data/) initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a [fivesstar](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/) scheme that includes linked RDF data as a goal to be sought for open data initiatives.
+W3C အသုံးပြုခွင့်ပေးထားသော RDF format သည် data များကို မတူညီသည့် အရင်းမြစ်ပေါင်းများစွာမှ လွယ်ကူစွာ ကိုယ်စားပြုနိုင်ခွင့်ပေးသည်။ RDF data များကို အခြား အစီအသတ်မှတ်နိုင်သည့် format များထဲမှ XML နှင့် JSON အဖြစ်လည်း သိမ်းဆည်းနိုင်သည်။ RDF သည် URLs များကို အမျိုးအမည်ခွဲခြားသတ်မှတ်ရန်အတွက် အသုံးပြုနိုင်ရန်အားပေးပြီး ရှိပြီးသား ရှိပြီးသား Web များ [open data](/glossary/en/terms/open-data/) နှင့်တိုက်ရိုက်ချိတ်ဆက်ရန် အဆင်ပြေသည်။ RDF ကိုကျယ်ကျယ်ပြန့်ပြန့်အသုံးပြုမှုမရှိသော်လည်း ဗြိတိန်နှင့် စပိန်အစိုးရများ၏ ပူးပေါင်း Open Data စီမံကိန်းများအပါအဝင် Open Government initiatives များတွင် ကျယ်ပြန့်စွာအသုံးပြုခဲ့ပြီးဖြစ်သည်။ Web တည်ထောင်သူ Tim Berners-Lee ၏ [fivesstar](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/) ပုံစံတွင် ချိတ်ဆက်ထားသော RDF data များကို open data initiatives များရှာဖွေရယူနိုင်သည့် ပန်းတိုင်အဖြစ်ဖော်ပြခဲ့သည်။  
+
 
 ### Spreadsheets
 
-Many authorities have information left in the spreadsheet, for example Microsoft Excel. This data can often be used immediately with the correct descriptions of what the different columns mean.
+အာဏာပိုင်းအမြောက်အများသည် သတင်းအချက်အလက်များကို Microsoft Excel ကဲ့သို့သော spreadsheet များတွင်ချန်ထားခဲ့သည်။ ထို data များကို မတူညီသည့် column တစ်ခုချင်းစီက ဘာကိုဆိုလိုသည်ကို မှန်မှန်ကန်ကန်ဖော်ပြခြင်းဖြင့် ချက်ချင်း အသုံးပြုနိုင်သည်။
 
-However, in some cases there can be macros and formulas in spreadsheets, which may be somewhat more cumbersome to handle. It is therefore advisable to document such calculations next to the spreadsheet, since it is generally more accessible for users to read.
+မည်သို့ပင်ဆိုစေ အချို့ အခြေအနေများတွင် spreadsheets အတွင်းရှိ macros နှင့် formulas များကြောင့် အသုံးပြုရန် အခက်အခဲအချို့ရှိနိုင်သည်။ ထို့ကြောင့်ပင် ထိုကဲ့သို့တွက်ချက်မှုများကို spreadsheet ၏ဘေးတွင် တွက်ချက်ရန်အကြံပေးပြီး ယေဘုယျအားဖြင့် အသုံးပြုသူများလွယ်လွယ်ကူကူ ဖတ်ရှုနိုင်သောကြောင့်ဖြစ်သည်။
 
-### Comma Separated Files
+## Comma Separated Files
 
-CSV files can be a very useful format because it is compact and thus suitable to transfer large sets of data with the same structure. However, the format is so spartan that data are often useless without documentation since it can be almost impossible to guess the significance of the different columns. It is therefore particularly important for the comma-separated formats that documentation of the individual fields are accurate.
+CSV ဖိုင်များသည် သိပ်သိပ်သည်းသည်းရှိသောကြောင့် အလွန်အသုံးဝင်သည့် format ဖြစ်သည်။ ထို့ကြောင့်ပင်လျှင် တည်ဆောက်ထားပုံတူညီသည့် data အစိတ်အပိုင်းကြီးများကို လွှဲပြောင်းအသုံးပြုရန် သင့်လျှော်သည်။ မည်သို့ပင်ဆိုစေ format သည် အလွယ်တကူနားလည်နိုင်သည့် ပုံစံမဟုတ်သောကြောင့် မှတ်တမ်းပြုစုထားခြင်းမရှိလျှင် column တစ်ခုချင်းစီ၏ ကွဲပြားခြားနားမှုကို ခန့်မှန်းရန်မဖြစ်နိုင်ချေ။ ထို့ကြောင့် comma-separated formats များအတွက် မတူညီသည့် field တစ်ခုချင်းစီကို သေချာရန်အတွက် မှတ်တမ်းပြုစုထားရန်အရေးကြီးသည်။
 
-Furthermore it is essential that the structure of the file is respected, as a single omission of a field may disturb the reading of all remaining data in the file without any real opportunity to rectify it, because it cannot be determined how the remaining data should be interpreted.
+ထို့အပြင် ဖိုင်၏ဖွဲ့စည်းတည်ဆောက်ပုံသည် အစီစဥ်တကျရှိရန်လိုအပ်သည်၊ field တစ်ခုလွတ်နေခြင်းသည် ကျန်ရှိနေသော data များကို ဆက်လက်ဖတ်ရှုံရန်အတွက် အနှေင့်အယှက်ဖြစ်ပေလိမ့်မည်။ အဘယ်ကြောင့်ဆိုသော် ကျန်ရှိနေသေးသော data များကို မည်ကဲ့သို့ပြောင်းလဲနိုင်မည်ကို မသိနိုင်သောကြောင့်ဖြစ်သည်။  
 
 ### Text Document
 
-Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient to show certain kinds of data - for example, relatively stable mailing lists or equivalent. It may be cheap to exhibit in, as often it is the format the data is born in. The format gives no support to keep the structure consistent, which often means that it is difficult to enter data by automated means. Be sure to use templates as the basis of documents that will display data for re-use, so it is at least possible to pull information out of documents.
+ဂန္တဝင်မြောက် document format ဖြစ်သော Word, ODF, OOXML, သို့မဟုတ် PDF များသည် အချို့အခြေအနေများတွင် data များကို ပြသရန်လုံလောက်ပေလိမ့်မည်၊ ဥပမာအားဖြင့် အထိုက်အလျောက် ပုံသေတစ်သတ်မှတ်တည်းရှိသော mailing list များ သို့မဟုတ် ထိုအရာနှင့်ဆင်တူသည့်အရာများ။ များသောအားဖြင့် data များကို ထို format များပေါ်တွင် ပြုလုပ်သောကြောင့် ပြသသည့်အခါအတွက် စိတ်တိုင်းမကျနိုင်ပေ။ ထို format သည် တည်ဆောက်သည့်ပုံစံကို တစ်သတ်မှတ်တည်း ဖြစ်အောင်မလုပ်ပေးနိုင်ချေ၊ ဆိုလိုသည်မှာ data များကိုဖြည်သွင်းရာတွင် အလိုအလျောက်ပြုလုပ်ဆောင်ရွက်များ မပြုလုပ်နိုင်ချေ။ ပြန်လည်ရယူအသုံးပြုနိုင်သည့် template များကိုအခြေခံအသုံးပြုမှသာ အနည်းဆုံးအနေဖြင့် ထို document တွင်းတွင်ရှိသော သတင်းအချက်အလက်များကို ရယူရန် ဆွဲထုတ်နိုင်မည်။
 
-It can also support the further use of data to use typography markup as much as possible so that it becomes easier for a machine to distinguish headings (any type specified) from the content and so on. Generally it is recommended not to exhibit in word processing format, if data exists in a different format.
+ထိုအရာသည် typography markup များကိုအသုံးပြုပြီး စာပိုဒ်များထဲမှ ခေါင်းစဥ်များကိုခွဲခြားခြင်း (မည့်သည့်အရာမဆို) ခွဲခြားခြင်း စသည်တို့ကို စက်မှပြုလုပ်နိုင်သည်။ အကယ်၍ data သည် မတူညီသည့်ပုံစံတွင်ရှိနေပါက စာသားများအနေဖြင့်သာ ပြသခြင်းကို ယေဘုယျအားဖြင့် အားမပေးလိုပါ။
 
 ### Plain Text
 
-Plain text documents (.txt) are very easy for computers to read. They generally exclude structural metadata from inside the document however, meaning that developers will need to create a parser that can interpret each document as it appears.
+Plain text documents (.txt) များသည် ကွန်ပြူတာအနေဖြင့်ဖတ်ရန်အလွန်လွယ်ကူသည်။ သူတို့တွင် ယေဘုယျအားဖြင့် document အတွင်းမှ စနစ်တကျပြုလုပ်ထားသော metadata မပါဝင်ချေ။ ဆိုလိုသည်မှာ developer များအနေဖြင့် တွေ့မြင်ရမည့် document တစ်ခုချင်းစီအတွက် ပြောင်းလဲပေးနိုင်သော parser တစ်ခုချင်းစီ ဖန်တီးပေးရန်လိုအပ်သည်။
 
-Some problems can be caused by switching plain text files between operating systems. MS Windows, Mac OS X and other Unix variants have their own way of telling the computer that they have reached the end of the line.
+ပြဿနာအချို့သည် plain text file များမှ operating system များအတွင်းသို့ပြောင်းလဲနေစဥ်အတွင်း ဖြစ်ပေါ်လာနိုင်သည်။ MS Windows, Mac OS X နှင့် အခြားသော Unix variants များတွင် စာကြောင်းအဆုံးသို့ရောက်သွားပြီဖြစ်သည့် အကြောင်းကို ကွန်ပြူတာသို့ မတူညီသည့် ပုံစံများဖြင့်ပြောသည်။   
 
-### Scanned image
+### Scanned လုပ်ထားသော ပုံရိပ်
 
-Probably the least suitable form for most data, but both TIFF and JPEG-2000 can at least mark them with documentation of what is in the picture - right up to mark up an image of a document with full text content of the document. It may be relevant to their displaying data as images whose data are not born electronically - an obvious example is the old church records and other archival material - and a picture is better than nothing.
+Data အများစုအတွက် သင့်လျော်မှုအနည်းဆုံးဖြစ်သော ပုံစံဖြစ်သည်၊ သို့သော် TIFF နှင့် JPEG-2000 သည် အနည်းဆုံးအနေဖြင့် ပုံထဲတွင်ပါကသည့်အရာများကို မှတ်တမ်းပြုအမှတ်အသားပြုလုပ်နိုင်သည်။ လျှပ်စစ်သုံးပြီး ဖန်တီးထားခြင်းမဟုတ်သော data များကို ပြသရန်အတွက် သင့်လျော်သည်၊ ဥပမာ ဘုရားရှိခိုးကျောင်းအဟောင်းတစ်ခု၏ မှတ်တမ်းများ နှင့် အခြားသော မှတ်တမ်းအဖြစ်သိမ်းဆည်းမှုဆိုင်ရာများ ထို အခြေအနေတွင် ရုပ်ပုံအဖြစ်သိမ်းဆည်းခြင်းထက် မည်သည့်အရာမျှ ပိုမကောင်းချေ။
 
-### Proprietary formats
+### ပိုင်ဆိုင်မှုဆိုင်ရာ format များ
 
-Some dedicated systems, etc. have their own data formats that they can save or export data in. It can sometimes be enough to expose data in such a format - especially if it is expected that further use would be in a similar system as that which they come from. Where further information on these proprietary formats can be found should always be indicated, for example by providing a link to the supplier's website. Generally it is recommended to display data in non-proprietary formats where feasible.
+အချို့အထူးပြုစနစ်များ စသည်ဖြင့်တို့တွင် data များကို သိမ်းဆည်းခြင်း သို့မဟုတ် ထုတ်ယူနိုင်သော data format များရှိသည်။ ထိုကဲ့သို့သော format များသည် data များထုတ်ပြန်ရန်အတွက်လုံလောက်သည် အထူးသဖြင့် ထို data များကိုပြုလုပ်ထားသည့်နေရာကိုသာ အသုံးပြုပြီး ထပ်မံ၍ အသုံးပြုနိုင်ခြင်းဖြစ်သည်။ ထိုကဲ့သို့ ပိုင်ဆိုင်မှုဆိုင်ရာ format များတွင် သတင်းအချက်အလက်များကို ထပ်မံ၍ သိရှိလိုပါက ဥပမာအားဖြင့် ထောက်ပံ့ပေးသူ၏ website စသည်ဖြင့်ပါဝင်သည်။ ယေဘုယျအားဖြင့် ဖြစ်နိုင်သည့်အခြေအနေတွင် ပိုင်ဆိုင်ကန့်သတ်မှုမရှိသည့် format များဖြင့် data များကို ပြသရန်အကြံပေးပါသည်။
 
 ### HTML
 
-Nowadays much data is available in HTML format on various sites. This may well be sufficient if the data is very stable and limited in scope. In some cases, it could be preferable to have data in a form easier to download and manipulate, but as it is cheap and easy to refer to a page on a website, it might be a good starting point in the display of data.
+ယနေ့ခေတ် site အမျိုးမျိုးတွင် data အမြောက်အများကို HTML format ဖြင့်ရရှိလာနေသည်။ အကယ်၍ ထိုအရာတွင် data များသည် ပို၍ တည်ငြိမ်ပြီး အပိုင်းအခြားတစ်ခုဖြင့် ကန့်သတ်ထားနိုင်ပါက ပို၍ လုံလောက်မှုရှိပေမည်။ အချို့အခြေအနေများတွင် data များကို လွယ်ကူစွာ download ရယူနိုင်ပြီး ပြုပြင်ပြောင်းလဲနိုင်သည့်ပုံစံဖြင့်ရှိနေပါက ပို၍ အဆင်ပြေမည်ဖြစ်သော်လည်း အလွယ်တကူပင် website ပေါ်တွင် စာမျက်နှာတစ်ခုခုကို ရည်ညွှန်းလိုက်နိုင်သောကြောင့် data များကို ပြသရန်အတွက် ကောင်းမွန်သည့် လမ်းစတစ်ခုဖြစ်နိုင်သည်။
 
-Typically, it would be most appropriate to use tables in HTML documents to hold data, and then it is important that the various data fields are displayed and are given IDs which make it easy to find and manipulate data. Yahoo has developed a tool (<http://developer.yahoo.com/yql/>) that can extract structured information from a website, and such tools can do much more with the data if it is carefully tagged.
+များသောအားဖြင့် data များကို ထားရှိရန် HTML document များအတွင်းတွင် ဇယားကွက်များအသုံးပြုခြင်းသည် အသင့်လျော်ဆုံးဖြစ်သည်၊ ထို့အပြင် မတူညီသည့် data field များကိုပြသရန်အတွက် အရေးကြီးပြီး အလွယ်တကူရှာနိုင်ရန်နှင့် ပြင်ဆင်ပြောင်းလဲမှုများလုပ်နိုင်ရန် ID များပေးခြင်းသည်လည်း အရေးပါသည်။ Yahoo မှ website အတွင်းတွင်ရှိနေသော စနစ်တကျဖွဲ့စည်းထားသည့် data များကို ဆွဲယူထုတ်ပေးနိုင်သော tool တစ်ခု (<http://developer.yahoo.com/yql/>) ကိုပြုလုပ်ထားပြီး အကယ်၍ data များကို ဂရုတစိုက် ချိတ်ထားပါက ထိုကဲ့သို့ tool များသည် အမြောက်အများ လုပ်ဆောင်နိုင်သည်။
 
 ## Open File Formats
 
-Even if information is provided in electronic, machine-readable format, and in detail, there may be issues relating to the format of the file itself.
+သတင်းအချက်အလက်များကို လျှပ်စစ်အသုံးပြုသည့်နည်းဖြင့်၊ စက်မှဖတ်နိုင်သည့်ပုံစံဖြင့် နှင့် အသေးစိတ်ထောက်ပံ့ပေးထား သော်လည်း ဖိုင်၏ format နှင့်ဆက်နွှယ်သော အကြောင်းကိစ္စများရှိနေနိုင်သေးသည်။
 
-The formats in which information is published – in other words, the digital base in which the information is stored - can either be "open" or "closed". An open format is one where the specifications for the software are available to anyone, free of charge, so that anyone can use these specifications in their own software without any limitations on re-use imposed by intellectual property rights.
+သတင်းအချက်အလက်များကို ထုတ်ပြန်သည့် format များ၊ အခြားစကားလုံးဖြင့်ဆိုရသော် digital နည်းကိုအခြေခံပြီး သတင်းအချက်အလက်များကို ပြုလုပ်သိမ်းဆည်းရာတွင် ထိုအရာသည် "open" သို့မဟုတ် "closed" ဖြစ်နိင်သည်။ open format တစ်ခုဆိုသည်မှာ ဥာဏ္ဏပိုင်ဆိုင်မှုအခွင့်အရေးများပါဝင်ပြီး ပြန်လည်အသုံးပြုရန်အတွက် မည်သည့်အကန့်အသတ်မျှမပါရှိပဲ software အတွက်လိုအပ်ချက်များကို လူတိုင်းရယူနိုင်ခြင်း၊ အခမဲ့ဖြစ်ခြင်းဖြစ်သည်။
 
-If a file format is "closed", this may be either because the file format is proprietary and the specification is not publicly available, or because the file format is proprietary and even though the specification has been made public, re-use is limited. If information is released in a closed file format, this can cause significant obstacles to reusing the information encoded in it, forcing those who wish to use the information to buy the necessary software.
+အကယ်၍ file format သည် "closed" ဖြစ်ပါက ထိုအရာသည် ပိုင်ဆိုင်မှုနှင့် ဆက်နွှယ်သောကြောင့် အသေးစိတ်အကြောင်းအရာများကို အများပြည်သူကြည့်ရှုနိုင်ခြင်းမရှိခြင်း သို့မဟုတ် file format ကိုပိုင်ဆိုင်မှုသတ်မှတ်ထားခြင်းနှင့် အကြောင်းအရာအသေးစိတ်ကို အများပြည်သူကြည့်ရှုနိုင်အောင်ပြုလုပ်ပြီးသော်လည်း ပြန်လည်အသုံးပြုခြင်းမလုပ်နိုင်ရန်အတွက် ကန့်သတ်ထားခြင်းဖြစ်သည်။ အကယ်၍ သတင်းအချက်အလက်ကို closed file format ဖြင့်ထုတ်ပြန်ခဲ့ပါက ထိုထဲတွင်ပါဝင်သော သတင်းအချက်အလက်များကို ရယူအသုံးပြုရန်အတွက် အခက်အခဲများစွာရှိနိုင်ပြီး ထိုသတင်းအချက်အလက်ကို အသုံးပြုလိုသူများအနေဖြင့် လိုအပ်သည့် software များဝယ်ယူရန်တွန်းအားပေးနေသည်။
 
-The benefit of open file formats is that they permit developers to produce multiple software packages and services using these formats. This then minimises the obstacles to reusing the information they contain.
+Open file format များ၏ အားသာချက်မှာ developer များကို software package များမြောက်များစွာထုတ်လုပ်နိုင်ရန် ခွင့်ပြုထားခြင်းဖြစ်သည်။ ဤအရာသည် သတင်းအချက်အလက်များ ပြန်လည်အသုံးပြရန်အတွက် အတားအဆီးများကို လျှော့ချပေးသည်။
 
-Using proprietary file formats for which the specification is not publicly available can create dependence on third-party software or file format license holders. In worst-case scenarios, this can mean that information can only be read using certain software packages, which can be prohibitively expensive, or which may become obsolete.
+အသေးစိတ်အချက်အလက်များကို အများပြည်သူမကြည့်ရှုနိုင်သော Proprietary file formats များအသုံးပြုခြင်းသည် third-party software သို့မဟုတ် file format license ကိုင်ဆောင်သူမျာအပေါ်မှီခိုစေသည်။ အဆိုးဆုံးအနေဖြင့် ထိုအရာဆိုလိုသည်မှာ မလိုအပ်ပဲစျေးကြီးသော သို့မဟုတ် ရေရှည်တွင် အသုံးပြုရန်မလိုအပ်သော software package များကိုသာအသုံးပြု၍ သတင်းအချက်အလက်များကို ဖတ်ရှုနိုင်ခြင်းဖြစ်သည်။
 
-The preference from the [open government](/glossary/en/terms/open-government/) data perspective therefore is that information be released in **open file formats which are machine-readable.**
+[open government](/glossary/en/terms/open-government/) ၏ data ရှုထောင့်မှာ သတင်းအချက်အလက်ကို **စက်မှဖတ်နိုင်သော open file format များ** အသုံးပြုရန်အကြံပေးသည်။
 
-### Example: UK traffic data
+### ဥပမာ: UK ယာဥ်ကြောဆိုင်ရာ data
 
-Andrew Nicolson is a software developer who was involved in an (ultimately successful) campaign against the construction of a new road, the Westbury Eastern bypass, in the UK. Andrew was interested in accessing and using the road traffic data that was being used to justify the proposals. He managed to obtain some of the relevant data via freedom of information requests, but the local government provided the data in a proprietary format which can only be read using software produced by a company called Saturn, who specialise in traffic modelling and forecasting. There is no provision for a "read only" version of the software, so Andrew's group had no choice but to purchase a software license, eventually paying £500 (€600) when making use of an educational discount. The main software packages on the April 2010 price list from Saturn start at £13,000 (over €15,000), a price which is beyond the reach of most ordinary citizens.
+Andrew Nicolson သည် UK တွင် the Westbury Eastern bypass လမ်းသစ်ကြီးဆောက်လုပ်မည်ကို ဆန့်ကျင်သည့် (အလွန်အောင်မြင်ခဲ့သော) လှုပ်ရှားမှုတွင်ပါဝင်ခဲ့သော software developer တစ်ဦးဖြစ်သည်။ Andrew သည် ယာဥ်ကြောဆိုင်ရာသတင်းအချက်အလက်များကို ရယူအသုံးပြုရန် စိတ်ဝင်စားခဲ့ပြီး ထို data များကို အဆိုပြုခြင်းအတွက် အသုံးပြုခဲ့သည်။ အချို့သတင်းအချက်အလက်များကို သတင်းအချက်အလက်လွတ်လပ်စွာတောင်းခံပိုင်ခွင့်ဖြင့်ရယူနိုင်ခဲ့သော်လည်း ဒေသခံအစိုးရသည် ယဥ်ကြောဆိုင်ရာ စံပြုခြင်းနှင့် ခန့်မှန်းခြင်းတို့ကိုအထူးပြုလုပ်ဆောင်သည့် Saturn ဟုခေါ်သော ကုမ္ပဏီ၏ software ကိုအသုံးပြုမှသာဖတ်ရှုနိုင်သော data များကို ပေးခဲ့သည်။ ထို software တွင် "ဖတ်ရှုရန်အတွက်သာ" ဟူသည့် version ကိုအထောက်အပံ့မပေးသောကြောင့် Andrew နှင့်အဖွဲ့ဝင်များသည် ပညာရေးဆိုင်ရာလျှော့စျေးကိုအသုံးပြုပြီး သော်လည်း £၅၀၀ (€၆၀၀) ကျသင့်ခဲ့သည့် software license ကိုဝယ်ယူခဲ့ရသည်။ ဧပြီလ ၂၀၁၀ စျေးနှုန်းများအရ software packages တစ်ခုလုံးသည် £၁၃,၀၀၀ (€၁၅,၀၀၀ ကျော်) အထိကျသင့်သောကြောင့် သာမန်နိုင်ငံသားများ လက်လှမ်းမမီနိုင်ချေ။
 
-Although no access to information law gives a right of access to information in open formats, open government data initiatives are starting to be accompanied by policy documents which stipulate that official information must be made available in open file formats. Setting the gold standard has been the Obama Administration, with the Open Government Directive issued in December 2009, which says:
+သတင်းအချက်အလက်များ ရယူခွင့်ဥပဒေတွင် သတင်းအချက်အလက်များကို open format များဖြင့်ပေးရမည်ဆိုမထားသော်လည်း open government data initiatives များသည် တရားဝင်ထုတ်ပြန်သည့်သတင်းအချက်အလက်များကို open file format များဖြင့် ထုတ်ပေးရမည်ဟူသည့် မူဝါဒများကိုဆွေးနွေးလာကြသည်။ အိုဘားမားတာဝန်ယူထားစဥ်ကာလအတွင်း ဒီဇင်ဘာလ ၂၀၀၉ ခုနှစ်တွင် ရွှေစည်းမျဥ်းကို Open Government Directive တို့နှင့်အတည်ပြုခဲ့သည် ဤတွင်
 
-> *To the extent practicable and subject to valid restrictions, agencies should publish information online in an open format that can be retrieved, downloaded, indexed, and searched by commonly used web search applications. An open format is one that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.*
+> *သင့်လျော်သော အကန့်အသတ်များကိုထားရှိရန်နှင့် လက်တွေ့ကျစေရန် အေဂျင်စီများသည် သတင်းအချက်အလက်များကို ရှာဖွေနိုင်သော၊ download လုပ်ယူနိုင်သော၊ ရည်ညွှန်းထားသောနှင့် web တွင်ရှာဖွေနိုင်သည့် applications များကိုအသုံးပြုနိုင်သော ပုံစံဖြစ်သည့် open format ဖြင့်ထုတ်ဝေသင့်သည်။ open format တစ်ခုဆိုသည်မှာ အမှီအခိုကင်းသော၊ စက်မှဖတ်နိုင်သော၊ နှင့် ထိုသတင်းအချက်အလက်ကို အများပြည်သူသုံးစွဲရန်အတွက် မည်သည့်တားမြစ်ချက်မျှမရှိပဲ ပြန်လည်အသုံးပြုနိုင်အောင်ပြုလုပ်ထားခြင်းဖြစ်သည်။*
 
-## How do I use a given format?
+## ပေးထားသည့် format ကိုမည်သို့အသုံးပြုရမည်နည်း။
 
-When an authority must exhibit new data – data that has not been exhibited before – you should choose the format that provides the best balance between cost and suitability for purpose. For each format there are some things you should be aware of, and this section aims to explain them.
+လွန်ခဲ့သည့်အချိန်များက ပြသခဲ့ခြင်းမရှိသည့် data များကိုအာဏာပိုင်များအနေဖြင့် ပြသရမည်ဆိုပါက သင်အနေဖြင့် ထိုရည်ရွယ်ချက်ကိုရည်ရှည်တည်မြဲစေရန်နှင့် ကုန်ကျစရိတ်များအကြား အကောင်းဆုံးမျှချေဖြစ်နိုင်သည့် format ကိုရွေးချယ်သင့်သည်။ format တစ်ခုချင်းစီအတွက် သတိပြူသင့်သည့်အရာများလည်းရှိသည်၊ ဤအပိုင်းသည် ထိုအရာများကို ရှင်းပြရန်ရည်ရွယ်ပါသည်။
 
-This section focuses only on how the cut surfaces are best arranged so that machines can access them directly. Advice and guidance about how web sites and web solutions should be designed can be found elsewhere.
+ဤအပိုင်းတွင် cut surfaces များကို စက်များမှ တိုက်ရိုက်ရယူနိုင်ရန်အတွက် အဘယ်ကြောင့် အကောင်းဆုံးစီစဥ်ထားသည်ကို ဦးတည်၍ရှင်းပြထားသည်။ နေရာပေါင်းစုံတွင်တွေ့နိုင်သော web sites နှင့် web solutions များကိုအကြံပေးခြင်းနှင့် လမ်းညွှန်ခြင်းတို့ပေးထားသည်။
 
-### Web services
+### Web ဝန်ဆောင်မှုများ
 
-For data that changes frequently, and where each pull is limited in size, it is very relevant to expose data through web services. There are several ways to create a web service, but some of the most used is SOAP and REST. Generally, SOAP over REST, REST services, but are very easy to develop and use, so it is a widely used standard.
+မကြာခဏပြောင်းလဲသော data များအတွက်နှင့် data ဆွဲယူမှုတိုင်းကို အရွယ်အစားအားဖြင့် ကန့်သတ်ထားမှုတိုင်းအတွက် Web ဝန်ဆောင်မှုများမှတဆင့် data များကို ပြသရန်အလွန်သင့်လျော်သည်။ Web ဝန်ဆောင်မှုများဖန်တီးရန်အတွက် နည်းလမ်းပေါင်းများစွာရှိသည်၊ သို့သော် အသုံးများသည်များထဲမှ အချို့မှာ SOAP နှင့် REST တို့ဖြစ်သည်။ ယေဘုယျအားဖြင့် SOAP over REST, REST ဝန်ဆောင်မှုများရှိပြီး ထိုအရာများသည် တည်ဆောက်ရန်နှင့် အသုံးပြုရန် လွယ်ကူသောကြောင့် ကျယ်ကျယ်ပြန့်ပြန့်အသုံးပြုသော စံနှုန်းဖြစ်သည်။
 
 ### Database
 
-Like web services, databases provide direct access to data dynamically. Databases have the advantage that they can allow users to put together just the extraction that they are interested in.
+Web ဝန်ဆောင်မှုများကဲ့သို့ပင် databases များသည်လည်း အချိန်နှင့်အမျှပြောင်းလဲနေသော data များကိုတိုက်ရိုက် ရယူခွင့်ပေးသည်။ Databases များတွင်ရှိသည့်အားသာချက်မှာ အသုံးပြုသူများစိတ်ဝင်စားသည့် အစိတ်အပိုင်းများကို ဆွဲယူအသုံးပြုခွင့်ပေးသည်။
 
-There are some security concerns about allowing remote database extraction and database access is only useful if the structure of the database and the importance of individual tables and fields are well documented. Often, it is relatively simple and inexpensive to create web services that expose data from a database, which can be an easy way to address safety concerns.
+Databases များကို အဝေးမှထုတ်ယူနိုင်အောင်ပြုလုပ်ထားသောကြောင့် လုံခြုံရေးအရထည့်သွင်းစဥ်းစားစရာများရှိပြီး database ကိုဖွဲ့စည်းတည်ဆောက်ထားပုံနှင့် ဇယားနှင့် အကွက်တစ်ခုချင်းစီကို သေချာစွာမှတ်တမ်းပြုစုထားမှသာ ထို database သည်အသုံးဝင်သည်။ များသောအားဖြင့် လုံခြုံရေးအရထည့်သွင်းစဥ်းစားထားမှုများကိုအလွယ်တကူပြုလုပ်နိုင်သော data မှ database တစ်ခုအဖြစ် ပြောင်းလဲနိုင်သော ရိုးရှင်းပြီး စျေးမကြီးသည့် Web ဝန်ဆောင်မှုများကို အသုံးပြုပြီး ဖန်တီးနိုင်သည်။
