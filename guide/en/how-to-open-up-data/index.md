@@ -54,7 +54,7 @@ We recommend that you ask the community in the first instance. That is the peopl
 
 ### Cost basis
 
-How much money do agencies spend on the collection and maintainence of data that they hold? If they spend a great deal on a particular set of data, then it is highly likely that others would like to access it.
+How much money do agencies spend on the collection and maintenance of data that they hold? If they spend a great deal on a particular set of data, then it is highly likely that others would like to access it.
 
 This argument may be fairly susceptible to concerns of freeriding. The question you will need to respond to is, "Why should other people get information for free that is so expensive?". The answer is that the expense is absorbed by the public sector to perform a particular function. The cost of sending that data, once it has been collected, to a third party is approximately nothing. Therefore, they should be charged nothing.
 
@@ -143,7 +143,7 @@ Data can be published via an [Application Programming Interface](/glossary/en/te
 
 Publishing raw data in bulk should be the primary concern of all open data intiatives. There are a number of costs to providing an API:
 
-1.  The price. They require much more development and maintainence than providing files.
+1.  The price. They require much more development and maintenance than providing files.
 2.  The expectations. In order to foster a community of users behind the system, it is important to provide certainty. When things go wrong, you will be expected to incur the costs of fixing them.
 
 Access to bulk data ensures that:
