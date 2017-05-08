@@ -2,7 +2,7 @@
 redirect_from:
   - /en/index.html
   - /guide/
-lang: en
+lang: my
 title: The Open Data Handbook
 section: guide
 ---
