@@ -1,4 +1,5 @@
 ---
+redirect_from: /my/introduction/index.html
 section: guide
 lang: my
 title: မိတ်ဆက်

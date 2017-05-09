@@ -1,5 +1,5 @@
 ---
-redirect_from: /en/appendices/index.html
+redirect_from: /my/appendices/index.html
 section: guide
 lang: my
 title: မည်သည့် တရားဝင် အခွင့်အရေးများ Data(bases) တွင်ရှိသနည်း။

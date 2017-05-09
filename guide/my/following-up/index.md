@@ -1,5 +1,5 @@
 ---
-redirect_from: /en/following-up/index.html
+redirect_from: /my/following-up/index.html
 section: guide
 lang: my
 title: Data အချို့ကို Open လုပ်ပြီးပြီ၊ နောက်ဘာဆက်လုပ်ကြမလဲ။
