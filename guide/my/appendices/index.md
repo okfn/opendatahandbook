@@ -1,7 +1,7 @@
 ---
-redirect_from: /en/appendices/index.html
+redirect_from: /my/appendices/index.html
 section: guide
-lang: en
+lang: my
 title: Appendices
 ---
 

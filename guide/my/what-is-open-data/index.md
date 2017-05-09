@@ -1,5 +1,5 @@
 ---
-redirect_from: /en/what-is-open-data/index.html
+redirect_from: /my/what-is-open-data/index.html
 section: guide
 lang: my
 title: Open Data ဆိုတာဘာလဲ။

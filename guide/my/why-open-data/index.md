@@ -1,5 +1,5 @@
 ---
-redirect_from: /en/why-open-data/index.html
+redirect_from: /my/why-open-data/index.html
 section: guide
 lang: my
 title: ဘာကြောင့် Open Data လုပ်မှာလဲ။

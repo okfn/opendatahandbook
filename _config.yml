@@ -121,6 +121,9 @@ languages:
     - lv
     - Latviešu
   -
+    - my
+    - Myanmar
+  -
     - nl_BE
     - Nederlands (Belgisch)
   -
@@ -219,6 +222,7 @@ meta:
       - ko
       - lt
       - lv
+      - my
       - nl_BE
       - pt_BR
       - ro

@@ -1,6 +1,6 @@
 ---
 redirect_from:
-  - /en/index.html
+  - /my/index.html
   - /guide/
 lang: my
 title: The Open Data Handbook

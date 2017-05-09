@@ -1,4 +1,5 @@
 ---
+redirect_from: /my/appendices/index.html
 section: guide
 lang: my
 title: ဖိုင်အမျိုးအစားများ

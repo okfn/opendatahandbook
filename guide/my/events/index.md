@@ -1,5 +1,5 @@
 ---
-redirect_from: /en/events/index.html
+redirect_from: /my/events/index.html
 section: guide
 lang: my
 title: Data ကို လူအများနှင့် ရင်းနှီးအောင် ပြုလုပ်ခြင်း

@@ -1,5 +1,5 @@
 ---
-redirect_from: /en/how-to-open-up-data/index.html
+redirect_from: /my/how-to-open-up-data/index.html
 section: guide
 lang: my
 title: Data ကို Open ဖြစ်အောင်ဘယ်လိုလုပ်မလဲ။
