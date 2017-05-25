@@ -121,6 +121,9 @@ languages:
     - lv
     - Latviešu
   -
+    - my
+    - မြန်မာဘာသာ
+  -
     - nl_BE
     - Nederlands (Belgisch)
   -
@@ -195,6 +198,7 @@ meta:
       - ko
       - lt
       - lv
+      - my
       - nl_BE
       - my
       - pt_BR
