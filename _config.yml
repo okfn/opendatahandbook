@@ -138,6 +138,9 @@ languages:
   -
     - zh_TW
     - 繁體中文
+  -
+    - my
+    - မြန်မာဘာသာ
 
 toc:
   - guide
@@ -193,6 +196,7 @@ meta:
       - lt
       - lv
       - nl_BE
+      - my
       - pt_BR
       - ro
       - ru
@@ -219,6 +223,7 @@ meta:
       - ko
       - lt
       - lv
+      - my
       - nl_BE
       - pt_BR
       - ro
