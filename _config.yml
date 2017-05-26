@@ -141,6 +141,9 @@ languages:
   -
     - zh_TW
     - 繁體中文
+  -
+    - my
+    - မြန်မာဘာသာ
 
 toc:
   - guide
@@ -197,6 +200,7 @@ meta:
       - lv
       - my
       - nl_BE
+      - my
       - pt_BR
       - ro
       - ru
