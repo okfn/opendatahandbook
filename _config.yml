@@ -141,6 +141,9 @@ languages:
   -
     - zh_TW
     - 繁體中文
+  -
+    - my
+    - မြန်မာဘာသာ
 
 toc:
   - guide
