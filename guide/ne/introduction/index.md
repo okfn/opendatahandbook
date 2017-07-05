@@ -24,15 +24,14 @@ title: परिचय
  
 यो पुस्तिका यस विषयमा थोरै अथवा कुनै ज्ञान नभएकाहरूका निमित्त बनाइएको हो । यसमा तपाईंले कुनै शब्दजाल अथवा अपरिचित शब्दहरूको प्रयोग भएको पाउनुभएमा यस पुस्तिकाको अन्त्यमा रहेको विस्तृत  शब्दावली हेर्नुहोला ।
 
-##क्रेडिट र प्रतिलिपि अधिकार## 
-###योगदान दिने लेखकहरु### 
-[Daniel Dietrich](http://ddie.me/)  
-[Jonathan Gray](http://jonathangray.org/)  
-[Tim McNamara](http://timmcnamara.co.nz/)  
-[Antii Poikola](http://apoikola.wordpress.com/)  
-[Rufus Pollock](http://rufuspollock.org/)  
-[Julian Tait](http://www.littlestar.tv/)  
-[Ton Zijlstra](http://www.zylstra.org/)  
+##क्रेडिट र प्रतिलिपि अधिकार, योगदान दिने लेखकहरु### 
+* [Daniel Dietrich](http://ddie.me/)  
+* [Jonathan Gray](http://jonathangray.org/)  
+* [Tim McNamara](http://timmcnamara.co.nz/)  
+* [Antii Poikola](http://apoikola.wordpress.com/)  
+* [Rufus Pollock](http://rufuspollock.org/)  
+* [Julian Tait](http://www.littlestar.tv/)  
+* [Ton Zijlstra](http://www.zylstra.org/)  
 
 
 ###प्रत्यक्ष प्रयोग गरिएका अवस्थित स्रोतहरू###
