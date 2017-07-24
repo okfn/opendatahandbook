@@ -144,7 +144,10 @@ languages:
   -
     - my
     - မြန်မာဘာသာ
-
+  -
+    - ne
+    - नेपाली भाषा
+   
 toc:
   - guide
     - introduction
@@ -200,7 +203,7 @@ meta:
       - lv
       - my
       - nl_BE
-      - my
+      - ne
       - pt_BR
       - ro
       - ru
@@ -228,6 +231,7 @@ meta:
       - lt
       - lv
       - my
+      - ne
       - nl_BE
       - pt_BR
       - ro
