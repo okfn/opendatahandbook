@@ -124,6 +124,9 @@ languages:
     - my
     - မြန်မာဘာသာ
   -
+    - ne
+    - नेपाली भाषा
+  -
     - nl_BE
     - Nederlands (Belgisch)
   -
@@ -141,9 +144,7 @@ languages:
   -
     - zh_TW
     - 繁體中文
-  -
-    - my
-    - မြန်မာဘာသာ
+
 
 toc:
   - guide
@@ -199,8 +200,8 @@ meta:
       - lt
       - lv
       - my
+      - ne
       - nl_BE
-      - my
       - pt_BR
       - ro
       - ru
@@ -228,6 +229,7 @@ meta:
       - lt
       - lv
       - my
+      - ne
       - nl_BE
       - pt_BR
       - ro
