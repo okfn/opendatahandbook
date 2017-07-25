@@ -5,9 +5,7 @@ lang: es
 title: ¿Por qué datos abiertos?
 ---
 
-term
-
-:   'Datos Abiertos', especialmente :term: 'datos abiertos de gobierno', es un gran recurso, aunque todavía no ha sido explotado. Muchos individuos y organizaciones reúnen una gran variedad de diferentes tipos de datos para llevar a cabo sus tareas. Gobiernos es particularmente importante en este aspecto, por la cantidad y centralidad de datos que reúne, pero también porque la mayor parte de la información gubernamental es pública por ley, y por lo tanto puede ser abierta y ponerse a disposición de otros. ¿Por qué es esto de interés?
+'Datos Abiertos', especialmente 'datos abiertos de gobierno', es un gran recurso, aunque todavía no ha sido explotado. Muchos individuos y organizaciones reúnen una gran variedad de diferentes tipos de datos para llevar a cabo sus tareas. Gobiernos es particularmente importante en este aspecto, por la cantidad y centralidad de datos que reúne, pero también porque la mayor parte de la información gubernamental es pública por ley, y por lo tanto puede ser abierta y ponerse a disposición de otros. ¿Por qué es esto de interés?
 
 Existen muchas áreas donde podemos esperar que los datos abiertos sean valiosos, y donde los ejemplos de cómo ha sido usado ya existan. Existen también diferentes grupos de personas y organizaciones que pueden beneficiarse de la disponibilidad de datos abiertos, incluido el mismo gobierno. Al mismo tiempo es imposible predecir con exactitud cómo y dónde será creado el valor en el futuro. La naturaleza de las innovaciones es que su desarrollo frecuentemente proviene de los lugares más inverosímiles.
 
