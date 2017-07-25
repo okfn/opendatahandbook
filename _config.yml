@@ -144,8 +144,6 @@ languages:
   -
     - zh_TW
     - 繁體中文
-
-
 toc:
   - guide
     - introduction
@@ -200,13 +198,13 @@ meta:
       - lt
       - lv
       - my
-      - ne
       - nl_BE
       - pt_BR
       - ro
       - ru
       - zh_CN
       - zh_TW
+      - ne
   guide:
     label: guide
     output: true
@@ -229,13 +227,14 @@ meta:
       - lt
       - lv
       - my
-      - ne
       - nl_BE
       - pt_BR
       - ro
       - ru
       - zh_CN
       - zh_TW
+      - ne
+
     toc:
       entry_point: 'introduction'
       order:
