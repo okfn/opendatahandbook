@@ -199,6 +199,7 @@ meta:
       - lt
       - lv
       - my
+      - ne
       - nl_BE
       - pt_BR
       - ro
@@ -229,6 +230,7 @@ meta:
       - lt
       - lv
       - my
+      - ne
       - nl_BE
       - pt_BR
       - ro
