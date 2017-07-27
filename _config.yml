@@ -144,7 +144,14 @@ languages:
   -
     - zh_TW
     - 繁體中文
+<<<<<<< HEAD
     
+=======
+  -
+    - my
+    - မြန်မာဘာသာ
+
+>>>>>>> parent of fb93db0... Add Nepali config
 toc:
   - guide
     - introduction
@@ -200,6 +207,10 @@ meta:
       - lv
       - my
       - nl_BE
+<<<<<<< HEAD
+=======
+      - my
+>>>>>>> parent of fb93db0... Add Nepali config
       - pt_BR
       - ro
       - ru
