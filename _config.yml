@@ -151,6 +151,9 @@ languages:
     - my
     - မြန်မာဘာသာ
 
+<<<<<<< HEAD
+>>>>>>> parent of fb93db0... Add Nepali config
+=======
 >>>>>>> parent of fb93db0... Add Nepali config
 toc:
   - guide
@@ -208,6 +211,10 @@ meta:
       - my
       - nl_BE
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      - my
+>>>>>>> parent of fb93db0... Add Nepali config
 =======
       - my
 >>>>>>> parent of fb93db0... Add Nepali config
