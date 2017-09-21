@@ -9,7 +9,7 @@ title: Formats de fichier.
 
 ### JSON
 
-JSON est un format de fichier trés simple qui est vraiment facile de lire pour tous les langages de programmation. Cette simplicité signifie qu'il est généralement facile pour un ordinateur de traiter comparé a d'autres, telles que XML.
+JSON est un format de fichier trés simple qui est vraiment facilemement lisible par tous les langages de programmation. Cette simplicité signifie qu'il est généralement plus facile pour un oridnateur de traiter ces fichiers comparé a d'autres, telles que XML.
 
 ### XML
 
@@ -21,9 +21,9 @@ Un format recommandé par le W3C est le RDF, car il permet de représenter les d
 
 ### Feuilles de calcul
 
-De nombreuses autorités ont laissé des informations dans la feuille de calcul, par exemple Microsoft Excel. Ces données peuvent souvent être utilisées immédiatement avec des descriptions correctes des différentes colonnes.
+De nombreuses autorités ont laissé des informations dans des feuilles de calcul, par exemple Microsoft Excel. Ces données peuvent souvent être utilisées immédiatement avec des descriptions correctes des différentes colonnes.
 
-Cependant, dans certains cas, des macros et des formules subsistent dans les feuills de calcul, ce qui peut s'avérer somewhat more cumbersome to handle. Il est toutefois conseillé de documenter ces calculs dans les feuilles de calcul, pour que cela soit plus facilement compréhensible par les utilisateurs.
+Cependant, dans certains cas, des macros et des formules subsistent dans les feuilles de calcul, ce qui peut s'avérer assez compliqué à manipuler. Il est toutefois conseillé de documenter ces calculs dans les feuilles de calcul, pour que cela soit plus facilement compréhensible par les utilisateurs.
 
 ### Séparer les fichiers par une virgule
 
@@ -33,19 +33,19 @@ Par ailleurs, il est essentiel que la structure du fichier soit conservée, car 
 
 ### Document texte
 
-Les documents classiques dans des formats comme Word, ODF, OOXML, ou PDF peuvent être suffisants pour montrer certains types de données - par exemple, des listes de diffusion relativement stables ou équivalent. Il peut être simple et bon marché à présenter les données sous ces formats, puisqu'il est souvent le format natif des données. Cependant, le format texte ne permet pas de conserver une structure de données cohérente et compréhensible, ce qui signifie souvent qu'il est difficile de saisir des données par des moyens automatisés. Veillez à utiliser des modèles comme base des documents pour permettre d'afficher des données de réutilisation, de sorte qu'il soit au moins possible d'extraire des informations de ces documents.
+Les documents classiques dans des formats comme Word, ODF, OOXML, ou PDF peuvent être suffisants pour montrer certains types de données - par exemple, des listes de diffusion relativement stables ou équivalent. Il peut être simple et plus sage de présenter les données sous ces formats, puisque c'est souvent le format natif des données. Cependant, le format texte ne permet pas de conserver une structure de données cohérente et compréhensible, ce qui signifie souvent qu'il est difficile de saisir des données par des moyens automatisés. Veillez à utiliser des modèles comme base des documents pour permettre d'afficher des données de réutilisation, de sorte qu'il soit au moins possible d'extraire des informations de ces documents.
 
 Il peut également soutenir l'utilisation des données ultérieure en utilisant des balises typographiques autant que possible de sorte qu'il devienne plus facile pour une machine de distinguer les rubriques (tout type spécifié) à partir du contenu et ainsi de suite. Généralement, il est recommandé de ne pas exposer les données au format texte, ci celles-ci existent dans un format différent.
 
 ### Texte
 
-Plain text documents (.txt) are very easy for computers to read. They generally exclude structural metadata from inside the document however, meaning that developers will need to create a parser that can interpret each document as it appears.
+Les documents texte (.txt) sont très faciles à lire par les ordinateurs. Ils excluent généralement les métadonnées structurelles de l'intérieur du document, ce qui signifie que les développeurs devront créer un analyseur qui peut interpréter chaque document tel qu'il apparaît.
 
-Certains problèmes peuvent être liés à la commutation des fichiers texte entre les systèmes d'exploitation. MS Windows, Mac OS X et d'autres variantes d'Unix ont leur propre façon de dire à l'ordinateur qu'ils ont atteint la fin de la ligne.
+Certains problèmes peuvent être liés à la conversion des fichiers texte entre les systèmes d'exploitation. MS Windows, Mac OS X et d'autres variantes d'Unix ont leur propre façon de dire à l'ordinateur qu'ils ont atteint la fin de la ligne.
 
 ### Image numérisée
 
-Probably the least suitable form for most data, but both TIFF and JPEG-2000 can at least mark them with documentation of what is in the picture - right up to mark up an image of a document with full text content of the document. It may be relevant to their displaying data as images whose data are not born electronically - an obvious example is the old church records and other archival material - and a picture is better than nothing.
+Probablement la forme la moins appropriée pour la plupart des données, mais TIFF et JPEG-2000 peuvent au moins les marquer avec la documentation de ce qui est dans l'image - jusque pour marquer l'image via le texte intégral du document. Il peut être pertinent d'affichage des données en tant qu'images lorsque les données ne sont pas au format d'origine électronique - un exemple évident est les anciens enregistrements d'église et d'autres documents d'archives - et une image est meilleure que rien.
 
 ### Formats propriétaires
 
@@ -67,30 +67,30 @@ If a file format is "closed", this may be either because the file format is prop
 
 Le bénéfice des formats de fichier ouverts est qu'ils permettent aux développeurs de produire une multitude de briques logicielles et de services utilisant ces formats. Cela diminue ainsi les obstacles à la réutilisation des informations qu'ils contiennent.
 
-Using proprietary file formats for which the specification is not publicly available can create dependence on third-party software or file format license holders. In worst-case scenarios, this can mean that information can only be read using certain software packages, which can be prohibitively expensive, or which may become obsolete.
+L'utilisation de formats de fichiers propriétaires pour lesquels la spécification n'est pas accessible au public pourrait créer une dépendance vis-à-vis des titulaires de licence de logiciel tiers ou de format de fichier tiers. Dans les scénarios les plus défavorables, cela peut signifier que l'information ne peut être lue qu'en utilisant certains progiciels, qui peuvent être prohibitifs ou qui peuvent devenir obsolètes.
 
-The preference from the {term:open government data} perspective therefore is that information be released in **open file formats which are machine-readable.**
+La préférence de la perspective {term: open government data} est donc que les informations soient publiées dans des ** formats de fichiers ouverts qui sont lisibles par machine. **
 
 ### Par exemple: les données anglaises relatives au trafic.
 
-Andrew Nicolson is a software developer who was involved in an (ultimately successful) campaign against the construction of a new road, the Westbury Eastern bypass, in the UK. Andrew was interested in accessing and using the road traffic data that was being used to justify the proposals. He managed to obtain some of the relevant data via freedom of information requests, but the local government provided the data in a proprietary format which can only be read using software produced by a company called Saturn, who specialise in traffic modelling and forecasting. There is no provision for a "read only" version of the software, so Andrew's group had no choice but to purchase a software license, eventually paying £500 (€600) when making use of an educational discount. The main software packages on the April 2010 price list from Saturn start at £13,000 (over €15,000), a price which is beyond the reach of most ordinary citizens.
+Andrew Nicolson est un développeur de logiciels impliqué dans une campagne (en fin de compte réussie) contre la construction d'une nouvelle route, le Westbury Eastern bypass, au Royaume-Uni. Andrew était intéressé par l'accès et l'utilisation des données sur le trafic routier qui servaient à justifier les propositions. Il a réussi à obtenir certaines des données pertinentes via des demandes d'information sur la liberté d'information, mais le gouvernement local a fourni les données dans un format exclusif qui ne peut être lu qu'en utilisant un logiciel produit par une entreprise appelée Saturn, spécialisée dans la modélisation et la prévision du trafic. Il n'y a aucune disposition pour une version "en lecture seule" du logiciel, donc le groupe d'Andrew n'a eu d'autre choix que d'acheter une licence de logiciel, finissant par payer £ 500 (600 €) lors de l'utilisation d'un rabais éducatif. Les progiciels principaux de la liste de prix d'avril 2010 de Saturne commencent à £ 13,000 (plus de 15 000 €), un prix hors de la portée de la plupart des citoyens ordinaires.
 
-Although no access to information law gives a right of access to information in open formats, open government data initiatives are starting to be accompanied by policy documents which stipulate that official information must be made available in open file formats. Setting the gold standard has been the Obama Administration, with the Open Government Directive issued in December 2009, which says:
+Bien qu'aucune loi sur l'accès à l'information n'accorde un droit d'accès à l'information dans des formats ouverts, les initiatives publiques de données gouvernementales commencent à être accompagnées de documents de politique qui stipulent que les informations officielles doivent être mises à disposition dans les formats de fichiers ouverts. La mise en place de l'étalon-or a été l'administration Obama, avec la Directive du gouvernement ouvert publiée en décembre 2009, qui dit:
 
-> *To the extent practicable and subject to valid restrictions, agencies should publish information online in an open format that can be retrieved, downloaded, indexed, and searched by commonly used web search applications. An open format is one that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.*
+> * Dans la mesure du possible et soumis à des restrictions valides, les agences doivent publier des informations en ligne dans un format ouvert qui peut être récupéré, téléchargé, indexé et recherché par des applications de recherche Web couramment utilisées. Un format ouvert est indépendant de la plate-forme, lisible par la machine et mis à la disposition du public sans restrictions qui entraverait la réutilisation de cette information. *
 
 ## Comment j'utilise un format spécifique ?
 
-When an authority must exhibit new data – data that has not been exhibited before – you should choose the format that provides the best balance between cost and suitability for purpose. For each format there are some things you should be aware of, and this section aims to explain them.
+Lorsqu'une autorité doit publier de nouvelles données - des données qui n'ont pas été fournies auparavant - vous devriez choisir le format qui offre le meilleur équilibre entre coût et adéquation à des fins spécifiques. Pour chaque format, il y a certaines choses que vous devriez connaître, et cette section a pour but de les expliquer.
 
-This section focuses only on how the cut surfaces are best arranged so that machines can access them directly. Advice and guidance about how web sites and web solutions should be designed can be found elsewhere.
+Cette section se concentre uniquement sur la meilleure façon de répartir les surfaces coupées afin que les machines puissent y accéder directement. Des conseils et bonnes pratiques sur la façon dont les sites Web et les solutions Web devraient être conçus peuvent être trouvés ailleurs.
 
 ### Services web
 
-For data that changes frequently, and where each pull is limited in size, it is very relevant to expose data through web services. There are several ways to create a web service, but some of the most used is SOAP and REST. Generally, SOAP over REST, REST services, but are very easy to develop and use, so it is a widely used standard.
+Pour les données qui changent fréquemment, et où chaque tirage est limité en taille, il est préférable de publier les données via des Web-services. Il existe plusieurs façons de créer un service Web, mais certains des plus utilisés sont SOAP et REST. En général, SOAP sur le service REST et REST sont très faciles à développer et à utiliser, et sont donc des normes largement utilisés.
 
 ### Base de données
 
-Like web services, databases provide direct access to data dynamically. Base de donnéess have the advantage that they can allow users to put together just the extraction that they are interested in.
+Comme les services Web, les bases de données fournissent un accès direct aux données de manière dynamique. Les bases de données ont l'avantage de permettre aux utilisateurs d'extraire uniquement ce qui les intéressent.
 
-There are some security concerns about allowing remote database extraction and database access is only useful if the structure of the database and the importance of individual tables and fields are well documented. Often, it is relatively simple and inexpensive to create web services that expose data from a database, which can be an easy way to address safety concerns.
+Certaines préoccupations de sécurité concernant l'extraction de base de données à distance et l'accès à la base de données ne sont utiles que si la structure de la base de données et l'importance des tables et des champs sont bien documentés. Souvent, il est relativement simple et peu coûteux de créer des services Web qui exposent des données à partir d'une base de données, ce qui peut être un moyen facile d'aborder les problèmes de sécurité.
