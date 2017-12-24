@@ -170,6 +170,10 @@ _single underscores_
 
 __double underscores__
 
+***Triple asterisks***
+
+___Triple asterisks___
+
     *single asterisks*
 
     _single underscores_
@@ -177,6 +181,10 @@ __double underscores__
     **double asterisks**
 
     __double underscores__
+
+    ***Triple asterisks***
+
+    ___Triple asterisks___
 
 
 
