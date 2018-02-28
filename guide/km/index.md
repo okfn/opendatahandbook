@@ -1,8 +1,8 @@
-This handbook discusses the legal, social and technical aspects of open data. It can be used by anyone but is especially designed for those seeking to open up data. It discusses the why, what and how of open data -- why to go open, what open is, and the how to 'open' data.
+សៀវភៅណែនាំនេះពិភាក្សាអំពីទិដ្ឋភាពផ្នែកច្បាប់ សង្គម និងបច្ចេកទេសនៃទិន្នន័យបើកទូលាយ។ វាអាចត្រូវបានប្រើដោយនរណាម្នាក់ក៏បាន ប៉ុន្តែវាត្រូវបានរចនាឡើងជាពិសេសសម្រាប់អ្នកដែលកំពុងស្វែងរកការបើកទូលាយទិន្នន័យ។ វាពិភាក្សាអំពីហេតុផល អ្វីជា និងរបៀបនៃការបើកទូលាយទិន្នន័យ - ហេតុអ្វីបានជាបើកទូលាយ​ តើអ្វីជាការបើកទូលាយ និងរបៀប "បើកទូលាយ" ទិន្នន័យ។
 
-To get started, you may wish to look at the Introduction. You can navigate through the report using the Table of Contents (see sidebar or below).
+ដើម្បីចាប់ផ្ដើមអ្នកអាចចង់មើលការណែនាំ។ អ្នកអាចចូលកាន់ តាមរយៈរបាយការណ៍ដោយប្រើតារាងមាតិកា (សូមមើលរបារចំហៀងឬខាងក្រោម) ។
 
-We warmly welcome comments on the text and will incorporate feedback as we go forward. We also welcome contributions or suggestions for additional sections and areas to examine.
-Table of Contents
+យើងបានស្វាគមន៍យ៉ាងកក់ក្ដៅចំពោះមតិយោបល់ជាអក្សរ​ ហើយនឹងរួមបញ្ចូលមតិយោបល់ដែលជួតអោយយើងឆ្ពោះទៅមុខ។ យើងក៏ស្វាគមន៍ចំពោះការរួមចំណែក ឬការផ្តល់យោបល់សម្រាប់ផ្នែកបន្ថែមនិងផ្នែកដែលត្រូវពិនិត្យ។
+តារាងមាតិកា
 
 {% include toc.html %}
