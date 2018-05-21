@@ -23,4 +23,13 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <script src="{{ "/js/vendor/modernizr-2.8.3.min.js" | prepend: site.baseurl }}"></script>
+
+    {% if site.googleanalytics %}
+    <script>
+      var okiConsent = {
+        analyticsTrackingID: '{{ site.googleanalytics }}';
+      }
+    </script>
+    <script src="https://github.com/okfn/a/blob/master/a/html/oki/consent/assets/js/consent.js"></script>
+    {% endif %}
 </head>
