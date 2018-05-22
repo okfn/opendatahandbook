@@ -1,0 +1,866 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>File Formats</title>
+    <meta name="description" content="Guides, case studies and resources for government & civil society
+on the "what, why & how" of open data.
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="google-site-verification" content="U6RmQ0BoQ9f1Omog3Mnas-Yd1At38pTDZbM1AtnOpnc" />
+    
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://opendatahandbook.org/guide/en/appendices/file-formats/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    
+    <script>
+      var okiConsent = {
+        analyticsTrackingID: 'UA-8271754-28'
+      }
+    </script>
+    <script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
+    
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+    <div>
+      <div id="ok-panel-wrapper">
+        <a class="white ok-ribbon" href="https://okfn.org/"><img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge International"></a>
+      </div>
+      <div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="/">Open Data Handbook</a>
+</header>
+
+<nav id="menu">
+  <ul>
+
+    <li>
+      <a href="/">Home</a>
+    </li>
+
+    <li >
+      <a href="/guide/en/introduction/">Guide</a>
+
+      <ul>
+
+        <!-- start navigation for guide section -->
+        
+        
+        <li >
+          <a href="/guide/en/introduction/">Introduction</a>
+          
+          <span class="subsections">
+            
+            <a href="#target-audience">Target Audience</a>
+            
+            <a href="#credits">Credits</a>
+            
+          </span>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/en/why-open-data/">Why Open Data?</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/en/what-is-open-data/">What is Open Data?</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/en/how-to-open-up-data/">How to Open Up Data</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/en/following-up/">So I've Opened Up Some Data, Now What? </a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/en/events/">Make data social</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/en/appendices/">Appendices</a>
+          
+        </li>
+        
+
+        <!-- start navigation for glossary section -->
+        <li>
+          <a href="/glossary/en/">Glossary</a>
+        </li>
+        <!-- end navigation for glossary section -->
+
+        <!-- end navigation for guide section -->
+      </ul>
+    </li>
+
+    <!-- start navigation for value stories section -->
+    <li>
+      <a href="/value-stories/en/">Value Stories</a>
+      
+    </li>
+    <!-- end navigation for value stories section -->
+
+    <!-- start navigation for resources section -->
+    <li>
+      <a href="/resources/">Resources</a>
+
+      
+
+    </li>
+    <!-- end navigation for resources section -->
+
+    <!-- start navigation for apps section -->
+    <li class="apps-menu">
+      <a href="/solutions/en/">Solutions</a>
+      <ul class="app-sub-menu">
+        <li class="search">
+          <input type="search" placeholder="Search" class="quicksearch">
+        </li>
+        
+        
+            
+            
+            
+            
+
+            <li class="problems filter active">
+              <a>Problems</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-problem-reusefederatedtools" data-pid=".problem-reusefederatedtools">(Re)use federated tools</a>
+                
+                <a data-filter=".selector-problem-assessholisticmetrics" data-pid=".problem-assessholisticmetrics">Assess holistic metrics</a>
+                
+                <a data-filter=".selector-problem-categoriseopennessofdata" data-pid=".problem-categoriseopennessofdata">Categorise openness of data</a>
+                
+                <a data-filter=".selector-problem-crossagencystrategy" data-pid=".problem-crossagencystrategy">Cross Agency strategy</a>
+                
+                <a data-filter=".selector-problem-developanopendatapublicationplan" data-pid=".problem-developanopendatapublicationplan">Develop an Open Data Publication Plan</a>
+                
+                <a data-filter=".selector-problem-developdatasetcriteria" data-pid=".problem-developdatasetcriteria">Develop dataset criteria</a>
+                
+                <a data-filter=".selector-problem-enablefeedbackchannelsforimprovingdataquality" data-pid=".problem-enablefeedbackchannelsforimprovingdataquality">Enable feedback channels for improving data quality</a>
+                
+                <a data-filter=".selector-problem-enablequalityassessmentofopendata" data-pid=".problem-enablequalityassessmentofopendata">Enable quality assessment of open data</a>
+                
+                <a data-filter=".selector-problem-encouragecrowdsourcingaroundpsi" data-pid=".problem-encouragecrowdsourcingaroundpsi">Encourage crowdsourcing around PSI</a>
+                
+                <a data-filter=".selector-problem-establishopengovernmentportal" data-pid=".problem-establishopengovernmentportal">Establish Open Government Portal</a>
+                
+                <a data-filter=".selector-problem-establishanopendataecosystem" data-pid=".problem-establishanopendataecosystem">Establish an Open Data Ecosystem</a>
+                
+                <a data-filter=".selector-problem-identifywhatyoualreadypublish" data-pid=".problem-identifywhatyoualreadypublish">Identify what you already publish</a>
+                
+                <a data-filter=".selector-problem-influxofhousingpriceincreases" data-pid=".problem-influxofhousingpriceincreases">Influx of Housing Price Increases</a>
+                
+                <a data-filter=".selector-problem-internationalaidandtransparency" data-pid=".problem-internationalaidandtransparency">International Aid & Transparency</a>
+                
+                <a data-filter=".selector-problem-opendatabusinessmodels" data-pid=".problem-opendatabusinessmodels">Open Data Business Models</a>
+                
+                <a data-filter=".selector-problem-openuppublictransportdata" data-pid=".problem-openuppublictransportdata">Open Up Public Transport Data</a>
+                
+                <a data-filter=".selector-problem-providepsiatzerocharge" data-pid=".problem-providepsiatzerocharge">Provide PSI at zero charge</a>
+                
+                <a data-filter=".selector-problem-publishstatisticaldatainlinkeddataformat" data-pid=".problem-publishstatisticaldatainlinkeddataformat">Publish Statistical Data In Linked Data Format</a>
+                
+                <a data-filter=".selector-problem-publishoverviewofmanageddata" data-pid=".problem-publishoverviewofmanageddata">Publish overview of managed data</a>
+                
+                <a data-filter=".selector-problem-ride-sharingandpublictransit" data-pid=".problem-ride-sharingandpublictransit">Ride-sharing and Public Transit</a>
+                
+                <a data-filter=".selector-problem-standardsforgeospatialdata" data-pid=".problem-standardsforgeospatialdata">Standards for Geospatial Data</a>
+                
+                <a data-filter=".selector-problem-trackingmodernwarfare" data-pid=".problem-trackingmodernwarfare">Tracking Modern Warfare</a>
+                
+                <a data-filter=".selector-problem-unveilingincarcerationrates" data-pid=".problem-unveilingincarcerationrates">Unveiling Incarceration Rates</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Themes</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-theme-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-theme-transport"> Transport</a>
+                
+                <a data-filter=".selector-theme-civilconflict">Civil Conflict</a>
+                
+                <a data-filter=".selector-theme-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-theme-health">Health</a>
+                
+                <a data-filter=".selector-theme-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-theme-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-theme-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-theme-sharepsi">Share PSI</a>
+                
+                <a data-filter=".selector-theme-transport">Transport</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Tags</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-tag-civilconflict"> Civil Conflict</a>
+                
+                <a data-filter=".selector-tag-crime"> Crime</a>
+                
+                <a data-filter=".selector-tag-development"> Development</a>
+                
+                <a data-filter=".selector-tag-drones"> Drones</a>
+                
+                <a data-filter=".selector-tag-e-government"> E-Government</a>
+                
+                <a data-filter=".selector-tag-foreignaffairs"> Foreign Affairs</a>
+                
+                <a data-filter=".selector-tag-housingprices"> Housing Prices</a>
+                
+                <a data-filter=".selector-tag-humanrights"> Human Rights</a>
+                
+                <a data-filter=".selector-tag-incarcerationrates"> Incarceration Rates</a>
+                
+                <a data-filter=".selector-tag-internaldisplacement"> Internal Displacement</a>
+                
+                <a data-filter=".selector-tag-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-tag-internationalsecurity"> International Security</a>
+                
+                <a data-filter=".selector-tag-metro"> Metro</a>
+                
+                <a data-filter=".selector-tag-sharepsi"> Share PSI</a>
+                
+                <a data-filter=".selector-tag-transparency"> Transparency</a>
+                
+                <a data-filter=".selector-tag-corruption"> corruption</a>
+                
+                <a data-filter=".selector-tag-development"> development</a>
+                
+                <a data-filter=".selector-tag-e-government"> e-government</a>
+                
+                <a data-filter=".selector-tag-foreignpolicy"> foreign policy</a>
+                
+                <a data-filter=".selector-tag-metro"> metro</a>
+                
+                <a data-filter=".selector-tag-publictransit"> public transit</a>
+                
+                <a data-filter=".selector-tag-ride-sharing"> ride-sharing</a>
+                
+                <a data-filter=".selector-tag-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-tag-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-tag-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-tag-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-tag-taxi">Taxi</a>
+                
+                <a data-filter=".selector-tag-transparency">Transparency</a>
+                
+                <a data-filter=".selector-tag-insurance">insurance</a>
+                
+                <a data-filter=".selector-tag-internationalaid">international aid</a>
+                
+                <a data-filter=".selector-tag-transparency">transparency</a>
+                
+              </span>
+            </li>
+        
+      </ul>
+      
+    </li>
+
+    <!-- start navigation for contribute section -->
+    <li class="">
+      <a href="/contribute/">Contribute</a>
+      <ul>
+        
+        
+        
+        <li >
+          <a href="/contribute/">Contributing To The Handbook</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/adding/">Adding A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/editing/">Editing A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-term/">Adding A Term To The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-resource/">Adding A Resource To The Library</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-guide/">Translating The Guide</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-glossary/">Translating The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/markdown-examples/">Markdown Examples</a>
+        </li>
+        
+      </ul>
+    </li>
+    <!-- end navigation for contribute section -->
+
+    <li>
+      <a href="/credits/">Credits</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="/guide/en/" class="pre-header">guide</a>
+    <h1 class="post-title">File Formats</h1>
+    
+
+    
+
+
+
+<div class="languages">
+  <strong>Languages:</strong>&nbsp;
+  
+  
+  
+  
+  
+  <span><a  href="/guide/de/appendices/file-formats/" title="Deutsch">de</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/el/appendices/file-formats/" title="Ελληνικά">el</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a class="active_language" href="/guide/en/appendices/file-formats/" title="English">en</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/es/appendices/file-formats/" title="Español/Castellano">es</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/fr/appendices/file-formats/" title="Français">fr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/he/appendices/file-formats/" title="עברית">he</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/hr/appendices/file-formats/" title="hrvatski">hr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/id/appendices/file-formats/" title="Bahasa">id</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/is/appendices/file-formats/" title="Íslenska">is</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/it/appendices/file-formats/" title="Italiano">it</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ja/appendices/file-formats/" title="日本語">ja</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ko/appendices/file-formats/" title="한국어">ko</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lt/appendices/file-formats/" title="Lietuvių">lt</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lv/appendices/file-formats/" title="Latviešu">lv</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/my/appendices/file-formats/" title="မြန်မာဘာသာ">my</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ne/appendices/file-formats/" title="नेपाली भाषा">ne</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/nl_BE/appendices/file-formats/" title="Nederlands (Belgisch)">nl_BE</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/pt_BR/appendices/file-formats/" title="Português Brasileiro">pt_BR</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ro/appendices/file-formats/" title="Română">ro</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ru/appendices/file-formats/" title="Pyccĸий">ru</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_CN/appendices/file-formats/" title="中国语文">zh_CN</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_TW/appendices/file-formats/" title="繁體中文">zh_TW</a>&nbsp;</span>
+  
+  
+</div>
+
+
+
+
+    <h2 id="an-overview-of-file-formats">An Overview of File Formats</h2>
+
+<h3 id="json">JSON</h3>
+
+<p>JSON is a simple file format that is very easy for any programming language to read. Its simplicity means that it is generally easier for computers to process than others, such as XML.</p>
+
+<h3 id="xml">XML</h3>
+
+<p>XML is a widely used format for data exchange because it gives good opportunities to keep the structure in the data and the way files are built on, and allows developers to write parts of the documentation in with the data without interfering with the reading of them.</p>
+
+<h3 id="rdf">RDF</h3>
+
+<p>A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be stored in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides a convenient way to directly interconnect existing <a href="/glossary/en/terms/open-data/">open data</a> initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a <a href="http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/">fivesstar</a> scheme that includes linked RDF data as a goal to be sought for open data initiatives.</p>
+
+<h3 id="spreadsheets">Spreadsheets</h3>
+
+<p>Many authorities have information left in the spreadsheet, for example Microsoft Excel. This data can often be used immediately with the correct descriptions of what the different columns mean.</p>
+
+<p>However, in some cases there can be macros and formulas in spreadsheets, which may be somewhat more cumbersome to handle. It is therefore advisable to document such calculations next to the spreadsheet, since it is generally more accessible for users to read.</p>
+
+<h3 id="comma-separated-files">Comma Separated Files</h3>
+
+<p>CSV files can be a very useful format because it is compact and thus suitable to transfer large sets of data with the same structure. However, the format is so spartan that data are often useless without documentation since it can be almost impossible to guess the significance of the different columns. It is therefore particularly important for the comma-separated formats that documentation of the individual fields are accurate.</p>
+
+<p>Furthermore it is essential that the structure of the file is respected, as a single omission of a field may disturb the reading of all remaining data in the file without any real opportunity to rectify it, because it cannot be determined how the remaining data should be interpreted.</p>
+
+<h3 id="text-document">Text Document</h3>
+
+<p>Classic documents in formats like Word, ODF, OOXML, or PDF may be sufficient to show certain kinds of data - for example, relatively stable mailing lists or equivalent. It may be cheap to exhibit in, as often it is the format the data is born in. The format gives no support to keep the structure consistent, which often means that it is difficult to enter data by automated means. Be sure to use templates as the basis of documents that will display data for re-use, so it is at least possible to pull information out of documents.</p>
+
+<p>It can also support the further use of data to use typography markup as much as possible so that it becomes easier for a machine to distinguish headings (any type specified) from the content and so on. Generally it is recommended not to exhibit in word processing format, if data exists in a different format.</p>
+
+<h3 id="plain-text">Plain Text</h3>
+
+<p>Plain text documents (.txt) are very easy for computers to read. They generally exclude structural metadata from inside the document however, meaning that developers will need to create a parser that can interpret each document as it appears.</p>
+
+<p>Some problems can be caused by switching plain text files between operating systems. MS Windows, Mac OS X and other Unix variants have their own way of telling the computer that they have reached the end of the line.</p>
+
+<h3 id="scanned-image">Scanned image</h3>
+
+<p>Probably the least suitable form for most data, but both TIFF and JPEG-2000 can at least mark them with documentation of what is in the picture - right up to mark up an image of a document with full text content of the document. It may be relevant to their displaying data as images whose data are not born electronically - an obvious example is the old church records and other archival material - and a picture is better than nothing.</p>
+
+<h3 id="proprietary-formats">Proprietary formats</h3>
+
+<p>Some dedicated systems, etc. have their own data formats that they can save or export data in. It can sometimes be enough to expose data in such a format - especially if it is expected that further use would be in a similar system as that which they come from. Where further information on these proprietary formats can be found should always be indicated, for example by providing a link to the supplier’s website. Generally it is recommended to display data in non-proprietary formats where feasible.</p>
+
+<h3 id="html">HTML</h3>
+
+<p>Nowadays much data is available in HTML format on various sites. This may well be sufficient if the data is very stable and limited in scope. In some cases, it could be preferable to have data in a form easier to download and manipulate, but as it is cheap and easy to refer to a page on a website, it might be a good starting point in the display of data.</p>
+
+<p>Typically, it would be most appropriate to use tables in HTML documents to hold data, and then it is important that the various data fields are displayed and are given IDs which make it easy to find and manipulate data. Yahoo has developed a tool (<a href="http://developer.yahoo.com/yql/">http://developer.yahoo.com/yql/</a>) that can extract structured information from a website, and such tools can do much more with the data if it is carefully tagged.</p>
+
+<h2 id="open-file-formats">Open File Formats</h2>
+
+<p>Even if information is provided in electronic, machine-readable format, and in detail, there may be issues relating to the format of the file itself.</p>
+
+<p>The formats in which information is published – in other words, the digital base in which the information is stored - can either be “open” or “closed”. An open format is one where the specifications for the software are available to anyone, free of charge, so that anyone can use these specifications in their own software without any limitations on re-use imposed by intellectual property rights.</p>
+
+<p>If a file format is “closed”, this may be either because the file format is proprietary and the specification is not publicly available, or because the file format is proprietary and even though the specification has been made public, re-use is limited. If information is released in a closed file format, this can cause significant obstacles to reusing the information encoded in it, forcing those who wish to use the information to buy the necessary software.</p>
+
+<p>The benefit of open file formats is that they permit developers to produce multiple software packages and services using these formats. This then minimises the obstacles to reusing the information they contain.</p>
+
+<p>Using proprietary file formats for which the specification is not publicly available can create dependence on third-party software or file format license holders. In worst-case scenarios, this can mean that information can only be read using certain software packages, which can be prohibitively expensive, or which may become obsolete.</p>
+
+<p>The preference from the <a href="/glossary/en/terms/open-government/">open government</a> data perspective therefore is that information be released in <strong>open file formats which are machine-readable.</strong></p>
+
+<h3 id="example-uk-traffic-data">Example: UK traffic data</h3>
+
+<p>Andrew Nicolson is a software developer who was involved in an (ultimately successful) campaign against the construction of a new road, the Westbury Eastern bypass, in the UK. Andrew was interested in accessing and using the road traffic data that was being used to justify the proposals. He managed to obtain some of the relevant data via freedom of information requests, but the local government provided the data in a proprietary format which can only be read using software produced by a company called Saturn, who specialise in traffic modelling and forecasting. There is no provision for a “read only” version of the software, so Andrew’s group had no choice but to purchase a software license, eventually paying £500 (€600) when making use of an educational discount. The main software packages on the April 2010 price list from Saturn start at £13,000 (over €15,000), a price which is beyond the reach of most ordinary citizens.</p>
+
+<p>Although no access to information law gives a right of access to information in open formats, open government data initiatives are starting to be accompanied by policy documents which stipulate that official information must be made available in open file formats. Setting the gold standard has been the Obama Administration, with the Open Government Directive issued in December 2009, which says:</p>
+
+<blockquote>
+  <p><em>To the extent practicable and subject to valid restrictions, agencies should publish information online in an open format that can be retrieved, downloaded, indexed, and searched by commonly used web search applications. An open format is one that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.</em></p>
+</blockquote>
+
+<h2 id="how-do-i-use-a-given-format">How do I use a given format?</h2>
+
+<p>When an authority must exhibit new data – data that has not been exhibited before – you should choose the format that provides the best balance between cost and suitability for purpose. For each format there are some things you should be aware of, and this section aims to explain them.</p>
+
+<p>This section focuses only on how the cut surfaces are best arranged so that machines can access them directly. Advice and guidance about how web sites and web solutions should be designed can be found elsewhere.</p>
+
+<h3 id="web-services">Web services</h3>
+
+<p>For data that changes frequently, and where each pull is limited in size, it is very relevant to expose data through web services. There are several ways to create a web service, but some of the most used is SOAP and REST. Generally, SOAP over REST, REST services, but are very easy to develop and use, so it is a widely used standard.</p>
+
+<h3 id="database">Database</h3>
+
+<p>Like web services, databases provide direct access to data dynamically. Databases have the advantage that they can allow users to put together just the extraction that they are interested in.</p>
+
+<p>There are some security concerns about allowing remote database extraction and database access is only useful if the structure of the database and the importance of individual tables and fields are well documented. Often, it is relatively simple and inexpensive to create web services that expose data from a database, which can be an easy way to address safety concerns.</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+  <ul>
+    
+    <li class="edit tooltip-item">
+      Improve this page
+
+      <span class="tooltip">
+        <a href="https://github.com/okfn/opendatahandbook/edit/master/guide/en/appendices/file-formats.md" class="github" rel="external">Edit on Github</a>
+        <a href="/contribute/" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    
+    
+    <li class="translate tooltip-item">
+      Translate this page
+      <span class="tooltip">
+        <a href="/contribute/translate-guide" target="_blank">Translation guide</a>
+      </span>
+    </li>
+    
+
+    
+
+    <li class="donate tooltip-item">
+      Donate
+      
+      <span class="tooltip">
+        <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+        <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+          <select name="currency_code">
+            <option value="USD">US Dollar $</option>
+            <option value="EUR">Euro €</option>
+            <option value="GBP">UK £</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="CZK">Czech Koruna</option>
+            <option value="DKK">Danish Krone</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="HUF">Hungarian Forint</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="NOK">Norwegian Krone</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="PLN">Polish Zloty</option>
+            <option value="SEK">Swedish Krona</option>
+            <option value="SGD">Singapore Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+          </select>
+          <input type="text" value="2.00" name="amount">
+          <input type="submit" value="Donate via PayPal" name="submit">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" alt="">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">
+          <input type="hidden" value="_xclick" name="cmd">
+          <input type="hidden" value="admin@okfn.org" name="business">
+          <input type="hidden" value="Open Data Handbook Donation to Open Knowledge" name="item_name">
+        </form>
+      </span>
+    </li>
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://opendatahandbook.org/guide/en/appendices/file-formats/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=File Formats: http://opendatahandbook.org/guide/en/appendices/file-formats/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+
+        <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+      <a href="https://okfn.org/" rel="external"><img src="//a.okfn.org/img/oki/landscape-grey-468x122.png" width="123" height="32" alt="Open Knowledge International"></a>
+
+      
+      <div class="supporters">
+        <h6>Supported by</h6>
+        
+          
+          <a href="https://www.shuttleworthfoundation.org/" rel="external"><img src="/img/supporters/shuttleworth-footer.png" alt="Shuttleworth Foundation"></a>
+          
+        
+          
+          <a href="http://www.worldbank.org/" rel="external"><img src="/img/supporters/worldbank-footer.png" alt="The World Bank"></a>
+          
+        
+          
+          <a href="http://od4d.net/" rel="external"><img src="/img/supporters/od4d-footer.png" alt="OD4D"></a>
+          
+        
+      </div>
+      
+    </div>
+
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribute</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Related Projects</h6>
+        <ul>
+          
+          <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
+          
+          <li><a href="http://datahub.io/">The DataHub</a></li>
+          
+          <li><a href="http://dataportals.org/">DataPortals.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+          <li><a href="http://okfn.org/opendata/">Introducing Open Data</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin@okfn.org&lc=GB&item_name=Open Data Handbook%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        
+        
+        <li class="discuss"><a href="https://discuss.okfn.org/c/open-data-handbook" rel="external"><span>Contact</span></a></li>
+        
+        
+        <li class="source"><a href="https://github.com/okfn/opendatahandbook" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://opendatahandbook.org/guide/en/appendices/file-formats/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+  </body>
+
+</html>

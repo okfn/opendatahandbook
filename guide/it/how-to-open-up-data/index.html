@@ -1,0 +1,989 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Come aprire i dati</title>
+    <meta name="description" content="Guides, case studies and resources for government & civil society
+on the "what, why & how" of open data.
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="google-site-verification" content="U6RmQ0BoQ9f1Omog3Mnas-Yd1At38pTDZbM1AtnOpnc" />
+    
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://opendatahandbook.org/guide/it/how-to-open-up-data/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    
+    <script>
+      var okiConsent = {
+        analyticsTrackingID: 'UA-8271754-28'
+      }
+    </script>
+    <script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
+    
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+    <div>
+      <div id="ok-panel-wrapper">
+        <a class="white ok-ribbon" href="https://okfn.org/"><img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge International"></a>
+      </div>
+      <div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="/">Open Data Handbook</a>
+</header>
+
+<nav id="menu">
+  <ul>
+
+    <li>
+      <a href="/">Home</a>
+    </li>
+
+    <li >
+      <a href="/guide/it/introduction/">Guide</a>
+
+      <ul>
+
+        <!-- start navigation for guide section -->
+        
+        
+        <li >
+          <a href="/guide/it/introduction/">Introduction</a>
+          
+          <span class="subsections">
+            
+            <a href="#target-audience">Target Audience</a>
+            
+            <a href="#credits">Credits</a>
+            
+          </span>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/it/why-open-data/">Why Open Data?</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/it/what-is-open-data/">What is Open Data?</a>
+          
+        </li>
+        
+        
+        <li class="Selected">
+          <a href="/guide/it/how-to-open-up-data/">How to Open Up Data</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/it/following-up/">So I've Opened Up Some Data, Now What? </a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/it/events/">Make data social</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/it/appendices/">Appendices</a>
+          
+        </li>
+        
+
+        <!-- start navigation for glossary section -->
+        <li>
+          <a href="/glossary/it/">Glossary</a>
+        </li>
+        <!-- end navigation for glossary section -->
+
+        <!-- end navigation for guide section -->
+      </ul>
+    </li>
+
+    <!-- start navigation for value stories section -->
+    <li>
+      <a href="/value-stories/it/">Value Stories</a>
+      
+    </li>
+    <!-- end navigation for value stories section -->
+
+    <!-- start navigation for resources section -->
+    <li>
+      <a href="/resources/">Resources</a>
+
+      
+
+    </li>
+    <!-- end navigation for resources section -->
+
+    <!-- start navigation for apps section -->
+    <li class="apps-menu">
+      <a href="/solutions/en/">Solutions</a>
+      <ul class="app-sub-menu">
+        <li class="search">
+          <input type="search" placeholder="Search" class="quicksearch">
+        </li>
+        
+        
+            
+            
+            
+            
+
+            <li class="problems filter active">
+              <a>Problems</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-problem-reusefederatedtools" data-pid=".problem-reusefederatedtools">(Re)use federated tools</a>
+                
+                <a data-filter=".selector-problem-assessholisticmetrics" data-pid=".problem-assessholisticmetrics">Assess holistic metrics</a>
+                
+                <a data-filter=".selector-problem-categoriseopennessofdata" data-pid=".problem-categoriseopennessofdata">Categorise openness of data</a>
+                
+                <a data-filter=".selector-problem-crossagencystrategy" data-pid=".problem-crossagencystrategy">Cross Agency strategy</a>
+                
+                <a data-filter=".selector-problem-developanopendatapublicationplan" data-pid=".problem-developanopendatapublicationplan">Develop an Open Data Publication Plan</a>
+                
+                <a data-filter=".selector-problem-developdatasetcriteria" data-pid=".problem-developdatasetcriteria">Develop dataset criteria</a>
+                
+                <a data-filter=".selector-problem-enablefeedbackchannelsforimprovingdataquality" data-pid=".problem-enablefeedbackchannelsforimprovingdataquality">Enable feedback channels for improving data quality</a>
+                
+                <a data-filter=".selector-problem-enablequalityassessmentofopendata" data-pid=".problem-enablequalityassessmentofopendata">Enable quality assessment of open data</a>
+                
+                <a data-filter=".selector-problem-encouragecrowdsourcingaroundpsi" data-pid=".problem-encouragecrowdsourcingaroundpsi">Encourage crowdsourcing around PSI</a>
+                
+                <a data-filter=".selector-problem-establishopengovernmentportal" data-pid=".problem-establishopengovernmentportal">Establish Open Government Portal</a>
+                
+                <a data-filter=".selector-problem-establishanopendataecosystem" data-pid=".problem-establishanopendataecosystem">Establish an Open Data Ecosystem</a>
+                
+                <a data-filter=".selector-problem-identifywhatyoualreadypublish" data-pid=".problem-identifywhatyoualreadypublish">Identify what you already publish</a>
+                
+                <a data-filter=".selector-problem-influxofhousingpriceincreases" data-pid=".problem-influxofhousingpriceincreases">Influx of Housing Price Increases</a>
+                
+                <a data-filter=".selector-problem-internationalaidandtransparency" data-pid=".problem-internationalaidandtransparency">International Aid & Transparency</a>
+                
+                <a data-filter=".selector-problem-opendatabusinessmodels" data-pid=".problem-opendatabusinessmodels">Open Data Business Models</a>
+                
+                <a data-filter=".selector-problem-openuppublictransportdata" data-pid=".problem-openuppublictransportdata">Open Up Public Transport Data</a>
+                
+                <a data-filter=".selector-problem-providepsiatzerocharge" data-pid=".problem-providepsiatzerocharge">Provide PSI at zero charge</a>
+                
+                <a data-filter=".selector-problem-publishstatisticaldatainlinkeddataformat" data-pid=".problem-publishstatisticaldatainlinkeddataformat">Publish Statistical Data In Linked Data Format</a>
+                
+                <a data-filter=".selector-problem-publishoverviewofmanageddata" data-pid=".problem-publishoverviewofmanageddata">Publish overview of managed data</a>
+                
+                <a data-filter=".selector-problem-ride-sharingandpublictransit" data-pid=".problem-ride-sharingandpublictransit">Ride-sharing and Public Transit</a>
+                
+                <a data-filter=".selector-problem-standardsforgeospatialdata" data-pid=".problem-standardsforgeospatialdata">Standards for Geospatial Data</a>
+                
+                <a data-filter=".selector-problem-trackingmodernwarfare" data-pid=".problem-trackingmodernwarfare">Tracking Modern Warfare</a>
+                
+                <a data-filter=".selector-problem-unveilingincarcerationrates" data-pid=".problem-unveilingincarcerationrates">Unveiling Incarceration Rates</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Themes</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-theme-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-theme-transport"> Transport</a>
+                
+                <a data-filter=".selector-theme-civilconflict">Civil Conflict</a>
+                
+                <a data-filter=".selector-theme-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-theme-health">Health</a>
+                
+                <a data-filter=".selector-theme-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-theme-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-theme-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-theme-sharepsi">Share PSI</a>
+                
+                <a data-filter=".selector-theme-transport">Transport</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Tags</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-tag-civilconflict"> Civil Conflict</a>
+                
+                <a data-filter=".selector-tag-crime"> Crime</a>
+                
+                <a data-filter=".selector-tag-development"> Development</a>
+                
+                <a data-filter=".selector-tag-drones"> Drones</a>
+                
+                <a data-filter=".selector-tag-e-government"> E-Government</a>
+                
+                <a data-filter=".selector-tag-foreignaffairs"> Foreign Affairs</a>
+                
+                <a data-filter=".selector-tag-housingprices"> Housing Prices</a>
+                
+                <a data-filter=".selector-tag-humanrights"> Human Rights</a>
+                
+                <a data-filter=".selector-tag-incarcerationrates"> Incarceration Rates</a>
+                
+                <a data-filter=".selector-tag-internaldisplacement"> Internal Displacement</a>
+                
+                <a data-filter=".selector-tag-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-tag-internationalsecurity"> International Security</a>
+                
+                <a data-filter=".selector-tag-metro"> Metro</a>
+                
+                <a data-filter=".selector-tag-sharepsi"> Share PSI</a>
+                
+                <a data-filter=".selector-tag-transparency"> Transparency</a>
+                
+                <a data-filter=".selector-tag-corruption"> corruption</a>
+                
+                <a data-filter=".selector-tag-development"> development</a>
+                
+                <a data-filter=".selector-tag-e-government"> e-government</a>
+                
+                <a data-filter=".selector-tag-foreignpolicy"> foreign policy</a>
+                
+                <a data-filter=".selector-tag-metro"> metro</a>
+                
+                <a data-filter=".selector-tag-publictransit"> public transit</a>
+                
+                <a data-filter=".selector-tag-ride-sharing"> ride-sharing</a>
+                
+                <a data-filter=".selector-tag-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-tag-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-tag-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-tag-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-tag-taxi">Taxi</a>
+                
+                <a data-filter=".selector-tag-transparency">Transparency</a>
+                
+                <a data-filter=".selector-tag-insurance">insurance</a>
+                
+                <a data-filter=".selector-tag-internationalaid">international aid</a>
+                
+                <a data-filter=".selector-tag-transparency">transparency</a>
+                
+              </span>
+            </li>
+        
+      </ul>
+      
+    </li>
+
+    <!-- start navigation for contribute section -->
+    <li class="">
+      <a href="/contribute/">Contribute</a>
+      <ul>
+        
+        
+        
+        <li >
+          <a href="/contribute/">Contributing To The Handbook</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/adding/">Adding A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/editing/">Editing A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-term/">Adding A Term To The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-resource/">Adding A Resource To The Library</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-guide/">Translating The Guide</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-glossary/">Translating The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/markdown-examples/">Markdown Examples</a>
+        </li>
+        
+      </ul>
+    </li>
+    <!-- end navigation for contribute section -->
+
+    <li>
+      <a href="/credits/">Credits</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="/guide/it/" class="pre-header">guide</a>
+    <h1 class="post-title">Come aprire i dati</h1>
+    
+
+    
+
+
+
+<div class="languages">
+  <strong>Languages:</strong>&nbsp;
+  
+  
+  
+  
+  
+  <span><a  href="/guide/de/how-to-open-up-data/" title="Deutsch">de</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/el/how-to-open-up-data/" title="Ελληνικά">el</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/en/how-to-open-up-data/" title="English">en</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/es/how-to-open-up-data/" title="Español/Castellano">es</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/fr/how-to-open-up-data/" title="Français">fr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/he/how-to-open-up-data/" title="עברית">he</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/hr/how-to-open-up-data/" title="hrvatski">hr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/id/how-to-open-up-data/" title="Bahasa">id</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/is/how-to-open-up-data/" title="Íslenska">is</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a class="active_language" href="/guide/it/how-to-open-up-data/" title="Italiano">it</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ja/how-to-open-up-data/" title="日本語">ja</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ko/how-to-open-up-data/" title="한국어">ko</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lt/how-to-open-up-data/" title="Lietuvių">lt</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lv/how-to-open-up-data/" title="Latviešu">lv</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/my/how-to-open-up-data/" title="မြန်မာဘာသာ">my</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ne/how-to-open-up-data/" title="नेपाली भाषा">ne</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/nl_BE/how-to-open-up-data/" title="Nederlands (Belgisch)">nl_BE</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/pt_BR/how-to-open-up-data/" title="Português Brasileiro">pt_BR</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ro/how-to-open-up-data/" title="Română">ro</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ru/how-to-open-up-data/" title="Pyccĸий">ru</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_CN/how-to-open-up-data/" title="中国语文">zh_CN</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_TW/how-to-open-up-data/" title="繁體中文">zh_TW</a>&nbsp;</span>
+  
+  
+</div>
+
+
+
+
+    <p>Questa sezione costituisce il nucleo centrale del manuale: fornisce consigli concreti e dettagliati ai detentori di dati che intendano aprirli. Sono esaminate le questioni fondamentali e i principali rischi. Saranno infine discusse anche le problematiche più complesse che si possono presentare.</p>
+
+<p>Ci sono tre regole fondamentali che si consiglia di seguire nell’apertura dei dati:</p>
+
+<ul>
+  <li><strong>Scegliere la semplicità</strong>. Cominciare con un progetto piccolo, semplice e veloce. Non è necessario aprire tutti i dati in una sola volta. Inizialmente va bene aprire anche un solo dataset, o anche una sua parte – naturalmente, più dati si aprono, meglio è.</li>
+</ul>
+
+<blockquote>
+  <p>Da ricordare che è innovazione. Muoversi il più in fretta possibile è bene, perché significa prendere slancio e imparare dall’esperienza – innovare comporta successi ed errori, e non tutte le banche dati saranno utili.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Coinvolgere gli utenti fin dall’inizio e coinvolgerli spesso.</strong> Cercare presto e spesso il confronto con i potenziali utilizzatori dei dati fra cittadini, imprese o sviluppatori Ciò aumenterà la rilevanza dell’iniziativa durante tutto il suo percorso.</li>
+</ul>
+
+<blockquote>
+  <p>È essenziale tenere presente che gran parte dei dati non raggiungeranno gli utenti finali direttamente, ma tramite ‘info-intermediari’. Queste sono le persone che prendono i dati e li trasformano o li remixano per la presentazione. Ad esempio, la maggior parte di noi non vuole o non ha bisogno di un grande database di coordinate GPS, preferiamo decisamente una mappa. Così coinvolgete da subito gli info-intermediari, in modo che essi possano riutilizzare e riadattare i vostri dati.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Affrontare i timori e le incomprensioni diffuse.</strong> Questo è importante soprattutto se lavori in o con grandi organizzazioni come le istituzioni governative. Nell’aprire i dati sorgeranno molte domande e timori. È importante (a) identificare le più rilevanti, e (b) darvi una risposta il più presto possibile.</li>
+</ul>
+
+<p>Ci sono quattro passi principali per rendere i dati aperti, saranno tutte affrontate in dettaglio di seguito. Le abbiamo elencate in un ordine molto approssimativo - molti passi possono essere fatti contemporaneamente.</p>
+
+<ol>
+  <li>** Scegliere i dataset.** Scegliere ciò che si intende rendere aperto, ricordando che si può (ovvero potrebbe essere necessario), rivedere questo passaggio se si incontrano problemi nelle fasi successive.</li>
+  <li>** Utilizzare una licenza open .**
+    <ol>
+      <li>Determinare quali sono i diritti di proprietà intellettuale che insistono sui dati.</li>
+      <li>Applicare una adeguata licenza ‘open’ che copra tutti i diritti identificati, compatibile con la definizione di apertura discussa nella precedente sezione ‘Cosa è Open Data’</li>
+      <li>NB: se ciò non è possibile, si ritorni al punto 1 e riprovare con una banca dati diversa.</li>
+    </ol>
+  </li>
+  <li><strong>Rendere i dati disponibili</strong> - in gran quantità e in un formato utile. Si possono prendere in considerazione anche metodi alternativi come la distribuzione attraverso API.</li>
+  <li><strong>Renderlo disponibile</strong> - pubblicare sul Web e forse organizzando un catalogo centrale dove elencare l’insieme dei dati aperti.</li>
+</ol>
+
+<h2 id="scegliere-le-banche-dati">Scegliere le banche dati</h2>
+
+<p>La scelta dei dati che si prevede di rendere aperti è il primo passo da compiere - anche se è bene ricordare che l’intero processo di apertura dei dati è iterativo e pertanto rimane possibile tornare indietro qualora si presentino problemi.</p>
+
+<p>Se si ha già esattamente un’idea di quali dati si prevede di aprire si può passare direttamente alla sezione successiva. In molti casi, tuttavia, soprattutto nel caso delle grandi istituzioni, stabilire con quale insieme di dati cominciare è sempre una sfida. Come si dovrebbe procedere in questo caso?</p>
+
+<p>Creare una lista potrebbe aiutare a velocizzare il processo di identificazione dei dati con cui cominciare il processo di apertura. In un momento successivo sarà possibile poi verificare nel dettaglio se tutte le banche dati sono adatte allo scopo.</p>
+
+<p>Non vi è <strong>alcun obbligo</strong> di creare un elenco completo dei dataset. Il punto principale da considerare è se sia possibile pubblicare questi dati o meno (qualsiasi sia l’approccio scelto, aperto o meno) - si veda <a href="../what-is-open-data/">la sezione</a>.</p>
+
+<h3 id="consultare-la-comunità">Consultare la comunità</h3>
+
+<p>E’ consigliabile in primo luogo consultare la comunità. I soggetti che accederanno ed utilizzeranno i dati sono infatti nella migliore posizione per identificare quali dati siano di particolare valore.</p>
+
+<ol>
+  <li>Si può preparare un breve elenco di dataset potenziali su cui si desidera avere un feedback. Non è indispensabile che questa lista coincida con le vostre aspettative, l’intento principale è quello di avere una prima idea delle esigenze. L’elenco potrebbe ad esempio ispirarsi a cataloghi di <a href="/glossary/it/terms/open-data/">open data</a> di altri paesi.</li>
+  <li>Creare una richiesta per ottenere commenti.</li>
+  <li>Pubblicizzare la richiesta di commenti in una pagina web e assicurarsi che sia possibile accedere alla richiesta attraverso l’URL indicato. In questo modo, in caso di condivisione attraverso social media, la richiesta risulterà facilmente reperibile.</li>
+  <li>Le risposte devono poter essere inviate attraverso una procedura semplice. É da evitare la richiesta di commenti previa registrazione perché ciò riduce il numero di risposte.</li>
+  <li>Utilizzare mailing list, forum e soggetti rilevanti per far condividere la richiesta attraverso un link diretto alla pagina web.</li>
+  <li>Si può organizzare uno speciale evento di consultazione. É importante riuscire a trovare un orario conveniente per chi lavora in ufficio, nell’area commerciale e per gli sviluppatori.</li>
+  <li>Chiedi a un politico di parlare per conto della tua agenzia. Gli open data sono spesso parte di più ampie politiche dirette ad aumentare l’accesso all’informazione governativa.</li>
+</ol>
+
+<h3 id="costi-base">Costi base</h3>
+
+<p>Quanti soldi spendono le agenzie per la raccolta e manutenzione dei dati in loro possesso? Se passano molto tempo su un particolare insieme di dati, allora è molto probabile che altri utenti vorrebbero accedervi.</p>
+
+<p>Questo discorso potrebbe certo suscitare timori di freeriding. La domanda cui bisogna rispondere è: “Perché consentire ad altri di ottenere gratuitamente informazioni tanto costose?”. La risposta è che questo costo viene già sopportato dal settore pubblico, nello svolgimento di una funzione particolare. E il costo di trasmettere i dati a terzi, dopo averli raccolti, è all’incirca nullo. Perciò, non si dovrebbe esigere nulla.</p>
+
+<h3 id="facilità-di-rilascio">Facilità di rilascio</h3>
+
+<p>A volte, piuttosto che decidere quali dati sarebbero di maggior valore, potrebbe essere utile controllare quali dati siano più semplici da presentare al pubblico. Semplici rilasci di dati in piccole quantità possono più facilmente cambiare i comportamenti all’interno delle organizzazioni.</p>
+
+<p>É comunque necessario usare cautela nell’applicare questo approccio. Questi piccoli e veloci rilasci di dati potrebbero essere di così scarso interesse che non permettano di costruire nulla di utile. Se succede, il destino dell’intero progetto potrebbe essere segnato.</p>
+
+<h3 id="osserva-i-tuoi-pari">Osserva i tuoi pari.</h3>
+
+<p>Open data è un movimento in crescita. Probabilmente nella vostra zona molte persone sanno cosa si sta facendo in altri settori. Fate una lista sulla base di ciò che stanno facendo questi gruppi.</p>
+
+<h2 id="applicare-una-licenza-aperta-apertura-giuridica">Applicare una licenza aperta (apertura giuridica)</h2>
+
+<p>Nella maggior parte delle legislazioni nazionali ci sono diritti di proprietà intellettuale dei dati che impediscono a terzi l’uso, il riutilizzo e la ridistribuzione dei dati senza un’autorizzazione esplicita. Anche nei casi in cui l’esistenza di diritti è incerta, è importante applicare una licenza per motivi di chiarezza. Così, ** se stai progettando di rendere i tuoi dati disponibili, dovresti mettere una licenza su di essi** - e se volete che i vostri dati siano <a href="http://opendefinition.org/">aperti</a> questo è ancora più importante.</p>
+
+<p>Quali licenze usare? Per i dati aperti consigliamo una licenza che sia compatibile con la Open Definition e che sia applicabile ai dati. Una lista (con le relative istruzioni per l’uso) si può trovare presso:</p>
+
+<ul>
+  <li><a href="http://opendefinition.org/licenses/">http://opendefinition.org/licenses/</a></li>
+</ul>
+
+<p>Una breve guida in inglese (una pagina) su come applicare una licenza Open Data può essere trovata sul sito Open Data Commons:</p>
+
+<ul>
+  <li><a href="http://opendatacommons.org/guide/">http://opendatacommons.org/guide/</a></li>
+</ul>
+
+<h2 id="rendere-i-dati-disponibili-aspetti-tecnici">Rendere i dati disponibili (Aspetti Tecnici)</h2>
+
+<p>Gli <a href="/glossary/it/terms/open-data/">Open data</a> devono essere aperti, sia dal punto di vista tecnico che da quello legale. In particolare i dati devono essere disponibili in grande quantità in un formato <a href="/glossary/it/terms/machine-readable/">machine-readable</a>.</p>
+
+<p><strong>Available</strong></p>
+
+<p>I dati dovrebbero essere dispinibili ad una tariffa non superiore al ragionevole costo per la loro riproduzione, e preferibilmente come download gratuito da Internet. Questo modello di tariffa è raggiunto qualora l’ente non sostenga alcun costo aggiuntivo nel fornire dati da utilizzare.</p>
+
+<p><strong>In bulk</strong></p>
+
+<p>I dati dovrebbero essere disponibili come insieme completo. Se ad esempio si dispone di un registro mantenuto per obblighi di legge, allora l’intero registro dovrebbe essere disponibile per il download. Una API web o un servizio simile possono essere molto utili, ma non possono sostituire l’accesso diretto ai dati.</p>
+
+<p><strong>In an open, machine-readable format</strong></p>
+
+<p>Il ri-uso dei dati in possesso del settore pubblico non dovrebbe essere soggetto a restrizioni di brevetto. E, ancora più importante, fornire i dati in formato “machine-readable” consente un loro maggior riutilizzo. Per chiarire ciò, si consideri il caso di statistiche pubblicate come documenti PDF (Portable Document Format), spesso utilizzati per la stampa di alta qualità. Anche se queste statistiche possono essere lette da esseri umani, è molto difficile renderle utilizzabili dai computer e questo limita pesantemente la capacità da parte di altri di riutilizzare quei dati.</p>
+
+<p>Di seguito una serie di politiche che possono essere di grande beneficio:</p>
+
+<ul>
+  <li>scegliere la semplicità,</li>
+  <li>rilasciare velocemente ed</li>
+  <li>essere concreti.</li>
+</ul>
+
+<p>In particolare, è meglio rilasciare dati grezzi subito piuttosto che dati perfetti dopo sei mesi.</p>
+
+<p>Ci sono molti modi per rendere i dati disponibili per gli altri. Il più naturale nell’era di Internet è la pubblicazione online. Ci sono molte varianti a questo modello. Nella sua forma elementare, gli enti pubblici rendono disponibili i loro dati attraverso i loro siti web e un catalogo centrale convoglia i visitatori verso la fonte appropriata. Tuttavia, esistono diverse alternative.</p>
+
+<p>Quando la connettività è limitata o la dimensione dei dati è enorme, può essere opportuno distribuire i dati in altri modi. Questa sezione illustra le varie alternative disponibili, tenendo conto della necessità di mantenere molto bassi i prezzi.</p>
+
+<h3 id="metodi-online">Metodi online</h3>
+
+<h4 id="attraverso-un-sito-web-esistente">Attraverso un sito web esistente</h4>
+
+<p>Il sistema più familiare per chi si occupa dei contenuti web di siti istituzionali pre-esistenti, è fornire file da scaricare dalle pagine web. Tali siti possono ospitare senza problemi i file di dati, visto che già forniscono accesso a documenti di discussione.</p>
+
+<p>Una problematicità di questa scelta consiste nella difficoltà per un soggetto esterno al sito di reperire le informazioni aggiornate. Questa opzione pone quindi un peso rilevante sulle spalle di quanti sviluppino strumenti con i dati offerti.</p>
+
+<h4 id="attraverso-siti-di-terze-parti">Attraverso siti di terze parti</h4>
+
+<p>Molti repository (archivi online) sono diventati luoghi di raccolta di dati relativi a particolari settori. Per esempio, pachube.com è progettato per connettere soggetti interessati ai dati generati tramite dispositivi e applicazioni dotati di sensori in ambienti interattivi. Siti come Infochimps.com e Talis.com consentono agli enti del settore pubblico di immagazzinare gratuitamente una enorme quantità di dati .</p>
+
+<p>I siti di terze parti possono risultare molto utili. Ciò per la principale ragione che già sono contemporaneamente un riferimento per una comunità di soggetti interessati e un punto di raccolta per altri insiemi di dati. Qualora i dati del sito istituzionale entrassero a far parte di tali piattaforme, si crea un tipo di integrazione positiva.</p>
+
+<p>Piattaforme per l’offerta in massa di dati già costituiscono un’infrastruttura in grado di supportare la potenziale domanda. Spesso forniscono strumenti di analisi e informazioni sul tipo di uso. Per gli enti del settore pubblico, inoltre, sono generalmente gratuite.</p>
+
+<p>Tali piattaforme possono avere due costi. Il primo è l’indipendenza. L’ente deve essere in grado di cedere il controllo ad altri attori. Questo è spesso politicamente, legalmente o operativamente difficile. Il secondo tipo di costo riguarda l’apertura. Bisogna assicurarsi che la piattaforma scelta per depositare i dati sia neutrale rispetto a chi può accedervi. Gli sviluppatori di software e i ricercatori usano diversi sistemi operativi, dagli smartphone ai supercomputer. Tutti dovrebbero essere in grado di accedere ai dati.</p>
+
+<h4 id="attraverso-server-ftp">Attraverso server FTP</h4>
+
+<p>Un metodo meno alla moda per fornire accesso ai file avviene tramite il File Transfer Protocol (FTP). Tale approccio può essere adatto se il pubblico è tecnico, come nel caso di sviluppatori di software e ricercatori. Il sistema FTP funziona in sostituzione del protocollo HTTP, ed è specificamente progettato per supportare il trasferimento di file.</p>
+
+<p>FTP è caduto in disuso. Non è visualizzabile come un sito web, ma l’accesso ad un server FTP è molto simile alla navigazione delle risorse e cartelle su un computer. Pertanto, anche se idoneo allo scopo, non offre molte possibilità per sviluppare visualizzazioni personalizzate per l’accesso ai dati.</p>
+
+<h4 id="come-file-torrent">Come file torrent</h4>
+
+<p><a href="/glossary/en/terms/bittorrent/">BitTorrent</a> è un sistema divenuto familiare ai politici a causa della sua associazione con il concetto di violazione del diritto d’autore. BitTorrent utilizza dei file chiamati torrent, e funziona ripartendo la distribuzione di un file tra tutte le persone che lo stanno scaricando al momento. Invece di sovraccaricare i server, all’aumentare della domanda cresce anche l’offerta. Questa è la ragione del successo di questo sistema per la condivisione di film. Si tratta infatti di una soluzione meravigliosamente efficiente per distribuire grandi volumi di dati.</p>
+
+<h4 id="attraverso-una-api">Attraverso una API</h4>
+
+<p>I dati possono essere pubblicati attraverso una {term:API (Application Programming Interface)}. Queste interfacce sono diventate molto popolari. Permettono ai programmatori di selezionare specifiche porzioni di dati, piuttosto che fornire tutti i dati in massa sotto forma di grandi file. Le API sono tipicamente collegate ad un database aggiornato in tempo reale. Ciò significa che rendere le informazioni disponibili tramite una API permette di garantire l’accesso a dati sempre aggiornati.</p>
+
+<p>Pubblicare dati grezzi in massa dovrebbe essere l’interesse principale di tutte le iniziative open data. Ci sono una serie di costi nel fornire una API:</p>
+
+<ol>
+  <li>Il prezzo. Le API richiedono più sforzo di sviluppo e manutenzione rispetto all’offerta di semplici file.</li>
+  <li>Le aspettative. Al fine di promuovere una comunità di utenti nell’ambito del sistema, è importante garantirne la sicurezza. Nel caso di problemi, si dovranno sostenere i costi per risolverli.</li>
+</ol>
+
+<p>L’accesso in massa ai dati assicura:</p>
+
+<ul>
+  <li>nessuna dipendenza dal fornitore originale dei dati, vale a dire che i dati rimangono disponibili, anche in presenza di ristrutturazioni o tagli di bilancio.</li>
+  <li>chiunque può ottenere una copia e ridistribuirli. Ciò riduce e sposta i costi di distribuzione dall’ente di provenienza sorgenti e implica che non si crei un punto unico di fallimento.</li>
+  <li>altri soggetti possono sviluppare i propri servizi utilizzando i dati, perché hanno la certezza che i dati non saranno loro tolti.</li>
+</ul>
+
+<p>L’offerta in massa di dati permette ad altri soggetti di utilizzare i dati al di là del loro scopo originale. Ad esempio, possono essere convertiti in un nuovo formato, o collegati con altre risorse oppure offerti in versioni diverse o archiviati in più luoghi. Mentre la versione corrente dei dati sarà resa disponibile attraverso API, i dati grezzi dovrebbero essere resi disponibili in massa a intervalli regolari.</p>
+
+<p>Ad esempio, il servizio statistico Eurostat ha un servizio che permette di scaricare oltre 4000 file di dati. È aggiornato due volte al giorno, offre dati in formato {term:valori separati da tabulatore (TSV)}, e include documentazione sulle modalità di download e sui dati.</p>
+
+<p>Un altro esempio è il Catalogo dati del distretto di Columbia_, che consente di scaricare i dati in formato CSV ed XLS in aggiunta ad un feed in tempo reale dei dati.</p>
+
+<h2 id="rendere-i-dati-individuabili">Rendere i dati individuabili</h2>
+
+<p>Open data senza utenti è nulla. Si deve garantire che il pubblico possa rinvenire il materiale. Questa sezione vuole offrire diversi approcci in tal senso.</p>
+
+<p>La cosa più importante è fornire uno spazio neutrale in grado di superare sia le diverse politiche dei vari enti sia i futuri cicli di bilancio. Conflitti di competenza, sia settoriali che geografici, possono rendere difficile la cooperazione. Tuttavia, ci sono vantaggi significativi nell’unire le forze. Se sarà più facile per gli esterni scoprire i dati, più velocemente saranno costruiti nuovi strumenti utili.</p>
+
+<h3 id="strumenti-esistenti">Strumenti esistenti</h3>
+
+<p>Esistono una serie di strumenti già presenti sul web che sono specificamente progettati per rendere i dati facilmente trovabili.</p>
+
+<p>Uno di quelli di maggior successo è <a href="http://thedatahub.org/">DataHub</a> ed è un catalogo e deposito di dati di dataset provenienti da ogni parte del mondo. Il sito rende facile, per singole persone ed organizzazioni il modo di pubblicare il materiale e agli utenti di trovare i dati che a loro servono.</p>
+
+<p>In aggiunta, ci sono decine di cataloghi specializzati per settori e luoghi differenti. Molte comunità scientifiche hanno creato un sistema di catalogo per i loro campi, visto che spesso è obbligatorio pubblicare i dati delle loro ricerche.</p>
+
+<h3 id="per-il-governo">Per il governo</h3>
+
+<p>È diventata comune la pratica di avere un’ente capofila che crei un catalogo dei dati pubblici. Durante la creazione di questo catalogo, è opportuno creare una qualche struttura che consenta ai vari Dipartimenti di mantenere aggiornate le loro informazioni.</p>
+
+<p>Resistete alla tentazione di costruire il software per supportare il catalogo da zero. Ci sono soluzioni di software libero open source (come ad esempio <a href="http://ckan.org/">CKAN</a>) che sono state scelte da molti governi. Per tale motivo, investire in un’altra piattaforma potrebbe essere non necessario.</p>
+
+<p>Ci sono molte cose che mancano nella maggior parte dei cataloghi open data. La piattaforma da implementare dovrebbe considerare quanto segue:</p>
+
+<ul>
+  <li>Offrire la possibilità ai privati o comunità di aggiungere i propri dati. Può essere utile pensare al catalogo come il catalogo della regione, piuttosto che del Governo della Regione.</li>
+  <li>Facilitando il miglioramento dei dati permettendo derivati dei dataset da catalogare. Per esempio, qualcuno potrebbe geocodificare gli indirizzi e probabilmente voler condividere questo risultati con altri. Se si permettono versioni singoli di dataset, questi miglioramenti rimarranno nascosti.</li>
+  <li>Essere tolleranti se i dati appaiono altrove. Questo vuol dire che il contenuto probabilmente si troverà duplicato nelle comunità di interesse. Se si dispone di dati sul monitoraggio dei livelli de fiume, è probabile che i dati appariranno in un catalogo per idrologi.</li>
+  <li>Garantire un accesso equo. Evitare di creare un livello privilegiato di accesso per funzionari pubblici o ricercatori di ruolo questo potrebbe mettere in difficoltà la partecipazione e la crescita della comunità.</li>
+</ul>
+
+<h3 id="per-la-società-civile">Per la società civile</h3>
+
+<p>Bisogna essere disponibili a creare un catalogo supplementare con dati non-ufficiali.</p>
+
+<p>È molto raro che i governi si associno a fonti non ufficiali o non autorevoli. I funzionari sostengono spesso spese considerevoli per essere sicuri di evitare l’imbarazzo politico o altri danni causati da un uso improprio o sovrastimato dei dati.</p>
+
+<p>Inoltre, è improbabile che i governi siano disposti a sostenere attività che mescolano le proprie informazioni con quelle provenienti da ambiti commerciali. I governi sono giustamente scettici sui moventi legati al profitto. Pertanto, un catalogo indipendente per i gruppi relativi a comunità, imprese e altri soggetti potrebbe essere giustificato.</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+  <ul>
+    
+    <li class="edit tooltip-item">
+      Improve this page
+
+      <span class="tooltip">
+        <a href="https://github.com/okfn/opendatahandbook/edit/master/guide/it/how-to-open-up-data/index.md" class="github" rel="external">Edit on Github</a>
+        <a href="/contribute/" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    
+    
+    <li class="translate tooltip-item">
+      Translate this page
+      <span class="tooltip">
+        <a href="/contribute/translate-guide" target="_blank">Translation guide</a>
+      </span>
+    </li>
+    
+
+    
+
+    <li class="donate tooltip-item">
+      Donate
+      
+      <span class="tooltip">
+        <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+        <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+          <select name="currency_code">
+            <option value="USD">US Dollar $</option>
+            <option value="EUR">Euro €</option>
+            <option value="GBP">UK £</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="CZK">Czech Koruna</option>
+            <option value="DKK">Danish Krone</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="HUF">Hungarian Forint</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="NOK">Norwegian Krone</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="PLN">Polish Zloty</option>
+            <option value="SEK">Swedish Krona</option>
+            <option value="SGD">Singapore Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+          </select>
+          <input type="text" value="2.00" name="amount">
+          <input type="submit" value="Donate via PayPal" name="submit">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" alt="">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">
+          <input type="hidden" value="_xclick" name="cmd">
+          <input type="hidden" value="admin@okfn.org" name="business">
+          <input type="hidden" value="Open Data Handbook Donation to Open Knowledge" name="item_name">
+        </form>
+      </span>
+    </li>
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://opendatahandbook.org/guide/it/how-to-open-up-data/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Come aprire i dati: http://opendatahandbook.org/guide/it/how-to-open-up-data/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+
+        <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+      <a href="https://okfn.org/" rel="external"><img src="//a.okfn.org/img/oki/landscape-grey-468x122.png" width="123" height="32" alt="Open Knowledge International"></a>
+
+      
+      <div class="supporters">
+        <h6>Supported by</h6>
+        
+          
+          <a href="https://www.shuttleworthfoundation.org/" rel="external"><img src="/img/supporters/shuttleworth-footer.png" alt="Shuttleworth Foundation"></a>
+          
+        
+          
+          <a href="http://www.worldbank.org/" rel="external"><img src="/img/supporters/worldbank-footer.png" alt="The World Bank"></a>
+          
+        
+          
+          <a href="http://od4d.net/" rel="external"><img src="/img/supporters/od4d-footer.png" alt="OD4D"></a>
+          
+        
+      </div>
+      
+    </div>
+
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribute</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Related Projects</h6>
+        <ul>
+          
+          <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
+          
+          <li><a href="http://datahub.io/">The DataHub</a></li>
+          
+          <li><a href="http://dataportals.org/">DataPortals.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+          <li><a href="http://okfn.org/opendata/">Introducing Open Data</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin@okfn.org&lc=GB&item_name=Open Data Handbook%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        
+        
+        <li class="discuss"><a href="https://discuss.okfn.org/c/open-data-handbook" rel="external"><span>Contact</span></a></li>
+        
+        
+        <li class="source"><a href="https://github.com/okfn/opendatahandbook" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://opendatahandbook.org/guide/it/how-to-open-up-data/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+  </body>
+
+</html>

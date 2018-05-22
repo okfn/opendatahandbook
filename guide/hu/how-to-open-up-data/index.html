@@ -1,0 +1,999 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hogyan tegyük nyílttá az adatokat?</title>
+    <meta name="description" content="Guides, case studies and resources for government & civil society
+on the "what, why & how" of open data.
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="google-site-verification" content="U6RmQ0BoQ9f1Omog3Mnas-Yd1At38pTDZbM1AtnOpnc" />
+    
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://opendatahandbook.org/guide/hu/how-to-open-up-data/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    
+    <script>
+      var okiConsent = {
+        analyticsTrackingID: 'UA-8271754-28'
+      }
+    </script>
+    <script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
+    
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+    <div>
+      <div id="ok-panel-wrapper">
+        <a class="white ok-ribbon" href="https://okfn.org/"><img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge International"></a>
+      </div>
+      <div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="/">Open Data Handbook</a>
+</header>
+
+<nav id="menu">
+  <ul>
+
+    <li>
+      <a href="/">Home</a>
+    </li>
+
+    <li >
+      <a href="/guide/hu/introduction/">Guide</a>
+
+      <ul>
+
+        <!-- start navigation for guide section -->
+        
+        
+        <li >
+          <a href="/guide/hu/introduction/">Introduction</a>
+          
+          <span class="subsections">
+            
+            <a href="#target-audience">Target Audience</a>
+            
+            <a href="#credits">Credits</a>
+            
+          </span>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/hu/why-open-data/">Why Open Data?</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/hu/what-is-open-data/">What is Open Data?</a>
+          
+        </li>
+        
+        
+        <li class="Selected">
+          <a href="/guide/hu/how-to-open-up-data/">How to Open Up Data</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/hu/following-up/">So I've Opened Up Some Data, Now What? </a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/hu/events/">Make data social</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/hu/appendices/">Appendices</a>
+          
+        </li>
+        
+
+        <!-- start navigation for glossary section -->
+        <li>
+          <a href="/glossary/hu/">Glossary</a>
+        </li>
+        <!-- end navigation for glossary section -->
+
+        <!-- end navigation for guide section -->
+      </ul>
+    </li>
+
+    <!-- start navigation for value stories section -->
+    <li>
+      <a href="/value-stories/hu/">Value Stories</a>
+      
+    </li>
+    <!-- end navigation for value stories section -->
+
+    <!-- start navigation for resources section -->
+    <li>
+      <a href="/resources/">Resources</a>
+
+      
+
+    </li>
+    <!-- end navigation for resources section -->
+
+    <!-- start navigation for apps section -->
+    <li class="apps-menu">
+      <a href="/solutions/en/">Solutions</a>
+      <ul class="app-sub-menu">
+        <li class="search">
+          <input type="search" placeholder="Search" class="quicksearch">
+        </li>
+        
+        
+            
+            
+            
+            
+
+            <li class="problems filter active">
+              <a>Problems</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-problem-reusefederatedtools" data-pid=".problem-reusefederatedtools">(Re)use federated tools</a>
+                
+                <a data-filter=".selector-problem-assessholisticmetrics" data-pid=".problem-assessholisticmetrics">Assess holistic metrics</a>
+                
+                <a data-filter=".selector-problem-categoriseopennessofdata" data-pid=".problem-categoriseopennessofdata">Categorise openness of data</a>
+                
+                <a data-filter=".selector-problem-crossagencystrategy" data-pid=".problem-crossagencystrategy">Cross Agency strategy</a>
+                
+                <a data-filter=".selector-problem-developanopendatapublicationplan" data-pid=".problem-developanopendatapublicationplan">Develop an Open Data Publication Plan</a>
+                
+                <a data-filter=".selector-problem-developdatasetcriteria" data-pid=".problem-developdatasetcriteria">Develop dataset criteria</a>
+                
+                <a data-filter=".selector-problem-enablefeedbackchannelsforimprovingdataquality" data-pid=".problem-enablefeedbackchannelsforimprovingdataquality">Enable feedback channels for improving data quality</a>
+                
+                <a data-filter=".selector-problem-enablequalityassessmentofopendata" data-pid=".problem-enablequalityassessmentofopendata">Enable quality assessment of open data</a>
+                
+                <a data-filter=".selector-problem-encouragecrowdsourcingaroundpsi" data-pid=".problem-encouragecrowdsourcingaroundpsi">Encourage crowdsourcing around PSI</a>
+                
+                <a data-filter=".selector-problem-establishopengovernmentportal" data-pid=".problem-establishopengovernmentportal">Establish Open Government Portal</a>
+                
+                <a data-filter=".selector-problem-establishanopendataecosystem" data-pid=".problem-establishanopendataecosystem">Establish an Open Data Ecosystem</a>
+                
+                <a data-filter=".selector-problem-identifywhatyoualreadypublish" data-pid=".problem-identifywhatyoualreadypublish">Identify what you already publish</a>
+                
+                <a data-filter=".selector-problem-influxofhousingpriceincreases" data-pid=".problem-influxofhousingpriceincreases">Influx of Housing Price Increases</a>
+                
+                <a data-filter=".selector-problem-internationalaidandtransparency" data-pid=".problem-internationalaidandtransparency">International Aid & Transparency</a>
+                
+                <a data-filter=".selector-problem-opendatabusinessmodels" data-pid=".problem-opendatabusinessmodels">Open Data Business Models</a>
+                
+                <a data-filter=".selector-problem-openuppublictransportdata" data-pid=".problem-openuppublictransportdata">Open Up Public Transport Data</a>
+                
+                <a data-filter=".selector-problem-providepsiatzerocharge" data-pid=".problem-providepsiatzerocharge">Provide PSI at zero charge</a>
+                
+                <a data-filter=".selector-problem-publishstatisticaldatainlinkeddataformat" data-pid=".problem-publishstatisticaldatainlinkeddataformat">Publish Statistical Data In Linked Data Format</a>
+                
+                <a data-filter=".selector-problem-publishoverviewofmanageddata" data-pid=".problem-publishoverviewofmanageddata">Publish overview of managed data</a>
+                
+                <a data-filter=".selector-problem-ride-sharingandpublictransit" data-pid=".problem-ride-sharingandpublictransit">Ride-sharing and Public Transit</a>
+                
+                <a data-filter=".selector-problem-standardsforgeospatialdata" data-pid=".problem-standardsforgeospatialdata">Standards for Geospatial Data</a>
+                
+                <a data-filter=".selector-problem-trackingmodernwarfare" data-pid=".problem-trackingmodernwarfare">Tracking Modern Warfare</a>
+                
+                <a data-filter=".selector-problem-unveilingincarcerationrates" data-pid=".problem-unveilingincarcerationrates">Unveiling Incarceration Rates</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Themes</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-theme-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-theme-transport"> Transport</a>
+                
+                <a data-filter=".selector-theme-civilconflict">Civil Conflict</a>
+                
+                <a data-filter=".selector-theme-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-theme-health">Health</a>
+                
+                <a data-filter=".selector-theme-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-theme-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-theme-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-theme-sharepsi">Share PSI</a>
+                
+                <a data-filter=".selector-theme-transport">Transport</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Tags</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-tag-civilconflict"> Civil Conflict</a>
+                
+                <a data-filter=".selector-tag-crime"> Crime</a>
+                
+                <a data-filter=".selector-tag-development"> Development</a>
+                
+                <a data-filter=".selector-tag-drones"> Drones</a>
+                
+                <a data-filter=".selector-tag-e-government"> E-Government</a>
+                
+                <a data-filter=".selector-tag-foreignaffairs"> Foreign Affairs</a>
+                
+                <a data-filter=".selector-tag-housingprices"> Housing Prices</a>
+                
+                <a data-filter=".selector-tag-humanrights"> Human Rights</a>
+                
+                <a data-filter=".selector-tag-incarcerationrates"> Incarceration Rates</a>
+                
+                <a data-filter=".selector-tag-internaldisplacement"> Internal Displacement</a>
+                
+                <a data-filter=".selector-tag-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-tag-internationalsecurity"> International Security</a>
+                
+                <a data-filter=".selector-tag-metro"> Metro</a>
+                
+                <a data-filter=".selector-tag-sharepsi"> Share PSI</a>
+                
+                <a data-filter=".selector-tag-transparency"> Transparency</a>
+                
+                <a data-filter=".selector-tag-corruption"> corruption</a>
+                
+                <a data-filter=".selector-tag-development"> development</a>
+                
+                <a data-filter=".selector-tag-e-government"> e-government</a>
+                
+                <a data-filter=".selector-tag-foreignpolicy"> foreign policy</a>
+                
+                <a data-filter=".selector-tag-metro"> metro</a>
+                
+                <a data-filter=".selector-tag-publictransit"> public transit</a>
+                
+                <a data-filter=".selector-tag-ride-sharing"> ride-sharing</a>
+                
+                <a data-filter=".selector-tag-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-tag-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-tag-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-tag-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-tag-taxi">Taxi</a>
+                
+                <a data-filter=".selector-tag-transparency">Transparency</a>
+                
+                <a data-filter=".selector-tag-insurance">insurance</a>
+                
+                <a data-filter=".selector-tag-internationalaid">international aid</a>
+                
+                <a data-filter=".selector-tag-transparency">transparency</a>
+                
+              </span>
+            </li>
+        
+      </ul>
+      
+    </li>
+
+    <!-- start navigation for contribute section -->
+    <li class="">
+      <a href="/contribute/">Contribute</a>
+      <ul>
+        
+        
+        
+        <li >
+          <a href="/contribute/">Contributing To The Handbook</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/adding/">Adding A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/editing/">Editing A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-term/">Adding A Term To The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-resource/">Adding A Resource To The Library</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-guide/">Translating The Guide</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-glossary/">Translating The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/markdown-examples/">Markdown Examples</a>
+        </li>
+        
+      </ul>
+    </li>
+    <!-- end navigation for contribute section -->
+
+    <li>
+      <a href="/credits/">Credits</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="/guide/hu/" class="pre-header">guide</a>
+    <h1 class="post-title">Hogyan tegyük nyílttá az adatokat?</h1>
+    
+
+    
+
+
+
+<div class="languages">
+  <strong>Languages:</strong>&nbsp;
+  
+  
+  
+  
+  
+  <span><a  href="/guide/de/how-to-open-up-data/" title="Deutsch">de</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/el/how-to-open-up-data/" title="Ελληνικά">el</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/en/how-to-open-up-data/" title="English">en</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/es/how-to-open-up-data/" title="Español/Castellano">es</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/fr/how-to-open-up-data/" title="Français">fr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/he/how-to-open-up-data/" title="עברית">he</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/hr/how-to-open-up-data/" title="hrvatski">hr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/id/how-to-open-up-data/" title="Bahasa">id</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/is/how-to-open-up-data/" title="Íslenska">is</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/it/how-to-open-up-data/" title="Italiano">it</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ja/how-to-open-up-data/" title="日本語">ja</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ko/how-to-open-up-data/" title="한국어">ko</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lt/how-to-open-up-data/" title="Lietuvių">lt</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lv/how-to-open-up-data/" title="Latviešu">lv</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/my/how-to-open-up-data/" title="မြန်မာဘာသာ">my</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ne/how-to-open-up-data/" title="नेपाली भाषा">ne</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/nl_BE/how-to-open-up-data/" title="Nederlands (Belgisch)">nl_BE</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/pt_BR/how-to-open-up-data/" title="Português Brasileiro">pt_BR</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ro/how-to-open-up-data/" title="Română">ro</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ru/how-to-open-up-data/" title="Pyccĸий">ru</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_CN/how-to-open-up-data/" title="中国语文">zh_CN</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_TW/how-to-open-up-data/" title="繁體中文">zh_TW</a>&nbsp;</span>
+  
+  
+</div>
+
+
+
+
+    <p>Ez a szakasz alkotja a kézikönyv magját. Konkrét, részletes tanácsokkal szolgál arról, hogy az adattulajdonosok miként tehetik nyílttá az adataikat. Végigvesszük az alapokat, de kitérünk a buktatókra is. Végül, beszélünk az esetlegesen fellépő érdekesebb problémákról.</p>
+
+<p>Az adatok nyílttá tevéséhez három alapszabályt javaslunk:</p>
+
+<ul>
+  <li>
+    <p><strong>Egyszerűség</strong>. Kezdjük kicsi, egyszerű és gyors projektekkel. Nincs előírva, hogy az összes adathalmazt azonnal nyílttá kell tennünk. Tökéletes az is, ha egyetlen adathalmazzal, vagy egy nagyobb adathalmaz egyetlen részével kezdünk – természetesen, minél több adathalmazt tudunk nyílttá tenni, annál jobb.</p>
+
+    <p>Tartsuk észben, hogy ez az innovációról szól. A lehető leggyorsabban haladni jó, mert így lendületet kaphatunk és gyakorlati tapasztalatokat szerzünk – az innováció azonos mértékben szól a kudarcról és a sikerről: nem minden adathalmaz fog hasznossá válni.</p>
+  </li>
+  <li>
+    <p><strong>Kapcsolat a felhasználókkal</strong>. Lépjünk kapcsolatba az adataink potenciális felhasználóival és újrafelhasználóival, amilyen hamar és amilyen sűrűn csak lehet, legyenek akár civilek, üzletemberek vagy fejlesztők. Ezzel biztosíthatjuk, hogy a szolgáltatásunk következő iterációja a lehető legrelevánsabbá váljon.</p>
+
+    <p>Fontos észben tartani, hogy az adatok nagy része nem közvetlenül, hanem “info-közvetítőkön” keresztül fog a felhasználókhoz jutni. Ők azok, akik átalakítják, vagy más adatokkal vegyítik az adatokat azok prezentálása előtt. Például, a legtöbbünknek nincs szüksége egy nagy, GPS koordinátákat tartalmazó adatbázisra, sokkal inkább a térképeket preferáljuk. Ezért, elsőként az “info-közvetítőkkel” lépjünk kapcsolatba, hiszen ők fogják újrahasznosítani az információkat.</p>
+  </li>
+  <li>
+    <p><strong>Tisztázzuk a gyakori aggodalmakat és félreértéseket</strong>. . Ez különösen fontos, ha egy olyan nagy szervezettel vagy szervezetnek dolgozunk, mint az állam. Az adatok nyílttá tevésekor számos kérdéssel és aggodalommal fogunk találkozni. Fontos, hogy (a) azonosítsuk a legfontosabbakat és (b) a lehető leghamarabb tisztázzuk őket.</p>
+  </li>
+</ul>
+
+<p>Az adatok nyílttá tevése négy fő lépésből áll, melyek mindegyikével a következő részben fogunk részletesen foglalkozni. Sorrendjük csak megközelítőleges - számos lépés egyszerre is elvégezhető.</p>
+
+<ol>
+  <li><strong>Válasszunk adathalmaz(oka)t.</strong> Válasszuk ki azokat az adathalmaz(oka)t, amelyeket nyílttá szeretnénk tenni. Tartsuk szem előtt, hogy amennyiben a későbbi szakaszokban problémába ütközünk, visszatérhetünk (vagy vissza kell térnünk) ehhez a lépéshez.</li>
+  <li><strong>Alkalmazzunk egy nyílt licenszet.</strong>
+    <ol>
+      <li>Állapítsuk meg, hogy az adatok milyen szellemi tulajdonjogokkal rendelkeznek.</li>
+      <li>Alkalmazzunk egy megfelelő “nyílt” licenszet, amely lefedi ezeket a jogokat és támogatja a “Mit jelent az, hogy nyílt adat” részben leírt “nyílt adat” definíciót.</li>
+      <li>Amennyiben ezt nem tudjuk megtenni, ugorjunk az első lépésre és próbálkozzunk egy másik adathalmazzal.</li>
+    </ol>
+  </li>
+  <li><strong>Tegyük elérhetővé az adatokat</strong> - letölthetően, valamilyen hasznos formátumban. Fontolóra vehetjük ezek alternatív módon, például egy API-n keresztül való publikálását is.</li>
+  <li><strong>Tegyük felfedezhetővé</strong> - tegyük ki az adatainkat a webre, esetleg rendezzük katalógusba a nyílt adathalmazainkat.</li>
+</ol>
+
+<h2 id="válasszunk-adathalmazokat">Válasszunk adathalmaz(oka)t!</h2>
+
+<p>Első lépésként válasszuk ki azokat az adathalmaz(oka)t, amelyeket nyílttá szeretnénk tenni – tartsuk azonban észben, hogy az adatok nyílttá tevésének teljes folyamata iteratív, ezért ha a későbbiekben problémába ütközünk, visszatérhetünk ehhez a lépéshez.</p>
+
+<p>Ha már pontosan tudjuk, hogy mely adathalmaz(oka)t kívánjuk nyílttá tenni, ugorjunk a következő szakaszra. Számos esetben azonban, különösen nagy intézménynél, kihívást jelenthet annak kiválasztása, hogy mely adathalmazokra fókuszáljunk. Hogyan lépjünk ekkor tovább?</p>
+
+<p>Gyors megoldásként készíthetünk egy listát, hogy áttekintsük, első ránézésre mely adathalmazok tűnnek alkalmasnak. A későbbi szakaszokban lesz időnk részletesen ellenőrizni az egyes elemek megfelelőségét.</p>
+
+<p><strong>Nem követelmény</strong>, hogy átfogó listát készítsünk az adathalmazainkról. Az elsődleges szempont, hogy egyáltalán megvalósítható-e az adatok publikálása (akár nyíltan, akár másként) - lásd az <a href="../what-is-open-data/">előző szakaszt</a>.</p>
+
+<h3 id="a-közösség-igényei-alapján">A közösség igényei alapján</h3>
+
+<p>Elsőként célszerű a közösséget megkérdezni. Azok, akik hozzá fognak férni az adatokhoz és fel fogják azokat használni, nagy valószínűséggel jó rálátással rendelkeznek arról, hogy mely adatok lehetnek értékesek.</p>
+
+<ol>
+  <li>Készítsünk egy rövid listát a potenciális adathalmazokról, amelyekről visszajelzést szeretnénk kapni. A listának nem szükségszerűen kell megegyeznie az elvárásainkkal, a fő cél az, hogy megismerjük az adatokra vonatkozó igényeket. Ez alapulhat például más országok <a href="/glossary/hu/terms/open-data/">nyílt adat</a> katalógusain.</li>
+  <li>Hozzunk létre egy RFC-t (Request For Comment).</li>
+  <li>Publikáljuk az RFC-t egy weblapon. Gondoskodjunk arról, hogy az RFC saját URL-lel rendelkezzen, hogy az a közösségi oldalakon is könnyen megosztható legyen.</li>
+  <li>Biztosítsuk, hogy a válaszok beküldése egyszerű legyen. Kerüljük a kötelező regisztrációt, mert az csökkenti a válaszadók számát.</li>
+  <li>Küldjük el az RFC-t a releváns levelezőlistáknak, fórumoknak és személyeknek, hivatkozva a fő weblapunkra.</li>
+  <li>
+    <ol>
+      <li>Rendezzünk egy konzultációs eseményt. Találjunk olyan alkalmas időpontot, amikor az átlagos üzletemberek, <a href="/glossary/hu/terms/data-wrangler/">adatszekértők</a> és tisztviselők is részt tudnak ezen venni.</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Keressünk meg egy politikust, hogy beszéljen a szervezetünk érdekében. A nyílt adatok nagy valószínűséggel egy olyan nagyobb szabályozás részei, amelynek célja az állami információkhoz való hozzáférés növelése.</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="pénzügyi-költségek-alapján">Pénzügyi költségek alapján</h3>
+
+<p>Mennyi pénzt költenek a hivatalok az általuk kezelt adatok gyűjtésére és karbantartására? Ha egy adott adathalmazra sok pénzt fordítanak, ahhoz nagy valószínűséggel mások is hozzá szeretnének férni.</p>
+
+<p>Ez az érvelés magával hordozhatja az “ingyenélés” aggályát.   Felmerülhet a kérdés, hogy “Miért kapják meg mások ingyen azokat az információkat, amelyek ilyen sokba kerülnek?”. A válasz az, hogy a költségeket elnyeli a közigazgatás egy adott funkció ellátása érdekében. Ha az adatok már rendelkezésre állnak, azok harmadik fél számára történő továbbításának költsége közelít a nullához. Ezért, ezeknek célszerű ingyenesnek lenniük.</p>
+
+<h3 id="a-publikálás-egyszerűsége-alapján">A publikálás egyszerűsége alapján</h3>
+
+<p>Némely esetben, ahelyett, hogy eldöntenénk, mely adatok a legértékesebbek, célszerű lehet áttekinteni, hogy melyeket a legkönnyebb eljuttatni a nyilvánossághoz. A kisméretű, könnyű kiadások katalizátorként viselkedhetnek a szervezetekben bekövetkező nagyobb viselkedésbeli változásokhoz.</p>
+
+<p>Legyünk azonban óvatosak ezzel a megközelítéssel. Előfordulhat, hogy ezek a kis kiadások olyan csekély értékkel rendelkeznek, hogy semmit sem hoznak létre belőlük. Amennyiben ez bekövetkezik, a projekt égészébe vetett hit meginoghat.</p>
+
+<h3 id="mások-tevékenysége-alapján">Mások tevékenysége alapján</h3>
+
+<p>A nyílt adatok egy növekvő mozgalom. Valószínűleg számos olyan ember dolgozik a területünkön, aki átlátja, hogy más területek mivel foglalkoznak. Készítsünk egy listát más hivatalok tevékenységei alapján.</p>
+
+<h2 id="használjunk-nyílt-licenszet-jogi-nyíltság">Használjunk nyílt licenszet (jogi nyíltság)!</h2>
+
+<p>A legtöbb jogrendszerben az adatok szellemi tulajdonjogai megtiltják, hogy azokat a tulajdonos explicit engedélye nélkül egy harmadik fél újrahasznosítsa és továbbterjessze. Azokban az országokban, ahol e jogok megléte bizonytalan is fontos az, hogy az adatainkat licensszel lássuk el, pusztán az egyértelműség kedvéért. Ezáltal, <strong>amennyiben az adatainkat elérhetővé akarjuk tenni, célszerű azokat valamilyen licensszel ellátnunk</strong> – és ha <a href="http://opendefinition.org/">nyílttá</a> kívánjuk tenni őket, ez még inkább fontos.</p>
+
+<p>Milyen licenszeket használhatunk? Mi azt javasoljuk, hogy “nyílt” adatok esetén az <a href="open_">Open Definition</a>-ben előírtaknak megfelelő licenszek egyikét alkalmazzuk, amely az “adatokhoz megfelelő” jelöléssel rendelkezik. Ezek listája (a felhasználásukra vonatkozó utasításokkal) a következő címen érhető el:</p>
+
+<ul>
+  <li><a href="http://opendefinition.org/licenses/">http://opendefinition.org/licenses/</a></li>
+</ul>
+
+<p>A licenszek alkalmazására vonatkozó rövid, 1 oldalas útmutató az Open Data Commons oldalán a következő címen érhető el:</p>
+
+<ul>
+  <li><a href="http://opendatacommons.org/guide/">http://opendatacommons.org/guide/</a></li>
+</ul>
+
+<h2 id="tegyük-elérhetővé-az-adatokat-technikai-nyíltság">Tegyük elérhetővé az adatokat (technikai nyíltság)!</h2>
+
+<p>A <a href="/glossary/hu/terms/open-data/">nyílt adatoknak</a> jogilag és technikailag is nyíltnak kell lenniük. Specifikusan, az adatoknak valamilyen <a href="/glossary/en/terms/machine-readable/">gép által olvasható</a> formátumban kell szabadon letölthetőnek lenniük.</p>
+
+<p><strong>Elérhető</strong></p>
+
+<p>Az adatok ára nem lehet több, mint azok reális reprodukciós költsége, lehetőleg ingyenes internetes letöltésként elérhetően. Ez az árazási modell azért engedhető meg, hogy ne kelljen költségekbe bocsátkoznunk az adatok szolgáltatása miatt.</p>
+
+<p><strong>Egyben</strong></p>
+
+<p>Az adatokat egészükben kell publikálni. Például ha valamilyen állami nyilvántartással rendelkezünk, az egész regisztert letölthetővé kell tennünk. Egy webes API vagy hasonló szolgáltatás is rendkívül hasznos lehet, de ezek nem helyettesítik a letöltési lehetőséget.</p>
+
+<p><strong>Nyílt, gép által olvasható formátum</strong></p>
+
+<p>Az állami szféra által publikált adatoknak nem célszerű szabadalmi korlátozásokkal rendelkeznie. Ennél is fontosabb, hogy olyan gépi formátumot használjunk, amely leginkább támogatja az újrafelhasználást. Vegyünk például olyan PDF dokumentumokként (Portable Document Format) publikált statisztikákat, amelyeket gyakran használnak a jó minőségű nyomtatásban. Habár ezek az emberek számára jól olvashatóak, a számítógépeknek igen nehézkes a feldolgozásuk, ami nagyban korlátozza az adatok újrahasznosításának lehetőségét.</p>
+
+<p>A következő szabályok betartásából jelentős előnyünk származhat:</p>
+
+<ul>
+  <li>törekedjünk az egyszerűségre</li>
+  <li>cselekedjünk gyorsan</li>
+  <li>legyünk pragmatikusak</li>
+</ul>
+
+<p>Jobb most nyers adatokat kiadni, mint hat hónap múlva tökéleteseket.</p>
+
+<p>Az adatok közzétételének számos különböző módja van. Az internet korában a legkézenfekvőbb az online publikálás. Ennek a modellnek számos változata létezik. A legegyszerűbb az, ha a hivatalok az adatokat a saját weblapjukon teszik elérhetővé, és egy központi katalógus a látogatót a megfelelő forrásra irányítja. Léteznek azonban alternatívák.</p>
+
+<p>Amennyiben a <a href="/glossary/hu/terms/connectivity/">konnektivitás</a> korlátozott, vagy az adatok mennyisége extrém nagy, indokolt lehet ezek más formátumban történő disztribúciója. A következő szakaszban olyan alternatívákról is szót fogunk ejteni, amelyek rendkívül alacsony költségekkel járnak.</p>
+
+<h3 id="online-módszerek">Online módszerek</h3>
+
+<h4 id="saját-weblapon">Saját weblapon</h4>
+
+<p>A webes tartalomért felelős csapatok leggyakrabban használt módszere a fájlok publikálására a saját weblapokra történő közzététel és letöltési lehetőség. Miképp ezek hozzáférést nyújtanak például a különböző vitaanyagokhoz, a módszer az adatfájlok közzétételére is tökéletesen megfelel.</p>
+
+<p>Ennek a megközelítésnek az egyik nehézsége, hogy a külső érdeklődők számára nehéz felkutatni, hogy hol találhatnak naprakész információkat. Ez teher lehet azoknak, akik eszközöket készítenek az adataink felhasználásával.</p>
+
+<h4 id="harmadik-féltől-származó-weblapon-keresztül">Harmadik féltől származó weblapon keresztül</h4>
+
+<p>Az idők során számos repozitórium vált egy adott terület adatainak központi gyűjtőhelyévé. A xively.com  például összeköti a szenzorok birtokosait azokkal, akik ezek adataihoz szeretnének hozzáférni.</p>
+
+<p>A harmadik féltől származó weblapok rendkívül praktikusak lehetnek. Ezek már rendelkeznek a téma iránt érdeklődő közösséggel, valamint tartalmaznak további adathalmazokat. Amennyiben az adatunk része egy ilyen platformnak, úgy halmozott pozitív érdeklődés jöhet létre.</p>
+
+<p>A nagybani adatplatformok olyan infrastruktúrával rendelkeznek, amelyek ki tudják szolgálni az igényeket. Továbbá, gyakran kínálnak analitikai és használati információkat. Használatuk az állami ügynökségek számára ingyenes is lehet.</p>
+
+<p>Az ilyen platformok használatának két ára lehet. Az első a függetlenség. A hivatalunknak képesnek kell lennie átadni az adatok kezelését másoknak. Ez gyakran politikai, jogi, vagy szervezeti működés szempontjából nehéz lehet. A második pedig a nyíltság. Bizonyosodjunk meg róla, hogy az adatplatformunk agnosztikus arra, hogy ki férhet hozzá. A szoftverfejlesztők és tudósok számos operációs rendszert használnak, az okostelefonra írtaktól kezdve a szuperszámítógépes rendszerekig. Az adatoknak mindannyiuk számára elérhetőnek kell lennie.</p>
+
+<h4 id="ftp-szerveren">FTP szerveren</h4>
+
+<p>Egy kevésbé divatos módja a fájljaink közzétételének a File Transfer Protocol (FTP). Ez akkor bizonyulhat jó választásnak, ha a közönségünk műszaki háttérrel rendelkezik, például azok szoftverfejlesztők vagy tudósok. Az FTP rendszert a HTTP helyett használják, de specifikusan fájlátvitelekhez hozták létre.</p>
+
+<p>Az FTP manapság már nem túl népszerű. Szemben a weblapokkal, az FTP szerveren történő böngészés hasonlít a számítógépünk könyvtáraiban való böngészésre. Ezáltal, habár a feladatát ellátja, a webes fejlesztőcégeknek sokkal kevesebb lehetőségük lesz pénzt kérniük a testreszabásért.</p>
+
+<h4 id="torrentként">Torrentként</h4>
+
+<p>A <a href="/glossary/hu/terms/bittorrent/">BitTorrent</a> a törvénykezés számára a szerzői jogok megsértése kapcsán vált ismertté. A BitTorrent ún. torrent fájlokat használ, amelyek elosztják a fájlok terjesztési költségét a fájlokhoz hozzáférő felhasználók között. A szerverek túlterhelése helyett a kereslet növekedésével nő a kínálat is. A rendszer épp ezért olyan sikeres a filmek megosztásában. A BitTorrent rendkívül hatékony módja a nagy mennyiségű adatok továbbításának.</p>
+
+<h4 id="api-ként">API-ként</h4>
+
+<p>Az adatokat publikálhatjuk egy <a href="/glossary/hu/terms/application-programming-interface/">Application Programming Interface</a> (API-n) keresztül is. Ezek az interfészek rendkívül népszerűek, mert lehetővé teszik a programozóknak, hogy az adatok csak egyes részeit válasszák ki, ahelyett, hogy azok egészével, egyetlen nagy fájlként kellene dolgozniuk. Az API-k általában egy valós időben frissülő adatbázishoz kapcsolódnak. Vagyis, ha egy API-n keresztül tesszük elérhetővé az információkat, azzal biztosíthatjuk, hogy azok mindig naprakészek legyenek.</p>
+
+<p>Minden nyílt adatokkal foglalkozó kezdeményezés elsődleges céljának a nyers adatok egyben történő publikálása kell lennie. Egy API fenntartása több költséggel jár:</p>
+
+<ol>
+  <li>Az ár. Sokkal több fejlesztést és karbantartást igényelnek, mint az egyszerű fájlok.</li>
+  <li>Az elvárások. Hogy a rendszer mögött kialakulhasson egy felhasználói bázis, fontos megbízhatóságot sugallnunk. Ha valami elromlik, tőlünk várják, hogy vállaljuk a javítás költségeit.</li>
+</ol>
+
+<p>Az API-k előnyei, hogy a felhasználók:</p>
+<ol>
+  <li>másodpercre aktuális adatokat, például közlekedési információkat érhetnek el</li>
+  <li>az adatoknak csak az aktuálisan használt részei kerülnek továbbításra, csökkentve az ezzel járó költségeket.</li>
+</ol>
+
+<p>Az egyben történő letöltés lehetősége bizosítja, hogy:</p>
+
+<ul>
+  <li>nincs függés az adatok eredeti szolgáltatójától, vagyis ha újrastrukturálás vagy költségvetési ciklusváltás miatt a körülmények megváltoznak, az adatok továbbra is elérhetőek maradnak.</li>
+  <li>bárki beszerezheti és továbbterjesztheti az adatok másolatait. Ez csökkenti a forrást kiadó szervezet terjesztési költségeit és kiküszöböli a szűk keresztmetszeteket.</li>
+  <li>az adatok felhasználásával mások új szolgáltatásokat fejleszthetnek, mert biztos, hogy azokat nem vonják meg tőlük.</li>
+</ul>
+
+<p>Az adatok egészben történő publikálása lehetővé teszi, hogy azokat az eredetitől eltérő célra használják. Például, más formátumba konvertálhatják őket, összevethetik őket más forrásokkal, verziókövetést alkalmazhatnak rajtuk vagy több helyen archiválhatják őket. Habár az adatok legfrissebb verzióját nyugodtan publikálhatjuk egy API-n keresztül, a nyers adatokat is célszerű egyben, szabályos időközönként publikálni.</p>
+
+<p>Például, az <a href="http://epp.eurostat.ec.europa.eu/">Eurostat statisztikai szolgáltatás</a> esetén az élő adatok mellett lehetőség van az adatok egyben történő letöltésére, az oldal közel 4 000 adatfájllal rendelkezik. Az oldal naponta kétszer frissül és  [Tab-separated values] (/glossary/en/terms/tab-separated-values/) (TSV) formátumban kínál letöltéseket. Továbbá, dokumentációt is tartalmaz a letöltés módjáról valamint az adatfájlokról.</p>
+
+<p>Egy másik példa a <a href="http://opendata.dc.gov/">District of Columbia Data Catalog</a>, amely az aktuális élő adatok mellett lehetővé teszi adatok CSV és XLS formátumú letöltését.</p>
+
+<h2 id="tegyük-felfedezhetővé-az-adatokat">Tegyük felfedezhetővé az adatokat!</h2>
+
+<p>A <a href="/glossary/en/terms/open-data/">nyílt adatok</a> mit sem érnek felhasználók nélkül. Fontos biztosítanunk, hogy mások is képesek legyenek megtalálni a forrásanyagokat. Ez a szakasz az erre irányuló különböző megközelítésekkel foglalkozik.</p>
+
+<p>A legfontosabb feladatunk, hogy olyan semleges teret kínáljunk, amely képes ellenállni a hivatalok közti politikának és a későbbi költségvetési ciklusoknak. A jogi korlátok, legyenek akár szektoriálisak akár földrajziak, nehézzé tehetik az együttműködést. Azonban, a közös munka jelentős előnyökkel jár. Minél egyszerűbb az adatok felfedezése, annál gyorsabban jönnek létre hasznos, új eszközök a segítségükkel.</p>
+
+<h3 id="elérhető-eszközök">Elérhető eszközök</h3>
+
+<p>A weben számos olyan eszköz található, amelyek kifejezetten az adatok jobb felfedezhetőségét segítik.</p>
+
+<p>Közülük az egyik legkiemelkedőbb a <a href="http://thedatahub.org/">DataHub</a>, amely katalógusként és adattárként szolgál adathalmazok számára szerte a világon. Az oldal megkönnyíti az anyagok publikálását a magánszemélyek és szervezetek számára, a felhasználóknak pedig segít a keresett adatok megtalálásában.</p>
+
+<p>Ezen felül, az oldal tucatnyi, specializált katalógust kínál a különböző szektorok és helyek számára. Számos tudományos közösség hozott létre katalógusrendszert saját területén, mert a publikációkhoz gyakran van szükség adatokra.</p>
+
+<h3 id="az-állam-számára">Az állam számára</h3>
+
+<p>Az eddigi tapasztalatok szerint általában egy vezető minisztériumot bíznak meg azzal, hogy katalógust készítsen az állami adatokról. A katalógusok létrehozásakor törekedjünk olyan struktúra létrehozására, amely más minisztériumok és részlegek számára is lehetővé teszi az információik naprakészen tartását.</p>
+
+<p>Álljunk ellen a késztetésnek, hogy saját magunk készítsük el a katalógust kezelő szoftvert. Léteznek olyan ingyenes, nyílt forráskódú szoftvermegoldások (például a <a href="http://ckan.org/">CKAN</a>), amelyet már számos kormány adaptált. Így többnyire nincs szükség egy saját platformba külön forrásokat fektetni.</p>
+
+<p>Létezik néhány dolog, amely a legtöbb nyílt adat katalógusból hiányzik, így a programunknak célszerű figyelembe venni a következőket:</p>
+
+<ul>
+  <li>Adjunk lehetőséget arra, hogy a magán és közösségi szektorok kiegészíthessék az adatokat. Érdemes lehet a katalógusra regionális katalógusként, nem regionális állami katalógusként tekinteni.</li>
+  <li>Könnyítsük meg az adatminőség javítását azzal, hogy engedélyezzük a leszármazott adathalmazok katalógusba vételét. Például, ha valaki címeket geokódolt, és megosztaná a munkáját másokkal, de az adatahalmazoknak csak egy verziója engedélyezett, az efféle fejlesztések rejtve maradnak.</li>
+  <li>Legyünk toleránsak azzal, ha az adataink máshol is megjelennek.  A tartalmat az érintett közösségek valószínűleg duplikálni fogják. Ha van egy folyók vízszintjeit monitorozó adatbázisunk, az adataink megjelenhetnek a hidrológusok katalógusában.</li>
+  <li>Biztosítsuk, hogy a hozzáférés igazságos legyen. Próbáljuk elkerülni a privilegizált hozzáférési szinteket az állami tisztségviselők vagy a hivatásos kutatók számára, mert ez aláaknázza a közösség részvételét és elkötelezettségét.</li>
+</ul>
+
+<h3 id="a-civil-társadalom-számára">A civil társadalom számára</h3>
+
+<p>Legyünk nyitottak egy kiegészítő katalógus létrehozására a nem-hivatalos adatok számára.</p>
+
+<p>Nagyon ritka, hogy az állam nem hivatalos vagy nem mérvadó forrásokkal foglalkozzon. A tisztviselők gyakran hatalmas erőfeszítéseket tesznek annak érdekében, hogy ne okozzon kínos politikai visszhangot vagy egyéb problémát az adatok rossz felhasználása, vagy az azoktól való túlzott függés.</p>
+
+<p>Továbbá, az állam valószínűleg nem kíván olyan kezdeményezéseket támogatni, amelyek üzleti információkkal vegyítik a saját információjukat. Az államigazgatás joggal szkeptikus a profitirányultság miatt. Ezért indokolt lehet egy független katalógus létrehozása a közösségek, cégek és más felhasználók számára.</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+  <ul>
+    
+    <li class="edit tooltip-item">
+      Improve this page
+
+      <span class="tooltip">
+        <a href="https://github.com/okfn/opendatahandbook/edit/master/guide/hu/how-to-open-up-data/index.md" class="github" rel="external">Edit on Github</a>
+        <a href="/contribute/" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    
+    
+    <li class="translate tooltip-item">
+      Translate this page
+      <span class="tooltip">
+        <a href="/contribute/translate-guide" target="_blank">Translation guide</a>
+      </span>
+    </li>
+    
+
+    
+
+    <li class="donate tooltip-item">
+      Donate
+      
+      <span class="tooltip">
+        <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+        <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+          <select name="currency_code">
+            <option value="USD">US Dollar $</option>
+            <option value="EUR">Euro €</option>
+            <option value="GBP">UK £</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="CZK">Czech Koruna</option>
+            <option value="DKK">Danish Krone</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="HUF">Hungarian Forint</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="NOK">Norwegian Krone</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="PLN">Polish Zloty</option>
+            <option value="SEK">Swedish Krona</option>
+            <option value="SGD">Singapore Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+          </select>
+          <input type="text" value="2.00" name="amount">
+          <input type="submit" value="Donate via PayPal" name="submit">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" alt="">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">
+          <input type="hidden" value="_xclick" name="cmd">
+          <input type="hidden" value="admin@okfn.org" name="business">
+          <input type="hidden" value="Open Data Handbook Donation to Open Knowledge" name="item_name">
+        </form>
+      </span>
+    </li>
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://opendatahandbook.org/guide/hu/how-to-open-up-data/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Hogyan tegyük nyílttá az adatokat?: http://opendatahandbook.org/guide/hu/how-to-open-up-data/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+
+        <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+      <a href="https://okfn.org/" rel="external"><img src="//a.okfn.org/img/oki/landscape-grey-468x122.png" width="123" height="32" alt="Open Knowledge International"></a>
+
+      
+      <div class="supporters">
+        <h6>Supported by</h6>
+        
+          
+          <a href="https://www.shuttleworthfoundation.org/" rel="external"><img src="/img/supporters/shuttleworth-footer.png" alt="Shuttleworth Foundation"></a>
+          
+        
+          
+          <a href="http://www.worldbank.org/" rel="external"><img src="/img/supporters/worldbank-footer.png" alt="The World Bank"></a>
+          
+        
+          
+          <a href="http://od4d.net/" rel="external"><img src="/img/supporters/od4d-footer.png" alt="OD4D"></a>
+          
+        
+      </div>
+      
+    </div>
+
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribute</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Related Projects</h6>
+        <ul>
+          
+          <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
+          
+          <li><a href="http://datahub.io/">The DataHub</a></li>
+          
+          <li><a href="http://dataportals.org/">DataPortals.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+          <li><a href="http://okfn.org/opendata/">Introducing Open Data</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin@okfn.org&lc=GB&item_name=Open Data Handbook%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        
+        
+        <li class="discuss"><a href="https://discuss.okfn.org/c/open-data-handbook" rel="external"><span>Contact</span></a></li>
+        
+        
+        <li class="source"><a href="https://github.com/okfn/opendatahandbook" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://opendatahandbook.org/guide/hu/how-to-open-up-data/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,997 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kaip atverti duomenis?</title>
+    <meta name="description" content="Guides, case studies and resources for government & civil society
+on the "what, why & how" of open data.
+">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="google-site-verification" content="U6RmQ0BoQ9f1Omog3Mnas-Yd1At38pTDZbM1AtnOpnc" />
+    
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://opendatahandbook.org/guide/lt/how-to-open-up-data/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    
+    <script>
+      var okiConsent = {
+        analyticsTrackingID: 'UA-8271754-28'
+      }
+    </script>
+    <script src="https://a.okfn.org/html/oki/consent/assets/js/consent.js"></script>
+    
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+    <div>
+      <div id="ok-panel-wrapper">
+        <a class="white ok-ribbon" href="https://okfn.org/"><img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge International"></a>
+      </div>
+      <div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
+  <a class="site-title" href="/">Open Data Handbook</a>
+</header>
+
+<nav id="menu">
+  <ul>
+
+    <li>
+      <a href="/">Home</a>
+    </li>
+
+    <li >
+      <a href="/guide/lt/introduction/">Guide</a>
+
+      <ul>
+
+        <!-- start navigation for guide section -->
+        
+        
+        <li >
+          <a href="/guide/lt/introduction/">Introduction</a>
+          
+          <span class="subsections">
+            
+            <a href="#target-audience">Target Audience</a>
+            
+            <a href="#credits">Credits</a>
+            
+          </span>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/lt/why-open-data/">Why Open Data?</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/lt/what-is-open-data/">What is Open Data?</a>
+          
+        </li>
+        
+        
+        <li class="Selected">
+          <a href="/guide/lt/how-to-open-up-data/">How to Open Up Data</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/lt/following-up/">So I've Opened Up Some Data, Now What? </a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/lt/events/">Make data social</a>
+          
+        </li>
+        
+        
+        <li >
+          <a href="/guide/lt/appendices/">Appendices</a>
+          
+        </li>
+        
+
+        <!-- start navigation for glossary section -->
+        <li>
+          <a href="/glossary/lt/">Glossary</a>
+        </li>
+        <!-- end navigation for glossary section -->
+
+        <!-- end navigation for guide section -->
+      </ul>
+    </li>
+
+    <!-- start navigation for value stories section -->
+    <li>
+      <a href="/value-stories/lt/">Value Stories</a>
+      
+    </li>
+    <!-- end navigation for value stories section -->
+
+    <!-- start navigation for resources section -->
+    <li>
+      <a href="/resources/">Resources</a>
+
+      
+
+    </li>
+    <!-- end navigation for resources section -->
+
+    <!-- start navigation for apps section -->
+    <li class="apps-menu">
+      <a href="/solutions/en/">Solutions</a>
+      <ul class="app-sub-menu">
+        <li class="search">
+          <input type="search" placeholder="Search" class="quicksearch">
+        </li>
+        
+        
+            
+            
+            
+            
+
+            <li class="problems filter active">
+              <a>Problems</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-problem-reusefederatedtools" data-pid=".problem-reusefederatedtools">(Re)use federated tools</a>
+                
+                <a data-filter=".selector-problem-assessholisticmetrics" data-pid=".problem-assessholisticmetrics">Assess holistic metrics</a>
+                
+                <a data-filter=".selector-problem-categoriseopennessofdata" data-pid=".problem-categoriseopennessofdata">Categorise openness of data</a>
+                
+                <a data-filter=".selector-problem-crossagencystrategy" data-pid=".problem-crossagencystrategy">Cross Agency strategy</a>
+                
+                <a data-filter=".selector-problem-developanopendatapublicationplan" data-pid=".problem-developanopendatapublicationplan">Develop an Open Data Publication Plan</a>
+                
+                <a data-filter=".selector-problem-developdatasetcriteria" data-pid=".problem-developdatasetcriteria">Develop dataset criteria</a>
+                
+                <a data-filter=".selector-problem-enablefeedbackchannelsforimprovingdataquality" data-pid=".problem-enablefeedbackchannelsforimprovingdataquality">Enable feedback channels for improving data quality</a>
+                
+                <a data-filter=".selector-problem-enablequalityassessmentofopendata" data-pid=".problem-enablequalityassessmentofopendata">Enable quality assessment of open data</a>
+                
+                <a data-filter=".selector-problem-encouragecrowdsourcingaroundpsi" data-pid=".problem-encouragecrowdsourcingaroundpsi">Encourage crowdsourcing around PSI</a>
+                
+                <a data-filter=".selector-problem-establishopengovernmentportal" data-pid=".problem-establishopengovernmentportal">Establish Open Government Portal</a>
+                
+                <a data-filter=".selector-problem-establishanopendataecosystem" data-pid=".problem-establishanopendataecosystem">Establish an Open Data Ecosystem</a>
+                
+                <a data-filter=".selector-problem-identifywhatyoualreadypublish" data-pid=".problem-identifywhatyoualreadypublish">Identify what you already publish</a>
+                
+                <a data-filter=".selector-problem-influxofhousingpriceincreases" data-pid=".problem-influxofhousingpriceincreases">Influx of Housing Price Increases</a>
+                
+                <a data-filter=".selector-problem-internationalaidandtransparency" data-pid=".problem-internationalaidandtransparency">International Aid & Transparency</a>
+                
+                <a data-filter=".selector-problem-opendatabusinessmodels" data-pid=".problem-opendatabusinessmodels">Open Data Business Models</a>
+                
+                <a data-filter=".selector-problem-openuppublictransportdata" data-pid=".problem-openuppublictransportdata">Open Up Public Transport Data</a>
+                
+                <a data-filter=".selector-problem-providepsiatzerocharge" data-pid=".problem-providepsiatzerocharge">Provide PSI at zero charge</a>
+                
+                <a data-filter=".selector-problem-publishstatisticaldatainlinkeddataformat" data-pid=".problem-publishstatisticaldatainlinkeddataformat">Publish Statistical Data In Linked Data Format</a>
+                
+                <a data-filter=".selector-problem-publishoverviewofmanageddata" data-pid=".problem-publishoverviewofmanageddata">Publish overview of managed data</a>
+                
+                <a data-filter=".selector-problem-ride-sharingandpublictransit" data-pid=".problem-ride-sharingandpublictransit">Ride-sharing and Public Transit</a>
+                
+                <a data-filter=".selector-problem-standardsforgeospatialdata" data-pid=".problem-standardsforgeospatialdata">Standards for Geospatial Data</a>
+                
+                <a data-filter=".selector-problem-trackingmodernwarfare" data-pid=".problem-trackingmodernwarfare">Tracking Modern Warfare</a>
+                
+                <a data-filter=".selector-problem-unveilingincarcerationrates" data-pid=".problem-unveilingincarcerationrates">Unveiling Incarceration Rates</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Themes</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-theme-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-theme-transport"> Transport</a>
+                
+                <a data-filter=".selector-theme-civilconflict">Civil Conflict</a>
+                
+                <a data-filter=".selector-theme-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-theme-health">Health</a>
+                
+                <a data-filter=".selector-theme-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-theme-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-theme-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-theme-sharepsi">Share PSI</a>
+                
+                <a data-filter=".selector-theme-transport">Transport</a>
+                
+              </span>
+            </li>
+        
+
+        
+        
+            
+            
+            
+            
+
+            <li class="filter">
+              <a>Tags</a>
+              <span class="filter-items">
+                
+                <a data-filter=".selector-tag-civilconflict"> Civil Conflict</a>
+                
+                <a data-filter=".selector-tag-crime"> Crime</a>
+                
+                <a data-filter=".selector-tag-development"> Development</a>
+                
+                <a data-filter=".selector-tag-drones"> Drones</a>
+                
+                <a data-filter=".selector-tag-e-government"> E-Government</a>
+                
+                <a data-filter=".selector-tag-foreignaffairs"> Foreign Affairs</a>
+                
+                <a data-filter=".selector-tag-housingprices"> Housing Prices</a>
+                
+                <a data-filter=".selector-tag-humanrights"> Human Rights</a>
+                
+                <a data-filter=".selector-tag-incarcerationrates"> Incarceration Rates</a>
+                
+                <a data-filter=".selector-tag-internaldisplacement"> Internal Displacement</a>
+                
+                <a data-filter=".selector-tag-internationalconflict"> International Conflict</a>
+                
+                <a data-filter=".selector-tag-internationalsecurity"> International Security</a>
+                
+                <a data-filter=".selector-tag-metro"> Metro</a>
+                
+                <a data-filter=".selector-tag-sharepsi"> Share PSI</a>
+                
+                <a data-filter=".selector-tag-transparency"> Transparency</a>
+                
+                <a data-filter=".selector-tag-corruption"> corruption</a>
+                
+                <a data-filter=".selector-tag-development"> development</a>
+                
+                <a data-filter=".selector-tag-e-government"> e-government</a>
+                
+                <a data-filter=".selector-tag-foreignpolicy"> foreign policy</a>
+                
+                <a data-filter=".selector-tag-metro"> metro</a>
+                
+                <a data-filter=".selector-tag-publictransit"> public transit</a>
+                
+                <a data-filter=".selector-tag-ride-sharing"> ride-sharing</a>
+                
+                <a data-filter=".selector-tag-gentrification">Gentrification</a>
+                
+                <a data-filter=".selector-tag-internationalaid">International Aid</a>
+                
+                <a data-filter=".selector-tag-modernwarfare">Modern Warfare</a>
+                
+                <a data-filter=".selector-tag-prisonpolicy">Prison Policy</a>
+                
+                <a data-filter=".selector-tag-taxi">Taxi</a>
+                
+                <a data-filter=".selector-tag-transparency">Transparency</a>
+                
+                <a data-filter=".selector-tag-insurance">insurance</a>
+                
+                <a data-filter=".selector-tag-internationalaid">international aid</a>
+                
+                <a data-filter=".selector-tag-transparency">transparency</a>
+                
+              </span>
+            </li>
+        
+      </ul>
+      
+    </li>
+
+    <!-- start navigation for contribute section -->
+    <li class="">
+      <a href="/contribute/">Contribute</a>
+      <ul>
+        
+        
+        
+        <li >
+          <a href="/contribute/">Contributing To The Handbook</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/adding/">Adding A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/editing/">Editing A Page</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-term/">Adding A Term To The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/add-resource/">Adding A Resource To The Library</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-guide/">Translating The Guide</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/translate-glossary/">Translating The Glossary</a>
+        </li>
+        
+        
+        
+        <li >
+          <a href="/contribute/markdown-examples/">Markdown Examples</a>
+        </li>
+        
+      </ul>
+    </li>
+    <!-- end navigation for contribute section -->
+
+    <li>
+      <a href="/credits/">Credits</a>
+    </li>
+  </ul>
+
+</nav>
+
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="/guide/lt/" class="pre-header">guide</a>
+    <h1 class="post-title">Kaip atverti duomenis?</h1>
+    
+
+    
+
+
+
+<div class="languages">
+  <strong>Languages:</strong>&nbsp;
+  
+  
+  
+  
+  
+  <span><a  href="/guide/de/how-to-open-up-data/" title="Deutsch">de</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/el/how-to-open-up-data/" title="Ελληνικά">el</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/en/how-to-open-up-data/" title="English">en</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/es/how-to-open-up-data/" title="Español/Castellano">es</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/fr/how-to-open-up-data/" title="Français">fr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/he/how-to-open-up-data/" title="עברית">he</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/hr/how-to-open-up-data/" title="hrvatski">hr</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/id/how-to-open-up-data/" title="Bahasa">id</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/is/how-to-open-up-data/" title="Íslenska">is</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/it/how-to-open-up-data/" title="Italiano">it</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ja/how-to-open-up-data/" title="日本語">ja</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ko/how-to-open-up-data/" title="한국어">ko</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a class="active_language" href="/guide/lt/how-to-open-up-data/" title="Lietuvių">lt</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/lv/how-to-open-up-data/" title="Latviešu">lv</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/my/how-to-open-up-data/" title="မြန်မာဘာသာ">my</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ne/how-to-open-up-data/" title="नेपाली भाषा">ne</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/nl_BE/how-to-open-up-data/" title="Nederlands (Belgisch)">nl_BE</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/pt_BR/how-to-open-up-data/" title="Português Brasileiro">pt_BR</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ro/how-to-open-up-data/" title="Română">ro</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/ru/how-to-open-up-data/" title="Pyccĸий">ru</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_CN/how-to-open-up-data/" title="中国语文">zh_CN</a>&nbsp;</span>
+  
+  
+  
+  
+  
+  
+  <span><a  href="/guide/zh_TW/how-to-open-up-data/" title="繁體中文">zh_TW</a>&nbsp;</span>
+  
+  
+</div>
+
+
+
+
+    <p>Ši dalis yra vadovėlio branduolys. Jis duoda konkrečių, detalių patarimų, kaip duomenų savininkai gali tuos duomenis atverti. Mes pristatysime bazines taisykles, taip pat paminėsime dažnai daromas klaidas. Galiausiai aptarsime ir subtilesnius niuansus, kurie galėtų iškilti.</p>
+
+<p>Yra trys pagrindinės taisyklėmis, kuriomis rekomenduojame vadovautis atveriant duomenis:</p>
+
+<ul>
+  <li><strong>Darykite tai paprastai.</strong> Pradėkite po truputį, paprastai ir greitai. Nėra reikalavimo, kad kiekvienas duomenų rinkinys tuojau pat būtų atvertas. Jei pradėsite atverdami tik viena rinkinį, ar nors dalį didelio rinkinio - puiku. Žinoma, kuo daugiau atversite, tuo geriau.</li>
+</ul>
+
+<blockquote>
+  <p>Nepamirškite, kad tai - inovacija. Geriausia judėti kuo greičiau, taip sukursite pokyčių bangą ir įgausite patirties. Kuriant inovacijas, daug mokomasi ne tik iš sėkmės, bet ir iš klaidų. Ir ne kiekvienas atvertas duomenų rinkinys bus naudingas.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Anksti ir daug bendraukite su duomenų naudotojais.</strong> Bendraukite su esamais ir potencialiais žmonėmis, kurie duomenis naudoja ir pernaudoja, ar tai būtų piliečiai, verslininkai ar programuotojai. Tai užtikrins, kad kita jūsų duomenų atvėrimo proceso iteracija būtų maksimaliai prasminga.</li>
+</ul>
+
+<blockquote>
+  <p>Svarbu turėti omenyje, kad didelė dalis duomenų nepasieks jų vartotojų tiesiogiai, greičiau juos pasieks per tarpininkus: žmones, kurie duomenis adaptuoja ir jungia vienus su kitais. Pavyzdžiui, dauguma mūsų nenorime matyti ir mums nereikia didžiulės GPS koordinačių duomenų bazės, mums labiau patinka žemėlapis. Taigi, pirmiausia susiraskite tarpininkus. Jie pernaudos ir įprasmins informaciją.</p>
+</blockquote>
+
+<ul>
+  <li><strong>Atkreipkite dėmesį į populiarias baimes ir nesusipratimus.</strong> Tai ypač svarbu, jei dirbate su didelėmis insitucijomis, tokiomis, kaip vyriausybė. Atverdami duomenis, susidursite su daugybe klausimų ir baimių. Svarbu a) suprasti, kurie iš jų svarbiausi ir b) kuo anksčiau spręsti didžiausias problemas.</li>
+</ul>
+
+<p>Atveriant duomenis, daromi keturi pagrindiniai žingsniai, kuriuos žemiau detaliai aptarsime. Jų eilės tvarka labai apytikslė - didžioji dalis žingsnių gali būti daroma lygiagrečiai.</p>
+
+<ol>
+  <li><strong>Pasirinkite duomenų rinkinius.</strong> Išsirinkite, ką planuojate atverti. Turėkite omenyje, kad jūs galėsite (ir turėsite) grįžti prie šio žingsnio, jei vėliau susidursite su problemomis.</li>
+  <li><strong>Pritaikykite atvirą licenciją.</strong>
+    <ol>
+      <li>Apsibrėžkite, kokias intelektinės nuosavybės teises turi duomenys.</li>
+    </ol>
+  </li>
+</ol>
+
+<blockquote>
+  <ol>
+    <li>Pritaikykite tinkamą atvirą licenciją, kuri suteikia visas tas teises ir palaiko atvirumo apibrėžimą, kurį aptarėme aukščiau, skyriuje “Kas yra atviri duomenys”</li>
+    <li>Pastaba: jeigu negalite to padaryti, grįžkite į pirmą žingsnį ir išsirinktie kitą duomenų rinkinį.</li>
+  </ol>
+</blockquote>
+
+<ol>
+  <li><strong>Viešai paskelbkite duomenis</strong> - masiškai (in bulk) ir naudingu formatu. Galite apmąstyti alternatyvius būdus, kaip tai padaryti, pavyzdžiui, pasinaudojant API.</li>
+  <li><strong>Pasirūpinkite, kad duomenys būtų lengvai randami</strong> - paskelbkite internete, galbūt - sukurkite vieną pagrindinį visų atvirų duomenų katalogą.</li>
+</ol>
+
+<h2 id="pasirinkite-duomenų-rinkinį-ius">Pasirinkite duomenų rinkinį(-ius)</h2>
+
+<p>Pirmas žingsnis yra pasirinkti duomenų rinkinius, kuriuos planuojate atverti, tačiau nepamirškite, kad visas duomenų atvėrimo procesas yra iteracinis ir jūs galėsite grįžti į pirmą žingsnį, jei vėliau susidursite su problemomis.</p>
+
+<p>Jei jau žinote, kokius duomenų rinkinius bandysite atverti, galite iš karto skaityti kitą skyrių. Tačiau daugeliu atveju, ypač didelėse institucijose, pasirinkti duomenų rinkinius yra iššūkis. Kaip tokiu atveju elgtis?</p>
+
+<p>Šio sąrašo sukūrimas turėtų būti greitas procesas, apibrėžiantis, nuo kurių duomenų galima pradėti atvėrimą. Vėliau, kituose žingsniuose, galima bus kruopščiau patikrinti, ar tie duomenųs tinkami.</p>
+
+<p><strong>Nėra reikalavimo</strong> sudaryti išsamų jūsų duomenų rinkinių sąrašą. Čia svarbiausia, ar apskritai įmanoma duomenis paskelbti (tiek atvirai, tiek ir neatvirai) - žr. <a href="../what-is-open-data/">prieš tai buvusį skyrių</a>.</p>
+
+<h3 id="klauskite-bendruomenės">Klauskite bendruomenės</h3>
+
+<p>Mes rekomenduojame pirmiausia paklausti bendruomenės. Tai žmonės, kurie naudos duomenis, jie ir galės pasakyti, kurie duomenys galėtų būti naudingi.</p>
+
+<ol>
+  <li>Paruoškite trumpą sąrašą tų duomenų rinkinių, kurie turi potencialą būti paskelbti ir apie kuriuos norėtumėte visuomenės nuomonės. Sąrašas nebūtinai turi atitikti jūsų lūkesčius, svarbiausia yra pajusti duomenų paklausą. Galite imti pavyzdį ir iš kitų šalių atvirų duomenų katalogų.</li>
+  <li>Sudarykite galimybę komentuoti</li>
+  <li>Paskelbkite kvietimą komentuoti svetainėje. Užtikrinkite, kad kvietimas turi savo URL nuorodą, kad dalinantis kvietimu socialiniuose tinkluose, būtų lengva rasti kvietimą.</li>
+  <li>Pasirūpinkite, kad būtų paprasta komentuoti. Nereikalaukite registracijos, kadangi tai sumažina komentarų skaičių.</li>
+  <li>Išplatinkite kvietimą el. pašto grupėse, forumuose, ir tarp atskirų žmonių.</li>
+  <li>Surenkite konsultacinį renginį. Pasistenkite, kad jis vyktų patogiu vidutiniam verslo žmogui, duomenų entuziastui ar viešojo sektoriaus darbuotojui laiku.</li>
+  <li>Paprašykite politiko pakalbėti jūsų įstaigos vardu. Atviri duomenys greičiausiai susiję su valstybinės informacijos prieinamumo didinimo politika</li>
+</ol>
+
+<h3 id="paskelbimo-kaina">Paskelbimo kaina</h3>
+
+<p>Kiek pinigų institucijos išleidžia rinkti ir palaikyti duomenis, kuriuos jos turi? Jei jos kažkuriai duomenų daliai išleidžia daug pinigų, tuomet tikėtina, kad būtent tos dalies ir norės dauguma žmonių.</p>
+
+<p>Šis argumentas kažkuo panašus į “balsavimą” kelyje. Jums gali tekti atsakyti į klausimą: “Kodėl kiti žmonės turėtų nemokamai gauti informaciją, kuri tokia brangi?”. Atsakymas - kad jos kainą sumoka viešasis sektorius tam, kad atliktų kažkokią funkciją. O kai duomenys jau surinkti, jų atvėrimo kaina yra nykstamai maža. Taigi, duomenys neturi nieko kainuoti.</p>
+
+<h3 id="ar-lengva-skelbti-duomenis">Ar lengva skelbti duomenis?</h3>
+
+<p>Kartais, užuot ieškant vertingiausių duomenų, gali būti naudinga pažiūrėti, kuriuos duomenis atverti yra lengviausia. Maži ir greiti atvėrimai gali veikti kaip katalizatorius didesniems pokyčiams organizacijose.</p>
+
+<p>Tačiau būkite atsargūs. Gali taip nutikti, kad maži duomenų rinkiniai yra tiek menkai vertingi, kad iš jų nieko negalima padaryti. Jei taip nutiks, susvyruos pasitikėjimas visu projektu.</p>
+
+<h3 id="stebėkite-kolegas">Stebėkite kolegas</h3>
+
+<p>Atvirų duomenų judėjimas yra augantis. Greičiausiai netoli savęs rasite žmonių, kurie žino, kas su atvirais duomenimis vyksta kitur. Sudarykite sąrašą remdamiesi tuo, ką daro kitos institucijos.</p>
+
+<h2 id="pritaikykite-atvirą-licenciją-teisinis-atvirumas">Pritaikykite atvirą licenciją (teisinis atvirumas)</h2>
+
+<p>Daugelyje jurisdikcijų egzistuoja intelektinės nuosavybės teisės, ribojančios galimybes trečiosioms šalims naudoti, pernaudoti ir platinti duomenis be atskiro leidimo. Net tada, kai abejojama dėl tokių teisių egzistavimo, svarbu pritaikyti atviriems duomenims licenciją, bent jau aiškumo dėlei. Taigi, <strong>jei planuojate duomenis skelbti viešai, pritaikykite jiems licenciją</strong>, o jei norite, kad jūsų duomenys būtų atviri_ - tai netgi dar svarbiau.</p>
+
+<p>Kokias licencijas galima naudoti? Mes rekomenduojame atviriems duomenims naudoti vieną iš licencijų, kurios suderinamos su atvirumo apibrėžimu_ ir pažymėtos kaip tinkamos duomenims. Šis sąrašas (kartu su naudojimo instrukcijomis) gali būti rastas čia:</p>
+
+<ul>
+  <li><a href="http://opendefinition.org/licenses/">http://opendefinition.org/licenses/</a></li>
+</ul>
+
+<p>Trumpos vieno puslapio rekomendacijos, kaip taikyti atvirų duomenų licenciją, yra “Open Data Commons” svetainėje:</p>
+
+<ul>
+  <li><a href="http://opendatacommons.org/guide/">http://opendatacommons.org/guide/</a></li>
+</ul>
+
+<h2 id="padarykite-duomenis-techniškai-atvirus">Padarykite duomenis techniškai atvirus</h2>
+
+<p>{term:Atviri duomenys &lt;open data&gt;} turi būti atviri ne tik teisiškai, bet ir techniškai. Tai yra, duomenys turi būti prieinami masiškai (in bulk) ir {term:kompiuteriams patogiu formatu &lt;machine-readable format&gt;}.</p>
+
+<p><strong>Available</strong></p>
+
+<p>Duomenų kaina turėtų būti ne didesnė, nei pagrįsta savikaina, geriausia, jei juos galima nemokamai atsisiųsti internete. Toks kainos modelis pasiekiamas tada, kai duomenis atverianti įstaiga nenaudoja didelių resursų, pateikdama juos naudojimui.</p>
+
+<p><strong>In bulk</strong></p>
+
+<p>Duomenys turėtų būti gaunami kaip vienas pilnas duomenų rinkinys. Jei turite registrą, kurį pildote ir palaikote pagal nuostatus, tuomet visas registras turėtų būti atsisiunčiamas. API ar panašus būdas taip pat gali būti labai naudingas, bet jis nepakeičia galimybės gauti visus duomenis masiškai.</p>
+
+<p><strong>In an open, machine-readable format</strong></p>
+
+<p>Viešojo sektoriaus turimų duomenų pernaudojimas neturėtų turėti jokių patentinių apribojimų. Didžiausio masto pernaudojimą garantuoja mašininiu būdu skaitomi formatai. Pavyzdžiui, įsivaizduokite statistiką, paskelbtą PDF (Portable Document Format) dokumentuose, kurie skirti spausdinimui. Tokią statistiką patogu skaityti žmogui, tačiau labai sunku suprasti kompiuteriui. Tai riboja galimybes tuos duomenis pernaudoti ir iš jų kažką sukurti.</p>
+
+<p>Štai keli labai naudingi patarimai:</p>
+
+<ul>
+  <li>Viską darykite paprastai,</li>
+  <li>judėkite greitai,</li>
+  <li>ir būkite pragmatiški.</li>
+</ul>
+
+<p>Pavyzdžiui, geriau jau dabar atiduoti pirminius, neapdorotus duomenis, nei tobulai sutvarkytus duomenis po šešių mėnesių.</p>
+
+<p>Yra daug skirtingų būdų, kaip duomenis padaryti prieinamus kitiems. Natūraliausias, šiais interneto laikais, yra skelbimas internete. Tą galima daryti daugeliu būdų. Paprasčiausia - institucijoms skelbti duomenis savo interneto svetainėse, o centrinis katalogas nukreipia lankytojus į duomenų šaltinį. Tačiau yra ir alternatyvų.</p>
+
+<p>Kai {term:interneto ryšys &lt;connectivity&gt;} ribotas, arba duomenų kiekis ypatingai didelis, galima platinti kitokiais formatais. Šiame skyriuje bus aptartos alternatyvos, kuriomis pasinaudojus, galima tai padaryti pigiai.</p>
+
+<h3 id="skelbimo-internete-būdai">Skelbimo internete būdai</h3>
+
+<h4 id="talpinimas-savo-svetainėje">Talpinimas savo svetainėje</h4>
+
+<p>Jūsų darbuotojams, tvarkantiems internete skelbiamą turinį, geriausiai pažįstamas formatas yra sudėti failus atsisiuntimui. Taip, kaip dabar skelbiate aptariamus dokumentus, taip ir duomenų failai gali būti paskelbti.</p>
+
+<p>Šio būdo trūkumas yra tai, kad tokiu būdu pašaliniam žmogui gali būti sunku rasti naujausią informaciją. Žmonėms, kurie, pasinaudodami jūsų duomenimis, kuria įrankius, toks būdas nepatogus.</p>
+
+<h4 id="talpinimas-naudojantis-trečiųjų-šalių-portalais">Talpinimas naudojantis trečiųjų šalių portalais</h4>
+
+<p>Daugelis duomenis talpinančių portalų tapo duomenų centrais tam tikrose srityse. Pavyzdžiui, pachube.com skirtas jungti žmones, kurie turi sensorius, su žmonėmis, kurie nori pasiimti iš jų duomenis. Tokie portalai, kaip Infochimps.com ir Talis.com, leidžia viešajam sektoriui nemokamai talpinti didelius informacijos kiekius.</p>
+
+<p>Trečiųjų šalių portalai gali būti labai naudingi, nes jie jau yra pritraukę besidominičiųjų bendruomenes bei surinkę kitų duomenų. Jei jūsų duomenys yra šių platformų dalis, jie sulaukia papildomo susidomėjimo.</p>
+
+<p>Didmeninės duomenų platformos suteikia infrastruktūrą, kuri gali patenkinti poreikį. Jos taip pat suteikia įrankius analizei atlikti ir duomenims analizuoti. Šie įrankiai viešojo sektoriaus įstaigoms paprastai būna nemokami.</p>
+
+<p>Platformos turi ir savo kainą. Visų pirma, tai nepriklausomybė. Jūsų įstaiga turi galėti atiduoti kontrolę kitiems. Dažnai tai sunku ir politiškai, ir teisiškai, ir techniškai. Visų antra, tai gali kainuoti ir atvirumą. Įsitikinkite, kad duomenų platforma neriboja priėjimo prie jos. Programinės įrangos kūrėjai ir mokslininkai naudoja daug įvairių operacinių sistemų, nuo išmaniųjų telefonų iki superkompiuterių. Visi jie turi turėti galimybę prieiti prie duomenų.</p>
+
+<h4 id="per-ftp-serverius">Per FTP serverius</h4>
+
+<p>Ne toks madingas būdas - suteikti prieigą prie failų per FTP (File Transfer Protocol). Tai gali tikti, jei auditorija techninė, pavyzdžiui, programuotojai ar mokslininkai. FTP naudojama vietoje HTTP, ir yra skirta keistis failais.</p>
+
+<p>FTP jau nebėra taip populiaru. Lyginant su interneto svetaine, FTP naudojimas prilygsta aplankų peržiūrinėjimui kompiuteryje. Todėl, nors FTP ir tinka naudoti pagal paskirtį, tačiau turi daug mažiau galimybių.</p>
+
+<h4 id="naudojantis-torrent-ais">Naudojantis torrent-ais</h4>
+
+<p><a href="/glossary/lt/terms/bittorrent/">BitTorrent</a> - tai sistema, politiką formuojančioms institucijoms pažįstama dėl asociacijos su piratavimu. BitTorrent naudoja bylas, vadinamas torrent-ais, kurie padalina keitimosi bylomis resursus tarp visų besikeičiančiųjų jomis. Skirtingai nei serverių atveju, kuomet jie gali būti perkrauti, naudojant torrent-us, resursų pasiūla didėja kartu su paklausa.</p>
+
+<h4 id="suteikiant-api">Suteikiant API</h4>
+
+<p>Duomenys gali būti skelbiami naudojant {term:Aplikacijų programavimo sąsają &lt;Application Programming Interface&gt;} (API). API labai išpopuliarėjo, nes leidžia programuotojams pasirinkti jiems reikalingus duomenis vietoj masinio duomenų rinkinio atsisiuntimo. API paprastai būna sujungta su duomenų baze, kuri atnaujinama realiu laiku. Tai reiškia, kad per API prieinama informacija visada atnaujinta ir aktuali.</p>
+
+<p>Skelbti pirminius duomenis masiškai (in bulk) turi būti visų atvirų duomenų iniciatyvų tikslas. API naudojimas turi ir savo kainą:</p>
+
+<ol>
+  <li>Kaina. Norint paruošti API, reikia daugiau programavimo ir palaikymo, nei pateikiant failus.</li>
+  <li>Lūkesčiai. Puoselėjant sistemos vartotojų bendruomenę, svarbu užtikrintumas. Jei kažkas bus negerai, jums teks atsakomybė taisyti klaidas.</li>
+</ol>
+
+<p>Masinė (bulk) prieiga prie visų duomenų užtikrina, kad:</p>
+
+<ul>
+  <li>Nėra priklausomybės nuo originalaus duomenų teikėjo, vadinasi, įvykus restruktūrizacijai ar pasikeitus biudžetams, duomenys vis tiek bus prieinami.</li>
+  <li>bet kas gali duomenis nusikopijuoti ir platinti. Tai sumažina platinimo kainą, nes naudojami ne vien tik įstaigos resursai, be to, mažesnė duomenų dingimo tikimybė.</li>
+  <li>kiti gali kurti nuosavas paslaugas, kurios naudoja duomenis, nes yra tikri, kad duomenys nebus atimti.</li>
+</ul>
+
+<p>Masinis (bulk) priėjimas prie visų duomenų iš karto leidžia tuos duomenis naudoti plačiau nei pagal originalią paskirtį. Pavyzdžiui, galima juos konvertuoti į naują formatą, susieti su kitais duomenimis arba versijuoti ir saugoti įvairiose vietose. Naujausia duomenų versija gali būti suteikiama per API, tačiau pirminiai duomenys taip pat turi būti reguliariai pateikiami masiniu (bulk) formatu.</p>
+
+<p>Pavyzdžiui, <a href="http://epp.eurostat.ec.europa.eu/">Eurostat statistical service</a> leidžia parsisiųsti duomenis ir pateikia virš 4000 duomenų failų. Duomenys atnaujinami dukart per dieną, pateikiami {term:Tabuliavimo žymėmis atskirtų reikšmių} (TSV) formatu, taip pat pateikiama dokumentacija apie failų atsisiuntimą ir pačius failus.</p>
+
+<p>Kitas pavyzdys yra ‘Kolumbijos apskrities Duomenų Katalgoas’_, kuris leidžia duomenis atsisiųsti ne tik CSV ir XLS formatais, bet ir prisijungti prie atnaujinimų srauto (live feed).</p>
+
+<h2 id="pasirūpinkite-kad-duomenys-būtų-randami">Pasirūpinkite, kad duomenys būtų randami</h2>
+
+<p>{term:Atviri duomenys &lt;open data&gt;} be vartotojų nieko verti. Turite užtikrinti, kad žmonės gali rasti informacijos šaltinį. Šis skyrius aptars skirtingus būdus tai padaryti.</p>
+
+<p>Svarbiausia yra rasti neutralią erdvę, kurios nepalies nei tarpinstitucinė politika, nei biudžeto perskirstymai. Jurisdikcinės ribos, ar administracinės, ar geografinės, gali apsunkinti bendradarbiavimą. Kita vertus, yra pliusų ir prisijungiant prie kurios nors pusės. Kuo lengviau pašaliniams žmonėms duomenis rasti, tuo greičiau bus kuriami nauji naudingi įrankiai.</p>
+
+<h3 id="esami-įrankiai">Esami įrankiai</h3>
+
+<p>Egzistuoja nemažai įrankių, veikiančių internete ir leidžiančių lengviau rasti duomenis.</p>
+
+<p>Vienas iš žinomiausių yra <a href="http://thedatahub.org/">DataHub</a> - tai katalogas ir duomenų saugykla duomenų rinkiniams iš viso pasaulio. Jis leidžia žmonėms ir organizacijoms lengvai skelbti turinį, o duomenų naudotojams - lengvai jį rasti.</p>
+
+<p>Be to, yra daugybė specialių katalogų įvairioms sritims ir vietoms. Daugelis akademinių bendruomenių turi susikūrusios katalogus pagal savo sritis, kadangi jiems nuolat reikia duomenų.</p>
+
+<h3 id="vyriausybei">Vyriausybei</h3>
+
+<p>Tradiciškai, pagrindinė valdančioji institucija apsiima kurti valdžios duomenų katalogą. Kurdami katalogą, pasistenkite sudaryti tokią struktūrą, kuri leistų departamentams lengvai atnaujinti informaciją.</p>
+
+<p>Atsispirkite pagundai kurti programinę įrangą nuo nulio. Yra daugybė nemokamų atviro kodo sprendimų (tokių kaip <a href="http://ckan.org/">CKAN</a>), kuriuos jau naudoja daugelis vyriausybių. Taigi, investuoti į dar vieną platformą nebūtina.</p>
+
+<p>Yra keletas dalykų, kurių stokoja dauguma atvirų duomenų katalogų. Galima būtų atkreipti dėmesį apie šiuos:</p>
+
+<ul>
+  <li>Sudarykite sąlygas privatiems ir bendruomeniniams sektoriams pridėti savo duomenis. Galbūt verta katalogą traktuoti ne kaip regiono valžios katalogą, o tiesiog kaip regiono katalogą.</li>
+  <li>Duomenų tobulinimo palengvinimas, leidžiant įtraukti į katalogą iš tų duomenų sukurtas naujus duomenis. Pavyzdžiui, kas nors gali paversti adresus koordinatėmis ir pasidalinti šiomis koordinatėmis su visais. Jei to neleidžiate, tokiais patobulinimais niekas negalės pasinaudoti.</li>
+  <li>Būkite tolerantiški, jei matysite savo duomenis pasirodant įvairiose vietose. Tikėtina, kad žmonės kopijuos juos dominantį turinį. Pavyzdžiui, jei turite upių lygio matavimo duomenis, jie gali atsidurti hidrologų kataloge.</li>
+  <li>Užtikrinkite vienodas prieigos prie duomenų teises. Nesukurkite privilegijuotos prieigos valstybės tarnautojams arba finansuojamiems mokslininkams, kadangi tai ribos visuomenės dalyvavimą ir įsitraukimą.</li>
+</ul>
+
+<h3 id="visuomenei">Visuomenei</h3>
+
+<p>Pasiruoškite sukurti ir papildomą katalogą nevalstybiniams duomenims.</p>
+
+<p>Vyriausybės retai kada bendrauja su neoficialiais ir nepatikimais šaltiniais. Valdininkai stengiasi išvengti politinės gėdos ar kitos žalos kilusios dėl netinkamo duomenų naudojimo.</p>
+
+<p>Be to, vyriausybės labai nenoriai remia veiklas, dėl kurių jų informacija suplakama su privataus sektoriaus informacija. Valstybinis sektorius skeptiškai vertina komercinius motyvus. Taigi, visuomenei, verslui ir kitiems gali prireikti nepriklausomo katalogo.</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+  <ul>
+    
+    <li class="edit tooltip-item">
+      Improve this page
+
+      <span class="tooltip">
+        <a href="https://github.com/okfn/opendatahandbook/edit/master/guide/lt/how-to-open-up-data/index.md" class="github" rel="external">Edit on Github</a>
+        <a href="/contribute/" target="_blank">Help and instructions</a>
+      </span>
+    </li>
+    
+    
+    <li class="translate tooltip-item">
+      Translate this page
+      <span class="tooltip">
+        <a href="/contribute/translate-guide" target="_blank">Translation guide</a>
+      </span>
+    </li>
+    
+
+    
+
+    <li class="donate tooltip-item">
+      Donate
+      
+      <span class="tooltip">
+        <p>If you have found this useful and would like to support our work please consider making a small donation.</p>
+        <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+          <select name="currency_code">
+            <option value="USD">US Dollar $</option>
+            <option value="EUR">Euro €</option>
+            <option value="GBP">UK £</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="CZK">Czech Koruna</option>
+            <option value="DKK">Danish Krone</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="HUF">Hungarian Forint</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="NOK">Norwegian Krone</option>
+            <option value="NZD">New Zealand Dollar</option>
+            <option value="PLN">Polish Zloty</option>
+            <option value="SEK">Swedish Krona</option>
+            <option value="SGD">Singapore Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+          </select>
+          <input type="text" value="2.00" name="amount">
+          <input type="submit" value="Donate via PayPal" name="submit">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" alt="">
+          <img width="1" border="0" height="1" src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">
+          <input type="hidden" value="_xclick" name="cmd">
+          <input type="hidden" value="admin@okfn.org" name="business">
+          <input type="hidden" value="Open Data Handbook Donation to Open Knowledge" name="item_name">
+        </form>
+      </span>
+    </li>
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://opendatahandbook.org/guide/lt/how-to-open-up-data/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Kaip atverti duomenis?: http://opendatahandbook.org/guide/lt/how-to-open-up-data/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+
+        <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+      <a href="https://okfn.org/" rel="external"><img src="//a.okfn.org/img/oki/landscape-grey-468x122.png" width="123" height="32" alt="Open Knowledge International"></a>
+
+      
+      <div class="supporters">
+        <h6>Supported by</h6>
+        
+          
+          <a href="https://www.shuttleworthfoundation.org/" rel="external"><img src="/img/supporters/shuttleworth-footer.png" alt="Shuttleworth Foundation"></a>
+          
+        
+          
+          <a href="http://www.worldbank.org/" rel="external"><img src="/img/supporters/worldbank-footer.png" alt="The World Bank"></a>
+          
+        
+          
+          <a href="http://od4d.net/" rel="external"><img src="/img/supporters/od4d-footer.png" alt="OD4D"></a>
+          
+        
+      </div>
+      
+    </div>
+
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribute</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Related Projects</h6>
+        <ul>
+          
+          <li><a href="http://opengovernmentdata.org/">OpenGovernmentData.org</a></li>
+          
+          <li><a href="http://datahub.io/">The DataHub</a></li>
+          
+          <li><a href="http://dataportals.org/">DataPortals.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+          <li><a href="http://okfn.org/opendata/">Introducing Open Data</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=admin@okfn.org&lc=GB&item_name=Open Data Handbook%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        
+        
+        <li class="discuss"><a href="https://discuss.okfn.org/c/open-data-handbook" rel="external"><span>Contact</span></a></li>
+        
+        
+        <li class="source"><a href="https://github.com/okfn/opendatahandbook" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://opendatahandbook.org/guide/lt/how-to-open-up-data/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+  </body>
+
+</html>
