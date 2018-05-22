@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    {% if page.wide %}
+    {% if page.wide != "false" and layout.wide != "false" %}
     <link rel="stylesheet" href="{{ "/css/widescreen.css" | prepend: site.baseurl }}" media="all and (min-width: 1280px)">
     {% endif %}
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
