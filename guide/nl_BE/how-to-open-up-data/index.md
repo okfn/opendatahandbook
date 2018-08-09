@@ -176,7 +176,7 @@ Het meest belangrijke is om een neutrale plek te bieden die zowel inter-institut
 
 Er zijn een aantal tools die live op het web zijn, die specifiek ontworpen zijn om data vindbaarder te maken.
 
-Eén van de meest prominente is de [DataHub](http://thedatahub.org/) en dit is een catalogus en dataopslag voor datasets van over de gehele wereld. De website maakt het individuen en organisaties gemakkelijk om materiaal te publiceren en voor gebruikers van data om het materiaal te vinden dat ze nodig hebben.
+Eén van de meest prominente is de [DataHub](https://datahub.ckan.io/) en dit is een catalogus en dataopslag voor datasets van over de gehele wereld. De website maakt het individuen en organisaties gemakkelijk om materiaal te publiceren en voor gebruikers van data om het materiaal te vinden dat ze nodig hebben.
 
 Daarnaast zijn er tientallen gespecialiseerde catalogussen voor verschillende sectoren en gebieden. Veel wetenschappelijke gemeenschappen hebben een catalogussysteem gemaakt voor hun eigen velden, omdat data vaak nodig zijn voor het doen van publicaties.
 

@@ -168,7 +168,7 @@ Am wichtigsten ist es jedoch einen neutralen Platz zu schaffen, der sowohl inter
 
 Es gibt bereits eine Reihe von Werkzeugen im Internet um Daten auffindbar und nutzbar zu machen.
 
-Einer der bekanntesten ist der [DataHub](http://thedatahub.org/). Dieser ist ein Katalog für Datensätze aus der ganzen Welt. Die Website ermöglicht es Datensätze zu veröffentlichen und wiederzufinden.
+Einer der bekanntesten ist der [DataHub](https://datahub.ckan.io/). Dieser ist ein Katalog für Datensätze aus der ganzen Welt. Die Website ermöglicht es Datensätze zu veröffentlichen und wiederzufinden.
 
 Außerdem gibt es dutzende von spezialisierten Datenkatalogen. Viele wissenschaftliche Communities haben ein Katalogsystem für ihren Bereich eingerichtet, da Daten häufig für die Publikation notwendig sind.
 
