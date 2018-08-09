@@ -168,7 +168,7 @@ Najvažnija stvar koju treba obezbediti jeste neutralan prostor koji nadilazi pr
 
 Postoje mnogi alati na internetu koji su napravljeni da bi učinili podatke što vidljivijim.
 
-Jedan od najpoznatijih je [DataHub](https://datahub.io/) koji sadrži podatke i skupove podataka iz čitavog sveta. Ovaj sajt omogućava pojedincima i organizacijama da objave svoje materijale, a korisnicima podataka da pronađu matereijale koji su im potrebni.
+Jedan od najpoznatijih je [DataHub](https://datahub.ckan.io/) koji sadrži podatke i skupove podataka iz čitavog sveta. Ovaj sajt omogućava pojedincima i organizacijama da objave svoje materijale, a korisnicima podataka da pronađu matereijale koji su im potrebni.
 
 Osim toga, postoji nekoliko desetina specijalizovanih baza podataka za različite sektore i područja. Mnoge naučne zajednice su kreirale baze podataka za svoja područja zato što često postoji potreba za objavljivanjem podataka.
 

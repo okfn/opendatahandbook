@@ -170,7 +170,7 @@ A legfontosabb feladatunk, hogy olyan semleges teret kínáljunk, amely képes e
 
 A weben számos olyan eszköz található, amelyek kifejezetten az adatok jobb felfedezhetőségét segítik.
 
-Közülük az egyik legkiemelkedőbb a [DataHub](https://datahub.io/), amely katalógusként és adattárként szolgál adathalmazok számára szerte a világon. Az oldal megkönnyíti az anyagok publikálását a magánszemélyek és szervezetek számára, a felhasználóknak pedig segít a keresett adatok megtalálásában.
+Közülük az egyik legkiemelkedőbb a [DataHub](https://datahub.ckan.io/), amely katalógusként és adattárként szolgál adathalmazok számára szerte a világon. Az oldal megkönnyíti az anyagok publikálását a magánszemélyek és szervezetek számára, a felhasználóknak pedig segít a keresett adatok megtalálásában.
 
 Ezen felül, az oldal tucatnyi, specializált katalógust kínál a különböző szektorok és helyek számára. Számos tudományos közösség hozott létre katalógusrendszert saját területén, mert a publikációkhoz gyakran van szükség adatokra.
 
