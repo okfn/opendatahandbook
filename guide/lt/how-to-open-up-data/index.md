@@ -168,7 +168,7 @@ Svarbiausia yra rasti neutralią erdvę, kurios nepalies nei tarpinstitucinė po
 
 Egzistuoja nemažai įrankių, veikiančių internete ir leidžiančių lengviau rasti duomenis.
 
-Vienas iš žinomiausių yra [DataHub](http://thedatahub.org/) - tai katalogas ir duomenų saugykla duomenų rinkiniams iš viso pasaulio. Jis leidžia žmonėms ir organizacijoms lengvai skelbti turinį, o duomenų naudotojams - lengvai jį rasti.
+Vienas iš žinomiausių yra [DataHub](https://datahub.io/) - tai katalogas ir duomenų saugykla duomenų rinkiniams iš viso pasaulio. Jis leidžia žmonėms ir organizacijoms lengvai skelbti turinį, o duomenų naudotojams - lengvai jį rasti.
 
 Be to, yra daugybė specialių katalogų įvairioms sritims ir vietoms. Daugelis akademinių bendruomenių turi susikūrusios katalogus pagal savo sritis, kadangi jiems nuolat reikia duomenų.
 

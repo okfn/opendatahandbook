@@ -167,7 +167,7 @@ La cosa più importante è fornire uno spazio neutrale in grado di superare sia 
 
 Esistono una serie di strumenti già presenti sul web che sono specificamente progettati per rendere i dati facilmente trovabili.
 
-Uno di quelli di maggior successo è [DataHub](http://thedatahub.org/) ed è un catalogo e deposito di dati di dataset provenienti da ogni parte del mondo. Il sito rende facile, per singole persone ed organizzazioni il modo di pubblicare il materiale e agli utenti di trovare i dati che a loro servono.
+Uno di quelli di maggior successo è [DataHub](https://datahub.io/) ed è un catalogo e deposito di dati di dataset provenienti da ogni parte del mondo. Il sito rende facile, per singole persone ed organizzazioni il modo di pubblicare il materiale e agli utenti di trovare i dati che a loro servono.
 
 In aggiunta, ci sono decine di cataloghi specializzati per settori e luoghi differenti. Molte comunità scientifiche hanno creato un sistema di catalogo per i loro campi, visto che spesso è obbligatorio pubblicare i dati delle loro ricerche.
 

@@ -169,7 +169,7 @@ The most important thing is to provide a neutral space which can overcome both i
 
 Il y a un certain nombre d'outils sur présent sur le web spécifiquement conçus pour rendre les données plus détectable.
 
-One of the most prominent is the [DataHub](http://thedatahub.org/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
+One of the most prominent is the [DataHub](https://datahub.io/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
 
 En outre, il y a des dizaines de catalogues spécialisés pour les différents secteurs et les lieux. De nombreuses communautés scientifiques ont créé un système de catalogue de leurs spécialités, car les données sont souvent nécessaires pour la publication.
 

@@ -168,7 +168,7 @@ The most important thing is to provide a neutral space which can overcome both i
 
 There are a number of tools which are live on the web that are specifically designed to make data more discoverable.
 
-One of the most prominent is the [DataHub](http://thedatahub.org/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
+One of the most prominent is the [DataHub](https://datahub.io/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
 
 In addition, there are dozens of specialist catalogs for different sectors and places. Many scientific communities have created a catalog system for their fields, as data are often required for publication.
 

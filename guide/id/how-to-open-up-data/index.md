@@ -168,7 +168,7 @@ Yang paling penting adalah menyediakan ruang netral yang dapat mengakomodasi bai
 
 Terdapat banyak perangkat yang tersedia secara langsung di web yang didesain secara khusus untuk membuat data menjadi lebih mudah ditemukan.
 
-Salah satu yang paling menonjol adalah [DataHub](http://thedatahub.org/) yang berbentuk sebuah katalog dan penyimpanan data dari seluruh dunia. Situs ini memudahkan para individu dan organisasi untuk mempublikasikan material dan membantu para pengguna data untuk menemukan material yang mereka butuhkan.
+Salah satu yang paling menonjol adalah [DataHub](https://datahub.io/) yang berbentuk sebuah katalog dan penyimpanan data dari seluruh dunia. Situs ini memudahkan para individu dan organisasi untuk mempublikasikan material dan membantu para pengguna data untuk menemukan material yang mereka butuhkan.
 
 Sebagai tambahan, terdapat lusinan spesialis katalog untuk sektor dan tempat yang berbeda. Banyak dari komunitas ilmu pengetahuan telah membuat sebuah sistem katalog untuk bidang mereka, sebagaimana data yang sering dibutuhkan untuk publikasi.
 

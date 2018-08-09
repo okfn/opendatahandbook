@@ -169,7 +169,7 @@ Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC
 
 さまざまなツールがウェブ上に存在する。データを発見されやすくすることに特化したものである。
 
-One of the most prominent is the [DataHub](http://thedatahub.org/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
+One of the most prominent is the [DataHub](https://datahub.io/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
 
 さらに、さまざまな機関や場所に特化したカタログも数多く存在する。科学者のコミュニティの多くは個々の分野のカタログシステムを構築しており、公開用のデータを求めている。
 

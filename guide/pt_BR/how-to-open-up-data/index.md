@@ -179,7 +179,7 @@ A coisa mais importante é criar um espaço neutro, que possa superar tanto a po
 
 Estão disponíveis na Web algumas ferramentas especificamente projetadas para tornar dados mais localizáveis.
 
-Um dos mais proeminentes é o [DataHub](http://thedatahub.org/), e é um catálogo e banco de dados para conjuntos de dados de todo o mundo. O sítio torna fácil que pessoas e organizações publiquem materiais e que usuários de dados encontrem o material que precisam.
+Um dos mais proeminentes é o [DataHub](https://datahub.io/), e é um catálogo e banco de dados para conjuntos de dados de todo o mundo. O sítio torna fácil que pessoas e organizações publiquem materiais e que usuários de dados encontrem o material que precisam.
 
 Além disso, há dezenas de catálogos especializados para diferentes setores e locais. Muitas comunidades científicas criaram sistemas de catálogos para as suas áreas, já que dados são frequentemente necessários para publicar.
 

@@ -168,7 +168,7 @@ Najvažnija stvar koju treba osigurati je neutralan prostor koji neće biti u su
 
 Postoji mnoštvo online alata kojima je glavna zadaća što lakše otkriti podatke.
 
-Jedan od najistaknutijih je [DataHub](http://thedatahub.org/) koji sadrži podatke i podatkovne skupove iz svih dijelova svijeta. Stranica omogućuje pojedincima i organizacijama objavu materijala, a korisnicima podataka njihov lak pronalazak.
+Jedan od najistaknutijih je [DataHub](https://datahub.io/) koji sadrži podatke i podatkovne skupove iz svih dijelova svijeta. Stranica omogućuje pojedincima i organizacijama objavu materijala, a korisnicima podataka njihov lak pronalazak.
 
 Nadalje, postoje desetci specijaliziranih baza podataka za različite sektore i područja. Mnoge znanstvene udruge su kreirale baze podataka za svoja područja uslijed česte potrebe za objavom podataka.
 
