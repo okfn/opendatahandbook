@@ -34,7 +34,7 @@ Existen cuatro pasos principales para la creación de Datos Abiertos, cada uno s
 
 Escoger los conjuntos de datos que planeas abrir es el primer paso - aunque recuerda que el proceso completo de abrir los datos es iterativo y puedes regresar a este paso si encuentras problemas en un futuro.
 
-Si ya conoces exactamente que conjunto(s) de datos planeas abrir, puedes pasar a la siguiente sección. Sin embargo, en muchos casos, especialmente para grandes instituciones, escoger un conjunto de datos en el cual enfocarse es todo un reto. ¿Cómo se debe proceder en estos casos?
+Si ya conoces exactamente qué conjunto(s) de datos planeas abrir, puedes pasar a la siguiente sección. Sin embargo, en muchos casos, especialmente para grandes instituciones, escoger un conjunto de datos en el cual enfocarse es todo un reto. ¿Cómo se debe proceder en estos casos?
 
 Crear esta lista puede ser un proceso rápido para identificar qué conjuntos de datos pueden ser abiertos al principio. Ya habrá tiempo en etapas posteriores de revisar en detalle si cada conjunto de datos es adecuado para abrirse.
 
@@ -44,7 +44,7 @@ Crear esta lista puede ser un proceso rápido para identificar qué conjuntos de
 
 Recomendamos preguntar a la comunidad en primera instancia. Estas son las personas que tendrán acceso y utilizarán los datos, ya que es probable que tengan un mejor entendimiento de cuáles datos podrían ser valiosos.
 
-1.  Prepara una pequeña lista con los potenciales conjuntos de datos de los cuales desees tener comentarios. No es esencial que esta lista coincida con 5us expectativas, la principal intención es obtener una idea de la demanda. Esto podría estar basado en otros catálogos de [open data](/glossary/en/terms/open-data/) de otros países.
+1.  Prepara una pequeña lista con los potenciales conjuntos de datos de los cuales desees tener comentarios. No es esencial que esta lista coincida con tus expectativas, la principal intención es obtener una idea de la demanda. Esto podría estar basado en otros catálogos de [open data](/glossary/en/terms/open-data/) de otros países.
 2.  Solicita comentarios.
 3.  Publica tu petición en una página web. Asegúrate de que es posible acceder a dicha petición a través de su propia URL. De esta manera, cuando sea compartida a través de las redes sociales, la petición será fácilmente encontrable.
 4.  Provee formas sencillas de enviar respuestas. Evita el requisito de registro, puesto que reduce el número de respuestas.
@@ -70,9 +70,9 @@ Los datos abiertos es un movimiento en crecimiento. Es probable que haya mucha g
 
 ## Solicita una Licencia Abierta (Apertura Legal)
 
-En la mayoría de las jurisdicciones existen derechos de propiedad intelectual de los datos, los cuales evitan que terceros los usen, reutilicen o redistribuyan sin el permiso explícito. Aún en lugares donde la existencia de derechos es incierta, es importante aplicar una licencia simplemente en aras de la claridad. Por lo tanto, **si está planeando hacer disponible sus datos, debería ponerles una licencia** - y y si desea que sus datos sean [libres](http://opendefinition.org/) esto es aún más importante.
+En la mayoría de las jurisdicciones existen derechos de propiedad intelectual de los datos, los cuales evitan que terceros los usen, reutilicen o redistribuyan sin el permiso explícito. Aún en lugares donde la existencia de derechos es incierta, es importante aplicar una licencia simplemente en aras de la claridad. Por lo tanto, **si está planeando hacer disponible sus datos, debería ponerles una licencia** - y si desea que sus datos sean [libres](http://opendefinition.org/) esto es aún más importante.
 
-¿Qué licencias puedes usar? Recomendamos que para "abrir" datos use una de las licencias alineadas con la 'Definición de Abierto"\_ y marcarlas como adecuada para datos. Esta lista (además de las instrucciones para su uso) puede ser localizada en:
+¿Qué licencias puedes usar? Recomendamos que para "abrir" datos use una de las licencias alineadas con la 'Definición de Abierto' y marcarlas como adecuada para datos. Esta lista (además de las instrucciones para su uso) puede ser localizada en:
 
 -   <http://opendefinition.org/licenses/>
 
@@ -96,19 +96,19 @@ Los datos deberían estar disponibles como un conjunto completo. Si tienes un re
 
 **En un formato abierto, legible por computadora**
 
-La reutilización de los datos del sector público no debe estar sujeto a restricciones por patentes. Más importante aún es asegurarse de que los datos se están proporcionando en formatos legibles por computadora que permitan una mayor reutilización. Para ilustrar esto, considera unas estadísticas publicadas como un documento :abbr: PDF (Portable Document Format), a menudo usados ​​para la impresión de alta calidad. Aunque estas estadísticas pueden ser leídas por los seres humanos, son muy difíciles para usarlas con una computadora. Esto limita enormemente la capacidad para que otros puedan volver a utilizar esos datos.
+La reutilización de los datos del sector público no debe estar sujeto a restricciones por patentes. Más importante aún es asegurarse de que los datos se están proporcionando en formatos legibles por computadora que permitan una mayor reutilización. Para ilustrar esto, considera unas estadísticas publicadas como un documento PDF (Portable Document Format), a menudo usados ​​para la impresión de alta calidad. Aunque estas estadísticas pueden ser leídas por los seres humanos, son muy difíciles para usarlas con una computadora. Esto limita enormemente la capacidad para que otros puedan volver a utilizar esos datos.
 
 Aquí hay algunas políticas que serán de gran beneficio:
 
 -   Manténlo simple
 -   Muévete rápido
--   Sea pragmático
+-   Se pragmático
 
 En particular, es mejor proveer datos crudos ahora, que información perfecta, en seis meses.
 
 Hay muchas maneras de hacer que la información este disponible para terceros. La más natural en la era de Internet es la publicación en línea. Hay muchas variaciones para este modelo. En el más básico, las agencias distribuyen la información a través de sus sitios web y un catálogo central direcciona a los visitantes a la fuente apropiada. Sin embargo, hay alternativas.
 
-Cuando: término: la "conectividad" es limitada o el tamaño de los datos demasiado grande, la distribución en otros formatos puede estar justificada. Esta sección también discutirá alternativas, que podrás implementar para mantener los precios muy bajos.
+Cuando la "conectividad" es limitada o el tamaño de los datos demasiado grande, la distribución en otros formatos puede estar justificada. Esta sección también discutirá alternativas, que podrás implementar para mantener los precios muy bajos.
 
 ### Métodos en línea
 
@@ -116,9 +116,9 @@ Cuando: término: la "conectividad" es limitada o el tamaño de los datos demasi
 
 El sistema que será más familiar al equipo de contenidos de tu sitio web es el de proveer archivos para ser descargados desde páginas web. Así como provees acceso a documentos de discusión, archivos de datos serán muy felices de ser disponibilizados de esta manera.
 
-Una dificultad propia de esta aproximación es que es muy dificil para terceros descubrir dónde encontrar información actualizada. Esta opción crea cierta carga para las personas que crean herramientas con tus datos.
+Una dificultad propia de esta aproximación es que es muy difícil para terceros descubrir dónde encontrar información actualizada. Esta opción crea cierta carga para las personas que crean herramientas con tus datos.
 
-#### A través de sitios de terceros partidos.
+#### A través de sitios de terceros.
 
 Muchos repositorios se han convertidos en centros de datos de campos específicos. Por ejemplo, pachube.com está diseñada para conectar personas con sensores, con aquellos que desean acceder a la información que producen. Sitios como Infochimps.com y Talis.com permiten a las agencias del sector público alojar grandes cantidades de datos gratuitamente.
 
@@ -140,7 +140,7 @@ BitTorrent es un sistema que se ha vuelto familiar para los encargados de crear 
 
 #### Como un archivo API
 
-Los datos pueden ser publicados a través de una :término: Interfaz de programación de aplicaciones (API). Estas interfaces se volvieron muy populares. Permiten a los programadores seleccionar porciones específicas de información, en lugar de proveerla toda en grandes cantidades en un archivo grande. Las APIs usualmente están conectadas a una base de datos que es actualizada en tiempo real. Esto significa que disponibilizar la información a través de una API garantiza que esté actualizada.
+Los datos pueden ser publicados a través de una Interfaz de programación de aplicaciones (API). Estas interfaces se volvieron muy populares. Permiten a los programadores seleccionar porciones específicas de información, en lugar de proveerla toda en grandes cantidades en un archivo grande. Las APIs usualmente están conectadas a una base de datos que es actualizada en tiempo real. Esto significa que disponibilizar la información a través de una API garantiza que esté actualizada.
 
 Publicar datos crudos en grandes cantidades debería ser la primera preocupación de todas las iniciativas de datos abiertos. Proveer de una API requiere cierto costo.
 
@@ -155,17 +155,15 @@ El acceso a datos en grandes cantidades asegura que:
 
 Proveer datos en masa permite a otros usar esa información para propósitos distintos de sus originales. Por ejemplo permite que los datos sean convertidos a nuevos formatos, enlazados con otros recursos o versionados y archivados en múltiples lugares. Mientras que la última versión de la información puede ser disponibilizada a través de una API, datos crudos pueden ser disponibilizados en masa durante intervalos de tiempo regulares.
 
-Por ejemplo, [el servicio estadístico Eurostat](http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/) tiene un sitio de descargas por volumen que ofrece más de 4000 archivos. Lo actualizan dos veces al día, ofrece datos en formato {term:{Valores separados por Tabulador} [Tab-separated values](/glossary/en/terms/tab-separated-values/)} (TSV), e incluye documentación sobre el sitio de descarga, así como los archivos archivos de datos.
+Por ejemplo, [el servicio estadístico Eurostat](http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/) tiene un sitio de descargas por volumen que ofrece más de 4000 archivos. Lo actualizan dos veces al día, ofrece datos en formato {term:{Valores separados por Tabulador} [Tab-separated values](/glossary/en/terms/tab-separated-values/)} (TSV), e incluye documentación sobre el sitio de descarga, así como los archivos de datos.
 
 Otro ejemplo es [el Distrito de Columbia Catálogo de Datos](http://octo.dc.gov/DC/OCTO/), que permite que los datos sean descargados en formato CSV y XLS, además de las transmisiones en vivo de los datos.
 
 ## Haga datos detectables.
 
-term
+'Datos Abiertos' no es nada sin los usuarios. Tiene que ser capaz de asegurarse que la gente pueda encontrar la fuente del material. En esta sección se cubren los diferentes enfoques.
 
-:   'Datos Abiertos' no es nada sin los usuarios. Tiene que ser capaz de asegurarse que la gente pueda encontrar la fuente del material. En esta sección se cubren los diferentes enfoques.
-
-Lo más importante es proporcionar un espacio neutral que puede superar tanto la política y los ciclos presupuestarios futuros. Fronteras jurisdiccionales, ya sea sectorial o geográfica, puede hacer difícil la cooperación. Sin embargo, hay beneficios significativos cuando se unen fuerzas Cuanto más fácil sea para los de afuera para descubrir los datos, más rápido se construirán nuevas y útiles herramientas.
+Lo más importante es proporcionar un espacio neutral que puede superar tanto la política y los ciclos presupuestarios futuros. Fronteras jurisdiccionales, ya sea sectorial o geográfica, puede hacer difícil la cooperación. Sin embargo, hay beneficios significativos cuando se unen fuerzas. Cuanto más fácil sea para los de afuera para descubrir los datos, más rápido se construirán nuevas y útiles herramientas.
 
 ### Las herramientas existentes.
 
@@ -173,7 +171,7 @@ Hay una serie de herramientas que están en la web diseñadas específicamente p
 
 Uno de los más prominentes es el DataHub, un catálogo y almacén de bases de datos de todo el mundo. El sitio facilita a los individuos y a las organizaciones publicar materiales y a los usuarios de los datos encontrar el material que necesitan.
 
-Además, hay docenas de catálogos específicos para diferentes sectores y lugares.Comunidades específicas han creado sistemas de catálogos para sus archivos, ya que a menuda los datos requieren de publicación
+Además, hay docenas de catálogos específicos para diferentes sectores y lugares. Comunidades específicas han creado sistemas de catálogos para sus archivos, ya que a menudo los datos requieren de publicación
 
 ### Para el gobierno
 
@@ -183,7 +181,7 @@ Resista la tentación de producir software para generar el catálogo. Existen so
 
 Hay algunas cosas que la mayoría de los catálogos de apertura de datos no tienen. Tu programa debe considerar lo siguiente:
 
--   Proporcionar un canal para que los privados y sectores de la comunidad añadan sus datos.Puede valer la pena pensar en el catálogo como el catálogo de la región, en lugar de el catálogo del gobierno regional.
+-   Proporcionar un canal para que los privados y sectores de la comunidad añadan sus datos. Puede valer la pena pensar en el catálogo como el catálogo de la región, en lugar de el catálogo del gobierno regional.
 -   Facilitar la mejora de la información permitiendo la catalogación de derivados de los conjuntos de datos. Por ejemplo, alguien podría geocodificar direcciones y compartir los resultados con todos. Si sólo permites versiones individuales de conjuntos de datos, estas mejoras podrían permanecer escondidas.
 -   Tolera que tu información aparezca en otros lugares. Es decir, el contenido probablemente será duplicado por las comunidades de interés. Si tienes datos de monitoreo del nivel de agua en un río, entonces tus datos podrán aparecer en catálogos para hidrólogos.
 -   Asegure que el acceso sea equitativo. Evite crear niveles privilegiados de acceso para funcionarios o investigadores, puesto que afectará la participación y el involucramiento de la comunidad.
@@ -194,4 +192,4 @@ Estar dispuesto a crear un catálogo complementario para los datos no oficiales.
 
 Es muy raro que los gobiernos se asocien con fuentes no oficiales o sin autoridad. Los funcionarios han invertido mucho para asegurarse de que no existan implicaciones políticas u otro tipo de daños asociados con el uso inadecuado de los datos.
 
-Más aun, gobiernos no suelen estar dispuestos a soportar actividades que mezclen su información con empresas. Gobiernos son escépticos, y con razón, a motivos con fines de lucro. Por lo tanto, un catálogo independiente para comunidades, empresas y otros puede estar garantizado.
+Más aun, los gobiernos no suelen estar dispuestos a soportar actividades que mezclen su información con empresas. Los gobiernos son escépticos, y con razón, a motivos con fines de lucro. Por lo tanto, un catálogo independiente para comunidades, empresas y otros puede estar garantizado.
