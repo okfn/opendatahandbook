@@ -1,115 +1,114 @@
 ---
-redirect_from: /en/following-up/index.html
+redirect_from: /th/following-up/index.html
 section: guide
-lang: en
-title: So I've Opened Up Some Data, Now What?
+lang: th
+title: เปิดเผยข้อมูลแล้ว จะทำอย่างไรต่อไป?
 ---
 
-We've looked at how to make government information legally and technically reusable. The next step is to encourage others to make use of that data.
+เราได้เห็นวิธีการที่จะทำให้ข้อมูลภาครัฐสามารถนำมาใช้ได้ทั้งทางกฎหมายและทางเทคนิคแล้ว ขั้นตอนต่อไปคือ การส่งเสริมให้ผู้อื่นนำข้อมูลเหล่านั้นไปใช้งาน
 
-This section looks at additional things which can be done to promote data re-use.
+บทนี้จะว่าด้วยเรื่องที่เกี่ยวข้องกับการส่งเสริมการใช้ข้อมูล
 
-## Tell the world!
+## บอกให้โลกรู้
 
-First and foremost, make sure that you promote the fact that you've embarked on a campaign to promote [open data](/glossary/en/terms/open-data/) in your area of responsibility.
+สิ่งแรกและเป็นสิ่งที่สำคัญที่สุด คือ ต้องเผยแพร่ประชาสัมพันธ์ และรณรงค์เพื่อส่งเสริมการเปิดเผยข้อมูลในสายงานที่คุณรับผิดชอบอยู่
 
-If you open up a bunch of datasets, it's definitely worth spending a bit of time to make sure that people know (or at least can find out) that you've done so.
+ถ้าเราเปิดเผยชุดข้อมูลกลุ่มหนึ่งแล้ว ให้ใช้เวลาเล็กน้อยในการทำให้ผู้คนรับรู้ (หรืออย่างน้อยก็สามารถค้นหาได้) นอกจากข่าวประชาสัมพันธ์
 
-In addition to things like press releases, announcements on your website, and so on, you may consider:
+การประกาศในเว็บไซต์ของหน่วยงาน และอื่น ๆ แล้ว ก็อาจพิจารณาวิธีการอื่น ๆ ดังนี้:
 
--   Contacting prominent organisations or individuals who work/are interested in this area
--   Contacting relevant mailing lists or social networking groups
--   Directly contacting prospective users who you know may be interested in this data
+- ติดต่อองค์กรหรือบุคคลที่มีชื่อเสียง ที่ทำงานหรือสนใจในด้านนี้
+- ติดต่อกลุ่มเมล์ (mailing list) หรือกลุ่มเครือข่ายสังคมที่เกี่ยวข้อง
+- ติดต่อผู้ใช้โดยตรง ผู้ที่เราคิดว่าน่าจะสนใจชุดข้อมูลนี้
 
-### Understanding your audience
+### เข้าใจผู้ฟัง
 
-Like all public communication, engaging with the data community needs to be targeted. Like all stakeholder groups, the right message can be wasted if it is directed to the wrong area.
+การสร้าง Data community จำเป็นต้องกำหนดกลุ่มเป้าหมายที่ชัดเจน โดยการระบุผู้มีส่วนได้ส่วนเสีย ซึ่งหากเราทำการสื่อสารผิดกลุ่มเป้าหมายและวัตถุประสงค์ ก็จะเป็นการสื่อสารที่เสียเปล่าและไม่เกิดประโยชน์ใด
 
-Digital communities tend to be very willing to share new information, yet they very rapidly consume it. Write as if your messages will be skimmed over, rather than critically examined in-depth.
+Digital communities มีแนวโน้มที่จะยินดีร่วมแบ่งปันข้อมูลต่าง ๆ ซึ่งพวกเขาก็รับข้อมูลมาอย่างรวดเร็ว ข้อความหรือข่าวสารต่าง ๆ จะถูกอ่านแบบคร่าว ๆ แทนที่จะเป็นการตรวจสอบวิเคราะห์ในเชิงลึก
 
-Members of the tech community are less likely than the general public to use MS Windows. This means that you should not save documents in MS Office formats which can be read offline. There are two resons for this:
+สมาชิกของ Technology community มักจะไม่ค่อยใช้ Microsoft Windows เหมือนคนอื่น ๆ ดังนั้น เราไม่ควรบันทึกเอกสารในรูปแบบของ MS Office ซึ่งมีสองเหตุผล คือ:
 
--   The first is that those documents will be less accessible. Rather than the document you see on your screen, readers may see an imperfect copy from an alternative.
--   Secondly, your agency sends an implicit message that you are unwilling to take a step towards developers. Instead, you show that you are expecting the technology community to come to you.
+- เหตุผลแรก คือ เอกสารเหล่านั้นจะสามารถเข้าถึงได้น้อยลง แทนที่จะเป็นเอกสารที่มองเห็นบนหน้าจอได้ ผู้อ่านอาจเห็นสำเนาที่ไม่สมบูรณ์จากทางเลือกอื่น
+- อย่างที่สอง คือ นักพัฒนาอาจเข้าใจผิดว่าหน่วยงานอาจไม่ต้องการสนับสนุนนักพัฒนามากนัก แต่กำลังคาดหวังให้ Technology Community เข้ามาหาคุณ
 
-### Post your material on third-party sites
+###  โพสเนื้อหาของคุณบนเว็บไซต์อื่น
 
-Many blogs have created a large readership in specialised topic areas. It may be worthwhile adding an article about your initiative on their site. These can be mutually beneficial. You receive more interest and they receive a free blog post in their topic area.
+มีบล็อกมากมายที่มีผู้อ่านจำนวนมากซึ่งถูกสร้างขึ้นในหัวข้อนี้อยู่แล้ว ดังนั้น จึงอาจคุ้มค่าที่จะใส่บทความเกี่ยวกับการริเริ่มด้าน Open Data ของเราที่เว็บไซต์เหล่านั้น สิ่งเหล่านี้สามารถสร้างประโยชน์ร่วมกันได้ เราอาจได้รับความสนใจมากขึ้น และพวกเขาก็ได้รับการข้อมูลในสาขาที่เกี่ยวข้องด้วยเช่นกัน
 
-### Making your communications more social-media friendly
+###  การทำให้การสื่อสารของเราเป็นมิตรกับสื่อสังคมออนไลน์ (Social Media) มากขึ้น
 
-It's unrealistic to expect that officials should spend long periods of time engaging with social media. However, there are several things that you can do to make sure that your content can be easily shared between technical users. Some tips:
+มีหลายสิ่งที่สามารถทำได้เพื่อให้เนื้อหาข้อมูลนั้น สามารถนำไปแบ่งปันได้ง่าย ๆ ระหว่างผู้ใช้ที่เชี่ยวชาญด้านเทคนิค ซึ่งมีเคล็ดลับดังนี้:
 
--   Provide unique pages for each piece of content
+- จัดให้มีเนื้อหาในส่วนต่าง ๆ อยู่ในแต่ละหน้า
 
-    When a message is shared with others, the recipient of the referral will be looking for the relevant content quickly.
+    เมื่อข้อความถูกแบ่งปันให้กับคนอื่น ผู้รับก็จะสามารถพบเนื้อหาที่เกี่ยวข้องได้อย่างรวดเร็ว
 
--   Avoid making people download your press releases
+- หลีกเลี่ยงการทำให้คนต้องดาวน์โหลดข่าวประชาสัมพันธ์
 
-    Press releases are fine. They are concise messages about a particular point. However, if you require people to download the content and for it to open outside of a web browser, then fewer people will read it. Search engines are less likely to index the content. People are less likely to click to download.
+    ข่าวประชาสัมพันธ์ที่ดี ควรจะเป็นข้อความที่กระชับเกี่ยวข้องกับประเด็นเรื่องใดเรื่องหนึ่ง แต่ถ้าบังคับให้คนดาวน์โหลดเนื้อหาและเปิดดูนอกเว็บเบราเซอร์ ส่งผลให้ผู้อ่านมีน้อยลง และเครื่องมือค้นหาจะทำดัชนีเนื้อหาได้ยากขึ้น
 
--   Consider using an [Open license](http://opendefinition.org/licenses/#content) for your content
+- พิจารณาใช้ [Open license](http://opendefinition.org/licenses/#content) สำหรับเนื้อหา
 
-    Apart from providing certainty to people who wish to share your content that this is permissible, you send a message that your agency understands openness. This is bound to leave an impression far more significant to proponents of open data than any specific sentence in your press release.
+    นอกเหนือจากการสร้างความเชื่อมั่นให้กับผู้ที่ต้องการแบ่งปันเนื้อหาของเราว่าเขาได้รับอนุญาต คุณยังต้องสื่อให้ทราบว่าหน่วยงานของคุณมีความเข้าใจเรื่องของ Openness ด้วยเช่นกัน ซึ่งมันจะสร้างความประทับใจที่สำคัญต่อได้มากกว่าประโยคใด ๆ ในข่าวประชาสัมพันธ์
 
-### Social media
+###  สื่อสังคมออนไลน์ (Social media)
 
-It's inefficient for cash-strapped agencies to spend hours on social media sites. The most significant way that your voice can be heard through these fora is by making sure that blog posts are easily shareable. That means, before reading the next section, make sure that you have read the last. With that in mind, here are a few suggestions:
+มันอาจไม่เกิดประโยชน์ที่จะใช้เวลาหลายชั่วโมงไปกับ Social media วิธีที่สำคัญที่สุดที่จะทำให้ผู้คนรับรู้ผ่านฟอรั่มเหล่านี้ก็คือ ข้อความที่โพสต์บนบล็อกที่ง่ายในการนำไปแบ่งปัน หมายความว่า ก่อนจะอ่านในส่วนต่อไป ต้องอ่านส่วนสุดท้ายก่อน โดยมีข้อแนะนำ ดังนี้:
 
--   Discussion fora
+- ฟอรั่มอภิปราย
 
-    Twitter has emerged as the platform of choice for disseminating information rapidly. Anything tagged with \#opendata will be immediately seen by thousands.
+    Twitter กลายเป็นแพลตฟอร์มที่ใช้เผยแพร่ข้อมูลได้อย่างรวดเร็ว อะไรก็ตามที่แท็ก (Tag) ด้วย \#opendata จะมีคนหลายพันคนเห็นในทันที
 
-    LinkedIn has a large selection of groups which are targeted towards open data.
+    LinkedIn มีการเลือกกลุ่มต่าง ๆ มากมายที่มีเป้าหมายที่ Open data
+แม้ว่า Facebook จะเป็นที่นิยมสำหรับคนทั่วไป แต่มันก็อาจไม่ได้รับความสนใจมากใน Open data community
 
-    While Facebook is excellent for a general audience, it has not received a great deal of attention in the open data community.
+- รวบรวมลิงค์
 
--   Link aggregators
+    การส่งเนื้อหาไปที่เว็บไซต์ข่าวสารสำหรับพวกนักเทคโนโลยี ซึ่ง Reddit และ Hacker News เป็นแหล่งที่ใหญ่ที่สุดสองแห่งในขณะนี้ หรือ Slashdot และ Digg ก็เป็นเครื่องมือที่มีประโยชน์ในด้านนี้
 
-    Submit your content to the equivalent of newswires for geeks. Reddit and Hacker News are the two biggest in this arena at the moment. To a lesser extent, Slashdot and Digg are also useful tools in this area.
+    เว็บไซต์เหล่านี้มีแนวโน้มที่จะพาไปสู่เรื่องราวที่น่าสนใจ และยังมุ่งเน้นในหัวข้อเรื่องใดเรื่องหนึ่งเป็นพิเศษอีกด้วย
 
-    These sites have a tendency to drive significant traffic to interesting material. They are also heavily focused on topic areas.
+## ให้คนเข้ามาอยู่รวมกัน ในแบบ Unconference, Meetups และ Barcamps
 
-## Getting folks in a room: Unconferences, Meetups and Barcamps
+การจัดงานแบบพบปะกันเป็นวิธีที่มีประสิทธิภาพมากในการสนับสนุนให้คนอื่นมาใช้ข้อมูลของเรา เหตุผลในการพิจารณาที่จะจัดงานมีดังนี้:
 
-Face-to-face events can be a very effective way to encourage others to use your data. Reasons that you may consider putting on an event include:
+- หาข้อมูลเกี่ยวกับผู้ใช้งานในอนาคต
+- หาข้อมูลเกี่ยวกับความต้องการชุดข้อมูลต่าง ๆ
+- หาข้อมูลว่า ผู้คนต้องการใช้ข้อมูลของคุณอย่างไร
+- ช่วยให้ผู้ใช้งานในอนาคตได้ทราบเกี่ยวกับข้อมูลที่คุณมีได้
+- ให้ผู้ใช้งานในอนาคตสามารถพบปะกันได้ (เพื่อที่จะให้พวกเขาร่วมมือกันได้)
+- เปิดเผยข้อมูลของคุณสู่ผู้ฟังที่กว้างขึ้น (เช่น ทำให้มีคนนาเรื่องราวไปเขียนในบล็อก หรือ สื่อมวลชนมาทาข่าวในงานของคุณ)
 
--   Finding out more about prospective re-users
--   Finding out more about demand for different datasets
--   Finding out more about how people want to re-use your data
--   Enabling prospective re-users to find out more about what data you have
--   Enabling prospective users to meet each other (e.g. so they can collaborate)
--   Exposing your data to a wider audience (e.g. from blog posts or media coverage that the event may help to generate)
+มีหลายวิธีที่จะจัดงาน และในงานก็มีได้หลากหลายรูปแบบ ขึ้นอยู่กับวัตถุประสงค์ที่ต้องการ เช่นเดียวกับรูปแบบการประชุมแบบเดิม ซึ่งมีการพูดคุยหารืออย่างเป็นทางการ การนำเสนอ การสาธิต และยังมีการจัดงานแบบมีส่วนร่วมอีกหลายรูปแบบ โดยผู้เข้าร่วมอาจมีส่วนร่วมในเรื่องต่าง ๆ ดังนี้:
 
-There are also lots of different ways of running events, and different types of events, depending on what aim you want to achieve. As well as more traditional conference models, which will include things like preprepared formal talks, presentations and demonstrations, there are also various kinds of participant driven events, where those who turn up may:
+- แนะแนวทาง หรือกำหนด agenda ของงาน
+- แนะนาตัวเอง พูดคุยเกี่ยวกับสิ่งที่สนใจและสิ่งที่กำลังดำเนินการ
+- นำเสนอแบบสั้น ๆ และรวดเร็วเกี่ยวกับสิ่งที่กำลังทาอยู่
+- นำเสนอ Session เกี่ยวกับสิ่งที่พวกเขาสนใจ
 
--   Guide or define the agenda for the event
--   Introduce themselves, talk about what they're interested in and what they're working on, on an ad hoc basis
--   Give impromptu micro-short presentations on something they are working on
--   Lead sessions on something they are interested in
+มีเอกสารออนไลน์มากมายเกี่ยวกับวิธีการจัดงานประเภทต่าง ๆ ซึ่งสามารถหาได้โดยการค้นหาคำอย่าง ‘unconference’, ‘barcamp’, ‘meetup’, ‘speedgeek’, ‘lightning talk’ แล้วคุณอาจจะได้พบผู้ที่เคยที่ได้จัดงานเหล่านี้ในประเทศอื่น ๆ ซึ่งจะช่วยเหลือและให้คำแนะนาเกี่ยวกับการจัดงานของคุณ และอาจสร้างความร่วมมือกับองค์กรอื่น (เช่น องค์กรสังคมของเทศบาล องค์กรข่าวสาร หรือสถาบันการศึกษา) เพื่อขยายกลุ่มผู้เข้าร่วมงานให้กว้างขึ้น และเพื่อเพิ่มศักยภาพในการเปิดเผยข้อมูลของคุณ
 
-There is plenty of documentation online about how to run these kinds of events, which you can find by searching for things like: 'unconference', 'barcamp', 'meetup', 'speedgeek', 'lightning talk', and so on. You may also find it worthwhile to contact people who have run these kinds of events in other countries, who will most likely be keen to help you out and to advise you on your event. It may be valuable to partner with another organisation (e.g. a civic society organisation, a news organisation or an educational institution) to broaden your base participants and to increase your exposure.
+## สนับสนุนให้มีการสร้างสิ่งใหม่ ๆ ขึ้นมา เช่น Hackdays ของรางวัล และต้นแบบ
 
-## Making things! Hackdays, prizes and prototypes
+การออกแบบการแข่งขันเหล่านี้ ปกติจะทำโดยกำหนดชุดข้อมูลจำนวนมากที่เผยแพร่ออกมาสู่สาธารณะ แล้วโปรแกรมเมอร์ก็จะมีระยะเวลาสั้นๆ ตั้งแต่ 48 ชั่วโมงจนถึง 2-3 สัปดาห์ เพื่อพัฒนาแอปพลิเคชันที่ใช้ข้อมูลที่ได้มา จากนั้นแอปพลิเคชันที่ดีที่สุดจะได้รับรางวัล การแข่งขันในรูปแบบนี้ได้มีการจัดขึ้นแล้วในหลาย ๆ ประเทศ เช่น สหราชอาณาจักร สหรัฐอเมริกา นอร์เวย์ ออสเตรเลีย สเปน เดนมาร์ก และ ฟินแลนด์ เป็นต้น
 
-The structure of these competitions is that a number of datasets are released and programmers then have a short time-frame -running from as little as 48 hours to a few weeks - to develop applications using the data. A prize is then awarded to the best application. Competitions have been held in a number of countries including the UK, the US, Norway, Australia, Spain, Denmark and Finland.
+### ตัวอย่างการแข่งขัน
 
-### Examples for Competitions
+**Show us a better way** เป็นการแข่งขันแรกที่เกิดขึ้นในโลก ริเริ่มโดย “The Power of Information Taskforce” ของรัฐบาลแห่งสหราชอาณาจักร นำโดยรัฐมนตรีประจำสำนักนายกรัฐมนตรี Tom Watson ในเดือนมีนาคม 2008 การแข่งขันนี้ถามว่า “คุณจะสร้างอะไรด้วยข้อมูลสาธารณะ?” และเปิดโอกาสให้กับโปรแกรมเมอร์จากทั่วโลก ด้วยเงินรางวัล £80,000 สำหรับแอปพลิเคชันที่ดีที่สุด 5 แอปพลิเคชัน
 
-**Show us a better way** was the first such competition in the world. It was initiated by the UK Government's "The Power of Information Taskforce" headed by Cabinet Office Minister Tom Watson in March 2008. This competition asked "What would you create with public information?" and was open to programmers from around the world, with a tempting £80,000 prize for the five best applications.
+**Apps for Democracy** นึ่งในการแข่งขันแรก ๆ ของประเทศสหรัฐอเมริกา จัดในเดือนตุลาคม 2008 โดย Vivek Kundra ในช่วงที่อยู่ในตำแหน่ง CTO (Chief Technology Officer) ของ District of Columbia (DC) Government Kundra ได้พัฒนาแคตตาล็อกข้อมูล DC ที่ในรูปแบบใหม่ขึ้นมาที่ http://data.octo.dc.gov/ ซึ่งมีชุดข้อมูล เช่น Real-time crime feeds (ตัวอย่าง เหตุอาชญากรรมในปี 2013 บนแผนที่), คะแนนทดสอบในโรงเรียน และตัวชี้วัดความยากจน โจทย์ของการแข่งขันคือ จะทำให้ข้อมูลเหล่านี้เกิดประโยชน์กับประชาชน นักท่องเที่ยว ภาคธุรกิจและหน่วยงานภาครัฐของเมือง Washington, DC ได้อย่างไร
 
-**Apps for Democracy**, one of the first competitions in the United States, was launched in October 2008 by Vivek Kundra, at the time Chief Technology Officer (CTO) of the District of Columbia (DC) Government. Kundra had developed the groundbreaking DC data catalog, <http://data.octo.dc.gov/>, which included datasets such as real-time crime feeds, school test scores, and poverty indicators. It was at the time the most comprehensive local data catalog in the world. The challenge was to make it useful for citizens, visitors, businesses and government agencies of Washington, DC.
+แนวทางที่สร้างสรรค์ คือ การสร้างการแข่งขัน Apps for Democracy วิธีการคือขอให้คนสร้างแอปพลิเคชันโดยใช้ข้อมูลจากแคตตาล็อกข้อมูลที่เพิ่งนำเข้าไป โดยการแข่งขันจะมีการให้สมัครออนไลน์ มีของรางวัลเล็ก ๆ น้อย ๆ มากมาย แทนที่จะเป็นรางวัลใหญ่เพียงไม่กี่อย่าง และรางวัลประเภทอื่น ๆ อย่างเช่น รางวัล “People’s Choice” การแข่งขันเปิดเป็นเวลา 30 วันและใช้เงิน $50,000 ผลที่ได้คือมีแอปพลิเคชันบนเว็บ บน iPhone และ บน Facebook ที่ถูกพัฒนาขึ้น และช่วยสร้างมูลค่าให้กับเศรษฐกิจของเมืองได้มากกว่า $2,600,000
 
-The creative solution was to create the Apps for Democracy contest. The strategy was to ask people to build applications using the data from the freshly launched data catalog. It included an online submission for applications, many small prizes rather than a few large ones, and several different categories as well as a "People's Choice" prize. The competition was open for 30 days and cost the DC government \$50,000. In return, a total of 47 iPhone, Facebook and web applications were developed with an estimated value in excess of \$2,600,000 for the local economy.
+**The Abre Datos (Open Data) Challenge 2010** จัดขึ้นในประเทศสเปน ในเดือนเมษายน 2010 การแข่งขันนี้เชิญนักพัฒนาให้สร้าง Open source application ที่ใช้ข้อมูลสาธารณะในเวลา 48 ชั่วโมง การแข่งขันมีทีมเข้าร่วม 29 ทีม ซึ่งได้พัฒนาแอปพลิเคชัน รวมทั้งโปรแกรมมือถือสำหรับการเข้าถึงข้อมูลการจราจรในแคว้นบาสก์ (Basque Country) และการเข้าถึงข้อมูลบนรถเมล์และป้ายรถเมล์ในเมืองมาดริด โดยได้รับเงินรางวัล 3,000 ยูโร และ 2,000 ยูโร
 
-**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, this contest invited developers to create open source applications making use of public data in just 48 hours. The competition had 29 teams of participants who developed applications that included a mobile phone programme for accessing traffic information in the Basque Country, and for accessing data on buses and bus stops in Madrid, which won the first and second prizes of €3,000 and €2,000 respectively.
+**Nettskap 2.0** เมื่อเดือนเมษายน 2010 สำนักคณะรัฐมนตรีของประเทศนอร์เวย์ได้จัดทำโครงการ Nettskap 2.0 ขึ้น โครงการนี้ได้เชิญชวนให้นักพัฒนาซอฟต์แวร์ชาวนอร์เวย์ ไม่ว่าจะเป็นบริษัทหรือบุคคลทั่วไป ร่วมเสนอความคิดสร้างเว็บแอปพลิเคชันเพื่อพัฒนาการให้บริการต่อประชาชน เพื่อเพิ่มประสิทธิภาพการทำงาน และเพิ่มการมีส่วนร่วมของประชาชน และโครงการนี้กำหนดเน้นให้นำข้อมูลของรัฐบาลมาใช้ในการพัฒนาดังกล่าวอย่างชัดเจนอีกด้วย ถึงแม้ว่าโครงการดังกล่าวจะมีระยะเวลาในการส่งผลงานเข้าประกวดเพียง 1 เดือน ปรากฏว่า นาย Rigmor Aasrud รัฐมนตรีผู้รับผิดชอบ ได้แจ้งว่ามีการยื่นข้อเสนอจากนักพัฒนาอย่างล้นหลาม จากจำนวนแอปพลิเคชันทั้งหมด 137 แอปพลิเคชัน ซึ่งมีมากกว่า 90 แอปพลิเคชันที่นาข้อมูลของรัฐบาลไปใช้ ผลของการตัดสินปรากฏว่ามีผู้ชนะ 17 ราย ได้รับงบประมาณสนับสนุนโดยรวมเป็นเงิน 2.5 ล้าน NOK (หรือประมาณ 10.2 ล้านบาท) ซึ่งจำนวนงบประมาณถ้านับรวมที่สมัครขอรับการสนับสนุนเข้ามาทั้งหมด 137 แอปพลิเคชันจะคิดเป็น 28.4 ล้าน NOK (หรือประมาณ 116 ล้านบาท)
 
-**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government Administration held "Nettskap 2.0". Norwegian developers – companies, public agencies or individuals – were challenged to come up with web-based project ideas in the areas of service development, efficient work processes, and increased democratic participation. The use of government data was explicitly encouraged. Though the application deadline was just a month later, on May 9, the Minister Rigmor Aasrud said the response was "overwhelming". In total 137 applications were received, no less than 90 of which built on the re-use of government data. A total amount of NOK 2.5 million was distributed among the 17 winners; while the total amount applied for by the 137 applications was NOK 28.4 million.
-
-**Mashup Australia**. The Australian Government 2.0 Taskforce invited citizens to show why open access to Australian government information would be positive for the country's economy and social development. The contest ran from October 7th to November 13th 2009. The Taskforce released some datasets under an open license and in a range of reusable formats. The 82 applications that were entered into the contest are further evidence of the new and innovative applications which can result from releasing government data on open terms. Now [GovHack](http://www.govhack.org) runs in multiple locations across Australia and New Zealand each year.
+**Mashup Australia** คณะทำงาน The Australian Government 2.0 Taskforce ได้เชิญชวนประชาชนให้เข้าร่วมและแสดงความคิดเห็นว่า ทำไมการเข้าถึงข้อมูลที่เปิดเผยของรัฐบาลออสเตรเลียจะมีผลเชิงบวกต่อเศรษฐกิจและการพัฒนาทางสังคมของประเทศ การแข่งขันจัดขึ้นตั้งแต่ 7 ตุลาคม ถึง 13 พฤศจิกายน 2009 โดย Taskforce ได้เปิดชุดข้อมูลจำนวนหนึ่งออกมาภายใต้ Open license และในรูปแบบอื่น ๆ ที่สามารถนำไปใช้งานได้ โดยมีทั้งหมด 82 แอปพลิเคชันที่เข้าร่วมการแข่งขัน ทำให้เกิดแอปพลิเคชันในรูปแบบใหม่และนวัตกรรมใหม่ขึ้นมากมายจากผลของการแข่งขัน
 
 ### Conferences, Barcamps, Hackdays
 
-One of the more effective ways for Civil Society Organisations (CSOs) to demonstrate to governments the value of opening up their datasets is to show the multiple ways in which the information can be managed to achieve social and economic benefit. CSOs that promote re-use have been instrumental in countries where there have been advances in policy and law to ensure that datasets are both technically and legally open.
+หนึ่งในวิธีที่มีประสิทธิภาพสำหรับองค์กรประชาสังคม (Civil Society Organisations, CSOs) ในการแสดงให้รัฐบาลเห็นถึงคุณค่าของการเปิดเผยชุดข้อมูลของพวกเขา ทำให้เห็นว่ามีหลายวิธีที่ข้อมูลจะถูกจัดการเพื่อให้เกิดประโยชน์ทางสังคมและเศรษฐกิจ CSOs ที่สนับสนุนการใช้ประโยชน์ข้อมูลในประเทศต่าง ๆ ที่มีความก้าวหน้าในนโยบายและกฎหมาย มักมีส่วนในการผลักดันให้ชุดข้อมูลมีการเปิดเผยทั้งในทางเทคนิคและทางกฎหมาย
 
-The typical activities which are undertaken as part of these initiatives normally include competitions, [open government](/glossary/en/terms/open-government/) data conferences, "unconferences", workshops and "hack days". These activities are often organised by the user community with data that has already been published proactively or obtained using access to information requests. In other cases, civil society advocates have worked with progressive public officials to secure new release of datasets that can be used by programmers to create innovative applications.
+กิจกรรมเหล่านี้มักจะจัดโดยชุมชนผู้ใช้งานที่มีข้อมูลที่ได้เผยแพร่อยู่แล้วหรือใช้งานข้อมูลอยู่ ในหลายกรณี ภาคประชาชนก็จะทำงานร่วมกับเจ้าหน้าที่ของรัฐที่มีแนวคิดที่ร่วมสมัย เพื่อส่งเสริมให้เกิดการสร้างและเผยแพร่ชุดข้อมูลใหม่ ๆ เกิดขึ้น เพื่อให้มั่นใจได้ว่านักพัฒนาจะสามารถนำไปใช้สร้างแอปพลิเคชันที่เป็นนวัตกรรมใหม่ ๆ ขึ้นมาได้

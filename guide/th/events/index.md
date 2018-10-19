@@ -1,7 +1,7 @@
 ---
-redirect_from: /en/events/index.html
+redirect_from: /th/events/index.html
 section: guide
-lang: en
+lang: th
 title: Making Data Social
 ---
 

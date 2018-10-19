@@ -5,12 +5,12 @@ lang: th
 title: The Open Data Handbook
 ---
 
-**This handbook discusses the legal, social and technical aspects of open data.** It can be used by anyone but is especially designed for those seeking to **open up** data. It discusses the **why, what and how** of open data -- why to go open, what open is, and the how to 'open' data.
+**คู่มือฉบับนี้ ว่าด้วยเรื่องเกี่ยวกับ มุมมองของ open data ในด้าน กฎหมาย, สังคม และ ทางด้านเทคนิค** ซึ่งใครๆ ก็สามารถนำไปใช้งานได้ แต่จะเน้นไปยังผู้ที่ต้องการ **เปิดเผย** ข้อมูล, ในคู่มือกล่างถึงเรืองการเปิดเผยข้อมูลว่า **ทำไม, อะไร และ อย่างไร** -- ทำไมจึงต้องเปิด, อะไรที่ต้องเปิด และ จะเปิดเผยข้อมูลอย่างไร
 
-To get started, you may wish to look at the [Introduction](introduction/). You can navigate through the report using the Table of Contents (see sidebar or below).
+หากต้องการเริ่มต้น คุณสามารถไปยังหน้า [บทนำ](introduction/) และคุณสามารถเลือกหัวข้ออื่นๆ ผ่านสารบัญ (แถบด้านข้างหรือส่วนล่างของหน้า)
 
-We warmly welcome comments on the text and will incorporate feedback as we go forward. We also welcome contributions or suggestions for additional sections and areas to examine.
+เรายินดีต้อนรับคอมเมนต์เพื่อนำมาปรับปรุงให้ดียิ่งขึ้น และยังต้อนรับการมีส่วนร่วมในส่วนอื่นๆ อีกเช่นกัน
 
-## Table of Contents
+## สารบัญ 
 
 {% include toc.html %}
