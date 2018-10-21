@@ -2,7 +2,7 @@
 redirect_from: /th/appendices/index.html
 section: guide
 lang: th
-title: Appendices
+title: ภาคผนวก 
 ---
 
 -   [File Formats](http://opendatahandbook.org/guide/en/appendices/file-formats)

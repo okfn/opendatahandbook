@@ -5,72 +5,71 @@ lang: th
 title: Making Data Social
 ---
 
-## In case you need some ideas to gather your local community, an event is a great way to do so. Throughout the years, the  Open Knowledge International Network have developed a bunch of different events around open data and open knowledge. Some of these are in person events organized by the community, some are events that staff or communities attend and others are online events. In this section we will cover how to create these different types of events. Help us to improve this section by adding content to it using Github!
+## ในกรณีที่คุณต้องการไอเดียเพื่อที่จะรวบรวมสมาชิกในชุมชนของคุณ การจัดอีเว้นท์ถือเป็นวิธียอดเยี่ยมที่จะทำได้ ไประหว่างปี เครือข่าย Open Knowledge International ได้จัดอีเว้นท์ต่างๆ ขึ้นมาที่เกี่ยวข้องกับการเปิดเผยข้อมูลและแบ่งปันความรู้ บางอีเว้นท์ ชุมชนก็เป็นคนจัด บ้างก็จัดเป็นแบบออนไลน์ ในบทนี้เราจะพูดถึงวิธีการสร้างอีเว้นท์ในรูปแบบต่างๆ คุณสามารถช่วยเราทำให้หน้านี้ดีขึ้นได้ โดยใช้ Github! 
 
-### Introduction
+### บทนำ
 
-Open Knowledge Events are important for the community. Some of the opportunities include: focus attention, gather audience around specific topics and represent both the public face of the organization and its multiple projects. It is a way to help data enthusiasts meet face to face to work and learn together.
+อีเว้นท์ Open Knowledge นั้่นมีความสำคัญกับชุมชน บางอีเว้นท์นั้นสามารถทำให้เกิดโอกาสในการพบปะกันสำหรับกลุ่มคนต่างๆ และช่วยให้ผู้เชี่ยวชาญด้านข้อมูลตัวจริงมาพบปะกันและเรียนรู้ไปพร้อมกัน
 
-#### Why organize an Open Knowledge event?
+#### ทำไมจึงต้องจัดอีเว้นท์ Open Knowledge?
 
-While most of the network activities takes place in the virtual realm, most of the human interaction is still relying on face to face interactions. Having event helps you to grow your local community and stay connected to one another.
-When face to face events are not possible, virtual events can help you to boost the community, and to make sure the group is staying connected.
+ในขณะที่กิจกรรมของเครือข่ายนั้นเกิดขึ้นแบบออนไลน์ แต่การมีปฏิสัมพันธ์ระหว่างมนุษย์เราเองนั้นก็ยังคงต้องพึ่งการพบปะกันซึ่งหน้า การมีอีเว้นท์ช่วยทำให้ชุมชนของคุณเติบโตและมีความสัมพันธ์ที่แน่นแฟ้นต่อกัน
+แต่หากว่าการจัดอีเว้นท์แบบพบปะกันซึ่งหน้าทำได้ยากยิ่ง การจัดแบบออนไลน์ก็ยังคงสามารถใช้ในชุมชนของเราได้ ซึ่งทำให้มั่นใจได้ว่า ความสัมพันธ์ในชุมชนยังมีความเคลื่อนไหวอยู่
 
-#### What are the golden rules for an event?
+#### อะไรคือหลักปฏิบัติที่ดีสำหรับอีเว้นท์?
 
-As a start an event need to be true to [Open Knowledge values](https://okfn.org/about/vision-and-values/). This means that the event has to be in an open and inclusive environment that will make all participants from civil society to government, feel comfortable in the settings of the event.
+As a start an event need to be true to [Open Knowledge values](https://okfn.org/about/vision-and-values/) This means that the event has to be in an open and inclusive environment that will make all participants from civil society to government, feel comfortable in the settings of the event.
 In addition your event should focus on results. These results can be varied, and should fit your local needs. From strengthening a local community to igniting a common passion about open data through talks and meetings, to writing a document together or to set up a workshop. In any case, before planning anything, you should ask yourself (and your co-orginisers) what you want your event’s outcome to be, and communicate it clearly. Your event will have a greater impact when you have a firm idea of what results you hope to inspire!
 
-#### Prep your social media
-Social media is a good tool not only to promote and event, but also to document the event itself.
+#### เตรียมสื่อสังคมออนไลน์ของคุณ
+สื่อสังคมออนไลน์เป็นเครื่องมีที่ดีในการโปรโมทอีเว้นท์ และยังสามารถบอกรายละเอียดของอีเว้นท์ได้อีกด้วย
 
-#### Promoting
-* Open a facebook page for the event.
-* Use tools like [attending.io](https://attending.io) or [eventbrite](http://eventbrite.com) to keep information and registration for the event.
-* Create a hashtag for your event and tweet about it from your group twitter account
-* Blog about the event and publish it with other organizations in your area that can help you reach the crowd you are looking for.
-* If you have time, create a video to promote the event
+#### โปรโมท
+* สร้างเพจบน facebook สำหรับสร้างอีเว้นท์
+* ใช้เครื่องมือ เช่น [attending.io](https://attending.io) หรือ [eventbrite](http://eventbrite.com) เพื่อเก็บข้อมูลและจัดการเรื่องลงทะเบียนเข้าร่วมอีเว้นท์
+* สร้างแฮชแท็กสำหรับอีเว้นท์ และทวีตเกี่ยวกับอีเว้นท์ในทวิตเตอร์ของคุณ 
+* เขียนบล็อกเกี่ยวกับอีเว้นท์และเผยแพร่ไปยังองกรณ์ที่เกี่ยวข้องกับคุณ เพื่อช่วยให้คนอื่นเจอได้ง่ายขึ้น
+* หากคุณมีเวลา คุณสามารถสร้างวิดีโอและโปรโมทอีเว้นท์ของคุณได้เช่นกัน
 
-#### Documenting
+#### บันทึกเอกสารและอื่นๆ ที่เกี่ยวข้องกับอีเว้นท์
 
-* Ask participants to use the hashtag to help and gather important insights during the events.
-* Take picture and upload them to Flickr.
-* Use Facebook to publish videos or photos during the event.
+* ร้องขอให้ผู้เข้าร่วมใช้แฮชแท็กเพื่อให้สามารถรวบรวมข้อมูลอื่นๆ ระหว่างที่อีเว้นท์ดำเนินอยู่ได้
+* ถ่ายรูปและอัปโหลดไปยัง Flickr
+* ใช้ Facebook สำหรับเผยแพร่วิดีโอหรือรูปถ่ายในระหว่างที่อีเว้นท์ดำเนินอยู่
 
-#### What could be done during an event?
+#### อะไรบ้างที่สามารถทำได้สำเร็จในระหว่างอีเว้นท์?
 
-The content of the event is up to its organizer – open knowledge is such a wide world, not even the sky is the limit. If you’re looking for an idea, here are some great things you might like to do:
+เนื้อหาในอีเว้นท์นั้นขึ้นอยู่กับผู้จัดงาน – open knowledge นั้น เนื้อหามีมากมายและเปิดกว้างมาก หากคุณกำลังมองหาไอเดีย นี่คือบางส่วนที่คุณอาจจะใช้:
 
-#### Face-to-face:
+#### พบปะกันซึ่งหน้า:
 
-* Explore a topic: talks, panels, Q&As, discussions
-* Showcase projects and ideas: lighting talks, [speed geeking](http://www.kstoolkit.org/Speed+geeking?responseToken=876633d8de129f2ca0e7598f85ba60e5)
-* Learn together and from each other: workshops, [barcamp](https://en.wikipedia.org/wiki/BarCamp)
-* Working on a project together: text sprints, code sprints, datathons
+* มองหาหัวข้อต่างๆ: พูดคุยสนทนา, พาเนล, ถาม/ตอบ, ถกประเด็นสนทนา
+* โชว์โปรเจคและไอเดีย: lighting talks, [speed geeking](http://www.kstoolkit.org/Speed+geeking?responseToken=876633d8de129f2ca0e7598f85ba60e5)
+* เรียนรูปไปด้วยกันและจากผู้อื่น: ทำเวิร์คช็อป, [barcamp](https://en.wikipedia.org/wiki/BarCamp)
+* ทำงานในโปรเจคด้วยกัน: text sprints, code sprints, datathons
 
-#### Virtual
+#### ออนไลน์
 
-* Sharing: Team calls, slack updates
-* Learning: Skill share via video chat, tutorials
+* แบ่งปัน: ประชุมสาย, อัปเดทใน slack
+* เรียนรู้: แบ่งปันทักษะต่างๆ ผ่านวิดีโอแชท, ติวออนไลน์
 
-Of course, you can create a virtual dimension to any of the face to face activities that you run, either by adding a link to a video, or even by using twitter feed for questions time.
+และแน่นอน คุณสามารถสร้างช่องทางออนไลน์อื่นๆ เพื่อทำกิจกรรมแบบซึ่งหน้ากัน ไม่ว่าจะเพิ่มลิงค์วิดีโอหรือใช้ฟีดจากทวิตเตอร์เพื่อเปิดรับคำถาม
 
-#### How many events should I run?
+#### จำนวนที่เราควรจัดอีเว้นท์?
 
-There is not easy answer for that. Some communities have a weekly local meetup, while others try to focus on quarterly events. You need to consult your community and see what are their needs and wants on timing and frequency of events.
-However, we do not recommend to run a "one time" event once a year which tend a big crowd. These events, while getting a lot of attention and crowd, can create frustration if there is no follow up on them, and as a reaction to less participation in the long run.
+นี่ไม่ใช่คำตอบที่่ง่ายเลย บางชุมชนนั้นจัดอาทิตย์ละครั้ง แต่บางกลุ่มก็จัดสี่เดือนครั้ง คุณจำเป็นต้องมีการปรึกษากับชุมชนของคุณและดูว่าพวกเขาเหล่านั้นต้องการให้จัดบ่อยแค่ไหน อย่างไรก็ตาม เราไม่แนะนำให้จัดแบบ "ครั้งเดียว" ต่อปี และมีคนเข้าร่วมจำนวนมาก อีเว้นท์เหล่านี้ มีคนเข้าร่วมจำนวนมากทำให้เกิดความสับสนและอาจจะทำให้ผู้เข้าร่วมเกิดความไม่สะดวก และส่งผลไม่ดีในระยะยาว
 
-#### Don't forget the follow up!
-When an event is over, you still have work to do so you can make sure that the goals are fully acheived.
+#### อย่าลืมที่จะติดตามผลหลังจากจบอีเว้นท์!
+เมื่ออีเว้นท์จบ แต่งานของคุณยังไม่จบ คุณยังคงต้องมีงานให้ทำต่อเพื่อดูว่าเป้าหมายของคุณสำเร็จลุล่วงไปหรือยัง
 
-* Write a blogpost or publish a podcast about the event so people who did not attend can catch up and that other people in the network can learn from.
-* Make a [storify](https://storify.com) page to your event.
-* Send an email to participant and tell them about future projects that they can take part in.
+* เขียนบล็อก หรือ เผยแพร่พอดคาสต์ เกี่ยวกับอีเว้นท์ เพื่อให้คนที่ไม่ได้เข้าร่วมงานได้มีโอกาสที่จะติดตามและอัปเดทข้อมูล ซึ่งจะทำให้ทุกคนในเครือข่ายได้รับข้อมูลที่ล่าสุดและยังคงมีสัมพันธ์ที่ดีต่อชุมชน
+* สร้าง [storify](https://storify.com) สำหรับอีเว้นท์ของคุณ
+* ส่งอีเมล์ไปยังผู้เข้าร่วมงานและบอกพวกเขาเกี่ยวกับอนาคตของโปรเจคที่พวกเขาสามารถเป็นส่วนหนึ่งได้
 
-#### A couple tips
+#### ทิปเล็กๆ น้อยๆ
 
-* If you run an by yourself, try to have someone to help you and have clear responsibilities. .
-* Remember that in every event there is going to be an emergency to fix.
-* Always a backup plan if too many arrive or people cancelling.
-* Stay cool, look confident, and remember that no one is going to die if it won’t be successful (at least we hope). You can freak out inside, but remember to be professional.
-* Have a debrief with your team - look at what to keep and what to improve and what is funny.
+* หากคุณทำคนเดียว พยายามมองหาใครสักคนมาช่วยคุณ เพื่อแบ่งเบาภาระ
+* จำไว้เสมอว่า ทุกอีเว้นท์จะมีปัญหาเฉพาะหน้าให้แก้เสมอ
+* มีแผนสำรองเสมอ หากมีคนเข้าร่วมมากเกิน หรือ มีการยกเลิกมากไป
+* รักษามาด, มีความมั่นใจเข้าไว้ และจำไว้ว่าหากงานไม่สำเร็จ โลกเราก็ไม่แหลกสลายไปหรอก คุณสามารถสติแตกอยู่ภายในใจได้ แต่จำไว้ เราต้องเป็นมืออาชีพ
+* มีการบรีฟให้คนในทีมฟัง - ให้มองหาว่า ส่วนใดควรเก็บ ส่วนใดต้องพัฒนา และส่วนไหนที่สนุกสนาน
