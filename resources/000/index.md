@@ -1,7 +1,7 @@
 ---
 section: resources
 lang: en
-Author: 'Open Knowledge International '
+Author: 'Open Knowledge Foundation'
 Country: Multiple
 Description: A very short intro to Open Data
 Keywords: Open Data
