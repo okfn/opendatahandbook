@@ -5,127 +5,130 @@ lang: id
 title: Cara Membuka Data
 ---
 
-Bagian ini merupakan inti dari buku pegangan ini. Ia akan memberikan hal yang konkrit, saran yang merinci tentang bagaimana para pemegang data dapat membuka data-datanya. Kita akan melakukannya secara mendasar, tetapi juga mencakup masalah-masalah yang tersembunyi dan menjebak. Terakhir, kita akan membahas isu-isu halus yang dapat timbul.
+Bagian ini adalah inti dari buku pegangan ini. Saran yang konkrit dan rinci mengenai bagaimana para pemegang data dapat membuka data-datanya akan diberikan. Kita akan membahas hal-hal yang mendasar tetapi juga mendiskusikan kesulitan-kesulitan tersembunyi. Terakhir, kita akan membahas masalah-masalah subtil yang mungkin timbul.
 
 Terdapat tiga aturan kunci yang kami rekomendasikan saat membuka data:
 
--   **Jadikan lebih praktis.** Mulailah dengan kecil, sederhana dan cepat. Tidak ada ketentuan bahwa setiap kumpulan data harus dibuat terbuka sekarang. Memulai dengan hanya membuka satu kumpulan data saja, atau bahkan satu bagian dari kumpulan data besar, tidak mengapa - tentunya, makin banyak kumpulan data yang anda buka, maka akan lebih baik.
+-   **Jangan dibuat menjadi rumit.** Mulailah dengan hal kecil, , dan cepat. Tidak ada ketentuan bahwa semua kumpulan data harus dibuat terbuka sekarang. Memulai dengan hanya membuka satu kumpulan data saja, atau bahkan satu bagian dari kumpulan data besar, tidak mengapa. Tentunya, makin banyak kumpulan data yang anda buka, maka akan lebih baik.
 
-> Ingat ini tentang inovasi. Bergerak secepat mungkin adalah bagus karena itu berarti anda dapat membangun momentum dan belajar dari pengalaman -- inovasi adalah sebuah proses di mana kegagalan adalah jalan menuju kesuksesan dan tidak setiap kumpulan data dapat berguna.
+> Ingatlah hal ini tentang inovasi. Bergerak secepat mungkin adalah bagus karena itu berarti Anda dapat membangun momentum dan belajar dari pengalaman. Inovasi adalah sebuah proses di mana kegagalan adalah jalan menuju kesuksesan dan tidak setiap kumpulan data bisa menjadi berguna.
 
--   **Terlibat dari awal dan melibatkan diri sesering mungkin.** Melibatkan diri sesering mungkin dengan para pengguna aktual dan yang potensial serta dengan pengguna yang menggunakan ulang data, jadilah warga mereka, bisnis mereka atau menjadi pengembang mereka. Ini akan memastikan bahwa pada siklus berikutnya dari layanan anda menjadi lebih relevan lagi.
+-   **Libatkan dari awal dan sesering mungkin.** Libatkan pengguna data aktual dan potensial seawal dan sesering mungkin, baik dengan warga masyarakat, perusahaan, ataupun pengembang. Ini akan memastikan bahwa pada siklus berikutnya layanan Anda akan menjadi lebih relevan.
 
-> Sangat penting untuk diingat bahwa banyak data tidak akan menjangkau pengguna akhir secara langsung, melainkan melalui 'mediator-info'. Mereka ini adalah orang-orang yang mengambil data dan mentransformasinya atau meramunya untuk dipresentasikan. Sebagai contoh, kebanyakan dari kita tidak ingin atau butuh dengan sebuah basisdata yang besar dari koordinat GPS, melainkan kita lebih memilih sebuah peta. Oleh karena itu, awali berhubungan dengan para mediator info ini. Mereka akan menggunakan ulang dan mendaur guna material tersebut.
+> Sangat penting untuk diingat bahwa akan ada banyak data yang tidak mencapai pengguna akhir secara langsung, melainkan melalui 'perantara informasi'. Mereka ini adalah orang-orang yang mengambil data dan mentransformasinya atau meramunya untuk dipresentasikan. Sebagai contoh, kebanyakan dari kita tidak ingin atau tidak butuh basis data koordinat GPS dalam jumlah besar, kita hanya membutuhkan sebuah peta. Oleh karena itu, libatkan para perantara ini sejak awal. Mereka akan menggunakan ulang dan memberikan nilai baru pada materi tersebut.
 
--   **Mengatasi kekhawatiran umum dan kesalahpahaman**. Hal ini terutama penting jika anda bekerja dengan institusi besar seperti pemerintahan. Ketika membuka data anda akan dihadapkan pada banyak pertanyaan dan kekhawatiran. Hal ini penting untuk (a) mengidentifikasi hal-hal yang paling penting (b) dan mengarahkan mereka ke tahap awal sedini mungkin.
+-   **Atasi kekhawatiran dan kesalahpahaman yang umum terjadi**. Hal ini terutama penting jika Anda bekerja dengan institusi besar seperti pemerintahan. Ketika membuka data Anda akan dihadapkan pada banyak pertanyaan dan kekhawatiran. Maka dari itu penting untuk (a) mengidentifikasi mana pertanyaan yang paling penting (b) dan berikan jawab atas pertanyaan tersebut sedini mungkin.
 
-Ada empat langkah utama dalam membuat data terbuka, yang masing-masing akan dibahas secara rinci di bawah ini. Langkah-langkah tersebut adalah yang paling memungkinkan - banyak dari langkah-langkah tersebut dapat dilakukan secara bersamaan.
+Ada empat langkah utama dalam membuat data terbuka, yang masing-masing akan dibahas secara rinci di bawah ini. Langkah-langkah tersebut disusun dalam urutan yang sekiranya linear, namun beberapa dari langkah tersebut dapat dilakukan secara bersamaan.
 
-1.  **Memilih kumpulan data(s) anda.** Pilih kumpulan data(s) yang akan anda rencanakan untuk dibuka. Perlu diingat bahwa anda bisa (dan mungkin memang diperlukan) kembali ke langkah ini bila anda menemui kendala di kemudian hari.
-2.  **Menerapkan lisensi terbuka.**
-    1.  Tentukan hak kekayaan intelektual yang ada dalam data.
+1.  **Pilih kumpulan data Anda.** Pilih kumpulan dat yang direncanakan untuk dibuka. Perlu diingat bahwa Anda bisa (dan mungkin memang diperlukan) utnuk kembali ke langkah ini apabila Anda menemui kendala di kemudian hari.
+2.  **Terapkan lisensi terbuka.**
+    1.  Tentukan hak kekayaan intelektual apa yang berlaku bagi data Anda.
+    2.  Pilih lisensi 'terbuka' yang tepat sesuai dengan hak kekayaan intelektual yang berlaku bagi data Anda dan yang juga mendukung keterbukaan sesuai definisi yang dibahas pada bagian 'Apakah Data Terbuka itu' sebelumnya.
+    3.  NB: Apabila Anda tidak dapat menerapkan lisensi terbuka karena masalah hak cipta maka kembalilah ke langkah 1 dan cobalah dengan kumpulan data berbeda.
 
-> 2.  Terapkan lisensi 'terbuka' yang tepat yang dapat melisensi semua hak dan mendukung diskusi definisi tentang keterbukaan pada seksi 'Apakah Data Terbuka' di atas.
-> 3.  NB: bila anda tidak dapat melakukan ini maka kembalilah ke langkah 1 dan cobalah dengan kumpulan data berbeda.
+3.  **Buka akses terhadap data Anda** secara masal dan dalam format yang dapat digunakan. Anda juga dapat mempertimbangkan cara-cara lain menjadikan data Anda dapat diakses, misalnya melalui sebuah API.
+4.  **Jadikan data Anda mudah ditemukan** - terbitkan data Anda di situs web dan mungkin buat sebuah katalog daftar dari kumpulan data terbuka Anda.
 
-3.  **Menjadikan data tersedia** - secara masal dan format yang berguna. Anda mungkin juga mempertimbangkan cara alternatif untuk membuatnya menjadi tersedia misalnya seperti melalui sebuah API.
-4.  **Jadikan hingga mudah untuk ditemukan** - terbitkan di web dan mungkin kelola sebuah pusat katalog untuk membuat daftar dari kumpulan data terbuka anda.
+## Pilih Kumpulan Data
 
-## Pilih Kumpulan data(s)
+Langkah pertama adalah memilih kumpulan-kumpulan data yang Anda rencanakan untuk dibuka. Meskipun perlu diingat bahwa pembukaan data merupakan proses yang berulang dan Anda dapat kembali ke langkah ini bila Anda mengalami masalah di kemudian hari.
 
-Pemilihan kumpulan-kumpulan data(s) yang anda rencanakan untuk menjadikannya terbuka merupakan langkah pertama – meskipun perlu diingat bahwa seluruh proses pembukaan data akan berulang dan anda dapat kembali ke langkah ini bila anda mengalami masalah di kemudian hari.
+Apabila Anda sudah mengetahui persis kumpulan-kumpulan data apa yang ingin Anda buka maka Anda dapat langsung ke bagian berikutnya. Walaupun begitu, dalam banyak kasus, terutama untuk lembaga-lembaga yang besar, memilih kumpulan data menjadi sebuah tantangan tersendiri. Bagaimana sebaiknya menghadapi kasus seperti ini?
 
-Jika memang anda sudah mengetahui persis kumpulan-kumpulan data(s) apa yang anda rencanakan untuk dibuka, maka anda dapat langsung ke bagian berikutnya. Bagaimanapun juga, dalam banyak kasus, terutama untuk lembaga-lembaga yang besar, untuk berfokus pada memilih kumpulan data menjadi sebuah tantangan. Bagaimana seharusnya untuk melanjutkan dalam kasus seperti ini?
+Pembuatan daftar kumpulan data bisa menjadi proses cepat yang membantu mengidentifikasi kumpulan data mana saja yang dapat mulai dijadikan terbuka. Akan ada cukup waktu pada tahap berikutnya untuk memeriksa secara rinci apakah setiap kumpulan data cocok atau tidak untuk dibuka.
 
-Pembuatan daftar ini harus menjadi proses cepat yang mengidentifikasi kumpulan data mana saja yang dapat mulai dijadikan terbuka. Akan ada waktu berikutnya untuk memeriksa secara rinci apakah setiap kumpulan data cocok atau tidak.
-
-**Tidak ada keharusan** untuk membuat daftar yang komprehensif dari kumpulan data anda. Titik utama untuk diingat adalah apakah layak untuk mempublikasikan data ini sama sekali (baik secara terbuka atau sebaliknya) - lihat [bagian sebelumnya](../what-is-open-data/).
+**Tidak ada keharusan** untuk membuat daftar yang lengkap dari kumpulan data Anda. Poin penting untuk dipikirkan adalah apakah memungkinkan untuk mempublikasikan data ini (baik secara terbuka atau sebaliknya) - lihat [bagian sebelumnya](../what-is-open-data/).
 
 ### Meminta komunitas
 
-Kami merekomendasikan anda untuk meminta kepada masyarakat sebagai contoh pertama. Yaitu mereka yang akan mengakses dan menggunakan data tersebut, karena mereka cenderung memiliki pemahaman yang baik tentang data mana yang bermanfaat.
+Kami merekomendasikan Anda untuk meminta bantuan terlebih dahulu kepada komunitas, yaitu mereka yang akan mengakses dan menggunakan data tersebut, karena mereka cenderung memiliki pemahaman yang baik tentang data mana yang bermanfaat.
 
-1.  Siapkan daftar singkat dari potensi kumpulan data yang akan anda beri umpan balik. Bukanlah hal yang esensial bila daftar ini ternyata sesuai dengan harapan anda, tujuan utamanya adalah untuk dapat merasakan akan adanya suatu kebutuhan. Ini bisa merujuk pada katalog {term:data terbuka} negara lainnya.
-2.  Membuat permintaan untuk komentar.
-3.  Mempublikasikan permintaan anda melalui sebuah halaman web. Pastikan bahwa dimungkinkan untuk mengakses permintaan tersebut melalui URL-nya sendiri. Dengan demikian, ketika berbagi melalui media sosial, permintaan tersebut dapat dengan mudah akan ditemukan.
-4.  Menyediakan cara mudah untuk mengirimkan respon. Menghindarkan dari keharusan mendaftar, karena itu akan mengurangi jumlah respon.
-5.  Edarkan permintaan tersebut ke mailing list, forum dan individu yang relevan, lalu merujuk kembali ke halaman web utama.
-6.  Gelar sebuah acara konsultasi. Pastikan anda menyelenggarakannya pada waktu yang nyaman bagi umumnya para pelaku bisnis, pengolah data dan para petugas resmi dapat menghadirinya.
-7.  Meminta politisi untuk berbicara atas nama lembaga anda. Data terbuka dapat menjadi bagian dari sebuah kebijakan luas dalam meningkatkan akses ke informasi pemerintahan.
+1.  Siapkan daftar singkat kumpulan data potensial yang ingin Anda mintai umpan balik. Tidaklah penting apakah daftar ini sesuai dengan ekspektasi Anda atau tidak, tujuan utamanya adalah untuk dapat mengetahui seperti apa kebutuhan masyarakat. Hal ini juga bisa didasarkan pada katalog [data terbuka](/glossary/en/terms/open-data/) negara lainnya.
+2.  Buat permohonan kepada komunitas untuk memberikan komentar.
+3.  Publikasikan permohonan Anda di halaman web. Pastikan bahwa permohonan tersebut dapat diakses melalui URL-nya sendiri. Dengan demikian, ketika berbagi melalui media sosial, permohonan tersebut dapat dengan mudah ditemukan.
+4.  Mudahkan cara untuk mengirimkan respon. Hindari keharusan bagi publik untuk mendaftarkan diri, karena itu akan mengurangi jumlah respon yang masuk.
+5.  Edarkan permohonan tersebut ke milis, forum, dan orang-orang yang relevan dengan merujuk kembali ke halaman web utama.
+6.  Adakan acara konsultasi. Pastikan Anda menyelenggarakannya pada waktu yang nyaman sehingga para pelaku bisnis, [pengolah data](/glossary/en/terms/data-wrangler/), dan petugas pemerintah dapat menghadirinya.
+7.  Minta politisi untuk berbicara atas nama lembaga Anda. Data terbuka kemungkinan besar merupakan bagian dari kebijakan yang lebih luas untuk meningkatkan akses informasi dari badan pemerintah.
 
-### Basis cost
+### Biaya dasar
 
-Berapa banyak uang yang dibelanjakan oleh lembaga-lembaga dalam pengumpulan dan pemeliharaan data yang mereka pegang? Jika mereka menghabiskan banyak biaya dalam kumpulan data tertentu, maka sangat mungkin bahwa orang lain ingin mengaksesnya.
+Berapa banyak uang yang dikeluarkan oleh lembaga-lembaga dalam pengumpulan dan pemeliharaan data yang mereka pegang? Jika mereka menghabiskan banyak biaya untuk suatu kumpulan data tertentu, maka kemungkinan besar orang lain ingin mengaksesnya juga.
 
-Argumen ini mungkin cukup rentan terhadap keprihatinan akan kebebasan yang berlebihan. Pertanyaan yang perlu anda respon adalah, "Mengapa orang-orang dalam mendapatkan informasi secara gratis harus bergitu mahalnya?". Jawabannya terletak pada biaya yang harus diserap oleh sektor publik untuk melakukan fungsi tertentu. Biaya pengiriman data, setelah dikumpulkan, kepada pihak ketiga rata-rata tidak ada. Oleh karena itu, mereka pun tidak harus dibebankan apa-apa.
+Argumen ini mungkin cukup rentan terhadap kekhawatiran akan adanya pihak yang memanfaatkan secara gratis tanpa memberikan kontribusi balik. Pertanyaan yang perlu Anda respon adalah, "Mengapa orang-orang harus mendapatkan informasi secara gratis padahal biayanya begitu mahal?". Jawabannya adalah biaya tersebut ditanggung oleh badan pemerintah yang memiliki mandat untuk melakukan fungsi tertentu. Setelah data dikumpulkan, publikasi atau pengiriman data kepada pihak ketiga tidak membutuhkan biaya tambahan. Oleh karena itu, pihak ketiha pun seharusnya tidak dikenakan biaya apa pun.
 
-### Kemudahan rilis
+### Kemudahan publikasi
 
-Terkadang, daripada memutuskan data mana yang paling berharga, maka akan lebih berguna untuk melihat data mana yang paling mudah untuk masuk ke tangan publik. Kecil, mudah dirilis dapat menjadi katalis untuk perubahan perilaku yang lebih besar dalam organisasi.
+Terkadang, daripada memikirkan data mana yang paling berharga, akan lebih berguna untuk melihat data mana yang paling mudah dipublikasikan. Publikasi yang kecil dan mudah dapat menjadi pendorong untuk perubahan yang lebih besar dalam organisasi.
 
-Bagaimanapun, tetap berhati-hati dengan pendekatan ini. Itu mungin bisa terjadi di mana rilis kecil ini akan juga sedikit nilai-nilainya yang tidak ada untuk dapat dibangun darinya. Bila ini terjadi, kepercayaan pada seluruh proyek bisa terganggu.
+Bagaimanapun, tetap berhati-hati dengan pendekatan ini. Mungin saja terjadi dimana publikasi yang kecil-kecil sama sekali tidak memiliki nilai yang dapat dibangun darinya. Bila ini terjadi, kredibilitas seluruh proyek bisa terganggu.
 
-### Amati rekan
+### Amati rekan sejawat
 
-Data Terbuka adalah gerakan yang berkembang. Ada kemungkinan akan banyak orang di daerah yang memahami apa yang dilakukan daerah lainnya. Merumuskan sebuah daftar berdasarkan apa yang dilakukan oleh lembaga-lembaga.
+Data Terbuka saat ini sedang sangat berkembang. Ada kemungkinan banyak orang atau lembaga di sekitar Anda yang memahami mengenai hal ini. Buatlah sebuah daftar mengenai apa saja yang dilakukan oleh lembaga-lembaga tersebut.
 
-## Menerapkan sebuah Lisensi Terbuka (Keterbukaan Resmi)
+## Menerapkan Lisensi Terbuka (Keterbukaan Secara Hukum)
 
-Di kebanyakan yurisdiksi terdapat hak kekayaan intelektual di dalam data yang mencegah pihak ketiga dari penggunaannya, penggunaan ulang dan pendistribusian data tanpa izin eksplisit. Bahkan di tempat di mana keberadaan hak hukum serba tidak pasti, penting untuk menerapkan lisensi demi sebuah kejelasan. Dengan demikian, *\* jika anda berencana untuk membuat data anda tersedia, anda harus menaruh lisensi di atasnya*\* - dan jika anda ingin data anda menjadi terbuka \_ ini bahkan lebih penting lagi.
+Di kebanyakan yurisdiksi terdapat hak kekayaan intelektual yang melekat pada data yang mencegah pihak ketiga dari menggunakan dan membagikan ulang tanpa izin eksplisit. Bahkan di negara di mana keberadaan hak kekayaan intelektual tersebut tidak diketahui secara pasti, adalah penting untuk menerapkan lisensi agar ada kejelasan tentangnya. Dengan demikian, *\* jika Anda berencana untuk membuat data Anda tersedia, Anda harus menerapkan lisensi padanya*\* dan jika Anda ingin data Anda menjadi terbuka \_ ini bahkan lebih penting lagi.
 
-Lisensi apa yang dapat anda gunakan? Kami rekomendasikan untuk data 'terbuka' anda dapat menggunakan salah satu dari lisensi yang sesuai dengan \_ Definisi Terbuka dan telah ditandai cocok untuk data. Daftar ini (beserta petunjuk penggunaannya) dapat ditemukan di:
+Lisensi apa yang dapat Anda gunakan? Untuk data terbuka, kami merekomendasikan Anda menggunakan salah satu dari lisensi yang sesuai dengan \_ Definisi Terbuka dan telah ditandai cocok untuk data. Daftar ini (beserta petunjuk penggunaannya) dapat ditemukan di:
 
 -   <http://opendefinition.org/licenses/>
 
-Panduan singkat 1-halaman instruksi penerapan lisensi open data dapat ditemukan situs Open Data Commons:
+Panduan singkat petunjuk penerapan lisensi data terbuka dapat ditemukan di situs Open Data Commons:
 
 -   <http://opendatacommons.org/guide/>
 
-## Menjadikan Data Tersedia (Teknis Keterbukaan)
+## Membuka Akses terhadap Data (Keterbukaan Secara Teknis)
 
-{term:Data terbuka} membutuhkan keterbukaan secara teknis sebagaimana keterbukaan yang resmi secara hukum. Khususnya, data harus bisa tersedia secara masal dalam format {term:yang dapat dibaca mesin}.
+[Data Terbuka](/glossary/en/terms/open-data/) membutuhkan baik keterbukaan secara hukum maupun keterbukaan secara teknis. Secara spesifik, data harus tersedia secara masal dalam format yang [dapat dibaca oleh mesin](/glossary/en/terms/machine-readable/).
 
-**Available**
+**Tersedia**
 
-Data seharusnya dihargai tidak lebih dari biaya reproduksi yang wajar, sebaiknya dijadikan sebagai unduhan gratis dari internet. Model penghargaan ini dapat dicapai karena lembaga anda tidak perlu menangani biaya apapun saat menyediakan data untuk digunakan.
+Data sebaiknya dijadikan tersedia secara gratis di internet atau dihargai tidak lebih besar dari biaya produksi yang wajar.
+Model penetapan harga seperti ini memungkinkan karena lembaga Anda tidak perlu mengeluarkan biaya apapun saat menyediakan data untuk digunakan.
 
-**In bulk**
+**Masal**
 
-Data harus tersedia dalam kumpulan yang lengkap. Jika anda memiliki daftar yang dikoleksi di bawah aturan undang-undang, seluruh daftar tersebut harus tersedia untuk diunduh. Sebuah API web atau layanan serupa juga dapat menjadi sangat berguna, tetapi peran mereka bukan sebagai sebuah pengganti untuk akses masal.
+Data harus tersedia dalam kumpulan yang lengkap. Jika Anda memiliki daftar koleksi yang diatur oleh undang-undang, seluruh koleksi tersebut harus tersedia untuk diunduh. Sebuah API web atau layanan serupa juga dapat menjadi sangat berguna, tetapi tidak bisa menggantikan akses masal.
 
-**In an open, machine-readable format**
+**Dalam format terbuka yang dapat dibaca oleh mesin**
 
-Penggunaan-ulang data yang disediakan oleh sektor publik tidak seharusnya tunduk pada pembatasan paten. Lebih penting lagi, pastikan bahwa anda telah menyediakan format yang dapat dibaca mesin yang memungkinkan untuk penggunaan-ulang yang lebih luas lagi. Untuk mengilustrasikannya, anggaplah statistik yang dipublikasikan sebagai dokumen PDF (Portable Document Format), daripada digunakan untuk kepentingan pencetakan yang berkualitas tinggi. Sementara statistik ini dapat dibaca oleh manusia, namun sangat sulit bagi komputer untuk menggunakannya. Hal ini akan sangat membatasi kemampuan yang lainnya untuk menggunakan ulang data.
+Penggunaan ulang data yang disediakan oleh sektor publik seharusnya tidak tunduk pada pembatasan paten. Lebih penting lagi, 
+ketersediaan format yang dapat dibaca mesin memungkinkan penggunaan ulang yang lebih luas lagi. Sebagai contoh, anggaplah 
+sebuah statistik dipublikasikan sebagai dokumen PDF (Portable Document Format), format yang sering digunakan untuk kepentingan pencetakan yang berkualitas tinggi. Walaupun statistik ini dapat dibaca oleh manusia namun sangat sulit bagi komputer untuk menggunakannya. Hal ini akan sangat membatasi kemampuan untuk menggunakan ulang data.
 
-Berikut ini beberapa kebijakan yang akan sangat menguntungkan:
+Berikut ini beberapa kebijakan yang akan sangat berguna:
 
 -   Buat seringkas mungkin,
--   Bergerak cepat
+-   Gerak cepat,
 -   Jadilah pragmatis.
 
-Secara khusus akan lebih baik memberikan data mentah sekarang daripada data yang sempurna dalam waktu enam bulan.
+Akan lebih baik memberikan data mentah sekarang juga daripada data yang sempurna dalam waktu enam bulan.
 
-Terdapat banyak cara yang berbeda untuk menjadikan data tersedia bagi yang lain. Yang paling alami di era internet adalah publikasi secara daring. Terdapat banyak variasi dari model ini. Yang paling mendasar, lembaga-lembaga telah membuat data mereka tersedia melalui situs web mereka sendiri dan sebuah katalog sentral mengarahkan pengunjung ke sumber yang tepat. Namun, terdapat pula alternatifnya.
+Ada banyak cara untuk menjadikan suatu data tersedia bagi orang lain. Yang paling mudahdi era internet adalah publikasi secara daring. Terdapat banyak variasi dari model ini. Yang paling sederhana, lembaga-lembaga telah membuat data mereka tersedia melalui situs web mereka sendiri dan sebuah katalog sentral mengarahkan pengunjung ke sumber yang tepat. Namun, terdapat pula alternatifnya.
 
-Ketika {term:konektivitas} menjadi terbatas atau ukuran data menjadi sangat besar, maka pendistribusian dengan menggunakan format lain dapatlah dibenarkan. Bagian ini juga mendiskusikan beberapa alternatif, yang dapat dilakukan untuk menjaga beban biaya tetap kecil.
+Ketika ada kendala pada [konektivitas](/glossary/en/terms/connectivity/) atau ukuran data sangat besar maka pendistribusian dengan menggunakan format lain bisa dilakukan. Bagian ini juga mendiskusikan beberapa alternatif yang dapat dilakukan untuk menjaga biaya tetap kecil.
 
 ### Metode daring
 
-#### Melalui situs anda yang telah ada
+#### Melalui situs web Anda yang telah ada
 
-Sistem yang paling mudah dikenali tim konten web anda adalah dengan menyediakan beberapa file untuk diunduh dari halaman web. Sama seperti anda saat ini yang menyediakan akses ke dokumen diskusi, file-file data lebih disukai menjadi tersedia dengan cara ini.
+Sistem yang paling mudah bagi tim konten web Anda adalah dengan menyediakan beberapa berkas untuk diunduh dari halaman web. Sama seperti halnya Anda menyediakan akses ke dokumen diskusi, berkas data sudahlah cukup untuk dibuat tersedia dengan cara ini.
 
-Salah satu kesulitan dalam pendekatan ini adalah sangat sulit bagi orang luar untuk menemukan keberadaan informasi yang telah diperbarui. Pilihan ini menambah beban pada orang-orang untuk menciptakan perangkat tambahan pada data Anda.
+Salah satu kesulitan dalam pendekatan ini adalah sangat sulit bagi orang luar untuk menemukan keberadaan informasi yang telah diperbarui. Pilihan ini menambah beban pada orang-orang yang menciptakan perangkat menggunakan data Anda.
 
 #### Melalui situs pihak ke-3
 
-Banyak repositori telah menjadi pusat data dalam bidang tertentu. Sebagai contoh, pachube.com didesain untuk menghubungkan orang-orang dengan sensor bagi mereka yang berharap untuk mengakses data darinya. Situs seperti Infochimps.com dan Talis.com memperkenankan lembaga sektor publik untuk menyimpan data raksasa untuk digratiskan.
+Banyak repositori telah menjadi pusat data dalam bidang tertentu. Sebagai contoh, pachube.com didesain untuk menghubungkan orang-orang dengan sensor bagi mereka yang berharap untuk mengakses data darinya. Situs seperti Infochimps.com dan Talis.com memperkenankan lembaga sektor publik untuk menyimpan data raksasa secara gratis.
 
-Situs pihak ketiga bisa sangat berguna. Alasan utama untuk hal ini adalah mereka telah dikumpulkan bersama-sama dengan sebuah komunitas dari orang-orang yang berminat dan bersama kumpulan-kumpulan data lainnya. Ketika data anda menjadi bagian dari platform ini, bentuk ketertarikan yang positif diciptakan.
+Situs pihak ketiga bisa sangat berguna. Alasan utama untuk hal ini adalah mereka telah mengumpulkan komunitas orang-orang yang 
+tertarik bersama kumpulan-kumpulan data lainnya. Ketika data Anda menjadi bagian dari platform ini, bentuk ketertarikan yang positif diciptakan.
 
-Platform grosir data sudah menyediakan infrastruktur yang dapat mendukung kebutuhan. Mereka bahkan menyediakan informasi analisis dan penggunaannya. Untuk lembaga sektor publik, mereka secara umum gratis.
+Platform data grosir sudah menyediakan infrastruktur yang dapat mendukung permintaan. Informasi analisis dan penggunaannya pun disediakan. Pada umumnya, lembaga sektor publik dapat menggunakannya secara gratis.
 
-Platform ini dapat mempunyai dua beban. Yang pertama adalah kebebasan. Lembaga anda harus mampu menghasilkan kendali kepada orang lain. Hal ini seringkali membuat sulit secara politik, hukum atau operasionalnya. Beban kedua mungkin adalah keterbukaan. Pastikan bahwa platform data anda tidak mempedulikan tentang siapa yang dapat mengaksesnya. Para pengembang perangkat lunak dan para ilmuwan menggunakan banyak sistem operasi, mulai dari ponsel pintar hingga superkomputer. Mereka semuanya harus dapat mengakses data tersebut.
+Platform ini dapat mempunyai dua beban. Yang pertama adalah kebebasan. Lembaga Anda harus memberikan kendali kepada orang lain. Hal ini seringkali sulit secara politik, hukum, atau secara operasional. Beban kedua mungkin adalah keterbukaan. Pastikan bahwa platform data Anda tidak mempedulikan tentang siapa saja yang dapat mengaksesnya. Para pengembang perangkat lunak dan para ilmuwan menggunakan banyak sistem operasi, mulai dari ponsel pintar hingga superkomputer. Mereka semuanya harus dapat mengakses data tersebut.
 
 #### Melalui server FTP
 
