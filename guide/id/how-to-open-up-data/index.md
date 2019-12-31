@@ -132,66 +132,66 @@ Platform ini dapat mempunyai dua beban. Yang pertama adalah kebebasan. Lembaga A
 
 #### Melalui server FTP
 
-Sebuah metode yang kurang modis dalam penyediaan akses adalah melalui File Transfer Protocol (FTP). Ini mungkin cocok bila pemirsa anda adalah teknisi, seperti pengembang perangkat lunak dan ilmuwan. Sistem FTP berjalan dalam kerangka HTTP, tetapi ia secara khusus didesain untuk mendukung transfer file.
+Sebuah metode yang kurang populer dalam penyediaan akses adalah melalui File Transfer Protocol (FTP). Ini mungkin cocok bila pengguna Anda paham persoalan teknis, seperti pengembang perangkat lunak dan ilmuwan. Sistem FTP berfungsi menggantikan HTTP, tetapi secara khusus didesain untuk mendukung transfer berkas.
 
-FTP jauh dari kenikmatan. Daripada menyediakan sebuah situs, melihat melalui sebuah server FTP mirip seperti melihat folder pada komputer. Oleh karena itu, meskipun itu sesuai dengan tujuan, ada kapasitas yang jauh lebih sedikit bagi perusahaan pengembang web untuk membebankan biaya penyesuaian.
+FTP sudah tidak begitu disukai. Alih-alih menyediakan sebuah situs, melihat sebuah server FTP mirip seperti melihat folder pada komputer. Oleh karena itu, meskipun tujuannya sesuai, perusahaan pengembang web tidak terlalu bisa mengambil keuntungan dengan kustomisasi.
 
 #### Sebagai torrent
 
-[BitTorrent](/glossary/id/terms/bittorrent/) adalah sebuah sistem yang telah menjadi akrab bagi para pembuat kebijakan karena korelasinya dengan isu pelanggaran hak cipta. BitTorrent menggunakan file-file yang disebut torrent, yang bekerja dengan memisahkan biaya distribusi file-file di antara orang-orang yang mengakses file-file tersebut. Alih-alih, server menjadi kelebihan beban, pasokan menjadi meningkat seiring dengan meningkatnya permintaan. Hal inilah yang menjadi alasan sistem ini menjadi sangat sukses dalam berbagi film. Ini adalah cara yang luar biasa efisiennya untuk mendistribusikan volume data yang sangat besar.
+[BitTorrent](/glossary/id/terms/bittorrent/) adalah sistem yang akrab di telinga para pembuat kebijakan karena hubungannya dengan isu pelanggaran hak cipta. BitTorrent menggunakan berkas-berkas yang disebut torrent, yang bekerja dengan membagi biaya distribusi berkas-berkas di antara orang-orang yang mengakses berkas tersebut. Alih-alih server menjadi kelebihan beban, pasokan menjadi meningkat seiring dengan meningkatnya permintaan. Hal inilah yang menjadi alasan sistem ini menjadi sangat sukses dalam berbagi film. Ini adalah cara yang luar biasa efisiennya untuk mendistribusikan volume data yang sangat besar.
 
 #### Sebagai sebuah API
 
-Data dapat dipublikasikan melalui [Application Programming Interface](/glossary/id/terms/application-programming-interface/) (API). Antarmuka ini telah menjadi sangat populer. Ia memungkinkan para pemrogram untuk memilih secara spesifik jumlah datanya, daripa menyediakan semua data secara masal dengan sebuah file yang besar. API biasanya terhubung ke basisdata yang terus diperbarui secara aktual. Hal ini berarti membuat informasi menjadi tersedia melalui API dapat memastikan data itu selalu terperbarui.
+Data dapat dipublikasikan melalui [Application Programming Interface](/glossary/id/terms/application-programming-interface/) (API). Antarmuka ini telah menjadi sangat populer. Ia memungkinkan para pemrogram untuk memilih secara spesifik jumlah datanya, daripa menyediakan semua data secara masal dengan sebuah file yang besar. API biasanya terhubung ke basis data yang terus diperbarui secara aktual. Hal ini berarti membuat informasi menjadi tersedia melalui API berarti memastikan juga data itu selalu terperbarui.
 
-Mempublikaskan data mentah secara masal harus menjadi perhatian khusus dari semua inisiatif data terbuka. Terdapat jumlah biaya untuk menyediakan sebuah API:
+Mempublikaskan data mentah secara masal harus menjadi perhatian khusus dari semua inisiatif data terbuka. Ada biaya-biaya yang harus dikeluarkan untuk menyediakan sebuah API:
 
-1.  Harga. Mereka membutuhkan lebih banyak pengembangan dan pemeliharaan daripada menyediakan file.
-2.  Harapan. Dalam rangka mendorong komunitas pengguna di balik sistem, sangatlah penting untuk memberikan kepastian. Ketika terjadi sesuatu yang buruk, anda akan diharapkan menanggung biaya untuk memperbaikinya.
+1.  Harga. API membutuhkan lebih banyak pengembangan dan pemeliharaan daripada hanya menyediakan berkas.
+2.  Ekspektasi. Dalam rangka mendorong komunitas pengguna di balik sistem, sangatlah penting untuk memberikan kepastian. Ketika terjadi sesuatu masalahk, Anda diharapkan menanggung biaya untuk memperbaikinya.
 
 Akses ke data masal dapat memastikan bahwa:
 
--   tidak ada ketergantungan dengan penyedia data orisinal, yang berarti sekalipun terjadi restrukturisasi atau siklus anggaran yang mengubah situasi, namun data masih tetap tersedia.
--   Siapapun bisa mendapatkan sebuah salinannya dan mendistribusikannya. Hal ini akan menekan biaya distribusi pada lembaga sumber dan dapat memastikan tidak akan ada kegagalan sedikitpun.
--   lainnya dapat membangun layanan mereka sendiri menggunakan data tersebut, karena mereka punya keyakinan bahwa data tersebut tidak akan diambil dari mereka.
+-   tidak ada ketergantungan pada penyedia data awal, yang berarti sekalipun terjadi restrukturisasi atau perubahan anggaran yang mengubah situasi, data masih tetap tersedia.
+-   siapapun bisa mendapatkan salinannya dan mendistribusikannya. Hal ini akan menekan biaya distribusi pada lembaga sumber dan dapat memastikan tidak akan ada kegagalan sedikitpun.
+-   orang lain dapat membangun layanan mereka sendiri menggunakan data tersebut, karena mereka punya keyakinan bahwa data tersebut tidak akan diambil dari mereka.
 
-Menyediakan data secara masal memungkinkan orang lain untuk menggunakan data di luar tujuan awalnya. Misalnya, hal itu dapat memungkinkan untuk diubah menjadi format baru, terkait dengan sumber daya lainnya, atau diversi dan arsiparis di banyak tempat. Sedangkan versi terbaru dari data dapat dibuat tersedia melalui API, data mentah harus disediakan dalam jumlah besar secara berkala.
+Menyediakan data secara masal memungkinkan orang lain untuk menggunakan data di luar tujuan awalnya. Misalnya, data dapat diubah menjadi format baru, ditautkan dengan hal lainnya, atau dimodifikasi dan diarsipkan di banyak tempat. Walaupun versi terbaru dari data dapat dibuat tersedia melalui API, data mentah harus selalu disediakan dalam jumlah besar secara berkala.
 
-Sebagai contoh, [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) mempunyai fasilitas pengunduhan masal yang menawarkan lebih dari 4000 file data. Selalu diperbarui dua hari sekali, menawarkan data dalam format [Tab-separated values](/glossary/id/terms/tab-separated-values/) (TSV), dan termasuk dokumentasi mengenai fasilitas pengunduhan sebagaimana dokumentasi tentang file datanya.
+Sebagai contoh, [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) mempunyai fasilitas pengunduhan masal yang menawarkan lebih dari 4000 berkas data. Selalu diperbarui dua hari sekali, menyajikan data dalam format [Tab-separated values](/glossary/id/terms/tab-separated-values/) (TSV), dan menyediakan dokumentasi mengenai fasilitas pengunduhan dan informasi tentang berkas datanya.
 
-Contoh lainnya adalah [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), yang memungkinkan data untuk diunduh dalam format CSV dan XLS dan sebagai tambahannya feeds langsung dari data.
+Contoh lainnya adalah [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), yang memungkinkan data untuk diunduh dalam format CSV dan XLS sebagai tambahan dari versi paling baru data tersebut.
 
 ## Jadikan data mudah ditemukan
 
-{term:Data terbuka} tidak berarti tanpa para pengguna. Anda perlu untuk memastikan bahwa orang-orang dapat dengan mudah menemukan sumber material tersebut. Seksi ini akan mencakup beberapa pendekatan yang berbeda.
+[Data Terbuka](/glossary/en/terms/open-data/) tidak akan berarti tanpa adanya pengguna. Anda perlu memastikan bahwa orang-orang dapat dengan mudah menemukan data atau  materi sumber tersebut. Bagian ini akan membahas beberapa pendekatan yang berbeda.
 
-Yang paling penting adalah menyediakan ruang netral yang dapat mengakomodasi baik politik antar-lembaga maupun siklus anggaran di masa depan. Perbatasan yurisdiksi, baik sektoral maupun geografis, dapat membuat kerjasama menjadi hal yang sulit. Namun, ada manfaat yang signifikan ketika bergabung. Semakin mudah bagi orang luar untuk menemukan data, maka perangkat-perangkat akan semakin cepat dibangun dan semakin meningkat kegunaannya.
+Yang paling penting adalah menyediakan ruang netral yang dapat mengakomodasi baik politik antar-lembaga maupun siklus anggaran di masa depan. Perbatasan yurisdiksi, baik sektoral maupun geografis, dapat membuat kerjasama menjadi hal yang sulit. Namun, ada manfaat yang signifikan ketika lebih dari satu lembaga bergabung. Semakin mudah bagi orang luar untuk menemukan data, maka perangkat-perangkat akan semakin cepat dibangun dan semakin meningkat juga kegunaannya.
 
-### Perangkat tersedia
+### Perangkat yang ada
 
 Terdapat banyak perangkat yang tersedia secara langsung di web yang didesain secara khusus untuk membuat data menjadi lebih mudah ditemukan.
 
-Salah satu yang paling menonjol adalah [DataHub](https://datahub.ckan.io/) yang berbentuk sebuah katalog dan penyimpanan data dari seluruh dunia. Situs ini memudahkan para individu dan organisasi untuk mempublikasikan material dan membantu para pengguna data untuk menemukan material yang mereka butuhkan.
+Salah satu yang paling terkenal adalah [DataHub](https://datahub.ckan.io/) yang adalah sebuah katalog dan penyimpanan data dari seluruh dunia. Situs ini memudahkan para individu dan organisasi untuk mempublikasikan materi dan membantu para pengguna data untuk menemukan materi yang mereka butuhkan.
 
-Sebagai tambahan, terdapat lusinan spesialis katalog untuk sektor dan tempat yang berbeda. Banyak dari komunitas ilmu pengetahuan telah membuat sebuah sistem katalog untuk bidang mereka, sebagaimana data yang sering dibutuhkan untuk publikasi.
+Sebagai tambahan, terdapat banyak katalog khusus untuk sektor dan tempat tertentu yang beragam. Banyak komunitas ilmu pengetahuan telah membuat sebuah sistem katalog tersendiri untuk bidang keilmuan mereka, sebagaimana data seringkali dibutuhkan untuk publikasi.
 
 ### Untuk pemerintahan
 
-Seperti yang telah muncul, praktik ortodoks adalah untuk lembaga utama yang membuat katalog untuk data pemerintah. Saat menetapkan katalog, cobalah untuk membuat beberapa struktur yang memungkinkan banyak departemen dapat dengan mudah menyimpan informasi mereka sendiri.
+Biasanya, praktik umun yang terjadi adalah sebuah lembaga utama membuatkan katalog untuk data pemerintah. Saat membuat katalog, cobalah membuat sebuah struktur yang memungkinkan banyak departemen dapat dengan mudah memperbarui informasi mereka sendiri.
 
-Menahan diri dari tergesa-gesa untuk membangun dari awal perangkat lunak pendukung katalog. Ada banyak solusi perangkat lunak yang bebas dan open source (seperti [CKAN](http://ckan.org/)) yang telah banyak diadopsi oleh pemerintah. Dengan demikian, investasi di platform lain mungkin tidak akan diperlukan lagi.
+Janganlah tergesa-gesa membangun dari awal perangkat lunak untuk mendukung katalog. Ada banyak perangkat lunak yang gratis dan bersumber terbuka (seperti [CKAN](http://ckan.org/)) yang telah banyak diadopsi oleh pemerintah. Dengan demikian, investasi di platform yang sama mungkin tidak akan diperlukan lagi.
 
 Ada beberapa hal yang sering diabaikan oleh katalog data terbuka. Program Anda sebaiknya mempertimbangkan hal-hal berikut ini:
 
--   Memberikan sebuah jalan yang dapat memungkinkan sektor swasta dan masyarakat untuk menambahkan data mereka. Hal ini mungkin dapat bermanfaat untuk mulai mempertimbangkan katalog tersebut sebagai sebuah katalog daerah, bukan sebagai katalog pemerintah daerah.
--   Peningkatan fasilitas dari data dengan memperkenankan derivatif dari kumpulan data untuk dikatalogkan. Sebagai contoh, seseorang mentransformasikan alamat menjadi kode geo dan mungkin hasilnya dibagikan ke setiap orang. Bila anda hanya memperkenankan versi tunggal kumpulan-kumpulan datanya, peningkatan-peningkatan ini hanya akan menjadi tersembunyi.
--   Berilah toleransi pada data anda agar bisa muncul di tempat lain. Ini artinya, konten anda mungkin akan digandakan untuk kepentingan masyarakat. Jika anda memiliki data tentang pemantauan ketinggian debit sungai yang sudah siap tersedia, maka data anda mungkin muncul dalam katalog untuk hidrologis.
--   Pastikan setiap akses diperlakukan dengan adil. Cobalah untuk menghindari pembuatan tingkat akses istimewa yang ditujukan bagi para pejabat atau peneliti punya kedudukan penting karena hal ini akan melemahkan partisipasi dan hubungan dengan masyarakat.
+-   Memberikan cara yang memungkinkan sektor swasta dan masyarakat untuk menambahkan data mereka. Mmungkin akan berguna untuk melihat sebuat katalog tersebut sebagai katalog daerah tertentu, bukan sebagai katalog pemerintah daerah.
+-   Fasilitasi perbaikan atau pengembangan data dengan memperkenankan turunan dari kumpulan data untuk juga dikatalogkan. Sebagai contoh, seseorang menambahkan koordinat geografi pada kumpulan alamat dan ingin membagikan hasilnya ke semua orang. Apabila kumpulan data Anda hanya dibolehkan untuk memiliki satu versi saja, perbaikan terhadap data ini hanya akan menjadi tersembunyi.
+-   Izinkanlah data Anda agar bisa muncul di tempat lain. Ini artinya, konten Anda mungkin akan digandakan untuk kepentingan masyarakat. Jika Anda memiliki data tentang pemantauan ketinggian debit sungai yang sudah siap tersedia, maka data Anda mungkin muncul dalam katalog untuk ahli hidrologi.
+-   Pastikan akses ke data adalah akses yang adil. Hindari pembuatan tingkat akses istimewa yang ditujukan bagi para pejabat atau peneliti yang punya kedudukan penting karena hal ini akan melemahkan partisipasi dan hubungan dengan masyarakat.
 
 ### Untuk masyarakat sipil
 
-Jadilah pihak yang bersedia membuat katalog tambahan untuk data yang bersifat tidak-resmi.
+Jadilah pihak yang bersedia membuat katalog tambahan untuk data yang bersifat tidak resmi.
 
-Adalah sangat jarang bagi pemerintah untuk mengasosiasikannya dengan sumber-sumber yang bersifat tidak resmi atau non-otoritatif. Para pejabat seringkali mengeluarkan biaya besar untuk memastikan bahwa tidak akan ada rasa malu masalah politik atau ancaman lain yang disebabkan dari penyalahgunaan atau kepercayaan yang berlebih pada data.
+Sangatlah jarang bagi pemerintah untuk bisa mengasosiasikan diri dengan sumber-sumber yang bersifat tidak resmi atau non-otoritatif. Para pejabat pemerinntah seringkali akan berusaha mati-matian untuk memastikan bahwa tidak akan ada penyalahgunaan data atau ketergantungan yang berlebihan pada data yang dapat mengakibatkan rasa malu atau masalah lain.
 
-Selain itu, pemerintah tampaknya tidak akan bersedia untuk mendukung kegiatan yang berpotensi dapat mengacaukan informasi mereka dengan informasi dari bisnis. Pemerintah berhak skeptis terhadap segala motif yang berlatar keuntungan. Oleh karena itu, katalog independen untuk masyarakat, usaha kelompok dan lainnya dapat dibenarkan.
+Selain itu, pemerintah tampaknya tidak akan bersedia mendukung kegiatan yang mencampuradukkan informasi mereka dengan informasi dari bisnis. Pemerintah berhak skeptis terhadap segala motif yang berlatar belakang pencarian keuntungan. Oleh karena itu, katalog terpisah untuk kelompok komunitas, usaha bisnis, dan kelompok lainnya mungkin diperlukan.
