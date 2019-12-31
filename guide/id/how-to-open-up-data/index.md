@@ -11,11 +11,11 @@ Terdapat tiga aturan kunci yang kami rekomendasikan saat membuka data:
 
 -   **Jangan dibuat menjadi rumit.** Mulailah dengan hal kecil, , dan cepat. Tidak ada ketentuan bahwa semua kumpulan data harus dibuat terbuka sekarang. Memulai dengan hanya membuka satu kumpulan data saja, atau bahkan satu bagian dari kumpulan data besar, tidak mengapa. Tentunya, makin banyak kumpulan data yang anda buka, maka akan lebih baik.
 
-> Ingatlah hal ini tentang inovasi. Bergerak secepat mungkin adalah bagus karena itu berarti Anda dapat membangun momentum dan belajar dari pengalaman. Inovasi adalah sebuah proses di mana kegagalan adalah jalan menuju kesuksesan dan tidak setiap kumpulan data bisa menjadi berguna.
+     Ingatlah hal ini tentang inovasi. Bergerak secepat mungkin adalah bagus karena itu berarti Anda dapat membangun momentum dan belajar dari pengalaman. Inovasi adalah sebuah proses di mana kegagalan adalah jalan menuju kesuksesan dan tidak setiap kumpulan data bisa menjadi berguna.
 
 -   **Libatkan dari awal dan sesering mungkin.** Libatkan pengguna data aktual dan potensial seawal dan sesering mungkin, baik dengan warga masyarakat, perusahaan, ataupun pengembang. Ini akan memastikan bahwa pada siklus berikutnya layanan Anda akan menjadi lebih relevan.
 
-> Sangat penting untuk diingat bahwa akan ada banyak data yang tidak mencapai pengguna akhir secara langsung, melainkan melalui 'perantara informasi'. Mereka ini adalah orang-orang yang mengambil data dan mentransformasinya atau meramunya untuk dipresentasikan. Sebagai contoh, kebanyakan dari kita tidak ingin atau tidak butuh basis data koordinat GPS dalam jumlah besar, kita hanya membutuhkan sebuah peta. Oleh karena itu, libatkan para perantara ini sejak awal. Mereka akan menggunakan ulang dan memberikan nilai baru pada materi tersebut.
+    Sangat penting untuk diingat bahwa akan ada banyak data yang tidak mencapai pengguna akhir secara langsung, melainkan melalui 'perantara informasi'. Mereka ini adalah orang-orang yang mengambil data dan mentransformasinya atau meramunya untuk dipresentasikan. Sebagai contoh, kebanyakan dari kita tidak ingin atau tidak butuh basis data koordinat GPS dalam jumlah besar, kita hanya membutuhkan sebuah peta. Oleh karena itu, libatkan para perantara ini sejak awal. Mereka akan menggunakan ulang dan memberikan nilai baru pada materi tersebut.
 
 -   **Atasi kekhawatiran dan kesalahpahaman yang umum terjadi**. Hal ini terutama penting jika Anda bekerja dengan institusi besar seperti pemerintahan. Ketika membuka data Anda akan dihadapkan pada banyak pertanyaan dan kekhawatiran. Maka dari itu penting untuk (a) mengidentifikasi mana pertanyaan yang paling penting (b) dan berikan jawab atas pertanyaan tersebut sedini mungkin.
 
