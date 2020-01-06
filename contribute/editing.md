@@ -1,8 +1,8 @@
 ---
 section: contribute
 lang: en
-title: Editing a page
-authors:
+title: Do your money make cents or dollars
+authors:James Jackson
  - Sam Smith
 ---
 
@@ -50,13 +50,13 @@ This is the Markdown way of creating a level two heading. On the site it will be
 
 Another common formatting requirement is bullet points, or lists. These are achieved in Markdown by using asterisks, like so:
 
-    * civil servants
+    
     * journalists
     * politicians
 
 giving you:
 
-* civil servants
+
 * journalists
 * politicians
 
