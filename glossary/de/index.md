@@ -9,9 +9,9 @@ Open Data Offene Daten können für fast alle Zwecke genutzt werden. Mehr Detail
 
 Machine-readable Maschinenlesbare Formate können von Computern automatisiert ausgewertet werden. PDFs können zwar auf fast allen PCs schön dargestellt werden, sind aber nicht maschinenlesbar.
 
-Connectivity 'Connectivity' bezeichnet hier die Fähigkeit von Communites sich über das Internet, meist das World Wide Web, zu verbinden.
+Connectivity 'Connectivity' bezeichnet hier die Fähigkeit von Communities sich über das Internet, meist das World Wide Web, zu verbinden.
 
-BitTorrent BitTorrent eigent sich hervorragend um große Datenmengen kostengünstig zu verteilen. Anstatt einen zentralen Downloadserver bereitzustellen könne Nutzer die Daten von verteilten Rechnern herunterladen.
+BitTorrent BitTorrent eignet sich hervorragend um große Datenmengen kostengünstig zu verteilen. Anstatt einen zentralen Downloadserver bereitzustellen können Nutzer die Daten von verteilten Rechnern herunterladen.
 
 DAP
 
@@ -21,7 +21,7 @@ Data Access Protocol Ein System, dass außenstehenden Zugang zu Datenbanken gew�
 
 Attribution License Eine Lizenz, bei der der ursprüngliche Urheber angegeben werden muss (Attribution).
 
-Data protection legislation Datenschutzgesetzgebung soll nicht die Daten an sich beschützen, sondern die Rechte der Bürgerinnen und Bürger. Keiner soll Angst haben, dass über Ihn oder Sie erhobene private Daten öffentlich werden.
+Data protection legislation Datenschutzgesetzgebung soll nicht die Daten an sich beschützen, sondern die Rechte der Bürgerinnen und Bürger. Keiner soll Angst haben, dass über ihn oder sie erhobene private Daten öffentlich werden.
 
 PSI
 
@@ -45,15 +45,15 @@ Share-alike License Eine Lizenz, die vorgibt, dass Inhalte unter der gleichen Li
 
 Public domain Copyright kann auf diese Informationen nicht angewendet werden. Existiert nicht überall.
 
-Database rights Ein Recht um die herauslösung und weiternutzung von Daten aus Datenbanken zu verbieten. Existiert vor allem in Europa.
+Database rights Ein Recht um die Herauslösung und Weiternutzung von Daten aus Datenbanken zu verbieten. Existiert vor allem in Europa.
 
-Copyright Ein Recht für Schöpfer kreativer Werke die Nutzung ihres Werks zu beschränken Der Inhaber des Copyrights ist berechtigt, anderen die Nutzungsmöglichkeiten vorzuschreiben.
+Copyright Ein Recht für Schöpfer kreativer Werke die Nutzung ihres Werks zu beschränken. Der Inhaber des Copyrights ist berechtigt, anderen die Nutzungsmöglichkeiten vorzuschreiben.
 
 Re-use
 
 :   Nutzung von Inhalten außerhalb des eigentlichen Einsatzzweckes.
 
-Open standards Prinzipiell sind technische Standards frei von Lizenzen und anderen restriktionen. Anonymization See [Anonymisation](/glossary/de/terms/anonymisation/).
+Open standards Prinzipiell sind technische Standards frei von Lizenzen und anderen Restriktionen. Anonymization See [Anonymisation](/glossary/de/terms/anonymisation/).
 
 Anonymisation
 
