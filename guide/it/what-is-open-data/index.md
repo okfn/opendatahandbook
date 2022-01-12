@@ -11,7 +11,7 @@ Ma cosa sono questi *open data* di cui si occupa questo manuale? In particolare,
 
 Il presente manuale si occupa dei dati aperti, ma cosa sono esattamente i dati *aperti*? Per i nostri fini i dati aperti sono quelli che rientrano nella [Open Definition](http://opendefinition.org/):
 
-lauranewman *I dati aperti sono dati che possono essere liberamente utilizzati, riutilizzati e ridistribuiti da chiunque, soggetti eventualmente alla necessità di citarne la fonte e di condividerli con lo stesso tipo di licenza con cui sono stati originariamente rilasciati.*
+*I dati aperti sono dati che possono essere liberamente utilizzati, riutilizzati e ridistribuiti da chiunque, soggetti eventualmente alla necessità di citarne la fonte e di condividerli con lo stesso tipo di licenza con cui sono stati originariamente rilasciati.*
 
 La [full Open Definition](http://opendefinition.org/okd/) spiega nei dettagli cosa questo significhi. Gli aspetti più importanti sono:
 
