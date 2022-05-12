@@ -39,13 +39,13 @@ title: データをオープンにするには
 
 このリストが、どのデータセットをオープンにできるかを特定するための最初の一歩となるだろう。この後の段階で、個々のデータセットが適切かどうかをより詳しくチェックするときがくる。
 
-There is **no requirement** to create a comprehensive list of your datasets. The main point to bear in mind is whether it is feasible to publish this data at all (whether openly or otherwise) - see [this previous section](../what-is-open-data/).
+データセットの包括的なリストを作成するための**要件**はない。心に留めておくべき主なポイントは、このデータを（オープンかどうかにかかわらず）公開することが可能かどうか、それだけだ - [この前のセクション](../what-is-open-data/)を参照。
 
 ### コミュニティに尋ねる
 
 まずはじめに、コミュニティに聞いてみることをおすすめする。コミュニティとは、実際にそのデータにアクセスしたりデータを使ったりしている人のことである。彼らはきっと、どのデータに価値があるかをよく知っているだろう。
 
-1.  Prepare a short list of potential datasets that you would like feedback on. It is not essential that this list concurs with your expectations, the main intention is to get a feel for the demand. This could be based on other countries' [open data](/glossary/ja/terms/open-data/) catalogs.
+1.　フィードバックを求めるデータセット候補の短いリストを準備する。このリストがあなたの希望と一致する必要はなく、主な目的は需要の感触をつかむことだ。こういったリストは、他の国の[オープンデータ](/glossary/ja/terms/open-data/)カタログを基にしてもいい。
 2.  提案文書を作成する。
 3.  提案文書をウェブページに公開する。その提案を指す一意なURLを用意し、直接アクセスできるようにしておこう。そうすればソーシャルメディアでの共有がしやすくなり、提案が発見されやすくなる。
 4.  簡単に意見を表明できる方法を提供する。登録をしないと意見を投稿できないなどということはやめよう。そんなことをすれば、反応が少なくなってしまう。
@@ -85,18 +85,17 @@ There is **no requirement** to create a comprehensive list of your datasets. The
 
 {term:オープンデータ} というからには、法的にオープンにするだけではなく技術的にもオープンにしなければならない。特に大切なのは、データをまとめて公開する際に {term:機械可読} 形式にしておくことだ。
 
-**Available**
+**使用可能**
 
 データを公開するにあたって、複製するための実費を超える値段をつけてはいけない。インターネットから無料でダウンロードできるようにするのがおすすめだ。この価格体系を実現できる理由は、データを提供するにあたってその組織がよけいなコストをかけるべきではないからだ。
 
-**In bulk**
+**まとめて**
 
 データは完全なセットとして公開しなければならない。法の下で収集された記録を持っているのなら、その一部ではなく全体をダウンロードできるようにする必要がある。Web APIなどのサービスも便利ではあるが、一括アクセスの代替にはならない。
 
-**In an open, machine-readable format**
+**オープンで、機械判読可能**
 
-Re-use of data held by the public sector should not be subject to patent restrictions. More importantly, making sure that you are providing machine-readable formats allows for greatest re-use. To illustrate this, consider statistics published as PDF (Portable Document 
-Format) documents, often used for high quality printing. While these statistics can be read by humans, they are very hard for a computer to use. This greatly limits the ability for others to re-use that data.
+公共部門が保有するデータの再利用は、特許の対象とすべきではない。さらに重要なのは、機械判読可能な形式を提供していることを保証することで、最大限の再利用が可能になることだ。これを説明するために、高品質の印刷によく使用されるPDF（Portable Document Format）ドキュメントとして公開された統計を考えてみよう。これらの統計は人間が読み取ることができるが、コンピューターが使用するには非常に困難だ。これにより、他の人がそのデータを再利用する可能性が大幅に制限される。
 
 次の原則に従えば、多大な恩恵を受けられる。
 
@@ -134,7 +133,7 @@ Format) documents, often used for high quality printing. While these statistics 
 
 FTPにはかつてほどの人気はなくなった。ウェブサイトを提供するのに比べると、FTPサーバーを扱うというのはコンピューター上のフォルダを扱うのに似ている。したがって、たとえそれが目的にかなっていたとしても、そのカスタマイズを請け負えるウェブ開発会社はあまりいないだろう。
 
-#### torrentで
+#### Torrentファイルで
 
 [BitTorrent](/glossary/ja/terms/bittorrent/) は、政府の人間にはおなじみになりつつあるシステムだろう。というのも、著作権違反に関連して語られることが多くなったからである。BitTorrentは、torrentsというファイルを利用するシステムであり、ファイルにアクセスしようとする人たちにコストを分散させる仕組みがある。サーバーにだけ負荷をかけるのではなく、需要が増加するのにあわせて供給も増やすようにしている。だからこそ、このシステムは動画の共有の世界で成功したのだ。大規模なデータを配布するためのシステムとして、これは非常に効率的なものだ。
 
@@ -155,9 +154,9 @@ FTPにはかつてほどの人気はなくなった。ウェブサイトを提�
 
 データを一括で提供すれば、他の人たちが本来の目的を超えてデータを活用できるようになる。たとえば別のフォーマットに変換したり他のリソースとリンクさせたり、バージョン管理して複数の場所でアーカイブしたりといった具合だ。最新版のデータがAPI経由で取得できるようにしたとしても、生のデータも定期的に一括公開しておくべきだ。
 
-For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/ja/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
+たとえば、[Eurostat統計サービス](http://epp.eurostat.ec.europa.eu/)には、4000を超えるデータファイルを提供する一括ダウンロード機能がある。 1日2回更新され、[タブ区切り値](/glossary/ja/terms/tab-separated-values/)（TSV）形式でデータを提供し、ダウンロード機能とデータファイルに関するドキュメントが含まれている。
 
-Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC/OCTO/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
+もう1つの例は、[コロンビア特別区データカタログ](http://octo.dc.gov/DC/OCTO/)で、データのライブフィードに加えて、CSVおよびXLS形式でデータをダウンロードできる。
 
 ## データを発見してもらう
 
@@ -169,7 +168,7 @@ Another example is the [District of Columbia Data Catalog](http://octo.dc.gov/DC
 
 さまざまなツールがウェブ上に存在する。データを発見されやすくすることに特化したものである。
 
-One of the most prominent is the [DataHub](https://datahub.ckan.io/) and is a catalog and data store for datasets from around the world. The site makes it easy for individuals and organizations to publish material and for data users to find material they need.
+最も有名なものの1つは[DataHub](https://datahub.ckan.io/)で、世界中のデータセットのカタログでありデータストアだ。このサイトでは、個人や組織が資料を簡単に公開し、データユーザーが必要な資料を簡単に見つけることができる。
 
 さらに、さまざまな機関や場所に特化したカタログも数多く存在する。科学者のコミュニティの多くは個々の分野のカタログシステムを構築しており、公開用のデータを求めている。
 
@@ -177,19 +176,19 @@ One of the most prominent is the [DataHub](https://datahub.ckan.io/) and is a ca
 
 ここまでで明らかになったとおり、正統な方法はその機関自身に政府のデータを扱うカタログを作らせることだ。カタログを構築する際には、各部署が自分の情報を最新に保ちやすいような仕組みを作るようにしよう。
 
-Resist the urge to build the software to support the catalog from scratch. There are free and open source software solutions (such as [CKAN](http://ckan.org/)) which have been adopted by many governments already. As such, investing in another platform may not be needed.
+カタログをサポートするソフトウェアをゼロから構築したいという衝動に抵抗しよう。すでに多くの政府によって採用されている無料のオープンソースソフトウェアソリューションがある（[CKAN](http://ckan.org/)など）。そのため、さらなるプラットフォームへの投資は必要ないと思われる。
 
 多くのオープンデータカタログが見落としている点をいくつか取り上げる。プログラムを作る場合にはこれらを検討しよう。
 
--   Providing an avenue to allow the private and community sectors to add their data. It may be worthwhile to think of the catalog as the region's catalog, rather than the regional government's.
--   Facilitating improvement of the data by allowing derivatives of datasets to be cataloged. For example, someone may geocode addresses and may wish to share those results with everybody. If you only allow single versions of datasets, these improvements remain hidden.
--   Be tolerant of your data appearing elsewhere. That is, content is likely to be duplicated to communities of interest. If you have river level monitoring data available, then your data may appear in a catalog for hydrologists.
--   Ensure that access is equitable. Try to avoid creating a privileged level of access for officials or tenured researchers as this will undermine community participation and engagement.
+-   民間部門とコミュニティ部門がデータを追加できるようにする手段を提供すること。カタログを地方自治体ではなく、地域のカタログと考えることに価値があると思われる。
+-   データセットの派生物をカタログ化できるようにすることで、データの改善を促進すること。たとえば、誰かが住所をジオコーディングし、それらの結果をすべての人と共有したい場合がある。データセットの単一バージョンのみを許可する場合、これらの改善は隠れたままになる。
+-   他の場所にあなたのデータが表示されることに寛容になること。つまり、コンテンツは関心のあるコミュニティに複製される可能性がある。河川レベルのモニタリングデータを利用可能にした場合、そのデータは水文学者のカタログに表示される場合がある。
+-   公平なアクセスを保証すること。コミュニティの参加と関与を損なうため、役人や在職中の研究者に特権レベルでアクセスできる権限を与えるのは避けるようにする。
 
 ### 市民の皆さんへ
 
-Be willing to create a supplementary catalog for non-official data.
+非公式データの補足カタログを喜んで作成しよう。
 
-It is very rare for governments to associate with unofficial or non-authoritative sources. Officials have often gone to great expense to ensure that there will not be political embarrassment or other harm caused from misuse or overreliance on data.
+政府が非公式または非権威の情報源と協力することは非常にまれである。当局者は、データの誤用や過度の依存によって引き起こされる政治的な困惑やその他の危害がないことを保証するために、しばしば多額の費用を費やしてきた。
 
-Moreover, governments are unlikely to be willing to support activities that mesh their information with information from businesses. Governments are rightfully skeptical of profit motives. Therefore, an independent catalog for community groups, businesses and others may be warranted.
+さらに、政府の情報を企業からの情報と組み合わせる活動を、政府が積極的に支援する可能性は低い。政府は当然のことながら利益を得ようとする動機に懐疑的だ。したがって、コミュニティグループ、企業、その他の独立したカタログが時として必要になる。
