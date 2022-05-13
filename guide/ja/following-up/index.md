@@ -70,46 +70,46 @@ Many blogs have created a large readership in specialised topic areas. It may be
 >
 > > These sites have a tendency to drive significant traffic to interesting material. They are also heavily focused on topic areas.
 
-## Getting folks in a room: Unconferences, Meetups and Barcamps
+## 部屋に仲間を入れる：アンカンファレンス、ミートアップ、バーキャンプ
 
-Face-to-face events can be a very effective way to encourage others to use your data. Reasons that you may consider putting on an event include:
+対面イベントは、他の人にあなたのデータを使用するように促す非常に効果的な方法だ。イベントの開催を検討する理由は次のとおり。
 
--   Finding out more about prospective re-users
--   Finding out more about demand for different datasets
--   Finding out more about how people want to re-use your data
--   Enabling prospective re-users to find out more about what data you have
--   Enabling prospective users to meet each other (e.g. so they can collaborate)
--   Exposing your data to a wider audience (e.g. from blog posts or media coverage that the event may help to generate)
+-   将来の再利用者についてもっとよく知る
+-   さまざまなデータセットの需要について詳しく知る
+-   人々があなたのデータをどのように再利用したいかについてもっと知る
+-   将来の再利用者があなたが持っているデータについてもっと知ることができるようにする
+-   見込みユーザーがお互いに会えるようにする（たとえば、彼らが協力できるようにする）
+-   より多くのオーディエンスにデータを公開する（たとえば、イベントに関するブログ投稿やメディア報道を通じて）
 
-There are also lots of different ways of running events, and different types of events, depending on what aim you want to achieve. As well as more traditional conference models, which will include things like preprepared formal talks, presentations and demonstrations, there are also various kinds of participant driven events, where those who turn up may:
+達成したい目的に応じて、イベントを開催するさまざまな方法や、さまざまな種類のイベントもある。事前に準備された正式な講演、プレゼンテーション、デモンストレーションなどを含むより伝統的な会議モデルに加え、参加者主導のさまざまな種類の出来事もあり、こんな形で現れる。
 
--   Guide or define the agenda for the event
--   Introduce themselves, talk about what they're interested in and what they're working on, on an ad hoc basis
--   Give impromptu micro-short presentations on something they are working on
--   Lead sessions on something they are interested in
+-   イベントの議題を案内または定義する
+-   自己紹介し、彼らが何に興味を持っているのか、何に取り組んでいるのかについて、場当たり的に話す
+-   彼らが取り組んでいることについて、即席でごく短いプレゼンテーションを行う
+-   興味のあることについてセッションをリードする
 
-There is plenty of documentation online about how to run these kinds of events, which you can find by searching for things like: 'unconference', 'barcamp', 'meetup', 'speedgeek', 'lightning talk', and so on. You may also find it worthwhile to contact people who have run these kinds of events in other countries, who will most likely be keen to help you out and to advise you on your event. It may be valuable to partner with another organisation (e.g. a civic society organisation, a news organisation or an educational institution) to broaden your base participants and to increase your exposure.
+こういったイベントを開催する方法については、オンライン上にたくさんのドキュメントがあり、「アンカンファレンス(unconference)」、「バーキャンプ(barcamp)」、「ミートアップ(meetup)」、「スピードギーク(speedgeek)」、「ライトニングトーク(lightningtalk)」などを検索して見つけることができる。また、他の国でこの種のイベントを開催したことのある人に連絡してみてもいい。彼らはあなたを助け、あなたのイベントについてアドバイスすることに熱心なことが多い。別の組織（市民団体、報道機関、教育機関など）と提携して、参加者を増やし、露出を増やしてみるのもいい。
 
-## Making things! Hackdays, prizes and prototypes
+## 何か作る！ハックデー、賞品、プロトタイプ
 
-The structure of these competitions is that a number of datasets are released and programmers then have a short time-frame -running from as little as 48 hours to a few weeks - to develop applications using the data. A prize is then awarded to the best application. Competitions have been held in a number of countries including the UK, the US, Norway, Australia, Spain, Denmark and Finland.
+これらのコンテストの作りは、多数のデータセットがリリースされ、プログラマーが短い時間（48時間から数週間）内にデータを使用してアプリケーションを開発するようになっている。その後、最高のアプリケーションに賞が授与される。コンテストは、英国、米国、ノルウェー、オーストラリア、スペイン、デンマーク、フィンランドを含む多くの国で開催されている。
 
-### Examples for Competitions
+### コンテストの例
 
-**Show us a better way** was the first such competition in the world. It was initiated by the UK Government's "The Power of Information Taskforce" headed by Cabinet Office Minister Tom Watson in March 2008. This competition asked "What would you create with public information?" and was open to programmers from around the world, with a tempting £80,000 prize for the five best applications.
+**Show us a better way**は世界で最初のそういったコンテストだ。これは、2008年3月にトム・ワトソン内閣府大臣が率いる英国政府「情報のパワータスクフォース」によって開始された。このコンテストでは、「公共の情報で何を作成するか」を問い、世界中のプログラマーに門戸を開き、上位5位までのアプリケーションに対して何と80,000ポンドの賞金を与えるものであった。
 
-**Apps for Democracy**, one of the first competitions in the United States, was launched in October 2008 by Vivek Kundra, at the time Chief Technology Officer (CTO) of the District of Columbia (DC) Government. Kundra had developed the groundbreaking DC data catalog, <http://data.octo.dc.gov/>, which included datasets such as real-time crime feeds, school test scores, and poverty indicators. It was at the time the most comprehensive local data catalog in the world. The challenge was to make it useful for citizens, visitors, businesses and government agencies of Washington, DC.
+**Apps for Democracy**は米国で最初に開催されたコンテストの1つであり、2008年10月に、当時のコロンビア特別区（DC）政府の最高技術責任者（CTO）であるVivek Kundra氏によって立ち上げられた。Kundra氏は、リアルタイムの犯罪フィード、学校のテストスコア、貧困指標などのデータセットを含む、画期的なDCデータカタログ、<http://data.octo.dc.gov/>を開発した。当時、世界で最も包括的なローカルデータカタログだった。課題は、ワシントンDCの市民、訪問者、企業、政府機関に役立つようにすることであった。
 
-The creative solution was to create the Apps for Democracy contest. The strategy was to ask people to build applications using the data from the freshly launched data catalog. It included an online submission for applications, many small prizes rather than a few large ones, and several different categories as well as a "People's Choice" prize. The competition was open for 30 days and cost the DC government \$50,000. In return, a total of 47 iPhone, Facebook and web applications were developed with an estimated value in excess of \$2,600,000 for the local economy.
+創造的な解決策は、Apps for Democracyコンテストを開催することだった。その戦略は、新しく立ち上げられたデータカタログのデータを使用してアプリケーションを構築するよう、人々に依頼することだった。これには、アプリケーションのオンライン提出、少しの大きな賞ではなく多くの小さな賞、いくつかの異なるカテゴリ、および「人々が選ぶ」賞が含まれていた。コンテストは30日間の期間が設けられ、DC政府の費用は50,000ドルだった。その見返りとして、合計47のiPhone、Facebook、およびWebアプリケーションが開発されるとともに、地域経済への効果は2,600,000ドルを超えると推定された。
 
-**The Abre Datos (Open Data) Challenge 2010**. Held in Spain in April 2010, this contest invited developers to create open source applications making use of public data in just 48 hours. The competition had 29 teams of participants who developed applications that included a mobile phone programme for accessing traffic information in the Basque Country, and for accessing data on buses and bus stops in Madrid, which won the first and second prizes of €3,000 and €2,000 respectively.
+**Abre Datos（オープンデータ）チャレンジ 2010**。2010年4月にスペインで開催されたこのコンテストでは、開発者を招待して、オープンデータを利用したオープンソースアプリケーションをわずか48時間で作成した。コンテストには29チームが参加し、バスク地方の交通情報にアクセスしたり、マドリードのバスやバス停のデータにアクセスしたりするための携帯電話プログラムを含むアプリケーションを開発し、この2つのアプリケーションはそれぞれ€3,000と€2,000の1等賞と2等賞を獲得した。
 
-**Nettskap 2.0**. In April 2010 the Norwegian Ministry for Government Administration held "Nettskap 2.0". Norwegian developers – companies, public agencies or individuals – were challenged to come up with web-based project ideas in the areas of service development, efficient work processes, and increased democratic participation. The use of government data was explicitly encouraged. Though the application deadline was just a month later, on May 9, the Minister Rigmor Aasrud said the response was "overwhelming". In total 137 applications were received, no less than 90 of which built on the re-use of government data. A total amount of NOK 2.5 million was distributed among the 17 winners; while the total amount applied for by the 137 applications was NOK 28.4 million.
+**Nettskap 2.0**。2010年4月、ノルウェー政府の行政省は「Nettskap 2.0」を開催した。ノルウェーの開発者（企業、公的機関、または個人）は、サービス開発、効率的な作業プロセス、および民主的な参画増加の分野で、Webベースのプロジェクトのアイデアを思い付くように促された。政府データの使用は明確に奨励された。申請の締め切りはわずか1か月後だったが、5月9日、リグモール・アースルド大臣は、回答は「驚くほど」であると述べた。合計137件の申請があり、そのうち90件以上が政府データの再利用に基づいていた。合計250万クローネが17人の受賞者に分配された。一方、申請された137件のアプリケーションによる価値総額は2,840万クローネだった。
 
-**Mashup Australia**. The Australian Government 2.0 Taskforce invited citizens to show why open access to Australian government information would be positive for the country's economy and social development. The contest ran from October 7th to November 13th 2009. The Taskforce released some datasets under an open license and in a range of reusable formats. The 82 applications that were entered into the contest are further evidence of the new and innovative applications which can result from releasing government data on open terms.
+**マッシュアップ オーストラリア**。オーストラリア政府 2.0 タスクフォースは、オーストラリア政府情報へのオープンなアクセスが、なぜ国の経済と社会の発展にプラスになるのかを示すために、市民を招待した。コンテストは2009年10月7日から11月13日まで開催された。タスクフォースは、オープンライセンスの下で、さまざまな再利用可能な形式でいくつかのデータセットをリリースした。コンテストに参加した82のアプリケーションは、政府のデータをオープンな状態で公開した結果として生じうる、新しく革新的なアプリケーションのさらなる証拠である。
 
-### Conferences, Barcamps, Hackdays
+### 会議、バーキャンプ、ハックデイ
 
-One of the more effective ways for Civil Society Organisations (CSOs) to demonstrate to governments the value of opening up their datasets is to show the multiple ways in which the information can be managed to achieve social and economic benefit. CSOs that promote re-use have been instrumental in countries where there have been advances in policy and law to ensure that datasets are both technically and legally open.
+市民社会組織（CSOs、Civil Society Organisations）が政府に対し、データセットを公開することの価値を示すためのより効果的な方法の1つは、社会的および経済的利益を達成するために情報を管理できる複数の方法を示すことだ。再利用を促進するCSOsは、データセットが技術的にも法的にもオープンであることを保証するための政策と法律が進歩した国々で役立ってきた。
 
-The typical activities which are undertaken as part of these initiatives normally include competitions, {term:open government data} conferences, "unconferences", workshops and "hack days". These activities are often organised by the user community with data that has already been published proactively or obtained using access to information requests. In other cases, civil society advocates have worked with progressive public officials to secure new release of datasets that can be used by programmers to create innovative applications.
+これらのイニシアチブの一部として行われる典型的な活動には、通常、コンテスト、{term：open Government data}会議、「アンカンファレンス」、ワークショップ、「ハックデイ」が含まれる。これらの活動は、多くの場合、積極的に公開されているか情報要求へのアクセスを使用して取得されたデータを使用し、ユーザーコミュニティによって運営されている。他のケースでは、市民社会の支持者が進歩的な公務員と協力して、プログラマーが革新的なアプリケーションを作成するために使用できるデータセットの新しいリリースを確保している。
