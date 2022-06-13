@@ -34,21 +34,21 @@ title: データはオープンにした。それからどうする?
 
 ### サードパーティのサイトに投稿する
 
-Many blogs have created a large readership in specialised topic areas. It may be worthwhile adding an article about your initiative on their site. These can be mutually beneficial. You receive more interest and they receive a free blog post in their topic area.
+多くのブログが、専門的な分野で多くの読者を生み出してきた。そういったサイトにあなたの活動についての記事を追加してみてはどうだろうか。お互いにとって利益がある。あなたはより多く注目を浴び、サイトの方はその分野の投稿をタダで増やすことができる。
 
 ### ソーシャルメディアで広めやすくするための方法
 
 職員がソーシャルメディアに入り浸って宣伝するべきだと期待するのは非現実的だ。しかし、テクニカルなユーザーの間でコンテンツを共有しやすくさせるためにできることはいくつかある。そのコツをまとめた。
 
--   Provide unique pages for each piece of content
+-   コンテンツごとに固有のページを提供する
 
 > メッセージを共有するときに、それを受け取った人がより素早くコンテンツにたどり着けるようになる。
 
--   Avoid making people download your press releases
+-   プレスリリースをダウンロードしなくても読めるようにする
 
 > プレスリリース自体はよいことだ。要点をまとめた簡潔なメッセージとなる。しかし、ダウンロードして別のソフトで開かないと読めないようなプレスリリースなら、それを読む人は少なくなるだろう。サーチエンジンに捕捉されにくくなるし、わざわざクリックしてダウンロードしようとする人も少なくなる。
 
--   Consider using an [Open license](http://opendefinition.org/licenses/#content) for your content
+-   [オープンライセンス](http://opendefinition.org/licenses/#content)をコンテンツに適用することを検討する
 
 > コンテンツを共有したいと考える人たちに対して共有可能であることを明示するだけでなく、コンテンツを提供する組織が「オープンであること」について理解しているというメッセージにもなる。そのほうが、オープンデータに賛同する人たちに対してより大きな印象を残せる。プレスリリースにどんな文言を載せるよりも、その効果はずっと大きい。
 
@@ -56,7 +56,7 @@ Many blogs have created a large readership in specialised topic areas. It may be
 
 厳しい財政状況の組織がソーシャルメディアサイトに時間を費やすのは非効率的だ。ソーシャルメディアサイトのフォーラム上で話題を広めるための最も効率的な方法は、ブログに投稿した記事を共有しやすくしておくことだ。そのためには、次のセクションに進む前にこれを読んでおこう。ここで、いくつかの案を示す。
 
--   Discussion fora
+-   ディスカッション・フォーラム
 
 > Twitterは、情報を手早く広めるための選択肢としての地位を確立している。\#opendata タグをつけておけば、すぐに何千人もの目に留まる。
 >
@@ -64,11 +64,11 @@ Many blogs have created a large readership in specialised topic areas. It may be
 >
 > Facebookはごく一般的な人たち向けには優れているが、オープンデータコミュニティの中での認知度はそれほどではない。
 
--   Link aggregators
+-   アグリゲーターにつながる
 
 > ギーク向けのニュースサイトにコンテンツを投稿する。RedditとHacker Newsが、現時点での二大巨頭だ。それには及ばないが、SlashdotやDiggもそれなりに有用なサイトである。
 >
-> > These sites have a tendency to drive significant traffic to interesting material. They are also heavily focused on topic areas.
+> > これらのサイトは、おもしろい投稿に大量のトラフィックを誘導する傾向がある。また、トピックに重点を置いている。
 
 ## 部屋に仲間を入れる：アンカンファレンス、ミートアップ、バーキャンプ
 
