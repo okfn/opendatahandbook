@@ -5,7 +5,7 @@ lang: de
 title: Wieso eigentlich offene Daten?
 ---
 
-{term:Offene Daten}, insbesondere {term:Offene Regierungsdaten}, sind eine umfassende Quelle die zur Zeit fast völlig ungenutzt bleibt. Viele Personen und Organisationen sammeln eine Vielzahl an verschiedenen Datentypen um ihre Aufgaben zu erfüllen. Behörden sind in diesem Zusammenhang besonders bedeutend, sowohl wegen der Quantität und zentralen Verwaltung der Daten, die sie sammeln, als auch weil die meisten Daten des öffentlichen Sektors rechtmäßig öffentliche Daten sind, und deshalb offengelegt und öffentlich zugänglich gemacht werden können und sollten. Warum ist das so wichtig?
+[Offene daten](/glossary/de/terms/open-data/), insbesondere [Offene Regierungsdaten](/glossary/de/terms/open-government/), sind eine umfassende Quelle die zur Zeit fast völlig ungenutzt bleibt. Viele Personen und Organisationen sammeln eine Vielzahl an verschiedenen Datentypen um ihre Aufgaben zu erfüllen. Behörden sind in diesem Zusammenhang besonders bedeutend, sowohl wegen der Quantität und zentralen Verwaltung der Daten, die sie sammeln, als auch weil die meisten Daten des öffentlichen Sektors rechtmäßig öffentliche Daten sind, und deshalb offengelegt und öffentlich zugänglich gemacht werden können und sollten. Warum ist das so wichtig?
 
 Es gibt viele Bereiche in denen offene Daten wertvoll sind, und in denen es bereits Beispiele gibt, wie sie genutzt werden können. Auch gibt es verschiedene Personengruppen und Organisationen, die aus der Verfügbarkeit von offenen Daten Nutzen ziehen können, inklusive den Behörden selbst. Gleichzeitig ist es unmöglich, vorherzusagen, wie und wo genau Werte in der Zukunft geschaffen werden. Es liegt in der Natur von Innovation, daß Entwicklungen an unerwarteten Orten geschehen.
 
