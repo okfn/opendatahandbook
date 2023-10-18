@@ -11,7 +11,15 @@ title: 為何要開放資料?
 
 在很多領域，我們已經可以指出開放政府資料可帶來的新價值。這些領域包含了：
 
--   Transparency and democratic control \* Participation \* Self-empowerment \* Improved or new private products and services \* Innovation \* Improved efficiency of government services \* Improved effectiveness of government services \* Impact measurement of policies \* 透過不同來源的資料的彙整，與巨量資料的分析和模式建立來產生新的知識
+-   透明與民主管理
+-   公眾參與
+-   自我負能
+-   改進或新建私人產品或服務
+-   創新
+-   提升政府服務運作效率
+-   提升政府服務運作效能
+-   政策影響力評估
+-   透過不同來源的資料的彙整，與巨量資料的分析和模式建立來產生新的知識
 
 在這些不同的領域內，我們都可找到成功的實際範例。
 
