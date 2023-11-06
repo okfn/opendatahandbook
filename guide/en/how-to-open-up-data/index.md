@@ -70,15 +70,15 @@ Open data is a growing movement. There are likely to be many people in your area
 
 ## Apply an Open License (Legal Openness)
 
-In most jurisdictions there are intellectual property rights in data that prevent third-parties from using, reusing and redistributing data without explicit permission. Even in places where the existence of rights is uncertain, it is important to apply a license simply for the sake of clarity. Thus, **if you are planning to make your data available you should put a license on it** – and if you want your data to be [open](http://opendefinition.org/) this is even more important.
+In most jurisdictions there are intellectual property rights in data that prevent third-parties from using, reusing and redistributing data without explicit permission. Even in places where the existence of rights is uncertain, it is important to apply a license simply for the sake of clarity. Thus, **if you are planning to make your data available you should put a license on it** – and if you want your data to be [open](https://opendefinition.org/) this is even more important.
 
-What licenses can you use? We recommend that for 'open' data you use one of the licenses conformant with the [Open Definition](open_) and marked as suitable for data. This list (along with instructions for usage) can be found at:
+What licenses can you use? We recommend that for 'open' data you use one of the licenses conformant with the [Open Definition](https://opendefinition.org/) and marked as suitable for data. This list (along with instructions for usage) can be found at:
 
--   <http://opendefinition.org/licenses/>
+-   <https://opendefinition.org/licenses/>
 
 A short 1-page instruction guide to applying an open data license can be found on the Open Data Commons site:
 
--   <http://opendatacommons.org/guide/>
+-   <https://opendatacommons.org/guide/>
 
 ## Make Data Available (Technical Openness)
 
@@ -154,9 +154,9 @@ Access to bulk data ensures that:
 
 Providing data in bulk allows others to use the data beyond its original purposes. For example, it allows it to be converted into a new format, linked with other resources, or versioned and archived in multiple places. While the latest version of the data may be made available via an API, raw data should be made available in bulk at regular intervals.
 
-For example, the [Eurostat statistical service](http://epp.eurostat.ec.europa.eu/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/en/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
+For example, the [Eurostat statistical service](https://ec.europa.eu/eurostat/) has a bulk download facility offering over 4000 data files. It is updated twice a day, offers data in [Tab-separated values](/glossary/en/terms/tab-separated-values/) (TSV) format, and includes documentation about the download facility as well as about the data files.
 
-Another example is the [District of Columbia Data Catalog](http://opendata.dc.gov/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
+Another example is the [District of Columbia Data Catalog](https://opendata.dc.gov/), which allows data to be downloaded in CSV and XLS format in addition to live feeds of the data.
 
 ## Make data discoverable
 
@@ -176,7 +176,7 @@ In addition, there are dozens of specialist catalogs for different sectors and p
 
 As it has emerged, orthodox practice is for a lead agency to create a catalog for the government's data. When establishing a catalog, try to create some structure which allows many departments to easily keep their own information current.
 
-Resist the urge to build the software to support the catalog from scratch. There are free and open source software solutions (such as [CKAN](http://ckan.org/)) which have been adopted by many governments already. As such, investing in another platform may not be needed.
+Resist the urge to build the software to support the catalog from scratch. There are free and open source software solutions (such as [CKAN](https://ckan.org/)) which have been adopted by many governments already. As such, investing in another platform may not be needed.
 
 There are a few things that most open data catalogs miss. Your programme could consider the following:
 
