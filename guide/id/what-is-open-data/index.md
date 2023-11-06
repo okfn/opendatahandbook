@@ -5,34 +5,34 @@ lang: id
 title: Apakah Data Terbuka itu?
 ---
 
-Buku pegangan ini berkisar tentang *data terbuka* tapi sebenarnya apa yang dimaksud dengan hal itu? Khususnya apa yang menjadikan *terbukanya* dari data terbuka, dan jenis data apa yang kita bicarakan?
+Buku pegangan ini berkisar tentang *data terbuka* tapi sebenarnya apa yang dimaksud dengan data terbuka? Khususnya, apa yang menjadikan data terbuka itu *terbuka*, dan data seperti apa yang kita maksud?
 
 ## Apa itu Terbuka?
 
-Buku pegangan ini berkisar tentang data terbuka - tetapi sebenarnya apa yang dimaksud dengan *terbukanya* data? Untuk tujuan kita, data terbuka didefinisikan berdasarkan Definisi Terbuka\_ sebagai:
+Buku pegangan ini berkisar tentang data terbuka - tetapi sebenarnya apa yang dimaksud dengan *terbukanya* suatu data? Untuk tujuan kita di sini, data terbuka didefinisikan berdasarkan Definisi Terbuka\_ sebagai:
 
-*Data terbuka adalah data yang dapat secara bebas digunakan, digunakan ulang dan didistribusi ulang oleh siapapun - hanya patuh, umumnya, pada keharusan untuk menyebutkan siapa penciptanya dan berbagi dengan lisensi yang sama.*
+*Data terbuka adalah data yang dapat secara bebas digunakan, digunakan ulang, dan dibagikan ulang oleh siapapun dan hanya dibatasi, umumnya, pada keharusan untuk menyebutkan siapa penciptanya dan berbagi dengan lisensi yang sama.*
 
-Defini Terbuka selengkapnya\_ memberikan rincian yang tepat apa yang dimaksud artinya. Ringkasannya dari yang paling penting adalah:
+Defini Terbuka selengkapnya\_ memberikan rincian yang lebih lengkap tentang definisi ini. Poin-poin yang paling penting adalah:
 
--   **Ketersediaan dan Akses:** data harus tersedia secara keseluruhan dan tidak lebih dari pada biaya reproduksi yang masuk akal, akan lebih baik bila bisa dilakukan dengan pengunduhan melalui internet. Data harus pula tersedia dalam bentuk yang nyaman dan mudah untuk diolah.
--   **Penggunaan-ulang dan Distribusi ulang:** data harus disediakan di bawah ketentuan yang mengizinkan untuk penggunaan-upang dan pendistribusian ulang termasuk memadukan dengan kumpulan data lainnya.
--   **Partisipasi Universal:** setiap orang harus diperbolehkan untuk menggunakan, menggunakan-ulang dan mendistribusi ulang - tidak boleh ada diskriminasi terhadap bidang kerja atau perseorangan atau kelompok. Sebagai contoh, pembatasan 'non-komersial' yang dapat mencegah pencegahan secara 'komersial', atau pembatasan penggunaan untuk beberapa tujuan tertentu (misalnya hanya untuk pendidikan saja), tidak diperkenankan.
+-   **Ketersediaan dan Akses:** data harus tersedia secara keseluruhan dan dapat diperoleh dengan mengeluarkan biaya yang tidak lebih tinggi dari biaya yang dibutuhkan untuk reproduksi data. Akan lebih baik bila data bisa diperoleh dengan mengunduh dar internet. Data harus pula tersedia dalam bentuk yang nyaman dan mudah untuk diolah.
+-   **Penggunaan-ulang dan Distribusi ulang:** data harus disediakan di bawah ketentuan yang mengizinkan untuk penggunaan-ulang dan pendistribusian ulang termasuk izin untuk menggabungkan data dengan kumpulan data lainnya.
+-   **Partisipasi Universal:** setiap orang harus diperbolehkan untuk dapat menggunakan, menggunakan-ulang, dan membagikan ulangn data. Tidak boleh ada diskriminasi terhadap bidang kerja, perseorangan, atau kelompok. Sebagai contoh, pembatasan 'non-komersial' yang dapat mencegah penggunaan secara 'komersial', atau pembatasan penggunaan untuk beberapa tujuan tertentu (misalnya hanya untuk pendidikan saja) tidak diperkenankan.
 
-Bila anda bertanya-tanya mengapa hal ini sangat penting untuk menjadi jelas tentang apa yang dimaksud dengan terbuka dan mengapa istilah ini digunakan, ada sebuah jawaban sederhananya: **interoperabilitas.**
+Bila Anda bertanya-tanya mengapa menjelaskan apa yang dimaksud dengan terbuka itu sangat penting dan mengapa definisi ini yang digunakan, maka jawaban sederhananya adalah: **interoperabilitas.**
 
-Interoperabilitas menunjukkan ragam kemampuan sistem dan organisasi untuk saling bekerja sama (lintas-operasi). Dalam kasus ini, adalah kemampuan untuk lintas operasi - atau lintas pemaduan - dari kumpulan data-data yang berbeda.
+Interoperabilitas merujuk kepada kemampuan beragam sistem dan organisasi untuk saling bekerja sama (lintas-operasi). Dalam kasus ini, adalah kemampuan untuk berkomunikasi secara lintas operasi atau mencampurkan kumpulan data-data yang berbeda.
 
-Interoperabilitas sangat penting karena ia memungkinkan komponen-komponen yang berbeda untuk bisa bekerja sama. Kemampuan untuk mengkomponenisasi ini dan untuk 'memasang bersama' komponen-komponen sangatlah esensial untuk membangun sistem yang besar dan kompleks. Tanpa interoperabilitas hal ini menjadi tidak mungkin — sebagaimana dalam sejarah dikenal mitos Menara Babel di mana (ber)kemampuan untuk berkomunikasi (lintas operasi) menghasilkan kegagalan penuh dari upaya membangun menara tersebut.
+Interoperabilitas sangat penting karena ia memungkinkan komponen-komponen yang berbeda untuk bisa bekerja sama. Kemampuan untuk membuat komponen ini dan untuk 'memasang bersama' komponen-komponen sangatlah esensial untuk membangun sistem yang besar dan kompleks. Tanpa interoperabilitas hal ini menjadi tidak mungkin. Dalam sejarah dikenal mitos Menara Babel di mana ketidakmampuan untuk berkomunikasi (lintas operasi) menghasilkan kegagalan total dari upaya membangun menara tersebut.
 
-Kami menghadapi situasi yang serupa berkenaan dengan data. Inti dari sebuah "keumuman" data (atau kode) merupakan salah satu bagian dari materi "terbuka" material yang kandungan di dalamnya dapat secara bebas dilintaspadu dengan material "terbuka" lainnya. Interoperabilitas ini merupakan kunci sepenuhnya untuk merealisasikan praktik utama manfaat dari "keterbukaan": Peningkatan dramatis kemampuan untuk mengkombinasikan sekumpulan data berbeda secara bersama-sama sehingga merangsang pengembangan produk dan layanan yang lebih baik (keuntungan-keuntungan ini didiskusikan lebih rinci dalam seksi 'mengapa' data terbuka).
+Kita menghadapi situasi yang serupa berkenaan dengan data. Inti dari sebuah "keumuman" data (atau kode) adalah dimana salah satu bagian dari materi yang "terbuka" di dalamnya dapat secara bebas dilintaspadukan dengan materi "terbuka" lainnya. Interoperabilitas ini merupakan kunci untuk merealisasikan manfaat praktis utama dari "keterbukaan", yaitu peningkatan drastis kemampuan mengkombinasikan sekumpulan data berbeda demi mengembangkan produk dan layanan yang lebih baik (keuntungan-keuntungan ini didiskusikan secara lebih rinci di bagian tentang 'mengapa' data terbuka).
 
-Memberikan definisi yang jelas tentang keterbukaan dapat memastikan bahwa ketika anda mendapatkan dua kumpulan data dari dua sumber berbeda, maka anda akan dapat menggabungkan mereka bersama-sama, dan memastikan bahwa kita *\* menghindari 'menara babel' kita sendiri: banyak kumpulan data yang ada tetapi sedikit ataupun tidak memiliki kemampuan untuk menggabungkan mereka bersama-sama ke dalam sistem yang lebih besar di mana sebenarnya nilai tersebut berada.*\*
+Memberikan definisi yang jelas tentang keterbukaan ini dapat memastikan bahwa ketika Anda mendapatkan dua kumpulan data dari dua sumber yang berbeda, maka Anda dapat secara yakin menggabungkan keduanya. Dengan begitu kita juga dapat memastikan bahwa kita *\* menghindari 'menara babel' kita sendiri: dimana banyak kumpulan data yang ada tetapi tidak ada kemampuan untuk menggabungkan semuanya ke dalam sistem yang lebih besar dimana terdapat nilai yang lebih berharga.*\*
 
 ## Data apa yang Anda Bicarakan?
 
-Para pembaca telah melihat contoh-contoh dari jenis data yang menjadi terbuka atau mungkin akan menjadi terbuka - dan mereka akan melihat lebih banyak mendapat contoh di bawah ini. Bagaimanapun juga, akan menjadi berguna untuk segera menjelaskan macam data apa, atau dapat pula, terbuka - dan, sama-sama penting pula, apa yang tidak akan terbuka.
+Para pembaca telah melihat contoh-contoh dari jenis data yang telah atau akan menjadi terbuka, lebih banyak contoh akan dipaparkan di bawah ini. Bagaimanapun juga, akan sangat berguna untuk menjelaskan lebih dulu data seperti apa yang terbuka, dapat dibuka, dan, yang tak kalah pentingn, data yang tidak akan dibuka.
 
-Titik kuncinya adalah ketika membuka data, fokusnya terletak pada data non-pribadi, yaitu data yang tidak mengandung informasi tentang individu tertentu.
+Kuncinya adalah ketika membuka data, fokusnya terletak pada data non-pribadi, yaitu data yang tidak mengandung informasi tentang individu tertentu.
 
-Begitu pula, untuk beberapa jenis data pemerintah, pembatasan keamanan nasional mungkin diterapkan.
+Begitu pula, untuk beberapa jenis data pemerintah, pembatasan demi keamanan nasional mungkin diterapkan.
