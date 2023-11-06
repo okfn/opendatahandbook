@@ -5,7 +5,7 @@ lang: de
 title: Einleitung
 ---
 
-Wissen Sie genau wieviel von Ihrem Steuergeld für Straßenbeleuchtung oder Krebsforschung ausgegeben wird? Was ist die kürzeste, sicherste und malischste Fahrradroute von Deinem zu Hause zu Deiner Arbeit. Und was ist in der Luft, die Sie auf dem Weg einatmen? Wo in Ihrer Region werden Sie die besten Beschäftigungsmöglichkeiten und die höchste Anzahl von Obstbäumen pro Kopf finden. Wann können Sie Entscheidungen zu Themen, die Sie innerlich bewegen, beeinflussen und mit wem sollten Sie dazu sprechen?
+Wissen Sie genau wieviel von Ihrem Steuergeld für Straßenbeleuchtung oder Krebsforschung ausgegeben wird? Was ist die kürzeste, sicherste und malerischste Fahrradroute von Deinem zu Hause zu Deiner Arbeit. Und was ist in der Luft, die Sie auf dem Weg einatmen? Wo in Ihrer Region werden Sie die besten Beschäftigungsmöglichkeiten und die höchste Anzahl von Obstbäumen pro Kopf finden. Wann können Sie Entscheidungen zu Themen, die Sie innerlich bewegen, beeinflussen und mit wem sollten Sie dazu sprechen?
 
 Neue Technologien ermöglichen es Dienstleistungen anzubieten, die diese Fragen automatisiert beantworten. Viele dieser Daten werden bereits von öffentlichen Institutionen erhoben. Oftmals werden diese Daten aber vor der Öffentlichkeit verborgen, obwohl es eigentlich keine guten Gründe dafür gibt, diese geheim zu halten.
 
