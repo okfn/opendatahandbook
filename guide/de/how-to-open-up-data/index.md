@@ -168,7 +168,7 @@ Am wichtigsten ist es jedoch einen neutralen Platz zu schaffen, der sowohl inter
 
 Es gibt bereits eine Reihe von Werkzeugen im Internet um Daten auffindbar und nutzbar zu machen.
 
-Einer der bekanntesten ist der [DataHub](https://datahub.ckan.io/). Dieser ist ein Katalog für Datensätze aus der ganzen Welt. Die Website ermöglicht es Datensätze zu veröffentlichen und wiederzufinden.
+Einer der bekanntesten ist der [DataHub](https://datahub.ckan.io/ ). Dieser ist ein Katalog für Datensätze aus der ganzen Welt. Die Website ermöglicht es Datensätze zu veröffentlichen und wiederzufinden.
 
 Außerdem gibt es dutzende von spezialisierten Datenkatalogen. Viele wissenschaftliche Communities haben ein Katalogsystem für ihren Bereich eingerichtet, da Daten häufig für die Publikation notwendig sind.
 
@@ -181,7 +181,7 @@ Versuchen Sie nicht, das Rad noch einmal zu erfinden! Es gibt freie und offene S
 Es gibt wenige Dinge, die den meisten Open Data Katalogen fehlen. Ihr Programm sollte folgendes beachten:
 
 -   Eine Schnittstelle für Firmen und Bürger schaffen, um Ihre Daten dem Katalog hinzuzufügen. So entsteht ein regionaler Datenkatalog anstatt eines regionalen Regierungsdatenkatalogs.
--   Die Weiterentwicklung von Daten zu unterstützen, indem Änderungen an den Daten erlaubt werden. So kann z. B. jemand Adressen öffentlicher Ämter in einem Verzeichnis geokodieren und so diese Ämter auf einer Karte darstellen. Wird die Bearbeitung von Daten unterbunden, bleiben solche Verbesserungen aus.
+-   Die Weiterentwicklung von Daten zu unterstützen, indem Änderungen an den Daten erlaubt werden. So kann z. B. jemand Adressen öffentlicher Ämter in einem Verzeichnis geokodieren und so diese Ämter auf einer Karte darstellen. Wird die Bearbeitung von Daten unterbunden, bleiben solche Verbesserungen aus. 
 -   Erheben Sie keinen Einzelveröffentlichungsanspruch. Es ist gut möglich, das Daten die zunächst auf ihrer Plattform eingestellt wurden auch in anderen Katalogen auftauchen. Wasserstandsdaten könnten z. B. in speziellen Katalogen von Hydrologen auftauchen.
 -   Stellen Sie einen gleichberechtigten Zugang sicher. Vergeben Sie keine exklusiven Zugangsrechte für Verwaltungsmitarbeiter oder bekannte Wissenschaftler, da dies zivilgesellschaftlichem Engagement schaden kann.
 
