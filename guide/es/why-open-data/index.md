@@ -11,7 +11,7 @@ Existen muchas áreas donde podemos esperar que los datos abiertos sean valiosos
 
 Ya es posible apuntar a un gran número de áreas donde los gobiernos abiertos están creando valor. Algunas de estas áreas incluyen:
 
-- Transparencia y control democráctico
+- Transparencia y control democrático
 - Participación 
 - Autoempoderamiento
 - Mejoramiento o creación de nuevos productos y servicios 
