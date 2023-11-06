@@ -9,15 +9,15 @@ Ce manuel porte sur les *données ouvertes*, mais de quoi s'agit-il exactement? 
 
 ## Qu'est ce qui est Ouvert?
 
-Ce manuel traite de donnée ouverte mais qu'est-ce exactement qu'une donnée *ouverte*? Dans notre cas les données ouvertes sont définies par l' Open Definition \_:
+Ce manuel traite de donnée ouverte mais qu'est-ce exactement qu'une donnée *ouverte*? Dans notre cas les données ouvertes sont définies par l' Open Definition&nbsp;:
 
 *Une donnée ouverte est une donnée qui peut être librement utilisée, réutilisée et redistribuée par quiconque - sujette seulement, au plus, à une exigence d'attribution et de partage à l'identique.*
 
 La définition complète d'ouvert donne des détails précis quant à ce que celà signifie, mais pour résumé le plus important:
 
--   "**Disponibilité et accès:** Les données doivent être disponible dans leurs ensembles et pour un coût raisonnable de reproduction, de préférence téléchargeable sur internet. Les données doivent êtes aussi disponibles dans un format pratique et sous forme modifiable.
+-   **Disponibilité et accès:** Les données doivent être disponible dans leurs ensembles et pour un coût raisonnable de reproduction, de préférence téléchargeable sur internet. Les données doivent êtes aussi disponibles dans un format pratique et sous forme modifiable.
 -   **Réutilisation et Redistribution** Les données doivent être disponibles sous une license autorisant la réutilisation et la redistribution incluant le croisement avec d'autres ensembles de données.
--   *\* Participation universelle:*\* tout le monde doit être en mesure d'utiliser, de réutiliser et redistribuer - il ne devrait y avoir aucune discimination contre les champs de l'activité ou contre des personnes ou des groupes. Pour exemple, des restrictions 'non-commercial' qui empêcheraient les utilisations 'commercial' ou des restrictions d'utilisation à certaines fins (par exemple seulement dans l'éducation) ne sont pas autorisés.
+-   **Participation universelle:** tout le monde doit être en mesure d'utiliser, de réutiliser et redistribuer - il ne devrait y avoir aucune discimination contre les champs de l'activité ou contre des personnes ou des groupes. Pour exemple, des restrictions 'non-commercial' qui empêcheraient les utilisations 'commercial' ou des restrictions d'utilisation à certaines fins (par exemple seulement dans l'éducation) ne sont pas autorisés.
 
 Si vous vous demandez pourquoi il est si important d'être clair à propos de ce qu'ouvert signifie et pourquoi cette définition est utilisée, il y a une réponse simple: **interopérabilité.**
 
