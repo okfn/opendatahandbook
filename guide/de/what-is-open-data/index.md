@@ -11,7 +11,7 @@ Dieses Handbuch beschreibt *offene Daten*, aber was genau bedeutet das? Insbeson
 
 Dieses Handbuch beschreibt offene Daten - aber was genau sind *offene* Daten? In unserem Zusammenhang sind offene Daten definiert durch die [Open Definition](http://opendefinition.org/):
 
-*offene Daten sind Daten, die von jedermann frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft die Verpflichtung zur Nennung des Urherbers*
+*offene Daten sind Daten, die von jedermann frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft die Verpflichtung zur Nennung des Urhebers*
 
 Die [full Open Definition](http://opendefinition.org/okd/) beschreibt im Detail, was das bedeutet. Die wichtigsten Punkte zusammengefasst:
 
