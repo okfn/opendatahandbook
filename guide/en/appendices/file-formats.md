@@ -17,7 +17,7 @@ XML is a widely used format for data exchange because it gives good opportunitie
 
 ### RDF
 
-A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be stored in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides a convenient way to directly interconnect existing [open data](/glossary/en/terms/open-data/) initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a [fivesstar](http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/) scheme that includes linked RDF data as a goal to be sought for open data initiatives.
+A W3C-recommended format called RDF makes it possible to represent data in a form that makes it easier to combine data from multiple sources. RDF data can be stored in XML and JSON, among other serializations. RDF encourages the use of URLs as identifiers, which provides a convenient way to directly interconnect existing [open data](/glossary/en/terms/open-data/) initiatives on the Web. RDF is still not widespread, but it has been a trend among Open Government initiatives, including the British and Spanish Government Linked Open Data projects. The inventor of the Web, Tim Berners-Lee, has recently proposed a [fivesstar](https://5stardata.info/en/) scheme that includes linked RDF data as a goal to be sought for open data initiatives.
 
 ### Spreadsheets
 
