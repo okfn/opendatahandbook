@@ -5,7 +5,7 @@ lang: es
 title: Introducción
 ---
 
-Tu sabes cuánto del dinero de tus impuesto es destinado en iluminación de las calles o en estudios sobre el cáncer. ¿Cuál es el camino más corto, seguro y pintoresco para ir en bicicleta de tu casa al trabajo? ¿Dónde puedes encontrar la mejor oportunidad laboral y el número más alto de árboles frutales *per capita*? ¿Cuándo puedes influir en decisiones sobre tópicos que te preocupan profundamente, y con quién debes hablarlo?
+¿Tú sabes cuánto del dinero de tus impuesto es destinado en iluminación de las calles o en estudios sobre el cáncer? ¿Cuál es el camino más corto, seguro y pintoresco para ir en bicicleta de tu casa al trabajo? ¿Dónde puedes encontrar la mejor oportunidad laboral y el número más alto de árboles frutales *per capita*? ¿Cuándo puedes influir en decisiones sobre tópicos que te preocupan profundamente, y con quién debes hablarlo?
 
 Ahora, las nuevas tecnologías hacen posible crear servicios para responder estas preguntas automáticamente. Mucha de la información necesaria para responder estas preguntas es generada por organismos públicos. Sin embargo, a menudo los datos requeridos aún no están disponibles en una forma fácil de usar. Este libro es acerca de cómo liberar el potencial de la información oficial y de otro tipo para permitir nuevos servicios, para mejorar las vidas de los ciudadanos y para hacer el trabajo del gobierno y la sociedad mejor.
 
